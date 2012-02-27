@@ -66,7 +66,8 @@ int main( int argc, char ** argv )
 
 	QString message;
 	if (!search_term.isEmpty()) message = "search " + search_term;
-	if (a.sendMessage(message)) {
+	if (a.isRunning()) { 
+		a.sendMessage(message);
 		qDebug("Another instance is running. Exiting.");
 		return 0;
 	}
