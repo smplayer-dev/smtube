@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Control/bg-alert.png</file>
+        <file>Control/bg-download-active.png</file>
+        <file>Control/bg-tabs.png</file>
+        <file>Control/bg-tabs-sep.png</file>
+        <file>Control/bg-youtube-loading-overlay.png</file>
+        <file>Control/bt-download-play.png</file>
+        <file>Control/bt-download.png</file>
+        <file>Control/bt-download-retry.png</file>
+        <file>Control/bt-youtube-next.png</file>
+        <file>Control/bt-youtube-previous.png</file>
+        <file>Control/button-youtube-play-overlay.png</file>
+        <file>Control/sc-hover-background.png</file>
+        <file>Control/yt-duration-bg.png</file>
+        <file>Control/yt-thumb-overlay.png</file>
+        <file>Control/search-icon.png</file>
+        <file>icons/logo.png</file>
+        <file>icons/folder_open.png</file>
+        <file>icons/prefs.png</file>
+        <file>icons/info.png</file>
+        <file>icons/translators.png</file>
+        <file>icons/license.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,14 @@
+Source: smtube
+Section: graphics
+Priority: extra
+Maintainer: Ricardo Villalba <rvm@users.sourceforge.net>
+Build-Depends: debhelper (>= 8.0.0), libqt4-dev
+Standards-Version: 3.9.2
+Homepage: http://smplayer.sourceforge.net/
+
+Package: smtube
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, smplayer (>= 0.7.0)
+Description: YouTube browser for SMPlayer
+ This is a youtube browser for smplayer. You can browse, search, download
+ and play youtube videos. 
