@@ -17,7 +17,7 @@
 */
 
 #include "about.h"
-//#include "version.h"
+#include "version.h"
 
 //#define TRANS_ORIG
 #define TRANS_LIST
@@ -36,7 +36,11 @@ About::About(QWidget * parent, Qt::WindowFlags f)
     info->setHtml(
         "<b>"+ tr("YouTube%1 Browser for SMPlayer").arg(QChar(0x2122)) +"</b>"
         "<p>&copy; 2012 Ricardo Villalba &lt;rvm@users.sourceforge.net&gt;" + 
-        "<br>" + tr("Based on UMPlayer") + " &copy; 2010 Ori Rejwan" "<p>" +
+        "<br>" + tr("Based on UMPlayer") + " &copy; 2010 Ori Rejwan" 
+        "<p><b>" +
+        tr("Version: %1").arg(appVersion()) + "</b><br>" +
+        tr("Compiled with Qt %1 (using %2)").arg(QT_VERSION_STR).arg(qVersion()) + 
+        "<p>" + 
         tr("Visit our web for updates:") +"<br>"+ link("http://smplayer.sf.net")
     );
 
