@@ -216,24 +216,7 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     pixmap_loader = new PixmapLoader;
 
     recording_dialog = new RecordingDialog;
-    QString mdir = QDesktopServices::storageLocation(QDesktopServices::MoviesLocation);
-    if (mdir.isEmpty()) mdir = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation);
-    if (mdir.isEmpty()) mdir = QDesktopServices::storageLocation(QDesktopServices::HomeLocation);
-    if (mdir.isEmpty()) mdir = "/tmp";
-    if (!QFile::exists(mdir)) 
-    {
-        qWarning("YTDialog::YTDialog: folder '%s' does not exist. Using /tmp as fallback", mdir.toUtf8().constData());
-        mdir = "/tmp";
-    }
-    QString default_recording_folder = mdir + "/Youtube";
-    if (!QFile::exists(default_recording_folder)) {
-        qDebug("YTDialog::YTDialog: creating '%s'", default_recording_folder.toUtf8().constData());
-        if (!QDir().mkdir(default_recording_folder))
-        {
-            qWarning("YTDialog::YTDialog: failed to create '%s'", default_recording_folder.toUtf8().constData());
-        }
-    }
-    recording_dialog->setRecordingsDirectory(default_recording_folder);
+    recording_dialog->setRecordingsDirectory("");
     recording_dialog->setRecordingQuality(HD);
     recording_dialog->setRecordingFormat(0);
 
@@ -710,12 +693,34 @@ void YTDialog::showConfigDialog()
 
 void YTDialog::loadConfig() 
 {
+    QString recording_directory;
     if (set) {
         set->beginGroup("general");
-        recording_dialog->setRecordingsDirectory(set->value("recording_directory", recording_dialog->recordingsDirectory()).toString());
+        recording_directory = set->value("recording_directory", recording_dialog->recordingsDirectory()).toString();
         recording_dialog->setRecordingFormat(set->value("recording_format", recording_dialog->recordingFormat()).toInt());
         recording_dialog->setRecordingQuality(set->value("recording_quality", recording_dialog->recordingQuality()).toInt());
         set->endGroup();
+    }
+
+    if (!recording_directory.isEmpty()) {
+        recording_dialog->setRecordingsDirectory(recording_directory);
+    } else {
+        QString mdir = QDesktopServices::storageLocation(QDesktopServices::MoviesLocation);
+        if (mdir.isEmpty()) mdir = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation);
+        if (mdir.isEmpty()) mdir = QDesktopServices::storageLocation(QDesktopServices::HomeLocation);
+        if (mdir.isEmpty()) mdir = "/tmp";
+        if (!QFile::exists(mdir)) {
+            qWarning("YTDialog::loadConfig: folder '%s' does not exist. Using /tmp as fallback", mdir.toUtf8().constData());
+            mdir = "/tmp";
+        }
+        QString default_recording_folder = mdir + "/Youtube";
+        if (!QFile::exists(default_recording_folder)) {
+            qDebug("YTDialog::loadConfig: creating '%s'", default_recording_folder.toUtf8().constData());
+            if (!QDir().mkdir(default_recording_folder)) {
+                qWarning("YTDialog::YTDialog: failed to create '%s'", default_recording_folder.toUtf8().constData());
+            }
+        }
+        recording_dialog->setRecordingsDirectory(default_recording_folder);
     }
 }
 
