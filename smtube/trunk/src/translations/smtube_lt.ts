@@ -327,7 +327,7 @@
         </message>
         <message>
             <source>Most Popular</source>
-            <translation>Populiariamas</translation>
+            <translation>Populiarumas</translation>
         </message>
         <message>
             <source>Most Rated</source>
