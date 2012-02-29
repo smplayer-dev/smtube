@@ -71,33 +71,43 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="115"/>
-        <source>%1 and %2</source>
+        <location filename="../about.cpp" line="99"/>
+        <source>Lithuanian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="116"/>
-        <source>%1, %2 and %3</source>
+        <location filename="../about.cpp" line="100"/>
+        <source>Japanese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
-        <source>%1, %2, %3 and %4</source>
+        <source>%1 and %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
+        <source>%1, %2 and %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="119"/>
+        <source>%1, %2, %3 and %4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="120"/>
         <source>%1, %2, %3, %4 and %5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
-        <location filename="../about.cpp" line="138"/>
+        <location filename="../about.cpp" line="129"/>
+        <location filename="../about.cpp" line="140"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="159"/>
+        <location filename="../about.cpp" line="161"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -371,6 +381,14 @@
     <message>
         <location filename="../recordingdialog.cpp" line="641"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>YTDelegate</name>
+    <message>
+        <location filename="../ytdelegate.cpp" line="114"/>
+        <source>%L1 views</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
