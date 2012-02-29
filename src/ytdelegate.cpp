@@ -111,7 +111,7 @@ void YTDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option, co
     painter->setFont(font);    
     QRect footerRect(PIXWIDTH + 4, ttRect.top(), sz.width() - PIXWIDTH - 8, ttRect.height());
     painter->drawText(footerRect, Qt::AlignVCenter | Qt::AlignLeft, item->date.toString("yyyy-MM-dd"));
-    painter->drawText(footerRect, Qt::AlignVCenter | Qt::AlignRight, QString("%L1 views").arg(item->views));
+    painter->drawText(footerRect, Qt::AlignVCenter | Qt::AlignRight, tr("%L1 views").arg(item->views));
 
     //Description    
     font.setPixelSize(12);
