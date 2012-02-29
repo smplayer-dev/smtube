@@ -53,7 +53,8 @@ FORMS += configdialog.ui about.ui
 TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_en.ts \
                translations/smtube_ru_RU.ts \
-               translations/smtube_lt.ts
+               translations/smtube_lt.ts \
+               translations/smtube_ja.ts
 
 # qtsingleapplication
 SOURCES += qtsingleapplication.cpp qtlocalpeer.cpp
