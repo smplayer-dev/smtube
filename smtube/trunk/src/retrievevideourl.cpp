@@ -35,6 +35,7 @@ void RetrieveVideoUrl::fetchYTVideoPage(QString videoId, QString title)
 {
     QString videoPageUrl = "http://www.youtube.com/watch?v=" + videoId;
     QNetworkRequest req(videoPageUrl);
+    req.setRawHeader("User-Agent", "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)");
     reply = manager->get(req);
     id = videoId;
     m_title = title;
