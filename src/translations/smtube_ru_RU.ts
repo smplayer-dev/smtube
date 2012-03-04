@@ -43,17 +43,17 @@
     <message>
         <location filename="../about.cpp" line="41"/>
         <source>Version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Версия: %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Compiled with Qt %1 (using %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Скомпилировано с Qt %1 (используется %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>Visit our web for updates:</source>
-        <translation>Посетите сайт для обновлений:</translation>
+        <translation>Посетить наш сайт для обновлений:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="91"/>
@@ -73,12 +73,12 @@
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>Lithuanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Литовский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
         <source>Japanese</source>
-        <translation type="unfinished"></translation>
+        <translation>Японский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
@@ -170,17 +170,17 @@
     <message>
         <location filename="../configdialog.cpp" line="127"/>
         <source>Low Quality (226p)</source>
-        <translation>Низкое качество (226p)</translation>
+        <translation>Низкое (226p)</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="127"/>
         <source>Medium Quality (360p)</source>
-        <translation>Обычное качество (360p)</translation>
+        <translation>Обычное (360p)</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="127"/>
         <source>High Quality (480p)</source>
-        <translation>Высокое качество (480p)</translation>
+        <translation>Высокое (480p)</translation>
     </message>
 </context>
 <context>
@@ -390,7 +390,7 @@
     <message>
         <location filename="../ytdelegate.cpp" line="114"/>
         <source>%L1 views</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 просмотров</translation>
     </message>
 </context>
 <context>
@@ -449,7 +449,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="420"/>
         <source>Most popular videos on YouTube%1</source>
-        <translation>Самые популярные видео на YouTube%1</translation>
+        <translation>Популярные сейчас видео на YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="421"/>
@@ -459,7 +459,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="422"/>
         <source>Most viewed videos on YouTube%1</source>
-        <translation>Самые просматриваемые видео на YouTube%1</translation>
+        <translation>Самые популярные видео на YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="536"/>
