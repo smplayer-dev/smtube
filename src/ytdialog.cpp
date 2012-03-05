@@ -653,7 +653,17 @@ void YTDialog::recordItem(QListWidgetItem *item)
 
 void YTDialog::play(QString file) 
 {
-    QProcess::startDetached("smplayer", QStringList() << file);
+    QString exec = qApp->applicationDirPath() + "/smplayer";
+    #ifdef Q_OS_WIN
+    exec += ".exe";
+    #endif
+
+    if (!QFile::exists(exec)) {
+        qDebug("YTDialog::play: command: '%s' doesn't exist", exec.toUtf8().constData());
+        exec = "smplayer";
+    }
+    qDebug("YTDialog::play: command: '%s'", exec.toUtf8().constData());
+    QProcess::startDetached(exec, QStringList() << file);
 }
 
 void YTDialog::handleMessage(const QString& message)
