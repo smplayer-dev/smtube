@@ -31,7 +31,7 @@ FILETYPE            VFT_APP
       VALUE "InternalName", "smtube\000"
       VALUE "LegalCopyright", "Copyright (c) Ricardo Villalba\000"
       VALUE "OriginalFilename", "smtube.exe\000"
-      VALUE "ProductName", "SMPlayer Browser for Youtube™\000"
+      VALUE "ProductName", "Youtube™ Browser for SMPlayer\000"
       VALUE "ProductVersion", VER_PRODUCTVERSION_STR
     }
   }
