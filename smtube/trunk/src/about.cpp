@@ -38,7 +38,11 @@ About::About(QWidget * parent, Qt::WindowFlags f)
         "<p>&copy; 2012 Ricardo Villalba &lt;rvm@users.sourceforge.net&gt;" + 
         "<br>" + tr("Based on UMPlayer") + " &copy; 2010 Ori Rejwan" 
         "<p><b>" +
-        tr("Version: %1").arg(appVersion()) + "</b><br>" +
+        tr("Version: %1").arg(appVersion()) + "</b>"
+#if PORTABLE_APP
+        " (" + tr("Portable Edition") + ")"
+#endif
+        "<br>" +
         tr("Compiled with Qt %1 (using %2)").arg(QT_VERSION_STR).arg(qVersion()) + 
         "<p>" + 
         tr("Visit our web for updates:") +"<br>"+ link("http://smplayer.sf.net")

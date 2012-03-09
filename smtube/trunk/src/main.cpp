@@ -24,10 +24,13 @@
 #include "ytdialog.h"
 
 QString configPath() {
+#ifdef PORTABLE_APP
+    return qApp->applicationDirPath();
+#else
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
     const char * XDG_CONFIG_HOME = getenv("XDG_CONFIG_HOME");
     if (XDG_CONFIG_HOME!=NULL) {
-        qDebug("configPath: XDG_CONFIG_HOME: %s", XDG_CONFIG_HOME);
+        /* qDebug("configPath: XDG_CONFIG_HOME: %s", XDG_CONFIG_HOME); */
         return QString(XDG_CONFIG_HOME) + "/smplayer";
     } 
     else
@@ -35,6 +38,7 @@ QString configPath() {
 #else
     return QDir::homePath() + "/.smplayer";
 #endif
+#endif // PORTABLE_APP
 }
 
 QString translationsPath() {

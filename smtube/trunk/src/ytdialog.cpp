@@ -715,6 +715,9 @@ void YTDialog::loadConfig()
     if (!recording_directory.isEmpty()) {
         recording_dialog->setRecordingsDirectory(recording_directory);
     } else {
+#ifdef PORTABLE_APP
+        recording_dialog->setRecordingsDirectory(qApp->applicationDirPath());
+#else
         QString mdir = QDesktopServices::storageLocation(QDesktopServices::MoviesLocation);
         if (mdir.isEmpty()) mdir = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation);
         if (mdir.isEmpty()) mdir = QDesktopServices::storageLocation(QDesktopServices::HomeLocation);
@@ -731,6 +734,7 @@ void YTDialog::loadConfig()
             }
         }
         recording_dialog->setRecordingsDirectory(default_recording_folder);
+#endif
     }
 }
 
