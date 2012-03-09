@@ -22,12 +22,16 @@ FILETYPE            VFT_APP
     BLOCK "000004b0"
     {
       VALUE "CompanyName", "Ricardo Villalba\000"
+      #ifdef PORTABLE_APP
+      VALUE "FileDescription", "SMTube (Portable Edition)\000"
+      #else
       VALUE "FileDescription", "SMTube\000"
+      #endif
       VALUE "FileVersion", VER_PRODUCTVERSION_STR
       VALUE "InternalName", "smtube\000"
       VALUE "LegalCopyright", "Copyright (c) Ricardo Villalba\000"
       VALUE "OriginalFilename", "smtube.exe\000"
-      VALUE "ProductName", "SMPlayer Youtube Browser\000"
+      VALUE "ProductName", "SMPlayer Browser for Youtube™\000"
       VALUE "ProductVersion", VER_PRODUCTVERSION_STR
     }
   }
