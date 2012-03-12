@@ -167,7 +167,7 @@ void YTDelegate::layoutText(QTextLayout& textLayout, QString text, QSize constra
             QString lastString = text.mid(lastLine.textStart());
             QFontMetrics fm(textLayout.font());
             text.chop(lastString.length());
-            text += fm.elidedText(lastString, Qt::ElideRight, constraint.width());
+            text += fm.elidedText(lastString, Qt::ElideRight, constraint.width()-1);
             textLayout.endLayout();
             layoutText(textLayout, text, constraint);
             return;
