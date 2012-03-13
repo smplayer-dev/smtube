@@ -46,70 +46,80 @@
       <translation>版本: %1</translation>
     </message>
     <message>
-      <location filename="../about.cpp" line="42"/>
+      <location filename="../about.cpp" line="43"/>
+      <source>Portable Edition</source>
+      <translation>便携版</translation>
+    </message>
+    <message>
+      <location filename="../about.cpp" line="46"/>
       <source>Compiled with Qt %1 (using %2)</source>
       <translation>由 Qt %1  编译 (使用 %2)</translation>
     </message>
     <message>
-      <location filename="../about.cpp" line="44"/>
+      <location filename="../about.cpp" line="48"/>
       <source>Visit our web for updates:</source>
       <translation>访问我们的网站获取更新:</translation>
     </message>
     <message>
-      <location filename="../about.cpp" line="91"/>
+      <location filename="../about.cpp" line="95"/>
       <source>The following people have contributed with translations:</source>
       <translation>以下人员为翻译作出贡献:</translation>
     </message>
     <message>
-      <location filename="../about.cpp" line="97"/>
+      <location filename="../about.cpp" line="101"/>
       <source>Spanish</source>
       <translation>西班牙语</translation>
     </message>
     <message>
-      <location filename="../about.cpp" line="98"/>
+      <location filename="../about.cpp" line="102"/>
       <source>Russian</source>
       <translation>俄语</translation>
     </message>
     <message>
-      <location filename="../about.cpp" line="99"/>
+      <location filename="../about.cpp" line="103"/>
       <source>Lithuanian</source>
       <translation>立陶宛语</translation>
     </message>
     <message>
-      <location filename="../about.cpp" line="100"/>
+      <location filename="../about.cpp" line="104"/>
       <source>Japanese</source>
       <translation>日语</translation>
     </message>
     <message>
-      <location filename="../about.cpp" line="117"/>
+      <location filename="../about.cpp" line="105"/>
+      <source>Simplified-Chinese</source>
+      <translation>简体中文</translation>
+    </message>
+    <message>
+      <location filename="../about.cpp" line="122"/>
       <source>%1 and %2</source>
       <translation>%1 和 %2</translation>
     </message>
     <message>
-      <location filename="../about.cpp" line="118"/>
+      <location filename="../about.cpp" line="123"/>
       <source>%1, %2 and %3</source>
       <translation>%1, %2 和 %3</translation>
     </message>
     <message>
-      <location filename="../about.cpp" line="119"/>
+      <location filename="../about.cpp" line="124"/>
       <source>%1, %2, %3 and %4</source>
       <translation>%1, %2, %3 和 %4</translation>
     </message>
     <message>
-      <location filename="../about.cpp" line="120"/>
+      <location filename="../about.cpp" line="125"/>
       <source>%1, %2, %3, %4 and %5</source>
       <translation>%1, %2, %3, %4 和 %5</translation>
     </message>
     <message>
-      <location filename="../about.cpp" line="129"/>
-      <location filename="../about.cpp" line="140"/>
+      <location filename="../about.cpp" line="134"/>
+      <location filename="../about.cpp" line="145"/>
       <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-      <translation>&lt;b>%1&lt;/b>: %2</translation>
+      <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-      <location filename="../about.cpp" line="161"/>
+      <location filename="../about.cpp" line="166"/>
       <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
-      <translation>&lt;b>%1&lt;/b> (%2)</translation>
+      <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
   </context>
   <context>
@@ -334,7 +344,6 @@
       <source>%1% of %n video - Recordings</source>
       <translation>
         <numerusform>%1% / %n 个视频 - 正在录制</numerusform>
-        <numerusform>%1% of %n videos - Recordings</numerusform>
       </translation>
     </message>
     <message>
@@ -468,7 +477,7 @@
     <message>
       <location filename="../ytdialog.cpp" line="425"/>
       <source>YouTube%2 results for &quot;%1&quot;</source>
-      <translation>"%1" 的 YouTube%2 结果</translation>
+      <translation>&quot;%1&quot; 的 YouTube%2 结果</translation>
     </message>
     <message>
       <location filename="../ytdialog.cpp" line="542"/>
@@ -478,7 +487,7 @@
     <message>
       <location filename="../ytdialog.cpp" line="544"/>
       <source>No videos found for &quot;%1&quot;</source>
-      <translation>没有找到关于 "%1" 的视频</translation>
+      <translation>没有找到关于 &quot;%1&quot; 的视频</translation>
     </message>
     <message>
       <location filename="../ytdialog.cpp" line="620"/>
