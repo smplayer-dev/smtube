@@ -63,7 +63,7 @@ QString qtTranslationsPath() {
 
 int main( int argc, char ** argv ) 
 {
-	QtSingleApplication a( argc, argv );
+	QtSingleApplication a("smtube", argc, argv);
 
 	QString search_term;
 	if (argc >= 1) search_term = argv[1];
