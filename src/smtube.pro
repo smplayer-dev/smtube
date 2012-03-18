@@ -55,7 +55,8 @@ TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_ru_RU.ts \
                translations/smtube_lt.ts \
                translations/smtube_ja.ts \
-               translations/smtube_zh_CN.ts
+               translations/smtube_zh_CN.ts \
+               translations/smtube_eu.ts
 
 # qtsingleapplication
 SOURCES += qtsingleapplication.cpp qtlocalpeer.cpp
