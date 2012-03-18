@@ -103,6 +103,7 @@ QString About::getTranslators() {
          trad(tr("Lithuanian"), QString::fromUtf8("Algimantas Margevičius <margevicius.algimantas@gmail.com>")) +
          trad(tr("Japanese"), "Nardog <alphisation@gmail.com>") +
          trad(tr("Simplified-Chinese"), "OpenBDH <opensource@bendihua.org>") +
+         trad(tr("Basque"), "Xabier Aramendi <azpidatziak@gmail.com>") +
 #ifndef TRANS_TABLE
         "</ul>");
 #else
