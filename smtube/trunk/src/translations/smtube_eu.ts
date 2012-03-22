@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="eu">
+<!DOCTYPE TS>
+<TS version="2.0" language="eu">
 <context>
     <name>About</name>
     <message>
@@ -13,6 +14,8 @@
         <translation>&amp;Argibideak</translation>
     </message>
     <message>
+        <location filename="../about.ui" line="53"/>
+        <location filename="../about.ui" line="109"/>
         <location filename="../about.ui" line="165"/>
         <source>icon</source>
         <translation>ikurra</translation>
@@ -43,72 +46,83 @@
         <translation>Bertsioa:%1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="42"/>
+        <location filename="../about.cpp" line="43"/>
+        <source>Portable Edition</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="46"/>
         <source>Compiled with Qt %1 (using %2)</source>
         <translation>Qt%1-rekin Bilduta (%2 erabiliz)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="44"/>
+        <location filename="../about.cpp" line="48"/>
         <source>Visit our web for updates:</source>
         <translation>Ikusi gure webgunea eguneraketentzat:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="91"/>
+        <location filename="../about.cpp" line="95"/>
         <source>The following people have contributed with translations:</source>
         <translation>Hurrengo jendeak lagundu du itzulpenekin:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="97"/>
+        <location filename="../about.cpp" line="101"/>
         <source>Spanish</source>
         <translation>Espainiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="98"/>
+        <location filename="../about.cpp" line="102"/>
         <source>Russian</source>
         <translation>Errusiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
+        <location filename="../about.cpp" line="103"/>
         <source>Lithuanian</source>
         <translation>Lituaniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="100"/>
+        <location filename="../about.cpp" line="104"/>
         <source>Japanese</source>
         <translation>Japoniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="101"/>
+        <location filename="../about.cpp" line="105"/>
+        <source>Simplified-Chinese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="106"/>
         <source>Basque</source>
         <translation>Euskara</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="117"/>
+        <location filename="../about.cpp" line="123"/>
         <source>%1 and %2</source>
         <translation>%1 eta %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="118"/>
+        <location filename="../about.cpp" line="124"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 eta %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="119"/>
+        <location filename="../about.cpp" line="125"/>
         <source>%1, %2, %3 and %4</source>
         <translation>%1, %2, %3 eta %4</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
+        <location filename="../about.cpp" line="126"/>
         <source>%1, %2, %3, %4 and %5</source>
         <translation>%1, %2, %3, %4 eta %5</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="140"/>
+        <location filename="../about.cpp" line="135"/>
+        <location filename="../about.cpp" line="146"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="167"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -136,16 +150,19 @@
         <translation>&amp;Ontasuna</translation>
     </message>
     <message>
+        <location filename="../configdialog.ui" line="59"/>
         <location filename="../configdialog.cpp" line="113"/>
         <source>Normal (360p)</source>
         <translation>Arrunta (360p)</translation>
     </message>
     <message>
+        <location filename="../configdialog.ui" line="64"/>
         <location filename="../configdialog.cpp" line="113"/>
         <source>HD (720p)</source>
         <translation>HD (720p)</translation>
     </message>
     <message>
+        <location filename="../configdialog.ui" line="69"/>
         <location filename="../configdialog.cpp" line="113"/>
         <source>Full HD (1080p)</source>
         <translation>Full HD (1080p)</translation>
@@ -283,6 +300,7 @@
 <context>
     <name>RecordingDialog</name>
     <message>
+        <location filename="../recordingdialog.cpp" line="202"/>
         <location filename="../recordingdialog.cpp" line="415"/>
         <source>Recordings</source>
         <translation>Grabaketak</translation>
@@ -293,21 +311,25 @@
         <translation>&amp;Garbitu zerrenda</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="204"/>
         <location filename="../recordingdialog.cpp" line="544"/>
         <source>&amp;Open folder</source>
         <translation>Ireki &amp;agiritegia</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="285"/>
         <location filename="../recordingdialog.cpp" line="680"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Akats bat gertatu da jeisketa URL gertatzerakoan.</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="285"/>
         <location filename="../recordingdialog.cpp" line="680"/>
         <source>Recording failed</source>
         <translation>Grabaketa hutsegitea</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="303"/>
         <location filename="../recordingdialog.cpp" line="698"/>
         <source>Starting</source>
         <translation>Abiarazten</translation>
@@ -341,6 +363,7 @@
         <translation>&amp;Kendu zerrendatik</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="525"/>
         <location filename="../recordingdialog.cpp" line="547"/>
         <source>Remove from &amp;list</source>
         <translation>Kendu ze&amp;rrendatik</translation>
@@ -422,6 +445,7 @@
         <translation>Berrienak</translation>
     </message>
     <message>
+        <location filename="../ytdialog.cpp" line="397"/>
         <location filename="../ytdialog.cpp" line="405"/>
         <source>Most Viewed</source>
         <translation>Ikusienak</translation>

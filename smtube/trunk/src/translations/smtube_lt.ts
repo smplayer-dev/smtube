@@ -87,6 +87,18 @@
         <source>Japanese</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Portable Edition</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Simplified-Chinese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Basque</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ConfigDialog</name>

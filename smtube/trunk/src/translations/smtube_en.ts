@@ -46,68 +46,83 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="42"/>
+        <location filename="../about.cpp" line="43"/>
+        <source>Portable Edition</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="46"/>
         <source>Compiled with Qt %1 (using %2)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="44"/>
+        <location filename="../about.cpp" line="48"/>
         <source>Visit our web for updates:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="91"/>
+        <location filename="../about.cpp" line="95"/>
         <source>The following people have contributed with translations:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="97"/>
+        <location filename="../about.cpp" line="101"/>
         <source>Spanish</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="98"/>
+        <location filename="../about.cpp" line="102"/>
         <source>Russian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
+        <location filename="../about.cpp" line="103"/>
         <source>Lithuanian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="100"/>
+        <location filename="../about.cpp" line="104"/>
         <source>Japanese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="117"/>
+        <location filename="../about.cpp" line="105"/>
+        <source>Simplified-Chinese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="106"/>
+        <source>Basque</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="123"/>
         <source>%1 and %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="118"/>
+        <location filename="../about.cpp" line="124"/>
         <source>%1, %2 and %3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="119"/>
+        <location filename="../about.cpp" line="125"/>
         <source>%1, %2, %3 and %4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
+        <location filename="../about.cpp" line="126"/>
         <source>%1, %2, %3, %4 and %5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="129"/>
-        <location filename="../about.cpp" line="140"/>
+        <location filename="../about.cpp" line="135"/>
+        <location filename="../about.cpp" line="146"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="167"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation type="unfinished"></translation>
     </message>
