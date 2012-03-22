@@ -19,10 +19,6 @@
 #include "about.h"
 #include "version.h"
 
-//#define TRANS_ORIG
-#define TRANS_LIST
-//#define TRANS_TABLE
-
 About::About(QWidget * parent, Qt::WindowFlags f)
 	: QDialog(parent, f)
 {
@@ -93,22 +89,14 @@ About::~About() {
 QString About::getTranslators() {
 	return QString(
 		 tr("The following people have contributed with translations:") +
-#ifndef TRANS_TABLE
-         "<ul>" +
-#else
-         "<table>" +
-#endif
+         "<p>" + 
          trad(tr("Spanish"), "Ricardo Villalba <rvm@users.sourceforge.net>") +
          trad(tr("Russian"), QString::fromUtf8("Белый Владимир <wiselord1983@gmail.com>")) +
          trad(tr("Lithuanian"), QString::fromUtf8("Algimantas Margevičius <margevicius.algimantas@gmail.com>")) +
          trad(tr("Japanese"), "Nardog <alphisation@gmail.com>") +
          trad(tr("Simplified-Chinese"), "OpenBDH <opensource@bendihua.org>") +
          trad(tr("Basque"), "Xabier Aramendi <azpidatziak@gmail.com>") +
-#ifndef TRANS_TABLE
-        "</ul>");
-#else
-        "</table>");
-#endif
+         "");
 }
 
 QString About::trad(const QString & lang, const QString & author) {
@@ -116,46 +104,13 @@ QString About::trad(const QString & lang, const QString & author) {
 }
 
 QString About::trad(const QString & lang, const QStringList & authors) {
-#ifdef TRANS_ORIG
-	QString s;
-
-	switch (authors.count()) {
-		case 2: s = tr("%1 and %2"); break;
-		case 3: s = tr("%1, %2 and %3"); break;
-		case 4: s = tr("%1, %2, %3 and %4"); break;
-		case 5: s = tr("%1, %2, %3, %4 and %5"); break;
-		default: s = "%1";
-	}
-
-	for (int n = 0; n < authors.count(); n++) {
-		QString author = authors[n];
-		s = s.arg(author.replace("<", "&lt;").replace(">", "&gt;"));
-	}
-
-	return "<li>"+ tr("<b>%1</b>: %2").arg(lang).arg(s) + "</li>";
-#endif
-
-#ifdef TRANS_LIST
-	QString s = "<ul>";;
-	for (int n = 0; n < authors.count(); n++) {
-		QString author = authors[n];
-		s += "<li>"+ author.replace("<", "&lt;").replace(">", "&gt;") + "</li>";
-	}
-	s+= "</ul>";
-
-	return "<li>"+ tr("<b>%1</b>: %2").arg(lang).arg(s) + "</li>";
-#endif
-
-#ifdef TRANS_TABLE
 	QString s;
 	for (int n = 0; n < authors.count(); n++) {
 		QString author = authors[n];
 		s += author.replace("<", "&lt;").replace(">", "&gt;");
 		if (n < (authors.count()-1)) s += "<br>";
 	}
-
-	return QString("<tr><td align=right><b>%1</b></td><td>%2</td></tr>").arg(lang).arg(s);
-#endif
+	return QString("<h3>%1:</h3><h4>%2</h4><hr>").arg(lang).arg(s);
 }
 
 QString About::link(const QString & url, QString name) {
