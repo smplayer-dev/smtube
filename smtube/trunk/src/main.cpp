@@ -31,12 +31,12 @@ QString configPath() {
     const char * XDG_CONFIG_HOME = getenv("XDG_CONFIG_HOME");
     if (XDG_CONFIG_HOME!=NULL) {
         /* qDebug("configPath: XDG_CONFIG_HOME: %s", XDG_CONFIG_HOME); */
-        return QString(XDG_CONFIG_HOME) + "/smplayer";
+        return QString(XDG_CONFIG_HOME) + "/smtube";
     } 
     else
-    return QDir::homePath() + "/.config/smplayer";
+    return QDir::homePath() + "/.config/smtube";
 #else
-    return QDir::homePath() + "/.smplayer";
+    return QDir::homePath() + "/.smtube";
 #endif
 #endif // PORTABLE_APP
 }
@@ -87,7 +87,12 @@ int main( int argc, char ** argv )
 	a.installTranslator(&app_trans);
 	a.installTranslator(&qt_trans);
 
-    QSettings settings(configPath() + "/smtube.ini", QSettings::IniFormat);
+	if (!QFile::exists(configPath())) {
+		qDebug("Creating '%s'", configPath().toUtf8().constData() );
+		QDir().mkpath( configPath() );
+	}
+
+	QSettings settings(configPath() + "/smtube.ini", QSettings::IniFormat);
 
 	YTDialog * yt = new YTDialog(0, &settings);
 	QObject::connect(&a, SIGNAL(messageReceived(const QString&)),
