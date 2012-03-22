@@ -1,5 +1,15 @@
 Version 1.1:
 
+(2012-03-22)
+ * Use its own directory for the config file.
+
+(2012-03-18)
+ * Add the Basque translation.
+
+(2012-03-12)
+ * Fix a crash that may happen if using some of the Ubuntu themes 
+   (Ambiance and Radiance at least).
+
 (2012-03-08)
  * Possibility to build a portable version.
 
