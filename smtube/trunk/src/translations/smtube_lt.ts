@@ -57,23 +57,23 @@
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 ir %2</translation>
+        <translation type="obsolete">%1 ir %2</translation>
     </message>
     <message>
         <source>%1, %2 and %3</source>
-        <translation>%1, %2 ir %3</translation>
+        <translation type="obsolete">%1, %2 ir %3</translation>
     </message>
     <message>
         <source>%1, %2, %3 and %4</source>
-        <translation>%1, %2, %3 ir %4</translation>
+        <translation type="obsolete">%1, %2, %3 ir %4</translation>
     </message>
     <message>
         <source>%1, %2, %3, %4 and %5</source>
-        <translation>%1, %2, %3, %4 ir %5</translation>
+        <translation type="obsolete">%1, %2, %3, %4 ir %5</translation>
     </message>
     <message>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
+        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
@@ -97,6 +97,10 @@
     </message>
     <message>
         <source>Basque</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Portuguese</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
