@@ -182,7 +182,8 @@ public slots:
     void setSearchTerm(QString term);
     void showContextMenu(QPoint point);
     void recordItem(QListWidgetItem* item);
-    void play(QString file);
+    void playVideo(QString file);
+    void playYTUrl(const QMap<int, QString> &qualityMap, QString title, QString id);
 
 protected slots:
     void showConfigDialog();
