@@ -96,6 +96,7 @@ QString About::getTranslators() {
          trad(tr("Japanese"), "Nardog <alphisation@gmail.com>") +
          trad(tr("Simplified-Chinese"), "OpenBDH <opensource@bendihua.org>") +
          trad(tr("Basque"), "Xabier Aramendi <azpidatziak@gmail.com>") +
+         trad(tr("Portuguese"), QString::fromUtf8("Sérgio Marques <smarquespt@gmail.com>")) +
          "");
 }
 
