@@ -281,7 +281,7 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     connect(videoList, SIGNAL(itemDoubleClicked(QListWidgetItem*)), this, SLOT(videoDblClicked(QListWidgetItem*)));
     connect(videoList, SIGNAL(customContextMenuRequested(QPoint)), this, SLOT(showContextMenu(QPoint)));
 
-    connect(recording_dialog, SIGNAL(playFile(QString)), this, SLOT(play(QString)));
+    connect(recording_dialog, SIGNAL(playFile(QString)), this, SLOT(playVideo(QString)));
     /*
     connect(this, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)), 
             this, SLOT(playYTUrl(QMap<int,QString>,QString, QString)));
@@ -604,14 +604,15 @@ void YTDialog::videoClicked(QListWidgetItem *item)
 void YTDialog::videoDblClicked(QListWidgetItem *item)
 {
     SingleVideoItem* svi = item->data(0).value<SingleVideoItem*>();
-    /*
-    RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
-    connect(rvu, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)), this, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)) );
-    connect(rvu, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)), rvu, SLOT(deleteLater()));
-    rvu->fetchYTVideoPage(svi->videoid, svi->header );
-    */
-    QString video = "http://www.youtube.com/watch?v=" + svi->videoid;
-    play(video);
+    if (0) {
+        RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
+        connect(rvu, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)), this, SLOT(playYTUrl(QMap<int,QString>, QString, QString)) );
+        connect(rvu, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)), rvu, SLOT(deleteLater()));
+        rvu->fetchYTVideoPage( svi->videoid, svi->header );
+    } else {
+        QString video = "http://www.youtube.com/watch?v=" + svi->videoid;
+        playVideo(video);
+    }
 }
 
 void YTDialog::showContextMenu(QPoint point)
@@ -651,7 +652,7 @@ void YTDialog::recordItem(QListWidgetItem *item)
     recording_dialog->downloadVideoId(svi->videoid, svi->header, 0);
 }
 
-void YTDialog::play(QString file) 
+void YTDialog::playVideo(QString file) 
 {
     QString exec = qApp->applicationDirPath() + "/smplayer";
     #ifdef Q_OS_WIN
@@ -659,11 +660,31 @@ void YTDialog::play(QString file)
     #endif
 
     if (!QFile::exists(exec)) {
-        qDebug("YTDialog::play: command: '%s' doesn't exist", exec.toUtf8().constData());
+        qDebug("YTDialog::playVideo: command: '%s' doesn't exist", exec.toUtf8().constData());
         exec = "smplayer";
     }
-    qDebug("YTDialog::play: command: '%s'", exec.toUtf8().constData());
+    qDebug("YTDialog::playVideo: command: '%s'", exec.toUtf8().constData());
     QProcess::startDetached(exec, QStringList() << file);
+}
+
+void YTDialog::playYTUrl(const QMap<int, QString> &qualityMap, QString title, QString id)
+{
+    QString url;
+    switch( recording_dialog->recordingQuality() )
+    {
+    case YTDialog::FullHD:
+        url = qualityMap.value(YTDialog::FullHD, QString());
+        if(!url.isNull()) break;
+    case YTDialog::HD:
+        url = qualityMap.value(YTDialog::HD, QString());
+        if(!url.isNull()) break;
+    case YTDialog::Normal:
+        url = qualityMap.value(YTDialog::Normal, QString());
+    }
+
+    qDebug("YTDialog::playYTUrl: title: '%s', url: '%s'", title.toUtf8().constData(), url.toUtf8().constData());
+
+    QProcess::startDetached("mplayer", QStringList() << url << "-title" << title);
 }
 
 void YTDialog::handleMessage(const QString& message)
