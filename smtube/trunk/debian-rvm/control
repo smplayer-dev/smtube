@@ -8,7 +8,7 @@ Homepage: http://smplayer.sourceforge.net/
 
 Package: smtube
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, smplayer (>= 0.7.0)
+Depends: ${shlibs:Depends}, ${misc:Depends}, smplayer (>= 0.7.0) | mplayer
 Description: YouTube browser for SMPlayer
  This is a youtube browser for smplayer. You can browse, search, download
  and play youtube videos. 
