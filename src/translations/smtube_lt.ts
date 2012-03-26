@@ -158,6 +158,14 @@
         <source>High Quality (480p)</source>
         <translation>Aukšta kokybė (480p)</translation>
     </message>
+    <message>
+        <source>Playback</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Player:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DownloadFile</name>

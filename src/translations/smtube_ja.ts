@@ -182,6 +182,16 @@
         <translation>FLV</translation>
     </message>
     <message>
+        <location filename="../configdialog.ui" line="132"/>
+        <source>Playback</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="140"/>
+        <source>&amp;Player:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../configdialog.cpp" line="127"/>
         <source>Low Quality (226p)</source>
         <translation>低品質 (226p)</translation>
