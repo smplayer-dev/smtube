@@ -712,11 +712,14 @@ void YTDialog::showConfigDialog()
     d.setRecordingDirectory(recording_dialog->recordingsDirectory());
     d.setRecordingFormat(recording_dialog->recordingFormat());
     d.setRecordingQuality(recording_dialog->recordingQuality());
+    d.setPlayerNames( players.names() );
+    d.setCurrentPlayer( players.current() );
 
     if (d.exec() == QDialog::Accepted) {
         recording_dialog->setRecordingsDirectory(d.recordingDirectory());
         recording_dialog->setRecordingFormat(d.recordingFormat());
         recording_dialog->setRecordingQuality(d.recordingQuality());
+        players.setCurrent( d.currentPlayer() );
         saveConfig();
     }
 }
@@ -729,6 +732,7 @@ void YTDialog::loadConfig()
         recording_directory = set->value("recording_directory", recording_dialog->recordingsDirectory()).toString();
         recording_dialog->setRecordingFormat(set->value("recording_format", recording_dialog->recordingFormat()).toInt());
         recording_dialog->setRecordingQuality(set->value("recording_quality", recording_dialog->recordingQuality()).toInt());
+        players.setCurrent(set->value("player", players.current()).toInt());
         set->endGroup();
     }
 
@@ -765,6 +769,7 @@ void YTDialog::saveConfig()
         set->setValue("recording_directory", recording_dialog->recordingsDirectory());
         set->setValue("recording_format", recording_dialog->recordingFormat());
         set->setValue("recording_quality", recording_dialog->recordingQuality());
+        set->setValue("player", players.current());
         set->endGroup();
         set->sync();
     }

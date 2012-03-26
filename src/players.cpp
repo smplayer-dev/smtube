@@ -38,5 +38,14 @@ Players::Players() {
 	list.push_back( Player("SMPlayer", "smplayer", true) );
 	list.push_back( Player("MPlayer", "mplayer", false, "-title") );
 
-	current = 0;
+	curr = 0;
 }
+
+QStringList Players::names() {
+	QStringList l;
+	for (int n = 0; n < list.count(); n++) {
+		l << list[n].name();
+	}
+	return l;
+}
+

@@ -142,4 +142,20 @@ int ConfigDialog::recordingFormat()
     return recordFormatCombo->currentIndex();
 }
 
+void ConfigDialog::setPlayerNames(QStringList names)
+{
+    player_combo->clear();
+    player_combo->addItems(names);
+}
+
+void ConfigDialog::setCurrentPlayer(int i)
+{
+    player_combo->setCurrentIndex(i);
+}
+
+int ConfigDialog::currentPlayer()
+{
+    return player_combo->currentIndex();
+}
+
 #include "moc_configdialog.cpp"
