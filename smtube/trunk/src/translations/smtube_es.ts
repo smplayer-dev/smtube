@@ -182,6 +182,16 @@
         <translation>Flv</translation>
     </message>
     <message>
+        <location filename="../configdialog.ui" line="132"/>
+        <source>Playback</source>
+        <translation>Reproducción</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="140"/>
+        <source>&amp;Player:</source>
+        <translation>&amp;Reproductor:</translation>
+    </message>
+    <message>
         <location filename="../configdialog.cpp" line="127"/>
         <source>Low Quality (226p)</source>
         <translatorcomment>Baja Calidad (226p)</translatorcomment>
