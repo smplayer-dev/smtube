@@ -604,7 +604,7 @@ void YTDialog::videoClicked(QListWidgetItem *item)
 void YTDialog::videoDblClicked(QListWidgetItem *item)
 {
     SingleVideoItem* svi = item->data(0).value<SingleVideoItem*>();
-    if (0) {
+    if (!players.currentPlayer().directPlay()) {
         RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
         connect(rvu, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)), this, SLOT(playYTUrl(QMap<int,QString>, QString, QString)) );
         connect(rvu, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)), rvu, SLOT(deleteLater()));
@@ -654,15 +654,7 @@ void YTDialog::recordItem(QListWidgetItem *item)
 
 void YTDialog::playVideo(QString file) 
 {
-    QString exec = qApp->applicationDirPath() + "/smplayer";
-    #ifdef Q_OS_WIN
-    exec += ".exe";
-    #endif
-
-    if (!QFile::exists(exec)) {
-        qDebug("YTDialog::playVideo: command: '%s' doesn't exist", exec.toUtf8().constData());
-        exec = "smplayer";
-    }
+    QString exec = players.currentPlayer().executable();
     qDebug("YTDialog::playVideo: command: '%s'", exec.toUtf8().constData());
     QProcess::startDetached(exec, QStringList() << file);
 }
@@ -684,7 +676,14 @@ void YTDialog::playYTUrl(const QMap<int, QString> &qualityMap, QString title, QS
 
     qDebug("YTDialog::playYTUrl: title: '%s', url: '%s'", title.toUtf8().constData(), url.toUtf8().constData());
 
-    QProcess::startDetached("mplayer", QStringList() << url << "-title" << title);
+    QString exec = players.currentPlayer().executable();
+    qDebug("YTDialog::playYTUrl: command: '%s'", exec.toUtf8().constData());
+    QStringList args;
+    args << url;
+    if (!players.currentPlayer().titleOption().isEmpty()) {
+        args << players.currentPlayer().titleOption() << title;
+    }
+    QProcess::startDetached(exec, args);
 }
 
 void YTDialog::handleMessage(const QString& message)

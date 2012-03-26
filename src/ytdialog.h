@@ -27,6 +27,7 @@
 #include <QPushButton>
 #include <QToolButton>
 #include <QLineEdit>
+#include "players.h"
 
 
 class YTTabBar;
@@ -210,6 +211,7 @@ private:
     QToolButton * infoButton;
 
     QSettings * set;
+    Players players;
 
     void updateNextPrevWidget();
     void reset();
