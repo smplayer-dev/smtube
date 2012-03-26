@@ -20,6 +20,7 @@
 #define PLAYERS_H
 
 #include <QString>
+#include <QStringList>
 #include <QList>
 
 class Player
@@ -56,12 +57,18 @@ public:
 	Players();
 
 	int count() { return list.count(); }
+
+	void setCurrent( int c ) { curr = c; }
+	int current() { return curr; }
+
 	Player item(int i) { return list[i]; }
-	Player currentPlayer() { return list[current]; }
+	Player currentPlayer() { return list[curr]; }
+
+	QStringList names();
 
 protected:
 	QList <Player> list;
-	int current;
+	int curr;
 };
 
 #endif
