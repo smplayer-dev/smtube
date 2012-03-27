@@ -680,8 +680,13 @@ void YTDialog::playYTUrl(const QMap<int, QString> &qualityMap, QString title, QS
     qDebug("YTDialog::playYTUrl: command: '%s'", exec.toUtf8().constData());
     QStringList args;
     args << url;
-    if (!players.currentPlayer().titleOption().isEmpty()) {
-        args << players.currentPlayer().titleOption() << title;
+    QString title_opt = players.currentPlayer().titleOption();
+    if (!title_opt.isEmpty()) {
+        if (title_opt.endsWith(" ")) {
+            args << title_opt.left(title_opt.length()-1) << title;
+        } else {
+            args << title_opt + title;
+        }
     }
     QProcess::startDetached(exec, args);
 }

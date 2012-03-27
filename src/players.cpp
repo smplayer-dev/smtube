@@ -42,7 +42,10 @@ QString Player::executable() {
 
 Players::Players() {
 	list.push_back( Player("SMPlayer", "smplayer", true) );
-	list.push_back( Player("MPlayer", "mplayer", false, "-title") );
+	list.push_back( Player("MPlayer", "mplayer", false, "-title ") );
+	list.push_back( Player("VLC", "vlc", false, "--meta-title=") );
+	list.push_back( Player("Dragon Player", "dragon", false) );
+	list.push_back( Player("Totem", "totem", false) );
 
 	curr = 0;
 }
