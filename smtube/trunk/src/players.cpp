@@ -28,7 +28,13 @@ QString Player::executable() {
 
 	if (!QFile::exists(bin)) {
 		qDebug("Player::exec: command: '%s' doesn't exist", bin.toUtf8().constData());
-		bin = player_bin;
+		bin = "/usr/bin/" + player_bin;
+
+		if (!QFile::exists(bin)) {
+			qDebug("Player::exec: command: '%s' doesn't exist", bin.toUtf8().constData());
+			bin = player_bin;
+		}
+
 	}
 
 	return bin;
@@ -41,11 +47,20 @@ Players::Players() {
 	curr = 0;
 }
 
-QStringList Players::names() {
+QStringList Players::availablePlayers() {
 	QStringList l;
 	for (int n = 0; n < list.count(); n++) {
-		l << list[n].name();
+		if (QFile::exists(list[n].executable())) {
+			l << list[n].name();
+		}
 	}
 	return l;
+}
+
+int Players::findName(QString name) {
+	for (int n = 0; n < list.count(); n++) {
+		if (list[n].name() == name) return n;
+	}
+	return 0;
 }
 
