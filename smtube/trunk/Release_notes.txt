@@ -1,0 +1,8 @@
+Version 1.1.
+
+* (Linux) Possibility to select the player to use: smplayer, mplayer, vlc, 
+  dragon player and totem.
+* Fix a possible crash that may happen on Ubuntu if using the ambiance or 
+  radiance themes.
+* New translations: Basque and Portuguese.
+* (Windows) Possibility to build a portable version.
