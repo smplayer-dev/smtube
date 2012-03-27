@@ -148,14 +148,16 @@ void ConfigDialog::setPlayerNames(QStringList names)
     player_combo->addItems(names);
 }
 
-void ConfigDialog::setCurrentPlayer(int i)
+void ConfigDialog::setPlayer(QString name)
 {
+    int i = player_combo->findText(name);
+    if (i == -1) i = 0;
     player_combo->setCurrentIndex(i);
 }
 
-int ConfigDialog::currentPlayer()
+QString ConfigDialog::player()
 {
-    return player_combo->currentIndex();
+    return player_combo->currentText();
 }
 
 #include "moc_configdialog.cpp"

@@ -64,7 +64,8 @@ public:
 	Player item(int i) { return list[i]; }
 	Player currentPlayer() { return list[curr]; }
 
-	QStringList names();
+	QStringList availablePlayers();
+	int findName(QString name);
 
 protected:
 	QList <Player> list;

@@ -36,13 +36,13 @@ public slots:
     void setRecordingQuality( int quality );
     void setRecordingFormat( int format );
     void setPlayerNames(QStringList names);
-    void setCurrentPlayer(int i);
+    void setPlayer(QString name);
 
 public:
     QString recordingDirectory();
     int recordingQuality();
     int recordingFormat();
-    int currentPlayer();
+    QString player();
 };
 
 #endif

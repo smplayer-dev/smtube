@@ -712,14 +712,14 @@ void YTDialog::showConfigDialog()
     d.setRecordingDirectory(recording_dialog->recordingsDirectory());
     d.setRecordingFormat(recording_dialog->recordingFormat());
     d.setRecordingQuality(recording_dialog->recordingQuality());
-    d.setPlayerNames( players.names() );
-    d.setCurrentPlayer( players.current() );
+    d.setPlayerNames( players.availablePlayers() );
+    d.setPlayer( players.currentPlayer().name() );
 
     if (d.exec() == QDialog::Accepted) {
         recording_dialog->setRecordingsDirectory(d.recordingDirectory());
         recording_dialog->setRecordingFormat(d.recordingFormat());
         recording_dialog->setRecordingQuality(d.recordingQuality());
-        players.setCurrent( d.currentPlayer() );
+        players.setCurrent( players.findName( d.player() ) );
         saveConfig();
     }
 }
