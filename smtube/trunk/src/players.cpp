@@ -19,23 +19,30 @@
 #include "players.h"
 #include <QApplication>
 #include <QFile>
+#include <QFileInfo>
 
-QString Player::executable() {
+QString Player::executable(bool * found) {
+	if (found) *found = true;
+
 	QString bin = qApp->applicationDirPath() + "/" + player_bin;
 	#ifdef Q_OS_WIN
 	bin += ".exe";
 	#endif
 
-	if (!QFile::exists(bin)) {
-		qDebug("Player::exec: command: '%s' doesn't exist", bin.toUtf8().constData());
+#ifndef Q_OS_WIN
+	QFileInfo fi(bin);
+	if (!fi.exists() || !fi.isExecutable() || fi.isDir()) {
+		qDebug("Player::exec: command: '%s' is not a valid executable", bin.toUtf8().constData());
 		bin = "/usr/bin/" + player_bin;
 
-		if (!QFile::exists(bin)) {
-			qDebug("Player::exec: command: '%s' doesn't exist", bin.toUtf8().constData());
+		fi.setFile(bin);
+		if (!fi.exists() || !fi.isExecutable() || fi.isDir()) {
+			qDebug("Player::exec: command: '%s' is not a valid executable", bin.toUtf8().constData());
 			bin = player_bin;
+			if (found) *found = false;
 		}
-
 	}
+#endif
 
 	return bin;
 }
@@ -52,8 +59,10 @@ Players::Players() {
 
 QStringList Players::availablePlayers() {
 	QStringList l;
+	bool found;
 	for (int n = 0; n < list.count(); n++) {
-		if (QFile::exists(list[n].executable())) {
+		QString exec = list[n].executable(&found);
+		if (found) {
 			l << list[n].name();
 		}
 	}

@@ -43,7 +43,7 @@ public:
 	bool directPlay() { return direct_play; }
 	QString titleOption() { return title_opt; }
 
-	QString executable();
+	QString executable(bool * found = 0);
 
 protected:
 	QString player_name, player_bin, title_opt;
