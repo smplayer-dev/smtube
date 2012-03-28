@@ -4,7 +4,7 @@
 #define STRINGIZE(s) STRINGIZE2(s)
 
 #define VERSION_MAJOR               1
-#define VERSION_MINOR               0
+#define VERSION_MINOR               1
 #define VERSION_BUILD               0
 #define VERSION_REVISION            0
 
@@ -21,17 +21,17 @@ FILETYPE            VFT_APP
   {
     BLOCK "000004b0"
     {
-      VALUE "CompanyName", "Ricardo Villalba\000"
+      VALUE "CompanyName", "Ricardo Villalba\0"
       #ifdef PORTABLE_APP
-      VALUE "FileDescription", "SMTube (Portable Edition)\000"
+      VALUE "FileDescription", "SMTube (Portable Edition)\0"
       #else
-      VALUE "FileDescription", "SMTube\000"
+      VALUE "FileDescription", "SMTube\0"
       #endif
       VALUE "FileVersion", VER_PRODUCTVERSION_STR
-      VALUE "InternalName", "smtube\000"
-      VALUE "LegalCopyright", "Copyright (c) Ricardo Villalba\000"
-      VALUE "OriginalFilename", "smtube.exe\000"
-      VALUE "ProductName", "Youtube™ Browser for SMPlayer\000"
+      VALUE "InternalName", "smtube\0"
+      VALUE "LegalCopyright", "Copyright (c) Ricardo Villalba\0"
+      VALUE "OriginalFilename", "smtube.exe\0"
+      VALUE "ProductName", "Youtube™ Browser for SMPlayer\0"
       VALUE "ProductVersion", VER_PRODUCTVERSION_STR
     }
   }
