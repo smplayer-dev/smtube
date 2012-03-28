@@ -28,6 +28,11 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 
     directory_edit->setDialogType(FileChooser::GetDirectory);
     //layout()->setSizeConstraint(QLayout::SetFixedSize);
+
+#ifdef Q_OS_WIN
+    playback_group->hide();
+#endif
+    adjustSize();
 }
 
 ConfigDialog::~ConfigDialog() {

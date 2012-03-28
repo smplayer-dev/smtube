@@ -15,7 +15,7 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QGroupBox" name="groupBox_3">
+    <widget class="QGroupBox" name="recording_group">
      <property name="title">
       <string>Recording</string>
      </property>
@@ -127,7 +127,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="groupBox">
+    <widget class="QGroupBox" name="playback_group">
      <property name="title">
       <string>Playback</string>
      </property>
