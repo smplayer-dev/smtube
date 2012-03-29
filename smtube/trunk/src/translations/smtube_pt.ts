@@ -98,7 +98,7 @@
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>Portuguese</source>
-        <translation type="unfinished"></translation>
+        <translation>Português</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -184,12 +184,12 @@
     <message>
         <location filename="../configdialog.ui" line="132"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Reprodução</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="140"/>
         <source>&amp;Player:</source>
-        <translation type="unfinished"></translation>
+        <translation>Re&amp;produtor:</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="127"/>
