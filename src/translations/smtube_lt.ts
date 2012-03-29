@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0">
+<TS version="2.0" language="lt_LT">
 <context>
     <name>About</name>
     <message>
@@ -81,27 +81,27 @@
     </message>
     <message>
         <source>Lithuanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Lietuvių</translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation type="unfinished"></translation>
+        <translation>Japonų</translation>
     </message>
     <message>
         <source>Portable Edition</source>
-        <translation type="unfinished"></translation>
+        <translation>Nešiojamas leidimas</translation>
     </message>
     <message>
         <source>Simplified-Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Supaprastinta kinų</translation>
     </message>
     <message>
         <source>Basque</source>
-        <translation type="unfinished"></translation>
+        <translation>Baskų</translation>
     </message>
     <message>
         <source>Portuguese</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugalų</translation>
     </message>
 </context>
 <context>
@@ -160,11 +160,11 @@
     </message>
     <message>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Atkūrimas</translation>
     </message>
     <message>
         <source>&amp;Player:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Grotuvas:</translation>
     </message>
 </context>
 <context>
@@ -284,8 +284,10 @@
     </message>
     <message numerus="yes">
         <source>%1% of %n video - Recordings</source>
-        <translation type="unfinished">
-            <numerusform>%1% iš %n video - Įrašymas</numerusform>
+        <translation>
+            <numerusform>%1% iš %n video - Įrašai</numerusform>
+            <numerusform>%1% iš %n video - Įrašai</numerusform>
+            <numerusform>%1% iš %n video - Įrašai</numerusform>
         </translation>
     </message>
     <message>
@@ -329,7 +331,7 @@
     <name>YTDelegate</name>
     <message>
         <source>%L1 views</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 peržiūrų</translation>
     </message>
 </context>
 <context>
