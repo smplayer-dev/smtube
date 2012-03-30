@@ -1,3 +1,9 @@
+smtube (1.1) oneiric; urgency=low
+
+  * New version
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 30 Mar 2012 23:20:27 +0200
+
 smtube (1.0-1) unstable; urgency=low
 
   * Initial release.
