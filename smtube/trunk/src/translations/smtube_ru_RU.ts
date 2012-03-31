@@ -48,7 +48,7 @@
     <message>
         <location filename="../about.cpp" line="39"/>
         <source>Portable Edition</source>
-        <translation type="unfinished"></translation>
+        <translation>Портативный вариант</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
@@ -88,17 +88,17 @@
     <message>
         <location filename="../about.cpp" line="97"/>
         <source>Simplified-Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Упрощённый китайский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="98"/>
         <source>Basque</source>
-        <translation type="unfinished"></translation>
+        <translation>Баскский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>Portuguese</source>
-        <translation type="unfinished"></translation>
+        <translation>Португальский</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -184,12 +184,12 @@
     <message>
         <location filename="../configdialog.ui" line="132"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Воспроизведение</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="140"/>
         <source>&amp;Player:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Проигрыватель:</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="127"/>
