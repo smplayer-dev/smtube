@@ -189,7 +189,7 @@
     <message>
         <location filename="../configdialog.ui" line="140"/>
         <source>&amp;Player:</source>
-        <translation>Re&amp;produtor:</translation>
+        <translation>&amp;Reprodutor:</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="127"/>
@@ -457,7 +457,7 @@
         <location filename="../ytdialog.cpp" line="397"/>
         <location filename="../ytdialog.cpp" line="405"/>
         <source>Most Viewed</source>
-        <translation>Mais visualizações</translation>
+        <translation>Mais vistos</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="401"/>
@@ -467,7 +467,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="409"/>
         <source>Most Rated</source>
-        <translation>Vídeos com melhor avaliação</translation>
+        <translation>Melhor avaliação</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="420"/>
@@ -482,7 +482,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="422"/>
         <source>Most viewed videos on YouTube%1</source>
-        <translation>Vídeos com mais visualizações no YouTube %1</translation>
+        <translation>Vídeos mais vistos no YouTube %1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="536"/>
