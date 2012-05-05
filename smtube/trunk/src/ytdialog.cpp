@@ -507,6 +507,8 @@ void YTDialog::updateNextPrevWidget()
         prevButton->hide();
     else
         prevButton->show();
+
+    videoList->scrollToItem(videoList->item(0), QAbstractItemView::EnsureVisible);
 }
 
 void YTDialog::gotAPIReply(const YTReply& formattedReply)
