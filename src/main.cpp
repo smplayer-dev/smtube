@@ -64,6 +64,7 @@ QString qtTranslationsPath() {
 int main( int argc, char ** argv ) 
 {
 	QtSingleApplication a("smtube", argc, argv);
+	a.setWheelScrollLines(1);
 
 	QString search_term;
 	if (argc >= 1) search_term = argv[1];
