@@ -102,7 +102,17 @@
         <translation type="unfinished">Portugál</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="123"/>
+        <location filename="../about.cpp" line="100"/>
+        <source>Hungarian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="101"/>
+        <source>Polish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="125"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -131,19 +141,19 @@
     </message>
     <message>
         <location filename="../configdialog.ui" line="59"/>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>Normal (360p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="64"/>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>HD (720p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="69"/>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>Full HD (1080p)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -173,17 +183,17 @@
         <translation type="unfinished">&amp;Lejátszó:</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>Low Quality (226p)</source>
         <translation type="unfinished">Alacsony minőség (226p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>Medium Quality (360p)</source>
         <translation type="unfinished">Közepes minőség (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>High Quality (480p)</source>
         <translation type="unfinished">Magas minőség (480p)</translation>
     </message>
@@ -466,7 +476,7 @@
         <translation type="unfinished">Legnézettebb videók a YouTube-on%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="536"/>
+        <location filename="../ytdialog.cpp" line="538"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation type="unfinished">Hiba: Nem sikerült csatlakozni a Youtube szerveréhez.</translation>
     </message>
@@ -476,32 +486,32 @@
         <translation type="unfinished">YouTube%2 videótalálatok: &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="542"/>
+        <location filename="../ytdialog.cpp" line="544"/>
         <source>No videos found</source>
         <translation type="unfinished">Nincs videótalálat</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="544"/>
+        <location filename="../ytdialog.cpp" line="546"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation type="unfinished">Nincs videotalálat a következő keresésre: &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="621"/>
+        <location filename="../ytdialog.cpp" line="623"/>
         <source>&amp;Play video</source>
         <translation type="unfinished">&amp;Videó lejátszása</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="622"/>
+        <location filename="../ytdialog.cpp" line="624"/>
         <source>&amp;Record video</source>
         <translation type="unfinished">&amp;Videó rögzítése</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="623"/>
+        <location filename="../ytdialog.cpp" line="625"/>
         <source>&amp;Watch on YouTube</source>
         <translation type="unfinished">&amp;Megtekintés a YouTube-on</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="624"/>
+        <location filename="../ytdialog.cpp" line="626"/>
         <source>&amp;Copy link</source>
         <translation type="unfinished">&amp;Hivatkozás másolása</translation>
     </message>

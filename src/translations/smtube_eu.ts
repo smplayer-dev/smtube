@@ -101,6 +101,16 @@
         <translation>Portugalera</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="100"/>
+        <source>Hungarian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="101"/>
+        <source>Polish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>%1 and %2</source>
         <translation type="obsolete">%1 eta %2</translation>
     </message>
@@ -121,7 +131,7 @@
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="123"/>
+        <location filename="../about.cpp" line="125"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -150,19 +160,19 @@
     </message>
     <message>
         <location filename="../configdialog.ui" line="59"/>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>Normal (360p)</source>
         <translation>Arrunta (360p)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="64"/>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>HD (720p)</source>
         <translation>HD (720p)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="69"/>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>Full HD (1080p)</source>
         <translation>Full HD (1080p)</translation>
     </message>
@@ -192,17 +202,17 @@
         <translation>&amp;Irakurgailua</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>Low Quality (226p)</source>
         <translation>Ontasun Apala (226p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>Medium Quality (360p)</source>
         <translation>Ontasun Ertaina (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>High Quality (480p)</source>
         <translation>Ontasun Handia (480p)</translation>
     </message>
@@ -485,7 +495,7 @@
         <translation>Bideo ikusienak YouTube%1-ean</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="536"/>
+        <location filename="../ytdialog.cpp" line="538"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Akatsa: Ezinezkoa YouTube zerbitzariarekin elkarketatzea.</translation>
     </message>
@@ -495,32 +505,32 @@
         <translation>YouTube%2 emaitz &quot;%1&quot;-rako</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="542"/>
+        <location filename="../ytdialog.cpp" line="544"/>
         <source>No videos found</source>
         <translation>Ez da bideorik aurkitu</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="544"/>
+        <location filename="../ytdialog.cpp" line="546"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Ez da bideorik aurkitu &quot;%1&quot;-rako</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="621"/>
+        <location filename="../ytdialog.cpp" line="623"/>
         <source>&amp;Play video</source>
         <translation>&amp;Irakurri bideoa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="622"/>
+        <location filename="../ytdialog.cpp" line="624"/>
         <source>&amp;Record video</source>
         <translation>&amp;Grabatu bideoa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="623"/>
+        <location filename="../ytdialog.cpp" line="625"/>
         <source>&amp;Watch on YouTube</source>
         <translation>Ikusi &amp;YouTuben</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="624"/>
+        <location filename="../ytdialog.cpp" line="626"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Kopitatu lotura</translation>
     </message>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="en_US">
+<!DOCTYPE TS>
+<TS version="2.0" language="en_US">
 <context>
     <name>About</name>
     <message>
@@ -13,6 +14,8 @@
         <translation>情報(&amp;I)</translation>
     </message>
     <message>
+        <location filename="../about.ui" line="53"/>
+        <location filename="../about.ui" line="109"/>
         <location filename="../about.ui" line="165"/>
         <source>icon</source>
         <translation>icon</translation>
@@ -98,32 +101,37 @@
         <translation>ポルトガル語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
+        <location filename="../about.cpp" line="100"/>
+        <source>Hungarian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="101"/>
+        <source>Polish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>%1 and %2</source>
         <translation type="obsolete">%1 および %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
         <source>%1, %2 and %3</source>
         <translation type="obsolete">%1、%2 および %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
         <source>%1, %2, %3 and %4</source>
         <translation type="obsolete">%1、%2、%3 および %4</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
         <source>%1, %2, %3, %4 and %5</source>
         <translation type="obsolete">%1、%2、%3、%4 および %5</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="123"/>
+        <location filename="../about.cpp" line="125"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -151,17 +159,20 @@
         <translation>品質(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.ui" line="59"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>Normal (360p)</source>
         <translation>通常 (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.ui" line="64"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>HD (720p)</source>
         <translation>HD (720p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.ui" line="69"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>Full HD (1080p)</source>
         <translation>フル HD (1080p)</translation>
     </message>
@@ -191,17 +202,17 @@
         <translation>プレーヤー(&amp;P):</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>Low Quality (226p)</source>
         <translation>低品質 (226p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>Medium Quality (360p)</source>
         <translation>中品質 (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>High Quality (480p)</source>
         <translation>高品質 (480p)</translation>
     </message>
@@ -308,6 +319,7 @@
 <context>
     <name>RecordingDialog</name>
     <message>
+        <location filename="../recordingdialog.cpp" line="202"/>
         <location filename="../recordingdialog.cpp" line="415"/>
         <source>Recordings</source>
         <translation>録画</translation>
@@ -318,21 +330,25 @@
         <translation>一覧のクリア(&amp;C)</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="204"/>
         <location filename="../recordingdialog.cpp" line="544"/>
         <source>&amp;Open folder</source>
         <translation>フォルダーを開く(&amp;O)</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="285"/>
         <location filename="../recordingdialog.cpp" line="680"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>ダウンロード URL の取得でエラーがありました。</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="285"/>
         <location filename="../recordingdialog.cpp" line="680"/>
         <source>Recording failed</source>
         <translation>録画が失敗しました</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="303"/>
         <location filename="../recordingdialog.cpp" line="698"/>
         <source>Starting</source>
         <translation>開始しています</translation>
@@ -366,6 +382,7 @@
         <translation>一覧から削除(&amp;R)</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="525"/>
         <location filename="../recordingdialog.cpp" line="547"/>
         <source>Remove from &amp;list</source>
         <translation>一覧から削除(&amp;L)</translation>
@@ -447,6 +464,7 @@
         <translation>最新の動画</translation>
     </message>
     <message>
+        <location filename="../ytdialog.cpp" line="397"/>
         <location filename="../ytdialog.cpp" line="405"/>
         <source>Most Viewed</source>
         <translation>再生回数の多い動画</translation>
@@ -477,7 +495,7 @@
         <translation>YouTube%1 の再生回数の多い動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="536"/>
+        <location filename="../ytdialog.cpp" line="538"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>エラー: YouTube サーバーへ接続できませんでした。</translation>
     </message>
@@ -487,32 +505,32 @@
         <translation>&quot;%1&quot; の YouTube%2 での検索結果</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="542"/>
+        <location filename="../ytdialog.cpp" line="544"/>
         <source>No videos found</source>
         <translation>動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="544"/>
+        <location filename="../ytdialog.cpp" line="546"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; に一致する動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="621"/>
+        <location filename="../ytdialog.cpp" line="623"/>
         <source>&amp;Play video</source>
         <translation>動画を再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="622"/>
+        <location filename="../ytdialog.cpp" line="624"/>
         <source>&amp;Record video</source>
         <translation>動画を録画(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="623"/>
+        <location filename="../ytdialog.cpp" line="625"/>
         <source>&amp;Watch on YouTube</source>
         <translation>YouTube で見る(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="624"/>
+        <location filename="../ytdialog.cpp" line="626"/>
         <source>&amp;Copy link</source>
         <translation>リンクのコピー(&amp;C)</translation>
     </message>

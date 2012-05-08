@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.0" language="pl_PL">
 <context>
@@ -95,13 +95,23 @@
         <source>Basque</source>
         <translation>Baskijski</translation>
     </message>
-        <message>
+    <message>
         <location filename="../about.cpp" line="99"/>
         <source>Portuguese</source>
         <translation>Portugalski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="123"/>
+        <location filename="../about.cpp" line="100"/>
+        <source>Hungarian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="101"/>
+        <source>Polish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="125"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -130,19 +140,19 @@
     </message>
     <message>
         <location filename="../configdialog.ui" line="59"/>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>Normal (360p)</source>
         <translation>Standard (360)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="64"/>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>HD (720p)</source>
         <translation>HD (720p)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="69"/>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>Full HD (1080p)</source>
         <translation>Full HD (1080p)</translation>
     </message>
@@ -172,17 +182,17 @@
         <translation>&amp;Odtwarzacz</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>Low Quality (226p)</source>
         <translation>NIska (226p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>Medium Quality (360p)</source>
         <translation>Średnia (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>High Quality (480p)</source>
         <translation>Wysoka (480p)</translation>
     </message>
@@ -195,14 +205,18 @@
         <translation>%1 godz.</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="121"/>
         <source>%1 mintes</source>
-        <translation>%1 mint</translation>
+        <translation type="obsolete">%1 mint</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="108"/>
         <source>unknown time remaining</source>
         <translation>nieznany czas zakończenia</translation>
+    </message>
+    <message>
+        <location filename="../downloadfile.cpp" line="121"/>
+        <source>%1 minutes</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="124"/>
@@ -339,6 +353,7 @@
         <translation>
             <numerusform>%1% z %n video - Zapisane</numerusform>
             <numerusform>%1% z %n video - Zapisane</numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -465,7 +480,7 @@
         <translation>Oglądane video na YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="536"/>
+        <location filename="../ytdialog.cpp" line="538"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Błąd: Brak połączenia z serwerem YouTube</translation>
     </message>
@@ -475,32 +490,32 @@
         <translation>YouTube%2 rezultaty dla &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="542"/>
+        <location filename="../ytdialog.cpp" line="544"/>
         <source>No videos found</source>
         <translation>Nie znaleziono video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="544"/>
+        <location filename="../ytdialog.cpp" line="546"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Nie znaleziono video dla &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="621"/>
+        <location filename="../ytdialog.cpp" line="623"/>
         <source>&amp;Play video</source>
         <translation>&amp;Odtwarzaj video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="622"/>
+        <location filename="../ytdialog.cpp" line="624"/>
         <source>&amp;Record video</source>
         <translation>&amp;Zapisz video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="623"/>
+        <location filename="../ytdialog.cpp" line="625"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Oglądaj na YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="624"/>
+        <location filename="../ytdialog.cpp" line="626"/>
         <source>&amp;Copy link</source>
         <translation>K&amp;opiuj link</translation>
     </message>
