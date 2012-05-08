@@ -101,6 +101,16 @@
         <translation>Portugués</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="100"/>
+        <source>Hungarian</source>
+        <translation>Húngaro</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="101"/>
+        <source>Polish</source>
+        <translation>Polaco</translation>
+    </message>
+    <message>
         <source>%1 and %2</source>
         <translation type="obsolete">%1y %2</translation>
     </message>
@@ -121,7 +131,7 @@
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="123"/>
+        <location filename="../about.cpp" line="125"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -150,19 +160,19 @@
     </message>
     <message>
         <location filename="../configdialog.ui" line="59"/>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>Normal (360p)</source>
         <translation>Normal (360p)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="64"/>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>HD (720p)</source>
         <translation>HD (720p)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="69"/>
-        <location filename="../configdialog.cpp" line="113"/>
+        <location filename="../configdialog.cpp" line="118"/>
         <source>Full HD (1080p)</source>
         <translation>Full HD (1080p)</translation>
     </message>
@@ -192,18 +202,18 @@
         <translation>&amp;Reproductor:</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>Low Quality (226p)</source>
         <translatorcomment>Baja Calidad (226p)</translatorcomment>
         <translation></translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>Medium Quality (360p)</source>
         <translation>Calidad Media (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="127"/>
+        <location filename="../configdialog.cpp" line="132"/>
         <source>High Quality (480p)</source>
         <translation>Alta Calidad (480p)</translation>
     </message>
@@ -486,7 +496,7 @@
         <translation>Vídeos más vistos en  YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="536"/>
+        <location filename="../ytdialog.cpp" line="538"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Error: No se puede conectar al servidor de Youtube.</translation>
     </message>
@@ -496,32 +506,32 @@
         <translation>YouTube%2 resultados de &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="542"/>
+        <location filename="../ytdialog.cpp" line="544"/>
         <source>No videos found</source>
         <translation>No se han encontrado vídeos</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="544"/>
+        <location filename="../ytdialog.cpp" line="546"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>No se han encontrado vídeos para &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="621"/>
+        <location filename="../ytdialog.cpp" line="623"/>
         <source>&amp;Play video</source>
         <translation>&amp;Reproducir vídeo</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="622"/>
+        <location filename="../ytdialog.cpp" line="624"/>
         <source>&amp;Record video</source>
         <translation>&amp;Grabar vídeo</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="623"/>
+        <location filename="../ytdialog.cpp" line="625"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Ver en  YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="624"/>
+        <location filename="../ytdialog.cpp" line="626"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Copiar enlace</translation>
     </message>
