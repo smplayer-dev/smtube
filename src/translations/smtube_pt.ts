@@ -103,12 +103,12 @@
     <message>
         <location filename="../about.cpp" line="100"/>
         <source>Hungarian</source>
-        <translation type="unfinished"></translation>
+        <translation>Húngaro</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="101"/>
         <source>Polish</source>
-        <translation type="unfinished"></translation>
+        <translation>Polaco</translation>
     </message>
     <message>
         <source>%1 and %2</source>
