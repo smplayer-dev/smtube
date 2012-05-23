@@ -105,11 +105,11 @@
     </message>
     <message>
         <source>Hungarian</source>
-        <translation type="unfinished"></translation>
+        <translation>Bulgarų</translation>
     </message>
     <message>
         <source>Polish</source>
-        <translation type="unfinished"></translation>
+        <translation>Lenkų</translation>
     </message>
 </context>
 <context>
