@@ -288,6 +288,8 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     */
 
     loadConfig();
+
+    searchBox->setFocus();
 }
 
 YTDialog::~YTDialog() 
