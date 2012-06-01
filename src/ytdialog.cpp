@@ -513,6 +513,8 @@ void YTDialog::updateNextPrevWidget()
 
 void YTDialog::gotAPIReply(const YTReply& formattedReply)
 {    
+    bool error = false;
+
     if(resultForTab.contains(formattedReply.replyPointer))
     {        
         Tabs tab = resultForTab.value(formattedReply.replyPointer);            
@@ -540,15 +542,18 @@ void YTDialog::gotAPIReply(const YTReply& formattedReply)
         }
         if(formattedReply.results.count() == 0)
         {
+            error = true;
+
             if(searchTerm.isEmpty())
-                overlay->setText(tr("No videos found"));
+                showErrorDialog(tr("No videos found"));
             else
-                overlay->setText(tr("No videos found for \"%1\"").arg(searchTerm));
-            return;
+                showErrorDialog(tr("No videos found for \"%1\"").arg(searchTerm));
         }
 
     }
     setLoadingOverlay(false);
+
+    if (error) setMode(YTDialog::Button);
 }
 
 void YTDialog::gotPixmap(QPixmap pix, int id)
@@ -703,6 +708,11 @@ void YTDialog::handleMessage(const QString& message)
         qDebug("YTDialog::handleMessage: search_term: '%s'", search_term.toUtf8().constData());
         setSearchTerm(search_term);
     }
+}
+
+void YTDialog::showErrorDialog(const QString & error) 
+{
+    QMessageBox::warning(this, tr("Error"), error);
 }
 
 void YTDialog::showAboutDialog() 

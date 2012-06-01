@@ -189,6 +189,7 @@ public slots:
 protected slots:
     void showConfigDialog();
     void showAboutDialog();
+    void showErrorDialog(const QString & error);
 
 private:
     YTTabBar* tabBar;
