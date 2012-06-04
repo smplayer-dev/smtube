@@ -1,3 +1,22 @@
+Version 1.2:
+
+(2012-06-04)
+ * Add gnome-mplayer to the list of players.
+
+(2012-06-01)
+
+ * If a search fails (nothing found): display a box showing the error and then
+   fall back to the most popular videos.
+
+(2012-05-05)
+ * Move to top of the page after changing the page.
+ * Scroll only 1 line with the mouse wheel.
+
+(2012-04-13)
+
+* Hungarian translation.
+
+
 Version 1.1:
 
 (2012-03-27)
