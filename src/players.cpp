@@ -53,6 +53,7 @@ Players::Players() {
 	list.push_back( Player("VLC", "vlc", false, "--meta-title=") );
 	list.push_back( Player("Dragon Player", "dragon", false) );
 	list.push_back( Player("Totem", "totem", false) );
+	list.push_back( Player("GNOME-MPlayer", "gnome-mplayer", false) );
 
 	curr = 0;
 }
