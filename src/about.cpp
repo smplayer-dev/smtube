@@ -35,7 +35,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
         "<p>&copy; 2012 Ricardo Villalba &lt;rvm@users.sourceforge.net&gt;" + 
         "<br>" + tr("Based on UMPlayer") + " &copy; 2010 Ori Rejwan" 
         "<p><b>" +
-        tr("Version: %1").arg(appVersion()) + "</b>"
+        tr("Version: %1").arg(smtubeVersion()) + "</b>"
 #if PORTABLE_APP
         " (" + tr("Portable Edition") + ")"
 #endif
