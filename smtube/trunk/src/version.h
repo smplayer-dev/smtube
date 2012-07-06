@@ -21,7 +21,7 @@
 
 #include <QString>
 
-QString appVersion();
+QString smtubeVersion();
 
 #endif
 

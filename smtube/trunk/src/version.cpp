@@ -26,7 +26,7 @@
 #include "svn_revision.h"
 #endif
 
-QString appVersion() {
+QString smtubeVersion() {
 #if USE_SVN_VERSIONS
 	return QString(QString(VERSION) + "+" + QString(SVN_REVISION));
 #else
