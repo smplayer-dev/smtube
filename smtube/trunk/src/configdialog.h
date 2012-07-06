@@ -1,4 +1,4 @@
-/*  smtube - a small youtube browser
+/*  smtube, a small youtube browser.
     Copyright (C) 2012 Ricardo Villalba <rvm@users.sourceforge.net>
 
     This program is free software; you can redistribute it and/or modify

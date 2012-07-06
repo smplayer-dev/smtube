@@ -1,4 +1,5 @@
-/*  umplayer, GUI front-end for mplayer.
+/*  smtube, a small youtube browser.
+    Copyright (C) 2012 Ricardo Villalba <rvm@users.sourceforge.net>
     Copyright (C) 2010 Ori Rejwan
 
     This program is free software; you can redistribute it and/or modify
@@ -22,7 +23,6 @@
 #include <QStyledItemDelegate>
 #include <QDate>
 #include <QTextLayout>
-
 
 class SingleVideoItem
 {
@@ -76,7 +76,6 @@ private:
     QPixmap hoverBackground;
     QPixmap durationBackground;
     inline QColor cr(QColor color, bool white) const { return white ? Qt::white : color ;}
-
 
 };
 
