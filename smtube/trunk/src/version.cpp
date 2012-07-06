@@ -18,7 +18,7 @@
 
 #include "version.h"
 
-#define USE_SVN_VERSIONS 1
+#define USE_SVN_VERSIONS 0
 
 #define VERSION "1.1"
 
@@ -26,10 +26,26 @@
 #include "svn_revision.h"
 #endif
 
+#ifdef Q_OS_WIN
+#if defined( _WIN64 )
+#define SMTWIN_ARCH "(64-bit)"
+#elif defined( _WIN32 )
+#define SMTWIN_ARCH "(32-bit)"
+#endif
+#endif
+
 QString smtubeVersion() {
 #if USE_SVN_VERSIONS
-	return QString(QString(VERSION) + "+" + QString(SVN_REVISION));
+#ifdef Q_OS_WIN
+    return QString(QString(VERSION) + "+" + QString(SVN_REVISION) + " " + QString(SMTWIN_ARCH));
 #else
-	return QString(VERSION);
+    return QString(QString(VERSION) + "+" + QString(SVN_REVISION));
+#endif
+#else
+#ifdef Q_OS_WIN
+    return QString(QString(VERSION) + " " + QString(SMTWIN_ARCH));
+#else
+    return QString(VERSION)
+#endif
 #endif
 }
