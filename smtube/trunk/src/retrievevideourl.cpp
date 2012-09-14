@@ -65,9 +65,13 @@ void RetrieveVideoUrl::gotVideoPage(QNetworkReply *reply)
     QStringList::iterator stIt = codeList.begin();
     foreach(QString code, codeList)
     {
-        code.remove(0, 4);
         QUrl url(code);
-        urlMap[url.queryItemValue("itag").toInt()] = code.remove(QRegExp("&itag=\\d+$"));
+        int itag = url.queryItemValue("itag").toInt();
+        //qDebug("itag: %d", itag);
+        code.remove(QRegExp("itag=(\\d+)&url="));
+        code.replace("&sig=", "&signature=");
+        urlMap[itag] = code;
+        //qDebug("code: '%s'", code.toUtf8().constData());
     }
     /*regex.setPattern("\\\"t\\\"\\s*:\\s*\\\"([^\\\"]*)");
     regex.indexIn(replyString);
