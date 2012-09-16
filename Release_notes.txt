@@ -1,3 +1,8 @@
+Version 1.2.
+
+* Update for Youtube changes.
+* Usability improvements.
+
 Version 1.1.
 
 * (Linux) Possibility to select the player to use: smplayer, mplayer, vlc, 
