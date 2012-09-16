@@ -1,10 +1,12 @@
 Version 1.2:
 
+(2012-09-14)
+ * Fix url retrieval after Youtube changes.
+
 (2012-06-04)
  * Add gnome-mplayer to the list of players.
 
 (2012-06-01)
-
  * If a search fails (nothing found): display a box showing the error and then
    fall back to the most popular videos.
 
@@ -13,7 +15,6 @@ Version 1.2:
  * Scroll only 1 line with the mouse wheel.
 
 (2012-04-13)
-
 * Hungarian translation.
 
 
