@@ -18,9 +18,9 @@
 
 #include "version.h"
 
-#define USE_SVN_VERSIONS 1
+#define USE_SVN_VERSIONS 0
 
-#define VERSION "1.1"
+#define VERSION "1.2"
 
 #if USE_SVN_VERSIONS
 #include "svn_revision.h"
@@ -45,7 +45,7 @@ QString smtubeVersion() {
 #ifdef Q_OS_WIN
     return QString(QString(VERSION) + " " + QString(SMTWIN_ARCH));
 #else
-    return QString(VERSION)
+    return QString(VERSION);
 #endif
 #endif
 }
