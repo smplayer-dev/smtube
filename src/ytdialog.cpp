@@ -232,11 +232,13 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     nextButton = new QPushButton(this);
     nextButton->setToolTip(tr("Next"));
     nextButton->setIcon(QPixmap(":/icons/next.png"));
+    nextButton->setShortcut(QKeySequence("Alt+N"));
     nextButton->adjustSize();
     nextButton->setFixedWidth(nextButton->width());
     prevButton = new QPushButton(this);
     prevButton->setToolTip(tr("Previous"));
     prevButton->setIcon(QPixmap(":/icons/previous.png"));
+    prevButton->setShortcut(QKeySequence("Alt+P"));
     prevButton->adjustSize();
     prevButton->setFixedWidth(prevButton->width());
     searchBox = new SearchBox(this);
@@ -248,11 +250,13 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     //configButton->setText("Config");
     configButton->setIcon(QPixmap(":/icons/prefs.png"));
     configButton->setToolTip(tr("Settings"));
+    configButton->setShortcut(QKeySequence("Alt+S"));
     connect(configButton, SIGNAL(clicked()), this, SLOT(showConfigDialog()));
 
     infoButton = new QToolButton(this);
     infoButton->setIcon(QPixmap(":/icons/info.png"));
     infoButton->setToolTip(tr("Information"));
+    infoButton->setShortcut(QKeySequence("Alt+I"));
     connect(infoButton, SIGNAL(clicked()), this, SLOT(showAboutDialog()));
 
     QHBoxLayout* hbox = new QHBoxLayout;
