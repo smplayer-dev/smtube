@@ -230,11 +230,13 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     videoList->setContextMenuPolicy(Qt::CustomContextMenu);
     videoList->setAutoScroll(false);
     nextButton = new QPushButton(this);
-    nextButton->setText(tr("&Next"));
+    nextButton->setToolTip(tr("Next"));
+    nextButton->setIcon(QPixmap(":/icons/next.png"));
     nextButton->adjustSize();
     nextButton->setFixedWidth(nextButton->width());
     prevButton = new QPushButton(this);
-    prevButton->setText(tr("&Previous"));
+    prevButton->setToolTip(tr("Previous"));
+    prevButton->setIcon(QPixmap(":/icons/previous.png"));
     prevButton->adjustSize();
     prevButton->setFixedWidth(prevButton->width());
     searchBox = new SearchBox(this);
