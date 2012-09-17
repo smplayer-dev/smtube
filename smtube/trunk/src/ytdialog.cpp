@@ -501,15 +501,15 @@ void YTDialog::updateNextPrevWidget()
         ++it;
     }        
     if(thisPageNo < lastPageNo(tab))
-        nextButton->show();
+        nextButton->setEnabled(true);
     else if(!entries.value(tab).nextUrl.isEmpty())
-        nextButton->show();
+        nextButton->setEnabled(true);
     else
-        nextButton->hide();
+        nextButton->setEnabled(false);
     if(thisPageNo == 1 )
-        prevButton->hide();
+        prevButton->setEnabled(false);
     else
-        prevButton->show();
+        prevButton->setEnabled(true);
 
     videoList->scrollToItem(videoList->item(0), QAbstractItemView::EnsureVisible);
 }
