@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hu_HU">
+<!DOCTYPE TS><TS version="1.1" language="hu_HU">
 <context>
     <name>About</name>
     <message>
@@ -14,8 +13,6 @@
         <translation type="unfinished">&amp;Infó</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="53"/>
-        <location filename="../about.ui" line="109"/>
         <location filename="../about.ui" line="165"/>
         <source>icon</source>
         <translation type="unfinished">ikon</translation>
@@ -61,9 +58,8 @@
         <translation type="unfinished">Frissítésekért látogassa meg a weboldalunkat:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="91"/>
+        <location filename="../about.cpp" line="92"/>
         <source>The following people have contributed with translations:</source>
-        <translatorcomment>A következő emberek működtek közre a fordításban:</translatorcomment>
         <translation type="unfinished">A fordításban közreműködtek:</translation>
     </message>
     <message>
@@ -141,19 +137,16 @@
     </message>
     <message>
         <location filename="../configdialog.ui" line="59"/>
-        <location filename="../configdialog.cpp" line="118"/>
         <source>Normal (360p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="64"/>
-        <location filename="../configdialog.cpp" line="118"/>
         <source>HD (720p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="69"/>
-        <location filename="../configdialog.cpp" line="118"/>
         <source>Full HD (1080p)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -183,17 +176,17 @@
         <translation type="unfinished">&amp;Lejátszó:</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="132"/>
+        <location filename="../configdialog.cpp" line="131"/>
         <source>Low Quality (226p)</source>
         <translation type="unfinished">Alacsony minőség (226p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="132"/>
+        <location filename="../configdialog.cpp" line="131"/>
         <source>Medium Quality (360p)</source>
         <translation type="unfinished">Közepes minőség (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="132"/>
+        <location filename="../configdialog.cpp" line="131"/>
         <source>High Quality (480p)</source>
         <translation type="unfinished">Magas minőség (480p)</translation>
     </message>
@@ -201,27 +194,27 @@
 <context>
     <name>DownloadFile</name>
     <message>
-        <location filename="../downloadfile.cpp" line="115"/>
+        <location filename="../downloadfile.cpp" line="114"/>
         <source>%1 hours</source>
         <translation type="unfinished">%1 óra</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="121"/>
+        <location filename="../downloadfile.cpp" line="120"/>
         <source>%1 minutes</source>
         <translation type="unfinished">%1 perc</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="108"/>
+        <location filename="../downloadfile.cpp" line="107"/>
         <source>unknown time remaining</source>
         <translation type="unfinished">a hátralévő idő ismeretlen</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="124"/>
+        <location filename="../downloadfile.cpp" line="123"/>
         <source>%1 seconds</source>
         <translation type="unfinished">%1 másodperc</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="125"/>
+        <location filename="../downloadfile.cpp" line="124"/>
         <source>%1 remaining</source>
         <translation type="unfinished">hátralévő idő: %1</translation>
     </message>
@@ -236,27 +229,27 @@
         <translation type="unfinished">%2 KB-ból %1</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="142"/>
+        <location filename="../downloadfile.cpp" line="141"/>
         <source>%1 of %2 bytes</source>
         <translation type="unfinished">%2 byte-ből %1</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="146"/>
+        <location filename="../downloadfile.cpp" line="145"/>
         <source>%1 of unknown size</source>
         <translation type="unfinished">%1 mérete ismeretlen</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="151"/>
+        <location filename="../downloadfile.cpp" line="150"/>
         <source>%1 MB/sec</source>
         <translation type="unfinished">%1 MB/mp</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="155"/>
+        <location filename="../downloadfile.cpp" line="154"/>
         <source>%1 KB/sec</source>
         <translation type="unfinished">%1 KB/mp</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="159"/>
+        <location filename="../downloadfile.cpp" line="158"/>
         <source>%1 bytes/sec</source>
         <translation type="unfinished">%1 bytes/mp</translation>
     </message>
@@ -272,27 +265,27 @@
 <context>
     <name>RecordingDelegate</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="120"/>
+        <location filename="../recordingdialog.cpp" line="119"/>
         <source>Canceled</source>
         <translation type="unfinished">Megszakítva</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="120"/>
+        <location filename="../recordingdialog.cpp" line="119"/>
         <source>Error</source>
         <translation type="unfinished">Hiba</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="150"/>
+        <location filename="../recordingdialog.cpp" line="149"/>
         <source>%1 MB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="154"/>
+        <location filename="../recordingdialog.cpp" line="153"/>
         <source>%1 KB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="158"/>
+        <location filename="../recordingdialog.cpp" line="157"/>
         <source>%1 bytes</source>
         <translation type="unfinished"></translation>
     </message>
@@ -300,101 +293,94 @@
 <context>
     <name>RecordingDialog</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="202"/>
-        <location filename="../recordingdialog.cpp" line="415"/>
+        <location filename="../recordingdialog.cpp" line="414"/>
         <source>Recordings</source>
         <translation type="unfinished">Felvételek</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="203"/>
+        <location filename="../recordingdialog.cpp" line="202"/>
         <source>&amp;Clear list</source>
         <translation type="unfinished">&amp;Lista törlése</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="204"/>
-        <location filename="../recordingdialog.cpp" line="544"/>
+        <location filename="../recordingdialog.cpp" line="543"/>
         <source>&amp;Open folder</source>
         <translation type="unfinished">&amp;Mappa megnyitása</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="285"/>
-        <location filename="../recordingdialog.cpp" line="680"/>
+        <location filename="../recordingdialog.cpp" line="679"/>
         <source>There was an error in retrieving the download URL.</source>
-        <translatorcomment>? -&gt; Hiba történt a letöltési cím kinyerése során.</translatorcomment>
         <translation type="unfinished">Hiba történt a letöltő URL visszakeresésében.</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="285"/>
-        <location filename="../recordingdialog.cpp" line="680"/>
+        <location filename="../recordingdialog.cpp" line="679"/>
         <source>Recording failed</source>
         <translation type="unfinished">Sikertelen felvétel</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="303"/>
-        <location filename="../recordingdialog.cpp" line="698"/>
+        <location filename="../recordingdialog.cpp" line="697"/>
         <source>Starting</source>
         <translation type="unfinished">Indítás</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="336"/>
+        <location filename="../recordingdialog.cpp" line="335"/>
         <source>Error</source>
         <translation type="unfinished">Hiba</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="340"/>
+        <location filename="../recordingdialog.cpp" line="339"/>
         <source>Completed</source>
         <translation type="unfinished">Befejezve</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="419"/>
+        <location filename="../recordingdialog.cpp" line="418"/>
         <source>%1% of %n video - Recordings</source>
         <translation type="unfinished">
             <numerusform>%n videó %1%-a - Felvételek</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="504"/>
+        <location filename="../recordingdialog.cpp" line="503"/>
         <source>&amp;Cancel</source>
         <translation type="unfinished">&amp;Mégse</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="506"/>
+        <location filename="../recordingdialog.cpp" line="505"/>
         <source>&amp;Remove from list</source>
         <translation type="unfinished">&amp;Eltávolítás a listáról</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="525"/>
-        <location filename="../recordingdialog.cpp" line="547"/>
+        <location filename="../recordingdialog.cpp" line="546"/>
         <source>Remove from &amp;list</source>
         <translation type="unfinished">Eltávolítás a &amp;listáról</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="523"/>
+        <location filename="../recordingdialog.cpp" line="522"/>
         <source>&amp;Retry</source>
         <translation type="unfinished">&amp;Újból</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="543"/>
+        <location filename="../recordingdialog.cpp" line="542"/>
         <source>&amp;Play</source>
         <translation type="unfinished">&amp;Lejátszás</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="546"/>
+        <location filename="../recordingdialog.cpp" line="545"/>
         <source>&amp;Delete</source>
         <translation type="unfinished">&amp;Törlés</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="625"/>
+        <location filename="../recordingdialog.cpp" line="624"/>
         <source>Fetching URL...</source>
         <translation type="unfinished">URL betöltése...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="640"/>
+        <location filename="../recordingdialog.cpp" line="639"/>
         <source>File error</source>
         <translation type="unfinished">Fájl hiba</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="641"/>
+        <location filename="../recordingdialog.cpp" line="640"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation type="unfinished">A fájl nem létezik, eltávolítja a listáról?</translation>
     </message>
@@ -402,7 +388,7 @@
 <context>
     <name>YTDelegate</name>
     <message>
-        <location filename="../ytdelegate.cpp" line="114"/>
+        <location filename="../ytdelegate.cpp" line="113"/>
         <source>%L1 views</source>
         <translation type="unfinished">%L1 megtekintés</translation>
     </message>
@@ -410,110 +396,124 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="211"/>
+        <location filename="../ytdialog.cpp" line="210"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="234"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">&amp;Következő</translation>
+        <translation type="obsolete">&amp;Következő</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="238"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished">&amp;Előző</translation>
+        <translation type="obsolete">&amp;Előző</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="249"/>
+        <location filename="../ytdialog.cpp" line="250"/>
         <source>Settings</source>
         <translation type="unfinished">Beállítások</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="254"/>
+        <location filename="../ytdialog.cpp" line="255"/>
         <source>Information</source>
         <translation type="unfinished">Információ</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="389"/>
+        <location filename="../ytdialog.cpp" line="397"/>
         <source>Most Relevant</source>
         <translation type="unfinished">Kapcsolódó videók</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="393"/>
+        <location filename="../ytdialog.cpp" line="401"/>
         <source>Most Recent</source>
         <translation type="unfinished">Legújabb</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="397"/>
-        <location filename="../ytdialog.cpp" line="405"/>
+        <location filename="../ytdialog.cpp" line="413"/>
         <source>Most Viewed</source>
         <translation type="unfinished">Legnézettebb</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="401"/>
+        <location filename="../ytdialog.cpp" line="409"/>
         <source>Most Popular</source>
         <translation type="unfinished">Népszerű</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="409"/>
+        <location filename="../ytdialog.cpp" line="417"/>
         <source>Most Rated</source>
         <translation type="unfinished">Kiemelt</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="420"/>
+        <location filename="../ytdialog.cpp" line="428"/>
         <source>Most popular videos on YouTube%1</source>
         <translation type="unfinished">Népszerű videók a YouTube-on%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="421"/>
+        <location filename="../ytdialog.cpp" line="429"/>
         <source>Most rated videos on YouTube%1</source>
         <translation type="unfinished">Kiemelt videók a YouTube-on%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="422"/>
+        <location filename="../ytdialog.cpp" line="430"/>
         <source>Most viewed videos on YouTube%1</source>
         <translation type="unfinished">Legnézettebb videók a YouTube-on%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="538"/>
+        <location filename="../ytdialog.cpp" line="548"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation type="unfinished">Hiba: Nem sikerült csatlakozni a Youtube szerveréhez.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="425"/>
+        <location filename="../ytdialog.cpp" line="433"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation type="unfinished">YouTube%2 videótalálatok: &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="544"/>
+        <location filename="../ytdialog.cpp" line="556"/>
         <source>No videos found</source>
         <translation type="unfinished">Nincs videótalálat</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="546"/>
+        <location filename="../ytdialog.cpp" line="558"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation type="unfinished">Nincs videotalálat a következő keresésre: &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="623"/>
+        <location filename="../ytdialog.cpp" line="636"/>
         <source>&amp;Play video</source>
         <translation type="unfinished">&amp;Videó lejátszása</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="624"/>
+        <location filename="../ytdialog.cpp" line="637"/>
         <source>&amp;Record video</source>
         <translation type="unfinished">&amp;Videó rögzítése</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="625"/>
+        <location filename="../ytdialog.cpp" line="638"/>
         <source>&amp;Watch on YouTube</source>
         <translation type="unfinished">&amp;Megtekintés a YouTube-on</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="626"/>
+        <location filename="../ytdialog.cpp" line="639"/>
         <source>&amp;Copy link</source>
         <translation type="unfinished">&amp;Hivatkozás másolása</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="233"/>
+        <source>Next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="238"/>
+        <source>Previous</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="723"/>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
