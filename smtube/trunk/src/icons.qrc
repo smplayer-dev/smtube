@@ -21,5 +21,7 @@
         <file>icons/info.png</file>
         <file>icons/translators.png</file>
         <file>icons/license.png</file>
+        <file>icons/previous.png</file>
+        <file>icons/next.png</file>
     </qresource>
 </RCC>
