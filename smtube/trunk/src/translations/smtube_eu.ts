@@ -529,17 +529,17 @@
     <message>
         <location filename="../ytdialog.cpp" line="233"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Hurrengoa</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="238"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Aurrekoa</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="723"/>
         <source>Error</source>
-        <translation type="unfinished">Akatsa</translation>
+        <translation>Akatsa</translation>
     </message>
 </context>
 </TS>
