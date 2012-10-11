@@ -507,6 +507,7 @@ void YTDialog::updateNextPrevWidget()
             pendingPixmapQueue[id] = svi;
         }
         wItem->setData(0, qVariantFromValue(*it));
+        wItem->setToolTip(svi->header);
         ++it;
     }        
     if(thisPageNo < lastPageNo(tab))
