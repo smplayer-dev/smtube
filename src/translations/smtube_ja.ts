@@ -100,12 +100,12 @@
     <message>
         <location filename="../about.cpp" line="100"/>
         <source>Hungarian</source>
-        <translation type="unfinished"></translation>
+        <translation>ハンガリー語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="101"/>
         <source>Polish</source>
-        <translation type="unfinished"></translation>
+        <translation>ポーランド語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="101"/>
@@ -529,17 +529,17 @@
     <message>
         <location filename="../ytdialog.cpp" line="233"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>次へ</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="238"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>前へ</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="723"/>
         <source>Error</source>
-        <translation type="unfinished">エラー</translation>
+        <translation>エラー</translation>
     </message>
 </context>
 </TS>
