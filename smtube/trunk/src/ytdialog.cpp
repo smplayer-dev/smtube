@@ -299,6 +299,7 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
 
     loadConfig();
 
+	move(0, 0);
 	resize(400, 500);
 	// Load position and size
 	if (set) {
