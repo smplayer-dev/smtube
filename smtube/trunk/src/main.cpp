@@ -108,7 +108,6 @@ int main( int argc, char ** argv )
 		yt->setMode(YTDialog::Button);
 	}
 	yt->show();
-	yt->resize(400, 500);
 
 	int r = a.exec();
 

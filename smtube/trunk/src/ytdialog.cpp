@@ -299,11 +299,31 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
 
     loadConfig();
 
+	resize(400, 500);
+	// Load position and size
+	if (set) {
+		set->beginGroup("main_window");
+		QPoint p = set->value("pos", pos()).toPoint();
+		QSize s = set->value("size", size()).toSize();
+		set->endGroup();
+		move(p);
+		resize(s);
+	}
+
     searchBox->setFocus();
 }
 
 YTDialog::~YTDialog() 
 {
+	// Save position and size
+	if (set) {
+		set->beginGroup("main_window");
+		set->setValue("pos", pos());
+		set->setValue("size", size());
+		set->endGroup();
+		set->sync();
+	}
+
     delete pixmap_loader;
     delete recording_dialog; 
 }
