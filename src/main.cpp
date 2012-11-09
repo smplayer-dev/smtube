@@ -68,7 +68,20 @@ int main( int argc, char ** argv )
 	a.setWheelScrollLines(1);
 
 	QString search_term;
-	if (argc >= 1) search_term = argv[1];
+	QString language;
+
+	QStringList args = qApp->arguments();
+	for (int n = 1; n < args.count(); n++) {
+		QString argument = args[n];
+		if (argument == "-lang") {
+			if (n+1 < args.count()) {
+				n++;
+				language = args[n];
+			}
+		}
+		else
+		search_term = args[n];
+	}
 
 	QString message;
 	if (!search_term.isEmpty()) message = "search " + search_term;
@@ -80,6 +93,7 @@ int main( int argc, char ** argv )
 	a.connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
 
 	QString locale = QLocale::system().name();
+	if (!language.isEmpty()) locale = language;
 	QTranslator app_trans;
 	app_trans.load("smtube_" + locale, translationsPath());
 
