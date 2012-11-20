@@ -31,7 +31,7 @@
     <message>
       <location filename="../about.cpp" line="33"/>
       <source>YouTube%1 Browser for SMPlayer</source>
-      <translation>用于 SMPlayer 的 YouTube%1 浏览器</translation>
+      <translation>适用于 SMPlayer 的 YouTube%1 浏览器</translation>
     </message>
     <message>
       <location filename="../about.cpp" line="35"/>
@@ -51,7 +51,7 @@
     <message>
       <location filename="../about.cpp" line="42"/>
       <source>Compiled with Qt %1 (using %2)</source>
-      <translation>由 Qt %1  编译 (使用 %2)</translation>
+      <translation>用 Qt %1  编译 (使用 %2)</translation>
     </message>
     <message>
       <location filename="../about.cpp" line="44"/>
@@ -61,7 +61,7 @@
     <message>
       <location filename="../about.cpp" line="92"/>
       <source>The following people have contributed with translations:</source>
-      <translation>以下人员为翻译作出贡献:</translation>
+      <translation>以下人员对翻译作出贡献:</translation>
     </message>
     <message>
       <location filename="../about.cpp" line="93"/>
@@ -116,17 +116,17 @@
     <message>
       <location filename="../about.cpp" line="101"/>
       <source>%1, %2 and %3</source>
-      <translation>%1, %2 和 %3</translation>
+      <translation>%1、%2 和 %3</translation>
     </message>
     <message>
       <location filename="../about.cpp" line="101"/>
       <source>%1, %2, %3 and %4</source>
-      <translation>%1, %2, %3 和 %4</translation>
+      <translation>%1、%2、%3 和 %4</translation>
     </message>
     <message>
       <location filename="../about.cpp" line="101"/>
       <source>%1, %2, %3, %4 and %5</source>
-      <translation>%1, %2, %3, %4 和 %5</translation>
+      <translation>%1、%2、%3、%4 和 %5</translation>
     </message>
     <message>
       <location filename="../about.cpp" line="101"/>
@@ -164,17 +164,17 @@
     <message>
       <location filename="../configdialog.ui" line="59"/>
       <source>Normal (360p)</source>
-      <translation>普通 (360p)</translation>
+      <translation>普通(360p)</translation>
     </message>
     <message>
       <location filename="../configdialog.ui" line="64"/>
       <source>HD (720p)</source>
-      <translation>高清 (720p)</translation>
+      <translation>高清(720p)</translation>
     </message>
     <message>
       <location filename="../configdialog.ui" line="69"/>
       <source>Full HD (1080p)</source>
-      <translation>全高清 (1080p)</translation>
+      <translation>全高清(1080p)</translation>
     </message>
     <message>
       <location filename="../configdialog.ui" line="90"/>
@@ -204,17 +204,17 @@
     <message>
       <location filename="../configdialog.cpp" line="131"/>
       <source>Low Quality (226p)</source>
-      <translation>低质量 (226p)</translation>
+      <translation>低质量(226p)</translation>
     </message>
     <message>
       <location filename="../configdialog.cpp" line="131"/>
       <source>Medium Quality (360p)</source>
-      <translation>中等质量 (360p)</translation>
+      <translation>中等质量(360p)</translation>
     </message>
     <message>
       <location filename="../configdialog.cpp" line="131"/>
       <source>High Quality (480p)</source>
-      <translation>高质量 (480p)</translation>
+      <translation>高质量(480p)</translation>
     </message>
   </context>
   <context>
