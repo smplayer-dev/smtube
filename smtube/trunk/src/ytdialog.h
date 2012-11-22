@@ -28,6 +28,7 @@
 #include <QPushButton>
 #include <QToolButton>
 #include <QLineEdit>
+#include <QScrollBar>
 #include "players.h"
 
 class YTTabBar;
@@ -41,6 +42,21 @@ class QNetworkAccessManager;
 class QTimeLine;
 class RecordingDialog;
 class QSettings;
+
+class SmoothListWidget : public QListWidget
+{
+    Q_OBJECT
+
+public:
+    SmoothListWidget(QWidget *parent = 0) : QListWidget(parent) {};
+
+protected:
+    virtual void updateGeometries() {
+        QListWidget::updateGeometries();
+        /* verticalScrollBar()->setSingleStep(1); */
+        verticalScrollBar()->setPageStep(1);
+    }
+};
 
 class OverlayWidget : public QWidget
 {
@@ -194,7 +210,7 @@ protected slots:
 private:
     YTTabBar* tabBar;
     YTDataAPI* api;
-    QListWidget* videoList;
+    SmoothListWidget* videoList;
     YTDelegate* delegate;
     PixmapLoader * pixmap_loader;
     RecordingDialog * recording_dialog;
