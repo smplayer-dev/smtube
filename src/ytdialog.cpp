@@ -211,7 +211,7 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     tabBar = new YTTabBar(this);
     connect(tabBar, SIGNAL(currentChanged(int)), this, SLOT(gotCurrentTab(int)));
     overlay = new OverlayWidget(this);
-    videoList = new QListWidget(this);
+    videoList = new SmoothListWidget(this);
     pixmap_loader = new PixmapLoader;
 
     recording_dialog = new RecordingDialog;
