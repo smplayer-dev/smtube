@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="en_US">
+<!DOCTYPE TS>
+<TS version="2.0" language="en_US">
 <context>
     <name>About</name>
     <message>
@@ -35,7 +36,7 @@
     <message>
         <location filename="../about.cpp" line="35"/>
         <source>Based on UMPlayer</source>
-        <translation>Inspirado pelo UMPlayer</translation>
+        <translation>Baseado no UMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="37"/>
@@ -153,7 +154,7 @@
     <message>
         <location filename="../configdialog.ui" line="28"/>
         <source>&amp;Save to this folder</source>
-        <translation>&amp;Gravar nesta pasta</translation>
+        <translation>Gravar ne&amp;sta pasta</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="45"/>
@@ -198,7 +199,7 @@
     <message>
         <location filename="../configdialog.ui" line="140"/>
         <source>&amp;Player:</source>
-        <translation>&amp;Reprodutor:</translation>
+        <translation>Re&amp;produtor:</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="131"/>
@@ -231,7 +232,7 @@
     <message>
         <location filename="../downloadfile.cpp" line="107"/>
         <source>unknown time remaining</source>
-        <translation>tempo remanescente desconhecido</translation>
+        <translation>tempo restante desconhecido</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="123"/>
@@ -325,7 +326,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="202"/>
         <source>&amp;Clear list</source>
-        <translation>Apagar &amp;lista</translation>
+        <translation>&amp;Limpar lista</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="543"/>
@@ -383,12 +384,12 @@
     <message>
         <location filename="../recordingdialog.cpp" line="522"/>
         <source>&amp;Retry</source>
-        <translation>&amp;Tentar novamente</translation>
+        <translation>Tenta&amp;r novamente</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="542"/>
         <source>&amp;Play</source>
-        <translation>&amp;Reproduzir</translation>
+        <translation>Re&amp;produzir</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="545"/>
@@ -408,7 +409,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="640"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
-        <translation>O ficheiro não existe. Prtende remover o ficheiro da lista?</translation>
+        <translation>O ficheiro não existe. Pretende remover o ficheiro da lista?</translation>
     </message>
 </context>
 <context>
@@ -494,7 +495,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="433"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
-        <translation>Resultados no YouTube %2 sobre &quot;%1&quot;</translation>
+        <translation>Resultados YouTube%2 para &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="556"/>
@@ -509,12 +510,12 @@
     <message>
         <location filename="../ytdialog.cpp" line="636"/>
         <source>&amp;Play video</source>
-        <translation>&amp;Reproduzir vídeo</translation>
+        <translation>Re&amp;produzir vídeo</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="637"/>
         <source>&amp;Record video</source>
-        <translation>&amp;Gravar vídeo</translation>
+        <translation>Grava&amp;r vídeo</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="638"/>
@@ -529,17 +530,17 @@
     <message>
         <location filename="../ytdialog.cpp" line="233"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Seguinte</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="238"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Anterior</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="723"/>
         <source>Error</source>
-        <translation type="unfinished">Erro</translation>
+        <translation>Erro</translation>
     </message>
 </context>
 </TS>
