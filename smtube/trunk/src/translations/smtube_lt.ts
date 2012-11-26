@@ -14,7 +14,9 @@
         <translation>&amp;Informacija</translation>
     </message>
     <message>
-        <location line="+132"/>
+        <location line="+20"/>
+        <location line="+56"/>
+        <location line="+56"/>
         <source>icon</source>
         <translation>piktograma</translation>
     </message>
@@ -27,6 +29,11 @@
         <location line="+56"/>
         <source>&amp;License</source>
         <translation>&amp;Licencija</translation>
+    </message>
+    <message>
+        <location line="+56"/>
+        <source>&amp;Youtube</source>
+        <translation>&amp;Youtube</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="+33"/>
@@ -54,12 +61,17 @@
         <translation>Aplankykite mūsų tinklalapį:</translation>
     </message>
     <message>
-        <location line="+48"/>
+        <location line="+19"/>
+        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.&lt;br&gt;&lt;br&gt;By using SMPlayer you hereby agree to be bound by Google Terms of Services located at </source>
+        <translation>Įkurtas 2005 vasarį, Youtube&amp;trade; yra populiariausia interneto vaizdelių bendruomenė, kuri milijonams naudotojų suteikia galimybę žiūrėti ir dalintis vaizdo įrašais. YouTube&amp;trade; suteikia forumą kuris sujungia žmones, informuoja ir įkvepia kurti viso pasaulio žmones. &lt;br&gt;&lt;br&gt;Naudodami SMPlayer jūs sutinkate su Google paslaugos teikimo sąlygomis kurias galite rasti čia </translation>
+    </message>
+    <message>
+        <location line="+43"/>
         <source>The following people have contributed with translations:</source>
         <translation>Šie žmonės prisidėjo savo vertimais:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Spanish</source>
         <translation>Ispanų</translation>
     </message>
@@ -69,37 +81,37 @@
         <translation>Rusų</translation>
     </message>
     <message>
-        <location line="+115"/>
+        <location line="+8"/>
+        <source>Galician</source>
+        <translation>Galų</translation>
+    </message>
+    <message>
         <source>%1 and %2</source>
         <translation type="obsolete">%1 ir %2</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>%1, %2 and %3</source>
         <translation type="obsolete">%1, %2 ir %3</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>%1, %2, %3 and %4</source>
         <translation type="obsolete">%1, %2, %3 ir %4</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>%1, %2, %3, %4 and %5</source>
         <translation type="obsolete">%1, %2, %3, %4 ir %5</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location line="-84"/>
+        <location line="+24"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
-        <location line="-30"/>
+        <location line="-31"/>
         <source>Lithuanian</source>
         <translation>Lietuvių</translation>
     </message>
@@ -109,12 +121,12 @@
         <translation>Japonų</translation>
     </message>
     <message>
-        <location line="-57"/>
+        <location line="-72"/>
         <source>Portable Edition</source>
         <translation>Nešiojamas leidimas</translation>
     </message>
     <message>
-        <location line="+58"/>
+        <location line="+73"/>
         <source>Simplified-Chinese</source>
         <translation>Supaprastinta kinų</translation>
     </message>
@@ -163,16 +175,19 @@
     </message>
     <message>
         <location line="+14"/>
+        <location filename="../configdialog.cpp" line="+117"/>
         <source>Normal (360p)</source>
         <translation>Įprasta (360p)</translation>
     </message>
     <message>
         <location line="+5"/>
+        <location filename="../configdialog.cpp" line="+0"/>
         <source>HD (720p)</source>
         <translation>HD (720p)</translation>
     </message>
     <message>
         <location line="+5"/>
+        <location filename="../configdialog.cpp" line="+0"/>
         <source>Full HD (1080p)</source>
         <translation>Full HD (1080p)</translation>
     </message>
@@ -192,7 +207,7 @@
         <translation>Flv</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="+131"/>
+        <location filename="../configdialog.cpp" line="+14"/>
         <source>Low Quality (226p)</source>
         <translation>Žema kokybė (226p)</translation>
     </message>
@@ -245,7 +260,7 @@
         <translation>liko %1</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+5"/>
         <source>%1 of %2 MB</source>
         <translation>%1 iš %2 MB</translation>
     </message>
@@ -255,7 +270,7 @@
         <translation>%1 iš %2 KB</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>%1 of %2 bytes</source>
         <translation>%1 iš %2 bitų</translation>
     </message>
@@ -319,7 +334,8 @@
 <context>
     <name>RecordingDialog</name>
     <message>
-        <location line="+257"/>
+        <location line="+44"/>
+        <location line="+213"/>
         <source>Recordings</source>
         <translation>Įrašai</translation>
     </message>
@@ -329,22 +345,26 @@
         <translation>&amp;Išvalyti sąrašą</translation>
     </message>
     <message>
-        <location line="+341"/>
+        <location line="+1"/>
+        <location line="+340"/>
         <source>&amp;Open folder</source>
         <translation>&amp;Atverti aplanką</translation>
     </message>
     <message>
-        <location line="+136"/>
+        <location line="-259"/>
+        <location line="+395"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Gaunant parsiuntimo URL įvyko klaida.</translation>
     </message>
     <message>
-        <location line="+0"/>
+        <location line="-395"/>
+        <location line="+395"/>
         <source>Recording failed</source>
         <translation>Įrašyti nepavyko</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="-377"/>
+        <location line="+395"/>
         <source>Starting</source>
         <translation>Paleidžiama</translation>
     </message>
@@ -378,7 +398,8 @@
         <translation>&amp;Pašalinti iš sąrašo</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+19"/>
+        <location line="+22"/>
         <source>Remove from &amp;list</source>
         <translation>P&amp;ašalinti iš sąrašo</translation>
     </message>
@@ -429,27 +450,25 @@
         <translation>YouTube naršyklė - SMPlayer</translation>
     </message>
     <message>
-        <location line="-1"/>
         <source>&amp;Next</source>
         <translation type="obsolete">&amp;Kitas</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>&amp;Previous</source>
         <translation type="obsolete">&amp;Ankstesnis</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+42"/>
         <source>Settings</source>
         <translation>Nustatymai</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Information</source>
         <translation>Informacija</translation>
     </message>
     <message>
-        <location line="+142"/>
+        <location line="+164"/>
         <source>Most Relevant</source>
         <translation>Tinkamiausias</translation>
     </message>
@@ -459,7 +478,8 @@
         <translation>Naujausias</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+4"/>
+        <location line="+8"/>
         <source>Most Viewed</source>
         <translation>Lankomumas</translation>
     </message>
@@ -489,17 +509,17 @@
         <translation>Daugiausiai peržiūrėti YouTube%1 video</translation>
     </message>
     <message>
-        <location line="+118"/>
+        <location line="+119"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Klaida: nepavyko prisijungti prie YouTube serverio.</translation>
     </message>
     <message>
-        <location line="-115"/>
+        <location line="-116"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 rezultatai atitinkantys „%1“</translation>
     </message>
     <message>
-        <location line="+123"/>
+        <location line="+124"/>
         <source>No videos found</source>
         <translation>Nerasta vaizdo įrašų</translation>
     </message>
@@ -529,17 +549,17 @@
         <translation>&amp;Kopijuoti nuorodą</translation>
     </message>
     <message>
-        <location line="-406"/>
+        <location line="-432"/>
         <source>Next</source>
         <translation>Sekantis</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Previous</source>
         <translation>Ankstesnis</translation>
     </message>
     <message>
-        <location line="+485"/>
+        <location line="+510"/>
         <source>Error</source>
         <translation>Klaida</translation>
     </message>
