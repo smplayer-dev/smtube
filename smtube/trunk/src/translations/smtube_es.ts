@@ -31,7 +31,7 @@
     <message>
         <location filename="../about.cpp" line="33"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Buscador de vídeos de YouTube%1 de SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="35"/>
@@ -59,52 +59,52 @@
         <translation>Visita nuestra web para conseguir actualizaciones:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="92"/>
+        <location filename="../about.cpp" line="108"/>
         <source>The following people have contributed with translations:</source>
         <translation>Las siguientes personas han contribuido con traducciones:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="93"/>
+        <location filename="../about.cpp" line="109"/>
         <source>Spanish</source>
         <translation>Español</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="94"/>
+        <location filename="../about.cpp" line="110"/>
         <source>Russian</source>
         <translation>Ruso</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="95"/>
+        <location filename="../about.cpp" line="111"/>
         <source>Lithuanian</source>
         <translation>Lituano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="96"/>
+        <location filename="../about.cpp" line="112"/>
         <source>Japanese</source>
         <translation>Japonés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="97"/>
+        <location filename="../about.cpp" line="113"/>
         <source>Simplified-Chinese</source>
         <translation>Chino simplificado</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="98"/>
+        <location filename="../about.cpp" line="114"/>
         <source>Basque</source>
         <translation>Vasco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
+        <location filename="../about.cpp" line="115"/>
         <source>Portuguese</source>
         <translation>Portugués</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="100"/>
+        <location filename="../about.cpp" line="116"/>
         <source>Hungarian</source>
         <translation>Húngaro</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="101"/>
+        <location filename="../about.cpp" line="117"/>
         <source>Polish</source>
         <translation>Polaco</translation>
     </message>
@@ -134,9 +134,29 @@
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
+        <location filename="../about.cpp" line="142"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="118"/>
+        <source>Galician</source>
+        <translation>Gallego</translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="201"/>
+        <source>&amp;Youtube</source>
+        <translation>&amp;Youtube</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="68"/>
+        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
+        <translation>Fundada en febrero de 2005, YouTube&amp;trade; es la mayor comunidad de vídeos online, permitiendo a millones de personas descubrir, ver y compartir vídeos originales. YouTube&amp;trade; proporciona un foro para que las personas puedan conectarse, informarse e inspirar a otros en todo el mundo y actúa como plataforma de distribución para creadores de contenidos originales y anunciantes grandes y pequeños.</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="70"/>
+        <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
+        <translation>Al usar esta aplicación usted acepta las condiciones de servicio de Google disponibles en %1.</translation>
     </message>
 </context>
 <context>
@@ -425,7 +445,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="210"/>
         <source>YouTube Browser - SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Buscador de vídeos de YouTube - SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="234"/>
@@ -438,92 +458,92 @@
         <translation type="obsolete">&amp;Anterior</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="250"/>
+        <location filename="../ytdialog.cpp" line="252"/>
         <source>Settings</source>
         <translation>Opciones</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="255"/>
+        <location filename="../ytdialog.cpp" line="258"/>
         <source>Information</source>
         <translation>Información</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="397"/>
+        <location filename="../ytdialog.cpp" line="422"/>
         <source>Most Relevant</source>
         <translation>Más Relevante</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="401"/>
+        <location filename="../ytdialog.cpp" line="426"/>
         <source>Most Recent</source>
         <translation>Más Reciente</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="413"/>
+        <location filename="../ytdialog.cpp" line="438"/>
         <source>Most Viewed</source>
         <translation>Más Visto</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="409"/>
+        <location filename="../ytdialog.cpp" line="434"/>
         <source>Most Popular</source>
         <translation>Más Popular</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="417"/>
+        <location filename="../ytdialog.cpp" line="442"/>
         <source>Most Rated</source>
         <translation>Mejor Calificado</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="428"/>
+        <location filename="../ytdialog.cpp" line="453"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Vídeos más populares en YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="429"/>
+        <location filename="../ytdialog.cpp" line="454"/>
         <source>Most rated videos on YouTube%1</source>
         <translation>Vídeos mejor calificados en YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="430"/>
+        <location filename="../ytdialog.cpp" line="455"/>
         <source>Most viewed videos on YouTube%1</source>
         <translation>Vídeos más vistos en  YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="548"/>
+        <location filename="../ytdialog.cpp" line="574"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Error: No se puede conectar al servidor de Youtube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="433"/>
+        <location filename="../ytdialog.cpp" line="458"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 resultados de &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="556"/>
+        <location filename="../ytdialog.cpp" line="582"/>
         <source>No videos found</source>
         <translation>No se han encontrado vídeos</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="558"/>
+        <location filename="../ytdialog.cpp" line="584"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>No se han encontrado vídeos para &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="636"/>
+        <location filename="../ytdialog.cpp" line="662"/>
         <source>&amp;Play video</source>
         <translation>&amp;Reproducir vídeo</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="637"/>
+        <location filename="../ytdialog.cpp" line="663"/>
         <source>&amp;Record video</source>
         <translation>&amp;Grabar vídeo</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="638"/>
+        <location filename="../ytdialog.cpp" line="664"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Ver en  YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="639"/>
+        <location filename="../ytdialog.cpp" line="665"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Copiar enlace</translation>
     </message>
@@ -533,12 +553,12 @@
         <translation>Siguiente</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="238"/>
+        <location filename="../ytdialog.cpp" line="239"/>
         <source>Previous</source>
         <translation>Anterior</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="723"/>
+        <location filename="../ytdialog.cpp" line="749"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
