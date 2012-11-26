@@ -58,52 +58,52 @@
         <translation>Ikusi gure webgunea eguneraketentzat:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="92"/>
+        <location filename="../about.cpp" line="108"/>
         <source>The following people have contributed with translations:</source>
         <translation>Hurrengo jendeak lagundu du itzulpenekin:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="93"/>
+        <location filename="../about.cpp" line="109"/>
         <source>Spanish</source>
         <translation>Espainiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="94"/>
+        <location filename="../about.cpp" line="110"/>
         <source>Russian</source>
         <translation>Errusiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="95"/>
+        <location filename="../about.cpp" line="111"/>
         <source>Lithuanian</source>
         <translation>Lituaniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="96"/>
+        <location filename="../about.cpp" line="112"/>
         <source>Japanese</source>
         <translation>Japoniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="97"/>
+        <location filename="../about.cpp" line="113"/>
         <source>Simplified-Chinese</source>
         <translation>Txinera-Arrundua</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="98"/>
+        <location filename="../about.cpp" line="114"/>
         <source>Basque</source>
         <translation>Euskara</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
+        <location filename="../about.cpp" line="115"/>
         <source>Portuguese</source>
         <translation>Portugalera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="100"/>
+        <location filename="../about.cpp" line="116"/>
         <source>Hungarian</source>
         <translation>Hungariera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="101"/>
+        <location filename="../about.cpp" line="117"/>
         <source>Polish</source>
         <translation>Poloniera</translation>
     </message>
@@ -133,9 +133,29 @@
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
+        <location filename="../about.cpp" line="142"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="118"/>
+        <source>Galician</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="201"/>
+        <source>&amp;Youtube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="68"/>
+        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="70"/>
+        <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -437,92 +457,92 @@
         <translation type="obsolete">A&amp;urrekoa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="250"/>
+        <location filename="../ytdialog.cpp" line="252"/>
         <source>Settings</source>
         <translation>Ezarpenak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="255"/>
+        <location filename="../ytdialog.cpp" line="258"/>
         <source>Information</source>
         <translation>Argibideak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="397"/>
+        <location filename="../ytdialog.cpp" line="422"/>
         <source>Most Relevant</source>
         <translation>Garrantzitsuenak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="401"/>
+        <location filename="../ytdialog.cpp" line="426"/>
         <source>Most Recent</source>
         <translation>Berrienak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="413"/>
+        <location filename="../ytdialog.cpp" line="438"/>
         <source>Most Viewed</source>
         <translation>Ikusienak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="409"/>
+        <location filename="../ytdialog.cpp" line="434"/>
         <source>Most Popular</source>
         <translation>Ezagunenak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="417"/>
+        <location filename="../ytdialog.cpp" line="442"/>
         <source>Most Rated</source>
         <translation>Mailatuenak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="428"/>
+        <location filename="../ytdialog.cpp" line="453"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Bideo ezagunenak YouTube%1-ean</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="429"/>
+        <location filename="../ytdialog.cpp" line="454"/>
         <source>Most rated videos on YouTube%1</source>
         <translation>Bideo mailatuenak YouTube%1-ean</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="430"/>
+        <location filename="../ytdialog.cpp" line="455"/>
         <source>Most viewed videos on YouTube%1</source>
         <translation>Bideo ikusienak YouTube%1-ean</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="548"/>
+        <location filename="../ytdialog.cpp" line="574"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Akatsa: Ezinezkoa YouTube zerbitzariarekin elkarketatzea.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="433"/>
+        <location filename="../ytdialog.cpp" line="458"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 emaitz &quot;%1&quot;-rako</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="556"/>
+        <location filename="../ytdialog.cpp" line="582"/>
         <source>No videos found</source>
         <translation>Ez da bideorik aurkitu</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="558"/>
+        <location filename="../ytdialog.cpp" line="584"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Ez da bideorik aurkitu &quot;%1&quot;-rako</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="636"/>
+        <location filename="../ytdialog.cpp" line="662"/>
         <source>&amp;Play video</source>
         <translation>&amp;Irakurri bideoa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="637"/>
+        <location filename="../ytdialog.cpp" line="663"/>
         <source>&amp;Record video</source>
         <translation>&amp;Grabatu bideoa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="638"/>
+        <location filename="../ytdialog.cpp" line="664"/>
         <source>&amp;Watch on YouTube</source>
         <translation>Ikusi &amp;YouTuben</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="639"/>
+        <location filename="../ytdialog.cpp" line="665"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Kopitatu lotura</translation>
     </message>
@@ -532,12 +552,12 @@
         <translation>Hurrengoa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="238"/>
+        <location filename="../ytdialog.cpp" line="239"/>
         <source>Previous</source>
         <translation>Aurrekoa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="723"/>
+        <location filename="../ytdialog.cpp" line="749"/>
         <source>Error</source>
         <translation>Akatsa</translation>
     </message>

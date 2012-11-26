@@ -58,52 +58,52 @@
         <translation>Посетить наш сайт для обновлений:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="92"/>
+        <location filename="../about.cpp" line="108"/>
         <source>The following people have contributed with translations:</source>
         <translation>Следующие люди внесли вклад своими переводами:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="93"/>
+        <location filename="../about.cpp" line="109"/>
         <source>Spanish</source>
         <translation>Испанский</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="94"/>
+        <location filename="../about.cpp" line="110"/>
         <source>Russian</source>
         <translation>Русский</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="95"/>
+        <location filename="../about.cpp" line="111"/>
         <source>Lithuanian</source>
         <translation>Литовский</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="96"/>
+        <location filename="../about.cpp" line="112"/>
         <source>Japanese</source>
         <translation>Японский</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="97"/>
+        <location filename="../about.cpp" line="113"/>
         <source>Simplified-Chinese</source>
         <translation>Упрощённый китайский</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="98"/>
+        <location filename="../about.cpp" line="114"/>
         <source>Basque</source>
         <translation>Баскский</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
+        <location filename="../about.cpp" line="115"/>
         <source>Portuguese</source>
         <translation>Португальский</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="100"/>
+        <location filename="../about.cpp" line="116"/>
         <source>Hungarian</source>
         <translation>Венгерский</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="101"/>
+        <location filename="../about.cpp" line="117"/>
         <source>Polish</source>
         <translation>Польский</translation>
     </message>
@@ -133,9 +133,29 @@
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
+        <location filename="../about.cpp" line="142"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="118"/>
+        <source>Galician</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="201"/>
+        <source>&amp;Youtube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="68"/>
+        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="70"/>
+        <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -438,92 +458,92 @@
         <translation type="obsolete">&amp;Назад</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="250"/>
+        <location filename="../ytdialog.cpp" line="252"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="255"/>
+        <location filename="../ytdialog.cpp" line="258"/>
         <source>Information</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="397"/>
+        <location filename="../ytdialog.cpp" line="422"/>
         <source>Most Relevant</source>
         <translation>Похожие видео</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="401"/>
+        <location filename="../ytdialog.cpp" line="426"/>
         <source>Most Recent</source>
         <translation>Новые видео</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="413"/>
+        <location filename="../ytdialog.cpp" line="438"/>
         <source>Most Viewed</source>
         <translation>Самые популярные</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="409"/>
+        <location filename="../ytdialog.cpp" line="434"/>
         <source>Most Popular</source>
         <translation>Популярные сейчас</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="417"/>
+        <location filename="../ytdialog.cpp" line="442"/>
         <source>Most Rated</source>
         <translation>Высоко оценённые</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="428"/>
+        <location filename="../ytdialog.cpp" line="453"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Популярные сейчас видео на YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="429"/>
+        <location filename="../ytdialog.cpp" line="454"/>
         <source>Most rated videos on YouTube%1</source>
         <translation>Самые высоко оценённые видео на YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="430"/>
+        <location filename="../ytdialog.cpp" line="455"/>
         <source>Most viewed videos on YouTube%1</source>
         <translation>Самые популярные видео на YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="548"/>
+        <location filename="../ytdialog.cpp" line="574"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Ошибка: Не удалось подключиться к серверу Youtube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="433"/>
+        <location filename="../ytdialog.cpp" line="458"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>Результаты YouTube%2 для &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="556"/>
+        <location filename="../ytdialog.cpp" line="582"/>
         <source>No videos found</source>
         <translation>Не найдено видео</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="558"/>
+        <location filename="../ytdialog.cpp" line="584"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Не найдено видео для &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="636"/>
+        <location filename="../ytdialog.cpp" line="662"/>
         <source>&amp;Play video</source>
         <translation>&amp;Воспроизвести видео</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="637"/>
+        <location filename="../ytdialog.cpp" line="663"/>
         <source>&amp;Record video</source>
         <translation>&amp;Записать видео</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="638"/>
+        <location filename="../ytdialog.cpp" line="664"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Смотреть на YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="639"/>
+        <location filename="../ytdialog.cpp" line="665"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Копировать ссылку</translation>
     </message>
@@ -533,12 +553,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="238"/>
+        <location filename="../ytdialog.cpp" line="239"/>
         <source>Previous</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="723"/>
+        <location filename="../ytdialog.cpp" line="749"/>
         <source>Error</source>
         <translation type="unfinished">Ошибка</translation>
     </message>
