@@ -80,11 +80,12 @@ void DownloadFile::downloaded(qint64 bytesReceived, qint64 total)
                 lastReceivedBytes.dequeue();
             }
             emit progress(qRound(bytesReceived*100.0/total), total);
-            file->write(static_cast<QNetworkReply*>(sender())->readAll());
 
             updateFooterText();
             count = 0;
         }
+
+        file->write(static_cast<QNetworkReply*>(sender())->readAll());
 
         if(bytesReceived == total)
         {
