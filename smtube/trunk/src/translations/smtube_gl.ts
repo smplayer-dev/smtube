@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="gl">
+<!DOCTYPE TS>
+<TS version="2.0" language="gl">
 <context>
     <name>About</name>
     <message>
@@ -13,6 +14,8 @@
         <translation>&amp;Información</translation>
     </message>
     <message>
+        <location filename="../about.ui" line="53"/>
+        <location filename="../about.ui" line="109"/>
         <location filename="../about.ui" line="165"/>
         <source>icon</source>
         <translation>icona</translation>
@@ -58,7 +61,7 @@
         <translation>Visite o noso sitio web para informarse sobre actualizacións:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="108"/>
+        <location filename="../about.cpp" line="107"/>
         <source>The following people have contributed with translations:</source>
         <translation>As seguintes persoas colaboraron con traducións:</translation>
     </message>
@@ -108,7 +111,12 @@
         <translation>Polaco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="142"/>
+        <location filename="../about.cpp" line="119"/>
+        <source>Greek</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="143"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -123,12 +131,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="68"/>
+        <location filename="../about.cpp" line="63"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="70"/>
+        <location filename="../about.cpp" line="69"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -157,16 +165,19 @@
     </message>
     <message>
         <location filename="../configdialog.ui" line="59"/>
+        <location filename="../configdialog.cpp" line="117"/>
         <source>Normal (360p)</source>
         <translation>Normal (360p)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="64"/>
+        <location filename="../configdialog.cpp" line="117"/>
         <source>HD (720p)</source>
         <translation>HD (720p)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="69"/>
+        <location filename="../configdialog.cpp" line="117"/>
         <source>Full HD (1080p)</source>
         <translation>Full HD (1080p)</translation>
     </message>
@@ -214,27 +225,27 @@
 <context>
     <name>DownloadFile</name>
     <message>
-        <location filename="../downloadfile.cpp" line="114"/>
+        <location filename="../downloadfile.cpp" line="115"/>
         <source>%1 hours</source>
         <translation>%1 horas</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="120"/>
+        <location filename="../downloadfile.cpp" line="121"/>
         <source>%1 minutes</source>
         <translation>%1 minutos</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="107"/>
+        <location filename="../downloadfile.cpp" line="108"/>
         <source>unknown time remaining</source>
         <translation>descoñécese o tempo restante</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="123"/>
+        <location filename="../downloadfile.cpp" line="124"/>
         <source>%1 seconds</source>
         <translation>%1 segundos</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="124"/>
+        <location filename="../downloadfile.cpp" line="125"/>
         <source>%1 remaining</source>
         <translation>%1 restantes</translation>
     </message>
@@ -249,27 +260,27 @@
         <translation>%1 de %2 kiB</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="141"/>
+        <location filename="../downloadfile.cpp" line="142"/>
         <source>%1 of %2 bytes</source>
         <translation>%1 de %2 bytes</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="145"/>
+        <location filename="../downloadfile.cpp" line="146"/>
         <source>%1 of unknown size</source>
         <translation>%1 dun total descoñecido</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="150"/>
+        <location filename="../downloadfile.cpp" line="151"/>
         <source>%1 MB/sec</source>
         <translation>%1 MiB/s</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="154"/>
+        <location filename="../downloadfile.cpp" line="155"/>
         <source>%1 KB/sec</source>
         <translation>%1 kiB/s</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="158"/>
+        <location filename="../downloadfile.cpp" line="159"/>
         <source>%1 bytes/sec</source>
         <translation>%1 b/s</translation>
     </message>
@@ -313,6 +324,7 @@
 <context>
     <name>RecordingDialog</name>
     <message>
+        <location filename="../recordingdialog.cpp" line="201"/>
         <location filename="../recordingdialog.cpp" line="414"/>
         <source>Recordings</source>
         <translation>Gravacións</translation>
@@ -323,21 +335,25 @@
         <translation>&amp;Limpar a lista</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="203"/>
         <location filename="../recordingdialog.cpp" line="543"/>
         <source>&amp;Open folder</source>
         <translation>&amp;Abrir o cartafol</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="284"/>
         <location filename="../recordingdialog.cpp" line="679"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Non foi posíbel obter o URL de descarga.</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="284"/>
         <location filename="../recordingdialog.cpp" line="679"/>
         <source>Recording failed</source>
         <translation>Non foi posíbel realizar a gravación.</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="302"/>
         <location filename="../recordingdialog.cpp" line="697"/>
         <source>Starting</source>
         <translation>Iniciando…</translation>
@@ -371,6 +387,7 @@
         <translation>&amp;Quitar da lista</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="524"/>
         <location filename="../recordingdialog.cpp" line="546"/>
         <source>Remove from &amp;list</source>
         <translation>Quitar da &amp;lista</translation>
@@ -442,6 +459,7 @@
         <translation>Últimos</translation>
     </message>
     <message>
+        <location filename="../ytdialog.cpp" line="430"/>
         <location filename="../ytdialog.cpp" line="438"/>
         <source>Most Viewed</source>
         <translation>Máis vistos</translation>

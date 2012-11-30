@@ -116,6 +116,7 @@ QString About::getTranslators() {
          trad(tr("Hungarian"), "Gojko <m.gojko.71@gmail.com>") +
          trad(tr("Polish"), "Adam <ad56@poczta.fm>") +
          trad(tr("Galician"), QString::fromUtf8("Adrián Chaves Fernández <adriyetichaves@gmail.com>")) +
+         trad(tr("Greek"), "dglent") +
          "");
 }
 
