@@ -1,5 +1,9 @@
 Version 1.4:
 
+(2012-11-30)
+ * Add the Greek translation, by dglent
+   (http://smplayer.sourceforge.net/forum/viewtopic.php?f=6&t=5837#p9082)
+
 (2012-11-28)
  * Bugfix: there were some missing KB on the downloaded videos.
 
