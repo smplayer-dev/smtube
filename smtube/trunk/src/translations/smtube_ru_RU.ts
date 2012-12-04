@@ -113,7 +113,7 @@
     <message>
         <location filename="../about.cpp" line="119"/>
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation>Греческий</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -143,22 +143,22 @@
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Galician</source>
-        <translation type="unfinished"></translation>
+        <translation>Галисийский</translation>
     </message>
     <message>
         <location filename="../about.ui" line="201"/>
         <source>&amp;Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="63"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="unfinished"></translation>
+        <translation>Будучи основанным в 2005,YouTube&amp;trade; является популярнейшим сервисом онлайн видео, позволяющим миллионам людей находить, смотреть и расшаривать созданные ими видео. YouTube&amp;trade; предоставляет собой форум для подключения, информирования и воодушевления людей по всему миру и выступает в качестве распределённой платформы для оригинального контента создателей и рекламодателей, больших и малых.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Используя это приложения, вы тем самым соглашаетесь с Условиями использования Google, находящимися на %1.</translation>
     </message>
 </context>
 <context>
@@ -561,17 +561,17 @@
     <message>
         <location filename="../ytdialog.cpp" line="233"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Далее</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="239"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="749"/>
         <source>Error</source>
-        <translation type="unfinished">Ошибка</translation>
+        <translation>Ошибка</translation>
     </message>
 </context>
 </TS>
