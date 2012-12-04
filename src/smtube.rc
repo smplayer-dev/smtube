@@ -1,7 +1,7 @@
 #include <winver.h>
 
-#define SMTUBE_FILEVERSION 1,3,0,0
-#define SMTUBE_PRODVERSION "1.3.0.0\0"
+#define SMTUBE_FILEVERSION 1,4,0,0
+#define SMTUBE_PRODVERSION "1.4.0.0\0"
 
 VS_VERSION_INFO     VERSIONINFO
 FILEVERSION         SMTUBE_FILEVERSION
@@ -9,32 +9,32 @@ PRODUCTVERSION      SMTUBE_FILEVERSION
 FILEOS              VOS_NT_WINDOWS32
 FILETYPE            VFT_APP
 {
-	BLOCK "StringFileInfo"
-	{
-		BLOCK "000004b0"
-		{
-			VALUE "CompanyName", "Ricardo Villalba\0"
-			#ifdef PORTABLE_APP
-			VALUE "FileDescription", "SMTube (Portable Edition)\0"
-			#else
-			VALUE "FileDescription", "SMTube\0"
-			#endif
-			VALUE "FileVersion", SMTUBE_PRODVERSION
-			VALUE "InternalName", "smtube\0"
-			VALUE "LegalCopyright", "Copyright (c) Ricardo Villalba\0"
-			VALUE "OriginalFilename", "smtube.exe\0"
-			#if defined( _WIN64 )
-			VALUE "ProductName", "Youtube™ Browser for SMPlayer (64-bit)\0"
-			#elif defined( _WIN32 )
-			VALUE "ProductName", "Youtube™ Browser for SMPlayer (32-bit)\0"
-			#endif
-			VALUE "ProductVersion", SMTUBE_PRODVERSION
-		}
-	}
-	BLOCK "VarFileInfo"
-	{
-		VALUE "Translation", 0, 0x04b0
-	}
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "000004b0"
+    {
+      VALUE "CompanyName", "Ricardo Villalba\0"
+      #ifdef PORTABLE_APP
+      VALUE "FileDescription", "SMTube (Portable Edition)\0"
+      #else
+      VALUE "FileDescription", "SMTube\0"
+      #endif
+      VALUE "FileVersion", SMTUBE_PRODVERSION
+      VALUE "InternalName", "smtube\0"
+      VALUE "LegalCopyright", "Copyright (c) Ricardo Villalba\0"
+      VALUE "OriginalFilename", "smtube.exe\0"
+      #if defined(_WIN64)
+      VALUE "ProductName", "Youtube™ Browser for SMPlayer (64-bit)\0"
+      #elif defined(_WIN32)
+      VALUE "ProductName", "Youtube™ Browser for SMPlayer (32-bit)\0"
+      #endif
+      VALUE "ProductVersion", SMTUBE_PRODVERSION
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0, 0x04b0
+  }
 }
 
 IDI_ICON1		ICON		DISCARDABLE		"smtube.ico"
