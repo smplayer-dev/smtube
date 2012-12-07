@@ -18,7 +18,7 @@
         <location filename="../about.ui" line="109"/>
         <location filename="../about.ui" line="165"/>
         <source>icon</source>
-        <translation type="unfinished"></translation>
+        <translation>icon</translation>
     </message>
     <message>
         <location filename="../about.ui" line="89"/>
@@ -229,7 +229,7 @@
     <message>
         <location filename="../configdialog.cpp" line="131"/>
         <source>Low Quality (226p)</source>
-        <translation></translation>
+        <translation>Baja Calidad (226p) </translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="131"/>
