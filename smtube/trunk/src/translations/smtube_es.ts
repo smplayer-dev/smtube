@@ -229,7 +229,7 @@
     <message>
         <location filename="../configdialog.cpp" line="131"/>
         <source>Low Quality (226p)</source>
-        <translation>Baja Calidad (226p) </translation>
+        <translation>Baja Calidad (226p)</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="131"/>
