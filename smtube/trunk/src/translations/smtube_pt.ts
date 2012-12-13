@@ -113,7 +113,7 @@
     <message>
         <location filename="../about.cpp" line="119"/>
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation>Grego</translation>
     </message>
     <message>
         <source>%1 and %2</source>
