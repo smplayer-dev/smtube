@@ -99,39 +99,7 @@ void RetrieveVideoUrl::gotVideoPage(QNetworkReply *reply)
 
 		urlMap[itag] = n_url;
     }
-    /*regex.setPattern("\\\"t\\\"\\s*:\\s*\\\"([^\\\"]*)");
-    regex.indexIn(replyString);
-    QString tString = regex.cap(1);
-    if(codeList.contains(QString::number(FullHD)))
-    {
-        urlMap[FullHD] = QString("http://www.youtube.com/get_video?video_id=%1&t=%2&fmt=%3&asv=2").arg(id).arg(tString).arg(FullHD);
-        urlMap[HD] = QString("http://www.youtube.com/get_video?video_id=%1&t=%2&fmt=%3&asv=2").arg(id).arg(tString).arg(HD);
-        urlMap[Normal] = QString("http://www.youtube.com/get_video?video_id=%1&t=%2&fmt=%3&asv=2").arg(id).arg(tString).arg(Normal);
-    }
-    else if(codeList.contains(QString::number(HD)))
-    {
-        urlMap[HD] = QString("http://www.youtube.com/get_video?video_id=%1&t=%2&fmt=%3&asv=2").arg(id).arg(tString).arg(HD);
-        urlMap[Normal] = QString("http://www.youtube.com/get_video?video_id=%1&t=%2&fmt=%3&asv=2").arg(id).arg(tString).arg(Normal);
-    }
-    else
-    {
-        urlMap[Normal] = QString("http://www.youtube.com/get_video?video_id=%1&t=%2&fmt=%3&asv=2").arg(id).arg(tString).arg(Normal);
-    }
-    if(codeList.contains(QString::number(NormalFlv)))
-    {
-        urlMap[NormalFlv] = QString("http://www.youtube.com/get_video?video_id=%1&t=%2&fmt=%3&asv=2").arg(id).arg(tString).arg(NormalFlv);
-        urlMap[BelowNormalFlv] = QString("http://www.youtube.com/get_video?video_id=%1&t=%2&fmt=%3&asv=2").arg(id).arg(tString).arg(BelowNormalFlv);
-        urlMap[LowFlv] = QString("http://www.youtube.com/get_video?video_id=%1&t=%2&fmt=%3&asv=2").arg(id).arg(tString).arg(LowFlv);
-    }
-    else if(codeList.contains(QString::number(BelowNormalFlv)))
-    {
-        urlMap[BelowNormalFlv] = QString("http://www.youtube.com/get_video?video_id=%1&t=%2&fmt=%3&asv=2").arg(id).arg(tString).arg(BelowNormalFlv);
-        urlMap[LowFlv] = QString("http://www.youtube.com/get_video?video_id=%1&t=%2&fmt=%3&asv=2").arg(id).arg(tString).arg(LowFlv);
-    }
-    else
-    {
-        urlMap[LowFlv] = QString("http://www.youtube.com/get_video?video_id=%1&t=%2&fmt=%3&asv=2").arg(id).arg(tString).arg(LowFlv);
-    }*/
+
     emit gotUrls(urlMap, m_title, id);    
 }
 
