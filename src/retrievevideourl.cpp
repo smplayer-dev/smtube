@@ -62,7 +62,6 @@ void RetrieveVideoUrl::gotVideoPage(QNetworkReply *reply)
     fmtArray.replace(QRegExp("\\\\(.)"), "\\1");
     htmlDecode(fmtArray);
     QStringList codeList = fmtArray.split(',');
-    QStringList::iterator stIt = codeList.begin();
     foreach(QString code, codeList)
     {
 		// (2012-12-20) Youtube Fix by RVM for SMPlayer (http://smplayer.sourceforge.net)
