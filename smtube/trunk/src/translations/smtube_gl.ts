@@ -113,7 +113,7 @@
     <message>
         <location filename="../about.cpp" line="119"/>
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation>Grego</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
@@ -123,22 +123,22 @@
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Galician</source>
-        <translation type="unfinished"></translation>
+        <translation>Galego</translation>
     </message>
     <message>
         <location filename="../about.ui" line="201"/>
         <source>&amp;Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;YouTube</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="63"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fundado en febreiro de 2005, YouTube&amp;trade; é a comunidade de vídeo máis popular de internet, e permite a millóns de persoas descubrir, ver e compartir os seus vídeos. YouTube&amp;trade; é un foro no que a xente conecta, se informa, e inspira a outras persoas de todas as partes do mundo, servindo ademais de plataforma de distribución de contidos para os autores e os anunciantes, grandes e pequenos.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>O uso deste aplicativo implica a aceptación das condicións dos servizos de Google, ás que poderá acceder desde «%1».</translation>
     </message>
 </context>
 <context>
@@ -151,7 +151,7 @@
     <message>
         <location filename="../configdialog.ui" line="20"/>
         <source>Recording</source>
-        <translation>Gravación</translation>
+        <translation>Descargando</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="28"/>
@@ -327,7 +327,7 @@
         <location filename="../recordingdialog.cpp" line="201"/>
         <location filename="../recordingdialog.cpp" line="414"/>
         <source>Recordings</source>
-        <translation>Gravacións</translation>
+        <translation>Descargas</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="202"/>
@@ -350,7 +350,7 @@
         <location filename="../recordingdialog.cpp" line="284"/>
         <location filename="../recordingdialog.cpp" line="679"/>
         <source>Recording failed</source>
-        <translation>Non foi posíbel realizar a gravación.</translation>
+        <translation>Non foi posíbel realizar a descarga.</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="302"/>
@@ -372,8 +372,8 @@
         <location filename="../recordingdialog.cpp" line="418"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
-            <numerusform>%1% de %n vídeos — Gravacións</numerusform>
-            <numerusform>%1% de %n vídeos — Gravacións</numerusform>
+            <numerusform>%1% de %n vídeos — Descargas</numerusform>
+            <numerusform>%1% de %n vídeos — Descargas</numerusform>
         </translation>
     </message>
     <message>
@@ -517,7 +517,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="663"/>
         <source>&amp;Record video</source>
-        <translation>&amp;Gravar o vídeo</translation>
+        <translation>&amp;Descargar</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="664"/>
