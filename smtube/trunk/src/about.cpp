@@ -1,5 +1,5 @@
 /*  smtube, a small youtube browser.
-    Copyright (C) 2012 Ricardo Villalba <rvm@users.sourceforge.net>
+    Copyright (C) 2012-2013 Ricardo Villalba <rvm@users.sourceforge.net>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -31,7 +31,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 
     info->setHtml(
         "<b>"+ tr("YouTube%1 Browser for SMPlayer").arg(QChar(0x2122)) +"</b>"
-        "<p>&copy; 2012 Ricardo Villalba &lt;rvm@users.sourceforge.net&gt;" + 
+        "<p>&copy; 2012-2013 Ricardo Villalba &lt;rvm@users.sourceforge.net&gt;" + 
         "<br>" + tr("Based on UMPlayer") + " &copy; 2010 Ori Rejwan" 
         "<p><b>" +
         tr("Version: %1").arg(smtubeVersion()) + "</b>"
