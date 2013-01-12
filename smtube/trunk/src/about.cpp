@@ -41,7 +41,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
         "<br>" +
         tr("Compiled with Qt %1 (using %2)").arg(QT_VERSION_STR).arg(qVersion()) + 
         "<p>" + 
-        tr("Visit our web for updates:") +"<br>"+ link("http://smplayer.sf.net")
+        tr("Visit our web for updates:") +"<br>"+ link("http://smplayer.info")
     );
 
     license->setHtml(
