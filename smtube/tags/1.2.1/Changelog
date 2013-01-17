@@ -1,0 +1,58 @@
+Version 1.2.1:
+
+(2012-09-17)
+ * Add icons for the previous and next buttons.
+ * Add some key shortcuts for the buttons (Alt+N, Alt+P, Alt+S, Alt+I).
+
+
+Version 1.2:
+
+(2012-09-14)
+ * Fix url retrieval after Youtube changes.
+
+(2012-06-04)
+ * Add gnome-mplayer to the list of players.
+
+(2012-06-01)
+ * If a search fails (nothing found): display a box showing the error and then
+   fall back to the most popular videos.
+
+(2012-05-05)
+ * Move to top of the page after changing the page.
+ * Scroll only 1 line with the mouse wheel.
+
+(2012-04-13)
+* Hungarian translation.
+
+
+Version 1.1:
+
+(2012-03-27)
+ * Now it's possible to use VLC, Dragon Player and Totem as player.
+
+(2012-03-26)
+ * Possibility to select the player (smplayer or mplayer, more can be added
+   in the future).
+
+(2012-03-25)
+ * Add Portuguese translation.
+
+(2012-03-22)
+ * Use its own directory for the config file.
+
+(2012-03-18)
+ * Add the Basque translation.
+
+(2012-03-12)
+ * Fix a crash that may happen if using some of the Ubuntu themes 
+   (Ambiance and Radiance at least).
+
+(2012-03-08)
+ * Possibility to build a portable version.
+
+
+Version 1.0:
+
+(2012-02-24)
+ * First version.
+
