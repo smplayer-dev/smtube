@@ -1,0 +1,10 @@
+[Desktop Entry]
+Exec=smtube
+Comment=Search and download videos from YouTube
+Comment[es]=Permite realizar búsquedas y descargar vídeos de YouTube
+GenericName=Youtube Browser
+GenericName[es]=Buscar vídeos en YouTube
+Icon=smtube
+Name=SMPlayer YouTube Browser
+Type=Application
+Categories=Qt;KDE;AudioVideo;Player;Video;
