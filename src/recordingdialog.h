@@ -34,7 +34,7 @@ class QNetworkAccessManager;
 class DownloadFile;
 class RetrieveVideoUrl;
 class QListWidgetItem;
-
+class QSettings;
 
 class DownloadData
 {
@@ -92,14 +92,14 @@ private:
 class RecordingDialog : public QWidget
 {
 Q_OBJECT
-public:    
+public:
     enum ItemDataRole
     {
-        DownloadDataRole = Qt::UserRole + 1,        
+        DownloadDataRole = Qt::UserRole + 1,
         emitDataChangedRole // hack to make sure DataChanged signal is emitted
     };
 
-    RecordingDialog(QWidget *parent = 0);    
+    RecordingDialog(QWidget *parent = 0, QSettings * s = 0);
     ~RecordingDialog();
 
     void downloadVideoId(QString videoId, QString title, double duration = 0);
@@ -130,6 +130,8 @@ private:
     void removeDFileFromMap(DownloadFile* dfile);
     void updateWindowTitle();
     QList<QListWidgetItem*> itemsMarkedForRemoval;
+
+    QSettings * settings;
 
 protected:
     void resizeEvent(QResizeEvent *r);

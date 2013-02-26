@@ -214,7 +214,7 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     videoList = new SmoothListWidget(this);
     pixmap_loader = new PixmapLoader;
 
-    recording_dialog = new RecordingDialog;
+    recording_dialog = new RecordingDialog(0, settings);
     recording_dialog->setRecordingsDirectory("");
     recording_dialog->setRecordingQuality(HD);
     recording_dialog->setRecordingFormat(0);

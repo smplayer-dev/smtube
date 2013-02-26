@@ -37,6 +37,7 @@
 #include <QLabel>
 #include <QMenu>
 #include <QMessageBox>
+#include <QSettings>
 #include "recordingdialog.h"
 #include "downloadfile.h"
 #include "retrievevideourl.h"
@@ -190,9 +191,11 @@ QSize RecordingDelegate::sizeHint(const QStyleOptionViewItem &option, const QMod
         return QSize(width, 50);
 }
 
-RecordingDialog::RecordingDialog(QWidget *parent) :
+RecordingDialog::RecordingDialog(QWidget *parent, QSettings * s) :
     QWidget(parent), pressedItemLeftButton(0), pressedItemRightButton(0)
 {
+    settings = s;
+
     recordings_directory = "/tmp/";
     recording_quality = 37;
     recording_format = 0;
@@ -800,15 +803,27 @@ void RecordingDialog::saveList()
         }
         itemList.append(ddMap);
     }
+
+    if (settings) {
+        settings->beginGroup("recording");
+        settings->setValue("history", itemList);
+        settings->endGroup();
+    }
     /* pref->downloadHistory = itemList; */
 }
 
 void RecordingDialog::loadList()
 {
-    /*
-    for(int i=0; i < pref->downloadHistory.count(); ++i)
+    if (settings==0) return;
+
+    QList<QVariant> downloadHistory;
+    settings->beginGroup("recording");
+    downloadHistory = settings->value("history").toList();
+    settings->endGroup();
+
+    for(int i=0; i < downloadHistory.count(); ++i)
     {
-        QVariantMap ddMap = pref->downloadHistory.value(i).toMap();
+        QVariantMap ddMap = downloadHistory.value(i).toMap();
         QListWidgetItem* item = new QListWidgetItem(0, QListWidgetItem::UserType + 1);
         downloadList->insertItem(0, item);
         DownloadData* dd = new DownloadData;
@@ -822,7 +837,6 @@ void RecordingDialog::loadList()
         item->setData(DownloadDataRole, QVariant::fromValue(dd));
         item->setData(emitDataChangedRole, true);
     }
-    */
 }
 
 #include "moc_recordingdialog.cpp"
