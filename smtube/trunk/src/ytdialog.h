@@ -226,6 +226,7 @@ private:
     SearchBox* searchBox;
     QToolButton * configButton;
     QToolButton * infoButton;
+    QToolButton * recordingButton;
 
     QSettings * set;
     Players players;

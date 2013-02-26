@@ -259,8 +259,15 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     infoButton->setShortcut(QKeySequence("Alt+I"));
     connect(infoButton, SIGNAL(clicked()), this, SLOT(showAboutDialog()));
 
+    recordingButton = new QToolButton(this);
+    recordingButton->setIcon(QPixmap(":/icons/recordings.png"));
+    recordingButton->setToolTip(tr("Show recordings"));
+    recordingButton->setShortcut(QKeySequence("Alt+R"));
+    connect(recordingButton, SIGNAL(clicked()), recording_dialog, SLOT(show()));
+
     QHBoxLayout* hbox = new QHBoxLayout;
     hbox->addWidget(searchBox);
+    hbox->addWidget(recordingButton);
     hbox->addWidget(configButton);
     hbox->addWidget(infoButton);
 
