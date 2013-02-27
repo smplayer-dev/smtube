@@ -23,5 +23,6 @@
         <file>icons/license.png</file>
         <file>icons/previous.png</file>
         <file>icons/next.png</file>
+        <file>icons/recordings.png</file>
     </qresource>
 </RCC>
