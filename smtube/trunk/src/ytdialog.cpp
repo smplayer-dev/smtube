@@ -241,6 +241,12 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     prevButton->setShortcut(QKeySequence("Alt+P"));
     prevButton->adjustSize();
     prevButton->setFixedWidth(prevButton->width());
+
+    if (!qApp->isLeftToRight()) {
+        nextButton->setIcon(QPixmap::fromImage(QPixmap(":/icons/next.png").toImage().mirrored(true, false)));
+        prevButton->setIcon(QPixmap::fromImage(QPixmap(":/icons/previous.png").toImage().mirrored(true, false)));
+    }
+
     searchBox = new SearchBox(this);
     connect(searchBox, SIGNAL(search(QString)), this, SLOT(setSearchTerm(QString)));    
     connect(nextButton, SIGNAL(clicked()), this, SLOT(nextClicked()));
