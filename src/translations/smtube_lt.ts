@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="lt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -118,7 +116,7 @@
     <message>
         <location filename="../about.cpp" line="120"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>Hebrajų</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="144"/>
@@ -376,11 +374,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="421"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% iš %n video - Įrašai</numerusform>
-            <numerusform>%1% iš %n video - Įrašai</numerusform>
-            <numerusform>%1% iš %n video - Įrašai</numerusform>
-        </translation>
+        <translation><numerusform>%1% iš %n video - Įrašai</numerusform><numerusform>%1% iš %n video - Įrašai</numerusform><numerusform>%1% iš %n video - Įrašai</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="506"/>
@@ -457,7 +451,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="264"/>
         <source>Show recordings</source>
-        <translation type="unfinished"></translation>
+        <translation>Rodyti įrašus</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="429"/>
