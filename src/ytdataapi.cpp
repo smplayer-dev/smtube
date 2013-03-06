@@ -41,11 +41,11 @@ YTDataAPI::YTDataAPI(QObject *parent) :
 int YTDataAPI::getMost(int tab, QString searchTerm)
 {
     if(tab == YTDialog::Popular)
-        return getXmlResponse("http://gdata.youtube.com/feeds/api/standardfeeds/most_popular?date=this_week");
+        return getXmlResponse("http://gdata.youtube.com/feeds/api/standardfeeds/most_popular?time=this_week");
     else if(tab == YTDialog::Rated)
-        return getXmlResponse("http://gdata.youtube.com/feeds/api/standardfeeds/top_rated?date=this_week");
+        return getXmlResponse("http://gdata.youtube.com/feeds/api/standardfeeds/top_rated?time=this_week");
     else if(tab == YTDialog::ViewedButton)
-        return getXmlResponse("http://gdata.youtube.com/feeds/api/standardfeeds/most_viewed?date=this_week");
+        return getXmlResponse("http://gdata.youtube.com/feeds/api/standardfeeds/most_viewed?time=this_week");
     else if(tab == YTDialog::Relevant)
         return  getXmlResponse("http://gdata.youtube.com/feeds/api/videos?v=2&start-index=1&results=25&orderby=relevance&q=" + searchTerm);
     else if(tab == YTDialog::Recent)
