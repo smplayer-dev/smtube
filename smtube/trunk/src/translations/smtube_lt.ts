@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="lt">
 <context>
     <name>About</name>
     <message>
@@ -374,7 +376,11 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="421"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>%1% iš %n video - Įrašai</numerusform><numerusform>%1% iš %n video - Įrašai</numerusform><numerusform>%1% iš %n video - Įrašai</numerusform></translation>
+        <translation>
+            <numerusform>%1% iš %n video - Įrašai</numerusform>
+            <numerusform>%1% iš %n video - Įrašai</numerusform>
+            <numerusform>%1% iš %n video - Įrašai</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="506"/>
@@ -439,98 +445,106 @@
         <translation>YouTube naršyklė - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="252"/>
+        <location filename="../ytdialog.cpp" line="258"/>
         <source>Settings</source>
         <translation>Nustatymai</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="258"/>
+        <location filename="../ytdialog.cpp" line="264"/>
         <source>Information</source>
         <translation>Informacija</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="264"/>
+        <location filename="../ytdialog.cpp" line="270"/>
         <source>Show recordings</source>
         <translation>Rodyti įrašus</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="429"/>
+        <location filename="../ytdialog.cpp" line="435"/>
         <source>Most Relevant</source>
         <translation>Tinkamiausias</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="433"/>
+        <location filename="../ytdialog.cpp" line="439"/>
         <source>Most Recent</source>
         <translation>Naujausias</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="437"/>
-        <location filename="../ytdialog.cpp" line="445"/>
+        <location filename="../ytdialog.cpp" line="443"/>
         <source>Most Viewed</source>
         <translation>Lankomumas</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="441"/>
+        <location filename="../ytdialog.cpp" line="447"/>
         <source>Most Popular</source>
         <translation>Populiarumas</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="449"/>
+        <location filename="../ytdialog.cpp" line="451"/>
+        <source>Recently Featured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="455"/>
         <source>Most Rated</source>
         <translation>Įvertinimas</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="460"/>
+        <location filename="../ytdialog.cpp" line="466"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Populiariausi YouTube%1 video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="461"/>
+        <location filename="../ytdialog.cpp" line="467"/>
         <source>Most rated videos on YouTube%1</source>
         <translation>Geriausiai įvertinti YouTube%1 video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="462"/>
         <source>Most viewed videos on YouTube%1</source>
-        <translation>Daugiausiai peržiūrėti YouTube%1 video</translation>
+        <translation type="obsolete">Daugiausiai peržiūrėti YouTube%1 video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="581"/>
+        <location filename="../ytdialog.cpp" line="587"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Klaida: nepavyko prisijungti prie YouTube serverio.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="465"/>
+        <location filename="../ytdialog.cpp" line="471"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 rezultatai atitinkantys „%1“</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="589"/>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Videos recently featured on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="595"/>
         <source>No videos found</source>
         <translation>Nerasta vaizdo įrašų</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="591"/>
+        <location filename="../ytdialog.cpp" line="597"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Nerasta video atitinkančių „%1“</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="669"/>
+        <location filename="../ytdialog.cpp" line="675"/>
         <source>&amp;Play video</source>
         <translation>&amp;Groti video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="670"/>
+        <location filename="../ytdialog.cpp" line="676"/>
         <source>&amp;Record video</source>
         <translation>&amp;Įrašyti video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="671"/>
+        <location filename="../ytdialog.cpp" line="677"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Žiūrėti YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="672"/>
+        <location filename="../ytdialog.cpp" line="678"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Kopijuoti nuorodą</translation>
     </message>
@@ -545,7 +559,7 @@
         <translation>Ankstesnis</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="756"/>
+        <location filename="../ytdialog.cpp" line="762"/>
         <source>Error</source>
         <translation>Klaida</translation>
     </message>

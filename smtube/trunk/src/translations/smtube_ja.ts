@@ -472,98 +472,106 @@
         <translation type="obsolete">前へ(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="252"/>
+        <location filename="../ytdialog.cpp" line="258"/>
         <source>Settings</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="258"/>
+        <location filename="../ytdialog.cpp" line="264"/>
         <source>Information</source>
         <translation>情報</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="264"/>
+        <location filename="../ytdialog.cpp" line="270"/>
         <source>Show recordings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="429"/>
+        <location filename="../ytdialog.cpp" line="435"/>
         <source>Most Relevant</source>
         <translation>関連のある動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="433"/>
+        <location filename="../ytdialog.cpp" line="439"/>
         <source>Most Recent</source>
         <translation>最新の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="437"/>
-        <location filename="../ytdialog.cpp" line="445"/>
+        <location filename="../ytdialog.cpp" line="443"/>
         <source>Most Viewed</source>
         <translation>再生回数の多い動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="441"/>
+        <location filename="../ytdialog.cpp" line="447"/>
         <source>Most Popular</source>
         <translation>話題の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="449"/>
+        <location filename="../ytdialog.cpp" line="451"/>
+        <source>Recently Featured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="455"/>
         <source>Most Rated</source>
         <translation>評価の高い動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="460"/>
+        <location filename="../ytdialog.cpp" line="466"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>YouTube%1 の話題の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="461"/>
+        <location filename="../ytdialog.cpp" line="467"/>
         <source>Most rated videos on YouTube%1</source>
         <translation>YouTube%1 の評価の高い動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="462"/>
         <source>Most viewed videos on YouTube%1</source>
-        <translation>YouTube%1 の再生回数の多い動画</translation>
+        <translation type="obsolete">YouTube%1 の再生回数の多い動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="581"/>
+        <location filename="../ytdialog.cpp" line="587"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>エラー: YouTube サーバーへ接続できませんでした。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="465"/>
+        <location filename="../ytdialog.cpp" line="471"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; の YouTube%2 での検索結果</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="589"/>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Videos recently featured on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="595"/>
         <source>No videos found</source>
         <translation>動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="591"/>
+        <location filename="../ytdialog.cpp" line="597"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; に一致する動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="669"/>
+        <location filename="../ytdialog.cpp" line="675"/>
         <source>&amp;Play video</source>
         <translation>動画を再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="670"/>
+        <location filename="../ytdialog.cpp" line="676"/>
         <source>&amp;Record video</source>
         <translation>動画を録画(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="671"/>
+        <location filename="../ytdialog.cpp" line="677"/>
         <source>&amp;Watch on YouTube</source>
         <translation>YouTube で見る(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="672"/>
+        <location filename="../ytdialog.cpp" line="678"/>
         <source>&amp;Copy link</source>
         <translation>リンクのコピー(&amp;C)</translation>
     </message>
@@ -578,7 +586,7 @@
         <translation>前へ</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="756"/>
+        <location filename="../ytdialog.cpp" line="762"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
