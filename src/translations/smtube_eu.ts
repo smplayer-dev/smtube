@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="eu">
+<!DOCTYPE TS>
+<TS version="2.0" language="eu">
 <context>
     <name>About</name>
     <message>
@@ -13,6 +14,8 @@
         <translation>&amp;Argibideak</translation>
     </message>
     <message>
+        <location filename="../about.ui" line="53"/>
+        <location filename="../about.ui" line="109"/>
         <location filename="../about.ui" line="165"/>
         <source>icon</source>
         <translation>ikurra</translation>
@@ -118,27 +121,22 @@
         <translation>Hebraiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
         <source>%1 and %2</source>
         <translation type="obsolete">%1 eta %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
         <source>%1, %2 and %3</source>
         <translation type="obsolete">%1, %2 eta %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
         <source>%1, %2, %3 and %4</source>
         <translation type="obsolete">%1, %2, %3 eta %4</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
         <source>%1, %2, %3, %4 and %5</source>
         <translation type="obsolete">%1, %2, %3, %4 eta %5</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
@@ -191,16 +189,19 @@
         <translation>&amp;Ontasuna</translation>
     </message>
     <message>
+        <location filename="../configdialog.ui" line="59"/>
         <location filename="../configdialog.cpp" line="117"/>
         <source>Normal (360p)</source>
         <translation>Arrunta (360p)</translation>
     </message>
     <message>
+        <location filename="../configdialog.ui" line="64"/>
         <location filename="../configdialog.cpp" line="117"/>
         <source>HD (720p)</source>
         <translation>HD (720p)</translation>
     </message>
     <message>
+        <location filename="../configdialog.ui" line="69"/>
         <location filename="../configdialog.cpp" line="117"/>
         <source>Full HD (1080p)</source>
         <translation>Full HD (1080p)</translation>
@@ -348,6 +349,7 @@
 <context>
     <name>RecordingDialog</name>
     <message>
+        <location filename="../recordingdialog.cpp" line="204"/>
         <location filename="../recordingdialog.cpp" line="417"/>
         <source>Recordings</source>
         <translation>Grabaketak</translation>
@@ -358,21 +360,25 @@
         <translation>&amp;Garbitu zerrenda</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="206"/>
         <location filename="../recordingdialog.cpp" line="546"/>
         <source>&amp;Open folder</source>
         <translation>Ireki &amp;agiritegia</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="287"/>
         <location filename="../recordingdialog.cpp" line="682"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Akats bat gertatu da jeisketa URL gertatzerakoan.</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="287"/>
         <location filename="../recordingdialog.cpp" line="682"/>
         <source>Recording failed</source>
         <translation>Grabaketa hutsegitea</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="305"/>
         <location filename="../recordingdialog.cpp" line="700"/>
         <source>Starting</source>
         <translation>Abiarazten</translation>
@@ -406,6 +412,7 @@
         <translation>&amp;Kendu zerrendatik</translation>
     </message>
     <message>
+        <location filename="../recordingdialog.cpp" line="527"/>
         <location filename="../recordingdialog.cpp" line="549"/>
         <source>Remove from &amp;list</source>
         <translation>Kendu ze&amp;rrendatik</translation>
@@ -457,107 +464,114 @@
         <translation>YouTube Bilatzailea - SM Irakurgailuarentzat</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="210"/>
         <source>&amp;Next</source>
         <translation type="obsolete">&amp;Hurrengoa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="210"/>
         <source>&amp;Previous</source>
         <translation type="obsolete">A&amp;urrekoa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="252"/>
+        <location filename="../ytdialog.cpp" line="258"/>
         <source>Settings</source>
         <translation>Ezarpenak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="258"/>
+        <location filename="../ytdialog.cpp" line="264"/>
         <source>Information</source>
         <translation>Argibideak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="264"/>
+        <location filename="../ytdialog.cpp" line="270"/>
         <source>Show recordings</source>
         <translation>Erakutsi grabaketak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="429"/>
+        <location filename="../ytdialog.cpp" line="435"/>
         <source>Most Relevant</source>
         <translation>Garrantzitsuenak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="433"/>
+        <location filename="../ytdialog.cpp" line="439"/>
         <source>Most Recent</source>
         <translation>Berrienak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="445"/>
+        <location filename="../ytdialog.cpp" line="443"/>
         <source>Most Viewed</source>
         <translation>Ikusienak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="441"/>
+        <location filename="../ytdialog.cpp" line="447"/>
         <source>Most Popular</source>
         <translation>Ezagunenak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="449"/>
+        <location filename="../ytdialog.cpp" line="451"/>
+        <source>Recently Featured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="455"/>
         <source>Most Rated</source>
         <translation>Mailatuenak</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="460"/>
+        <location filename="../ytdialog.cpp" line="466"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Bideo ezagunenak YouTube%1-ean</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="461"/>
+        <location filename="../ytdialog.cpp" line="467"/>
         <source>Most rated videos on YouTube%1</source>
         <translation>Bideo mailatuenak YouTube%1-ean</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="462"/>
         <source>Most viewed videos on YouTube%1</source>
-        <translation>Bideo ikusienak YouTube%1-ean</translation>
+        <translation type="obsolete">Bideo ikusienak YouTube%1-ean</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="581"/>
+        <location filename="../ytdialog.cpp" line="587"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Akatsa: Ezinezkoa YouTube zerbitzariarekin elkarketatzea.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="465"/>
+        <location filename="../ytdialog.cpp" line="471"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 emaitz &quot;%1&quot;-rako</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="589"/>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Videos recently featured on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="595"/>
         <source>No videos found</source>
         <translation>Ez da bideorik aurkitu</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="591"/>
+        <location filename="../ytdialog.cpp" line="597"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Ez da bideorik aurkitu &quot;%1&quot;-rako</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="669"/>
+        <location filename="../ytdialog.cpp" line="675"/>
         <source>&amp;Play video</source>
         <translation>&amp;Irakurri bideoa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="670"/>
+        <location filename="../ytdialog.cpp" line="676"/>
         <source>&amp;Record video</source>
         <translation>&amp;Grabatu bideoa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="671"/>
+        <location filename="../ytdialog.cpp" line="677"/>
         <source>&amp;Watch on YouTube</source>
         <translation>Ikusi &amp;YouTuben</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="672"/>
+        <location filename="../ytdialog.cpp" line="678"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Kopitatu lotura</translation>
     </message>
@@ -572,7 +586,7 @@
         <translation>Aurrekoa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="756"/>
+        <location filename="../ytdialog.cpp" line="762"/>
         <source>Error</source>
         <translation>Akatsa</translation>
     </message>

@@ -473,98 +473,106 @@
         <translation type="obsolete">&amp;Назад</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="252"/>
+        <location filename="../ytdialog.cpp" line="258"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="258"/>
+        <location filename="../ytdialog.cpp" line="264"/>
         <source>Information</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="264"/>
+        <location filename="../ytdialog.cpp" line="270"/>
         <source>Show recordings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="429"/>
+        <location filename="../ytdialog.cpp" line="435"/>
         <source>Most Relevant</source>
         <translation>Похожие видео</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="433"/>
+        <location filename="../ytdialog.cpp" line="439"/>
         <source>Most Recent</source>
         <translation>Новые видео</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="437"/>
-        <location filename="../ytdialog.cpp" line="445"/>
+        <location filename="../ytdialog.cpp" line="443"/>
         <source>Most Viewed</source>
         <translation>Самые популярные</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="441"/>
+        <location filename="../ytdialog.cpp" line="447"/>
         <source>Most Popular</source>
         <translation>Популярные сейчас</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="449"/>
+        <location filename="../ytdialog.cpp" line="451"/>
+        <source>Recently Featured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="455"/>
         <source>Most Rated</source>
         <translation>Высоко оценённые</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="460"/>
+        <location filename="../ytdialog.cpp" line="466"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Популярные сейчас видео на YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="461"/>
+        <location filename="../ytdialog.cpp" line="467"/>
         <source>Most rated videos on YouTube%1</source>
         <translation>Самые высоко оценённые видео на YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="462"/>
         <source>Most viewed videos on YouTube%1</source>
-        <translation>Самые популярные видео на YouTube%1</translation>
+        <translation type="obsolete">Самые популярные видео на YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="581"/>
+        <location filename="../ytdialog.cpp" line="587"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Ошибка: Не удалось подключиться к серверу Youtube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="465"/>
+        <location filename="../ytdialog.cpp" line="471"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>Результаты YouTube%2 для &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="589"/>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Videos recently featured on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="595"/>
         <source>No videos found</source>
         <translation>Не найдено видео</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="591"/>
+        <location filename="../ytdialog.cpp" line="597"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Не найдено видео для &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="669"/>
+        <location filename="../ytdialog.cpp" line="675"/>
         <source>&amp;Play video</source>
         <translation>&amp;Воспроизвести видео</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="670"/>
+        <location filename="../ytdialog.cpp" line="676"/>
         <source>&amp;Record video</source>
         <translation>&amp;Записать видео</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="671"/>
+        <location filename="../ytdialog.cpp" line="677"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Смотреть на YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="672"/>
+        <location filename="../ytdialog.cpp" line="678"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Копировать ссылку</translation>
     </message>
@@ -579,7 +587,7 @@
         <translation>Назад</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="756"/>
+        <location filename="../ytdialog.cpp" line="762"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
