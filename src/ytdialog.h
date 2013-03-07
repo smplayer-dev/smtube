@@ -153,7 +153,7 @@ public:
         Viewed,
 
         Popular,
-        ViewedButton,
+        Featured,
         Rated
     };
 

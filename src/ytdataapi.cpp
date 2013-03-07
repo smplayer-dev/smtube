@@ -44,8 +44,8 @@ int YTDataAPI::getMost(int tab, QString searchTerm)
         return getXmlResponse("http://gdata.youtube.com/feeds/api/standardfeeds/most_popular?time=this_week");
     else if(tab == YTDialog::Rated)
         return getXmlResponse("http://gdata.youtube.com/feeds/api/standardfeeds/top_rated?time=this_week");
-    else if(tab == YTDialog::ViewedButton)
-        return getXmlResponse("http://gdata.youtube.com/feeds/api/standardfeeds/most_viewed?time=this_week");
+    else if(tab == YTDialog::Featured)
+        return getXmlResponse("http://gdata.youtube.com/feeds/api/standardfeeds/recently_featured");
     else if(tab == YTDialog::Relevant)
         return  getXmlResponse("http://gdata.youtube.com/feeds/api/videos?v=2&start-index=1&results=25&orderby=relevance&q=" + searchTerm);
     else if(tab == YTDialog::Recent)
