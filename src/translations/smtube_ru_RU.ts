@@ -118,7 +118,7 @@
     <message>
         <location filename="../about.cpp" line="120"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>Иврит</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -485,7 +485,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="270"/>
         <source>Show recordings</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать записи</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="435"/>
@@ -510,7 +510,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Recently Featured</source>
-        <translation type="unfinished"></translation>
+        <translation>Рекомендованные</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="455"/>
@@ -544,7 +544,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="468"/>
         <source>Videos recently featured on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Рекомендованные видео на YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
