@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="lt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -376,11 +374,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="421"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% iš %n video - Įrašai</numerusform>
-            <numerusform>%1% iš %n video - Įrašai</numerusform>
-            <numerusform>%1% iš %n video - Įrašai</numerusform>
-        </translation>
+        <translation><numerusform>%1% iš %n video - Įrašai</numerusform><numerusform>%1% iš %n video - Įrašai</numerusform><numerusform>%1% iš %n video - Įrašai</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="506"/>
@@ -482,7 +476,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Recently Featured</source>
-        <translation type="unfinished"></translation>
+        <translation>Nesenai pridėti</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="455"/>
@@ -500,10 +494,6 @@
         <translation>Geriausiai įvertinti YouTube%1 video</translation>
     </message>
     <message>
-        <source>Most viewed videos on YouTube%1</source>
-        <translation type="obsolete">Daugiausiai peržiūrėti YouTube%1 video</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="587"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Klaida: nepavyko prisijungti prie YouTube serverio.</translation>
@@ -516,7 +506,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="468"/>
         <source>Videos recently featured on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nesenai pridėti YouTube%1 video</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
