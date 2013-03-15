@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="gl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>About</name>
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About...</source>
-        <translation>Sobre…</translation>
+        <translation>Acerca de...</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
@@ -33,7 +31,7 @@
     <message>
         <location filename="../about.cpp" line="33"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation>Explorador de YouTube%1 para SMPlayer</translation>
+        <translation>Navegador de YouTube%1 para SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="35"/>
@@ -58,67 +56,67 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>Visit our web for updates:</source>
-        <translation>Visite o noso sitio web para informarse sobre actualizacións:</translation>
+        <translation>Visita o noso sitio web para informarte sobre das actualizacións:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="107"/>
         <source>The following people have contributed with translations:</source>
-        <translation>As seguintes persoas colaboraron con traducións:</translation>
+        <translation>As seguintes persoas colaboraron facendo as traducións:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="109"/>
         <source>Spanish</source>
-        <translation>Castelán</translation>
+        <translation>castelán</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Russian</source>
-        <translation>Ruso</translation>
+        <translation>ruso</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="111"/>
         <source>Lithuanian</source>
-        <translation>Lituano</translation>
+        <translation>lituano</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>Japanese</source>
-        <translation>Xaponés</translation>
+        <translation>xaponés</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="113"/>
         <source>Simplified-Chinese</source>
-        <translation>Chinés simplificado</translation>
+        <translation>chinés simplificado</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="114"/>
         <source>Basque</source>
-        <translation>Éuscara</translation>
+        <translation>éuscara</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="115"/>
         <source>Portuguese</source>
-        <translation>Portugués</translation>
+        <translation>portugués</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>Hungarian</source>
-        <translation>Húngaro</translation>
+        <translation>húngaro</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
         <source>Polish</source>
-        <translation>Polaco</translation>
+        <translation>polaco</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="119"/>
         <source>Greek</source>
-        <translation>Grego</translation>
+        <translation>grego</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="120"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>Hebreo</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="144"/>
@@ -128,7 +126,7 @@
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Galician</source>
-        <translation>Galego</translation>
+        <translation>galego</translation>
     </message>
     <message>
         <location filename="../about.ui" line="201"/>
@@ -138,12 +136,12 @@
     <message>
         <location filename="../about.cpp" line="63"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation>Fundado en febreiro de 2005, YouTube&amp;trade; é a comunidade de vídeo máis popular de internet, e permite a millóns de persoas descubrir, ver e compartir os seus vídeos. YouTube&amp;trade; é un foro no que a xente conecta, se informa, e inspira a outras persoas de todas as partes do mundo, servindo ademais de plataforma de distribución de contidos para os autores e os anunciantes, grandes e pequenos.</translation>
+        <translation>Fundado en febreiro de 2005, YouTube&amp;trade; é a comunidade de vídeo máis popular de internet, e permítelle a millóns de persoas descubrir, ver e compartir os seus vídeos. YouTube&amp;trade; é un foro no que a xente se conecta, infórmase, e inspira a outras persoas de todas as partes do mundo, servindo ademais de plataforma de distribución de contidos para os autores e os anunciantes, tanto os grandes coma os pequenos.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation>O uso deste aplicativo implica a aceptación das condicións dos servizos de Google, ás que poderá acceder desde «%1».</translation>
+        <translation>O uso deste aplicativo implica a aceptación das condicións dos servizos de Google, ás que podes acceder desde «%1».</translation>
     </message>
 </context>
 <context>
@@ -184,7 +182,7 @@
         <location filename="../configdialog.ui" line="69"/>
         <location filename="../configdialog.cpp" line="117"/>
         <source>Full HD (1080p)</source>
-        <translation>Full HD (1080p)</translation>
+        <translation>HD máxima (1080p)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="90"/>
@@ -257,12 +255,12 @@
     <message>
         <location filename="../downloadfile.cpp" line="130"/>
         <source>%1 of %2 MB</source>
-        <translation>%1 de %2 MiB</translation>
+        <translation>%1 de %2 MB</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="136"/>
         <source>%1 of %2 KB</source>
-        <translation>%1 de %2 kiB</translation>
+        <translation>%1 de %2 KB</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="142"/>
@@ -277,12 +275,12 @@
     <message>
         <location filename="../downloadfile.cpp" line="151"/>
         <source>%1 MB/sec</source>
-        <translation>%1 MiB/s</translation>
+        <translation>%1 MB/s</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="155"/>
         <source>%1 KB/sec</source>
-        <translation>%1 kiB/s</translation>
+        <translation>%1 KB/s</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="159"/>
@@ -295,7 +293,7 @@
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation>Prema para escoller un ficheiro ou cartafol</translation>
+        <translation>Preme para escoller un ficheiro ou cartafol</translation>
     </message>
 </context>
 <context>
@@ -313,12 +311,12 @@
     <message>
         <location filename="../recordingdialog.cpp" line="150"/>
         <source>%1 MB</source>
-        <translation>%1 MiB</translation>
+        <translation>%1 MB</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="154"/>
         <source>%1 KB</source>
-        <translation>%1 kiB</translation>
+        <translation>%1 KB</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="158"/>
@@ -332,7 +330,7 @@
         <location filename="../recordingdialog.cpp" line="204"/>
         <location filename="../recordingdialog.cpp" line="417"/>
         <source>Recordings</source>
-        <translation>Descargas</translation>
+        <translation>Gravacións</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="205"/>
@@ -376,10 +374,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="421"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% de %n vídeos — Descargas</numerusform>
-            <numerusform>%1% de %n vídeos — Descargas</numerusform>
-        </translation>
+        <translation><numerusform>%1% de %n vídeos - Gravacións</numerusform><numerusform>%1% de %n vídeos - Gravacións</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="506"/>
@@ -400,7 +395,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="525"/>
         <source>&amp;Retry</source>
-        <translation>&amp;Volver intentar</translation>
+        <translation>&amp;Volver a intentar</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="545"/>
@@ -425,7 +420,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="643"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
-        <translation>O ficheiro non existe, quere quitalo da lista?</translation>
+        <translation>O ficheiro non existe. Queres quitalo da lista?</translation>
     </message>
 </context>
 <context>
@@ -441,12 +436,12 @@
     <message>
         <location filename="../ytdialog.cpp" line="210"/>
         <source>YouTube Browser - SMPlayer</source>
-        <translation>Explorador de YouTube — SMPlayer</translation>
+        <translation>Navegador de YouTube — SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="258"/>
         <source>Settings</source>
-        <translation>Configuración</translation>
+        <translation>Configuracións</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="264"/>
@@ -456,7 +451,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="270"/>
         <source>Show recordings</source>
-        <translation type="unfinished"></translation>
+        <translation>Amosar as gravacións</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="435"/>
@@ -481,7 +476,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Recently Featured</source>
-        <translation type="unfinished"></translation>
+        <translation>Destacados recentemente</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="455"/>
@@ -499,10 +494,6 @@
         <translation>Vídeo mellor puntuados en YouTube%1</translation>
     </message>
     <message>
-        <source>Most viewed videos on YouTube%1</source>
-        <translation type="obsolete">Vídeos máis vistos en YouTube%1</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="587"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Non foi posíbel conectarse ao servidor de YouTube.</translation>
@@ -515,7 +506,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="468"/>
         <source>Videos recently featured on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Vídeos recentemente destacados no YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -535,7 +526,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="676"/>
         <source>&amp;Record video</source>
-        <translation>&amp;Descargar</translation>
+        <translation>&amp;Gravar o vídeo</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="677"/>
