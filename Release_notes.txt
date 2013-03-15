@@ -5,7 +5,8 @@ Version 1.6
    (the most viewed list is deprecated by youtube).
  * The list of recordings is now saved.
  * A button has been added to open the list of recordings.
- * New translation: Hebrew.
+ * New translations: Hebrew, Portuguese (Brazil), Ukrainian and
+   Norwegian Nynorsk.
 
 
 Version 1.5
