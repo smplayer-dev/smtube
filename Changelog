@@ -3,6 +3,8 @@ Version 1.6:
 (2013-03-15)
  * Add the Portuguese (Brazil) translation, by 
    Maico Sertório (https://www.transifex.com/accounts/profile/aramaicus/)
+ * Add the Ukrainian translation by zubr139 
+   (https://www.transifex.com/accounts/profile/zubr139/)
 
 (2013-03-07)
  * Fix: the most popular list were never refreshed.
