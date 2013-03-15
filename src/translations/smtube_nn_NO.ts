@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nn_NO" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="nn_NO">
 <context>
     <name>About</name>
     <message>
@@ -119,7 +121,22 @@
         <translation>Hebraisk</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="144"/>
+        <location filename="../about.cpp" line="121"/>
+        <source>Portuguese (Brazil)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="122"/>
+        <source>Ukrainian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="123"/>
+        <source>Norwegian Nynorsk</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="147"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -374,7 +391,10 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="421"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>%1% av %n video - Opptak</numerusform><numerusform>%1% av %n videar - Opptak</numerusform></translation>
+        <translation>
+            <numerusform>%1% av %n video - Opptak</numerusform>
+            <numerusform>%1% av %n videar - Opptak</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="506"/>
@@ -476,7 +496,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Recently Featured</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="455"/>
@@ -506,7 +526,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="468"/>
         <source>Videos recently featured on YouTube%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
