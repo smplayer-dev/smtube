@@ -1,5 +1,9 @@
 Version 1.6:
 
+(2013-03-15)
+ * Add the Portuguese (Brazil) translation, by 
+   Maico Sertório (https://www.transifex.com/accounts/profile/aramaicus/)
+
 (2013-03-07)
  * Fix: the most popular list were never refreshed.
  * Replace the most viewed videos for recently featured 

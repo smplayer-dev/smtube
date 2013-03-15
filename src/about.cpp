@@ -118,6 +118,7 @@ QString About::getTranslators() {
          trad(tr("Galician"), QString::fromUtf8("Adrián Chaves Fernández <adriyetichaves@gmail.com>")) +
          trad(tr("Greek"), "dglent") +
          trad(tr("Hebrew"), "Genghis Khan <genghiskhan@gmx.ca>") +
+         trad(tr("Portuguese (Brazil)"), QString::fromUtf8("Maico Sertório (transifex)")) +
          "");
 }
 
