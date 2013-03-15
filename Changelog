@@ -1,5 +1,10 @@
 Version 1.6:
 
+(2013-03-07)
+ * Fix: the most popular list were never refreshed.
+ * Replace the most viewed videos for recently featured 
+   (most viewed is deprecated).
+
 (2013-02-26)
  * Save the recording list.
  * Add a button to open the recording dialog.
