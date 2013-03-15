@@ -1,3 +1,13 @@
+Version 1.6
+
+ * The most popular video list was never refreshed, this is now fixed.
+ * The most viewed video list has been replaced for recently featured
+   (the most viewed list is deprecated by youtube).
+ * The list of recordings is now saved.
+ * A button has been added to open the list of recordings.
+ * New translation: Hebrew.
+
+
 Version 1.5
 
 * Adapt for Youtube changes.
