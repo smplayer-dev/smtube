@@ -118,22 +118,22 @@
     <message>
         <location filename="../about.cpp" line="120"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>ヘブライ語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="121"/>
         <source>Portuguese (Brazil)</source>
-        <translation type="unfinished"></translation>
+        <translation>ポルトガル語 (ブラジル)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>ウクライナ語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>ノルウェー語 (ニノーシュク)</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -499,7 +499,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="270"/>
         <source>Show recordings</source>
-        <translation type="unfinished"></translation>
+        <translation>録画の表示</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="435"/>
@@ -519,12 +519,12 @@
     <message>
         <location filename="../ytdialog.cpp" line="447"/>
         <source>Most Popular</source>
-        <translation>話題の動画</translation>
+        <translation>人気の動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Recently Featured</source>
-        <translation type="unfinished"></translation>
+        <translation>最近の注目動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="455"/>
@@ -534,7 +534,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="466"/>
         <source>Most popular videos on YouTube%1</source>
-        <translation>YouTube%1 の話題の動画</translation>
+        <translation>YouTube%1 の人気の動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="467"/>
@@ -558,7 +558,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="468"/>
         <source>Videos recently featured on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube%1 の最近の注目動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
