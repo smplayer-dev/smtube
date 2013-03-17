@@ -9,7 +9,7 @@ Version 1.6:
    (https://www.transifex.com/accounts/profile/bjorni/)
 
 (2013-03-07)
- * Fix: the most popular list were never refreshed.
+ * Fix: the most popular list was never refreshed.
  * Replace the most viewed videos for recently featured 
    (most viewed is deprecated).
 
