@@ -1,3 +1,15 @@
+smtube (1.6) precise; urgency=low
+
+  * The most popular video list is now refreshed.
+  * The most viewed video list has been replaced for recently featured
+    (the most viewed list is deprecated by youtube).
+  * The list of recordings is now saved.
+  * A button has been added to open the list of recordings.
+  * New translations: Hebrew, Portuguese (Brazil), Ukrainian and
+    Norwegian Nynorsk.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 17 Mar 2013 23:36:06 +0100
+
 smtube (1.5) precise; urgency=low
 
   * Adapt for Youtube changes.
