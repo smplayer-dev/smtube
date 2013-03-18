@@ -118,22 +118,22 @@
     <message>
         <location filename="../about.cpp" line="120"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>Hebraico</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="121"/>
         <source>Portuguese (Brazil)</source>
-        <translation type="unfinished"></translation>
+        <translation>Português (Brasil)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ucraniano</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Noruegês Nynorsk</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -499,7 +499,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="270"/>
         <source>Show recordings</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar gravações</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="435"/>
@@ -524,7 +524,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Recently Featured</source>
-        <translation type="unfinished"></translation>
+        <translation>Especiais</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="455"/>
@@ -558,7 +558,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="468"/>
         <source>Videos recently featured on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Vídeos especiais no  YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
