@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt_BR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_BR" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -123,17 +121,17 @@
     <message>
         <location filename="../about.cpp" line="121"/>
         <source>Portuguese (Brazil)</source>
-        <translation type="unfinished"></translation>
+        <translation>Português - Brasil</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ucraniano</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Norueguês</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
@@ -391,10 +389,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="421"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>um: %1% de %n vídeos - Gravações</numerusform>
-            <numerusform>outro: %1% de %n vídeos - Gravações</numerusform>
-        </translation>
+        <translation><numerusform>um: %1% de %n vídeos - Gravações</numerusform><numerusform>outro: %1% de %n vídeos - Gravações</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="506"/>
