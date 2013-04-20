@@ -522,9 +522,8 @@
         <translation>Más Popular</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="451"/>
         <source>Recently Featured</source>
-        <translation>Últimos destacados</translation>
+        <translation type="obsolete">Últimos destacados</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="455"/>
@@ -556,9 +555,8 @@
         <translation>YouTube%2 resultados de &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="468"/>
         <source>Videos recently featured on YouTube%1</source>
-        <translation>Últimos vídeos destacados en YouTube%1</translation>
+        <translation type="obsolete">Últimos vídeos destacados en YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -599,6 +597,16 @@
         <location filename="../ytdialog.cpp" line="239"/>
         <source>Previous</source>
         <translation>Anterior</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="451"/>
+        <source>Music Top Rated</source>
+        <translation>Música</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation>Vídeos musicales mejor calificados esta semana en YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>
