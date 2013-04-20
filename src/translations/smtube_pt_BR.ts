@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_BR" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="pt_BR">
 <context>
     <name>About</name>
     <message>
@@ -389,7 +391,10 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="421"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>um: %1% de %n vídeos - Gravações</numerusform><numerusform>outro: %1% de %n vídeos - Gravações</numerusform></translation>
+        <translation>
+            <numerusform>um: %1% de %n vídeos - Gravações</numerusform>
+            <numerusform>outro: %1% de %n vídeos - Gravações</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="506"/>
@@ -489,9 +494,8 @@
         <translation>Mais popular</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="451"/>
         <source>Recently Featured</source>
-        <translation>Recursos adicionados recentemente</translation>
+        <translation type="obsolete">Recursos adicionados recentemente</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="455"/>
@@ -509,6 +513,11 @@
         <translation>Vídeos mais votados no Youtube %1</translation>
     </message>
     <message>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../ytdialog.cpp" line="587"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Erro: Não foi possível se conectar ao servidor do Youtube.</translation>
@@ -519,9 +528,8 @@
         <translation>YouTube%2 resultados para &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="468"/>
         <source>Videos recently featured on YouTube%1</source>
-        <translation>Vídeos adicionados recentemente no YouTube%1</translation>
+        <translation type="obsolete">Vídeos adicionados recentemente no YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -562,6 +570,11 @@
         <location filename="../ytdialog.cpp" line="239"/>
         <source>Previous</source>
         <translation>Anterior</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="451"/>
+        <source>Music Top Rated</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>

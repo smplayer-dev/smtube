@@ -505,7 +505,12 @@
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
-        <source>Recently Featured</source>
+        <source>Music Top Rated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -522,11 +527,6 @@
         <location filename="../ytdialog.cpp" line="467"/>
         <source>Most rated videos on YouTube%1</source>
         <translation>Τα πιο βαθμολογημένα βίντεο στο YouTube%1</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="468"/>
-        <source>Videos recently featured on YouTube%1</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Most viewed videos on YouTube%1</source>

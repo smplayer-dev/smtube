@@ -494,9 +494,8 @@
         <translation>Máis populares</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="451"/>
         <source>Recently Featured</source>
-        <translation>Destacados recentemente</translation>
+        <translation type="obsolete">Destacados recentemente</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="455"/>
@@ -514,6 +513,11 @@
         <translation>Vídeo mellor puntuados en YouTube%1</translation>
     </message>
     <message>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../ytdialog.cpp" line="587"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Non foi posíbel conectarse ao servidor de YouTube.</translation>
@@ -524,9 +528,8 @@
         <translation>Resultados de YouTube%2 para «%1».</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="468"/>
         <source>Videos recently featured on YouTube%1</source>
-        <translation>Vídeos recentemente destacados no YouTube%1</translation>
+        <translation type="obsolete">Vídeos recentemente destacados no YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -567,6 +570,11 @@
         <location filename="../ytdialog.cpp" line="239"/>
         <source>Previous</source>
         <translation>Anterior</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="451"/>
+        <source>Music Top Rated</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>
