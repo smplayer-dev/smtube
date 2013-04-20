@@ -495,9 +495,8 @@
         <translation>Populiarumas</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="451"/>
         <source>Recently Featured</source>
-        <translation>Nesenai pridėti</translation>
+        <translation type="obsolete">Nesenai pridėti</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="455"/>
@@ -515,6 +514,11 @@
         <translation>Geriausiai įvertinti YouTube%1 video</translation>
     </message>
     <message>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../ytdialog.cpp" line="587"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Klaida: nepavyko prisijungti prie YouTube serverio.</translation>
@@ -525,9 +529,8 @@
         <translation>YouTube%2 rezultatai atitinkantys „%1“</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="468"/>
         <source>Videos recently featured on YouTube%1</source>
-        <translation>Nesenai pridėti YouTube%1 video</translation>
+        <translation type="obsolete">Nesenai pridėti YouTube%1 video</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -568,6 +571,11 @@
         <location filename="../ytdialog.cpp" line="239"/>
         <source>Previous</source>
         <translation>Ankstesnis</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="451"/>
+        <source>Music Top Rated</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>

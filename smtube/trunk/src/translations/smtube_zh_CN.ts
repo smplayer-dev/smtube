@@ -521,9 +521,8 @@
         <translation>最受欢迎</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="451"/>
         <source>Recently Featured</source>
-        <translation>最新精选</translation>
+        <translation type="obsolete">最新精选</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="455"/>
@@ -555,9 +554,8 @@
         <translation>&quot;%1&quot; 的 YouTube%2 结果</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="468"/>
         <source>Videos recently featured on YouTube%1</source>
-        <translation>YouTube%1 上的最新精选视频</translation>
+        <translation type="obsolete">YouTube%1 上的最新精选视频</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -598,6 +596,16 @@
         <location filename="../ytdialog.cpp" line="239"/>
         <source>Previous</source>
         <translation>上一页</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="451"/>
+        <source>Music Top Rated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>

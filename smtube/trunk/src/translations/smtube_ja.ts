@@ -522,9 +522,8 @@
         <translation>人気の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="451"/>
         <source>Recently Featured</source>
-        <translation>最近の注目動画</translation>
+        <translation type="obsolete">最近の注目動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="455"/>
@@ -556,9 +555,8 @@
         <translation>&quot;%1&quot; の YouTube%2 での検索結果</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="468"/>
         <source>Videos recently featured on YouTube%1</source>
-        <translation>YouTube%1 の最近の注目動画</translation>
+        <translation type="obsolete">YouTube%1 の最近の注目動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -599,6 +597,16 @@
         <location filename="../ytdialog.cpp" line="239"/>
         <source>Previous</source>
         <translation>前へ</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="451"/>
+        <source>Music Top Rated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>

@@ -523,9 +523,8 @@
         <translation>Популярные сейчас</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="451"/>
         <source>Recently Featured</source>
-        <translation>Рекомендованные</translation>
+        <translation type="obsolete">Рекомендованные</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="455"/>
@@ -557,9 +556,8 @@
         <translation>Результаты YouTube%2 для &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="468"/>
         <source>Videos recently featured on YouTube%1</source>
-        <translation>Рекомендованные видео на YouTube%1</translation>
+        <translation type="obsolete">Рекомендованные видео на YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -600,6 +598,16 @@
         <location filename="../ytdialog.cpp" line="239"/>
         <source>Previous</source>
         <translation>Назад</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="451"/>
+        <source>Music Top Rated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>

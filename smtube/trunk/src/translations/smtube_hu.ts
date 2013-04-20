@@ -408,7 +408,7 @@
     </message>
     <message>
         <source>Videos recently featured on YouTube%1</source>
-        <translation>Legújabb videók a YouTube-on%1</translation>
+        <translation type="obsolete">Legújabb videók a YouTube-on%1</translation>
     </message>
     <message>
         <source>&amp;Copy link</source>
@@ -444,7 +444,7 @@
     </message>
     <message>
         <source>Recently Featured</source>
-        <translation>Nemrég kiemelt</translation>
+        <translation type="obsolete">Nemrég kiemelt</translation>
     </message>
     <message>
         <source>&amp;Record video</source>
@@ -453,6 +453,14 @@
     <message>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Nincs videotalálat a következő keresésre: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Music Top Rated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
