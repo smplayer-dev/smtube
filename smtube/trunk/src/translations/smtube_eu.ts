@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="eu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="eu" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -134,26 +132,6 @@
         <location filename="../about.cpp" line="123"/>
         <source>Norwegian Nynorsk</source>
         <translation>Norbegiar Nynorskera</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 eta %2</translation>
-    </message>
-    <message>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2 eta %3</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3 and %4</source>
-        <translation type="obsolete">%1, %2, %3 eta %4</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3, %4 and %5</source>
-        <translation type="obsolete">%1, %2, %3, %4 eta %5</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
@@ -411,10 +389,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="421"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% %n-tik  bideo - Grabaketa</numerusform>
-            <numerusform>%1% %n-tik bideo - Grabaketa</numerusform>
-        </translation>
+        <translation><numerusform>%1% %n-tik  bideo - Grabaketa</numerusform><numerusform>%1% %n-tik bideo - Grabaketa</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="506"/>
@@ -479,14 +454,6 @@
         <translation>YouTube Nabigatzailea - SM Irakurgailuarentzat</translation>
     </message>
     <message>
-        <source>&amp;Next</source>
-        <translation type="obsolete">&amp;Hurrengoa</translation>
-    </message>
-    <message>
-        <source>&amp;Previous</source>
-        <translation type="obsolete">A&amp;urrekoa</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="258"/>
         <source>Settings</source>
         <translation>Ezarpenak</translation>
@@ -522,10 +489,6 @@
         <translation>Ezagunenak</translation>
     </message>
     <message>
-        <source>Recently Featured</source>
-        <translation type="obsolete">Azken Aurkezpenak</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="455"/>
         <source>Most Rated</source>
         <translation>Mailatuenak</translation>
@@ -541,8 +504,9 @@
         <translation>Bideo mailatuenak YouTube%1-ean</translation>
     </message>
     <message>
-        <source>Most viewed videos on YouTube%1</source>
-        <translation type="obsolete">Bideo ikusienak YouTube%1-ean</translation>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation>Aste honetan YouTube%1 hobekien mailatuak</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="587"/>
@@ -553,10 +517,6 @@
         <location filename="../ytdialog.cpp" line="471"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 emaitz &quot;%1&quot;-rako</translation>
-    </message>
-    <message>
-        <source>Videos recently featured on YouTube%1</source>
-        <translation type="obsolete">YouTube%1-ko azken bideo aurkezpenak</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -601,12 +561,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Music Top Rated</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="468"/>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hobekine Mailaturiko Musika</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>
