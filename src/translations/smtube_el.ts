@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="el_GR">
+<TS version="2.0" language="el">
 <context>
     <name>About</name>
     <message>
@@ -31,11 +31,6 @@
         <translation>&amp;Άδεια χρήσης</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="201"/>
-        <source>&amp;Youtube</source>
-        <translation>&amp;Youtube</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="33"/>
         <source>YouTube%1 Browser for SMPlayer</source>
         <translation>Περιηγητής YouTube%1 για το SMPlayer</translation>
@@ -64,16 +59,6 @@
         <location filename="../about.cpp" line="44"/>
         <source>Visit our web for updates:</source>
         <translation>Επισκεφτείτε την ιστοσελίδα μας για ενημερώσεις:</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="63"/>
-        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation>Το YouTube&amp;trade; δημιουργήθηκε τον Φεβρουάριο του 2005, είναι η πιο δημοφιλής διαδικτυακή κοινότητα βίντεο και επιτρέπει σε εκατομμύρια ανθρώπους να ανακαλύψουν, να δουν και να μοιραστούν τα δικά τους βίντεο. Το YouTube&amp;trade; παρέχει ένα φόρουμ όπου μπορούν να συνδεθούν οι χρήστες, και εμπνέει πολύ κόσμο σε όλον τον πλανήτη και λειτουργεί ως πλατφόρμα διανομής για τους δημιουργούς και διαφημιστές μικρούς και μεγάλους.</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="69"/>
-        <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation>Με τη χρήση αυτής της εφαρμογής συμφωνείτε με τους όρους χρήσης υπηρεσιών της Google που βρίσκονται εδώ %1.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="107"/>
@@ -126,11 +111,6 @@
         <translation>Πολωνικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="118"/>
-        <source>Galician</source>
-        <translation>Γαλικιανά</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="119"/>
         <source>Greek</source>
         <translation type="unfinished"></translation>
@@ -156,9 +136,39 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
+        <location filename="../about.cpp" line="124"/>
+        <source>Czech</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="125"/>
+        <source>Malay</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="149"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="118"/>
+        <source>Galician</source>
+        <translation>Γαλικιανά</translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="201"/>
+        <source>&amp;Youtube</source>
+        <translation>&amp;Youtube</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="63"/>
+        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
+        <translation>Το YouTube&amp;trade; δημιουργήθηκε τον Φεβρουάριο του 2005, είναι η πιο δημοφιλής διαδικτυακή κοινότητα βίντεο και επιτρέπει σε εκατομμύρια ανθρώπους να ανακαλύψουν, να δουν και να μοιραστούν τα δικά τους βίντεο. Το YouTube&amp;trade; παρέχει ένα φόρουμ όπου μπορούν να συνδεθούν οι χρήστες, και εμπνέει πολύ κόσμο σε όλον τον πλανήτη και λειτουργεί ως πλατφόρμα διανομής για τους δημιουργούς και διαφημιστές μικρούς και μεγάλους.</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="69"/>
+        <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
+        <translation>Με τη χρήση αυτής της εφαρμογής συμφωνείτε με τους όρους χρήσης υπηρεσιών της Google που βρίσκονται εδώ %1.</translation>
     </message>
 </context>
 <context>
@@ -245,11 +255,6 @@
 <context>
     <name>DownloadFile</name>
     <message>
-        <location filename="../downloadfile.cpp" line="108"/>
-        <source>unknown time remaining</source>
-        <translation>άγνωστος εναπομείνας χρόνος</translation>
-    </message>
-    <message>
         <location filename="../downloadfile.cpp" line="115"/>
         <source>%1 hours</source>
         <translation>%1 ώρες</translation>
@@ -258,6 +263,11 @@
         <location filename="../downloadfile.cpp" line="121"/>
         <source>%1 minutes</source>
         <translation>%1 λεπτά</translation>
+    </message>
+    <message>
+        <location filename="../downloadfile.cpp" line="108"/>
+        <source>unknown time remaining</source>
+        <translation>άγνωστος εναπομείνας χρόνος</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="124"/>
@@ -363,14 +373,14 @@
     <message>
         <location filename="../recordingdialog.cpp" line="287"/>
         <location filename="../recordingdialog.cpp" line="682"/>
-        <source>Recording failed</source>
-        <translation>Η λήψη απέτυχε</translation>
+        <source>There was an error in retrieving the download URL.</source>
+        <translation>Παρουσιάστηκε ένα σφάλμα κατά την ανάκτηση του URL λήψης.</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="287"/>
         <location filename="../recordingdialog.cpp" line="682"/>
-        <source>There was an error in retrieving the download URL.</source>
-        <translation>Παρουσιάστηκε ένα σφάλμα κατά την ανάκτηση του URL λήψης.</translation>
+        <source>Recording failed</source>
+        <translation>Η λήψη απέτυχε</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="305"/>
@@ -407,15 +417,15 @@
         <translation>&amp;Αφαίρεση από τη λίστα</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="525"/>
-        <source>&amp;Retry</source>
-        <translation>&amp;Επανάληψη</translation>
-    </message>
-    <message>
         <location filename="../recordingdialog.cpp" line="527"/>
         <location filename="../recordingdialog.cpp" line="549"/>
         <source>Remove from &amp;list</source>
         <translation>Αφαίρεση από τη &amp;λίστα</translation>
+    </message>
+    <message>
+        <location filename="../recordingdialog.cpp" line="525"/>
+        <source>&amp;Retry</source>
+        <translation>&amp;Επανάληψη</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="545"/>
@@ -459,16 +469,6 @@
         <translation>Περιηγητής YouTube - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="233"/>
-        <source>Next</source>
-        <translation>Επόμενο</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="239"/>
-        <source>Previous</source>
-        <translation>Προηγούμενο</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="258"/>
         <source>Settings</source>
         <translation>Ρυθμίσεις</translation>
@@ -504,16 +504,6 @@
         <translation>Τα πιο δημοφιλή</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="451"/>
-        <source>Music Top Rated</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="468"/>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="455"/>
         <source>Most Rated</source>
         <translation>Τα πιο βαθμολογημένα</translation>
@@ -529,18 +519,19 @@
         <translation>Τα πιο βαθμολογημένα βίντεο στο YouTube%1</translation>
     </message>
     <message>
-        <source>Most viewed videos on YouTube%1</source>
-        <translation type="obsolete">Τα περισσότερο προβαλλόμενα βίντεο στο YouTube%1</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="471"/>
-        <source>YouTube%2 results for &quot;%1&quot;</source>
-        <translation>Αποτελέσματα YouTube%2 για «%1»</translation>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="587"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Σφάλμα: Αδύνατη η σύνδεση με τον εξυπηρετητή του Youtube.</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="471"/>
+        <source>YouTube%2 results for &quot;%1&quot;</source>
+        <translation>Αποτελέσματα YouTube%2 για «%1»</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -571,6 +562,21 @@
         <location filename="../ytdialog.cpp" line="678"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Αντιγραφή συνδέσμου</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="233"/>
+        <source>Next</source>
+        <translation>Επόμενο</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="239"/>
+        <source>Previous</source>
+        <translation>Προηγούμενο</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="451"/>
+        <source>Music Top Rated</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>
