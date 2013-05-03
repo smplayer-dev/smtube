@@ -136,6 +136,36 @@
         <translation>Nynorsk</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="124"/>
+        <source>Czech</source>
+        <translation>Checo</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="125"/>
+        <source>Malay</source>
+        <translation>Malayo</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="126"/>
+        <source>Swedish</source>
+        <translation>Sueco</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="127"/>
+        <source>Turkish</source>
+        <translation>Turco</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="128"/>
+        <source>Finnish</source>
+        <translation>Finés</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="129"/>
+        <source>Georgian</source>
+        <translation>Georgiano</translation>
+    </message>
+    <message>
         <source>%1 and %2</source>
         <translation type="obsolete">%1y %2</translation>
     </message>
@@ -156,7 +186,7 @@
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
+        <location filename="../about.cpp" line="153"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
