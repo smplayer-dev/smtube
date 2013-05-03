@@ -136,7 +136,27 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
+        <location filename="../about.cpp" line="124"/>
+        <source>Czech</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="125"/>
+        <source>Malay</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="126"/>
+        <source>Swedish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="127"/>
+        <source>Turkish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="151"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -509,8 +529,9 @@
         <translation>הסרטונים הכי מדורגים אצל YouTube%1</translation>
     </message>
     <message>
-        <source>Most viewed videos on YouTube%1</source>
-        <translation type="obsolete">הסרטונים הכי נצפים אצל YouTube%1</translation>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="587"/>
@@ -565,11 +586,6 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Music Top Rated</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="468"/>
-        <source>Most rated music videos this week on YouTube%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
