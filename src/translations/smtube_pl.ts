@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="pl_PL">
+<TS version="2.0" language="pl">
 <context>
     <name>About</name>
     <message>
@@ -136,7 +136,37 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
+        <location filename="../about.cpp" line="124"/>
+        <source>Czech</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="125"/>
+        <source>Malay</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="126"/>
+        <source>Swedish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="127"/>
+        <source>Turkish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="128"/>
+        <source>Finnish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="129"/>
+        <source>Georgian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="153"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -250,18 +280,14 @@
         <translation>%1 godz.</translation>
     </message>
     <message>
-        <source>%1 mintes</source>
-        <translation type="obsolete">%1 mint</translation>
+        <location filename="../downloadfile.cpp" line="121"/>
+        <source>%1 minutes</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="108"/>
         <source>unknown time remaining</source>
         <translation>nieznany czas zakończenia</translation>
-    </message>
-    <message>
-        <location filename="../downloadfile.cpp" line="121"/>
-        <source>%1 minutes</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="124"/>
@@ -395,7 +421,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="421"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
+        <translation type="unfinished">
             <numerusform>%1% z %n video - Zapisane</numerusform>
             <numerusform>%1% z %n video - Zapisane</numerusform>
             <numerusform></numerusform>
@@ -464,14 +490,6 @@
         <translation>Przeglądanie YouTube w SMPlayer</translation>
     </message>
     <message>
-        <source>&amp;Next</source>
-        <translation type="obsolete">&amp;Następny</translation>
-    </message>
-    <message>
-        <source>&amp;Previous</source>
-        <translation type="obsolete">&amp;Poprzedni</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="258"/>
         <source>Settings</source>
         <translation>Opcje</translation>
@@ -522,8 +540,9 @@
         <translation>Oceniane video na YouTube%1</translation>
     </message>
     <message>
-        <source>Most viewed videos on YouTube%1</source>
-        <translation type="obsolete">Oglądane video na YouTube%1</translation>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="587"/>
@@ -578,11 +597,6 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Music Top Rated</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="468"/>
-        <source>Most rated music videos this week on YouTube%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
