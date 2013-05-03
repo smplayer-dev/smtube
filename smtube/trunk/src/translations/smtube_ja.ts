@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="en_US">
+<TS version="2.0" language="ja">
 <context>
     <name>About</name>
     <message>
@@ -134,26 +134,6 @@
         <location filename="../about.cpp" line="123"/>
         <source>Norwegian Nynorsk</source>
         <translation>ノルウェー語 (ニノーシュク)</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 および %2</translation>
-    </message>
-    <message>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1、%2 および %3</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3 and %4</source>
-        <translation type="obsolete">%1、%2、%3 および %4</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3, %4 and %5</source>
-        <translation type="obsolete">%1、%2、%3、%4 および %5</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
@@ -413,7 +393,6 @@
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%n 動画の %1% - 録画</numerusform>
-            <numerusform>%n 動画の %1% - 録画</numerusform>
         </translation>
     </message>
     <message>
@@ -479,14 +458,6 @@
         <translation>YouTube ブラウザー - SMPlayer</translation>
     </message>
     <message>
-        <source>&amp;Next</source>
-        <translation type="obsolete">次へ(&amp;N)</translation>
-    </message>
-    <message>
-        <source>&amp;Previous</source>
-        <translation type="obsolete">前へ(&amp;P)</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="258"/>
         <source>Settings</source>
         <translation>設定</translation>
@@ -522,10 +493,6 @@
         <translation>人気の動画</translation>
     </message>
     <message>
-        <source>Recently Featured</source>
-        <translation type="obsolete">最近の注目動画</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="455"/>
         <source>Most Rated</source>
         <translation>評価の高い動画</translation>
@@ -541,8 +508,9 @@
         <translation>YouTube%1 の評価の高い動画</translation>
     </message>
     <message>
-        <source>Most viewed videos on YouTube%1</source>
-        <translation type="obsolete">YouTube%1 の再生回数の多い動画</translation>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation>YouTube%1 の今週評価の高い音楽動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="587"/>
@@ -553,10 +521,6 @@
         <location filename="../ytdialog.cpp" line="471"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; の YouTube%2 での検索結果</translation>
-    </message>
-    <message>
-        <source>Videos recently featured on YouTube%1</source>
-        <translation type="obsolete">YouTube%1 の最近の注目動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -601,12 +565,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Music Top Rated</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="468"/>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>評価の高い音楽動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>

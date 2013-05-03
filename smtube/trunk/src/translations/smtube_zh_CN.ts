@@ -118,42 +118,22 @@
     <message>
         <location filename="../about.cpp" line="120"/>
         <source>Hebrew</source>
-        <translation>希伯来语</translation>
+        <translation>希伯来文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="121"/>
         <source>Portuguese (Brazil)</source>
-        <translation type="unfinished"></translation>
+        <translation>葡萄牙语(巴西)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukrainian</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 和 %2</translation>
-    </message>
-    <message>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1、%2 和 %3</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3 and %4</source>
-        <translation type="obsolete">%1、%2、%3 和 %4</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3, %4 and %5</source>
-        <translation type="obsolete">%1、%2、%3、%4 和 %5</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
+        <translation>挪威尼诺斯克语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
@@ -478,14 +458,6 @@
         <translation>YouTube 浏览器 - SMPlayer</translation>
     </message>
     <message>
-        <source>&amp;Next</source>
-        <translation type="obsolete">下一页(&amp;N)</translation>
-    </message>
-    <message>
-        <source>&amp;Previous</source>
-        <translation type="obsolete">上一页(&amp;P)</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="258"/>
         <source>Settings</source>
         <translation>设置</translation>
@@ -521,10 +493,6 @@
         <translation>最受欢迎</translation>
     </message>
     <message>
-        <source>Recently Featured</source>
-        <translation type="obsolete">最新精选</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="455"/>
         <source>Most Rated</source>
         <translation>最多评价</translation>
@@ -532,16 +500,17 @@
     <message>
         <location filename="../ytdialog.cpp" line="466"/>
         <source>Most popular videos on YouTube%1</source>
-        <translation>YouTube%1 上最受欢迎的视频</translation>
+        <translation>在 YouTube%1 上最受欢迎的视频</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="467"/>
         <source>Most rated videos on YouTube%1</source>
-        <translation>YouTube%1 上最多评价的视频</translation>
+        <translation>在 YouTube%1 上最多评价的视频</translation>
     </message>
     <message>
-        <source>Most viewed videos on YouTube%1</source>
-        <translation type="obsolete">YouTube%1 上最多观看的视频</translation>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation>YouTube%1 上本周最受好评的MV。</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="587"/>
@@ -552,10 +521,6 @@
         <location filename="../ytdialog.cpp" line="471"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; 的 YouTube%2 结果</translation>
-    </message>
-    <message>
-        <source>Videos recently featured on YouTube%1</source>
-        <translation type="obsolete">YouTube%1 上的最新精选视频</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -600,12 +565,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Music Top Rated</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="468"/>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>音乐评分排行</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>
