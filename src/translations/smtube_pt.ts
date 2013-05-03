@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="en_US">
+<TS version="2.0" language="pt">
 <context>
     <name>About</name>
     <message>
@@ -133,27 +133,7 @@
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Norwegian Nynorsk</source>
-        <translation>Noruegês Nynorsk</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 e %2</translation>
-    </message>
-    <message>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2 e %3</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3 and %4</source>
-        <translation type="obsolete">%1, %2, %3 e %4</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3, %4 and %5</source>
-        <translation type="obsolete">%1, %2, %3, %4 e %5</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
+        <translation>Norueguês Nynorsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
@@ -479,14 +459,6 @@
         <translation>Explorador YouTube - SMPlayer</translation>
     </message>
     <message>
-        <source>&amp;Next</source>
-        <translation type="obsolete">Segui&amp;nte</translation>
-    </message>
-    <message>
-        <source>&amp;Previous</source>
-        <translation type="obsolete">An&amp;terior</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="258"/>
         <source>Settings</source>
         <translation>Definições</translation>
@@ -522,10 +494,6 @@
         <translation>Mais populares</translation>
     </message>
     <message>
-        <source>Recently Featured</source>
-        <translation type="obsolete">Especiais</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="455"/>
         <source>Most Rated</source>
         <translation>Melhor avaliação</translation>
@@ -541,8 +509,9 @@
         <translation>Vídeos com melhor avaliação no YouTube %1</translation>
     </message>
     <message>
-        <source>Most viewed videos on YouTube%1</source>
-        <translation type="obsolete">Vídeos mais vistos no YouTube %1</translation>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation>Os melhores vídeos de música desta semana no YouTube %1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="587"/>
@@ -553,10 +522,6 @@
         <location filename="../ytdialog.cpp" line="471"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>Resultados YouTube%2 para &quot;%1&quot;</translation>
-    </message>
-    <message>
-        <source>Videos recently featured on YouTube%1</source>
-        <translation type="obsolete">Vídeos especiais no  YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -601,12 +566,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Music Top Rated</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="468"/>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Músicas com melhor avaliação</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>

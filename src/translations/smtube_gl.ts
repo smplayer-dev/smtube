@@ -123,17 +123,17 @@
     <message>
         <location filename="../about.cpp" line="121"/>
         <source>Portuguese (Brazil)</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugués do Brasil</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ucraíno</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Novo noruegués, Nynorsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
@@ -494,10 +494,6 @@
         <translation>Máis populares</translation>
     </message>
     <message>
-        <source>Recently Featured</source>
-        <translation type="obsolete">Destacados recentemente</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="455"/>
         <source>Most Rated</source>
         <translation>Mellor puntuados</translation>
@@ -515,7 +511,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="468"/>
         <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Vídeo mellor puntuados en YouTube%1 esta semana</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="587"/>
@@ -526,10 +522,6 @@
         <location filename="../ytdialog.cpp" line="471"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>Resultados de YouTube%2 para «%1».</translation>
-    </message>
-    <message>
-        <source>Videos recently featured on YouTube%1</source>
-        <translation type="obsolete">Vídeos recentemente destacados no YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -574,7 +566,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Music Top Rated</source>
-        <translation type="unfinished"></translation>
+        <translation>Música mellor puntuada</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>

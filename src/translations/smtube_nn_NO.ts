@@ -123,17 +123,17 @@
     <message>
         <location filename="../about.cpp" line="121"/>
         <source>Portuguese (Brazil)</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugisisk (Brasil)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukrainsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Norwegian Nynorsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
@@ -511,7 +511,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="468"/>
         <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Mest vurderte musikkvideoar denne veka på YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="587"/>
@@ -566,7 +566,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Music Top Rated</source>
-        <translation type="unfinished"></translation>
+        <translation>Musikk på topp</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>

@@ -123,17 +123,17 @@
     <message>
         <location filename="../about.cpp" line="121"/>
         <source>Portuguese (Brazil)</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugalų (Brazilija)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukrainiečių</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Norvegų</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
@@ -495,10 +495,6 @@
         <translation>Populiarumas</translation>
     </message>
     <message>
-        <source>Recently Featured</source>
-        <translation type="obsolete">Nesenai pridėti</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="455"/>
         <source>Most Rated</source>
         <translation>Įvertinimas</translation>
@@ -516,7 +512,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="468"/>
         <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Geriausiai įvertinti šios savaitės YouTube%1 video</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="587"/>
@@ -527,10 +523,6 @@
         <location filename="../ytdialog.cpp" line="471"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 rezultatai atitinkantys „%1“</translation>
-    </message>
-    <message>
-        <source>Videos recently featured on YouTube%1</source>
-        <translation type="obsolete">Nesenai pridėti YouTube%1 video</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -575,7 +567,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Music Top Rated</source>
-        <translation type="unfinished"></translation>
+        <translation>Geriausiai įvertinta muzika</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="762"/>
