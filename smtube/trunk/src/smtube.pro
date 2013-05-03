@@ -72,7 +72,8 @@ TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_ms_MY.ts \
                translations/smtube_sv.ts \
                translations/smtube_tr.ts \
-               translations/smtube_fi.ts
+               translations/smtube_fi.ts \
+               translations/smtube_ka.ts
 
 
 # qtsingleapplication
