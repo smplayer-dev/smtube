@@ -125,6 +125,7 @@ QString About::getTranslators() {
          trad(tr("Malay"), "abuyop (transifex)") +
          trad(tr("Swedish"), QStringList() << "XC (transifex)" << "Andreas Gustafsson (transifex)") +
          trad(tr("Turkish"), QStringList() << "Emre FIRAT (transifex)" << QString::fromUtf8("Hasan Akgöz (transifex)")) +
+         trad(tr("Finnish"), QString::fromUtf8("Jiri Grönroos (transifex)")) +
          "");
 }
 
