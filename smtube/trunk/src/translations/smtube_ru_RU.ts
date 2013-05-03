@@ -123,40 +123,30 @@
     <message>
         <location filename="../about.cpp" line="121"/>
         <source>Portuguese (Brazil)</source>
-        <translation type="unfinished"></translation>
+        <translation>Португальский (Бразилия)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>Украинский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Norwegian Nynorsk</source>
+        <translation>Норвежский (Нюношк)</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="124"/>
+        <source>Czech</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 и %2</translation>
+        <location filename="../about.cpp" line="125"/>
+        <source>Malay</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2 и %3</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3 and %4</source>
-        <translation type="obsolete">%1, %2, %3 и %4</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3, %4 and %5</source>
-        <translation type="obsolete">%1, %2, %3, %4 и %5</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="147"/>
+        <location filename="../about.cpp" line="149"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -480,14 +470,6 @@
         <translation>Браузер YouTube - SMPlayer</translation>
     </message>
     <message>
-        <source>&amp;Next</source>
-        <translation type="obsolete">&amp;Далее</translation>
-    </message>
-    <message>
-        <source>&amp;Previous</source>
-        <translation type="obsolete">&amp;Назад</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="258"/>
         <source>Settings</source>
         <translation>Настройки</translation>
@@ -523,10 +505,6 @@
         <translation>Популярные сейчас</translation>
     </message>
     <message>
-        <source>Recently Featured</source>
-        <translation type="obsolete">Рекомендованные</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="455"/>
         <source>Most Rated</source>
         <translation>Высоко оценённые</translation>
@@ -542,8 +520,9 @@
         <translation>Самые высоко оценённые видео на YouTube%1</translation>
     </message>
     <message>
-        <source>Most viewed videos on YouTube%1</source>
-        <translation type="obsolete">Самые популярные видео на YouTube%1</translation>
+        <location filename="../ytdialog.cpp" line="468"/>
+        <source>Most rated music videos this week on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="587"/>
@@ -554,10 +533,6 @@
         <location filename="../ytdialog.cpp" line="471"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>Результаты YouTube%2 для &quot;%1&quot;</translation>
-    </message>
-    <message>
-        <source>Videos recently featured on YouTube%1</source>
-        <translation type="obsolete">Рекомендованные видео на YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
@@ -602,11 +577,6 @@
     <message>
         <location filename="../ytdialog.cpp" line="451"/>
         <source>Music Top Rated</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="468"/>
-        <source>Most rated music videos this week on YouTube%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -123,20 +123,30 @@
     <message>
         <location filename="../about.cpp" line="121"/>
         <source>Portuguese (Brazil)</source>
-        <translation type="unfinished"></translation>
+        <translation>Португальська (Бразилія)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>Українська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Norwegian Nynorsk</source>
+        <translation>Норвезька Нюношк</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="124"/>
+        <source>Czech</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
+        <location filename="../about.cpp" line="125"/>
+        <source>Malay</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="149"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -495,10 +505,6 @@
         <translation>Найпопулярніші</translation>
     </message>
     <message>
-        <source>Recently Featured</source>
-        <translation type="obsolete">Нещодавно позначені</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="455"/>
         <source>Most Rated</source>
         <translation>Висока оцінка</translation>
@@ -527,10 +533,6 @@
         <location filename="../ytdialog.cpp" line="471"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 результати для &quot;%1&quot;</translation>
-    </message>
-    <message>
-        <source>Videos recently featured on YouTube%1</source>
-        <translation type="obsolete">Відео недавно розміщене на YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="595"/>
