@@ -1,5 +1,13 @@
 Version 1.7:
 
+(2013-05-03)
+ * Add the Czech translation, by Petr Šimáček (transifex).
+ * Add the Malay translation, by abuyop (transifex).
+ * Add the Swedish translation, by XC and Andreas Gustafsson (transifex).
+ * Add the Turkish translation, by Emre FIRAT and Hasan Akgöz (transifex).
+ * Add the Finnish translation, by Jiri Grönroos (transifex).
+ * Add the Georgian translation, by George Machitidze (transifex).
+
 (2013-04-20)
 
  * Replace the recently featured videos (not refreshing) with the 
