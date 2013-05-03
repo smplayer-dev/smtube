@@ -1,3 +1,10 @@
+Version 1.7
+
+ * The recently featured video list has been replaced by a list of top
+   rated music videos.
+ * New translations: Czech, Malay, Swedish, Turkish, Finnish and Georgian.
+
+
 Version 1.6
 
  * The most popular video list is now refreshed.
