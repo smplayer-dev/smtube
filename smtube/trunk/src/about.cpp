@@ -121,6 +121,7 @@ QString About::getTranslators() {
          trad(tr("Portuguese (Brazil)"), QString::fromUtf8("Maico Sertório <maico.sertorio@gmail.com>")) +
          trad(tr("Ukrainian"), "zubr139 (transifex)") +
          trad(tr("Norwegian Nynorsk"), "bjorni (transifex)") +
+         trad(tr("Czech"), QString::fromUtf8("Petr Šimáček (transifex)")) +
          "");
 }
 
