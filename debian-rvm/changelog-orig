@@ -1,3 +1,11 @@
+smtube (1.7) precise; urgency=low
+
+  * The recently featured video list has been replaced by a list of top
+    rated music videos.
+  * New translations: Czech, Malay, Swedish, Turkish, Finnish and Georgian.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 05 May 2013 01:51:58 +0200
+
 smtube (1.6) precise; urgency=low
 
   * The most popular video list is now refreshed.
