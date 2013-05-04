@@ -138,32 +138,32 @@
     <message>
         <location filename="../about.cpp" line="124"/>
         <source>Czech</source>
-        <translation type="unfinished"></translation>
+        <translation>Txekiera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="125"/>
         <source>Malay</source>
-        <translation type="unfinished"></translation>
+        <translation>Malaiera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
         <source>Swedish</source>
-        <translation type="unfinished"></translation>
+        <translation>Suediera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Turkish</source>
-        <translation type="unfinished"></translation>
+        <translation>Turkiera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
         <source>Finnish</source>
-        <translation type="unfinished"></translation>
+        <translation>Finlandiera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Georgian</source>
-        <translation type="unfinished"></translation>
+        <translation>Georgiera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="153"/>
