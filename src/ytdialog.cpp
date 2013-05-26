@@ -797,6 +797,8 @@ void YTDialog::loadConfig()
         recording_dialog->setRecordingFormat(set->value("recording_format", recording_dialog->recordingFormat()).toInt());
         recording_dialog->setRecordingQuality(set->value("recording_quality", recording_dialog->recordingQuality()).toInt());
         players.setCurrent(set->value("player", players.current()).toInt());
+        api->setRegion(set->value("region", "US").toString());
+        api->setPeriod(set->value("period", "today").toString());
         set->endGroup();
     }
 
@@ -834,6 +836,10 @@ void YTDialog::saveConfig()
         set->setValue("recording_format", recording_dialog->recordingFormat());
         set->setValue("recording_quality", recording_dialog->recordingQuality());
         set->setValue("player", players.current());
+
+        set->setValue("region", api->region());
+        set->setValue("period", api->period());
+
         set->endGroup();
         set->sync();
     }
