@@ -56,8 +56,13 @@ class YTDataAPI : public QObject
 {
 Q_OBJECT
 public:
-
     explicit YTDataAPI(QObject *parent = 0);
+
+    void setPeriod(const QString & t) { time = t; }
+    void setRegion(const QString & c) { country = c; }
+
+    QString period() { return time; }
+    QString region() { return country; }
 
     int getMost(int tab, QString searchTerm = QString());
     int getNextResults(QString url);
@@ -70,6 +75,9 @@ private:
     QNetworkAccessManager* manager;
     QByteArray rawReply;
     void parseXmlReply(QByteArray arr, YTReply& formattedReply);
+
+    QString time;
+    QString country;
 
 signals:
 

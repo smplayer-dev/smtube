@@ -33,6 +33,9 @@
 YTDataAPI::YTDataAPI(QObject *parent) :
     QObject(parent)
 {
+    time = "all_time";
+    country = "US";
+
     manager = new QNetworkAccessManager(this);
     connect(manager, SIGNAL(finished(QNetworkReply*)), this, SLOT(gotReply(QNetworkReply*)));
 }
@@ -41,11 +44,11 @@ YTDataAPI::YTDataAPI(QObject *parent) :
 int YTDataAPI::getMost(int tab, QString searchTerm)
 {
     if(tab == YTDialog::Popular)
-        return getXmlResponse("http://gdata.youtube.com/feeds/api/standardfeeds/most_popular?time=this_week");
+        return getXmlResponse(QString("http://gdata.youtube.com/feeds/api/standardfeeds/%1/most_popular?time=%2").arg(country).arg(time));
     else if(tab == YTDialog::Rated)
-        return getXmlResponse("http://gdata.youtube.com/feeds/api/standardfeeds/top_rated?time=this_week");
+        return getXmlResponse(QString("http://gdata.youtube.com/feeds/api/standardfeeds/%1/top_rated?time=%2").arg(country).arg(time));
     else if(tab == YTDialog::Music)
-        return getXmlResponse("http://gdata.youtube.com/feeds/api/standardfeeds/US/top_rated_Music?v=2&time=this_week");
+        return getXmlResponse(QString("http://gdata.youtube.com/feeds/api/standardfeeds/%1/top_rated_Music?v=2&time=%2").arg(country).arg(time));
     else if(tab == YTDialog::Relevant)
         return  getXmlResponse("http://gdata.youtube.com/feeds/api/videos?v=2&start-index=1&results=25&orderby=relevance&q=" + searchTerm);
     else if(tab == YTDialog::Recent)
