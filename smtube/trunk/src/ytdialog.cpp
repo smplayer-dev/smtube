@@ -778,12 +778,16 @@ void YTDialog::showConfigDialog()
     d.setRecordingQuality(recording_dialog->recordingQuality());
     d.setPlayerNames( players.availablePlayers() );
     d.setPlayer( players.currentPlayer().name() );
+    d.setPeriod( api->period() );
+    d.setRegion( api->region() );
 
     if (d.exec() == QDialog::Accepted) {
         recording_dialog->setRecordingsDirectory(d.recordingDirectory());
         recording_dialog->setRecordingFormat(d.recordingFormat());
         recording_dialog->setRecordingQuality(d.recordingQuality());
         players.setCurrent( players.findName( d.player() ) );
+        api->setPeriod( d.period() );
+        api->setRegion( d.region() );
         saveConfig();
     }
 }
@@ -836,10 +840,8 @@ void YTDialog::saveConfig()
         set->setValue("recording_format", recording_dialog->recordingFormat());
         set->setValue("recording_quality", recording_dialog->recordingQuality());
         set->setValue("player", players.current());
-
         set->setValue("region", api->region());
         set->setValue("period", api->period());
-
         set->endGroup();
         set->sync();
     }

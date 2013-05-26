@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>536</width>
-    <height>264</height>
+    <width>464</width>
+    <height>333</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -127,6 +127,54 @@
     </widget>
    </item>
    <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Standard Feeds</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>&amp;Region:</string>
+        </property>
+        <property name="buddy">
+         <cstring>region_combo</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="region_combo"/>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>87</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Period of &amp;time:</string>
+        </property>
+        <property name="buddy">
+         <cstring>time_combo</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="time_combo"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
     <widget class="QGroupBox" name="playback_group">
      <property name="title">
       <string>Playback</string>
@@ -183,6 +231,12 @@
     </widget>
    </item>
   </layout>
+  <zorder>recording_group</zorder>
+  <zorder>playback_group</zorder>
+  <zorder>line</zorder>
+  <zorder>buttonBox</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>player_combo</zorder>
  </widget>
  <customwidgets>
   <customwidget>
@@ -195,6 +249,8 @@
   <tabstop>directory_edit</tabstop>
   <tabstop>recordQualityCombo</tabstop>
   <tabstop>recordFormatCombo</tabstop>
+  <tabstop>region_combo</tabstop>
+  <tabstop>time_combo</tabstop>
   <tabstop>player_combo</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
