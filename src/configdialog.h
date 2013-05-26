@@ -37,12 +37,16 @@ public slots:
     void setRecordingFormat( int format );
     void setPlayerNames(QStringList names);
     void setPlayer(QString name);
+    void setRegion(const QString & region);
+    void setPeriod(const QString & period);
 
 public:
     QString recordingDirectory();
     int recordingQuality();
     int recordingFormat();
     QString player();
+    QString region();
+    QString period();
 };
 
 #endif

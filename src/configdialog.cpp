@@ -28,6 +28,14 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
     directory_edit->setDialogType(FileChooser::GetDirectory);
     //layout()->setSizeConstraint(QLayout::SetFixedSize);
 
+    region_combo->addItem( tr("United States"), "US");
+    region_combo->addItem( tr("Spain"), "ES");
+
+    time_combo->addItem( tr("All time"), "all_time");
+    time_combo->addItem( tr("This month"), "this_month");
+    time_combo->addItem( tr("This week"), "this_week");
+    time_combo->addItem( tr("Today"), "today");
+
 #ifdef Q_OS_WIN
     playback_group->hide();
 #endif
@@ -162,6 +170,24 @@ void ConfigDialog::setPlayer(QString name)
 QString ConfigDialog::player()
 {
     return player_combo->currentText();
+}
+
+void ConfigDialog::setRegion(const QString & region) {
+    int i = region_combo->findData(region);
+    if (i != -1) region_combo->setCurrentIndex(i);
+}
+
+void ConfigDialog::setPeriod(const QString & period) {
+    int i = time_combo->findData(period);
+    if (i != -1) time_combo->setCurrentIndex(i);
+}
+
+QString ConfigDialog::region() {
+    return region_combo->itemData(region_combo->currentIndex()).toString();
+}
+
+QString ConfigDialog::period() {
+    return time_combo->itemData(time_combo->currentIndex()).toString();
 }
 
 #include "moc_configdialog.cpp"
