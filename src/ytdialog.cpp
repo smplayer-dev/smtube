@@ -347,7 +347,9 @@ void YTDialog::setLoadingOverlay(bool enable)
     overlayVisible = enable;
     if(enable)
     {
-        overlay->resize(size());
+        int w = size().width();
+        int h = tabBar->size().height() + videoList->size().height();
+        overlay->resize(QSize(w,h));
         overlay->setText(QString());
         overlay->show();
     }
@@ -361,7 +363,9 @@ void YTDialog::resizeEvent(QResizeEvent* r)
 {
     if(overlayVisible)
     {
-        overlay->resize(r->size());
+        int w = r->size().width();
+        int h = tabBar->size().height() + videoList->size().height();
+        overlay->resize(QSize(w,h));
     }
 }
 
