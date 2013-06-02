@@ -215,19 +215,19 @@
     </message>
     <message>
         <location filename="../configdialog.ui" line="59"/>
-        <location filename="../configdialog.cpp" line="117"/>
+        <location filename="../configdialog.cpp" line="164"/>
         <source>Normal (360p)</source>
         <translation>通常 (360p)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="64"/>
-        <location filename="../configdialog.cpp" line="117"/>
+        <location filename="../configdialog.cpp" line="164"/>
         <source>HD (720p)</source>
         <translation>HD (720p)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="69"/>
-        <location filename="../configdialog.cpp" line="117"/>
+        <location filename="../configdialog.cpp" line="164"/>
         <source>Full HD (1080p)</source>
         <translation>フル HD (1080p)</translation>
     </message>
@@ -248,26 +248,251 @@
     </message>
     <message>
         <location filename="../configdialog.ui" line="132"/>
+        <source>Standard Feeds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="138"/>
+        <source>&amp;Region:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="164"/>
+        <source>Period of &amp;time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="180"/>
         <source>Playback</source>
         <translation>再生</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="140"/>
+        <location filename="../configdialog.ui" line="188"/>
         <source>&amp;Player:</source>
         <translation>プレーヤー(&amp;P):</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="131"/>
+        <location filename="../configdialog.cpp" line="31"/>
+        <source>Argentina</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="32"/>
+        <source>Australia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="34"/>
+        <source>Belgium</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="35"/>
+        <source>Brazil</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="36"/>
+        <source>Canada</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="37"/>
+        <source>Chile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="38"/>
+        <source>Colombia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="39"/>
+        <source>Czech Republic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="40"/>
+        <source>Egypt</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="41"/>
+        <source>France</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="42"/>
+        <source>Germany</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="43"/>
+        <source>Great Britain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="44"/>
+        <source>Hong Kong</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="45"/>
+        <source>Hungary</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="46"/>
+        <source>India</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="47"/>
+        <source>Ireland</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="48"/>
+        <source>Israel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="49"/>
+        <source>Italy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="50"/>
+        <source>Japan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="52"/>
+        <source>Jordan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="53"/>
+        <source>Malaysia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="54"/>
+        <source>Mexico</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="55"/>
+        <source>Morocco</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="56"/>
+        <source>Netherlands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="57"/>
+        <source>New Zealand</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="58"/>
+        <source>Peru</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="59"/>
+        <source>Philippines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="60"/>
+        <source>Poland</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="61"/>
+        <source>Russia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="62"/>
+        <source>Saudi Arabia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="63"/>
+        <source>Singapore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="64"/>
+        <source>South Africa</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="65"/>
+        <source>South Korea</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="66"/>
+        <source>Spain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="67"/>
+        <source>Sweden</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="69"/>
+        <source>Taiwan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="70"/>
+        <source>United Arab Emirates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="71"/>
+        <source>United States</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="73"/>
+        <source>All time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="74"/>
+        <source>This month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="75"/>
+        <source>This week</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="76"/>
+        <source>Today</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="178"/>
         <source>Low Quality (226p)</source>
         <translation>低品質 (226p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="131"/>
+        <location filename="../configdialog.cpp" line="178"/>
         <source>Medium Quality (360p)</source>
         <translation>中品質 (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="131"/>
+        <location filename="../configdialog.cpp" line="178"/>
         <source>High Quality (480p)</source>
         <translation>高品質 (480p)</translation>
     </message>
@@ -503,82 +728,82 @@
         <translation>録画の表示</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="435"/>
+        <location filename="../ytdialog.cpp" line="437"/>
         <source>Most Relevant</source>
         <translation>関連のある動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="439"/>
+        <location filename="../ytdialog.cpp" line="441"/>
         <source>Most Recent</source>
         <translation>最新の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="443"/>
+        <location filename="../ytdialog.cpp" line="445"/>
         <source>Most Viewed</source>
         <translation>再生回数の多い動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="447"/>
+        <location filename="../ytdialog.cpp" line="449"/>
         <source>Most Popular</source>
         <translation>人気の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="455"/>
+        <location filename="../ytdialog.cpp" line="457"/>
         <source>Most Rated</source>
         <translation>評価の高い動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="466"/>
+        <location filename="../ytdialog.cpp" line="468"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>YouTube%1 の人気の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="467"/>
+        <location filename="../ytdialog.cpp" line="469"/>
         <source>Most rated videos on YouTube%1</source>
         <translation>YouTube%1 の評価の高い動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="468"/>
+        <location filename="../ytdialog.cpp" line="470"/>
         <source>Most rated music videos this week on YouTube%1</source>
         <translation>YouTube%1 の今週評価の高い音楽動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="587"/>
+        <location filename="../ytdialog.cpp" line="589"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>エラー: YouTube サーバーへ接続できませんでした。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="471"/>
+        <location filename="../ytdialog.cpp" line="473"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; の YouTube%2 での検索結果</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="595"/>
+        <location filename="../ytdialog.cpp" line="597"/>
         <source>No videos found</source>
         <translation>動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="597"/>
+        <location filename="../ytdialog.cpp" line="599"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; に一致する動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="675"/>
+        <location filename="../ytdialog.cpp" line="677"/>
         <source>&amp;Play video</source>
         <translation>動画を再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="676"/>
+        <location filename="../ytdialog.cpp" line="678"/>
         <source>&amp;Record video</source>
         <translation>動画を録画(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="677"/>
+        <location filename="../ytdialog.cpp" line="679"/>
         <source>&amp;Watch on YouTube</source>
         <translation>YouTube で見る(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="678"/>
+        <location filename="../ytdialog.cpp" line="680"/>
         <source>&amp;Copy link</source>
         <translation>リンクのコピー(&amp;C)</translation>
     </message>
@@ -593,12 +818,12 @@
         <translation>前へ</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="451"/>
+        <location filename="../ytdialog.cpp" line="453"/>
         <source>Music Top Rated</source>
         <translation>評価の高い音楽動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="762"/>
+        <location filename="../ytdialog.cpp" line="764"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
