@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="eu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="eu" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -249,17 +247,17 @@
     <message>
         <location filename="../configdialog.ui" line="132"/>
         <source>Standard Feeds</source>
-        <translation type="unfinished"></translation>
+        <translation>Jario Estandarrak</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="138"/>
         <source>&amp;Region:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Eskualdea</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="164"/>
         <source>Period of &amp;time:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Denbora epea:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="180"/>
@@ -274,212 +272,212 @@
     <message>
         <location filename="../configdialog.cpp" line="31"/>
         <source>Argentina</source>
-        <translation type="unfinished"></translation>
+        <translation>Argentina</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="32"/>
         <source>Australia</source>
-        <translation type="unfinished"></translation>
+        <translation>Australia</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="34"/>
         <source>Belgium</source>
-        <translation type="unfinished"></translation>
+        <translation>Belgika</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="35"/>
         <source>Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Brazil</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="36"/>
         <source>Canada</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanada</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="37"/>
         <source>Chile</source>
-        <translation type="unfinished"></translation>
+        <translation>Txile</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="38"/>
         <source>Colombia</source>
-        <translation type="unfinished"></translation>
+        <translation>Colombia</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="39"/>
         <source>Czech Republic</source>
-        <translation type="unfinished"></translation>
+        <translation>Txekiar Herkalderria</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="40"/>
         <source>Egypt</source>
-        <translation type="unfinished"></translation>
+        <translation>Egipto</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="41"/>
         <source>France</source>
-        <translation type="unfinished"></translation>
+        <translation>Frantzia</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="42"/>
         <source>Germany</source>
-        <translation type="unfinished"></translation>
+        <translation>Alemania</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="43"/>
         <source>Great Britain</source>
-        <translation type="unfinished"></translation>
+        <translation>Britainia Handia</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="44"/>
         <source>Hong Kong</source>
-        <translation type="unfinished"></translation>
+        <translation>Hong Kong</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="45"/>
         <source>Hungary</source>
-        <translation type="unfinished"></translation>
+        <translation>Hungaria</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="46"/>
         <source>India</source>
-        <translation type="unfinished"></translation>
+        <translation>India</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="47"/>
         <source>Ireland</source>
-        <translation type="unfinished"></translation>
+        <translation>Irlanda</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="48"/>
         <source>Israel</source>
-        <translation type="unfinished"></translation>
+        <translation>Israel</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="49"/>
         <source>Italy</source>
-        <translation type="unfinished"></translation>
+        <translation>Italia</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="50"/>
         <source>Japan</source>
-        <translation type="unfinished"></translation>
+        <translation>Japonia</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="52"/>
         <source>Jordan</source>
-        <translation type="unfinished"></translation>
+        <translation>Jordania</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="53"/>
         <source>Malaysia</source>
-        <translation type="unfinished"></translation>
+        <translation>Malaisia</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="54"/>
         <source>Mexico</source>
-        <translation type="unfinished"></translation>
+        <translation>Mexiko</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="55"/>
         <source>Morocco</source>
-        <translation type="unfinished"></translation>
+        <translation>Maroko</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="56"/>
         <source>Netherlands</source>
-        <translation type="unfinished"></translation>
+        <translation>Herbehereak</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="57"/>
         <source>New Zealand</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeelanda Berria</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="58"/>
         <source>Peru</source>
-        <translation type="unfinished"></translation>
+        <translation>Peru</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="59"/>
         <source>Philippines</source>
-        <translation type="unfinished"></translation>
+        <translation>Filipinak</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="60"/>
         <source>Poland</source>
-        <translation type="unfinished"></translation>
+        <translation>Polonia</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="61"/>
         <source>Russia</source>
-        <translation type="unfinished"></translation>
+        <translation>Errusia</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="62"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Saudi Arabia</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="63"/>
         <source>Singapore</source>
-        <translation type="unfinished"></translation>
+        <translation>Singapur</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="64"/>
         <source>South Africa</source>
-        <translation type="unfinished"></translation>
+        <translation>Hego Afrika</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="65"/>
         <source>South Korea</source>
-        <translation type="unfinished"></translation>
+        <translation>Hego Korea</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="66"/>
         <source>Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>Espainia</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="67"/>
         <source>Sweden</source>
-        <translation type="unfinished"></translation>
+        <translation>Suedia</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="69"/>
         <source>Taiwan</source>
-        <translation type="unfinished"></translation>
+        <translation>Taiwan</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="70"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabiar Emirrerri Batauk</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="71"/>
         <source>United States</source>
-        <translation type="unfinished"></translation>
+        <translation>Estatu Batuak</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="73"/>
         <source>All time</source>
-        <translation type="unfinished"></translation>
+        <translation>Denbora guztian</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="74"/>
         <source>This month</source>
-        <translation type="unfinished"></translation>
+        <translation>Hilabete honetan</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="75"/>
         <source>This week</source>
-        <translation type="unfinished"></translation>
+        <translation>Aste honetan</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="76"/>
         <source>Today</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaur</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="178"/>
@@ -646,10 +644,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="421"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% %n-tik  bideo - Grabaketa</numerusform>
-            <numerusform>%1% %n-tik bideo - Grabaketa</numerusform>
-        </translation>
+        <translation><numerusform>%1% %n-tik  bideo - Grabaketa</numerusform><numerusform>%1% %n-tik bideo - Grabaketa</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="506"/>
@@ -821,7 +816,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="453"/>
         <source>Music Top Rated</source>
-        <translation>Hobekine Mailaturiko Musika</translation>
+        <translation>Hobekien Mailaturiko Musika</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="764"/>
