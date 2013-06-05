@@ -75,6 +75,9 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
     time_combo->addItem( tr("This week"), "this_week");
     time_combo->addItem( tr("Today"), "today");
 
+    // Sort items in region_combo
+    region_combo->model()->sort(0);
+
 #ifdef Q_OS_WIN
     playback_group->hide();
 #endif
