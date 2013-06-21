@@ -44,6 +44,7 @@ public:
     void cancel();
     static QString sanitizeForUnicodePoint(QString string);
     static void htmlDecode(QString& string);
+    static QByteArray aclara(QByteArray);
 
 private:
 

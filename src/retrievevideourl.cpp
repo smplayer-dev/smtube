@@ -43,61 +43,64 @@ void RetrieveVideoUrl::fetchYTVideoPage(QString videoId, QString title)
 
 void RetrieveVideoUrl::gotVideoPage(QNetworkReply *reply)
 {
-    if(reply->error() != QNetworkReply::NoError)
+    if (reply->error() != QNetworkReply::NoError)
     {
         emit errorOcurred(m_title, (int)reply->error());
         return;
     }
-    QByteArray arr = reply->readAll();
-    if(arr.isEmpty())
+    QByteArray text = reply->readAll();
+    if(text.isEmpty())
     {
         fetchYTVideoPage(id, m_title);
         return;
     }
 
-	QString replyString = QString::fromUtf8(arr.constData(), arr.size());
+	urlMap.clear();
+
 	QRegExp regex("\\\"url_encoded_fmt_stream_map\\\"\\s*:\\s*\\\"([^\\\"]*)");
-	regex.indexIn(replyString);
-	QString fmtArray = regex.cap(1);    
+	regex.indexIn(text);
+	QString fmtArray = regex.cap(1);
 	fmtArray = sanitizeForUnicodePoint(fmtArray);
 	fmtArray.replace(QRegExp("\\\\(.)"), "\\1");
-	htmlDecode(fmtArray);
-	QStringList codeList = fmtArray.split(',');
-	foreach(QString code, codeList) {
-		// (2012-12-20) Youtube Fix by RVM for SMPlayer (http://smplayer.sourceforge.net)
 
-		/* qDebug("RetrieveYoutubeUrl::parse: code: '%s'", code.toLatin1().constData()); */
+	QList<QByteArray> codeList = fmtArray.toLatin1().split(',');
+	foreach(QByteArray code, codeList) {
+		code = QUrl::fromPercentEncoding(code).toLatin1();
+		//qDebug("code: %s", code.constData());
 
-		int itag = 0;
-		QString n_url;
-		QString url;
-		QString s_itag;
+		QUrl line;
+		line.setEncodedQuery(code);
 
-		QStringList par_list = code.split(QRegExp("&|\\?"));
-		foreach(QString par, par_list) {
-			/* qDebug("RetrieveYoutubeUrl::parse: par: %s", par.toLatin1().constData()); */
+		if (line.hasQueryItem("url")) {
+			QUrl url( line.queryItemValue("url") );
+			line.setScheme(url.scheme());
+			line.setHost(url.host());
+			line.setPath(url.path());
+			line.setEncodedQuery( line.encodedQuery() + "&" + url.encodedQuery() );
+			line.removeQueryItem("url");
 
-			if (par.startsWith("url=")) url = par.mid(4);
-			else
-			if (par.startsWith("itag=")) {
-				if (s_itag.isEmpty()) {
-					s_itag = par;
-					QRegExp rx("itag=(\\d+)");
-					if (rx.indexIn(s_itag) != -1) itag = rx.cap(1).toInt();
-					/* qDebug("RetrieveYoutubeUrl::parse: itag: %d", itag); */
-				}
+			if (line.hasQueryItem("sig")) {
+				line.addQueryItem("signature", line.queryItemValue("sig"));
+				line.removeQueryItem("sig");
 			}
-			else {
-				if (!n_url.isEmpty()) n_url += "&";
-				n_url += par;
+			else
+			if (line.hasQueryItem("s")) {
+				QByteArray signature = aclara(line.queryItemValue("s").toLatin1());
+				if (!signature.isEmpty()) {
+					line.addQueryItem("signature", signature);
+				}
+				line.removeQueryItem("s");
+			}
+			line.removeAllQueryItems("fallback_host");
+			line.removeAllQueryItems("type");
+			if (line.hasQueryItem("itag")) {
+				QString itag = line.queryItemValue("itag");
+				line.removeAllQueryItems("itag"); // Remove duplicated itag
+				line.addQueryItem("itag", itag);
+				urlMap[itag.toInt()] = line.toString();
+				//qDebug("line: %s", line.toString().toLatin1().constData());
 			}
 		}
-		n_url = url + "?" + s_itag + "&" + n_url;
-		n_url.replace("&sig=", "&signature=");
-
-		/* qDebug("RetrieveYoutubeUrl::parse: n_url: '%s'", n_url.toLatin1().constData()); */
-
-		urlMap[itag] = n_url;
 	}
 
 	emit gotUrls(urlMap, m_title, id);    
@@ -123,6 +126,34 @@ void RetrieveVideoUrl::htmlDecode(QString& string) {
 
 void RetrieveVideoUrl::cancel() {
 	reply->abort();
+}
+
+QByteArray RetrieveVideoUrl::aclara(QByteArray text) {
+	QByteArray res;
+
+	if (text.size() != 87) return res;
+
+	QByteArray r1, r2;
+
+	QByteArray s = text.mid(44,40);
+	for (int n = s.size(); n > 0; n--) {
+		r1.append(s.at(n-1));
+	}
+
+	s = text.mid(3,40);
+	for (int n = s.size(); n > 0; n--) {
+		r2.append(s.at(n-1));
+	}
+
+	res = r1.mid(21,1) + r1.mid(1,20) + r1.mid(0,1) + r1.mid(22,9) + text.mid(0,1) + r1.mid(32,8) + text.mid(43,1) + r2;
+
+	/*
+	qDebug("r1: %s", r1.constData());
+	qDebug("r2: %s", r2.constData());
+	qDebug("res: %s", res.constData());
+	*/
+
+	return res;
 }
 
 #include "moc_retrievevideourl.cpp"
