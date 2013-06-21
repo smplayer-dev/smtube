@@ -39,12 +39,11 @@ public:
         LowFlv = 5
     };
 
-
     explicit RetrieveVideoUrl(QObject *parent = 0);
     void fetchYTVideoPage(QString videoId, QString title = QString());    
     void cancel();
-    QString sanitizeForUnicodePoint(QString string);
-    void htmlDecode(QString& string);
+    static QString sanitizeForUnicodePoint(QString string);
+    static void htmlDecode(QString& string);
 
 private:
 

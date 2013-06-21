@@ -47,23 +47,23 @@ void RetrieveVideoUrl::gotVideoPage(QNetworkReply *reply)
     {
         emit errorOcurred(m_title, (int)reply->error());
         return;
-    }   
-    QByteArray arr = reply->readAll();    
+    }
+    QByteArray arr = reply->readAll();
     if(arr.isEmpty())
     {
         fetchYTVideoPage(id, m_title);
         return;
     }
-    QString replyString = QString::fromUtf8(arr.constData(), arr.size());        
-    QRegExp regex("\\\"url_encoded_fmt_stream_map\\\"\\s*:\\s*\\\"([^\\\"]*)");
-    regex.indexIn(replyString);
-    QString fmtArray = regex.cap(1);    
-    fmtArray = sanitizeForUnicodePoint(fmtArray);
-    fmtArray.replace(QRegExp("\\\\(.)"), "\\1");
-    htmlDecode(fmtArray);
-    QStringList codeList = fmtArray.split(',');
-    foreach(QString code, codeList)
-    {
+
+	QString replyString = QString::fromUtf8(arr.constData(), arr.size());
+	QRegExp regex("\\\"url_encoded_fmt_stream_map\\\"\\s*:\\s*\\\"([^\\\"]*)");
+	regex.indexIn(replyString);
+	QString fmtArray = regex.cap(1);    
+	fmtArray = sanitizeForUnicodePoint(fmtArray);
+	fmtArray.replace(QRegExp("\\\\(.)"), "\\1");
+	htmlDecode(fmtArray);
+	QStringList codeList = fmtArray.split(',');
+	foreach(QString code, codeList) {
 		// (2012-12-20) Youtube Fix by RVM for SMPlayer (http://smplayer.sourceforge.net)
 
 		/* qDebug("RetrieveYoutubeUrl::parse: code: '%s'", code.toLatin1().constData()); */
@@ -98,34 +98,31 @@ void RetrieveVideoUrl::gotVideoPage(QNetworkReply *reply)
 		/* qDebug("RetrieveYoutubeUrl::parse: n_url: '%s'", n_url.toLatin1().constData()); */
 
 		urlMap[itag] = n_url;
-    }
+	}
 
-    emit gotUrls(urlMap, m_title, id);    
+	emit gotUrls(urlMap, m_title, id);    
 }
 
-QString RetrieveVideoUrl::sanitizeForUnicodePoint(QString string)
-{
-    QRegExp rx("\\\\u(\\d{4})");
-    while (rx.indexIn(string) != -1) {
-        string.replace(rx.cap(0), QString(QChar(rx.cap(1).toInt(0,16))));
-    }
-    return string;
+QString RetrieveVideoUrl::sanitizeForUnicodePoint(QString string) {
+	QRegExp rx("\\\\u(\\d{4})");
+	while (rx.indexIn(string) != -1) {
+		string.replace(rx.cap(0), QString(QChar(rx.cap(1).toInt(0,16))));
+	}
+	return string;
 }
 
-void RetrieveVideoUrl::htmlDecode(QString& string)
-{
-    string.replace("%3A", ":", Qt::CaseInsensitive);
-    string.replace("%2F", "/", Qt::CaseInsensitive);
-    string.replace("%3F", "?", Qt::CaseInsensitive);
-    string.replace("%3D", "=", Qt::CaseInsensitive);
-    string.replace("%25", "%", Qt::CaseInsensitive);
-    string.replace("%26", "&", Qt::CaseInsensitive);
-    string.replace("%3D", "=", Qt::CaseInsensitive);
+void RetrieveVideoUrl::htmlDecode(QString& string) {
+	string.replace("%3A", ":", Qt::CaseInsensitive);
+	string.replace("%2F", "/", Qt::CaseInsensitive);
+	string.replace("%3F", "?", Qt::CaseInsensitive);
+	string.replace("%3D", "=", Qt::CaseInsensitive);
+	string.replace("%25", "%", Qt::CaseInsensitive);
+	string.replace("%26", "&", Qt::CaseInsensitive);
+	string.replace("%3D", "=", Qt::CaseInsensitive);
 }
 
-void RetrieveVideoUrl::cancel()
-{
-    reply->abort();
+void RetrieveVideoUrl::cancel() {
+	reply->abort();
 }
 
 #include "moc_retrievevideourl.cpp"
