@@ -57,8 +57,10 @@ void RetrieveVideoUrl::gotVideoPage(QNetworkReply *reply)
 
 	urlMap.clear();
 
+	QString replyString = QString::fromUtf8(text);
+
 	QRegExp regex("\\\"url_encoded_fmt_stream_map\\\"\\s*:\\s*\\\"([^\\\"]*)");
-	regex.indexIn(text);
+	regex.indexIn(replyString);
 	QString fmtArray = regex.cap(1);
 	fmtArray = sanitizeForUnicodePoint(fmtArray);
 	fmtArray.replace(QRegExp("\\\\(.)"), "\\1");
@@ -85,7 +87,7 @@ void RetrieveVideoUrl::gotVideoPage(QNetworkReply *reply)
 			}
 			else
 			if (line.hasQueryItem("s")) {
-				QByteArray signature = aclara(line.queryItemValue("s").toLatin1());
+				QString signature = aclara(line.queryItemValue("s"));
 				if (!signature.isEmpty()) {
 					line.addQueryItem("signature", signature);
 				}
@@ -128,14 +130,14 @@ void RetrieveVideoUrl::cancel() {
 	reply->abort();
 }
 
-QByteArray RetrieveVideoUrl::aclara(QByteArray text) {
-	QByteArray res;
+QString RetrieveVideoUrl::aclara(const QString & text) {
+	QString res;
 
 	if (text.size() != 87) return res;
 
-	QByteArray r1, r2;
+	QString r1, r2;
 
-	QByteArray s = text.mid(44,40);
+	QString s = text.mid(44,40);
 	for (int n = s.size(); n > 0; n--) {
 		r1.append(s.at(n-1));
 	}
@@ -148,9 +150,9 @@ QByteArray RetrieveVideoUrl::aclara(QByteArray text) {
 	res = r1.mid(21,1) + r1.mid(1,20) + r1.mid(0,1) + r1.mid(22,9) + text.mid(0,1) + r1.mid(32,8) + text.mid(43,1) + r2;
 
 	/*
-	qDebug("r1: %s", r1.constData());
-	qDebug("r2: %s", r2.constData());
-	qDebug("res: %s", res.constData());
+	qDebug("r1: %s", r1.toUtf8().constData());
+	qDebug("r2: %s", r2.toUtf8().constData());
+	qDebug("res: %s", res.toUtf8().constData());
 	*/
 
 	return res;

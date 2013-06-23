@@ -27,42 +27,41 @@
 
 class RetrieveVideoUrl : public QObject
 {
-Q_OBJECT
-public:
-    enum Quality
-    {
-        FullHD = 37,
-        HD = 22,
-        Normal = 18,
-        NormalFlv = 35,
-        BelowNormalFlv = 34,
-        LowFlv = 5
-    };
+	Q_OBJECT
 
-    explicit RetrieveVideoUrl(QObject *parent = 0);
-    void fetchYTVideoPage(QString videoId, QString title = QString());    
-    void cancel();
-    static QString sanitizeForUnicodePoint(QString string);
-    static void htmlDecode(QString& string);
-    static QByteArray aclara(QByteArray);
+public:
+	enum Quality
+	{
+		FullHD = 37,
+		HD = 22,
+		Normal = 18,
+		NormalFlv = 35,
+		BelowNormalFlv = 34,
+		LowFlv = 5
+	};
+
+	explicit RetrieveVideoUrl(QObject *parent = 0);
+	void fetchYTVideoPage(QString videoId, QString title = QString());    
+	void cancel();
+
+	static QString sanitizeForUnicodePoint(QString string);
+	static void htmlDecode(QString& string);
+	static QString aclara(const QString &);
 
 private:
-
-    QNetworkAccessManager* manager;
-    QNetworkReply* reply;
-    QMap<int, QString> urlMap;
-    QString id;
-    QString m_title;       
-
+	QNetworkAccessManager* manager;
+	QNetworkReply* reply;
+	QMap<int, QString> urlMap;
+	QString id;
+	QString m_title;
 
 signals:
-    void gotUrls(const QMap<int, QString>&, QString title, QString id);
-    void errorOcurred(QString, int);
-    void canceled();
+	void gotUrls(const QMap<int, QString>&, QString title, QString id);
+	void errorOcurred(QString, int);
+	void canceled();
 
 public slots:
-    void gotVideoPage(QNetworkReply* reply);
-
+	void gotVideoPage(QNetworkReply* reply);
 };
 
 #endif // RETRIEVEVIDEOURL_H
