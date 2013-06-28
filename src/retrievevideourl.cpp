@@ -23,6 +23,7 @@
 #include <QDebug>
 #include <QTextDocument>
 #include "retrievevideourl.h"
+#include "ytsig.h"
 
 RetrieveVideoUrl::RetrieveVideoUrl(QObject *parent) :
     QObject(parent)
@@ -87,7 +88,7 @@ void RetrieveVideoUrl::gotVideoPage(QNetworkReply *reply)
 			}
 			else
 			if (line.hasQueryItem("s")) {
-				QString signature = aclara(line.queryItemValue("s"));
+				QString signature = YTSig::aclara(line.queryItemValue("s"));
 				if (!signature.isEmpty()) {
 					line.addQueryItem("signature", signature);
 				}
@@ -128,34 +129,6 @@ void RetrieveVideoUrl::htmlDecode(QString& string) {
 
 void RetrieveVideoUrl::cancel() {
 	reply->abort();
-}
-
-QString RetrieveVideoUrl::aclara(const QString & text) {
-	QString res;
-
-	if (text.size() != 87) return res;
-
-	QString r1, r2;
-
-	QString s = text.mid(44,40);
-	for (int n = s.size(); n > 0; n--) {
-		r1.append(s.at(n-1));
-	}
-
-	s = text.mid(3,40);
-	for (int n = s.size(); n > 0; n--) {
-		r2.append(s.at(n-1));
-	}
-
-	res = r1.mid(21,1) + r1.mid(1,20) + r1.mid(0,1) + r1.mid(22,9) + text.mid(0,1) + r1.mid(32,8) + text.mid(43,1) + r2;
-
-	/*
-	qDebug("r1: %s", r1.toUtf8().constData());
-	qDebug("r2: %s", r2.toUtf8().constData());
-	qDebug("res: %s", res.toUtf8().constData());
-	*/
-
-	return res;
 }
 
 #include "moc_retrievevideourl.cpp"

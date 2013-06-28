@@ -46,7 +46,6 @@ public:
 
 	static QString sanitizeForUnicodePoint(QString string);
 	static void htmlDecode(QString& string);
-	static QString aclara(const QString &);
 
 private:
 	QNetworkAccessManager* manager;
