@@ -40,7 +40,7 @@
 #include "yttabbar.h"
 #include "ytdelegate.h"
 #include "ytdataapi.h"
-#include "retrievevideourl.h"
+#include "rvu.h"
 #include "myborder.h"
 #include "searchbox.h"
 #include "recordingdialog.h"

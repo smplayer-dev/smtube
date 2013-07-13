@@ -19,7 +19,8 @@ HEADERS += myborder.h \
            myicon.h \
            downloadfile.h \
            recordingdialog.h \
-           retrievevideourl.h \
+           retrieveyoutubeurl.h \
+           rvu.h \
            ytsig.h \
            searchbox.h \
            ytdataapi.h \
@@ -37,7 +38,8 @@ SOURCES += myborder.cpp \
            myicon.cpp \
            downloadfile.cpp \
            recordingdialog.cpp \
-           retrievevideourl.cpp \
+           retrieveyoutubeurl.cpp \
+           rvu.cpp \
            ytsig.cpp \
            searchbox.cpp \
            ytdataapi.cpp \
