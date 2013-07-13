@@ -63,8 +63,7 @@ void RetrieveYoutubeUrl::gotResponse(QNetworkReply* reply) {
 				return;
 		}
 	} else {
-		emit downloadFailed(reply->errorString());
-		emit errorOcurred((int)reply->error());
+		emit errorOcurred((int)reply->error(), reply->errorString());
 		return;
 	}
 	parse(reply->readAll());
