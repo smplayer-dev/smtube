@@ -47,7 +47,7 @@ protected:
 
 protected slots:
 	void receiveUrls(const QMap<int, QString>&);
-	void receiveErrorOcurred(int);
+	void receiveErrorOcurred(int,QString);
 
 signals:
 	void gotUrls(const QMap<int, QString>&, QString title, QString id);
