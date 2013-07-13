@@ -64,6 +64,7 @@ void RetrieveYoutubeUrl::gotResponse(QNetworkReply* reply) {
 		}
 	} else {
 		emit downloadFailed(reply->errorString());
+		emit errorOcurred((int)reply->error());
 		return;
 	}
 	parse(reply->readAll());
@@ -144,7 +145,7 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 	}
 
 	QString p_url = findPreferredUrl();
-	qDebug("p_url: '%s'", p_url.toLatin1().constData());
+	//qDebug("p_url: '%s'", p_url.toLatin1().constData());
 
 	if (!p_url.isNull()) {
 		emit gotUrls(urlMap);

@@ -40,7 +40,7 @@
 #include <QSettings>
 #include "recordingdialog.h"
 #include "downloadfile.h"
-#include "retrievevideourl.h"
+#include "rvu.h"
 /* #include "helper.h" */
 #include "myborder.h"
 

@@ -58,6 +58,7 @@ signals:
 
 	void connecting(QString host);
 	void downloadFailed(QString error);
+	void errorOcurred(int);
 
 	void signatureNotFound(const QString & title);
 
