@@ -179,6 +179,9 @@ public:
     YTDialog(QWidget *parent = 0, QSettings * settings = 0);
     ~YTDialog();
 
+    void setPlaybackQuality(int q) { playback_quality = q; }
+    int playbackQuality() { return playback_quality; }
+
     void setLoadingOverlay(bool enable);
     bool eventFilter(QObject *w, QEvent *e);
     void setMode(Mode mode);
@@ -230,6 +233,7 @@ private:
 
     QSettings * set;
     Players players;
+    int playback_quality;
 
     void updateNextPrevWidget();
     void reset();
