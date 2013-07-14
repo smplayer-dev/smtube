@@ -147,7 +147,7 @@ public slots:
     void cancelDownload(QListWidgetItem* item);
     void retryDownload(QListWidgetItem* item);
     void playDownload(QListWidgetItem* item);
-    void urlToDownload(QMap<int,QString>,QString);
+    void urlToDownload(const QString &,QString);
     void fetchUrlError(QString title, int error);
     void clearList();
     void openFolder();
@@ -155,7 +155,7 @@ public slots:
     void videoDoubleClicked(QListWidgetItem* item);
     void saveList();
     void loadList();
-    void recordVideo(QMap<int,QString> qualityMap, QString title, QString id);
+    void recordVideo(const QString & url, QString title, QString id);
 
 protected:
     QString recordings_directory;

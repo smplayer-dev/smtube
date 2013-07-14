@@ -251,37 +251,16 @@ RecordingDialog::~RecordingDialog()
 void RecordingDialog::downloadVideoId(QString videoId, QString title, double)
 {
     RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
-    connect(rvu, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)), this, SLOT(recordVideo(QMap<int,QString>,QString,QString)));
-    connect(rvu, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)), rvu, SLOT(deleteLater()));
+    //rvu->setPreferredQuality();
+    connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)), this, SLOT(recordVideo(const QString &,QString,QString)));
+    connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)), rvu, SLOT(deleteLater()));
     rvu->fetchYTVideoPage(videoId, title);
 
     if(!isVisible()) show();
 }
 
-void RecordingDialog::recordVideo(QMap<int, QString> qualityMap, QString title, QString id)
+void RecordingDialog::recordVideo(const QString & url, QString title, QString id)
 {
-    QString url;
-    switch(recording_quality)
-    {
-    case RetrieveVideoUrl::FullHD:
-        url = qualityMap.value(RetrieveVideoUrl::FullHD, QString());
-        if(!url.isNull()) break;
-    case RetrieveVideoUrl::HD:
-        url = qualityMap.value(RetrieveVideoUrl::HD, QString());
-        if(!url.isNull()) break;
-    case RetrieveVideoUrl::Normal:
-        url = qualityMap.value(RetrieveVideoUrl::Normal, QString());
-        break;
-    case RetrieveVideoUrl::NormalFlv:
-        url = qualityMap.value(RetrieveVideoUrl::NormalFlv, QString());
-        if(!url.isNull()) break;
-    case RetrieveVideoUrl::BelowNormalFlv:
-        url = qualityMap.value(RetrieveVideoUrl::BelowNormalFlv, QString());
-        if(!url.isNull()) break;
-    case RetrieveVideoUrl::LowFlv:
-        url = qualityMap.value(RetrieveVideoUrl::LowFlv, QString());
-        break;
-    }
     if(url.isNull())
     {
         QMessageBox::warning(0, tr("Recording failed"), tr("There was an error in retrieving the download URL."));
@@ -628,7 +607,8 @@ void RecordingDialog::retryDownload(QListWidgetItem *item)
     dd->downloadProgressPercent = 0;
     item->setData(emitDataChangedRole, !item->data(emitDataChangedRole).toBool());
     RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
-    connect(rvu, SIGNAL(gotUrls(QMap<int,QString>,QString, QString)), this, SLOT(urlToDownload(QMap<int,QString>,QString)));
+    //rvu->setPreferredQuality();
+    connect(rvu, SIGNAL(gotPreferredUrl(const QString &,QString, QString)), this, SLOT(urlToDownload(const QString &,QString)));
     connect(rvu, SIGNAL(errorOcurred(QString,int)), this, SLOT(fetchUrlError(QString,int)));
     rvu->fetchYTVideoPage(dd->videoId, dd->title);
     itemRVUMap[rvu] = item;
@@ -653,30 +633,8 @@ void RecordingDialog::playDownload(QListWidgetItem *item)
     emit playFile(dd->filePath);
 }
 
-void RecordingDialog::urlToDownload(QMap<int, QString> qualityMap, QString title)
+void RecordingDialog::urlToDownload(const QString & url, QString title)
 {
-    QString url;
-    switch(recording_quality)
-    {
-    case RetrieveVideoUrl::FullHD:
-        url = qualityMap.value(RetrieveVideoUrl::FullHD, QString());
-        if(!url.isNull()) break;
-    case RetrieveVideoUrl::HD:
-        url = qualityMap.value(RetrieveVideoUrl::HD, QString());
-        if(!url.isNull()) break;
-    case RetrieveVideoUrl::Normal:
-        url = qualityMap.value(RetrieveVideoUrl::Normal, QString());
-        break;
-    case RetrieveVideoUrl::NormalFlv:
-        url = qualityMap.value(RetrieveVideoUrl::NormalFlv, QString());
-        if(!url.isNull()) break;
-    case RetrieveVideoUrl::BelowNormalFlv:
-        url = qualityMap.value(RetrieveVideoUrl::BelowNormalFlv, QString());
-        if(!url.isNull()) break;
-    case RetrieveVideoUrl::LowFlv:
-        url = qualityMap.value(RetrieveVideoUrl::LowFlv, QString());
-        break;
-    }
     if(url.isNull())
     {
         QMessageBox::warning(0, tr("Recording failed"), tr("There was an error in retrieving the download URL."));
