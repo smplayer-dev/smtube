@@ -197,8 +197,7 @@ RecordingDialog::RecordingDialog(QWidget *parent, QSettings * s) :
     settings = s;
 
     recordings_directory = "/tmp/";
-    recording_quality = 37;
-    recording_format = 0;
+    recording_quality = RetrieveYoutubeUrl::MP4_720p;
 
     setWindowIcon( QPixmap(":/icons/logo.png") );
     setWindowTitle(tr("Recordings"));
@@ -251,7 +250,7 @@ RecordingDialog::~RecordingDialog()
 void RecordingDialog::downloadVideoId(QString videoId, QString title, double)
 {
     RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
-    //rvu->setPreferredQuality();
+    rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) recording_quality);
     connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)), this, SLOT(recordVideo(const QString &,QString,QString)));
     connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)), rvu, SLOT(deleteLater()));
     rvu->fetchYTVideoPage(videoId, title);
@@ -277,7 +276,23 @@ void RecordingDialog::download(QString url, QString title, QString id, double du
     DownloadData* dd = new DownloadData;
     dd->downloadState = DownloadData::Progressing;
     dd->videoId = id;
-    QFile* file = new QFile(getUniqueFileName(title + (recording_format == 0 ? ".mp4" : ".flv")));
+
+    QString ext = ".mp4";
+    switch (recording_quality) {
+        case RetrieveYoutubeUrl::FLV_240p:
+        case RetrieveYoutubeUrl::FLV_360p:
+        case RetrieveYoutubeUrl::FLV_480p:
+            ext = ".flv";
+            break;
+        case RetrieveYoutubeUrl::WEBM_360p:
+        case RetrieveYoutubeUrl::WEBM_480p:
+        case RetrieveYoutubeUrl::WEBM_720p:
+        case RetrieveYoutubeUrl::WEBM_1080p:
+            ext = ".webm";
+            break;
+    }
+
+    QFile* file = new QFile(getUniqueFileName(title + ext));
     dd->title = QFileInfo(*file).fileName();
     dd->filePath = QFileInfo(*file).absoluteFilePath();
     dd->videoDuration = (int)duration;
@@ -607,7 +622,7 @@ void RecordingDialog::retryDownload(QListWidgetItem *item)
     dd->downloadProgressPercent = 0;
     item->setData(emitDataChangedRole, !item->data(emitDataChangedRole).toBool());
     RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
-    //rvu->setPreferredQuality();
+    rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) recording_quality);
     connect(rvu, SIGNAL(gotPreferredUrl(const QString &,QString, QString)), this, SLOT(urlToDownload(const QString &,QString)));
     connect(rvu, SIGNAL(errorOcurred(QString,int)), this, SLOT(fetchUrlError(QString,int)));
     rvu->fetchYTVideoPage(dd->videoId, dd->title);

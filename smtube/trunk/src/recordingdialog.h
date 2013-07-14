@@ -113,9 +113,6 @@ public:
     void setRecordingQuality(int q) { recording_quality = q; }
     int recordingQuality() { return recording_quality; }
 
-    void setRecordingFormat(int f) { recording_format = f; }
-    int recordingFormat() { return recording_format; }
-
 private:
     QPushButton* clearListButton;
     QPushButton* openFolderButton;
@@ -160,7 +157,6 @@ public slots:
 protected:
     QString recordings_directory;
     int recording_quality;
-    int recording_format;
 };
 
 #endif // RECORDINGDIALOG_H
