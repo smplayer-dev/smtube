@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>435</width>
-    <height>368</height>
+    <height>335</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -38,40 +38,25 @@
        </layout>
       </item>
       <item>
-       <layout class="QGridLayout" name="gridLayout">
-        <item row="0" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
          <widget class="QLabel" name="label_19">
           <property name="text">
            <string>&amp;Quality</string>
           </property>
           <property name="buddy">
-           <cstring>recordQualityCombo</cstring>
+           <cstring>record_quality_combo</cstring>
           </property>
          </widget>
         </item>
-        <item row="0" column="1">
-         <widget class="QComboBox" name="recordQualityCombo">
+        <item>
+         <widget class="QComboBox" name="record_quality_combo">
           <property name="sizeAdjustPolicy">
            <enum>QComboBox::AdjustToContents</enum>
           </property>
-          <item>
-           <property name="text">
-            <string>Normal (360p)</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>HD (720p)</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>Full HD (1080p)</string>
-           </property>
-          </item>
          </widget>
         </item>
-        <item row="0" column="2">
+        <item>
          <spacer name="horizontalSpacer_2">
           <property name="orientation">
            <enum>Qt::Horizontal</enum>
@@ -79,43 +64,6 @@
           <property name="sizeHint" stdset="0">
            <size>
             <width>298</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="label_21">
-          <property name="text">
-           <string>&amp;Format</string>
-          </property>
-          <property name="buddy">
-           <cstring>recordFormatCombo</cstring>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="QComboBox" name="recordFormatCombo">
-          <item>
-           <property name="text">
-            <string>MP4</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>Flv</string>
-           </property>
-          </item>
-         </widget>
-        </item>
-        <item row="1" column="2">
-         <spacer name="horizontalSpacer_3">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>288</width>
             <height>20</height>
            </size>
           </property>
@@ -276,8 +224,7 @@
  </customwidgets>
  <tabstops>
   <tabstop>directory_edit</tabstop>
-  <tabstop>recordQualityCombo</tabstop>
-  <tabstop>recordFormatCombo</tabstop>
+  <tabstop>record_quality_combo</tabstop>
   <tabstop>playback_quality_combo</tabstop>
   <tabstop>player_combo</tabstop>
   <tabstop>region_combo</tabstop>
