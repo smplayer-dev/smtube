@@ -39,6 +39,7 @@ public slots:
     void setPlayer(QString name);
     void setRegion(const QString & region);
     void setPeriod(const QString & period);
+    void setPlaybackQuality( int quality );
 
 public:
     QString recordingDirectory();
@@ -47,6 +48,7 @@ public:
     QString player();
     QString region();
     QString period();
+    int playbackQuality();
 };
 
 #endif
