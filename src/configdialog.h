@@ -47,6 +47,9 @@ public:
     QString player();
     QString region();
     QString period();
+
+protected slots:
+    void playerChanged(int);
 };
 
 #endif

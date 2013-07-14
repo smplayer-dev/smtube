@@ -103,6 +103,9 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 #ifdef Q_OS_WIN
     playback_group->hide();
 #endif
+
+    connect(player_combo, SIGNAL(currentIndexChanged(int)), this, SLOT(playerChanged(int)));
+
     adjustSize();
 }
 
@@ -144,6 +147,16 @@ void ConfigDialog::setPlayer(QString name)
 QString ConfigDialog::player()
 {
     return player_combo->currentText();
+}
+
+void ConfigDialog::playerChanged(int i) {
+	if (player_combo->itemText(i) == "SMPlayer") {
+		playback_quality_combo->setEnabled(false);
+		playback_quality_label->setEnabled(false);
+	} else {
+		playback_quality_combo->setEnabled(true);
+		playback_quality_label->setEnabled(true);
+	}
 }
 
 void ConfigDialog::setRegion(const QString & region) {
