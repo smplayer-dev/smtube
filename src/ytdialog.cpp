@@ -204,7 +204,7 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     QWidget(parent), overlayVisible(false)
 {
     set = settings;
-    playback_quality = RetrieveYoutubeUrl::MP4_360p;
+    playback_quality = RetrieveYoutubeUrl::MP4_720p;
 
     setWindowIcon( QPixmap(":/icons/logo.png") );
     setAutoFillBackground(true);
@@ -771,6 +771,7 @@ void YTDialog::showConfigDialog()
     d.setRecordingQuality(recording_dialog->recordingQuality());
     d.setPlayerNames( players.availablePlayers() );
     d.setPlayer( players.currentPlayer().name() );
+    d.setPlaybackQuality( playback_quality );
 
     QString period = api->period();
     QString region = api->region();
@@ -783,6 +784,7 @@ void YTDialog::showConfigDialog()
         recording_dialog->setRecordingFormat(d.recordingFormat());
         recording_dialog->setRecordingQuality(d.recordingQuality());
         players.setCurrent( players.findName( d.player() ) );
+        playback_quality = d.playbackQuality();
         api->setPeriod( d.period() );
         api->setRegion( d.region() );
         saveConfig();
