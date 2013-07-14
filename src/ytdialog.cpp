@@ -662,8 +662,11 @@ void YTDialog::videoDblClicked(QListWidgetItem *item)
     SingleVideoItem* svi = item->data(0).value<SingleVideoItem*>();
     if (!players.currentPlayer().directPlay()) {
         RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
-        connect(rvu, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)), this, SLOT(playYTUrl(QMap<int,QString>, QString, QString)) );
-        connect(rvu, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)), rvu, SLOT(deleteLater()));
+        rvu->setPreferredQuality(RetrieveYoutubeUrl::MP4_360p);
+        connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)), 
+                this, SLOT(playYTUrl(const QString &, QString, QString)));
+        connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)),
+                rvu, SLOT(deleteLater()));
         rvu->fetchYTVideoPage( svi->videoid, svi->header );
     } else {
         QString video = "http://www.youtube.com/watch?v=" + svi->videoid;
@@ -715,21 +718,8 @@ void YTDialog::playVideo(QString file)
     QProcess::startDetached(exec, QStringList() << file);
 }
 
-void YTDialog::playYTUrl(const QMap<int, QString> &qualityMap, QString title, QString id)
+void YTDialog::playYTUrl(const QString & url, QString title, QString id)
 {
-    QString url;
-    switch( recording_dialog->recordingQuality() )
-    {
-    case YTDialog::FullHD:
-        url = qualityMap.value(YTDialog::FullHD, QString());
-        if(!url.isNull()) break;
-    case YTDialog::HD:
-        url = qualityMap.value(YTDialog::HD, QString());
-        if(!url.isNull()) break;
-    case YTDialog::Normal:
-        url = qualityMap.value(YTDialog::Normal, QString());
-    }
-
     qDebug("YTDialog::playYTUrl: title: '%s', url: '%s'", title.toUtf8().constData(), url.toUtf8().constData());
 
     QString exec = players.currentPlayer().executable();

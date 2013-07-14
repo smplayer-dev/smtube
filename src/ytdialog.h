@@ -200,7 +200,7 @@ public slots:
     void showContextMenu(QPoint point);
     void recordItem(QListWidgetItem* item);
     void playVideo(QString file);
-    void playYTUrl(const QMap<int, QString> &qualityMap, QString title, QString id);
+    void playYTUrl(const QString &url, QString title, QString id);
 
 protected slots:
     void showConfigDialog();
