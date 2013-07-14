@@ -217,8 +217,7 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
 
     recording_dialog = new RecordingDialog(0, settings);
     recording_dialog->setRecordingsDirectory("");
-    recording_dialog->setRecordingQuality(HD);
-    recording_dialog->setRecordingFormat(0);
+    recording_dialog->setRecordingQuality(RetrieveYoutubeUrl::MP4_720p);
 
     MyBorder* border = new MyBorder(this);
     border ->setBGColor(palette().color(backgroundRole()));
@@ -767,7 +766,6 @@ void YTDialog::showConfigDialog()
 
     ConfigDialog d(this);
     d.setRecordingDirectory(recording_dialog->recordingsDirectory());
-    d.setRecordingFormat(recording_dialog->recordingFormat());
     d.setRecordingQuality(recording_dialog->recordingQuality());
     d.setPlayerNames( players.availablePlayers() );
     d.setPlayer( players.currentPlayer().name() );
@@ -781,7 +779,6 @@ void YTDialog::showConfigDialog()
 
     if (d.exec() == QDialog::Accepted) {
         recording_dialog->setRecordingsDirectory(d.recordingDirectory());
-        recording_dialog->setRecordingFormat(d.recordingFormat());
         recording_dialog->setRecordingQuality(d.recordingQuality());
         players.setCurrent( players.findName( d.player() ) );
         playback_quality = d.playbackQuality();
@@ -801,8 +798,7 @@ void YTDialog::loadConfig()
     if (set) {
         set->beginGroup("general");
         recording_directory = set->value("recording_directory", recording_dialog->recordingsDirectory()).toString();
-        recording_dialog->setRecordingFormat(set->value("recording_format", recording_dialog->recordingFormat()).toInt());
-        recording_dialog->setRecordingQuality(set->value("recording_quality", recording_dialog->recordingQuality()).toInt());
+        recording_dialog->setRecordingQuality(set->value("record_quality", recording_dialog->recordingQuality()).toInt());
         players.setCurrent(set->value("player", players.current()).toInt());
         api->setRegion(set->value("region", "US").toString());
         api->setPeriod(set->value("period", "today").toString());
@@ -841,8 +837,7 @@ void YTDialog::saveConfig()
     if (set) {
         set->beginGroup("general");
         set->setValue("recording_directory", recording_dialog->recordingsDirectory());
-        set->setValue("recording_format", recording_dialog->recordingFormat());
-        set->setValue("recording_quality", recording_dialog->recordingQuality());
+        set->setValue("record_quality", recording_dialog->recordingQuality());
         set->setValue("player", players.current());
         set->setValue("region", api->region());
         set->setValue("period", api->period());
