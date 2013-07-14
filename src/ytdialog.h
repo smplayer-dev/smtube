@@ -131,20 +131,6 @@ public:
         Hovered = Qt::UserRole + 1,
         Clicked = Qt::UserRole + 2
     };
-    enum Quality
-    {
-        FullHD = 37,
-        HD = 22,
-        Normal = 18,
-        NormalFlv = 35,
-        BelowNormalFlv = 34,
-        LowFlv = 5
-    };
-    enum Format
-    {
-        MP4 = 0,
-        FLV = 1
-    };
 
     enum Tabs
     {
