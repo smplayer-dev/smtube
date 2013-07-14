@@ -204,6 +204,7 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     QWidget(parent), overlayVisible(false)
 {
     set = settings;
+    playback_quality = RetrieveYoutubeUrl::MP4_360p;
 
     setWindowIcon( QPixmap(":/icons/logo.png") );
     setAutoFillBackground(true);
@@ -662,8 +663,8 @@ void YTDialog::videoDblClicked(QListWidgetItem *item)
     SingleVideoItem* svi = item->data(0).value<SingleVideoItem*>();
     if (!players.currentPlayer().directPlay()) {
         RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
-        rvu->setPreferredQuality(RetrieveYoutubeUrl::MP4_360p);
-        connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)), 
+        rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) playback_quality);
+        connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)),
                 this, SLOT(playYTUrl(const QString &, QString, QString)));
         connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)),
                 rvu, SLOT(deleteLater()));
@@ -803,6 +804,7 @@ void YTDialog::loadConfig()
         players.setCurrent(set->value("player", players.current()).toInt());
         api->setRegion(set->value("region", "US").toString());
         api->setPeriod(set->value("period", "today").toString());
+        playback_quality = set->value("playback_quality", playback_quality).toInt();
         set->endGroup();
     }
 
@@ -842,6 +844,7 @@ void YTDialog::saveConfig()
         set->setValue("player", players.current());
         set->setValue("region", api->region());
         set->setValue("period", api->period());
+        set->setValue("playback_quality", playback_quality);
         set->endGroup();
         set->sync();
     }
