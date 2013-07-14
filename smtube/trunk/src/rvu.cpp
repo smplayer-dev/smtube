@@ -24,7 +24,9 @@ RetrieveVideoUrl::RetrieveVideoUrl(QObject *parent) :
 {
 	connect(this, SIGNAL(gotUrls(const QMap<int, QString>&)),
             this, SLOT(receiveUrls(const QMap<int, QString>&)));
-	connect(this, SIGNAL(errorOcurred(int,QString)), 
+	connect(this, SIGNAL(gotPreferredUrl(const QString &)),
+            this, SLOT(receivePreferredUrl(const QString &)));
+	connect(this, SIGNAL(errorOcurred(int,QString)),
             this, SLOT(receiveErrorOcurred(int,QString)));
 }
 
@@ -39,6 +41,11 @@ void RetrieveVideoUrl::fetchYTVideoPage(QString videoId, QString title) {
 void RetrieveVideoUrl::receiveUrls(const QMap<int, QString>& map) {
 	qDebug("RetrieveVideoUrl::receiveUrls");
 	emit gotUrls(map, m_title, id);
+}
+
+void RetrieveVideoUrl::receivePreferredUrl(const QString & url) {
+	qDebug("RetrieveVideoUrl::receivePreferredUrl");
+	emit gotPreferredUrl(url, m_title, id);
 }
 
 void RetrieveVideoUrl::receiveErrorOcurred(int error, QString) {

@@ -47,10 +47,12 @@ protected:
 
 protected slots:
 	void receiveUrls(const QMap<int, QString>&);
+	void receivePreferredUrl(const QString &);
 	void receiveErrorOcurred(int,QString);
 
 signals:
 	void gotUrls(const QMap<int, QString>&, QString title, QString id);
+	void gotPreferredUrl(const QString &, QString title, QString id);
 	void errorOcurred(QString, int);
 };
 
