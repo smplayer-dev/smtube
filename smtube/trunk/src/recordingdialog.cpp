@@ -270,15 +270,22 @@ void RecordingDialog::recordVideo(const QString & url, QString title, QString id
 
 void RecordingDialog::download(QString url, QString title, QString id, double duration)
 {
-    QUrl qurl(url);    
+    QUrl qurl(url);
     QListWidgetItem* item = new QListWidgetItem(0, QListWidgetItem::UserType + 1);
     downloadList->insertItem(0, item);
     DownloadData* dd = new DownloadData;
     dd->downloadState = DownloadData::Progressing;
     dd->videoId = id;
 
+    int itag = recording_quality;
+    QRegExp rx("itag=(\\d+)");
+    if (rx.indexIn(url) != -1) {
+        itag = rx.cap(1).toInt();
+        //qDebug("itag: %d", itag);
+    }
+
     QString ext = ".mp4";
-    switch (recording_quality) {
+    switch (itag) {
         case RetrieveYoutubeUrl::FLV_240p:
         case RetrieveYoutubeUrl::FLV_360p:
         case RetrieveYoutubeUrl::FLV_480p:
@@ -300,6 +307,7 @@ void RecordingDialog::download(QString url, QString title, QString id, double du
     dd->completionTime = QDateTime::currentDateTime();
     item->setData(DownloadDataRole, QVariant::fromValue(dd));
     item->setData(emitDataChangedRole, true);
+
     DownloadFile* dfile = new DownloadFile(url, file, this);
     file->setParent(dfile);    
     itemDownloadMap[dfile] = item;    
