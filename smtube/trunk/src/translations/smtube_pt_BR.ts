@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt_BR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_BR" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -214,30 +212,6 @@
         <translation>&amp;Qualidade</translation>
     </message>
     <message>
-        <source>Normal (360p)</source>
-        <translation type="obsolete">Normal (360p)</translation>
-    </message>
-    <message>
-        <source>HD (720p)</source>
-        <translation type="obsolete">HD (720p)</translation>
-    </message>
-    <message>
-        <source>Full HD (1080p)</source>
-        <translation type="obsolete">Full HD (1080p)</translation>
-    </message>
-    <message>
-        <source>&amp;Format</source>
-        <translation type="obsolete">&amp;Formato</translation>
-    </message>
-    <message>
-        <source>MP4</source>
-        <translation type="obsolete">MP4</translation>
-    </message>
-    <message>
-        <source>Flv</source>
-        <translation type="obsolete">Flv</translation>
-    </message>
-    <message>
         <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
         <translation>Feeds padrão</translation>
@@ -260,7 +234,7 @@
     <message>
         <location filename="../configdialog.ui" line="88"/>
         <source>Q&amp;uality:</source>
-        <translation type="unfinished"></translation>
+        <translation>Q&amp;ualidade:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="118"/>
@@ -477,18 +451,6 @@
         <source>Today</source>
         <translation>Hoje</translation>
     </message>
-    <message>
-        <source>Low Quality (226p)</source>
-        <translation type="obsolete">Baixa qualidade  (226p)</translation>
-    </message>
-    <message>
-        <source>Medium Quality (360p)</source>
-        <translation type="obsolete">Média qualidade (360)</translation>
-    </message>
-    <message>
-        <source>High Quality (480p)</source>
-        <translation type="obsolete">Alta qualidade (480)</translation>
-    </message>
 </context>
 <context>
     <name>DownloadFile</name>
@@ -639,10 +601,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="423"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>um: %1% de %n vídeos - Gravações</numerusform>
-            <numerusform>outro: %1% de %n vídeos - Gravações</numerusform>
-        </translation>
+        <translation><numerusform>um: %1% de %n vídeos - Gravações</numerusform><numerusform>outro: %1% de %n vídeos - Gravações</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="508"/>
