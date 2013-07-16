@@ -214,60 +214,56 @@
         <translation>&amp;Kalite</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="59"/>
-        <location filename="../configdialog.cpp" line="164"/>
         <source>Normal (360p)</source>
-        <translation>Normal (360p)</translation>
+        <translation type="obsolete">Normal (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="64"/>
-        <location filename="../configdialog.cpp" line="164"/>
         <source>HD (720p)</source>
-        <translation>HD (720p)</translation>
+        <translation type="obsolete">HD (720p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="69"/>
-        <location filename="../configdialog.cpp" line="164"/>
         <source>Full HD (1080p)</source>
-        <translation>Full HD (1080p)</translation>
+        <translation type="obsolete">Full HD (1080p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="90"/>
         <source>&amp;Format</source>
-        <translation>&amp;Biçim</translation>
+        <translation type="obsolete">&amp;Biçim</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="101"/>
         <source>MP4</source>
-        <translation>MP4</translation>
+        <translation type="obsolete">MP4</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="106"/>
         <source>Flv</source>
-        <translation>Flv</translation>
+        <translation type="obsolete">Flv</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="132"/>
+        <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="138"/>
+        <location filename="../configdialog.ui" line="155"/>
         <source>&amp;Region:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="164"/>
+        <location filename="../configdialog.ui" line="181"/>
         <source>Period of &amp;time:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="180"/>
+        <location filename="../configdialog.ui" line="80"/>
         <source>Playback</source>
         <translation>Oynatma</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="188"/>
+        <location filename="../configdialog.ui" line="88"/>
+        <source>Q&amp;uality:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="118"/>
         <source>&amp;Player:</source>
         <translation>&amp;Oynatıcı</translation>
     </message>
@@ -482,19 +478,16 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="178"/>
         <source>Low Quality (226p)</source>
-        <translation>Düşük Kalite (226p)</translation>
+        <translation type="obsolete">Düşük Kalite (226p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="178"/>
         <source>Medium Quality (360p)</source>
-        <translation>Orta Kalite (360p)</translation>
+        <translation type="obsolete">Orta Kalite (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="178"/>
         <source>High Quality (480p)</source>
-        <translation>Yüksek Kalite (480p)</translation>
+        <translation type="obsolete">Yüksek Kalite (480p)</translation>
     </message>
 </context>
 <context>
@@ -599,100 +592,100 @@
 <context>
     <name>RecordingDialog</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="204"/>
-        <location filename="../recordingdialog.cpp" line="417"/>
+        <location filename="../recordingdialog.cpp" line="203"/>
+        <location filename="../recordingdialog.cpp" line="419"/>
         <source>Recordings</source>
         <translation>Kayıtlar</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="205"/>
+        <location filename="../recordingdialog.cpp" line="204"/>
         <source>&amp;Clear list</source>
         <translation>&amp;Listeyi temizle</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="206"/>
-        <location filename="../recordingdialog.cpp" line="546"/>
+        <location filename="../recordingdialog.cpp" line="205"/>
+        <location filename="../recordingdialog.cpp" line="548"/>
         <source>&amp;Open folder</source>
         <translation>%Klasör aç</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="287"/>
-        <location filename="../recordingdialog.cpp" line="682"/>
+        <location filename="../recordingdialog.cpp" line="265"/>
+        <location filename="../recordingdialog.cpp" line="663"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Yükleme bağlantısı alınırken bir hata oluştu.</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="287"/>
-        <location filename="../recordingdialog.cpp" line="682"/>
+        <location filename="../recordingdialog.cpp" line="265"/>
+        <location filename="../recordingdialog.cpp" line="663"/>
         <source>Recording failed</source>
         <translation>Kayıt başarısız oldu</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="305"/>
-        <location filename="../recordingdialog.cpp" line="700"/>
+        <location filename="../recordingdialog.cpp" line="306"/>
+        <location filename="../recordingdialog.cpp" line="681"/>
         <source>Starting</source>
         <translation>Başla</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="338"/>
+        <location filename="../recordingdialog.cpp" line="340"/>
         <source>Error</source>
         <translation>Hata</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="342"/>
+        <location filename="../recordingdialog.cpp" line="344"/>
         <source>Completed</source>
         <translation>Tamamlandı</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="421"/>
+        <location filename="../recordingdialog.cpp" line="423"/>
         <source>%1% of %n video - Recordings</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="506"/>
+        <location filename="../recordingdialog.cpp" line="508"/>
         <source>&amp;Cancel</source>
         <translation>&amp;İptal</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="508"/>
+        <location filename="../recordingdialog.cpp" line="510"/>
         <source>&amp;Remove from list</source>
         <translation>&amp;Listeden kaldır</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="527"/>
-        <location filename="../recordingdialog.cpp" line="549"/>
+        <location filename="../recordingdialog.cpp" line="529"/>
+        <location filename="../recordingdialog.cpp" line="551"/>
         <source>Remove from &amp;list</source>
         <translation>&amp;Listeden kaldır</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="525"/>
+        <location filename="../recordingdialog.cpp" line="527"/>
         <source>&amp;Retry</source>
         <translation>&amp;Yeniden Dene</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="545"/>
+        <location filename="../recordingdialog.cpp" line="547"/>
         <source>&amp;Play</source>
         <translation>&amp;Oynat</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="548"/>
+        <location filename="../recordingdialog.cpp" line="550"/>
         <source>&amp;Delete</source>
         <translation>&amp;Sil</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="627"/>
+        <location filename="../recordingdialog.cpp" line="629"/>
         <source>Fetching URL...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="642"/>
+        <location filename="../recordingdialog.cpp" line="645"/>
         <source>File error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="643"/>
+        <location filename="../recordingdialog.cpp" line="646"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -708,7 +701,7 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="210"/>
+        <location filename="../ytdialog.cpp" line="211"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>YouTube Tarayıcısı - SMPlayer</translation>
     </message>
@@ -788,22 +781,22 @@
         <translation>&quot;%1&quot; için video bulunamadı</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="677"/>
+        <location filename="../ytdialog.cpp" line="680"/>
         <source>&amp;Play video</source>
         <translation>&amp;Video Oynat</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="678"/>
+        <location filename="../ytdialog.cpp" line="681"/>
         <source>&amp;Record video</source>
         <translation>&amp;Video Kaydet</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="679"/>
+        <location filename="../ytdialog.cpp" line="682"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Youtube&apos;da İzle</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="680"/>
+        <location filename="../ytdialog.cpp" line="683"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Bağlantıyı Kopyala</translation>
     </message>
@@ -823,7 +816,7 @@
         <translation> En Beğenilen Müzik</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="764"/>
+        <location filename="../ytdialog.cpp" line="754"/>
         <source>Error</source>
         <translation>Hata</translation>
     </message>
