@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="lt">
 <context>
     <name>About</name>
     <message>
@@ -212,60 +214,56 @@
         <translation>&amp;Kokybė</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="59"/>
-        <location filename="../configdialog.cpp" line="164"/>
         <source>Normal (360p)</source>
-        <translation>Įprasta (360p)</translation>
+        <translation type="obsolete">Įprasta (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="64"/>
-        <location filename="../configdialog.cpp" line="164"/>
         <source>HD (720p)</source>
-        <translation>HD (720p)</translation>
+        <translation type="obsolete">HD (720p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="69"/>
-        <location filename="../configdialog.cpp" line="164"/>
         <source>Full HD (1080p)</source>
-        <translation>Full HD (1080p)</translation>
+        <translation type="obsolete">Full HD (1080p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="90"/>
         <source>&amp;Format</source>
-        <translation>&amp;Formatas</translation>
+        <translation type="obsolete">&amp;Formatas</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="101"/>
         <source>MP4</source>
-        <translation>MP4</translation>
+        <translation type="obsolete">MP4</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="106"/>
         <source>Flv</source>
-        <translation>Flv</translation>
+        <translation type="obsolete">Flv</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="132"/>
+        <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
         <translation>Standartiniai kanalai</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="138"/>
+        <location filename="../configdialog.ui" line="155"/>
         <source>&amp;Region:</source>
         <translation>&amp;Regionas:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="164"/>
+        <location filename="../configdialog.ui" line="181"/>
         <source>Period of &amp;time:</source>
         <translation>Laikotarpis ir &amp;laikas:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="180"/>
+        <location filename="../configdialog.ui" line="80"/>
         <source>Playback</source>
         <translation>Atkūrimas</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="188"/>
+        <location filename="../configdialog.ui" line="88"/>
+        <source>Q&amp;uality:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="118"/>
         <source>&amp;Player:</source>
         <translation>&amp;Grotuvas:</translation>
     </message>
@@ -480,19 +478,16 @@
         <translation>Šiandien</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="178"/>
         <source>Low Quality (226p)</source>
-        <translation>Žema kokybė (226p)</translation>
+        <translation type="obsolete">Žema kokybė (226p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="178"/>
         <source>Medium Quality (360p)</source>
-        <translation>Vidutinė kokybė (360p)</translation>
+        <translation type="obsolete">Vidutinė kokybė (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="178"/>
         <source>High Quality (480p)</source>
-        <translation>Aukšta kokybė (480p)</translation>
+        <translation type="obsolete">Aukšta kokybė (480p)</translation>
     </message>
 </context>
 <context>
@@ -597,98 +592,102 @@
 <context>
     <name>RecordingDialog</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="204"/>
-        <location filename="../recordingdialog.cpp" line="417"/>
+        <location filename="../recordingdialog.cpp" line="203"/>
+        <location filename="../recordingdialog.cpp" line="419"/>
         <source>Recordings</source>
         <translation>Įrašai</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="205"/>
+        <location filename="../recordingdialog.cpp" line="204"/>
         <source>&amp;Clear list</source>
         <translation>&amp;Išvalyti sąrašą</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="206"/>
-        <location filename="../recordingdialog.cpp" line="546"/>
+        <location filename="../recordingdialog.cpp" line="205"/>
+        <location filename="../recordingdialog.cpp" line="548"/>
         <source>&amp;Open folder</source>
         <translation>&amp;Atverti aplanką</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="287"/>
-        <location filename="../recordingdialog.cpp" line="682"/>
+        <location filename="../recordingdialog.cpp" line="265"/>
+        <location filename="../recordingdialog.cpp" line="663"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Gaunant parsiuntimo URL įvyko klaida.</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="287"/>
-        <location filename="../recordingdialog.cpp" line="682"/>
+        <location filename="../recordingdialog.cpp" line="265"/>
+        <location filename="../recordingdialog.cpp" line="663"/>
         <source>Recording failed</source>
         <translation>Įrašyti nepavyko</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="305"/>
-        <location filename="../recordingdialog.cpp" line="700"/>
+        <location filename="../recordingdialog.cpp" line="306"/>
+        <location filename="../recordingdialog.cpp" line="681"/>
         <source>Starting</source>
         <translation>Paleidžiama</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="338"/>
+        <location filename="../recordingdialog.cpp" line="340"/>
         <source>Error</source>
         <translation>Klaida</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="342"/>
+        <location filename="../recordingdialog.cpp" line="344"/>
         <source>Completed</source>
         <translation>Atlikta</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="421"/>
+        <location filename="../recordingdialog.cpp" line="423"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>%1% iš %n video - Įrašai</numerusform><numerusform>%1% iš %n video - Įrašai</numerusform><numerusform>%1% iš %n video - Įrašai</numerusform></translation>
+        <translation>
+            <numerusform>%1% iš %n video - Įrašai</numerusform>
+            <numerusform>%1% iš %n video - Įrašai</numerusform>
+            <numerusform>%1% iš %n video - Įrašai</numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="506"/>
+        <location filename="../recordingdialog.cpp" line="508"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Atsisakyti</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="508"/>
+        <location filename="../recordingdialog.cpp" line="510"/>
         <source>&amp;Remove from list</source>
         <translation>&amp;Pašalinti iš sąrašo</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="527"/>
-        <location filename="../recordingdialog.cpp" line="549"/>
+        <location filename="../recordingdialog.cpp" line="529"/>
+        <location filename="../recordingdialog.cpp" line="551"/>
         <source>Remove from &amp;list</source>
         <translation>P&amp;ašalinti iš sąrašo</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="525"/>
+        <location filename="../recordingdialog.cpp" line="527"/>
         <source>&amp;Retry</source>
         <translation>&amp;Kartoti</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="545"/>
+        <location filename="../recordingdialog.cpp" line="547"/>
         <source>&amp;Play</source>
         <translation>&amp;Groti</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="548"/>
+        <location filename="../recordingdialog.cpp" line="550"/>
         <source>&amp;Delete</source>
         <translation>&amp;Pašalinti</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="627"/>
+        <location filename="../recordingdialog.cpp" line="629"/>
         <source>Fetching URL...</source>
         <translation>Gaunama URL...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="642"/>
+        <location filename="../recordingdialog.cpp" line="645"/>
         <source>File error</source>
         <translation>Failo klaida</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="643"/>
+        <location filename="../recordingdialog.cpp" line="646"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>Failas neegzistuoja, ar norite jį pašalinti, iš sąrašo?</translation>
     </message>
@@ -704,7 +703,7 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="210"/>
+        <location filename="../ytdialog.cpp" line="211"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>YouTube naršyklė - SMPlayer</translation>
     </message>
@@ -784,22 +783,22 @@
         <translation>Nerasta video atitinkančių „%1“</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="677"/>
+        <location filename="../ytdialog.cpp" line="680"/>
         <source>&amp;Play video</source>
         <translation>&amp;Groti video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="678"/>
+        <location filename="../ytdialog.cpp" line="681"/>
         <source>&amp;Record video</source>
         <translation>&amp;Įrašyti video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="679"/>
+        <location filename="../ytdialog.cpp" line="682"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Žiūrėti YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="680"/>
+        <location filename="../ytdialog.cpp" line="683"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Kopijuoti nuorodą</translation>
     </message>
@@ -819,7 +818,7 @@
         <translation>Geriausiai įvertinta muzika</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="764"/>
+        <location filename="../ytdialog.cpp" line="754"/>
         <source>Error</source>
         <translation>Klaida</translation>
     </message>

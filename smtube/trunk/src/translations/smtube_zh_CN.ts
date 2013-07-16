@@ -214,60 +214,56 @@
         <translation>质量(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="59"/>
-        <location filename="../configdialog.cpp" line="164"/>
         <source>Normal (360p)</source>
-        <translation>普通(360p)</translation>
+        <translation type="obsolete">普通(360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="64"/>
-        <location filename="../configdialog.cpp" line="164"/>
         <source>HD (720p)</source>
-        <translation>高清(720p)</translation>
+        <translation type="obsolete">高清(720p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="69"/>
-        <location filename="../configdialog.cpp" line="164"/>
         <source>Full HD (1080p)</source>
-        <translation>全高清(1080p)</translation>
+        <translation type="obsolete">全高清(1080p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="90"/>
         <source>&amp;Format</source>
-        <translation>格式(&amp;F)</translation>
+        <translation type="obsolete">格式(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="101"/>
         <source>MP4</source>
-        <translation>MP4</translation>
+        <translation type="obsolete">MP4</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="106"/>
         <source>Flv</source>
-        <translation>FLV</translation>
+        <translation type="obsolete">FLV</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="132"/>
+        <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="138"/>
+        <location filename="../configdialog.ui" line="155"/>
         <source>&amp;Region:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="164"/>
+        <location filename="../configdialog.ui" line="181"/>
         <source>Period of &amp;time:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="180"/>
+        <location filename="../configdialog.ui" line="80"/>
         <source>Playback</source>
         <translation>播放</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="188"/>
+        <location filename="../configdialog.ui" line="88"/>
+        <source>Q&amp;uality:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="118"/>
         <source>&amp;Player:</source>
         <translation>播放器(&amp;P):</translation>
     </message>
@@ -482,19 +478,16 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="178"/>
         <source>Low Quality (226p)</source>
-        <translation>低质量(226p)</translation>
+        <translation type="obsolete">低质量(226p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="178"/>
         <source>Medium Quality (360p)</source>
-        <translation>中等质量(360p)</translation>
+        <translation type="obsolete">中等质量(360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="178"/>
         <source>High Quality (480p)</source>
-        <translation>高质量(480p)</translation>
+        <translation type="obsolete">高质量(480p)</translation>
     </message>
 </context>
 <context>
@@ -599,100 +592,100 @@
 <context>
     <name>RecordingDialog</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="204"/>
-        <location filename="../recordingdialog.cpp" line="417"/>
+        <location filename="../recordingdialog.cpp" line="203"/>
+        <location filename="../recordingdialog.cpp" line="419"/>
         <source>Recordings</source>
         <translation>录制</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="205"/>
+        <location filename="../recordingdialog.cpp" line="204"/>
         <source>&amp;Clear list</source>
         <translation>清除列表(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="206"/>
-        <location filename="../recordingdialog.cpp" line="546"/>
+        <location filename="../recordingdialog.cpp" line="205"/>
+        <location filename="../recordingdialog.cpp" line="548"/>
         <source>&amp;Open folder</source>
         <translation>打开文件夹(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="287"/>
-        <location filename="../recordingdialog.cpp" line="682"/>
+        <location filename="../recordingdialog.cpp" line="265"/>
+        <location filename="../recordingdialog.cpp" line="663"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>检索下载 URL 时发生一个错误。</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="287"/>
-        <location filename="../recordingdialog.cpp" line="682"/>
+        <location filename="../recordingdialog.cpp" line="265"/>
+        <location filename="../recordingdialog.cpp" line="663"/>
         <source>Recording failed</source>
         <translation>录制失败</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="305"/>
-        <location filename="../recordingdialog.cpp" line="700"/>
+        <location filename="../recordingdialog.cpp" line="306"/>
+        <location filename="../recordingdialog.cpp" line="681"/>
         <source>Starting</source>
         <translation>正在开始</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="338"/>
+        <location filename="../recordingdialog.cpp" line="340"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="342"/>
+        <location filename="../recordingdialog.cpp" line="344"/>
         <source>Completed</source>
         <translation>已完成</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="421"/>
+        <location filename="../recordingdialog.cpp" line="423"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%1% / %n个视频 - 正在录制</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="506"/>
+        <location filename="../recordingdialog.cpp" line="508"/>
         <source>&amp;Cancel</source>
         <translation>取消(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="508"/>
+        <location filename="../recordingdialog.cpp" line="510"/>
         <source>&amp;Remove from list</source>
         <translation>从列表中移除(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="527"/>
-        <location filename="../recordingdialog.cpp" line="549"/>
+        <location filename="../recordingdialog.cpp" line="529"/>
+        <location filename="../recordingdialog.cpp" line="551"/>
         <source>Remove from &amp;list</source>
         <translation>从列表中移除(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="525"/>
+        <location filename="../recordingdialog.cpp" line="527"/>
         <source>&amp;Retry</source>
         <translation>重试(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="545"/>
+        <location filename="../recordingdialog.cpp" line="547"/>
         <source>&amp;Play</source>
         <translation>播放(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="548"/>
+        <location filename="../recordingdialog.cpp" line="550"/>
         <source>&amp;Delete</source>
         <translation>删除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="627"/>
+        <location filename="../recordingdialog.cpp" line="629"/>
         <source>Fetching URL...</source>
         <translation>正在读取 URL...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="642"/>
+        <location filename="../recordingdialog.cpp" line="645"/>
         <source>File error</source>
         <translation>文件错误</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="643"/>
+        <location filename="../recordingdialog.cpp" line="646"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>该文件不存在，您想要从列表中移除它吗?</translation>
     </message>
@@ -708,7 +701,7 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="210"/>
+        <location filename="../ytdialog.cpp" line="211"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>YouTube 浏览器 - SMPlayer</translation>
     </message>
@@ -788,22 +781,22 @@
         <translation>未找到视频 &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="677"/>
+        <location filename="../ytdialog.cpp" line="680"/>
         <source>&amp;Play video</source>
         <translation>播放视频(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="678"/>
+        <location filename="../ytdialog.cpp" line="681"/>
         <source>&amp;Record video</source>
         <translation>录制视频(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="679"/>
+        <location filename="../ytdialog.cpp" line="682"/>
         <source>&amp;Watch on YouTube</source>
         <translation>在 YouTube 上观看(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="680"/>
+        <location filename="../ytdialog.cpp" line="683"/>
         <source>&amp;Copy link</source>
         <translation>复制链接(&amp;C)</translation>
     </message>
@@ -823,7 +816,7 @@
         <translation>音乐评分排行</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="764"/>
+        <location filename="../ytdialog.cpp" line="754"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>

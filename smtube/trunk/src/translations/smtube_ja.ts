@@ -214,60 +214,56 @@
         <translation>品質(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="59"/>
-        <location filename="../configdialog.cpp" line="164"/>
         <source>Normal (360p)</source>
-        <translation>通常 (360p)</translation>
+        <translation type="obsolete">通常 (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="64"/>
-        <location filename="../configdialog.cpp" line="164"/>
         <source>HD (720p)</source>
-        <translation>HD (720p)</translation>
+        <translation type="obsolete">HD (720p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="69"/>
-        <location filename="../configdialog.cpp" line="164"/>
         <source>Full HD (1080p)</source>
-        <translation>フル HD (1080p)</translation>
+        <translation type="obsolete">フル HD (1080p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="90"/>
         <source>&amp;Format</source>
-        <translation>フォーマット(&amp;F)</translation>
+        <translation type="obsolete">フォーマット(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="101"/>
         <source>MP4</source>
-        <translation>MP4</translation>
+        <translation type="obsolete">MP4</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="106"/>
         <source>Flv</source>
-        <translation>FLV</translation>
+        <translation type="obsolete">FLV</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="132"/>
+        <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="138"/>
+        <location filename="../configdialog.ui" line="155"/>
         <source>&amp;Region:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="164"/>
+        <location filename="../configdialog.ui" line="181"/>
         <source>Period of &amp;time:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="180"/>
+        <location filename="../configdialog.ui" line="80"/>
         <source>Playback</source>
         <translation>再生</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="188"/>
+        <location filename="../configdialog.ui" line="88"/>
+        <source>Q&amp;uality:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="118"/>
         <source>&amp;Player:</source>
         <translation>プレーヤー(&amp;P):</translation>
     </message>
@@ -482,19 +478,16 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="178"/>
         <source>Low Quality (226p)</source>
-        <translation>低品質 (226p)</translation>
+        <translation type="obsolete">低品質 (226p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="178"/>
         <source>Medium Quality (360p)</source>
-        <translation>中品質 (360p)</translation>
+        <translation type="obsolete">中品質 (360p)</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="178"/>
         <source>High Quality (480p)</source>
-        <translation>高品質 (480p)</translation>
+        <translation type="obsolete">高品質 (480p)</translation>
     </message>
 </context>
 <context>
@@ -599,100 +592,100 @@
 <context>
     <name>RecordingDialog</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="204"/>
-        <location filename="../recordingdialog.cpp" line="417"/>
+        <location filename="../recordingdialog.cpp" line="203"/>
+        <location filename="../recordingdialog.cpp" line="419"/>
         <source>Recordings</source>
         <translation>録画</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="205"/>
+        <location filename="../recordingdialog.cpp" line="204"/>
         <source>&amp;Clear list</source>
         <translation>一覧のクリア(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="206"/>
-        <location filename="../recordingdialog.cpp" line="546"/>
+        <location filename="../recordingdialog.cpp" line="205"/>
+        <location filename="../recordingdialog.cpp" line="548"/>
         <source>&amp;Open folder</source>
         <translation>フォルダーを開く(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="287"/>
-        <location filename="../recordingdialog.cpp" line="682"/>
+        <location filename="../recordingdialog.cpp" line="265"/>
+        <location filename="../recordingdialog.cpp" line="663"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>ダウンロード URL の取得でエラーがありました。</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="287"/>
-        <location filename="../recordingdialog.cpp" line="682"/>
+        <location filename="../recordingdialog.cpp" line="265"/>
+        <location filename="../recordingdialog.cpp" line="663"/>
         <source>Recording failed</source>
         <translation>録画が失敗しました</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="305"/>
-        <location filename="../recordingdialog.cpp" line="700"/>
+        <location filename="../recordingdialog.cpp" line="306"/>
+        <location filename="../recordingdialog.cpp" line="681"/>
         <source>Starting</source>
         <translation>開始しています</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="338"/>
+        <location filename="../recordingdialog.cpp" line="340"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="342"/>
+        <location filename="../recordingdialog.cpp" line="344"/>
         <source>Completed</source>
         <translation>完了しました</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="421"/>
+        <location filename="../recordingdialog.cpp" line="423"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%n 動画の %1% - 録画</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="506"/>
+        <location filename="../recordingdialog.cpp" line="508"/>
         <source>&amp;Cancel</source>
         <translation>キャンセル(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="508"/>
+        <location filename="../recordingdialog.cpp" line="510"/>
         <source>&amp;Remove from list</source>
         <translation>一覧から削除(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="527"/>
-        <location filename="../recordingdialog.cpp" line="549"/>
+        <location filename="../recordingdialog.cpp" line="529"/>
+        <location filename="../recordingdialog.cpp" line="551"/>
         <source>Remove from &amp;list</source>
         <translation>一覧から削除(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="525"/>
+        <location filename="../recordingdialog.cpp" line="527"/>
         <source>&amp;Retry</source>
         <translation>再試行(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="545"/>
+        <location filename="../recordingdialog.cpp" line="547"/>
         <source>&amp;Play</source>
         <translation>再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="548"/>
+        <location filename="../recordingdialog.cpp" line="550"/>
         <source>&amp;Delete</source>
         <translation>削除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="627"/>
+        <location filename="../recordingdialog.cpp" line="629"/>
         <source>Fetching URL...</source>
         <translation>URL を取得しています...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="642"/>
+        <location filename="../recordingdialog.cpp" line="645"/>
         <source>File error</source>
         <translation>ファイル エラー</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="643"/>
+        <location filename="../recordingdialog.cpp" line="646"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>ファイルが存在しません、一覧から削除しますか?</translation>
     </message>
@@ -708,7 +701,7 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="210"/>
+        <location filename="../ytdialog.cpp" line="211"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>YouTube ブラウザー - SMPlayer</translation>
     </message>
@@ -788,22 +781,22 @@
         <translation>&quot;%1&quot; に一致する動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="677"/>
+        <location filename="../ytdialog.cpp" line="680"/>
         <source>&amp;Play video</source>
         <translation>動画を再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="678"/>
+        <location filename="../ytdialog.cpp" line="681"/>
         <source>&amp;Record video</source>
         <translation>動画を録画(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="679"/>
+        <location filename="../ytdialog.cpp" line="682"/>
         <source>&amp;Watch on YouTube</source>
         <translation>YouTube で見る(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="680"/>
+        <location filename="../ytdialog.cpp" line="683"/>
         <source>&amp;Copy link</source>
         <translation>リンクのコピー(&amp;C)</translation>
     </message>
@@ -823,7 +816,7 @@
         <translation>評価の高い音楽動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="764"/>
+        <location filename="../ytdialog.cpp" line="754"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
