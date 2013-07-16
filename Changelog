@@ -1,3 +1,20 @@
+Version 1.8:
+
+(2013-07-15)
+ * The quality for recording has now more options and allows to save the
+   video in webm format as well.
+
+(2013-07-14)
+ * Possibility to select the playback quality (for players other than smplayer).
+
+(2013-06-22 - 2013-07-12)
+ * Add support for the new signatures of Youtube.
+
+(2013-05-27)
+ * Add options in the configuration dialog to select the preferred
+   region and period of time for the standard feeds.
+
+
 Version 1.7:
 
 (2013-05-03)
