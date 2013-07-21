@@ -24,6 +24,7 @@
 #include <QDir>
 #include "ytdialog.h"
 
+#ifdef YT_USE_SCRIPT
 QString configPath() {
 #ifdef PORTABLE_APP
     return qApp->applicationDirPath();
@@ -38,6 +39,25 @@ QString configPath() {
     return QDir::homePath() + "/.config/smtube";
 #else
     return QDir::homePath() + "/.smtube";
+#endif
+#endif // PORTABLE_APP
+}
+#endif // YT_USE_SCRIPT
+
+QString smplayerConfigPath() {
+#ifdef PORTABLE_APP
+    return qApp->applicationDirPath();
+#else
+#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
+    const char * XDG_CONFIG_HOME = getenv("XDG_CONFIG_HOME");
+    if (XDG_CONFIG_HOME!=NULL) {
+        /* qDebug("configPath: XDG_CONFIG_HOME: %s", XDG_CONFIG_HOME); */
+        return QString(XDG_CONFIG_HOME) + "/smplayer";
+    } 
+    else
+    return QDir::homePath() + "/.config/smplayer";
+#else
+    return QDir::homePath() + "/.smplayer";
 #endif
 #endif // PORTABLE_APP
 }
@@ -111,6 +131,15 @@ int main( int argc, char ** argv )
 	QSettings settings(configPath() + "/smtube.ini", QSettings::IniFormat);
 
 	YTDialog * yt = new YTDialog(0, &settings);
+
+#ifdef YT_USE_SCRIPT
+	QString ytcode_name = "ytcode.script";
+	QString ytcode_file = configPath() +"/"+ ytcode_name;
+	if (QFile::exists(smplayerConfigPath())) ytcode_file = smplayerConfigPath() +"/"+ ytcode_name;
+	qDebug("ytcode_file: %s", ytcode_file.toUtf8().constData());
+	yt->setScriptFile(ytcode_file);
+#endif
+
 	QObject::connect(&a, SIGNAL(messageReceived(const QString&)),
                      yt, SLOT(handleMessage(const QString&)));
 
