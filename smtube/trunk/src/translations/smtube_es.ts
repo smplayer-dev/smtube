@@ -826,7 +826,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation>¿Quieres actualizar el código de Youtube? Esto podría solicionar el problema.</translation>
+        <translation>¿Quieres actualizar el código de Youtube? Esto podría solucionar el problema.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="783"/>
