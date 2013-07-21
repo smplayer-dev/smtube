@@ -192,6 +192,50 @@
     </message>
 </context>
 <context>
+    <name>CodeDownloader</name>
+    <message>
+        <location filename="../codedownloader.cpp" line="37"/>
+        <source>Downloading...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="57"/>
+        <source>Connecting to %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="123"/>
+        <source>The Youtube code has been updated successfully.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="124"/>
+        <source>Installed version: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="125"/>
+        <source>Success</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="130"/>
+        <location filename="../codedownloader.cpp" line="135"/>
+        <source>Error</source>
+        <translation type="unfinished">错误</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="130"/>
+        <source>An error happened writing %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="135"/>
+        <source>An error happened while downloading the file:&lt;br&gt;%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ConfigDialog</name>
     <message>
         <location filename="../configdialog.ui" line="14"/>
@@ -593,7 +637,7 @@
     <name>RecordingDialog</name>
     <message>
         <location filename="../recordingdialog.cpp" line="203"/>
-        <location filename="../recordingdialog.cpp" line="419"/>
+        <location filename="../recordingdialog.cpp" line="420"/>
         <source>Recordings</source>
         <translation>录制</translation>
     </message>
@@ -604,88 +648,88 @@
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="205"/>
-        <location filename="../recordingdialog.cpp" line="548"/>
+        <location filename="../recordingdialog.cpp" line="549"/>
         <source>&amp;Open folder</source>
         <translation>打开文件夹(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="265"/>
-        <location filename="../recordingdialog.cpp" line="663"/>
+        <location filename="../recordingdialog.cpp" line="266"/>
+        <location filename="../recordingdialog.cpp" line="665"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>检索下载 URL 时发生一个错误。</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="265"/>
-        <location filename="../recordingdialog.cpp" line="663"/>
+        <location filename="../recordingdialog.cpp" line="266"/>
+        <location filename="../recordingdialog.cpp" line="665"/>
         <source>Recording failed</source>
         <translation>录制失败</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="306"/>
-        <location filename="../recordingdialog.cpp" line="681"/>
+        <location filename="../recordingdialog.cpp" line="307"/>
+        <location filename="../recordingdialog.cpp" line="683"/>
         <source>Starting</source>
         <translation>正在开始</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="340"/>
+        <location filename="../recordingdialog.cpp" line="341"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="344"/>
+        <location filename="../recordingdialog.cpp" line="345"/>
         <source>Completed</source>
         <translation>已完成</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="423"/>
+        <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%1% / %n个视频 - 正在录制</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="508"/>
+        <location filename="../recordingdialog.cpp" line="509"/>
         <source>&amp;Cancel</source>
         <translation>取消(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="510"/>
+        <location filename="../recordingdialog.cpp" line="511"/>
         <source>&amp;Remove from list</source>
         <translation>从列表中移除(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="529"/>
-        <location filename="../recordingdialog.cpp" line="551"/>
+        <location filename="../recordingdialog.cpp" line="530"/>
+        <location filename="../recordingdialog.cpp" line="552"/>
         <source>Remove from &amp;list</source>
         <translation>从列表中移除(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="527"/>
+        <location filename="../recordingdialog.cpp" line="528"/>
         <source>&amp;Retry</source>
         <translation>重试(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="547"/>
+        <location filename="../recordingdialog.cpp" line="548"/>
         <source>&amp;Play</source>
         <translation>播放(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="550"/>
+        <location filename="../recordingdialog.cpp" line="551"/>
         <source>&amp;Delete</source>
         <translation>删除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="629"/>
+        <location filename="../recordingdialog.cpp" line="630"/>
         <source>Fetching URL...</source>
         <translation>正在读取 URL...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="645"/>
+        <location filename="../recordingdialog.cpp" line="647"/>
         <source>File error</source>
         <translation>文件错误</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="646"/>
+        <location filename="../recordingdialog.cpp" line="648"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>该文件不存在，您想要从列表中移除它吗?</translation>
     </message>
@@ -701,122 +745,144 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="211"/>
+        <location filename="../ytdialog.cpp" line="216"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>YouTube 浏览器 - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="258"/>
+        <location filename="../ytdialog.cpp" line="263"/>
         <source>Settings</source>
         <translation>设置</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="264"/>
+        <location filename="../ytdialog.cpp" line="269"/>
         <source>Information</source>
         <translation>信息</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="270"/>
+        <location filename="../ytdialog.cpp" line="275"/>
         <source>Show recordings</source>
         <translation>显示录制</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="437"/>
+        <location filename="../ytdialog.cpp" line="445"/>
         <source>Most Relevant</source>
         <translation>最相关</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="441"/>
+        <location filename="../ytdialog.cpp" line="449"/>
         <source>Most Recent</source>
         <translation>最新</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="445"/>
+        <location filename="../ytdialog.cpp" line="453"/>
         <source>Most Viewed</source>
         <translation>最多观看</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="449"/>
+        <location filename="../ytdialog.cpp" line="457"/>
         <source>Most Popular</source>
         <translation>最受欢迎</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="457"/>
+        <location filename="../ytdialog.cpp" line="465"/>
         <source>Most Rated</source>
         <translation>最多评价</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="468"/>
+        <location filename="../ytdialog.cpp" line="476"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>在 YouTube%1 上最受欢迎的视频</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="469"/>
+        <location filename="../ytdialog.cpp" line="477"/>
         <source>Most rated videos on YouTube%1</source>
         <translation>在 YouTube%1 上最多评价的视频</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="470"/>
+        <location filename="../ytdialog.cpp" line="478"/>
         <source>Most rated music videos this week on YouTube%1</source>
         <translation>YouTube%1 上本周最受好评的MV。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="589"/>
+        <location filename="../ytdialog.cpp" line="597"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>错误: 无法连接到 YouTube 服务器。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="473"/>
+        <location filename="../ytdialog.cpp" line="782"/>
+        <location filename="../ytdialog.cpp" line="793"/>
+        <source>Problems with Youtube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="784"/>
+        <source>Do you want to update the Youtube code? This may fix the problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="783"/>
+        <location filename="../ytdialog.cpp" line="794"/>
+        <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="795"/>
+        <source>Maybe updating this application could fix the problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="481"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; 的 YouTube%2 结果</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="597"/>
+        <location filename="../ytdialog.cpp" line="605"/>
         <source>No videos found</source>
         <translation>未找到视频</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="599"/>
+        <location filename="../ytdialog.cpp" line="607"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>未找到视频 &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="680"/>
+        <location filename="../ytdialog.cpp" line="693"/>
         <source>&amp;Play video</source>
         <translation>播放视频(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="681"/>
+        <location filename="../ytdialog.cpp" line="694"/>
         <source>&amp;Record video</source>
         <translation>录制视频(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="682"/>
+        <location filename="../ytdialog.cpp" line="695"/>
         <source>&amp;Watch on YouTube</source>
         <translation>在 YouTube 上观看(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="683"/>
+        <location filename="../ytdialog.cpp" line="696"/>
         <source>&amp;Copy link</source>
         <translation>复制链接(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="233"/>
+        <location filename="../ytdialog.cpp" line="238"/>
         <source>Next</source>
         <translation>下一页</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="239"/>
+        <location filename="../ytdialog.cpp" line="244"/>
         <source>Previous</source>
         <translation>上一页</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="453"/>
+        <location filename="../ytdialog.cpp" line="461"/>
         <source>Music Top Rated</source>
         <translation>音乐评分排行</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="754"/>
+        <location filename="../ytdialog.cpp" line="771"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
