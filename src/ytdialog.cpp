@@ -47,6 +47,10 @@
 #include "configdialog.h"
 #include "about.h"
 
+#ifdef YT_USE_SCRIPT
+#include "ytsig.h"
+#endif
+
 #define PAGE_RESULT_COUNT 25
 
 OverlayWidget::OverlayWidget(QWidget* parent) : QWidget(parent)
@@ -663,6 +667,9 @@ void YTDialog::videoDblClicked(QListWidgetItem *item)
     if (!players.currentPlayer().directPlay()) {
         RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
         rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) playback_quality);
+        #ifdef YT_USE_SCRIPT
+        YTSig::setScriptFile(script_file);
+        #endif
         connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)),
                 this, SLOT(playYTUrl(const QString &, QString, QString)));
         connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)),
@@ -707,6 +714,10 @@ void YTDialog::showContextMenu(QPoint point)
 
 void YTDialog::recordItem(QListWidgetItem *item)
 {
+    #ifdef YT_USE_SCRIPT
+    YTSig::setScriptFile(script_file);
+    #endif
+
     SingleVideoItem* svi = item->data(0).value<SingleVideoItem*>();
     recording_dialog->downloadVideoId(svi->videoid, svi->header, 0);
 }

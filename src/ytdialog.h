@@ -173,6 +173,10 @@ public:
     void setMode(Mode mode);
     void addTab(Tabs tab);
 
+#ifdef YT_USE_SCRIPT
+    void setScriptFile(const QString & file) { script_file = file; };
+#endif
+
 signals:
     void gotUrls(const QMap<int, QString>&, QString, QString);
 
@@ -220,6 +224,10 @@ private:
     QSettings * set;
     Players players;
     int playback_quality;
+
+#ifdef YT_USE_SCRIPT
+    QString script_file;
+#endif
 
     void updateNextPrevWidget();
     void reset();
