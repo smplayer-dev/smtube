@@ -780,7 +780,7 @@ void YTDialog::showErrorSignatureNotFound(const QString & title) {
 	#ifdef YT_USE_SCRIPT
 	static CodeDownloader * downloader = 0;
 	int ret = QMessageBox::question(this, tr("Problems with Youtube"),
-				tr("Unfortunately due to changes in Youtube page, the video '%1' can't be played or recorded.").arg(t) + "<br><br>" +
+				tr("Unfortunately due to changes in Youtube, the video '%1' can't be played or recorded.").arg(t) + "<br><br>" +
 				tr("Do you want to update the Youtube code? This may fix the problem."),
 				QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 	if (ret == QMessageBox::Yes) {
