@@ -13,6 +13,13 @@ CONFIG += qt warn_on release
 RESOURCES = icons.qrc
 
 DEFINES += NO_SMPLAYER_SUPPORT
+DEFINES += YT_USE_SCRIPT
+
+contains( DEFINES, YT_USE_SCRIPT ) {
+	#HEADERS += codedownloader.h
+	#SOURCES += codedownloader.cpp
+	QT += script
+}
 
 # Input
 HEADERS += myborder.h \
