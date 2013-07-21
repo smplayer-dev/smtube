@@ -304,6 +304,9 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     connect(videoList, SIGNAL(customContextMenuRequested(QPoint)), this, SLOT(showContextMenu(QPoint)));
 
     connect(recording_dialog, SIGNAL(playFile(QString)), this, SLOT(playVideo(QString)));
+    connect(recording_dialog, SIGNAL(signatureNotFound(const QString &)),
+            this, SLOT(showErrorSignatureNotFound(const QString &)));
+
     /*
     connect(this, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)), 
             this, SLOT(playYTUrl(QMap<int,QString>,QString, QString)));
@@ -672,6 +675,8 @@ void YTDialog::videoDblClicked(QListWidgetItem *item)
         #endif
         connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)),
                 this, SLOT(playYTUrl(const QString &, QString, QString)));
+        connect(rvu, SIGNAL(signatureNotFound(const QString &)), 
+                this, SLOT(showErrorSignatureNotFound(const QString &)));
         connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)),
                 rvu, SLOT(deleteLater()));
         rvu->fetchYTVideoPage( svi->videoid, svi->header );
@@ -763,6 +768,17 @@ void YTDialog::handleMessage(const QString& message)
 void YTDialog::showErrorDialog(const QString & error) 
 {
     QMessageBox::warning(this, tr("Error"), error);
+}
+
+void YTDialog::showErrorSignatureNotFound(const QString & title) {
+	qDebug("YTDialog::showErrorSignatureNotFound: %s", title.toUtf8().constData());
+
+	QString t = title;
+	t.replace(" - YouTube", "");
+
+	QMessageBox::warning(this, tr("Problems with Youtube"),
+		tr("Unfortunately due to changes in Youtube, the video '%1' can't be played or recorded.").arg(t) + "<br><br>" +
+		tr("Maybe updating this application could fix the problem."));
 }
 
 void YTDialog::showAboutDialog() 

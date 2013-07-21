@@ -199,6 +199,7 @@ protected slots:
     void showConfigDialog();
     void showAboutDialog();
     void showErrorDialog(const QString & error);
+    void showErrorSignatureNotFound(const QString &);
 
 private:
     YTTabBar* tabBar;
