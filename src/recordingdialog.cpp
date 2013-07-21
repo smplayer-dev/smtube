@@ -251,6 +251,7 @@ void RecordingDialog::downloadVideoId(QString videoId, QString title, double)
 {
     RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
     rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) recording_quality);
+    connect(rvu, SIGNAL(signatureNotFound(const QString &)), this, SIGNAL(signatureNotFound(const QString &)));
     connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)), this, SLOT(recordVideo(const QString &,QString,QString)));
     connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)), rvu, SLOT(deleteLater()));
     rvu->fetchYTVideoPage(videoId, title);
@@ -631,6 +632,7 @@ void RecordingDialog::retryDownload(QListWidgetItem *item)
     item->setData(emitDataChangedRole, !item->data(emitDataChangedRole).toBool());
     RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
     rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) recording_quality);
+    connect(rvu, SIGNAL(signatureNotFound(const QString &)), this, SIGNAL(signatureNotFound(const QString &)));
     connect(rvu, SIGNAL(gotPreferredUrl(const QString &,QString, QString)), this, SLOT(urlToDownload(const QString &,QString)));
     connect(rvu, SIGNAL(errorOcurred(QString,int)), this, SLOT(fetchUrlError(QString,int)));
     rvu->fetchYTVideoPage(dd->videoId, dd->title);
