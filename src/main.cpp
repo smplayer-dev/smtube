@@ -24,7 +24,6 @@
 #include <QDir>
 #include "ytdialog.h"
 
-#ifdef YT_USE_SCRIPT
 QString configPath() {
 #ifdef PORTABLE_APP
     return qApp->applicationDirPath();
@@ -42,8 +41,8 @@ QString configPath() {
 #endif
 #endif // PORTABLE_APP
 }
-#endif // YT_USE_SCRIPT
 
+#ifdef YT_USE_SCRIPT
 QString smplayerConfigPath() {
 #ifdef PORTABLE_APP
     return qApp->applicationDirPath();
@@ -61,6 +60,7 @@ QString smplayerConfigPath() {
 #endif
 #endif // PORTABLE_APP
 }
+#endif // YT_USE_SCRIPT
 
 QString translationsPath() {
 	QString path = "translations";
