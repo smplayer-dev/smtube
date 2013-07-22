@@ -101,7 +101,7 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	record_quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
 
 #ifdef Q_OS_WIN
-    /* playback_group->hide(); */
+    playback_group->hide();
 #endif
 
     connect(player_combo, SIGNAL(currentIndexChanged(int)), this, SLOT(playerChanged(int)));
