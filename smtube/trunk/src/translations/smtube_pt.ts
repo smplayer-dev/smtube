@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -196,43 +194,43 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Transferência...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="57"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ligação a %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="123"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>O código Youtube foi atualizado com sucesso.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="124"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Versão instalada: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="125"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Sucesso</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="130"/>
         <location filename="../codedownloader.cpp" line="135"/>
         <source>Error</source>
-        <translation type="unfinished">Erro</translation>
+        <translation>Erro</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="130"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocorreu um erro ao escrever %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="135"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocorreu um erro ao transferir o ficheiro:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -258,30 +256,6 @@
         <translation>&amp;Qualidade</translation>
     </message>
     <message>
-        <source>Normal (360p)</source>
-        <translation type="obsolete">Normal (360p)</translation>
-    </message>
-    <message>
-        <source>HD (720p)</source>
-        <translation type="obsolete">HD (720p)</translation>
-    </message>
-    <message>
-        <source>Full HD (1080p)</source>
-        <translation type="obsolete">Full HD (1080p)</translation>
-    </message>
-    <message>
-        <source>&amp;Format</source>
-        <translation type="obsolete">&amp;Formato</translation>
-    </message>
-    <message>
-        <source>MP4</source>
-        <translation type="obsolete">MP4</translation>
-    </message>
-    <message>
-        <source>Flv</source>
-        <translation type="obsolete">Flv</translation>
-    </message>
-    <message>
         <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
         <translation>Fontes padrão</translation>
@@ -304,7 +278,7 @@
     <message>
         <location filename="../configdialog.ui" line="88"/>
         <source>Q&amp;uality:</source>
-        <translation type="unfinished"></translation>
+        <translation>Q&amp;ualidade:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="118"/>
@@ -521,18 +495,6 @@
         <source>Today</source>
         <translation>Hoje</translation>
     </message>
-    <message>
-        <source>Low Quality (226p)</source>
-        <translation type="obsolete">Baixa qualidade</translation>
-    </message>
-    <message>
-        <source>Medium Quality (360p)</source>
-        <translation type="obsolete">Qualidade média (360p)</translation>
-    </message>
-    <message>
-        <source>High Quality (480p)</source>
-        <translation type="obsolete">Alta qualidade (480p)</translation>
-    </message>
 </context>
 <context>
     <name>DownloadFile</name>
@@ -683,10 +645,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% de %n vídeo - Gravações</numerusform>
-            <numerusform>%1% de %n vídeos - Gravações</numerusform>
-        </translation>
+        <translation><numerusform>%1% de %n vídeo - Gravações</numerusform><numerusform>%1% de %n vídeos - Gravações</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -814,23 +773,23 @@
         <location filename="../ytdialog.cpp" line="782"/>
         <location filename="../ytdialog.cpp" line="793"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Erros Youtube</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Quer atualizar o código Youtube? Pode ajudar a corrigir o problema.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="783"/>
         <location filename="../ytdialog.cpp" line="794"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Devido às recentes alterações no Youtube, o vídeo %1 não pode ser reproduzido ou transferido.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="795"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Atualize esta aplicação para tentar resolver os problemas.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="481"/>
