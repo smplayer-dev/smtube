@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="cs">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -196,43 +194,43 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Stahování...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="57"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Připojování k %1...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="123"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kód Youtube byl úspěšně aktualizován.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="124"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nainstalovaná verze: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="125"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Úspěch</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="130"/>
         <location filename="../codedownloader.cpp" line="135"/>
         <source>Error</source>
-        <translation type="unfinished">Chyba</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="130"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Došlo k chybě při zapisování %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="135"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Došlo k chybě při stahování souboru:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -258,30 +256,6 @@
         <translation>&amp;Kvalita</translation>
     </message>
     <message>
-        <source>Normal (360p)</source>
-        <translation type="obsolete">Normální (360p)</translation>
-    </message>
-    <message>
-        <source>HD (720p)</source>
-        <translation type="obsolete">HD (720p)</translation>
-    </message>
-    <message>
-        <source>Full HD (1080p)</source>
-        <translation type="obsolete">Full HD (1080p)</translation>
-    </message>
-    <message>
-        <source>&amp;Format</source>
-        <translation type="obsolete">&amp;Format</translation>
-    </message>
-    <message>
-        <source>MP4</source>
-        <translation type="obsolete">MP4</translation>
-    </message>
-    <message>
-        <source>Flv</source>
-        <translation type="obsolete">Flv</translation>
-    </message>
-    <message>
         <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
         <translation>Standardní zdroje</translation>
@@ -304,7 +278,7 @@
     <message>
         <location filename="../configdialog.ui" line="88"/>
         <source>Q&amp;uality:</source>
-        <translation type="unfinished"></translation>
+        <translation>K&amp;valita:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="118"/>
@@ -521,18 +495,6 @@
         <source>Today</source>
         <translation>Dnes</translation>
     </message>
-    <message>
-        <source>Low Quality (226p)</source>
-        <translation type="obsolete">Nízká kvalita (226p)</translation>
-    </message>
-    <message>
-        <source>Medium Quality (360p)</source>
-        <translation type="obsolete">Střední kvalita (360p)</translation>
-    </message>
-    <message>
-        <source>High Quality (480p)</source>
-        <translation type="obsolete">Vysoká kvalita (480p)</translation>
-    </message>
 </context>
 <context>
     <name>DownloadFile</name>
@@ -683,11 +645,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% z %n videa - nahrávek</numerusform>
-            <numerusform>%1% z %n videí - nahrávek</numerusform>
-            <numerusform>%1% z %n videí - nahrávek</numerusform>
-        </translation>
+        <translation><numerusform>%1% z %n videa - nahrávek</numerusform><numerusform>%1% z %n videí - nahrávek</numerusform><numerusform>%1% z %n videí - nahrávek</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -815,23 +773,23 @@
         <location filename="../ytdialog.cpp" line="782"/>
         <location filename="../ytdialog.cpp" line="793"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Problémy s Youtube</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chcete aktualizovat kód Youtube? To může problém vyřešit.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="783"/>
         <location filename="../ytdialog.cpp" line="794"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvůli změnám na stránce Youtube nelze video &apos;%1&apos; přehrát nebo nahrát.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="795"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyřešení problému by mohlo napomoci aktualizování této aplikace.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="481"/>

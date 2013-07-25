@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="eu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="eu" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -133,7 +131,7 @@
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Norwegian Nynorsk</source>
-        <translation>Norbegiar Nynorskera</translation>
+        <translation>Norbegiera Nynorsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
@@ -196,43 +194,43 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeisten...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="57"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1-ra elkarketatzen</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="123"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube kodea ongi eguneratu da.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="124"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezarritako bertsioa: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="125"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongi</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="130"/>
         <location filename="../codedownloader.cpp" line="135"/>
         <source>Error</source>
-        <translation type="unfinished">Akatsa</translation>
+        <translation>Akatsa</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="130"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Akats bat gertatu da %1 idazterakoan</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="135"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Akats bat gertatu da agiria jeisterakoan:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -258,30 +256,6 @@
         <translation>&amp;Ontasuna</translation>
     </message>
     <message>
-        <source>Normal (360p)</source>
-        <translation type="obsolete">Arrunta (360p)</translation>
-    </message>
-    <message>
-        <source>HD (720p)</source>
-        <translation type="obsolete">HD (720p)</translation>
-    </message>
-    <message>
-        <source>Full HD (1080p)</source>
-        <translation type="obsolete">Full HD (1080p)</translation>
-    </message>
-    <message>
-        <source>&amp;Format</source>
-        <translation type="obsolete">&amp;Heuskarria</translation>
-    </message>
-    <message>
-        <source>MP4</source>
-        <translation type="obsolete">MP4</translation>
-    </message>
-    <message>
-        <source>Flv</source>
-        <translation type="obsolete">Flv</translation>
-    </message>
-    <message>
         <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
         <translation>Jario Estandarrak</translation>
@@ -289,7 +263,7 @@
     <message>
         <location filename="../configdialog.ui" line="155"/>
         <source>&amp;Region:</source>
-        <translation>&amp;Eskualdea</translation>
+        <translation>&amp;Eskualdea:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="181"/>
@@ -304,7 +278,7 @@
     <message>
         <location filename="../configdialog.ui" line="88"/>
         <source>Q&amp;uality:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ontasuna:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="118"/>
@@ -494,7 +468,7 @@
     <message>
         <location filename="../configdialog.cpp" line="70"/>
         <source>United Arab Emirates</source>
-        <translation>Arabiar Emirrerri Batauk</translation>
+        <translation>Arabiar Emirrerri Batuak</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="71"/>
@@ -520,18 +494,6 @@
         <location filename="../configdialog.cpp" line="76"/>
         <source>Today</source>
         <translation>Gaur</translation>
-    </message>
-    <message>
-        <source>Low Quality (226p)</source>
-        <translation type="obsolete">Ontasun Apala (226p)</translation>
-    </message>
-    <message>
-        <source>Medium Quality (360p)</source>
-        <translation type="obsolete">Ontasun Ertaina (360p)</translation>
-    </message>
-    <message>
-        <source>High Quality (480p)</source>
-        <translation type="obsolete">Ontasun Handia (480p)</translation>
     </message>
 </context>
 <context>
@@ -656,7 +618,7 @@
         <location filename="../recordingdialog.cpp" line="266"/>
         <location filename="../recordingdialog.cpp" line="665"/>
         <source>There was an error in retrieving the download URL.</source>
-        <translation>Akats bat gertatu da jeisketa URL gertatzerakoan.</translation>
+        <translation>Akats bat gertatu da jeisketa URL-a gertatzerakoan.</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="266"/>
@@ -683,10 +645,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% %n-tik  bideo - Grabaketa</numerusform>
-            <numerusform>%1% %n-tik bideo - Grabaketa</numerusform>
-        </translation>
+        <translation><numerusform>%1% %n-tik  bideo - Grabaketa</numerusform><numerusform>%1% %n-tik bideo - Grabaketa</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -814,28 +773,28 @@
         <location filename="../ytdialog.cpp" line="782"/>
         <location filename="../ytdialog.cpp" line="793"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Arazoak Youtube-rekin</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nahi duzu Youtube kodea eguneratzea? Honek arazoa zuzendu dezake.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="783"/>
         <location filename="../ytdialog.cpp" line="794"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoritxarrez Youtube-ko aldaketengaitik, &apos;%1&apos; bideoa ezin da irakurri edo grabatu.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="795"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Badaiteke aplikazio hau eguneratzeak arazoa zuzentzea.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="481"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
-        <translation>YouTube%2 emaitz &quot;%1&quot;-rako</translation>
+        <translation>YouTube%2 emaitzak &quot;%1&quot;-rako</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="605"/>
