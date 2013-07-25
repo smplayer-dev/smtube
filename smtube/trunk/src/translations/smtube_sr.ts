@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sr" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="sr">
 <context>
     <name>About</name>
     <message>
@@ -164,7 +166,12 @@
         <translation>Грузијски</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="130"/>
+        <source>Serbian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="154"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -197,38 +204,38 @@
         <translation>Преузимање...</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="57"/>
+        <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
         <translation>Повезивање на %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="123"/>
+        <location filename="../codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
         <translation>Youtube код је успешно ажуриран.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="124"/>
+        <location filename="../codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
         <translation>Инсталирана верзија: %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="125"/>
+        <location filename="../codedownloader.cpp" line="126"/>
         <source>Success</source>
         <translation>Успех</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="130"/>
-        <location filename="../codedownloader.cpp" line="135"/>
+        <location filename="../codedownloader.cpp" line="131"/>
+        <location filename="../codedownloader.cpp" line="136"/>
         <source>Error</source>
         <translation>Грешка</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="130"/>
+        <location filename="../codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
         <translation>Грешка се догодила код уписивања %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="135"/>
+        <location filename="../codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
         <translation>Грешка се догодила код преузимања фајла:&lt;br&gt;%1</translation>
     </message>
@@ -645,7 +652,11 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>%1% од %n видео снимка - Снимања</numerusform><numerusform>%1% од %n видео снимка - Снимања</numerusform><numerusform>%1% од %n видео снимака - Снимања</numerusform></translation>
+        <translation>
+            <numerusform>%1% од %n видео снимка - Снимања</numerusform>
+            <numerusform>%1% од %n видео снимка - Снимања</numerusform>
+            <numerusform>%1% од %n видео снимака - Снимања</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>

@@ -166,7 +166,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="130"/>
+        <source>Serbian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="154"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -199,38 +204,38 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="57"/>
+        <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="123"/>
+        <location filename="../codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="124"/>
+        <location filename="../codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="125"/>
+        <location filename="../codedownloader.cpp" line="126"/>
         <source>Success</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="130"/>
-        <location filename="../codedownloader.cpp" line="135"/>
+        <location filename="../codedownloader.cpp" line="131"/>
+        <location filename="../codedownloader.cpp" line="136"/>
         <source>Error</source>
         <translation type="unfinished">Virhe</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="130"/>
+        <location filename="../codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="135"/>
+        <location filename="../codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
         <translation type="unfinished"></translation>
     </message>
