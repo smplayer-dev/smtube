@@ -25,7 +25,7 @@ FILETYPE            VFT_APP
       VALUE "OriginalFilename", "smtube.exe\0"
       #if defined(_WIN64)
       VALUE "ProductName", "Youtube™ Browser for SMPlayer (64-bit)\0"
-      #elif defined(_WIN32)
+      #elif defined(_WIN32) && !defined(_WIN64)
       VALUE "ProductName", "Youtube™ Browser for SMPlayer (32-bit)\0"
       #endif
       VALUE "ProductVersion", SMTUBE_PRODVERSION
@@ -37,4 +37,4 @@ FILETYPE            VFT_APP
   }
 }
 
-IDI_ICON1		ICON		DISCARDABLE		"smtube.ico"
+IDI_ICON1   ICON   DISCARDABLE   "smtube.ico"
