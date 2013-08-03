@@ -86,8 +86,9 @@ void YTDataAPI::gotReply(QNetworkReply *reply)
 
 void YTDataAPI::parseXmlReply(QByteArray arr, YTReply &formattedReply)
 {
+    QString text = QUrl::fromPercentEncoding(arr);
     QDomDocument doc;
-    doc.setContent(arr, false);    
+    doc.setContent(text, false);
     formattedReply.totalResultCount = doc.elementsByTagName("openSearch:totalResults").item(0).toElement().text().toInt();
     formattedReply.startIndex = doc.elementsByTagName("openSearch:startIndex").item(0).toElement().text().toInt();
     formattedReply.itemsPerPage = doc.elementsByTagName("openSearch:itemsPerPage").item(0).toElement().text().toInt();    
