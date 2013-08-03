@@ -117,7 +117,7 @@ void YTDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option, co
     painter->setFont(font);    
     QRect descRect( PIXWIDTH + 4, headerRect.bottom() + 7, sz.width() - PIXWIDTH - 8, ttRect.top() - headerRect.bottom() - 7);
     QTextLayout textLayout(item->desc, font);
-    layoutText(textLayout, item->desc, descRect.size());
+    layoutText(textLayout, item->desc, descRect.size(), 0);
     textLayout.draw(painter, descRect.topLeft());
 
     QPen sepLinePen(QColor("#e3e3e3"));
@@ -147,8 +147,16 @@ QSize YTDelegate::sizeHint(const QStyleOptionViewItem &option, const QModelIndex
     return QSize( option.rect.width(), 91 );
 }
 
-void YTDelegate::layoutText(QTextLayout& textLayout, QString text, QSize constraint) const
+void YTDelegate::layoutText(QTextLayout& textLayout, QString text, QSize constraint, int depth) const
 {
+    // Bail out if we are too deep in the recursion chain
+    // TODO: This is a temporary workaround for bug #586
+    // See https://sourceforge.net/p/smplayer/bugs/586/
+    if (depth > 16)
+    {
+        return;
+    }
+
     QTextOption textOption(Qt::AlignJustify);
     textLayout.setTextOption(textOption);
     textLayout.setText(text);
@@ -168,7 +176,7 @@ void YTDelegate::layoutText(QTextLayout& textLayout, QString text, QSize constra
             text.chop(lastString.length());
             text += fm.elidedText(lastString, Qt::ElideRight, constraint.width()-1);
             textLayout.endLayout();
-            layoutText(textLayout, text, constraint);
+            layoutText(textLayout, text, constraint, ++depth);
             return;
         }
         lHeight += line.height();

@@ -68,7 +68,7 @@ public slots:
 
 private:
     QString timeString(int sec) const;
-    void layoutText(QTextLayout& layout, QString text, QSize constraint) const;
+    void layoutText(QTextLayout& layout, QString text, QSize constraint, int depth) const;
     QPixmap playOverlay;
     QPixmap pixBorderOverlay1;
     QPixmap pixBorderOverlay2;
