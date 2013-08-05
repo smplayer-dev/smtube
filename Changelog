@@ -1,5 +1,13 @@
 Version 1.8:
 
+(2013-08-03)
+ * Bugfix: if the search term contained a non ascii character, the results
+   from page 2 onwards were incorrect. This is fixed now.
+
+(2013-07-21)
+ * Ask the user to update the youtube code when an unknown signature is
+   found.
+
 (2013-07-15)
  * The quality for recording has now more options and allows to save the
    video in webm format as well.
