@@ -1,5 +1,8 @@
 Version 1.8:
 
+(2013-08-05) 
+ * New translations: Croatian, Bulgarian, Vietnamese and Indonesian.
+
 (2013-08-03)
  * Bugfix: if the search term contained a non ascii character, the results
    from page 2 onwards were incorrect. This is fixed now.
