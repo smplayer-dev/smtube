@@ -115,6 +115,7 @@ QString About::getTranslators() {
          trad(tr("Serbian"), QStringList() << QString::fromUtf8("Mladen Pejaković (transifex)") << "miroslav (transifex)") +
          trad(tr("Croatian"), "gogo (transifex)") +
          trad(tr("Bulgarian"), "Ivailo Monev (transifex)") +
+         trad(tr("Vietnamese"), QStringList() << "Phan Anh (transifex)" << "Biz Over (transifex)" << "Thu Thao Nguyen Ngoc (transifex)") +
          "");
 }
 
