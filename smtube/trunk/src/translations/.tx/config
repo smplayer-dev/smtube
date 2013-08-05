@@ -1,0 +1,10 @@
+[main]
+host = https://www.transifex.net
+
+[smplayer.smtube]
+type = ts
+file_filter = smtube_<lang>.ts
+source_lang = en
+source_file = smtube_en.ts
+trans.he = smtube_HE_IL.ts
+minimum_perc = 90
