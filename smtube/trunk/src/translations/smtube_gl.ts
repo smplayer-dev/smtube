@@ -61,139 +61,156 @@
         <translation>Visita o noso sitio web para informarte sobre das actualizacións:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="107"/>
+        <location filename="../about.cpp" line="92"/>
         <source>The following people have contributed with translations:</source>
         <translation>As seguintes persoas colaboraron facendo as traducións:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="109"/>
+        <location filename="../about.cpp" line="94"/>
         <source>Spanish</source>
         <translation>castelán</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="110"/>
+        <location filename="../about.cpp" line="95"/>
         <source>Russian</source>
         <translation>ruso</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="111"/>
+        <location filename="../about.cpp" line="96"/>
         <source>Lithuanian</source>
         <translation>lituano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="112"/>
+        <location filename="../about.cpp" line="97"/>
         <source>Japanese</source>
         <translation>xaponés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="113"/>
+        <location filename="../about.cpp" line="98"/>
         <source>Simplified-Chinese</source>
         <translation>chinés simplificado</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="114"/>
+        <location filename="../about.cpp" line="99"/>
         <source>Basque</source>
         <translation>éuscara</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="115"/>
+        <location filename="../about.cpp" line="100"/>
         <source>Portuguese</source>
         <translation>portugués</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="116"/>
+        <location filename="../about.cpp" line="101"/>
         <source>Hungarian</source>
         <translation>húngaro</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="117"/>
+        <location filename="../about.cpp" line="102"/>
         <source>Polish</source>
         <translation>polaco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="119"/>
+        <location filename="../about.cpp" line="104"/>
         <source>Greek</source>
         <translation>grego</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
+        <location filename="../about.cpp" line="105"/>
         <source>Hebrew</source>
         <translation>Hebreo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="121"/>
+        <location filename="../about.cpp" line="106"/>
         <source>Portuguese (Brazil)</source>
         <translation>Portugués do Brasil</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="122"/>
+        <location filename="../about.cpp" line="107"/>
         <source>Ukrainian</source>
         <translation>Ucraíno</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="123"/>
+        <location filename="../about.cpp" line="108"/>
         <source>Norwegian Nynorsk</source>
         <translation>Novo noruegués, Nynorsk</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="124"/>
+        <location filename="../about.cpp" line="109"/>
         <source>Czech</source>
         <translation>Checo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
+        <location filename="../about.cpp" line="110"/>
         <source>Malay</source>
         <translation>Malaio</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="126"/>
+        <location filename="../about.cpp" line="111"/>
         <source>Swedish</source>
         <translation>Sueco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
+        <location filename="../about.cpp" line="112"/>
         <source>Turkish</source>
         <translation>Turco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="128"/>
+        <location filename="../about.cpp" line="113"/>
         <source>Finnish</source>
         <translation>Finés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="129"/>
+        <location filename="../about.cpp" line="114"/>
         <source>Georgian</source>
         <translation>Xeorxiano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="130"/>
+        <location filename="../about.cpp" line="115"/>
         <source>Serbian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
+        <location filename="../about.cpp" line="116"/>
+        <source>Croatian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="117"/>
+        <source>Bulgarian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="118"/>
+        <source>Vietnamese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="119"/>
+        <source>Indonesian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="143"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="118"/>
+        <location filename="../about.cpp" line="103"/>
         <source>Galician</source>
         <translation>galego</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="201"/>
         <source>&amp;Youtube</source>
-        <translation>&amp;YouTube</translation>
+        <translation type="obsolete">&amp;YouTube</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="63"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation>Fundado en febreiro de 2005, YouTube&amp;trade; é a comunidade de vídeo máis popular de internet, e permítelle a millóns de persoas descubrir, ver e compartir os seus vídeos. YouTube&amp;trade; é un foro no que a xente se conecta, infórmase, e inspira a outras persoas de todas as partes do mundo, servindo ademais de plataforma de distribución de contidos para os autores e os anunciantes, tanto os grandes coma os pequenos.</translation>
+        <translation type="obsolete">Fundado en febreiro de 2005, YouTube&amp;trade; é a comunidade de vídeo máis popular de internet, e permítelle a millóns de persoas descubrir, ver e compartir os seus vídeos. YouTube&amp;trade; é un foro no que a xente se conecta, infórmase, e inspira a outras persoas de todas as partes do mundo, servindo ademais de plataforma de distribución de contidos para os autores e os anunciantes, tanto os grandes coma os pequenos.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="69"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation>O uso deste aplicativo implica a aceptación das condicións dos servizos de Google, ás que podes acceder desde «%1».</translation>
+        <translation type="obsolete">O uso deste aplicativo implica a aceptación das condicións dos servizos de Google, ás que podes acceder desde «%1».</translation>
     </message>
 </context>
 <context>

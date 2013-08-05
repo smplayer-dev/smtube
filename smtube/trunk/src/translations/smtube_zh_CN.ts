@@ -61,139 +61,156 @@
         <translation>访问我们的网站获取更新:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="107"/>
+        <location filename="../about.cpp" line="92"/>
         <source>The following people have contributed with translations:</source>
         <translation>以下人员对翻译作出贡献:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="109"/>
+        <location filename="../about.cpp" line="94"/>
         <source>Spanish</source>
         <translation>西班牙语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="110"/>
+        <location filename="../about.cpp" line="95"/>
         <source>Russian</source>
         <translation>俄语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="111"/>
+        <location filename="../about.cpp" line="96"/>
         <source>Lithuanian</source>
         <translation>立陶宛语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="112"/>
+        <location filename="../about.cpp" line="97"/>
         <source>Japanese</source>
         <translation>日语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="113"/>
+        <location filename="../about.cpp" line="98"/>
         <source>Simplified-Chinese</source>
         <translation>简体中文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="114"/>
+        <location filename="../about.cpp" line="99"/>
         <source>Basque</source>
         <translation>巴斯克语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="115"/>
+        <location filename="../about.cpp" line="100"/>
         <source>Portuguese</source>
         <translation>葡萄牙语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="116"/>
+        <location filename="../about.cpp" line="101"/>
         <source>Hungarian</source>
         <translation>匈牙利语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="117"/>
+        <location filename="../about.cpp" line="102"/>
         <source>Polish</source>
         <translation>波兰语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="119"/>
+        <location filename="../about.cpp" line="104"/>
         <source>Greek</source>
         <translation>希腊语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
+        <location filename="../about.cpp" line="105"/>
         <source>Hebrew</source>
         <translation>希伯来文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="121"/>
+        <location filename="../about.cpp" line="106"/>
         <source>Portuguese (Brazil)</source>
         <translation>葡萄牙语(巴西)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="122"/>
+        <location filename="../about.cpp" line="107"/>
         <source>Ukrainian</source>
         <translation>Ukrainian</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="123"/>
+        <location filename="../about.cpp" line="108"/>
         <source>Norwegian Nynorsk</source>
         <translation>挪威尼诺斯克语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="124"/>
+        <location filename="../about.cpp" line="109"/>
         <source>Czech</source>
         <translation>捷克语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
+        <location filename="../about.cpp" line="110"/>
         <source>Malay</source>
         <translation>马来语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="126"/>
+        <location filename="../about.cpp" line="111"/>
         <source>Swedish</source>
         <translation>瑞典语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
+        <location filename="../about.cpp" line="112"/>
         <source>Turkish</source>
         <translation>土耳其语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="128"/>
+        <location filename="../about.cpp" line="113"/>
         <source>Finnish</source>
         <translation>芬兰语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="129"/>
+        <location filename="../about.cpp" line="114"/>
         <source>Georgian</source>
         <translation>格鲁吉亚语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="130"/>
+        <location filename="../about.cpp" line="115"/>
         <source>Serbian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
+        <location filename="../about.cpp" line="116"/>
+        <source>Croatian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="117"/>
+        <source>Bulgarian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="118"/>
+        <source>Vietnamese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="119"/>
+        <source>Indonesian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="143"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="118"/>
+        <location filename="../about.cpp" line="103"/>
         <source>Galician</source>
         <translation>加利西亚语</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="201"/>
         <source>&amp;Youtube</source>
-        <translation>YouTube(&amp;Y)</translation>
+        <translation type="obsolete">YouTube(&amp;Y)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="63"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation>YouTube&amp;trade; 成立于 2005年2月，是世界上最受欢迎的在线视频社区，其使无数的人得以发现、观看和分享原创视频。YouTube&amp;trade; 为人们提供一个论坛，以便在全球范围内连接、通知和启发其他人，并作为大小型原创内容创作者和广告客户的分发平台。</translation>
+        <translation type="obsolete">YouTube&amp;trade; 成立于 2005年2月，是世界上最受欢迎的在线视频社区，其使无数的人得以发现、观看和分享原创视频。YouTube&amp;trade; 为人们提供一个论坛，以便在全球范围内连接、通知和启发其他人，并作为大小型原创内容创作者和广告客户的分发平台。</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="69"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation>通过使用本应用程序，即表示您同意接受位于 %1 的 Google 服务条款的约束。</translation>
+        <translation type="obsolete">通过使用本应用程序，即表示您同意接受位于 %1 的 Google 服务条款的约束。</translation>
     </message>
 </context>
 <context>

@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="hr">
 <context>
     <name>About</name>
     <message>
@@ -59,134 +61,156 @@
         <translation>Posjetite našu web stranicu za noviju inačicu:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="107"/>
+        <location filename="../about.cpp" line="92"/>
         <source>The following people have contributed with translations:</source>
         <translation>Sljedeće osobe su doprinijele prijevodima:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="109"/>
+        <location filename="../about.cpp" line="94"/>
         <source>Spanish</source>
         <translation>Španjolski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="110"/>
+        <location filename="../about.cpp" line="95"/>
         <source>Russian</source>
         <translation>Ruski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="111"/>
+        <location filename="../about.cpp" line="96"/>
         <source>Lithuanian</source>
         <translation>Litavski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="112"/>
+        <location filename="../about.cpp" line="97"/>
         <source>Japanese</source>
         <translation>Japanski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="113"/>
+        <location filename="../about.cpp" line="98"/>
         <source>Simplified-Chinese</source>
         <translation>Pojednostavljeni kineski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="114"/>
+        <location filename="../about.cpp" line="99"/>
         <source>Basque</source>
         <translation>Baskijski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="115"/>
+        <location filename="../about.cpp" line="100"/>
         <source>Portuguese</source>
         <translation>Portugalski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="116"/>
+        <location filename="../about.cpp" line="101"/>
         <source>Hungarian</source>
         <translation>Mađarski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="117"/>
+        <location filename="../about.cpp" line="102"/>
         <source>Polish</source>
         <translation>Poljski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="119"/>
+        <location filename="../about.cpp" line="104"/>
         <source>Greek</source>
         <translation>Grčki</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
+        <location filename="../about.cpp" line="105"/>
         <source>Hebrew</source>
         <translation>Hebrejski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="121"/>
+        <location filename="../about.cpp" line="106"/>
         <source>Portuguese (Brazil)</source>
         <translation>Portugalski (Brazil)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="122"/>
+        <location filename="../about.cpp" line="107"/>
         <source>Ukrainian</source>
         <translation>Ukrajinski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="123"/>
+        <location filename="../about.cpp" line="108"/>
         <source>Norwegian Nynorsk</source>
         <translation>Norveški Nynorsk</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="124"/>
+        <location filename="../about.cpp" line="109"/>
         <source>Czech</source>
         <translation>Češki</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
+        <location filename="../about.cpp" line="110"/>
         <source>Malay</source>
         <translation>Malajski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="126"/>
+        <location filename="../about.cpp" line="111"/>
         <source>Swedish</source>
         <translation>Švedski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
+        <location filename="../about.cpp" line="112"/>
         <source>Turkish</source>
         <translation>Turski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="128"/>
+        <location filename="../about.cpp" line="113"/>
         <source>Finnish</source>
         <translation>Finski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="129"/>
+        <location filename="../about.cpp" line="114"/>
         <source>Georgian</source>
         <translation>Gruzijski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="115"/>
+        <source>Serbian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="116"/>
+        <source>Croatian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="117"/>
+        <source>Bulgarian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="118"/>
+        <source>Vietnamese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="119"/>
+        <source>Indonesian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="143"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="118"/>
+        <location filename="../about.cpp" line="103"/>
         <source>Galician</source>
         <translation>Galicijski</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="201"/>
         <source>&amp;Youtube</source>
-        <translation>&amp;Youtube</translation>
+        <translation type="obsolete">&amp;Youtube</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="63"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation>Osnovan u Veljači 2005, YouTube&amp;trade; je najpopularnija video zajednica na svijetu, koja omogućuje milijunima ljudi da otkriju, gledaju i dijele vlastite video uradke. YouTube&amp;trade; pruža forum namijenjen ljudima da se spajaju, informiraju i inspiriraju druge ljude diljem kugle zemaljske i ponaša se kao distribucijska platforma za autore orginalnih sadržaja i za male i velike oglašavatelje.</translation>
+        <translation type="obsolete">Osnovan u Veljači 2005, YouTube&amp;trade; je najpopularnija video zajednica na svijetu, koja omogućuje milijunima ljudi da otkriju, gledaju i dijele vlastite video uradke. YouTube&amp;trade; pruža forum namijenjen ljudima da se spajaju, informiraju i inspiriraju druge ljude diljem kugle zemaljske i ponaša se kao distribucijska platforma za autore orginalnih sadržaja i za male i velike oglašavatelje.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="69"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation>Koristeći ovu aplikaciju suglasni ste sa Google Uvjetima korištenja koji se nalaze na %1.</translation>
+        <translation type="obsolete">Koristeći ovu aplikaciju suglasni ste sa Google Uvjetima korištenja koji se nalaze na %1.</translation>
     </message>
 </context>
 <context>
@@ -197,38 +221,38 @@
         <translation>Preuzimanje...</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="57"/>
+        <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
         <translation>Povezivanje s %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="123"/>
+        <location filename="../codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
         <translation>Youtube kôd je uspješno ažuriran.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="124"/>
+        <location filename="../codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
         <translation>Instalirana inačica: %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="125"/>
+        <location filename="../codedownloader.cpp" line="126"/>
         <source>Success</source>
         <translation>Uspješno</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="130"/>
-        <location filename="../codedownloader.cpp" line="135"/>
+        <location filename="../codedownloader.cpp" line="131"/>
+        <location filename="../codedownloader.cpp" line="136"/>
         <source>Error</source>
         <translation>Greška</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="130"/>
+        <location filename="../codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
         <translation>Greška se dogodila pri zapisivanju %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="135"/>
+        <location filename="../codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
         <translation>Greška se dogodila pri preuzimanju datoteke:&lt;br&gt;%1</translation>
     </message>
@@ -645,7 +669,11 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>%1% od %n video snimke - Snimanja</numerusform><numerusform>%1% od %n video snimke - Snimanja</numerusform><numerusform>%1% od %n video snimaka - Snimanja</numerusform></translation>
+        <translation>
+            <numerusform>%1% od %n video snimke - Snimanja</numerusform>
+            <numerusform>%1% od %n video snimke - Snimanja</numerusform>
+            <numerusform>%1% od %n video snimaka - Snimanja</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
