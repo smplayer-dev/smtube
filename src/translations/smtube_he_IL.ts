@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="he">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="he" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -58,7 +56,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>Visit our web for updates:</source>
-        <translation type="unfinished"></translation>
+        <translation>בקר את עמוד הרשת שלנו עבור עדכונים:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="92"/>
@@ -118,91 +116,87 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>עברית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Portuguese (Brazil)</source>
-        <translation type="unfinished"></translation>
+        <translation>פורטוגזית (ברזיל)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="107"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>אוקראינית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="108"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>נורבגית חדשה</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="109"/>
         <source>Czech</source>
-        <translation type="unfinished"></translation>
+        <translation>צ&apos;כית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Malay</source>
-        <translation type="unfinished"></translation>
+        <translation>מלאי</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="111"/>
         <source>Swedish</source>
-        <translation type="unfinished"></translation>
+        <translation>שבדית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>Turkish</source>
-        <translation type="unfinished"></translation>
+        <translation>טורקית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="113"/>
         <source>Finnish</source>
-        <translation type="unfinished"></translation>
+        <translation>פינית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="114"/>
         <source>Georgian</source>
-        <translation type="unfinished"></translation>
+        <translation>גרוזינית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="115"/>
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation>סרבי</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>קרואטית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
         <source>Bulgarian</source>
-        <translation type="unfinished"></translation>
+        <translation>בולגרית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>ווייטנאמית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="119"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>אינדונזית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Galician</source>
         <translation>גליצאית</translation>
-    </message>
-    <message>
-        <source>&amp;Youtube</source>
-        <translation type="obsolete">&amp;Youtube</translation>
     </message>
 </context>
 <context>
@@ -210,43 +204,43 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>מוריד כעת...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>מתחבר כעת אל %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>הקוד של Youtube עודכן בהצלחה.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>גירסה מותקנת: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>הצלחה</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">שגיאה</translation>
+        <translation>שגיאה</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>אירעה שגיאה בכתיבת %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>אירעה שגיאה במהלך הורדת הקובץ:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -269,46 +263,22 @@
     <message>
         <location filename="../configdialog.ui" line="45"/>
         <source>&amp;Quality</source>
-        <translation>&amp;איכות</translation>
-    </message>
-    <message>
-        <source>Normal (360p)</source>
-        <translation type="obsolete">רגילה (360p)</translation>
-    </message>
-    <message>
-        <source>HD (720p)</source>
-        <translation type="obsolete">HD (720p‪)</translation>
-    </message>
-    <message>
-        <source>Full HD (1080p)</source>
-        <translation type="obsolete">Full HD (1080p‪)</translation>
-    </message>
-    <message>
-        <source>&amp;Format</source>
-        <translation type="obsolete">&amp;פורמט</translation>
-    </message>
-    <message>
-        <source>MP4</source>
-        <translation type="obsolete">MP4</translation>
-    </message>
-    <message>
-        <source>Flv</source>
-        <translation type="obsolete">Flv</translation>
+        <translation>אי&amp;כות</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
-        <translation type="unfinished"></translation>
+        <translation>הזנות רגילות</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="155"/>
         <source>&amp;Region:</source>
-        <translation type="unfinished"></translation>
+        <translation>אזו&amp;ר:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="181"/>
         <source>Period of &amp;time:</source>
-        <translation type="unfinished"></translation>
+        <translation>משך של &amp;זמן:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="80"/>
@@ -318,7 +288,7 @@
     <message>
         <location filename="../configdialog.ui" line="88"/>
         <source>Q&amp;uality:</source>
-        <translation type="unfinished"></translation>
+        <translation>אי&amp;כות:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="118"/>
@@ -328,224 +298,212 @@
     <message>
         <location filename="../configdialog.cpp" line="31"/>
         <source>Argentina</source>
-        <translation type="unfinished"></translation>
+        <translation>ארגנטינה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="32"/>
         <source>Australia</source>
-        <translation type="unfinished"></translation>
+        <translation>אוסטרליה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="34"/>
         <source>Belgium</source>
-        <translation type="unfinished"></translation>
+        <translation>בלגיה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="35"/>
         <source>Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>ברזיל</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="36"/>
         <source>Canada</source>
-        <translation type="unfinished"></translation>
+        <translation>קנדה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="37"/>
         <source>Chile</source>
-        <translation type="unfinished"></translation>
+        <translation>צ&apos;ילי</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="38"/>
         <source>Colombia</source>
-        <translation type="unfinished"></translation>
+        <translation>קולומביה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="39"/>
         <source>Czech Republic</source>
-        <translation type="unfinished"></translation>
+        <translation>צ&apos;כיה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="40"/>
         <source>Egypt</source>
-        <translation type="unfinished"></translation>
+        <translation>מצרים</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="41"/>
         <source>France</source>
-        <translation type="unfinished"></translation>
+        <translation>צרפת</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="42"/>
         <source>Germany</source>
-        <translation type="unfinished"></translation>
+        <translation>גרמניה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="43"/>
         <source>Great Britain</source>
-        <translation type="unfinished"></translation>
+        <translation>בריטניה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="44"/>
         <source>Hong Kong</source>
-        <translation type="unfinished"></translation>
+        <translation>הונג קונג</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="45"/>
         <source>Hungary</source>
-        <translation type="unfinished"></translation>
+        <translation>הונגריה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="46"/>
         <source>India</source>
-        <translation type="unfinished"></translation>
+        <translation>הודו</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="47"/>
         <source>Ireland</source>
-        <translation type="unfinished"></translation>
+        <translation>אירלנד</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="48"/>
         <source>Israel</source>
-        <translation type="unfinished"></translation>
+        <translation>ישראל</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="49"/>
         <source>Italy</source>
-        <translation type="unfinished"></translation>
+        <translation>איטליה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="50"/>
         <source>Japan</source>
-        <translation type="unfinished"></translation>
+        <translation>יפן</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="52"/>
         <source>Jordan</source>
-        <translation type="unfinished"></translation>
+        <translation>ירדן</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="53"/>
         <source>Malaysia</source>
-        <translation type="unfinished"></translation>
+        <translation>מלזיה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="54"/>
         <source>Mexico</source>
-        <translation type="unfinished"></translation>
+        <translation>מקסיקו</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="55"/>
         <source>Morocco</source>
-        <translation type="unfinished"></translation>
+        <translation>מרוקו</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="56"/>
         <source>Netherlands</source>
-        <translation type="unfinished"></translation>
+        <translation>הולנד</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="57"/>
         <source>New Zealand</source>
-        <translation type="unfinished"></translation>
+        <translation>ניו זילנד</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="58"/>
         <source>Peru</source>
-        <translation type="unfinished"></translation>
+        <translation>פרו</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="59"/>
         <source>Philippines</source>
-        <translation type="unfinished"></translation>
+        <translation>פיליפינים</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="60"/>
         <source>Poland</source>
-        <translation type="unfinished"></translation>
+        <translation>פולין</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="61"/>
         <source>Russia</source>
-        <translation type="unfinished"></translation>
+        <translation>רוסיה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="62"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>ערב הסעודית</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="63"/>
         <source>Singapore</source>
-        <translation type="unfinished"></translation>
+        <translation>סינגפור</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="64"/>
         <source>South Africa</source>
-        <translation type="unfinished"></translation>
+        <translation>דרום אפריקה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="65"/>
         <source>South Korea</source>
-        <translation type="unfinished"></translation>
+        <translation>קוריאה הדרומית</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="66"/>
         <source>Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>ספרד</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="67"/>
         <source>Sweden</source>
-        <translation type="unfinished"></translation>
+        <translation>שבדיה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="69"/>
         <source>Taiwan</source>
-        <translation type="unfinished"></translation>
+        <translation>טייוואן</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="70"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished"></translation>
+        <translation>איחוד אמירויות ערביות</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="71"/>
         <source>United States</source>
-        <translation type="unfinished"></translation>
+        <translation>ארצות הברית</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="73"/>
         <source>All time</source>
-        <translation type="unfinished"></translation>
+        <translation>כל זמן</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="74"/>
         <source>This month</source>
-        <translation type="unfinished"></translation>
+        <translation>חודש זה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="75"/>
         <source>This week</source>
-        <translation type="unfinished"></translation>
+        <translation>שבוע זה</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="76"/>
         <source>Today</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Low Quality (226p)</source>
-        <translation type="obsolete">איכות נמוכה (226p)</translation>
-    </message>
-    <message>
-        <source>Medium Quality (360p)</source>
-        <translation type="obsolete">איכות בינונית (360p)</translation>
-    </message>
-    <message>
-        <source>High Quality (480p)</source>
-        <translation type="obsolete">איכות גבוהה (480p)</translation>
+        <translation>היום</translation>
     </message>
 </context>
 <context>
@@ -578,37 +536,37 @@
     <message>
         <location filename="../downloadfile.cpp" line="130"/>
         <source>%1 of %2 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 מתוך %2 מ״ב</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="136"/>
         <source>%1 of %2 KB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 מתוך %2 ק״ב</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="142"/>
         <source>%1 of %2 bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 מתוך %2 בתים</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="146"/>
         <source>%1 of unknown size</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 מתוך גודל לא ידוע</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="151"/>
         <source>%1 MB/sec</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 מ״ב/שניה</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="155"/>
         <source>%1 KB/sec</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ק״ב/שניה</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="159"/>
         <source>%1 bytes/sec</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 בתים/שניה</translation>
     </message>
 </context>
 <context>
@@ -616,7 +574,7 @@
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation>לחץ לבחירת קובץ או תיקייה</translation>
     </message>
 </context>
 <context>
@@ -634,17 +592,17 @@
     <message>
         <location filename="../recordingdialog.cpp" line="150"/>
         <source>%1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 מ״ב</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="154"/>
         <source>%1 KB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ק״ב</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="158"/>
         <source>%1 bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 בתים</translation>
     </message>
 </context>
 <context>
@@ -670,7 +628,7 @@
         <location filename="../recordingdialog.cpp" line="266"/>
         <location filename="../recordingdialog.cpp" line="665"/>
         <source>There was an error in retrieving the download URL.</source>
-        <translation type="unfinished"></translation>
+        <translation>ארעה שגיאה באחזור URL של הורדה.</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="266"/>
@@ -697,10 +655,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -710,18 +665,18 @@
     <message>
         <location filename="../recordingdialog.cpp" line="511"/>
         <source>&amp;Remove from list</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;הסר מן רשימה</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="530"/>
         <location filename="../recordingdialog.cpp" line="552"/>
         <source>Remove from &amp;list</source>
-        <translation type="unfinished"></translation>
+        <translation>הסר מן &amp;רשימה</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="528"/>
         <source>&amp;Retry</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;נסה שוב</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="548"/>
@@ -736,7 +691,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="630"/>
         <source>Fetching URL...</source>
-        <translation type="unfinished"></translation>
+        <translation>תופס כעת URL...</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="647"/>
@@ -746,7 +701,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="648"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
-        <translation type="unfinished"></translation>
+        <translation>הקובץ לא קיים, האם ברצונך להסירו מן הרשימה?</translation>
     </message>
 </context>
 <context>
@@ -777,7 +732,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="275"/>
         <source>Show recordings</source>
-        <translation type="unfinished"></translation>
+        <translation>הצג הקלטות</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="445"/>
@@ -817,7 +772,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="478"/>
         <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>סרטוני מוזיקה מדורגים ביותר אצל YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="597"/>
@@ -828,23 +783,23 @@
         <location filename="../ytdialog.cpp" line="782"/>
         <location filename="../ytdialog.cpp" line="793"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>בעיות עם Youtube</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>האם ברצונך לעדכן את הקוד של Youtube? זה עשוי לתקן את הבעיה.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="783"/>
         <location filename="../ytdialog.cpp" line="794"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"></translation>
+        <translation>למרבה הצער בעקבות שינויים אצל Youtube, הוידאו &apos;%1&apos; לא מסוגל להתנגן או להיקלט.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="795"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>אולי עדכון של SMPlayer עשוי לתקן את הבעיה.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="481"/>
@@ -894,7 +849,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="461"/>
         <source>Music Top Rated</source>
-        <translation type="unfinished"></translation>
+        <translation>מוזיקה מדורגת ביותר</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="771"/>

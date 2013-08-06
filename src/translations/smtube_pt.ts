@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -168,27 +166,27 @@
     <message>
         <location filename="../about.cpp" line="115"/>
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation>Sérvio</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Croata</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
         <source>Bulgarian</source>
-        <translation type="unfinished"></translation>
+        <translation>Búlgaro</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>Vietnamita</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="119"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>Indonésio</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
@@ -199,18 +197,6 @@
         <location filename="../about.cpp" line="103"/>
         <source>Galician</source>
         <translation>Galego</translation>
-    </message>
-    <message>
-        <source>&amp;Youtube</source>
-        <translation type="obsolete">&amp;Youtube</translation>
-    </message>
-    <message>
-        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="obsolete">Criado em fevereiro de 2005, o YouTube&amp;trade; é a comunidade mais influente da web e que permite a milhões de pessoas a descoberta, visualização e partilha de vídeos. O YouTube&amp;trade; disponibiliza um fórum para a comunicação entre essas pessoas e atua como uma plataforma de distribuição de conteúdos e anúncios.</translation>
-    </message>
-    <message>
-        <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="obsolete">Se utilizar esta aplicação, está desde já obrigado(a) a ceitar os termos dos serviços Google disponíveis no %1.</translation>
     </message>
 </context>
 <context>
@@ -669,10 +655,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% de %n vídeo - Gravações</numerusform>
-            <numerusform>%1% de %n vídeos - Gravações</numerusform>
-        </translation>
+        <translation><numerusform>%1% de %n vídeo - Gravações</numerusform><numerusform>%1% de %n vídeos - Gravações</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
