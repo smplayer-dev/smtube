@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -168,27 +166,27 @@
     <message>
         <location filename="../about.cpp" line="115"/>
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation>セルビア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>クロアチア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
         <source>Bulgarian</source>
-        <translation type="unfinished"></translation>
+        <translation>ブルガリア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>ベトナム語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="119"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>インドネシア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
@@ -200,61 +198,49 @@
         <source>Galician</source>
         <translation>ガリシア語</translation>
     </message>
-    <message>
-        <source>&amp;Youtube</source>
-        <translation type="obsolete">YouTube(&amp;Y)</translation>
-    </message>
-    <message>
-        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="obsolete">2005 年 2 月に創設された YouTube&amp;trade; は、世界で最も人気のあるオンライン動画コミュニティとして、何百万人ものユーザーにオリジナル動画を発見、視聴、共有する場を提供しています。YouTube&amp;trade; はまた、世界中の人々が交流し、情報を交換し、刺激し合うためのフォーラムとしても、オリジナル コンテンツ クリエーターや大小の広告主が情報を配信するためのプラットフォームとしても機能しています。</translation>
-    </message>
-    <message>
-        <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="obsolete">このアプリケーションを使用することによって、あなたは %1 にある Google 利用規約の制約を受けることに同意するものとします。</translation>
-    </message>
 </context>
 <context>
     <name>CodeDownloader</name>
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>ダウンロード中...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 へ接続しています</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube のコードは正常に更新されました。</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>インストールされたバージョン: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>成功</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">エラー</translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>書き込みエラーが発生しました: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルのダウンロード中にエラーが発生しました:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -280,43 +266,19 @@
         <translation>品質(&amp;Q)</translation>
     </message>
     <message>
-        <source>Normal (360p)</source>
-        <translation type="obsolete">通常 (360p)</translation>
-    </message>
-    <message>
-        <source>HD (720p)</source>
-        <translation type="obsolete">HD (720p)</translation>
-    </message>
-    <message>
-        <source>Full HD (1080p)</source>
-        <translation type="obsolete">フル HD (1080p)</translation>
-    </message>
-    <message>
-        <source>&amp;Format</source>
-        <translation type="obsolete">フォーマット(&amp;F)</translation>
-    </message>
-    <message>
-        <source>MP4</source>
-        <translation type="obsolete">MP4</translation>
-    </message>
-    <message>
-        <source>Flv</source>
-        <translation type="obsolete">FLV</translation>
-    </message>
-    <message>
         <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
-        <translation type="unfinished"></translation>
+        <translation>標準フィード</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="155"/>
         <source>&amp;Region:</source>
-        <translation type="unfinished"></translation>
+        <translation>検索(&amp;R):</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="181"/>
         <source>Period of &amp;time:</source>
-        <translation type="unfinished"></translation>
+        <translation>期間(&amp;T):</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="80"/>
@@ -326,7 +288,7 @@
     <message>
         <location filename="../configdialog.ui" line="88"/>
         <source>Q&amp;uality:</source>
-        <translation type="unfinished"></translation>
+        <translation>品質(&amp;U):</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="118"/>
@@ -336,224 +298,212 @@
     <message>
         <location filename="../configdialog.cpp" line="31"/>
         <source>Argentina</source>
-        <translation type="unfinished"></translation>
+        <translation>アルゼンチン</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="32"/>
         <source>Australia</source>
-        <translation type="unfinished"></translation>
+        <translation>オーストラリア</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="34"/>
         <source>Belgium</source>
-        <translation type="unfinished"></translation>
+        <translation>ベルギー</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="35"/>
         <source>Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>ブラジル</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="36"/>
         <source>Canada</source>
-        <translation type="unfinished"></translation>
+        <translation>カナダ</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="37"/>
         <source>Chile</source>
-        <translation type="unfinished"></translation>
+        <translation>チリ</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="38"/>
         <source>Colombia</source>
-        <translation type="unfinished"></translation>
+        <translation>コロンビア</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="39"/>
         <source>Czech Republic</source>
-        <translation type="unfinished"></translation>
+        <translation>チェコ</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="40"/>
         <source>Egypt</source>
-        <translation type="unfinished"></translation>
+        <translation>エジプト</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="41"/>
         <source>France</source>
-        <translation type="unfinished"></translation>
+        <translation>フランス</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="42"/>
         <source>Germany</source>
-        <translation type="unfinished"></translation>
+        <translation>ドイツ</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="43"/>
         <source>Great Britain</source>
-        <translation type="unfinished"></translation>
+        <translation>英国</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="44"/>
         <source>Hong Kong</source>
-        <translation type="unfinished"></translation>
+        <translation>香港</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="45"/>
         <source>Hungary</source>
-        <translation type="unfinished"></translation>
+        <translation>ハンガリー</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="46"/>
         <source>India</source>
-        <translation type="unfinished"></translation>
+        <translation>インド</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="47"/>
         <source>Ireland</source>
-        <translation type="unfinished"></translation>
+        <translation>アイルランド</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="48"/>
         <source>Israel</source>
-        <translation type="unfinished"></translation>
+        <translation>イスラエル</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="49"/>
         <source>Italy</source>
-        <translation type="unfinished"></translation>
+        <translation>イタリア</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="50"/>
         <source>Japan</source>
-        <translation type="unfinished"></translation>
+        <translation>日本</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="52"/>
         <source>Jordan</source>
-        <translation type="unfinished"></translation>
+        <translation>ヨルダン</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="53"/>
         <source>Malaysia</source>
-        <translation type="unfinished"></translation>
+        <translation>マレーシア</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="54"/>
         <source>Mexico</source>
-        <translation type="unfinished"></translation>
+        <translation>メキシコ</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="55"/>
         <source>Morocco</source>
-        <translation type="unfinished"></translation>
+        <translation>モロッコ</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="56"/>
         <source>Netherlands</source>
-        <translation type="unfinished"></translation>
+        <translation>オランダ</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="57"/>
         <source>New Zealand</source>
-        <translation type="unfinished"></translation>
+        <translation>ニュージーランド</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="58"/>
         <source>Peru</source>
-        <translation type="unfinished"></translation>
+        <translation>ペルー</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="59"/>
         <source>Philippines</source>
-        <translation type="unfinished"></translation>
+        <translation>フィリピン</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="60"/>
         <source>Poland</source>
-        <translation type="unfinished"></translation>
+        <translation>ポーランド</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="61"/>
         <source>Russia</source>
-        <translation type="unfinished"></translation>
+        <translation>ロシア</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="62"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>サウジアラビア</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="63"/>
         <source>Singapore</source>
-        <translation type="unfinished"></translation>
+        <translation>シンガポール</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="64"/>
         <source>South Africa</source>
-        <translation type="unfinished"></translation>
+        <translation>南アフリカ</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="65"/>
         <source>South Korea</source>
-        <translation type="unfinished"></translation>
+        <translation>韓国</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="66"/>
         <source>Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>スペイン</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="67"/>
         <source>Sweden</source>
-        <translation type="unfinished"></translation>
+        <translation>スウェーデン</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="69"/>
         <source>Taiwan</source>
-        <translation type="unfinished"></translation>
+        <translation>台湾</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="70"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished"></translation>
+        <translation>アラブ首長国連邦</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="71"/>
         <source>United States</source>
-        <translation type="unfinished"></translation>
+        <translation>米国</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="73"/>
         <source>All time</source>
-        <translation type="unfinished"></translation>
+        <translation>全期間</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="74"/>
         <source>This month</source>
-        <translation type="unfinished"></translation>
+        <translation>今月</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="75"/>
         <source>This week</source>
-        <translation type="unfinished"></translation>
+        <translation>今週</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="76"/>
         <source>Today</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Low Quality (226p)</source>
-        <translation type="obsolete">低品質 (226p)</translation>
-    </message>
-    <message>
-        <source>Medium Quality (360p)</source>
-        <translation type="obsolete">中品質 (360p)</translation>
-    </message>
-    <message>
-        <source>High Quality (480p)</source>
-        <translation type="obsolete">高品質 (480p)</translation>
+        <translation>今日</translation>
     </message>
 </context>
 <context>
@@ -705,9 +655,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%n 動画の %1% - 録画</numerusform>
-        </translation>
+        <translation><numerusform>%n 動画の %1% - 録画</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -835,23 +783,23 @@
         <location filename="../ytdialog.cpp" line="782"/>
         <location filename="../ytdialog.cpp" line="793"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube に関する問題</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube のコードを更新しますか? これにより問題が修正されるかもしれません。</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="783"/>
         <location filename="../ytdialog.cpp" line="794"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube ページの変更のため、ビデオ &apos;%1&apos; は残念ながら再生または録画できません。</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="795"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>このアプリケーションの更新により問題が修正されるかもしれません。</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="481"/>
