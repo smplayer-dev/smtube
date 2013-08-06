@@ -1,3 +1,15 @@
+Version 1.8
+
+ * Adapt for Youtube changes.
+ * More options in the configuration dialog, now it's possible to select
+   the preferred region and period of time for the standard feeds.
+ * The quality for recording has now more options and allows to save the
+   video in webm format as well.
+ * Fixed an important bug: if the search term contained a non ascii character, 
+   the results from page 2 onwards were incorrect. This is fixed now.
+ * New translations: Croatian, Bulgarian, Vietnamese and Indonesian.
+
+
 Version 1.7
 
  * The recently featured video list has been replaced by a list of top
