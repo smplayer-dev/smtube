@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="zh_CN">
 <context>
     <name>About</name>
     <message>
@@ -59,34 +61,32 @@
         <translation>访问我们的网站获取更新:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="92"/>
         <source>The following people have contributed with translations:</source>
-        <translation>以下人员对翻译作出贡献:</translation>
+        <translation type="obsolete">以下人员对翻译作出贡献:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="94"/>
+        <location filename="../about.cpp" line="98"/>
         <source>Spanish</source>
         <translation>西班牙语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="95"/>
+        <location filename="../about.cpp" line="115"/>
         <source>Russian</source>
         <translation>俄语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="96"/>
+        <location filename="../about.cpp" line="108"/>
         <source>Lithuanian</source>
         <translation>立陶宛语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="97"/>
+        <location filename="../about.cpp" line="102"/>
         <source>Japanese</source>
         <translation>日语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="98"/>
         <source>Simplified-Chinese</source>
-        <translation>简体中文</translation>
+        <translation type="obsolete">简体中文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -94,107 +94,176 @@
         <translation>巴斯克语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="100"/>
+        <location filename="../about.cpp" line="104"/>
         <source>Portuguese</source>
         <translation>葡萄牙语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="101"/>
+        <location filename="../about.cpp" line="119"/>
+        <location filename="../about.cpp" line="130"/>
         <source>Hungarian</source>
         <translation>匈牙利语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="102"/>
+        <location filename="../about.cpp" line="114"/>
         <source>Polish</source>
         <translation>波兰语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="104"/>
         <source>Greek</source>
-        <translation>希腊语</translation>
+        <translation type="obsolete">希腊语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="105"/>
+        <location filename="../about.cpp" line="111"/>
         <source>Hebrew</source>
         <translation>希伯来文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="106"/>
         <source>Portuguese (Brazil)</source>
-        <translation>葡萄牙语(巴西)</translation>
+        <translation type="obsolete">葡萄牙语(巴西)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="107"/>
+        <location filename="../about.cpp" line="106"/>
         <source>Ukrainian</source>
         <translation>Ukrainian</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="108"/>
+        <location filename="../about.cpp" line="125"/>
         <source>Norwegian Nynorsk</source>
         <translation>挪威尼诺斯克语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="109"/>
+        <location filename="../about.cpp" line="101"/>
         <source>Czech</source>
         <translation>捷克语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="110"/>
+        <location filename="../about.cpp" line="92"/>
+        <source>Many people contributed with translations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="93"/>
+        <source>You can also help to translate SMPlayer into your own language.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="94"/>
+        <source>Visit %1 and join a translation team.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="96"/>
+        <source>Current translators from the transifex teams:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="103"/>
+        <source>Korean</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="109"/>
         <source>Malay</source>
         <translation>马来语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="111"/>
+        <location filename="../about.cpp" line="110"/>
+        <source>Portuguese - Brazil</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="112"/>
+        <source>Simplified Chinese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="116"/>
+        <source>French</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="118"/>
+        <source>Danish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="122"/>
+        <source>German</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="123"/>
+        <source>Traditional Chinese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="126"/>
         <source>Swedish</source>
         <translation>瑞典语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="112"/>
+        <location filename="../about.cpp" line="120"/>
         <source>Turkish</source>
         <translation>土耳其语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="113"/>
+        <location filename="../about.cpp" line="121"/>
         <source>Finnish</source>
         <translation>芬兰语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="114"/>
+        <location filename="../about.cpp" line="127"/>
+        <source>Arabic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="128"/>
         <source>Georgian</source>
         <translation>格鲁吉亚语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="115"/>
+        <location filename="../about.cpp" line="105"/>
         <source>Serbian</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="116"/>
+        <location filename="../about.cpp" line="100"/>
         <source>Croatian</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="124"/>
+        <source>Bulgarian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="113"/>
+        <source>Vietnamese</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
-        <source>Bulgarian</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="118"/>
-        <source>Vietnamese</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="119"/>
         <source>Indonesian</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="143"/>
+        <location filename="../about.cpp" line="129"/>
+        <source>Arabic - Saudi Arabia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="131"/>
+        <source>Sinhala</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="156"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="103"/>
+        <location filename="../about.cpp" line="107"/>
         <source>Galician</source>
         <translation>加利西亚语</translation>
     </message>
@@ -204,43 +273,43 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">错误</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -288,7 +357,7 @@
     <message>
         <location filename="../configdialog.ui" line="88"/>
         <source>Q&amp;uality:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="118"/>
@@ -655,7 +724,9 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>%1% / %n个视频 - 正在录制</numerusform></translation>
+        <translation>
+            <numerusform>%1% / %n个视频 - 正在录制</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -783,23 +854,23 @@
         <location filename="../ytdialog.cpp" line="782"/>
         <location filename="../ytdialog.cpp" line="793"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="783"/>
         <location filename="../ytdialog.cpp" line="794"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="795"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="481"/>
