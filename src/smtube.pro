@@ -4,16 +4,19 @@
 
 TEMPLATE = app
 QT += network xml
-TARGET = 
-DEPENDPATH += . qtsingleapplication
-INCLUDEPATH += . qtsingleapplication
-
+TARGET = smtube
+INCLUDEPATH += qtsingleapplication
 CONFIG += qt warn_on release
 
 RESOURCES = icons.qrc
 
 DEFINES += NO_SMPLAYER_SUPPORT
 DEFINES += YT_USE_SCRIPT
+
+isEqual(QT_MAJOR_VERSION, 5) {
+	QT += widgets gui
+	DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x040000
+}
 
 contains( DEFINES, YT_USE_SCRIPT ) {
 	HEADERS += codedownloader.h
@@ -93,8 +96,8 @@ TRANSLATIONS = translations/smtube_es.ts \
 
 
 # qtsingleapplication
-SOURCES += qtsingleapplication.cpp qtlocalpeer.cpp
-HEADERS += qtsingleapplication.h qtlocalpeer.h
+SOURCES += qtsingleapplication/qtsingleapplication.cpp qtsingleapplication/qtlocalpeer.cpp
+HEADERS += qtsingleapplication/qtsingleapplication.h qtsingleapplication/qtlocalpeer.h
 
 unix {
     UI_DIR = .ui
