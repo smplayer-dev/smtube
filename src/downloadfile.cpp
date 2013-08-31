@@ -40,7 +40,7 @@ QObject(parent), speed(0)
 
 void DownloadFile::getRequest(QString url)
 {
-        QUrl realUrl = QUrl::fromEncoded(url.toAscii(), QUrl::StrictMode);
+        QUrl realUrl = QUrl::fromEncoded(url.toLatin1(), QUrl::StrictMode);
         getRequest(realUrl);
 }
 
