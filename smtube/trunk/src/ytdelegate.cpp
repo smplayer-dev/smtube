@@ -60,7 +60,8 @@ void YTDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option, co
             painter->fillRect(option.rect, Qt::white);
         }
     }
-    SingleVideoItem* item = qVariantValue<SingleVideoItem*>(index.data());    
+
+    SingleVideoItem* item = index.data().value<SingleVideoItem*>();
     QSize sz = option.rect.size(); --sz.rheight();
     painter->translate(option.rect.x() , option.rect.y());
     painter->drawPixmap(0, 0, PIXWIDTH, sz.height(), item->pix );    
