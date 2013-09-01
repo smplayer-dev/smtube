@@ -63,7 +63,7 @@ OverlayWidget::OverlayWidget(QWidget* parent) : QWidget(parent)
     timeLine->setFrameRange(1, 13);
     for(int i=0; i < 12; ++i)
     {
-        stages[i] = QPixmap((QString("stage%1").arg(i+1, 2, 10, QChar('0'))));
+        stages[i] = QPixmap((QString(":/icons/stage%1").arg(i+1, 2, 10, QChar('0'))));
     }
     timeLine->setCurveShape(QTimeLine::LinearCurve);
     connect(timeLine, SIGNAL(frameChanged(int)), this, SLOT(frameHasChanged(int)));

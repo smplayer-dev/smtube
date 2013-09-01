@@ -24,5 +24,17 @@
         <file>icons/previous.png</file>
         <file>icons/next.png</file>
         <file>icons/recordings.png</file>
+        <file>icons/stage01.png</file>
+        <file>icons/stage02.png</file>
+        <file>icons/stage03.png</file>
+        <file>icons/stage04.png</file>
+        <file>icons/stage05.png</file>
+        <file>icons/stage06.png</file>
+        <file>icons/stage07.png</file>
+        <file>icons/stage08.png</file>
+        <file>icons/stage09.png</file>
+        <file>icons/stage10.png</file>
+        <file>icons/stage11.png</file>
+        <file>icons/stage12.png</file>
     </qresource>
 </RCC>
