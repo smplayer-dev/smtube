@@ -64,7 +64,13 @@ void DownloadFile::downloaded(qint64 bytesReceived, qint64 total)
         static unsigned int count = 0;
         count++;
 
-        if (count % 50 == 0) 
+        #if QT_VERSION >= 0x050000
+        int skip = 5;
+        #else
+        int skip = 50;
+        #endif
+
+        if (count % skip == 0)
         {
             totalSize = total;
             completed = bytesReceived;
