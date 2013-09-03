@@ -838,7 +838,7 @@ void YTDialog::loadConfig()
 {
     QString recording_directory;
     if (set) {
-        set->beginGroup("general");
+        set->beginGroup("main");
         recording_directory = set->value("recording_directory", recording_dialog->recordingsDirectory()).toString();
         recording_dialog->setRecordingQuality(set->value("record_quality", recording_dialog->recordingQuality()).toInt());
         players.setCurrent(set->value("player", players.current()).toInt());
@@ -877,7 +877,7 @@ void YTDialog::loadConfig()
 void YTDialog::saveConfig() 
 {
     if (set) {
-        set->beginGroup("general");
+        set->beginGroup("main");
         set->setValue("recording_directory", recording_dialog->recordingsDirectory());
         set->setValue("record_quality", recording_dialog->recordingQuality());
         set->setValue("player", players.current());
