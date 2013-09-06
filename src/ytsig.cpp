@@ -23,7 +23,7 @@
 #endif
 
 #ifdef YT_USE_SCRIPT
-QString YTSig::aclara(const QString & text) {
+QString YTSig::aclara(const QString & text, const QString & player) {
 	int dot = text.indexOf('.');
 	qDebug("YTSig::aclara: length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
 
@@ -35,8 +35,20 @@ QString YTSig::aclara(const QString & text) {
 	//qDebug() << (int) r.state();
 
 	engine.evaluate(script);
-	QScriptValue aclarar = engine.globalObject().property("aclara");
-	QString res = aclarar.call(QScriptValue(), QScriptValueList() << text).toString();
+
+	QScriptValueList args;
+	QString function_name;
+
+	if (player.isEmpty()) {
+		function_name = "aclara";
+		args << text;
+	} else {
+		function_name = "aclara_p";
+		args << text << player;
+	}
+
+	QScriptValue aclarar = engine.globalObject().property(function_name);
+	QString res = aclarar.call(QScriptValue(), args).toString();
 
 	//qDebug() << res;
 
@@ -68,8 +80,6 @@ void YTSig::reloadScriptFile() {
 QString YTSig::script;
 QString YTSig::script_file;
 
-// Algorithms from youtube-dl (http://rg3.github.io/youtube-dl/)
-
 QString YTSig::default_script;
 
 #else
@@ -82,7 +92,7 @@ QString YTSig::rev(const QString & orig) {
 	return r;
 }
 
-QString YTSig::aclara(const QString & text) {
+QString YTSig::aclara(const QString & text, const QString & player) {
 	QString res;
 
 	int dot = text.indexOf('.');
