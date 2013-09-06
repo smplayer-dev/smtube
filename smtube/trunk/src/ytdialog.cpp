@@ -845,6 +845,7 @@ void YTDialog::loadConfig()
         api->setRegion(set->value("region", "US").toString());
         api->setPeriod(set->value("period", "today").toString());
         playback_quality = set->value("playback_quality", playback_quality).toInt();
+        RetrieveYoutubeUrl::setUserAgent(set->value("user_agent", "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1").toString());
         set->endGroup();
     }
 
@@ -884,6 +885,7 @@ void YTDialog::saveConfig()
         set->setValue("region", api->region());
         set->setValue("period", api->period());
         set->setValue("playback_quality", playback_quality);
+        set->setValue("user_agent", RetrieveYoutubeUrl::userAgent());
         set->endGroup();
         set->sync();
     }
