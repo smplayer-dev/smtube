@@ -169,7 +169,7 @@ public:
     int playbackQuality() { return playback_quality; }
 
     void setLoadingOverlay(bool enable);
-    bool eventFilter(QObject *w, QEvent *e);
+    /* bool eventFilter(QObject *w, QEvent *e); */
     void setMode(Mode mode);
     void addTab(Tabs tab);
 
@@ -189,6 +189,7 @@ public slots:
     void gotPixmap(QPixmap pix, int id);
     void videoClicked(QListWidgetItem* item);
     void videoDblClicked(QListWidgetItem* item);
+    void videoItemChanged(QListWidgetItem * current, QListWidgetItem * previous);
     void setSearchTerm(QString term);
     void showContextMenu(QPoint point);
     void recordItem(QListWidgetItem* item);

@@ -225,7 +225,7 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     recording_dialog->setRecordingQuality(RetrieveYoutubeUrl::MP4_720p);
 
     MyBorder* border = new MyBorder(this);
-    border ->setBGColor(palette().color(backgroundRole()));
+    border->setBGColor(palette().color(backgroundRole()));
 
     videoList->setFrameShape(QFrame::NoFrame);
     delegate = new YTDelegate(videoList);
@@ -233,7 +233,8 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     //videoList->setMouseTracking(true);
     //videoList->viewport()->installEventFilter(this);
     videoList->setContextMenuPolicy(Qt::CustomContextMenu);
-    videoList->setAutoScroll(false);
+    //videoList->setAutoScroll(false);
+
     nextButton = new QPushButton(this);
     nextButton->setToolTip(tr("Next"));
     nextButton->setIcon(QPixmap(":/icons/next.png"));
@@ -301,7 +302,8 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     connect(api, SIGNAL(finalResults(YTReply)), this, SLOT(gotAPIReply(YTReply)));
     connect(pixmap_loader, SIGNAL(pixmapResult(QPixmap,int)), this, SLOT(gotPixmap(QPixmap,int)));
     connect(videoList, SIGNAL(itemClicked(QListWidgetItem*)), this, SLOT(videoClicked(QListWidgetItem*)));
-    connect(videoList, SIGNAL(itemDoubleClicked(QListWidgetItem*)), this, SLOT(videoDblClicked(QListWidgetItem*)));
+    connect(videoList, SIGNAL(itemActivated(QListWidgetItem*)), this, SLOT(videoDblClicked(QListWidgetItem*)));
+    connect(videoList, SIGNAL(currentItemChanged(QListWidgetItem*,QListWidgetItem*)), this, SLOT(videoItemChanged(QListWidgetItem*,QListWidgetItem*)));
     connect(videoList, SIGNAL(customContextMenuRequested(QPoint)), this, SLOT(showContextMenu(QPoint)));
 
     connect(recording_dialog, SIGNAL(playFile(QString)), this, SLOT(playVideo(QString)));
@@ -318,6 +320,7 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     setTabOrder(configButton, infoButton);
     setTabOrder(infoButton, prevButton);
     setTabOrder(prevButton, nextButton);
+    setTabOrder(nextButton, videoList);
 
     loadConfig();
 
@@ -376,6 +379,7 @@ void YTDialog::resizeEvent(QResizeEvent* r)
     }
 }
 
+/*
 bool YTDialog::eventFilter(QObject* w, QEvent* e)
 {
     if(w == videoList->viewport())
@@ -413,6 +417,7 @@ bool YTDialog::eventFilter(QObject* w, QEvent* e)
     }
     return false;
 }
+*/
 
 void YTDialog::setMode(Mode mode)
 {
@@ -664,6 +669,12 @@ void YTDialog::videoClicked(QListWidgetItem *item)
         wi->setData(Clicked, false);
     }
     item->setData(Clicked, true);
+}
+
+void YTDialog::videoItemChanged(QListWidgetItem * current, QListWidgetItem * previous) {
+    //qDebug("YTDialog::videoItemChanged");
+    if (previous) previous->setData(Clicked, false);
+    if (current) current->setData(Clicked, true);
 }
 
 void YTDialog::videoDblClicked(QListWidgetItem *item)
