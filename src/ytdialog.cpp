@@ -313,7 +313,8 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
             this, SLOT(playYTUrl(QMap<int,QString>,QString, QString)));
     */
 
-    setTabOrder(searchBox, configButton);
+    setTabOrder(searchBox, recordingButton);
+    setTabOrder(recordingButton, configButton);
     setTabOrder(configButton, infoButton);
     setTabOrder(infoButton, prevButton);
     setTabOrder(prevButton, nextButton);
