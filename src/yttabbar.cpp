@@ -54,6 +54,16 @@ void YTTabBar::paintEvent(QPaintEvent *event)
         else if(i == currentIndex())
         {
             p.drawPixmap(r, selectedPix);
+
+			if (hasFocus()) {
+				p.save();
+				QRect r2 = r;
+				r2.adjust(6,6,-6,-6);
+				QPen pen(Qt::darkGray, 1, Qt::DashLine);
+				p.setPen(pen);
+				p.drawRect(r2);
+				p.restore();
+			}
         }
         else if(i == hoveredIndex)
         {
@@ -103,7 +113,6 @@ void YTTabBar::mouseReleaseEvent(QMouseEvent *m)
 void YTTabBar::enterEvent(QEvent *e)
 {
     QTabBar::enterEvent(e);
-
 }
 
 void YTTabBar::leaveEvent(QEvent *e)
