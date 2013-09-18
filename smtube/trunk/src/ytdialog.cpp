@@ -320,7 +320,8 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     setTabOrder(configButton, infoButton);
     setTabOrder(infoButton, prevButton);
     setTabOrder(prevButton, nextButton);
-    setTabOrder(nextButton, videoList);
+    setTabOrder(nextButton, tabBar);
+    setTabOrder(tabBar, videoList);
 
     loadConfig();
 
