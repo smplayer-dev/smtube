@@ -23,9 +23,12 @@
 #endif
 
 #ifdef YT_USE_SCRIPT
-QString YTSig::aclara(const QString & text, const QString & player) {
+
+QString YTSig::parsed_ts;
+
+QString YTSig::aclara(const QString & text, const QString & player, const QString & function_name) {
 	int dot = text.indexOf('.');
-	qDebug("YTSig::aclara: length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
+	qDebug("YTSig::aclara: length: %d (%d.%d) p: %d", text.size(), dot, text.size()-dot-1, !player.isEmpty());
 
 	if (script.isEmpty()) script = default_script;
 
@@ -37,19 +40,25 @@ QString YTSig::aclara(const QString & text, const QString & player) {
 	engine.evaluate(script);
 
 	QScriptValueList args;
-	QString function_name;
+	QString fname;
 
-	if (player.isEmpty()) {
-		function_name = "aclara";
+	if (!function_name.isEmpty()) {
+		fname = function_name;
 		args << text;
-	} else {
-		function_name = "aclara_p";
+	}
+	else
+	if (player.isEmpty()) {
+		fname = "aclara";
+		args << text;
+	}
+	else {
+		fname = "aclara_p";
 		args << text << player;
 	}
 
 	//qDebug("YTSig::aclara: function_name: %s", function_name.toLatin1().constData());
 
-	QScriptValue aclarar = engine.globalObject().property(function_name);
+	QScriptValue aclarar = engine.globalObject().property(fname);
 	QString res = aclarar.call(QScriptValue(), args).toString();
 
 	//qDebug() << res;
@@ -74,8 +83,17 @@ void YTSig::reloadScriptFile() {
 	QByteArray bytes = f.readAll();
 	f.close();
 
+	parsed_ts = "";
+
 	if (!bytes.isEmpty()) {
 		script = bytes;
+
+		QRegExp rx("TS: ([\\d,a-z,A-Z-]+)");
+		if (rx.indexIn(bytes)) {
+			parsed_ts = rx.cap(1);
+			qDebug("YTSig::reloadScriptFile: parsed_ts: %s", parsed_ts.toLatin1().constData());
+		}
+
 	}
 }
 
@@ -86,6 +104,8 @@ QString YTSig::default_script;
 
 #else
 
+QString YTSig::parsed_ts = "0";
+
 QString YTSig::rev(const QString & orig) {
 	QString r;
 	for (int n = orig.size()-1; n >= 0; n--) {
@@ -94,13 +114,18 @@ QString YTSig::rev(const QString & orig) {
 	return r;
 }
 
-QString YTSig::aclara(const QString & text, const QString & player) {
+QString YTSig::aclara(const QString & text, const QString & player, const QString & function_name) {
 	QString res;
 
 	int dot = text.indexOf('.');
 	qDebug("YTSig::aclara (2): length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
 
 #if 0
+	if (!function_name.isEmpty()) {
+		res = <your code>;
+		return res;
+	}
+
 	if (text.size() == xx) {
 		res = <your code>;
 	}
