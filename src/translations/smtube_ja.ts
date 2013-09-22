@@ -110,8 +110,9 @@
         <translation>ポーランド語</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="132"/>
         <source>Greek</source>
-        <translation type="obsolete">ギリシャ語</translation>
+        <translation type="unfinished">ギリシャ語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="111"/>
@@ -258,7 +259,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
+        <location filename="../about.cpp" line="133"/>
+        <source>Estonian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="134"/>
+        <source>N&apos;ko</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="159"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -578,62 +589,62 @@
 <context>
     <name>DownloadFile</name>
     <message>
-        <location filename="../downloadfile.cpp" line="115"/>
+        <location filename="../downloadfile.cpp" line="117"/>
         <source>%1 hours</source>
         <translation>%1 時間</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="121"/>
+        <location filename="../downloadfile.cpp" line="123"/>
         <source>%1 minutes</source>
         <translation>%1 分</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="108"/>
+        <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
         <translation>残り時間は不明です</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="124"/>
+        <location filename="../downloadfile.cpp" line="126"/>
         <source>%1 seconds</source>
         <translation>%1 秒</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="125"/>
+        <location filename="../downloadfile.cpp" line="127"/>
         <source>%1 remaining</source>
         <translation>あと %1</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="130"/>
+        <location filename="../downloadfile.cpp" line="132"/>
         <source>%1 of %2 MB</source>
         <translation>%1/%2 MB</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="136"/>
+        <location filename="../downloadfile.cpp" line="138"/>
         <source>%1 of %2 KB</source>
         <translation>%1/%2 KB</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="142"/>
+        <location filename="../downloadfile.cpp" line="144"/>
         <source>%1 of %2 bytes</source>
         <translation>%1/%2 バイト</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="146"/>
+        <location filename="../downloadfile.cpp" line="148"/>
         <source>%1 of unknown size</source>
         <translation>%1/不明なサイズ</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="151"/>
+        <location filename="../downloadfile.cpp" line="153"/>
         <source>%1 MB/sec</source>
         <translation>%1 MB/秒</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="155"/>
+        <location filename="../downloadfile.cpp" line="157"/>
         <source>%1 KB/sec</source>
         <translation>%1 KB/秒</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="159"/>
+        <location filename="../downloadfile.cpp" line="161"/>
         <source>%1 bytes/sec</source>
         <translation>%1 バイト/秒</translation>
     </message>
@@ -778,7 +789,7 @@
 <context>
     <name>YTDelegate</name>
     <message>
-        <location filename="../ytdelegate.cpp" line="113"/>
+        <location filename="../ytdelegate.cpp" line="114"/>
         <source>%L1 views</source>
         <translation>%L1 回再生</translation>
     </message>
@@ -791,139 +802,139 @@
         <translation>YouTube ブラウザー - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="263"/>
+        <location filename="../ytdialog.cpp" line="264"/>
         <source>Settings</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="269"/>
+        <location filename="../ytdialog.cpp" line="270"/>
         <source>Information</source>
         <translation>情報</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="275"/>
+        <location filename="../ytdialog.cpp" line="276"/>
         <source>Show recordings</source>
         <translation>録画の表示</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="445"/>
+        <location filename="../ytdialog.cpp" line="452"/>
         <source>Most Relevant</source>
         <translation>関連のある動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="449"/>
+        <location filename="../ytdialog.cpp" line="456"/>
         <source>Most Recent</source>
         <translation>最新の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="453"/>
+        <location filename="../ytdialog.cpp" line="460"/>
         <source>Most Viewed</source>
         <translation>再生回数の多い動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="457"/>
+        <location filename="../ytdialog.cpp" line="464"/>
         <source>Most Popular</source>
         <translation>人気の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="465"/>
+        <location filename="../ytdialog.cpp" line="472"/>
         <source>Most Rated</source>
         <translation>評価の高い動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="476"/>
+        <location filename="../ytdialog.cpp" line="483"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>YouTube%1 の人気の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="477"/>
+        <location filename="../ytdialog.cpp" line="484"/>
         <source>Most rated videos on YouTube%1</source>
         <translation>YouTube%1 の評価の高い動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="478"/>
+        <location filename="../ytdialog.cpp" line="485"/>
         <source>Most rated music videos this week on YouTube%1</source>
         <translation>YouTube%1 の今週評価の高い音楽動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="597"/>
+        <location filename="../ytdialog.cpp" line="604"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>エラー: YouTube サーバーへ接続できませんでした。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="782"/>
-        <location filename="../ytdialog.cpp" line="793"/>
+        <location filename="../ytdialog.cpp" line="795"/>
+        <location filename="../ytdialog.cpp" line="806"/>
         <source>Problems with Youtube</source>
         <translation>YouTube に関する問題</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="784"/>
+        <location filename="../ytdialog.cpp" line="797"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>YouTube のコードを更新しますか? これにより問題が修正されるかもしれません。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="783"/>
-        <location filename="../ytdialog.cpp" line="794"/>
+        <location filename="../ytdialog.cpp" line="796"/>
+        <location filename="../ytdialog.cpp" line="807"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>YouTube ページの変更のため、ビデオ &apos;%1&apos; は残念ながら再生または録画できません。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="795"/>
+        <location filename="../ytdialog.cpp" line="808"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>このアプリケーションの更新により問題が修正されるかもしれません。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="481"/>
+        <location filename="../ytdialog.cpp" line="488"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; の YouTube%2 での検索結果</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="605"/>
+        <location filename="../ytdialog.cpp" line="612"/>
         <source>No videos found</source>
         <translation>動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="607"/>
+        <location filename="../ytdialog.cpp" line="614"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; に一致する動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="693"/>
+        <location filename="../ytdialog.cpp" line="706"/>
         <source>&amp;Play video</source>
         <translation>動画を再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="694"/>
+        <location filename="../ytdialog.cpp" line="707"/>
         <source>&amp;Record video</source>
         <translation>動画を録画(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="695"/>
+        <location filename="../ytdialog.cpp" line="708"/>
         <source>&amp;Watch on YouTube</source>
         <translation>YouTube で見る(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="696"/>
+        <location filename="../ytdialog.cpp" line="709"/>
         <source>&amp;Copy link</source>
         <translation>リンクのコピー(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="238"/>
+        <location filename="../ytdialog.cpp" line="239"/>
         <source>Next</source>
         <translation>次へ</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="244"/>
+        <location filename="../ytdialog.cpp" line="245"/>
         <source>Previous</source>
         <translation>前へ</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="461"/>
+        <location filename="../ytdialog.cpp" line="468"/>
         <source>Music Top Rated</source>
         <translation>評価の高い音楽動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="771"/>
+        <location filename="../ytdialog.cpp" line="784"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
