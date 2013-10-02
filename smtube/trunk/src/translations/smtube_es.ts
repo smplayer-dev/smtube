@@ -224,6 +224,21 @@
         <translation>N&apos;ko</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="135"/>
+        <source>Italian</source>
+        <translation>Italiano</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="136"/>
+        <source>Uzbek</source>
+        <translation>Uzbeko</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="137"/>
+        <source>Catalan</source>
+        <translation>Catalán</translation>
+    </message>
+    <message>
         <location filename="../about.cpp" line="120"/>
         <source>Turkish</source>
         <translation>Turco</translation>
@@ -289,7 +304,7 @@
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="159"/>
+        <location filename="../about.cpp" line="162"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
