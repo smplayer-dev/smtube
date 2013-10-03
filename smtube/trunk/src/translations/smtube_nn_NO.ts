@@ -61,10 +61,6 @@
         <translation>Gå til nettsida vår for oppdateringar:</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Følgjande personar har hjelpt til med omsettingar:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="98"/>
         <source>Spanish</source>
         <translation>Spansk</translation>
@@ -83,10 +79,6 @@
         <location filename="../about.cpp" line="102"/>
         <source>Japanese</source>
         <translation>Japansk</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Forenkla kinesisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -110,18 +102,9 @@
         <translation>Polsk</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
-        <source>Greek</source>
-        <translation type="unfinished">Gresk</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="111"/>
         <source>Hebrew</source>
         <translation>Hebraisk</translation>
-    </message>
-    <message>
-        <source>Portuguese (Brazil)</source>
-        <translation type="obsolete">Portugisisk (Brasil)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
@@ -256,6 +239,11 @@
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Sinhala</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="132"/>
+        <source>Greek</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -61,10 +61,6 @@
         <translation>Visita o noso sitio web para informarte sobre das actualizacións:</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">As seguintes persoas colaboraron facendo as traducións:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="98"/>
         <source>Spanish</source>
         <translation>castelán</translation>
@@ -83,10 +79,6 @@
         <location filename="../about.cpp" line="102"/>
         <source>Japanese</source>
         <translation>xaponés</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">chinés simplificado</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -110,18 +102,9 @@
         <translation>polaco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
-        <source>Greek</source>
-        <translation type="unfinished">grego</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="111"/>
         <source>Hebrew</source>
         <translation>Hebreo</translation>
-    </message>
-    <message>
-        <source>Portuguese (Brazil)</source>
-        <translation type="obsolete">Portugués do Brasil</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
@@ -141,27 +124,27 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Moitas persoas constribuíron con traducións.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vostede pode tamén axudar a traducir SMPlayer ao seu idioma.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visite %1 e únase a un dos equipos de tradución.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tradutores actuais dos equipos de Transifex:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Coreano</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="109"/>
@@ -171,32 +154,32 @@
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugués do Brasil</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Chinés simplificado</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>French</source>
-        <translation type="unfinished"></translation>
+        <translation>Francés</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Danés</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>Alemán</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Chinés tradicional</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
@@ -216,7 +199,7 @@
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Arabic</source>
-        <translation type="unfinished"></translation>
+        <translation>Árabe</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -226,36 +209,41 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation>Serbio</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Croata</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
         <source>Bulgarian</source>
-        <translation type="unfinished"></translation>
+        <translation>Búlgaro</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="113"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>Vietnamita</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>Indonesio</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Árabe (Arabia Saudí)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Sinhala</source>
+        <translation>Sinhala</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="132"/>
+        <source>Greek</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -292,18 +280,6 @@
         <location filename="../about.cpp" line="107"/>
         <source>Galician</source>
         <translation>galego</translation>
-    </message>
-    <message>
-        <source>&amp;Youtube</source>
-        <translation type="obsolete">&amp;YouTube</translation>
-    </message>
-    <message>
-        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="obsolete">Fundado en febreiro de 2005, YouTube&amp;trade; é a comunidade de vídeo máis popular de internet, e permítelle a millóns de persoas descubrir, ver e compartir os seus vídeos. YouTube&amp;trade; é un foro no que a xente se conecta, infórmase, e inspira a outras persoas de todas as partes do mundo, servindo ademais de plataforma de distribución de contidos para os autores e os anunciantes, tanto os grandes coma os pequenos.</translation>
-    </message>
-    <message>
-        <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="obsolete">O uso deste aplicativo implica a aceptación das condicións dos servizos de Google, ás que podes acceder desde «%1».</translation>
     </message>
 </context>
 <context>

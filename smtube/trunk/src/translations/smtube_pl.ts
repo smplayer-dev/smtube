@@ -33,12 +33,12 @@
     <message>
         <location filename="../about.cpp" line="33"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation>Przeglądarka YouTube%1 dla SMPlayer</translation>
+        <translation>Przeglądarka YouTube%1 dla SMPlayera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="35"/>
         <source>Based on UMPlayer</source>
-        <translation>Bazuje na UMPlayer</translation>
+        <translation>Bazuje na UMPlayerze</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="37"/>
@@ -48,7 +48,7 @@
     <message>
         <location filename="../about.cpp" line="39"/>
         <source>Portable Edition</source>
-        <translation>Edycja portable</translation>
+        <translation>Wersja przenośna (Portable)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
@@ -59,10 +59,6 @@
         <location filename="../about.cpp" line="44"/>
         <source>Visit our web for updates:</source>
         <translation>Odwiedź naszą stronę w celu aktualizacji:</translation>
-    </message>
-    <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Ludzie, którzy zajęli się tłumaczeniem:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="98"/>
@@ -83,10 +79,6 @@
         <location filename="../about.cpp" line="102"/>
         <source>Japanese</source>
         <translation>Japoński</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Chiński-Uproszczony</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -110,18 +102,9 @@
         <translation>Polski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
-        <source>Greek</source>
-        <translation type="unfinished">Grecki</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="111"/>
         <source>Hebrew</source>
         <translation>Hebrajski</translation>
-    </message>
-    <message>
-        <source>Portuguese (Brazil)</source>
-        <translation type="obsolete">Portugalski (Brazylia)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
@@ -141,27 +124,27 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dużo ludzi ma udział w tłumaczeniu.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Możesz również pomóc w tłumaczeniu SMPlayera na twój własny język.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odwiedź %1 i dołącz do zespołu tłumaczy.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Obecni tłumacze z zespołów Transifex:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Koreański</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="109"/>
@@ -171,37 +154,37 @@
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugalski - Brazylia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Chiński uproszczony</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>French</source>
-        <translation type="unfinished"></translation>
+        <translation>Francuski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Duński</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>Niemiecki</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Chiński tradycyjny</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
         <source>Swedish</source>
-        <translation>Szwecki</translation>
+        <translation>Szwedzki</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="120"/>
@@ -216,7 +199,7 @@
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Arabic</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -251,11 +234,16 @@
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabski - Arabia Saudyjska</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Sinhala</source>
+        <translation>Syngaleski</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="132"/>
+        <source>Greek</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -383,7 +371,7 @@
     <message>
         <location filename="../configdialog.ui" line="88"/>
         <source>Q&amp;uality:</source>
-        <translation>Jakość (&amp;Q):</translation>
+        <translation>Jakość (&amp;u):</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="118"/>
@@ -616,7 +604,7 @@
     <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
-        <translation>nieznany czas zakończenia</translation>
+        <translation>nieznany pozostający czas</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="126"/>
@@ -646,7 +634,7 @@
     <message>
         <location filename="../downloadfile.cpp" line="148"/>
         <source>%1 of unknown size</source>
-        <translation>%1 nieznany rozmiar</translation>
+        <translation>%1 o nieznanym rozmiarze</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="153"/>
@@ -780,7 +768,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="548"/>
         <source>&amp;Play</source>
-        <translation>&amp;Play</translation>
+        <translation>Odtwórz (&amp;p)</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="551"/>
@@ -800,7 +788,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="648"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
-        <translation>Plik nie istnieje, czy chcesz go usunąć z listy?</translation>
+        <translation>Plik nie istnieje, czy chcesz usunąć go z listy?</translation>
     </message>
 </context>
 <context>
@@ -816,7 +804,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="216"/>
         <source>YouTube Browser - SMPlayer</source>
-        <translation>Przeglądanie YouTube w SMPlayer</translation>
+        <translation>Przeglądanie YouTube - SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="264"/>
@@ -846,17 +834,17 @@
     <message>
         <location filename="../ytdialog.cpp" line="460"/>
         <source>Most Viewed</source>
-        <translation>N. oglądane</translation>
+        <translation>Naj. oglądane</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="464"/>
         <source>Most Popular</source>
-        <translation>N. popularne</translation>
+        <translation>Naj. popularne</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Most Rated</source>
-        <translation>N. oceniane</translation>
+        <translation>Naj. oceniane</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="483"/>
@@ -893,7 +881,7 @@
         <location filename="../ytdialog.cpp" line="796"/>
         <location filename="../ytdialog.cpp" line="807"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation>Niestety, w związku ze zmianami poczynionymi przez Youtube, wideo &apos;%1&apos; nie może zostać odtworzone ani nagrane.</translation>
+        <translation>Niestety, w związku ze zmianami na Youtube, wideo &apos;%1&apos; nie może zostać odtworzone ani nagrane.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="808"/>

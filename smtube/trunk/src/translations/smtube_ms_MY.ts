@@ -61,10 +61,6 @@
         <translation>Lawati laman sesawang kami untuk kemaskini:</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Individu berikut telah memberi sumbangan terjemahan:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="98"/>
         <source>Spanish</source>
         <translation>Sepanyol</translation>
@@ -83,10 +79,6 @@
         <location filename="../about.cpp" line="102"/>
         <source>Japanese</source>
         <translation>Jepun</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Cina-Ringkas</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -110,18 +102,9 @@
         <translation>Poland</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
-        <source>Greek</source>
-        <translation type="unfinished">Yunani</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="111"/>
         <source>Hebrew</source>
         <translation>Ibrani</translation>
-    </message>
-    <message>
-        <source>Portuguese (Brazil)</source>
-        <translation type="obsolete">Portugis (Brazil)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
@@ -141,27 +124,27 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ramai individu telah memberi sumbangan terjemahan.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anda juga boleh menterjemah SMPlayer ke bahasa ibunda anda.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lawati %1 dan sertai pasukan terjemahan.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Penterjemah semasa dari pasukan transifex:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Korea</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="109"/>
@@ -171,32 +154,32 @@
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugis - Brazil</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Cina Ringkas</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>French</source>
-        <translation type="unfinished"></translation>
+        <translation>Perancis</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Denmark</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>Jerman</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Cina Tradisional</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
@@ -216,7 +199,7 @@
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Arabic</source>
-        <translation type="unfinished"></translation>
+        <translation>Arab</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -251,11 +234,16 @@
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Arab - Arab Saudi</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Sinhala</source>
+        <translation>Sinhala</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="132"/>
+        <source>Greek</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

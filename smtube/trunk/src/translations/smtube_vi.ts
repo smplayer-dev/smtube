@@ -61,10 +61,6 @@
         <translation>Truy cập website để cập nhật:</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Những tác giả sau đây đã tham gia vào quá trình chuyển ngữ chương trình:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="98"/>
         <source>Spanish</source>
         <translation>Tây ban nha</translation>
@@ -83,10 +79,6 @@
         <location filename="../about.cpp" line="102"/>
         <source>Japanese</source>
         <translation>Nhật</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Trung Quốc giản thể</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -110,18 +102,9 @@
         <translation>Phần Lan</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
-        <source>Greek</source>
-        <translation type="unfinished">Hy Lạp</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="111"/>
         <source>Hebrew</source>
         <translation>Do thái</translation>
-    </message>
-    <message>
-        <source>Portuguese (Brazil)</source>
-        <translation type="obsolete">Bồ đào nha (kiểu Brazil)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
@@ -256,6 +239,11 @@
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Sinhala</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="132"/>
+        <source>Greek</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -61,10 +61,6 @@
         <translation>בקר את עמוד הרשת שלנו עבור עדכונים:</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">האנשים הבאים תרמו באמצעות תרגומים:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="98"/>
         <source>Spanish</source>
         <translation>ספרדית</translation>
@@ -83,10 +79,6 @@
         <location filename="../about.cpp" line="102"/>
         <source>Japanese</source>
         <translation>יפנית</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">סינית מפושטת</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -110,18 +102,9 @@
         <translation>פולנית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
-        <source>Greek</source>
-        <translation type="unfinished">יוונית</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="111"/>
         <source>Hebrew</source>
         <translation>עברית</translation>
-    </message>
-    <message>
-        <source>Portuguese (Brazil)</source>
-        <translation type="obsolete">פורטוגזית (ברזיל)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
@@ -256,6 +239,11 @@
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Sinhala</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="132"/>
+        <source>Greek</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

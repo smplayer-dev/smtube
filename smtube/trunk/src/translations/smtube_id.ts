@@ -23,7 +23,7 @@
     <message>
         <location filename="../about.ui" line="89"/>
         <source>&amp;Translators</source>
-        <translation>&amp;Penerjemah</translation>
+        <translation>Pener&amp;jemah</translation>
     </message>
     <message>
         <location filename="../about.ui" line="145"/>
@@ -61,10 +61,6 @@
         <translation>Kunjungi situs kami untuk pembaharuan:</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Orang-orang berikut yang telah berkontribusi dengan penerjemahan:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="98"/>
         <source>Spanish</source>
         <translation>Spanyol</translation>
@@ -83,10 +79,6 @@
         <location filename="../about.cpp" line="102"/>
         <source>Japanese</source>
         <translation>Jepang</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Cina-Sederhana</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -110,18 +102,9 @@
         <translation>Polandia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
-        <source>Greek</source>
-        <translation type="unfinished">Yunani</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="111"/>
         <source>Hebrew</source>
         <translation>Ibrani</translation>
-    </message>
-    <message>
-        <source>Portuguese (Brazil)</source>
-        <translation type="obsolete">Portugis (Brazil)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
@@ -136,32 +119,32 @@
     <message>
         <location filename="../about.cpp" line="101"/>
         <source>Czech</source>
-        <translation>Chech</translation>
+        <translation>Ceko</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Banyak orang yang berkontribusi untuk menerjemahkannya.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anda juga dapat membantu menerjemahkan SMPlayer kedalam bahasa anda.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunjungi %1 dan bergabunglah dengan kelompok penerjemah.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Penerjemah saat ini dari tim transifex:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Korea</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="109"/>
@@ -171,32 +154,32 @@
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugis - Brazil</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Cina Simpel</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>French</source>
-        <translation type="unfinished"></translation>
+        <translation>Perancis</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Denmark</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>Jerman</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Cina Tradisional</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
@@ -216,7 +199,7 @@
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Arabic</source>
-        <translation type="unfinished"></translation>
+        <translation>Arab</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -251,11 +234,16 @@
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Arab - Arab Saudi</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Sinhala</source>
+        <translation>Sinhala</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="132"/>
+        <source>Greek</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -309,17 +297,17 @@
     <message>
         <location filename="../codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Kode Youtube telah sukses diperbaharui</translation>
+        <translation>Kode Youtube berhasil diperbaharui</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation>Versi Terpasang: %1</translation>
+        <translation>Versi terpasang: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation>Sukses</translation>
+        <translation>Berhasil</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
@@ -330,7 +318,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation>Kesalahan terjadi menulis %1</translation>
+        <translation>Kesalahan terjadi ketika menulis %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="136"/>
@@ -378,7 +366,7 @@
     <message>
         <location filename="../configdialog.ui" line="80"/>
         <source>Playback</source>
-        <translation>Putar Balik</translation>
+        <translation>Putar balik</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="88"/>
@@ -677,7 +665,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="120"/>
         <source>Canceled</source>
-        <translation>Tertunda</translation>
+        <translation>DIbatalkan</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="120"/>
@@ -717,7 +705,7 @@
         <location filename="../recordingdialog.cpp" line="205"/>
         <location filename="../recordingdialog.cpp" line="549"/>
         <source>&amp;Open folder</source>
-        <translation>&amp;Buka folder</translation>
+        <translation>Buka f&amp;older</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="266"/>
@@ -735,7 +723,7 @@
         <location filename="../recordingdialog.cpp" line="307"/>
         <location filename="../recordingdialog.cpp" line="683"/>
         <source>Starting</source>
-        <translation>Memulia</translation>
+        <translation>Memulai</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="341"/>
@@ -745,7 +733,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="345"/>
         <source>Completed</source>
-        <translation>Komplit</translation>
+        <translation>Selesai</translation>
     </message>
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
@@ -757,12 +745,12 @@
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Tunda</translation>
+        <translation>&amp;Batal</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="511"/>
         <source>&amp;Remove from list</source>
-        <translation>&amp;Hapus dari daftar</translation>
+        <translation>Hapus dari dafta&amp;r</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="530"/>
@@ -778,17 +766,17 @@
     <message>
         <location filename="../recordingdialog.cpp" line="548"/>
         <source>&amp;Play</source>
-        <translation>&amp;Putar</translation>
+        <translation>Main&amp;kan</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="551"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Hapus</translation>
+        <translation>Ha&amp;pus</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="630"/>
         <source>Fetching URL...</source>
-        <translation>Mnegambil URL...</translation>
+        <translation>Mengambil URL...</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="647"/>
@@ -798,7 +786,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="648"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
-        <translation>berkas tidak eksis, apakah kamu ingin menghapusnya dari daftar?</translation>
+        <translation>berkas tidak ada, apakah anda ingin menghapusnya dari daftar?</translation>
     </message>
 </context>
 <context>
@@ -844,7 +832,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="460"/>
         <source>Most Viewed</source>
-        <translation>Paling Dilihat</translation>
+        <translation>Sering Dilihat</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="464"/>
@@ -854,7 +842,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Most Rated</source>
-        <translation>Paling Terating</translation>
+        <translation>Paling Sering DInila</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="483"/>
@@ -885,7 +873,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="797"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation>Apakah kamu ingin memperbaharui kode Youtube? ini mungkin akan menyelesaikan masalah.</translation>
+        <translation>Apakah anda ingin memperbaharui kode Youtube? ini mungkin akan menyelesaikan masalah.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="796"/>

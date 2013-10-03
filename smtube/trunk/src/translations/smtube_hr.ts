@@ -61,10 +61,6 @@
         <translation>Posjetite našu web stranicu za noviju inačicu:</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Sljedeće osobe su doprinijele prijevodima:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="98"/>
         <source>Spanish</source>
         <translation>Španjolski</translation>
@@ -83,10 +79,6 @@
         <location filename="../about.cpp" line="102"/>
         <source>Japanese</source>
         <translation>Japanski</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Pojednostavljeni kineski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -110,18 +102,9 @@
         <translation>Poljski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
-        <source>Greek</source>
-        <translation type="unfinished">Grčki</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="111"/>
         <source>Hebrew</source>
         <translation>Hebrejski</translation>
-    </message>
-    <message>
-        <source>Portuguese (Brazil)</source>
-        <translation type="obsolete">Portugalski (Brazil)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
@@ -141,27 +124,27 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mnogo ljudi je doprinjelo sa prijevodima.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vi isto tako možete pomoći u prijevodu SMPlayera na vaš jezik.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Posjetite %1 i pridružite se prevoditeljskom timu.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Trenutni prevoditelji sa transifex timova:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Korejski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="109"/>
@@ -171,32 +154,32 @@
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugalski - Brazil</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Pojednostavljeni kineski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>French</source>
-        <translation type="unfinished"></translation>
+        <translation>Francuski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Danski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>Njemački</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Tradicionalni kineski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
@@ -216,7 +199,7 @@
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Arabic</source>
-        <translation type="unfinished"></translation>
+        <translation>Arapski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -251,37 +234,42 @@
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Arapski - Saudijska Arabija</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinhalaški</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="132"/>
+        <source>Greek</source>
+        <translation>Grčki</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="133"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Estonski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>N&apos;ko</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="135"/>
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>Talijanski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>Uzbečki</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="137"/>
         <source>Catalan</source>
-        <translation type="unfinished"></translation>
+        <translation>Katalonski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
