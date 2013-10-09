@@ -47,6 +47,10 @@
 #include "configdialog.h"
 #include "about.h"
 
+#if QT_VERSION >= 0x050000
+#include <QStandardPaths>
+#endif
+
 #ifdef YT_USE_SCRIPT
 #include "ytsig.h"
 #include "codedownloader.h"
@@ -868,9 +872,17 @@ void YTDialog::loadConfig()
 #ifdef PORTABLE_APP
         recording_dialog->setRecordingsDirectory(qApp->applicationDirPath());
 #else
-        QString mdir = QDesktopServices::storageLocation(QDesktopServices::MoviesLocation);
+        QString mdir;
+        #if QT_VERSION >= 0x050000
+        QStringList list_dir = QStandardPaths::standardLocations(QStandardPaths::MoviesLocation);
+        if (list_dir.isEmpty()) list_dir = QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation);
+        if (list_dir.isEmpty()) list_dir = QStandardPaths::standardLocations(QStandardPaths::HomeLocation);
+        if (!list_dir.isEmpty()) mdir = list_dir[0];
+        #else
+        mdir = QDesktopServices::storageLocation(QDesktopServices::MoviesLocation);
         if (mdir.isEmpty()) mdir = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation);
         if (mdir.isEmpty()) mdir = QDesktopServices::storageLocation(QDesktopServices::HomeLocation);
+        #endif
         if (mdir.isEmpty()) mdir = "/tmp";
         if (!QFile::exists(mdir)) {
             qWarning("YTDialog::loadConfig: folder '%s' does not exist. Using /tmp as fallback", mdir.toUtf8().constData());
