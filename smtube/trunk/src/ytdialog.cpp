@@ -73,7 +73,7 @@ OverlayWidget::OverlayWidget(QWidget* parent) : QWidget(parent)
     connect(timeLine, SIGNAL(frameChanged(int)), this, SLOT(frameHasChanged(int)));
 }
 
-void OverlayWidget::paintEvent(QPaintEvent* e)
+void OverlayWidget::paintEvent(QPaintEvent * /*e*/)
 {
     QPainter p(this);
     p.drawPixmap(rect(), loadingOverlay  );
@@ -142,19 +142,19 @@ void YTButton::setPix(QPixmap pix)
    setFixedSize(normalPix.size());
 }
 
-void YTButton::enterEvent(QEvent *e)
+void YTButton::enterEvent(QEvent * /*e*/)
 {
     hovered = true;
     update();
 }
 
-void YTButton::leaveEvent(QEvent *e)
+void YTButton::leaveEvent(QEvent * /*e*/)
 {
     hovered = false;
     update();
 }
 
-void YTButton::paintEvent(QPaintEvent *e)
+void YTButton::paintEvent(QPaintEvent * /*e*/)
 {    
     QPainter p(this);
     if(hovered)
@@ -375,7 +375,7 @@ void YTDialog::setLoadingOverlay(bool enable)
     }
 }
 
-void YTDialog::resizeEvent(QResizeEvent* r)
+void YTDialog::resizeEvent(QResizeEvent * /*r*/)
 {
     if(overlayVisible)
     {
@@ -752,7 +752,7 @@ void YTDialog::playVideo(QString file)
     QProcess::startDetached(exec, QStringList() << file);
 }
 
-void YTDialog::playYTUrl(const QString & url, QString title, QString id)
+void YTDialog::playYTUrl(const QString & url, QString title, QString /*id*/)
 {
     qDebug("YTDialog::playYTUrl: title: '%s', url: '%s'", title.toUtf8().constData(), url.toUtf8().constData());
 
