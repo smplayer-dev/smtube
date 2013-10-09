@@ -874,10 +874,9 @@ void YTDialog::loadConfig()
 #else
         QString mdir;
         #if QT_VERSION >= 0x050000
-        QStringList list_dir = QStandardPaths::standardLocations(QStandardPaths::MoviesLocation);
-        if (list_dir.isEmpty()) list_dir = QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation);
-        if (list_dir.isEmpty()) list_dir = QStandardPaths::standardLocations(QStandardPaths::HomeLocation);
-        if (!list_dir.isEmpty()) mdir = list_dir[0];
+        mdir = QStandardPaths::writableLocation(QStandardPaths::MoviesLocation);
+        if (mdir.isEmpty()) mdir = QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation);
+        if (mdir.isEmpty()) mdir = QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
         #else
         mdir = QDesktopServices::storageLocation(QDesktopServices::MoviesLocation);
         if (mdir.isEmpty()) mdir = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation);
