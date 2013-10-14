@@ -92,7 +92,13 @@ TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_bg.ts \
                translations/smtube_vi.ts \
                translations/smtube_id.ts \
-               translations/smtube_ca.ts
+               translations/smtube_ca.ts \
+               translations/smtube_ar.ts \
+               translations/smtube_de.ts \
+               translations/smtube_zh_TW.ts \
+               translations/smtube_nqo.ts \
+               translations/smtube_et.ts \
+               translations/smtube_ko.ts
 
 
 # qtsingleapplication
