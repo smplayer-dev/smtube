@@ -802,144 +802,144 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="216"/>
+        <location filename="../ytdialog.cpp" line="220"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>YouTube preglednik - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="264"/>
+        <location filename="../ytdialog.cpp" line="268"/>
         <source>Settings</source>
         <translation>Postavke</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="270"/>
+        <location filename="../ytdialog.cpp" line="274"/>
         <source>Information</source>
         <translation>Informacije</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="276"/>
+        <location filename="../ytdialog.cpp" line="280"/>
         <source>Show recordings</source>
         <translation>Prikaži snimanja</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="452"/>
+        <location filename="../ytdialog.cpp" line="456"/>
         <source>Most Relevant</source>
         <translation>Pretraga</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="456"/>
+        <location filename="../ytdialog.cpp" line="460"/>
         <source>Most Recent</source>
         <translation>Najnovije</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="460"/>
+        <location filename="../ytdialog.cpp" line="464"/>
         <source>Most Viewed</source>
         <translation>Najgledanije</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="464"/>
+        <location filename="../ytdialog.cpp" line="468"/>
         <source>Most Popular</source>
         <translation>Najpopularnije</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="472"/>
+        <location filename="../ytdialog.cpp" line="476"/>
         <source>Most Rated</source>
         <translation>Najbolje ocjenjeno</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="483"/>
+        <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Najpopularnije video snimke na YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="484"/>
+        <location filename="../ytdialog.cpp" line="488"/>
         <source>Most rated videos on YouTube%1</source>
         <translation>Najbolje ocjenjene video snimke na YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="485"/>
+        <location filename="../ytdialog.cpp" line="489"/>
         <source>Most rated music videos this week on YouTube%1</source>
         <translation>Najbolje ocjenjene glazbene video snimke ovog tjedna na YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="604"/>
+        <location filename="../ytdialog.cpp" line="608"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Greška: Nemoguće povezivanje s Youtube poslužiteljem.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="795"/>
-        <location filename="../ytdialog.cpp" line="806"/>
+        <location filename="../ytdialog.cpp" line="799"/>
+        <location filename="../ytdialog.cpp" line="810"/>
         <source>Problems with Youtube</source>
         <translation>Problemi sa Youtubom</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="797"/>
+        <location filename="../ytdialog.cpp" line="801"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Želite li ažurirati Youtube kôd? To može popraviti problem.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="796"/>
-        <location filename="../ytdialog.cpp" line="807"/>
+        <location filename="../ytdialog.cpp" line="800"/>
+        <location filename="../ytdialog.cpp" line="811"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Nažalost tijekom promjena na Youtubu, video snimka &apos;%1&apos; se ne može reproducirati ili snimiti.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="808"/>
+        <location filename="../ytdialog.cpp" line="812"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Možda nadogradnja ove aplikacije može popraviti problem.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="488"/>
+        <location filename="../ytdialog.cpp" line="492"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 rezultati pretraživanja za &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="612"/>
+        <location filename="../ytdialog.cpp" line="616"/>
         <source>No videos found</source>
         <translation>Nema pronađenih video snimaka</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="614"/>
+        <location filename="../ytdialog.cpp" line="618"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Nema pronađenih video snimaka za &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="706"/>
+        <location filename="../ytdialog.cpp" line="710"/>
         <source>&amp;Play video</source>
         <translation>&amp;Reproduciraj video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="707"/>
+        <location filename="../ytdialog.cpp" line="711"/>
         <source>&amp;Record video</source>
         <translation>&amp;Snimi video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="708"/>
+        <location filename="../ytdialog.cpp" line="712"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Gledaj na YouTubu</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="709"/>
+        <location filename="../ytdialog.cpp" line="713"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Kopiraj poveznicu</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="239"/>
+        <location filename="../ytdialog.cpp" line="243"/>
         <source>Next</source>
         <translation>Sljedeće</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="245"/>
+        <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>Prijašnje</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="468"/>
+        <location filename="../ytdialog.cpp" line="472"/>
         <source>Music Top Rated</source>
         <translation>Najbolje ocjenjena glazba</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="784"/>
+        <location filename="../ytdialog.cpp" line="788"/>
         <source>Error</source>
         <translation>Greška</translation>
     </message>
