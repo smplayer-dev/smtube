@@ -91,7 +91,8 @@ TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_hr.ts \
                translations/smtube_bg.ts \
                translations/smtube_vi.ts \
-               translations/smtube_id.ts
+               translations/smtube_id.ts \
+               translations/smtube_ca.ts
 
 
 # qtsingleapplication
