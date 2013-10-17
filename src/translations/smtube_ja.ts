@@ -840,9 +840,8 @@
         <translation>人気の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="476"/>
         <source>Most Rated</source>
-        <translation>評価の高い動画</translation>
+        <translation type="obsolete">評価の高い動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="487"/>
@@ -850,14 +849,12 @@
         <translation>YouTube%1 の人気の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="488"/>
         <source>Most rated videos on YouTube%1</source>
-        <translation>YouTube%1 の評価の高い動画</translation>
+        <translation type="obsolete">YouTube%1 の評価の高い動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="489"/>
         <source>Most rated music videos this week on YouTube%1</source>
-        <translation>YouTube%1 の今週評価の高い音楽動画</translation>
+        <translation type="obsolete">YouTube%1 の今週評価の高い音楽動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -890,6 +887,26 @@
         <location filename="../ytdialog.cpp" line="492"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; の YouTube%2 での検索結果</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="472"/>
+        <source>Music</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="476"/>
+        <source>Sports</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="488"/>
+        <source>Most popular sport videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="489"/>
+        <source>Most popular music videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
@@ -932,9 +949,8 @@
         <translation>前へ</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="472"/>
         <source>Music Top Rated</source>
-        <translation>評価の高い音楽動画</translation>
+        <translation type="obsolete">評価の高い音楽動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

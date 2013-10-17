@@ -840,9 +840,8 @@
         <translation>Phổ biến nhất</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="476"/>
         <source>Most Rated</source>
-        <translation>Xếp hạng nhiều nhất</translation>
+        <translation type="obsolete">Xếp hạng nhiều nhất</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="487"/>
@@ -850,14 +849,12 @@
         <translation>Các video phổ biến nhất trên YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="488"/>
         <source>Most rated videos on YouTube%1</source>
-        <translation>Các video được xếp hạng nhiều nhất trên YouTube%1</translation>
+        <translation type="obsolete">Các video được xếp hạng nhiều nhất trên YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="489"/>
         <source>Most rated music videos this week on YouTube%1</source>
-        <translation>Các video clip được xếp hạng nhiều nhất trong tuần này trên YouTube%1</translation>
+        <translation type="obsolete">Các video clip được xếp hạng nhiều nhất trong tuần này trên YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -890,6 +887,26 @@
         <location filename="../ytdialog.cpp" line="492"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 kết quả cho &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="472"/>
+        <source>Music</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="476"/>
+        <source>Sports</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="488"/>
+        <source>Most popular sport videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="489"/>
+        <source>Most popular music videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
@@ -932,9 +949,8 @@
         <translation>Trước đó</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="472"/>
         <source>Music Top Rated</source>
-        <translation>Các tác phẩm âm nhạc bầu chọn nhiều nhất</translation>
+        <translation type="obsolete">Các tác phẩm âm nhạc bầu chọn nhiều nhất</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

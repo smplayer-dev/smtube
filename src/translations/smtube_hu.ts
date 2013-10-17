@@ -852,9 +852,8 @@
         <translation>Népszerű</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="476"/>
         <source>Most Rated</source>
-        <translation>Kiemelt</translation>
+        <translation type="obsolete">Kiemelt</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="487"/>
@@ -862,14 +861,8 @@
         <translation>Népszerű videók a YouTube-on%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="488"/>
         <source>Most rated videos on YouTube%1</source>
-        <translation>Kiemelt videók a YouTube-on%1</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="489"/>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Kiemelt videók a YouTube-on%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -902,6 +895,26 @@
         <location filename="../ytdialog.cpp" line="492"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 videótalálatok: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="472"/>
+        <source>Music</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="476"/>
+        <source>Sports</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="488"/>
+        <source>Most popular sport videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="489"/>
+        <source>Most popular music videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
@@ -942,11 +955,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>Előző</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="472"/>
-        <source>Music Top Rated</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="zh_TW">
 <context>
     <name>About</name>
     <message>
@@ -736,7 +738,9 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform> %n 個影片的 %1% 完成 - 正在錄製</numerusform></translation>
+        <translation>
+            <numerusform> %n 個影片的 %1% 完成 - 正在錄製</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -796,144 +800,160 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="216"/>
+        <location filename="../ytdialog.cpp" line="220"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>YouTube 瀏覽器 - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="264"/>
+        <location filename="../ytdialog.cpp" line="268"/>
         <source>Settings</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="270"/>
+        <location filename="../ytdialog.cpp" line="274"/>
         <source>Information</source>
         <translation>資訊</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="276"/>
+        <location filename="../ytdialog.cpp" line="280"/>
         <source>Show recordings</source>
         <translation>顯示錄製清單</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="452"/>
+        <location filename="../ytdialog.cpp" line="456"/>
         <source>Most Relevant</source>
         <translation>相關性最高的</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="456"/>
+        <location filename="../ytdialog.cpp" line="460"/>
         <source>Most Recent</source>
         <translation>最新的</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="460"/>
+        <location filename="../ytdialog.cpp" line="464"/>
         <source>Most Viewed</source>
         <translation>瀏覽最多</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="464"/>
+        <location filename="../ytdialog.cpp" line="468"/>
         <source>Most Popular</source>
         <translation>最受歡迎</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="472"/>
         <source>Most Rated</source>
-        <translation>評價最高</translation>
+        <translation type="obsolete">評價最高</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="483"/>
+        <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>在 YouTube%1 上最受歡迎的影片</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="484"/>
         <source>Most rated videos on YouTube%1</source>
-        <translation>在 YouTube%1 上評價最高的影片</translation>
+        <translation type="obsolete">在 YouTube%1 上評價最高的影片</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="485"/>
         <source>Most rated music videos this week on YouTube%1</source>
-        <translation>本週在 YouTube%1 上最受好評的音樂影片</translation>
+        <translation type="obsolete">本週在 YouTube%1 上最受好評的音樂影片</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="604"/>
+        <location filename="../ytdialog.cpp" line="608"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>錯誤：無法連接到 Youtube 伺服器。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="795"/>
-        <location filename="../ytdialog.cpp" line="806"/>
+        <location filename="../ytdialog.cpp" line="799"/>
+        <location filename="../ytdialog.cpp" line="810"/>
         <source>Problems with Youtube</source>
         <translation>與 YouTube 的問題</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="797"/>
+        <location filename="../ytdialog.cpp" line="801"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>您想要更新 YouTube 的程式碼嗎？這可能會解決這個問題。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="796"/>
-        <location filename="../ytdialog.cpp" line="807"/>
+        <location filename="../ytdialog.cpp" line="800"/>
+        <location filename="../ytdialog.cpp" line="811"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>不幸的是，由於 Youtube 本身的改變，影片 &apos;%1&apos; 不能播放或錄製。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="808"/>
+        <location filename="../ytdialog.cpp" line="812"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>也許更新應用程式可以解決這個問題。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="488"/>
+        <location filename="../ytdialog.cpp" line="492"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; 的 YouTube%2 結果</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="612"/>
+        <location filename="../ytdialog.cpp" line="472"/>
+        <source>Music</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="476"/>
+        <source>Sports</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="488"/>
+        <source>Most popular sport videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="489"/>
+        <source>Most popular music videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="616"/>
         <source>No videos found</source>
         <translation>沒有找到影片</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="614"/>
+        <location filename="../ytdialog.cpp" line="618"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>沒有找到影片 &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="706"/>
+        <location filename="../ytdialog.cpp" line="710"/>
         <source>&amp;Play video</source>
         <translation>播放影片(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="707"/>
+        <location filename="../ytdialog.cpp" line="711"/>
         <source>&amp;Record video</source>
         <translation>錄製影片(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="708"/>
+        <location filename="../ytdialog.cpp" line="712"/>
         <source>&amp;Watch on YouTube</source>
         <translation>在 YouTube 上觀看(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="709"/>
+        <location filename="../ytdialog.cpp" line="713"/>
         <source>&amp;Copy link</source>
         <translation>複製連結(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="239"/>
+        <location filename="../ytdialog.cpp" line="243"/>
         <source>Next</source>
         <translation>下一頁</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="245"/>
+        <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>上一頁</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="468"/>
         <source>Music Top Rated</source>
-        <translation>最受好評的音樂</translation>
+        <translation type="obsolete">最受好評的音樂</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="784"/>
+        <location filename="../ytdialog.cpp" line="788"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
