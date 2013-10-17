@@ -840,9 +840,8 @@
         <translation>最受欢迎</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="476"/>
         <source>Most Rated</source>
-        <translation>最多评价</translation>
+        <translation type="obsolete">最多评价</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="487"/>
@@ -850,14 +849,12 @@
         <translation>在 YouTube%1 上最受欢迎的视频</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="488"/>
         <source>Most rated videos on YouTube%1</source>
-        <translation>在 YouTube%1 上最多评价的视频</translation>
+        <translation type="obsolete">在 YouTube%1 上最多评价的视频</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="489"/>
         <source>Most rated music videos this week on YouTube%1</source>
-        <translation>YouTube%1 上本周最受好评的MV。</translation>
+        <translation type="obsolete">YouTube%1 上本周最受好评的MV。</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -890,6 +887,26 @@
         <location filename="../ytdialog.cpp" line="492"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; 的 YouTube%2 结果</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="472"/>
+        <source>Music</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="476"/>
+        <source>Sports</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="488"/>
+        <source>Most popular sport videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="489"/>
+        <source>Most popular music videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
@@ -932,9 +949,8 @@
         <translation>上一页</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="472"/>
         <source>Music Top Rated</source>
-        <translation>音乐评分排行</translation>
+        <translation type="obsolete">音乐评分排行</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

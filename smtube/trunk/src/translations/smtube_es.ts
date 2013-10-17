@@ -929,6 +929,26 @@
         <translation>Más Popular</translation>
     </message>
     <message>
+        <location filename="../ytdialog.cpp" line="472"/>
+        <source>Music</source>
+        <translation>Música</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="476"/>
+        <source>Sports</source>
+        <translation>Deportes</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="488"/>
+        <source>Most popular sport videos on YouTube%1</source>
+        <translation>Vídeos deportivos más populares en YouTube%1</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="489"/>
+        <source>Most popular music videos on YouTube%1</source>
+        <translation>Vídeos musicales más populares en YouTube%1</translation>
+    </message>
+    <message>
         <location filename="../ytdialog.cpp" line="799"/>
         <location filename="../ytdialog.cpp" line="810"/>
         <source>Problems with Youtube</source>
@@ -959,9 +979,8 @@
         <translation type="obsolete">Últimos destacados</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="476"/>
         <source>Most Rated</source>
-        <translation>Mejor Calificado</translation>
+        <translation type="obsolete">Mejor Calificado</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="487"/>
@@ -969,9 +988,8 @@
         <translation>Vídeos más populares en YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="488"/>
         <source>Most rated videos on YouTube%1</source>
-        <translation>Vídeos mejor calificados en YouTube%1</translation>
+        <translation type="obsolete">Vídeos mejor calificados en YouTube%1</translation>
     </message>
     <message>
         <source>Most viewed videos on YouTube%1</source>
@@ -1032,14 +1050,12 @@
         <translation>Anterior</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="472"/>
         <source>Music Top Rated</source>
-        <translation>Música</translation>
+        <translation type="obsolete">Música</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="489"/>
         <source>Most rated music videos this week on YouTube%1</source>
-        <translation>Vídeos musicales mejor calificados esta semana en YouTube%1</translation>
+        <translation type="obsolete">Vídeos musicales mejor calificados esta semana en YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

@@ -842,9 +842,8 @@
         <translation>Najpopularnije</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="476"/>
         <source>Most Rated</source>
-        <translation>Najbolje ocjenjeno</translation>
+        <translation type="obsolete">Najbolje ocjenjeno</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="487"/>
@@ -852,14 +851,12 @@
         <translation>Najpopularnije video snimke na YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="488"/>
         <source>Most rated videos on YouTube%1</source>
-        <translation>Najbolje ocjenjene video snimke na YouTube%1</translation>
+        <translation type="obsolete">Najbolje ocjenjene video snimke na YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="489"/>
         <source>Most rated music videos this week on YouTube%1</source>
-        <translation>Najbolje ocjenjene glazbene video snimke ovog tjedna na YouTube%1</translation>
+        <translation type="obsolete">Najbolje ocjenjene glazbene video snimke ovog tjedna na YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -892,6 +889,26 @@
         <location filename="../ytdialog.cpp" line="492"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 rezultati pretraživanja za &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="472"/>
+        <source>Music</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="476"/>
+        <source>Sports</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="488"/>
+        <source>Most popular sport videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="489"/>
+        <source>Most popular music videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
@@ -934,9 +951,8 @@
         <translation>Prijašnje</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="472"/>
         <source>Music Top Rated</source>
-        <translation>Najbolje ocjenjena glazba</translation>
+        <translation type="obsolete">Najbolje ocjenjena glazba</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

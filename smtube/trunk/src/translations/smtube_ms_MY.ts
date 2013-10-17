@@ -840,9 +840,8 @@
         <translation>Paling Popular</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="476"/>
         <source>Most Rated</source>
-        <translation>Paling Banyak Diberi Penarafan</translation>
+        <translation type="obsolete">Paling Banyak Diberi Penarafan</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="487"/>
@@ -850,14 +849,12 @@
         <translation>Video paling popular dalam YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="488"/>
         <source>Most rated videos on YouTube%1</source>
-        <translation>Video paling banyak diberi penarafan dalam YouTube%1</translation>
+        <translation type="obsolete">Video paling banyak diberi penarafan dalam YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="489"/>
         <source>Most rated music videos this week on YouTube%1</source>
-        <translation>Video muzik tertinggi penarafannya minggu ini di dalam YouTube%1</translation>
+        <translation type="obsolete">Video muzik tertinggi penarafannya minggu ini di dalam YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -890,6 +887,26 @@
         <location filename="../ytdialog.cpp" line="492"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>Keputusan YouTube%2 bagi &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="472"/>
+        <source>Music</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="476"/>
+        <source>Sports</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="488"/>
+        <source>Most popular sport videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="489"/>
+        <source>Most popular music videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
@@ -932,9 +949,8 @@
         <translation>Terdahulu</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="472"/>
         <source>Music Top Rated</source>
-        <translation>Muzik Penarafan Tertinggi</translation>
+        <translation type="obsolete">Muzik Penarafan Tertinggi</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>
