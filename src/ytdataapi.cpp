@@ -45,10 +45,10 @@ int YTDataAPI::getMost(int tab, QString searchTerm)
 {
     if(tab == YTDialog::Popular)
         return getXmlResponse(QString("http://gdata.youtube.com/feeds/api/standardfeeds/%1/most_popular?time=%2").arg(country).arg(time));
-    else if(tab == YTDialog::Rated)
-        return getXmlResponse(QString("http://gdata.youtube.com/feeds/api/standardfeeds/%1/top_rated?time=%2").arg(country).arg(time));
+    else if(tab == YTDialog::Sport)
+        return getXmlResponse(QString("http://gdata.youtube.com/feeds/api/standardfeeds/%1/most_popular_Sports?v=2&time=%2").arg(country).arg(time));
     else if(tab == YTDialog::Music)
-        return getXmlResponse(QString("http://gdata.youtube.com/feeds/api/standardfeeds/%1/top_rated_Music?v=2&time=%2").arg(country).arg(time));
+        return getXmlResponse(QString("http://gdata.youtube.com/feeds/api/standardfeeds/%1/most_popular_Music?v=2&time=%2").arg(country).arg(time));
     else if(tab == YTDialog::Relevant)
         return  getXmlResponse("http://gdata.youtube.com/feeds/api/videos?v=2&start-index=1&results=25&orderby=relevance&q=" + searchTerm);
     else if(tab == YTDialog::Recent)

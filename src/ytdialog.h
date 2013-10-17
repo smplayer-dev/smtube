@@ -140,7 +140,7 @@ public:
 
         Popular,
         Music,
-        Rated
+        Sport
     };
 
     enum Mode

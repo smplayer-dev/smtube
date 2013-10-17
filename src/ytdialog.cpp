@@ -434,7 +434,7 @@ void YTDialog::setMode(Mode mode)
         searchBox->setText(searchTerm);
         addTab(Popular);
         addTab(Music);
-        addTab(Rated);        
+        addTab(Sport);
     }
     else if(mode == Search)
     {
@@ -469,11 +469,11 @@ void YTDialog::addTab(Tabs tab)
     }
     else if(tab == Music)
     {
-        index = tabBar->addTab(tr("Music Top Rated"));
+        index = tabBar->addTab(tr("Music"));
     }
-    else if(tab == Rated)
+    else if(tab == Sport)
     {
-        index = tabBar->addTab(tr("Most Rated"));
+        index = tabBar->addTab(tr("Sports"));
     }    
     tabBar->setTabData(index, tab);
 }
@@ -485,8 +485,8 @@ void YTDialog::gotCurrentTab(int index)
     switch((int)tab)
     {
     case Popular: setWindowTitle(tr("Most popular videos on YouTube%1").arg(QChar(0x2122)));break;
-    case Rated: setWindowTitle(tr("Most rated videos on YouTube%1").arg(QChar(0x2122)));break;
-    case Music: setWindowTitle(tr("Most rated music videos this week on YouTube%1").arg(QChar(0x2122)));break;
+    case Sport: setWindowTitle(tr("Most popular sport videos on YouTube%1").arg(QChar(0x2122)));break;
+    case Music: setWindowTitle(tr("Most popular music videos on YouTube%1").arg(QChar(0x2122)));break;
     case Relevant :
     case Recent :
     case Viewed : setWindowTitle(tr("YouTube%2 results for \"%1\"").arg(searchTerm).arg(QChar(0x2122)));break;
@@ -502,7 +502,7 @@ void YTDialog::gotCurrentTab(int index)
         switch((int)tab)
         {
         case Popular: resultForTab[api->getMost(Popular)] = Popular; break;
-        case Rated: resultForTab[api->getMost(Rated)]= Rated; break;
+        case Sport: resultForTab[api->getMost(Sport)]= Sport; break;
         case Music: resultForTab[api->getMost(Music)]= Music; break;
         case Relevant : resultForTab[api->getMost(Relevant, searchTerm)]= Relevant; break;
         case Recent : resultForTab[api->getMost(Recent, searchTerm)]= Recent; break;
