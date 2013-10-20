@@ -840,21 +840,9 @@
         <translation>Paling Popular</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">Paling Banyak Diberi Penarafan</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Video paling popular dalam YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">Video paling banyak diberi penarafan dalam YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">Video muzik tertinggi penarafannya minggu ini di dalam YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -947,10 +935,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>Terdahulu</translation>
-    </message>
-    <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete">Muzik Penarafan Tertinggi</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

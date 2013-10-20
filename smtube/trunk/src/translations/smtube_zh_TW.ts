@@ -739,7 +739,7 @@
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
-            <numerusform> %n 個影片的 %1% 完成 - 正在錄製</numerusform>
+            <numerusform> %n 個影片的 %1% 已完成 - 正在錄製</numerusform>
         </translation>
     </message>
     <message>
@@ -840,21 +840,9 @@
         <translation>最受歡迎</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">評價最高</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>在 YouTube%1 上最受歡迎的影片</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">在 YouTube%1 上評價最高的影片</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">本週在 YouTube%1 上最受好評的音樂影片</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -891,22 +879,22 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>音樂</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation>運動</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>在YouTube%1上最受歡迎的運動影片</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>在YouTube%1上最受歡迎的音樂影片</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
@@ -947,10 +935,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>上一頁</translation>
-    </message>
-    <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete">最受好評的音樂</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

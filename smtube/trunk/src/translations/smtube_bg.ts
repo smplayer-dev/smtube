@@ -6,7 +6,7 @@
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About...</source>
-        <translation>Отностно...</translation>
+        <translation>Относно...</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
@@ -58,7 +58,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>Visit our web for updates:</source>
-        <translation>Посети нашия уеб сайт за обновления:</translation>
+        <translation>Посети нашият уеб сайт за обновления:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="98"/>
@@ -109,7 +109,7 @@
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Ukrainian</source>
-        <translation>Украйнски</translation>
+        <translation>Украински</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="125"/>
@@ -129,7 +129,7 @@
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>Вие също можете да помогнете като преведете SMPlayer на майчиният си език.</translation>
+        <translation>Вие също можете да помогнете като преведете SMPlayer на майчиния си език.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
@@ -139,7 +139,7 @@
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>Текущи преводачи от transifex екипите:</translation>
+        <translation>Настоящи преводачи от transifex-екипите:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
@@ -154,12 +154,12 @@
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Portuguese - Brazil</source>
-        <translation>Португалски - Бразилия</translation>
+        <translation>Португалски - бразилски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>Simplified Chinese</source>
-        <translation>Опростен Kитайски</translation>
+        <translation>Опростен китайски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
@@ -179,7 +179,7 @@
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Traditional Chinese</source>
-        <translation>Традиционен Китайски</translation>
+        <translation>Традиционен китайски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
@@ -287,7 +287,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Сваляне...</translation>
+        <translation>Изтегляне...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
@@ -297,7 +297,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Youtube кодът беше обновен успешно.</translation>
+        <translation>Кодът на Youtube беше обновен успешно.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="125"/>
@@ -323,7 +323,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Възникна грешка при свалянето на: &lt;br&gt;%1</translation>
+        <translation>Възникна грешка при изтеглянето на:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -341,7 +341,7 @@
     <message>
         <location filename="../configdialog.ui" line="28"/>
         <source>&amp;Save to this folder</source>
-        <translation>&amp;Запиши в тази директорич</translation>
+        <translation>&amp;Запиши в тази директория</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="45"/>
@@ -351,7 +351,7 @@
     <message>
         <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
-        <translation>Стандартни спонсори</translation>
+        <translation>Стандартни абонаменти</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="155"/>
@@ -366,12 +366,12 @@
     <message>
         <location filename="../configdialog.ui" line="80"/>
         <source>Playback</source>
-        <translation>Запусни</translation>
+        <translation>Изпълняване</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="88"/>
         <source>Q&amp;uality:</source>
-        <translation>К&amp;ачество</translation>
+        <translation>К&amp;ачество:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="118"/>
@@ -436,7 +436,7 @@
     <message>
         <location filename="../configdialog.cpp" line="43"/>
         <source>Great Britain</source>
-        <translation>Велико-британия</translation>
+        <translation>Великобритания</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="44"/>
@@ -481,7 +481,7 @@
     <message>
         <location filename="../configdialog.cpp" line="53"/>
         <source>Malaysia</source>
-        <translation>Мала-азия</translation>
+        <translation>Малайзия</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="54"/>
@@ -511,7 +511,7 @@
     <message>
         <location filename="../configdialog.cpp" line="59"/>
         <source>Philippines</source>
-        <translation>Филипините</translation>
+        <translation>Филипини</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="60"/>
@@ -561,17 +561,17 @@
     <message>
         <location filename="../configdialog.cpp" line="70"/>
         <source>United Arab Emirates</source>
-        <translation>Обединени Арабски Емирства</translation>
+        <translation>Обединени арабски емирства</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="71"/>
         <source>United States</source>
-        <translation>Съединените Щати</translation>
+        <translation>САЩ</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="73"/>
         <source>All time</source>
-        <translation>Всички времена</translation>
+        <translation>По всяко време</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="74"/>
@@ -594,7 +594,7 @@
     <message>
         <location filename="../downloadfile.cpp" line="117"/>
         <source>%1 hours</source>
-        <translation>%1 часове</translation>
+        <translation>%1 часа</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="123"/>
@@ -634,7 +634,7 @@
     <message>
         <location filename="../downloadfile.cpp" line="148"/>
         <source>%1 of unknown size</source>
-        <translation>%1 от неизвестен размер</translation>
+        <translation>%1 с неизвестен размер</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="153"/>
@@ -657,7 +657,7 @@
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation>Цъкенете за да изберете файл или папка</translation>
+        <translation>Кликнете, за да изберете файл или папка</translation>
     </message>
 </context>
 <context>
@@ -699,7 +699,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="204"/>
         <source>&amp;Clear list</source>
-        <translation>&amp;Изчисти листа</translation>
+        <translation>&amp;Изчисти списъка</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="205"/>
@@ -711,19 +711,19 @@
         <location filename="../recordingdialog.cpp" line="266"/>
         <location filename="../recordingdialog.cpp" line="665"/>
         <source>There was an error in retrieving the download URL.</source>
-        <translation>Възникна грешка при свалянето на URL.</translation>
+        <translation>Възникна грешка в отговора на адреса за сваляне.</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="266"/>
         <location filename="../recordingdialog.cpp" line="665"/>
         <source>Recording failed</source>
-        <translation>Записването беше неуспешно</translation>
+        <translation>Записването е неуспешно</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="307"/>
         <location filename="../recordingdialog.cpp" line="683"/>
         <source>Starting</source>
-        <translation>Започване</translation>
+        <translation>Начало</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="341"/>
@@ -740,7 +740,7 @@
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%1% от %n видеота - Записан</numerusform>
-            <numerusform>%1% от %n видеота - Записани</numerusform>
+            <numerusform>%1% от %n видеа - Записани</numerusform>
         </translation>
     </message>
     <message>
@@ -751,13 +751,13 @@
     <message>
         <location filename="../recordingdialog.cpp" line="511"/>
         <source>&amp;Remove from list</source>
-        <translation>&amp;Премахване от листа</translation>
+        <translation>&amp;Премахни от списък</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="530"/>
         <location filename="../recordingdialog.cpp" line="552"/>
         <source>Remove from &amp;list</source>
-        <translation>Премахни от &amp;листа</translation>
+        <translation>Премахване от &amp;списъка</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="528"/>
@@ -767,7 +767,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="548"/>
         <source>&amp;Play</source>
-        <translation>&amp;Изпълнение</translation>
+        <translation>&amp;Възпроизвеждане</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="551"/>
@@ -777,7 +777,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="630"/>
         <source>Fetching URL...</source>
-        <translation>Сваляне на URL...</translation>
+        <translation>Извличане на Интернет адрес...</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="647"/>
@@ -787,7 +787,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="648"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
-        <translation>Файлът не съществува, искате ли да го премахнете ор листа?</translation>
+        <translation>Файлът не съществува, искате ли да го премахнете от списъка?</translation>
     </message>
 </context>
 <context>
@@ -795,7 +795,7 @@
     <message>
         <location filename="../ytdelegate.cpp" line="114"/>
         <source>%L1 views</source>
-        <translation>%L1 прегледи</translation>
+        <translation>%L1 прегледа</translation>
     </message>
 </context>
 <context>
@@ -823,7 +823,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="456"/>
         <source>Most Relevant</source>
-        <translation>Най-важни</translation>
+        <translation>Най-уместни</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="460"/>
@@ -841,26 +841,14 @@
         <translation>Най-популярни</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">Най-оценявани</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Най-популярни клипове от YouTube%1</translation>
     </message>
     <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">Най-оценявани клипове от YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">Най-оценявани клипове от YouTube%1 тази седмица</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="608"/>
         <source>Error: Could not connect to Youtube server.</source>
-        <translation>Грешка: Неуспешно свръзването с Youtube сървъра.</translation>
+        <translation>Грешка: Неуспешно свръзване с Youtube сървър.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="799"/>
@@ -877,67 +865,67 @@
         <location filename="../ytdialog.cpp" line="800"/>
         <location filename="../ytdialog.cpp" line="811"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation>За нещастатие поради промени в Youtube, клипа &apos;%1&apos; неможе да се изплълни или да бъде записан.</translation>
+        <translation>За съжаление поради промени в Youtube, клипът „%1“ не може да бъде възпроизведен или записан.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="812"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation>Можеби обновлението на приложението ще оправи проблема.</translation>
+        <translation>Може би обновяване на приложението ще оправи проблема.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="492"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
-        <translation>YouTube%2 резултати за &quot;%1&quot;</translation>
+        <translation>YouTube%2 резултати за „%1“</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>Музикални</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation>Спортни</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Най-популярни спортни клипове от YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Най-популярни музикални клипове от YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
         <source>No videos found</source>
-        <translation>Не са намерени клипове</translation>
+        <translation>Няма намерени клипове</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="618"/>
         <source>No videos found for &quot;%1&quot;</source>
-        <translation>Не са намерени клипове за &quot;%1&quot;</translation>
+        <translation>Няма намерени клипове за „%1“</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="710"/>
         <source>&amp;Play video</source>
-        <translation>&amp;Изпълнение наклип</translation>
+        <translation>&amp;Изпълнение на клип</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="711"/>
         <source>&amp;Record video</source>
-        <translation>&amp;Запиши клип</translation>
+        <translation>&amp;Запис на клип</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="712"/>
         <source>&amp;Watch on YouTube</source>
-        <translation>&amp;Гледай от YouTube</translation>
+        <translation>&amp;Гледай в YouTube</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="713"/>
         <source>&amp;Copy link</source>
-        <translation>&amp;Копирай линк</translation>
+        <translation>&amp;Копирай връзка</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="243"/>
@@ -948,10 +936,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>Предишен</translation>
-    </message>
-    <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete">Най-оценявана музика</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

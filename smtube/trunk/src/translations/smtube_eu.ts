@@ -841,21 +841,9 @@
         <translation>Ezagunenak</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">Mailatuenak</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Bideo ezagunenak YouTube%1-ean</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">Bideo mailatuenak YouTube%1-ean</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">Aste honetan YouTube%1 hobekien mailatuak</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -892,22 +880,22 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>Musika</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation>Kirolak</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube%1-ko kirol bideo ospetsuenak</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube%1-ko musika bideo ospetsuenak</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
@@ -948,10 +936,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>Aurrekoa</translation>
-    </message>
-    <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete">Hobekien Mailaturiko Musika</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

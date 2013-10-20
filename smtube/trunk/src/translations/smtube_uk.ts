@@ -244,32 +244,32 @@
     <message>
         <location filename="../about.cpp" line="132"/>
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation>Грецька</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="133"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Естонська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>Нко</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="135"/>
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>Італійська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>Узбецька</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="137"/>
         <source>Catalan</source>
-        <translation type="unfinished"></translation>
+        <translation>Каталонська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
@@ -842,21 +842,9 @@
         <translation>Найпопулярніші</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">Висока оцінка</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Найпопулярніші відео на YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">За рейтингом відео на YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">Оцінка музичних відео цього тижня на YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -949,10 +937,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>Попередній</translation>
-    </message>
-    <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete">Краща музика</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>
