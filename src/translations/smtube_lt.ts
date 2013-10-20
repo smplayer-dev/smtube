@@ -842,21 +842,9 @@
         <translation>Populiarumas</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">Įvertinimas</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Populiariausi YouTube%1 video</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">Geriausiai įvertinti YouTube%1 video</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">Geriausiai įvertinti šios savaitės YouTube%1 video</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -949,10 +937,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>Ankstesnis</translation>
-    </message>
-    <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete">Geriausiai įvertinta muzika</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

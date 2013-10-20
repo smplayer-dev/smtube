@@ -840,21 +840,9 @@
         <translation>人気の動画</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">評価の高い動画</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
-        <translation>YouTube%1 の人気の動画</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">YouTube%1 の評価の高い動画</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">YouTube%1 の今週評価の高い音楽動画</translation>
+        <translation>YouTube%1 で人気の動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -891,22 +879,22 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>音楽</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation>スポーツ</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube%1 で人気のスポーツ動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube%1 で人気の音楽動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
@@ -947,10 +935,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>前へ</translation>
-    </message>
-    <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete">評価の高い音楽動画</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

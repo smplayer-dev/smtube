@@ -842,21 +842,9 @@
         <translation>Naj. popularne</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">Naj. oceniane</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Najbardziej popularne filmy na YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">Najwyżej oceniane filmy na YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">Najwyżej oceniane klipy muzyczne w tym tygodniu na YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -949,10 +937,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>Poprzedni</translation>
-    </message>
-    <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete">Najwyżej ocenione utwory</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

@@ -840,21 +840,9 @@
         <translation>Phổ biến nhất</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">Xếp hạng nhiều nhất</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Các video phổ biến nhất trên YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">Các video được xếp hạng nhiều nhất trên YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">Các video clip được xếp hạng nhiều nhất trong tuần này trên YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -947,10 +935,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>Trước đó</translation>
-    </message>
-    <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete">Các tác phẩm âm nhạc bầu chọn nhiều nhất</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

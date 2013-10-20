@@ -840,21 +840,9 @@
         <translation>En Popüler</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">En çok Oy Alan</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>YouTube%1 en popüler videolar</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">YouTube% 1 en çok oy alan videolar</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">YouTube%1&apos;de bu hafta en çok oy alan müzik videoları</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -947,10 +935,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>Önceki</translation>
-    </message>
-    <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete"> En Beğenilen Müzik</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

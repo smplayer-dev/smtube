@@ -845,21 +845,9 @@
         <translation>الاكثر شهرة</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">ر تقييما</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>الفيديوات الاكثر شهرة على يوتيوب YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">الفيديوات الاكثر تقييما على يوتيوب YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">فيديوات الموسيقى الأكثر تقييما هذا الاسبوع على يوتيوب  YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -952,10 +940,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete">موسيقى الأعلى تقييما</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

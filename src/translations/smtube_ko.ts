@@ -840,21 +840,9 @@
         <translation>인기 동영상</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">추천 동영상</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
-        <translation>유투브%1 의 가장 인기있는 동영상</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">유투브%1 의 가장 평점이 높은 동영상</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">유투브%1 에서 이번주에 가장 평점이 높은 뮤직 비디오</translation>
+        <translation>유투브%1 의 가장 인기 있는 동영상</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -891,22 +879,22 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>음악</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation>스포츠</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브%1 의 가장 인기 있는 스포츠 동영상</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브%1 의 가장 인기 있는 뮤직 비디오</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
@@ -947,10 +935,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>이전</translation>
-    </message>
-    <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete">최고 평점의 음악</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>

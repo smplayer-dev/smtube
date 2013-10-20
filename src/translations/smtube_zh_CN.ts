@@ -840,21 +840,9 @@
         <translation>最受欢迎</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">最多评价</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>在 YouTube%1 上最受欢迎的视频</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">在 YouTube%1 上最多评价的视频</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">YouTube%1 上本周最受好评的MV。</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
@@ -947,10 +935,6 @@
         <location filename="../ytdialog.cpp" line="249"/>
         <source>Previous</source>
         <translation>上一页</translation>
-    </message>
-    <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete">音乐评分排行</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="788"/>
