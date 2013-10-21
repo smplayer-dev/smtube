@@ -850,24 +850,29 @@
         <translation>오류: 유투브 서버에 연결할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="799"/>
-        <location filename="../ytdialog.cpp" line="810"/>
+        <location filename="../ytdialog.cpp" line="714"/>
+        <source>&amp;Add URL to the SMPlayer playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="822"/>
+        <location filename="../ytdialog.cpp" line="833"/>
         <source>Problems with Youtube</source>
         <translation>유투브 문제</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="801"/>
+        <location filename="../ytdialog.cpp" line="824"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>유투브 코드를 업데이트할까요? 업데이트로 문제를 해결할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="800"/>
-        <location filename="../ytdialog.cpp" line="811"/>
+        <location filename="../ytdialog.cpp" line="823"/>
+        <location filename="../ytdialog.cpp" line="834"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>유감스럽게도 유투브 페이지 변경 때문에, &apos;%1&apos; 동영상을 재생하거나 녹화할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="812"/>
+        <location filename="../ytdialog.cpp" line="835"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>이 프로그램을 업데이트해서 문제를 해결할 수 있을 것입니다.</translation>
     </message>
@@ -937,7 +942,7 @@
         <translation>이전</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="788"/>
+        <location filename="../ytdialog.cpp" line="811"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>

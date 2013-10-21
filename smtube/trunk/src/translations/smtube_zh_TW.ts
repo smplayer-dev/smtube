@@ -850,24 +850,29 @@
         <translation>錯誤：無法連接到 Youtube 伺服器。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="799"/>
-        <location filename="../ytdialog.cpp" line="810"/>
+        <location filename="../ytdialog.cpp" line="714"/>
+        <source>&amp;Add URL to the SMPlayer playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="822"/>
+        <location filename="../ytdialog.cpp" line="833"/>
         <source>Problems with Youtube</source>
         <translation>與 YouTube 的問題</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="801"/>
+        <location filename="../ytdialog.cpp" line="824"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>您想要更新 YouTube 的程式碼嗎？這可能會解決這個問題。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="800"/>
-        <location filename="../ytdialog.cpp" line="811"/>
+        <location filename="../ytdialog.cpp" line="823"/>
+        <location filename="../ytdialog.cpp" line="834"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>不幸的是，由於 Youtube 本身的改變，影片 &apos;%1&apos; 不能播放或錄製。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="812"/>
+        <location filename="../ytdialog.cpp" line="835"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>也許更新應用程式可以解決這個問題。</translation>
     </message>
@@ -937,7 +942,7 @@
         <translation>上一頁</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="788"/>
+        <location filename="../ytdialog.cpp" line="811"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
