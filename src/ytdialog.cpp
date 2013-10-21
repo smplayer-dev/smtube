@@ -711,9 +711,11 @@ void YTDialog::showContextMenu(QPoint point)
     menu.addAction(tr("&Record video"))->setData("record");
     menu.addAction(tr("&Watch on YouTube"))->setData("watch");
     menu.addAction(tr("&Copy link"))->setData("link");
+    menu.addAction(tr("&Add URL to the SMPlayer playlist"))->setData("playlist");
 
     QAction* action = menu.exec(videoList->viewport()->mapToGlobal(point));
     if(!action) return;
+
     QListWidgetItem* item = videoList->itemAt(point);
     if(action->data().toString() == "play")
     {
@@ -732,6 +734,11 @@ void YTDialog::showContextMenu(QPoint point)
     {
         SingleVideoItem* svi = item->data(0).value<SingleVideoItem*>();
         qApp->clipboard()->setText(QString("http://www.youtube.com/watch?v=%1").arg(svi->videoid));
+    }
+    else if(action->data().toString() == "playlist")
+    {
+        SingleVideoItem* svi = item->data(0).value<SingleVideoItem*>();
+        addToPlaylist(QString("http://www.youtube.com/watch?v=%1").arg(svi->videoid));
     }
 }
 
@@ -769,6 +776,22 @@ void YTDialog::playYTUrl(const QString & url, QString title, QString /*id*/)
         }
     }
     QProcess::startDetached(exec, args);
+}
+
+void YTDialog::addToPlaylist(const QString &url) {
+	qDebug("YTDialog::addToPlaylist: %s", url.toUtf8().constData());
+
+	int p = players.findName("SMPlayer");
+	if (p > -1) {
+		QString exec = players.item(p).executable();
+		qDebug("YTDialog::playVideo: command: '%s'", exec.toUtf8().constData());
+
+		QStringList args;
+		args << "-add-to-playlist" << url;
+		QProcess::startDetached(exec, args);
+	} else {
+		qDebug("YTDialog::addToPlaylist: player not found");
+	}
 }
 
 void YTDialog::handleMessage(const QString& message)
@@ -839,7 +862,9 @@ void YTDialog::showConfigDialog()
     if (d.exec() == QDialog::Accepted) {
         recording_dialog->setRecordingsDirectory(d.recordingDirectory());
         recording_dialog->setRecordingQuality(d.recordingQuality());
-        players.setCurrent( players.findName( d.player() ) );
+        int p = players.findName(d.player());
+        if (p == -1) p = 0;
+        players.setCurrent(p);
         playback_quality = d.playbackQuality();
         api->setPeriod( d.period() );
         api->setRegion( d.region() );
