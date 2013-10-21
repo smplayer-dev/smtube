@@ -850,24 +850,29 @@
         <translation>Lỗi: Không thể kết nối đến máy chủ YouTube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="799"/>
-        <location filename="../ytdialog.cpp" line="810"/>
+        <location filename="../ytdialog.cpp" line="714"/>
+        <source>&amp;Add URL to the SMPlayer playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="822"/>
+        <location filename="../ytdialog.cpp" line="833"/>
         <source>Problems with Youtube</source>
         <translation>Xảy ra lỗi với Youtube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="801"/>
+        <location filename="../ytdialog.cpp" line="824"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Bạn có muốn cập nhật đoạn mã Youtube? Điều này có thể sửa lỗi này</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="800"/>
-        <location filename="../ytdialog.cpp" line="811"/>
+        <location filename="../ytdialog.cpp" line="823"/>
+        <location filename="../ytdialog.cpp" line="834"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Do có sự thay đổi từ Youtube, nên video &apos;%1&apos; không thể được phát hoặc ghi lại.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="812"/>
+        <location filename="../ytdialog.cpp" line="835"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Bạn nên cập nhật ứng dụng này lên phiên bản mới nhất để sửa lỗi này.</translation>
     </message>
@@ -937,7 +942,7 @@
         <translation>Trước đó</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="788"/>
+        <location filename="../ytdialog.cpp" line="811"/>
         <source>Error</source>
         <translation>Lỗi</translation>
     </message>

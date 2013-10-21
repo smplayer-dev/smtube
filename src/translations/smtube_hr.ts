@@ -852,24 +852,29 @@
         <translation>Greška: Nemoguće povezivanje s Youtube poslužiteljem.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="799"/>
-        <location filename="../ytdialog.cpp" line="810"/>
+        <location filename="../ytdialog.cpp" line="714"/>
+        <source>&amp;Add URL to the SMPlayer playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="822"/>
+        <location filename="../ytdialog.cpp" line="833"/>
         <source>Problems with Youtube</source>
         <translation>Problemi sa Youtubom</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="801"/>
+        <location filename="../ytdialog.cpp" line="824"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Želite li ažurirati Youtube kôd? To može popraviti problem.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="800"/>
-        <location filename="../ytdialog.cpp" line="811"/>
+        <location filename="../ytdialog.cpp" line="823"/>
+        <location filename="../ytdialog.cpp" line="834"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Nažalost tijekom promjena na Youtubu, video snimka &apos;%1&apos; se ne može reproducirati ili snimiti.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="812"/>
+        <location filename="../ytdialog.cpp" line="835"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Možda nadogradnja ove aplikacije može popraviti problem.</translation>
     </message>
@@ -939,7 +944,7 @@
         <translation>Prijašnje</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="788"/>
+        <location filename="../ytdialog.cpp" line="811"/>
         <source>Error</source>
         <translation>Greška</translation>
     </message>

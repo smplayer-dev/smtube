@@ -851,24 +851,29 @@
         <translation>Erro: Não foi possível se conectar ao servidor do Youtube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="799"/>
-        <location filename="../ytdialog.cpp" line="810"/>
+        <location filename="../ytdialog.cpp" line="714"/>
+        <source>&amp;Add URL to the SMPlayer playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="822"/>
+        <location filename="../ytdialog.cpp" line="833"/>
         <source>Problems with Youtube</source>
         <translation>Problemas com o Youtube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="801"/>
+        <location filename="../ytdialog.cpp" line="824"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Gostaria de atualizar o código do Youtube? Isso pode consertar o problema.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="800"/>
-        <location filename="../ytdialog.cpp" line="811"/>
+        <location filename="../ytdialog.cpp" line="823"/>
+        <location filename="../ytdialog.cpp" line="834"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Infelizmente, devido a alterações no Youtube, o vídeo &apos;%1&apos; não pode ser reproduzido ou gravado.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="812"/>
+        <location filename="../ytdialog.cpp" line="835"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Atualizar o aplicativo pode resolver o problema.</translation>
     </message>
@@ -938,7 +943,7 @@
         <translation>Anterior</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="788"/>
+        <location filename="../ytdialog.cpp" line="811"/>
         <source>Error</source>
         <translation>Erro</translation>
     </message>
