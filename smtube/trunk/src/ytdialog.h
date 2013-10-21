@@ -195,6 +195,7 @@ public slots:
     void recordItem(QListWidgetItem* item);
     void playVideo(QString file);
     void playYTUrl(const QString &url, QString title, QString id);
+    void addToPlaylist(const QString &url);
 
 protected slots:
     void showConfigDialog();

@@ -74,5 +74,5 @@ int Players::findName(QString name) {
 	for (int n = 0; n < list.count(); n++) {
 		if (list[n].name() == name) return n;
 	}
-	return 0;
+	return -1;
 }
