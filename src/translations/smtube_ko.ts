@@ -852,7 +852,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>URL을 SMPlayer 재생목록에 추가하기</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>

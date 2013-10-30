@@ -853,7 +853,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Füge die URL zur SMPlayer Wiedergabeliste hinzu</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>
@@ -885,22 +885,22 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>Musik</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation>Sport</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Beliebteste Sportvideos auf YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Beliebteste Musikvideos auf YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>

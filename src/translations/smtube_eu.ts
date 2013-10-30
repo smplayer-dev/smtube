@@ -853,7 +853,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gehitu URL-a SMPlayer irakur-zerrendara</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>

@@ -854,7 +854,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Додати URL-адресу в плейлист SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>
@@ -886,22 +886,22 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>Музика</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation>Спорт</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Найбільш популярне відео спорту на YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Найбільш популярне музичне відео на YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
