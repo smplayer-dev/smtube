@@ -351,7 +351,7 @@
     <message>
         <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
-        <translation>標準 Feeds</translation>
+        <translation>標準影片來源</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="155"/>
@@ -852,7 +852,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>加入網址到 SMPlayer 播放清單(&amp;A)</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>

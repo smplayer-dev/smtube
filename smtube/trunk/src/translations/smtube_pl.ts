@@ -11,7 +11,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>&amp;Info</source>
-        <translation>&amp;Info</translation>
+        <translation>&amp;Informacje</translation>
     </message>
     <message>
         <location filename="../about.ui" line="53"/>
@@ -38,7 +38,7 @@
     <message>
         <location filename="../about.cpp" line="35"/>
         <source>Based on UMPlayer</source>
-        <translation>Bazuje na UMPlayerze</translation>
+        <translation>Oparty na UMPlayerze</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="37"/>
@@ -341,7 +341,7 @@
     <message>
         <location filename="../configdialog.ui" line="28"/>
         <source>&amp;Save to this folder</source>
-        <translation>Zapi&amp;sz do folderu</translation>
+        <translation>Zapi&amp;sz do tego katalogu</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="45"/>
@@ -351,7 +351,7 @@
     <message>
         <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
-        <translation>Standardowe zakładki przeglądania</translation>
+        <translation>Standardowe kanały treści</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="155"/>
@@ -376,7 +376,7 @@
     <message>
         <location filename="../configdialog.ui" line="118"/>
         <source>&amp;Player:</source>
-        <translation>&amp;Odtwarzacz</translation>
+        <translation>&amp;Odtwarzacz:</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="31"/>
@@ -604,7 +604,7 @@
     <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
-        <translation>nieznany pozostający czas</translation>
+        <translation>nieznany pozostały czas</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="126"/>
@@ -657,7 +657,7 @@
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation>Wybierz plik lub folder</translation>
+        <translation>Wybierz plik lub katalog</translation>
     </message>
 </context>
 <context>
@@ -705,13 +705,13 @@
         <location filename="../recordingdialog.cpp" line="205"/>
         <location filename="../recordingdialog.cpp" line="549"/>
         <source>&amp;Open folder</source>
-        <translation>&amp;Otwórz folder</translation>
+        <translation>&amp;Otwórz katalog</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="266"/>
         <location filename="../recordingdialog.cpp" line="665"/>
         <source>There was an error in retrieving the download URL.</source>
-        <translation>Wystąpił błąd podczas pobierania URL</translation>
+        <translation>Wystąpił błąd podczas pobierania URL.</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="266"/>
@@ -778,7 +778,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="630"/>
         <source>Fetching URL...</source>
-        <translation>Ściągam URL...</translation>
+        <translation>Pozyskiwanie URL...</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="647"/>
@@ -804,7 +804,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="220"/>
         <source>YouTube Browser - SMPlayer</source>
-        <translation>Przeglądanie YouTube - SMPlayer</translation>
+        <translation>Przeglądarka YouTube - SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="268"/>
@@ -849,12 +849,12 @@
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
         <source>Error: Could not connect to Youtube server.</source>
-        <translation>Błąd: Brak połączenia z serwerem YouTube</translation>
+        <translation>Błąd: Brak połączenia z serwerem YouTube.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dodaj adres URL do listy odtwarzania SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>
@@ -886,22 +886,22 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>Muzyka</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation>Sporty</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Najbardziej popularne wideo sportowe na YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Najbardziej popularne wideo muzyczne na YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
@@ -931,7 +931,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="713"/>
         <source>&amp;Copy link</source>
-        <translation>Kopiuj link (&amp;c)</translation>
+        <translation>&amp;Kopiuj odnośnik</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="243"/>

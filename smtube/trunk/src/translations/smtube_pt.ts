@@ -129,7 +129,7 @@
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>Pode ajudar a traduzir o SMPLayer para o seu idioma.</translation>
+        <translation>Pode ajudar a traduzir o SMPlayer para o seu idioma.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
@@ -536,7 +536,7 @@
     <message>
         <location filename="../configdialog.cpp" line="64"/>
         <source>South Africa</source>
-        <translation>África de Sul</translation>
+        <translation>África do Sul</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="65"/>
@@ -843,17 +843,17 @@
     <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most popular videos on YouTube%1</source>
-        <translation>Vídeos mais populares no YouTube %1</translation>
+        <translation>Vídeos mais populares no YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="608"/>
         <source>Error: Could not connect to Youtube server.</source>
-        <translation>Erro: não foi possível ligar ao servidor YouTube.</translation>
+        <translation>Não foi possível ligar ao servidor YouTube.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Adicionar URL à lista de reprodução</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>
