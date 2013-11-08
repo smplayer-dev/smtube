@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="id">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="id" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -244,32 +242,32 @@
     <message>
         <location filename="../about.cpp" line="132"/>
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation>Yunani</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="133"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Estonia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>N&apos;ko</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="135"/>
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>Italia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>Uzbekistan</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="137"/>
         <source>Catalan</source>
-        <translation type="unfinished"></translation>
+        <translation>Katalan</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
@@ -738,9 +736,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% dari %n video - Perekaman</numerusform>
-        </translation>
+        <translation><numerusform>%1% dari %n video - Perekaman</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -852,7 +848,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>T%ambahkan URL pada daftar main SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>
@@ -884,22 +880,22 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>Musik</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation>Olahraga</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Video olahraga paling populer di Youtube %1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Video musik paling populer di Youtube %1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
