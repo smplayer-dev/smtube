@@ -54,6 +54,7 @@ Players::Players() {
 	list.push_back( Player("Dragon Player", "dragon", false) );
 	list.push_back( Player("Totem", "totem", false) );
 	list.push_back( Player("GNOME-MPlayer", "gnome-mplayer", false) );
+	list.push_back( Player("mpv", "mpv", false, "-title ") );
 
 	curr = 0;
 }
