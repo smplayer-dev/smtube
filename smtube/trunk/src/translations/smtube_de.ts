@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.0">
 <context>
     <name>About</name>
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About...</source>
-        <translation>Über...</translation>
+        <translation>Über …</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
@@ -18,7 +16,7 @@
         <location filename="../about.ui" line="109"/>
         <location filename="../about.ui" line="165"/>
         <source>icon</source>
-        <translation>Piktogramm</translation>
+        <translation>Symbol</translation>
     </message>
     <message>
         <location filename="../about.ui" line="89"/>
@@ -33,12 +31,12 @@
     <message>
         <location filename="../about.cpp" line="33"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation>YouTube%1-Browser für SMPlayer</translation>
+        <translation>YouTube%1-Browser für den SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="35"/>
         <source>Based on UMPlayer</source>
-        <translation>Basiert auf UMPlayer</translation>
+        <translation>Basierend auf dem UMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="37"/>
@@ -48,7 +46,7 @@
     <message>
         <location filename="../about.cpp" line="39"/>
         <source>Portable Edition</source>
-        <translation>Portable Edition</translation>
+        <translation>Bewegliche Version</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
@@ -58,7 +56,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>Visit our web for updates:</source>
-        <translation>Website besuchen:</translation>
+        <translation>Webseite für Aktualisierungen besuchen:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="98"/>
@@ -124,7 +122,7 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Many people contributed with translations.</source>
-        <translation>Viele Leute trugen mit Übersetzungen bei.</translation>
+        <translation>Viele Leute haben mit Übersetzungen beigetragen.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
@@ -139,7 +137,7 @@
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>Aktuelle Übersetzer aus den Transifex-Teams:</translation>
+        <translation>Aktuelle Übersetzer aus den Transifex-Mannschaften:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
@@ -287,12 +285,12 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Herunterladen...</translation>
+        <translation>Herunterladen …</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Verbinde mit %1</translation>
+        <translation>Mit %1 verbinden</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="124"/>
@@ -341,7 +339,7 @@
     <message>
         <location filename="../configdialog.ui" line="28"/>
         <source>&amp;Save to this folder</source>
-        <translation>&amp;Speichern in diesem Verzeichnis</translation>
+        <translation>&amp;In diesem Ordner speichern</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="45"/>
@@ -376,7 +374,7 @@
     <message>
         <location filename="../configdialog.ui" line="118"/>
         <source>&amp;Player:</source>
-        <translation>&amp;Player:</translation>
+        <translation>&amp;Filmwiedergabe:</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="31"/>
@@ -566,7 +564,7 @@
     <message>
         <location filename="../configdialog.cpp" line="71"/>
         <source>United States</source>
-        <translation>Vereinigte Staaten</translation>
+        <translation>USA</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="73"/>
@@ -657,7 +655,7 @@
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation>Zur Auswahl einer Datei oder eines Verzeichnisses anklicken</translation>
+        <translation>Zur Auswahl einer Datei oder eines Ordners anklicken</translation>
     </message>
 </context>
 <context>
@@ -711,7 +709,7 @@
         <location filename="../recordingdialog.cpp" line="266"/>
         <location filename="../recordingdialog.cpp" line="665"/>
         <source>There was an error in retrieving the download URL.</source>
-        <translation>Beim Herunterladen des Download-URLs ist ein Fehler aufgetreten.</translation>
+        <translation>Beim Herunterladen der Download-Adresse ist ein Fehler aufgetreten.</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="266"/>
@@ -733,15 +731,12 @@
     <message>
         <location filename="../recordingdialog.cpp" line="345"/>
         <source>Completed</source>
-        <translation>Beendet</translation>
+        <translation>Abgeschlossen</translation>
     </message>
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% von %n Videodatei</numerusform>
-            <numerusform>%1% von %n Videodateien</numerusform>
-        </translation>
+        <translation><numerusform>%1% von %n Videodatei</numerusform><numerusform>%1% von %n Video-Aufnahmen</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -751,13 +746,13 @@
     <message>
         <location filename="../recordingdialog.cpp" line="511"/>
         <source>&amp;Remove from list</source>
-        <translation>Aus Liste entfe&amp;rnen</translation>
+        <translation>&amp;Aus der Liste entfernen</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="530"/>
         <location filename="../recordingdialog.cpp" line="552"/>
         <source>Remove from &amp;list</source>
-        <translation>Aus &amp;Liste entfernen</translation>
+        <translation>&amp;Aus der Liste entfernen</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="528"/>
@@ -777,7 +772,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="630"/>
         <source>Fetching URL...</source>
-        <translation>Abrufen von URL...</translation>
+        <translation>Adresse abrufen …</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="647"/>
@@ -803,7 +798,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="220"/>
         <source>YouTube Browser - SMPlayer</source>
-        <translation>YouTube Browser - SMPlayer</translation>
+        <translation>YouTube-Browser - SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="268"/>
@@ -823,7 +818,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="456"/>
         <source>Most Relevant</source>
-        <translation>Wichtigste</translation>
+        <translation>Passendste</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="460"/>
@@ -853,7 +848,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation>&amp;Füge die URL zur SMPlayer Wiedergabeliste hinzu</translation>
+        <translation>&amp;Adresse zur SMPlayer Wiedergabeliste hinzufügen</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>
@@ -870,7 +865,7 @@
         <location filename="../ytdialog.cpp" line="823"/>
         <location filename="../ytdialog.cpp" line="834"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation>Aufgrund von Änderungen bei Youtube, kann das Video &apos;%1&apos; leider nicht abgespielt oder aufgezeichnet werden.</translation>
+        <translation>Aufgrund von Änderungen bei Youtube, kann das Video »%1« leider nicht abgespielt oder aufgezeichnet werden.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="835"/>
@@ -895,12 +890,12 @@
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation>Beliebteste Sportvideos auf YouTube%1</translation>
+        <translation>Die beliebtesten Sportvideos auf YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation>Beliebteste Musikvideos auf YouTube%1</translation>
+        <translation>Die beliebtesten Musikvideos auf YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
@@ -915,7 +910,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="710"/>
         <source>&amp;Play video</source>
-        <translation>Video &amp;abspielen</translation>
+        <translation>&amp;Video abspielen</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="711"/>
@@ -925,12 +920,12 @@
     <message>
         <location filename="../ytdialog.cpp" line="712"/>
         <source>&amp;Watch on YouTube</source>
-        <translation>&amp;Schaue auf YouTube</translation>
+        <translation>&amp;Auf YouTube ansehen</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="713"/>
         <source>&amp;Copy link</source>
-        <translation>Link &amp;kopieren</translation>
+        <translation>Verweis &amp;kopieren</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="243"/>
