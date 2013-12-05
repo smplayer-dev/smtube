@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="bg">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="bg" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -738,10 +736,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% от %n видеота - Записан</numerusform>
-            <numerusform>%1% от %n видеа - Записани</numerusform>
-        </translation>
+        <translation><numerusform>%1% от %n видеота - Записан</numerusform><numerusform>%1% от %n видеа - Записани</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -853,7 +848,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Добави Интернет адрес в списъка на SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>
