@@ -20,6 +20,7 @@
 #include <QApplication>
 #include <QFile>
 #include <QFileInfo>
+#include <QDir>
 
 QString Player::executable(bool * found) {
 	if (found) *found = true;
@@ -33,13 +34,21 @@ QString Player::executable(bool * found) {
 	QFileInfo fi(bin);
 	if (!fi.exists() || !fi.isExecutable() || fi.isDir()) {
 		qDebug("Player::exec: command: '%s' is not a valid executable", bin.toUtf8().constData());
-		bin = "/usr/bin/" + player_bin;
 
+		bin = QDir::homePath() + "/bin/" + player_bin;
 		fi.setFile(bin);
+
 		if (!fi.exists() || !fi.isExecutable() || fi.isDir()) {
 			qDebug("Player::exec: command: '%s' is not a valid executable", bin.toUtf8().constData());
-			bin = player_bin;
-			if (found) *found = false;
+
+			bin = "/usr/bin/" + player_bin;
+			fi.setFile(bin);
+
+			if (!fi.exists() || !fi.isExecutable() || fi.isDir()) {
+				qDebug("Player::exec: command: '%s' is not a valid executable", bin.toUtf8().constData());
+				bin = player_bin;
+				if (found) *found = false;
+			}
 		}
 	}
 #endif
