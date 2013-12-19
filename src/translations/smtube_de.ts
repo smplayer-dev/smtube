@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="de">
 <context>
     <name>About</name>
     <message>
@@ -736,7 +738,10 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>%1% von %n Videodatei</numerusform><numerusform>%1% von %n Video-Aufnahmen</numerusform></translation>
+        <translation>
+            <numerusform>%1% von %n Videoaufnahmen</numerusform>
+            <numerusform>%1% von %n Videoaufnahmen</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -875,7 +880,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="492"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
-        <translation>YouTube%2-Ergebnisse für &quot;%1&quot;</translation>
+        <translation>YouTube%2-Ergebnisse für »%1«</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
@@ -905,7 +910,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="618"/>
         <source>No videos found for &quot;%1&quot;</source>
-        <translation>Keine Videos für &quot;%1&quot; gefunden</translation>
+        <translation>Keine Videos für »%1« gefunden</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="710"/>
