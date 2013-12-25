@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hu" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -124,27 +122,27 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Te is tudsz segíteni az SMPlayer lefordításában.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Látogasd meg a %1 hogy csatlakozz egy fordítói csapathoz.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Jelenlegi fordítók a Transifex csapatokból:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Koreai</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="109"/>
@@ -154,32 +152,32 @@
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugál - Brazil</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Egyszerűsített kínai</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>French</source>
-        <translation type="unfinished"></translation>
+        <translation>Francia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Dán</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>Német</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Hagyományos kínai</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
@@ -199,7 +197,7 @@
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Arabic</source>
-        <translation type="unfinished"></translation>
+        <translation>Arab</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -209,67 +207,67 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation>Szerb</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Horvát</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
         <source>Bulgarian</source>
-        <translation type="unfinished"></translation>
+        <translation>Bolgár</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="113"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>Vietnami</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>Indonéz</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Arab - Szaúd-Arábia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation>Szimhala</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="132"/>
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation>Görög</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="133"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Észt</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>N&apos;ko</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="135"/>
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>Olasz</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>Üzbég</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="137"/>
         <source>Catalan</source>
-        <translation type="unfinished"></translation>
+        <translation>Katalán</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
@@ -287,43 +285,43 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Letöltés...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kapcsolódás %1-hoz...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Youtube kód sikeresen frissítve.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Telepített verzió: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">Hiba</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -351,7 +349,7 @@
     <message>
         <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.ui" line="155"/>
@@ -361,7 +359,7 @@
     <message>
         <location filename="../configdialog.ui" line="181"/>
         <source>Period of &amp;time:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.ui" line="80"/>
@@ -371,7 +369,7 @@
     <message>
         <location filename="../configdialog.ui" line="88"/>
         <source>Q&amp;uality:</source>
-        <translation type="unfinished"></translation>
+        <translation>M&amp;inőség:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="118"/>
@@ -511,7 +509,7 @@
     <message>
         <location filename="../configdialog.cpp" line="59"/>
         <source>Philippines</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="60"/>
@@ -526,22 +524,22 @@
     <message>
         <location filename="../configdialog.cpp" line="62"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="63"/>
         <source>Singapore</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="64"/>
         <source>South Africa</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="65"/>
         <source>South Korea</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="66"/>
@@ -561,32 +559,32 @@
     <message>
         <location filename="../configdialog.cpp" line="70"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="71"/>
         <source>United States</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="73"/>
         <source>All time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="74"/>
         <source>This month</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebben a hónapban</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="75"/>
         <source>This week</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezen a héten</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="76"/>
         <source>Today</source>
-        <translation type="unfinished"></translation>
+        <translation>Ma</translation>
     </message>
 </context>
 <context>
@@ -738,9 +736,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%n videó %1%-a - Felvételek</numerusform>
-        </translation>
+        <translation><numerusform>%n videó %1%-a - Felvételek</numerusform><numerusform>%n videók %1%-a - Felvételek</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -852,29 +848,29 @@
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>URL &amp;hozzáadása az SMPlayer lejátszási listájához</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>
         <location filename="../ytdialog.cpp" line="833"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="824"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="823"/>
         <location filename="../ytdialog.cpp" line="834"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="835"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="492"/>
@@ -884,22 +880,22 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>Zene</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation>Sportok</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Legnépszerűbb sport videók a Youtube-on%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Legnépszerűbb zenei videók a Youtube-on%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
