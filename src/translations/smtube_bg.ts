@@ -92,7 +92,6 @@
     </message>
     <message>
         <location filename="../about.cpp" line="119"/>
-        <location filename="../about.cpp" line="130"/>
         <source>Hungarian</source>
         <translation>Унгарски</translation>
     </message>
@@ -237,39 +236,44 @@
         <translation>Арабски - Саудитска Арабия</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="131"/>
+        <location filename="../about.cpp" line="130"/>
         <source>Sinhala</source>
         <translation>Синхала</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
+        <location filename="../about.cpp" line="131"/>
         <source>Greek</source>
         <translation>Гръцки</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="133"/>
+        <location filename="../about.cpp" line="132"/>
         <source>Estonian</source>
         <translation>Естонски</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="134"/>
+        <location filename="../about.cpp" line="133"/>
         <source>N&apos;ko</source>
         <translation>Н&apos;ко</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="135"/>
+        <location filename="../about.cpp" line="134"/>
         <source>Italian</source>
         <translation>Италиански</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="136"/>
+        <location filename="../about.cpp" line="135"/>
         <source>Uzbek</source>
         <translation>Узбекистански</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="137"/>
+        <location filename="../about.cpp" line="136"/>
         <source>Catalan</source>
         <translation>Каталонски</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="137"/>
+        <source>Slovak</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
