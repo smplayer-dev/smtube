@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="hu" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="hu">
 <context>
     <name>About</name>
     <message>
@@ -90,7 +92,6 @@
     </message>
     <message>
         <location filename="../about.cpp" line="119"/>
-        <location filename="../about.cpp" line="130"/>
         <source>Hungarian</source>
         <translation>Magyar</translation>
     </message>
@@ -122,7 +123,7 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
@@ -235,39 +236,44 @@
         <translation>Arab - Szaúd-Arábia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="131"/>
+        <location filename="../about.cpp" line="130"/>
         <source>Sinhala</source>
         <translation>Szimhala</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
+        <location filename="../about.cpp" line="131"/>
         <source>Greek</source>
         <translation>Görög</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="133"/>
+        <location filename="../about.cpp" line="132"/>
         <source>Estonian</source>
         <translation>Észt</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="134"/>
+        <location filename="../about.cpp" line="133"/>
         <source>N&apos;ko</source>
         <translation>N&apos;ko</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="135"/>
+        <location filename="../about.cpp" line="134"/>
         <source>Italian</source>
         <translation>Olasz</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="136"/>
+        <location filename="../about.cpp" line="135"/>
         <source>Uzbek</source>
         <translation>Üzbég</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="137"/>
+        <location filename="../about.cpp" line="136"/>
         <source>Catalan</source>
         <translation>Katalán</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="137"/>
+        <source>Slovak</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
@@ -305,23 +311,23 @@
     <message>
         <location filename="../codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Hiba</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -349,7 +355,7 @@
     <message>
         <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="155"/>
@@ -359,7 +365,7 @@
     <message>
         <location filename="../configdialog.ui" line="181"/>
         <source>Period of &amp;time:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="80"/>
@@ -509,7 +515,7 @@
     <message>
         <location filename="../configdialog.cpp" line="59"/>
         <source>Philippines</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="60"/>
@@ -524,22 +530,22 @@
     <message>
         <location filename="../configdialog.cpp" line="62"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="63"/>
         <source>Singapore</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="64"/>
         <source>South Africa</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="65"/>
         <source>South Korea</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="66"/>
@@ -559,17 +565,17 @@
     <message>
         <location filename="../configdialog.cpp" line="70"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="71"/>
         <source>United States</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="73"/>
         <source>All time</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="74"/>
@@ -736,7 +742,9 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>%n videó %1%-a - Felvételek</numerusform><numerusform>%n videók %1%-a - Felvételek</numerusform></translation>
+        <translation>
+            <numerusform>%n videó %1%-a - Felvételek</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -854,23 +862,23 @@
         <location filename="../ytdialog.cpp" line="822"/>
         <location filename="../ytdialog.cpp" line="833"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="824"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="823"/>
         <location filename="../ytdialog.cpp" line="834"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="835"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="492"/>

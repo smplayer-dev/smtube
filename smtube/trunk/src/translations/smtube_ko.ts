@@ -92,7 +92,6 @@
     </message>
     <message>
         <location filename="../about.cpp" line="119"/>
-        <location filename="../about.cpp" line="130"/>
         <source>Hungarian</source>
         <translation>헝가리어</translation>
     </message>
@@ -237,39 +236,44 @@
         <translation>아랍어 - 사우디 아라비아</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="131"/>
+        <location filename="../about.cpp" line="130"/>
         <source>Sinhala</source>
         <translation>신할라어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
+        <location filename="../about.cpp" line="131"/>
         <source>Greek</source>
         <translation>그리스어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="133"/>
+        <location filename="../about.cpp" line="132"/>
         <source>Estonian</source>
         <translation>에스토니아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="134"/>
+        <location filename="../about.cpp" line="133"/>
         <source>N&apos;ko</source>
         <translation>응코어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="135"/>
+        <location filename="../about.cpp" line="134"/>
         <source>Italian</source>
         <translation>이탈리아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="136"/>
+        <location filename="../about.cpp" line="135"/>
         <source>Uzbek</source>
         <translation>우즈베크어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="137"/>
+        <location filename="../about.cpp" line="136"/>
         <source>Catalan</source>
         <translation>카탈루냐어</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="137"/>
+        <source>Slovak</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
