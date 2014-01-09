@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="tr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -123,27 +121,27 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Birçok insan çevirilere katkıda bulundu.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ayrıca SMPlayerı kendi dilinize çevirmek için yadım edebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 sayfasını ziyaret edip çeviri takımına katılabilirsiniz.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Transifex takımlarından şuanki çevirmenler:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Korece</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="109"/>
@@ -153,32 +151,32 @@
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Brezilya Portegizcesi</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Basitleştirilmiş Çince</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>French</source>
-        <translation type="unfinished"></translation>
+        <translation>Fransızca</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Danca</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>Almanca</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Geleneksel Çince</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
@@ -198,7 +196,7 @@
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Arabic</source>
-        <translation type="unfinished"></translation>
+        <translation>Arapça</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -208,72 +206,72 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation>Sırpça</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Hırvatça</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
         <source>Bulgarian</source>
-        <translation type="unfinished"></translation>
+        <translation>Bulgarca</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="113"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>Vietnamca</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>Endonezce</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Arapça - Suudi Arabistan</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="130"/>
         <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation>Singalaca</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation>Yunanca</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="132"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Estonca</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="133"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>N&apos;koca</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>İtalyanca</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="135"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>Özbekçe</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Catalan</source>
-        <translation type="unfinished"></translation>
+        <translation>Katalanca</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="137"/>
         <source>Slovak</source>
-        <translation type="unfinished"></translation>
+        <translation>Slovakça</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
@@ -291,43 +289,43 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>İndiriliyor...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 a bağlanılıyor</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube kodlarını başarıyla güncellendi.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurulu sürüm: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Başarılı</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">Hata</translation>
+        <translation>Hata</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Bir yazma hatası meydana geldi %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosya indirilirken bir hata meydana geldi:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -742,9 +740,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% of %n video - Kayıtlar</numerusform>
-        </translation>
+        <translation><numerusform>%1% of %n video - Kayıtlar</numerusform><numerusform>%1% of %n videolar - Kayıtlar</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -856,29 +852,29 @@
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer oynatma listesine URL &amp;ekle</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>
         <location filename="../ytdialog.cpp" line="833"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube problemi</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="824"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube kodlarını güncellemek istiyor musun? Bu bazı problemleri çözecek.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="823"/>
         <location filename="../ytdialog.cpp" line="834"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne yazıkki Youtubedeki değişiklik nedeniyle, bu video &apos;%1&apos; oynatılamadı veya kaydedilemedi.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="835"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Belki uygulamayı güncellemek sorunu çözebilir.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="492"/>
@@ -888,22 +884,22 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>Müzik</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation>Spor</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube%1 en popüler spor videoları</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube%1 en popüler müzik videoları</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
