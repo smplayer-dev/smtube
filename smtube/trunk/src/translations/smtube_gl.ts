@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="gl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -243,37 +241,37 @@
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="132"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="133"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="135"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Catalan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="137"/>
         <source>Slovak</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
@@ -742,10 +740,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% de %n vídeos - Gravacións</numerusform>
-            <numerusform>%1% de %n vídeos - Gravacións</numerusform>
-        </translation>
+        <translation><numerusform>%1% de %n vídeos - Gravacións</numerusform><numerusform>%1% de %n vídeos - Gravacións</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -857,7 +852,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>
@@ -889,22 +884,22 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
