@@ -6,7 +6,10 @@ TEMPLATE = app
 QT += network xml
 TARGET = smtube
 INCLUDEPATH += qtsingleapplication
-CONFIG += qt warn_on release
+CONFIG += qt warn_on
+
+CONFIG += release
+CONFIG -= debug
 
 RESOURCES = icons.qrc
 
@@ -15,6 +18,10 @@ DEFINES += YT_USE_SCRIPT
 
 isEqual(QT_MAJOR_VERSION, 5) {
 	QT += widgets gui
+}
+
+!contains(CONFIG,debug) {
+	DEFINES += QT_NO_WARNING_OUTPUT QT_NO_DEBUG_OUTPUT
 }
 
 contains( DEFINES, YT_USE_SCRIPT ) {
