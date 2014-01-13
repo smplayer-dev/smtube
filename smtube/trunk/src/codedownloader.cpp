@@ -112,7 +112,9 @@ void CodeDownloader::save(QByteArray bytes) {
 }
 
 void CodeDownloader::updateDataReadProgress(qint64 bytes_read, qint64 total_bytes) {
+#ifndef QT_NO_DEBUG_OUTPUT
 	qDebug() << "CodeDownloader::updateDataReadProgress: " << bytes_read << " " << total_bytes;
+#endif
 	if (total_bytes > -1) {
 		setMaximum(total_bytes);
 		setValue(bytes_read);
