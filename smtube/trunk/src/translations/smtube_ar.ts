@@ -51,7 +51,7 @@
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Compiled with Qt %1 (using %2)</source>
-        <translation>مبني بـ Qt %1 (باستخدام %2)</translation>
+        <translation>جُمّع بـ Qt %1 (باستخدام %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="44"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../about.cpp" line="108"/>
         <source>Lithuanian</source>
-        <translation>الليتوانية</translation>
+        <translation>اللثوانية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="102"/>
@@ -251,7 +251,7 @@
     <message>
         <location filename="../about.cpp" line="133"/>
         <source>N&apos;ko</source>
-        <translation>نكو</translation>
+        <translation>أنكو</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
@@ -271,7 +271,7 @@
     <message>
         <location filename="../about.cpp" line="137"/>
         <source>Slovak</source>
-        <translation type="unfinished"/>
+        <translation>السلوفاكية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
@@ -299,7 +299,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>تمّ تحديث النص البرمجي لـYouTube.</translation>
+        <translation>تمّ تحديث النص البرمجي لـYouTube بنجاح.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="125"/>
@@ -343,7 +343,7 @@
     <message>
         <location filename="../configdialog.ui" line="28"/>
         <source>&amp;Save to this folder</source>
-        <translation>حف&amp;ظ الى هذا المجلد</translation>
+        <translation>احف&amp;ظ الى هذا المجلد</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="45"/>
@@ -701,7 +701,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="204"/>
         <source>&amp;Clear list</source>
-        <translation>مسح اللائح&amp;ة</translation>
+        <translation>مسح ال&amp;قائمة</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="205"/>
@@ -740,12 +740,12 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>لا فيديو من %n - تسجيلات</numerusform><numerusform>واحد من %n فيديو - تسجيلات</numerusform><numerusform>اثنان من %n فيديو - تسجيلات</numerusform><numerusform>%1% من %n فيديو - تسجيلات</numerusform><numerusform>%1% من %n فيديو - تسجيلات</numerusform><numerusform>%1% من %n فيديو - تسجيلات</numerusform></translation>
+        <translation><numerusform>لا تسجيل فيديو من %n</numerusform><numerusform>تسجيل فيديو واحد من %n</numerusform><numerusform>تسجيلا فيديو من %n</numerusform><numerusform>%1% تسجيلات فيديو من %n</numerusform><numerusform>%1% تسجيل فيديو من %n</numerusform><numerusform>%1% تسجيل فيديو من %n</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
         <source>&amp;Cancel</source>
-        <translation>الغ&amp;اء</translation>
+        <translation>أل&amp;غِ</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="511"/>
@@ -761,7 +761,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="528"/>
         <source>&amp;Retry</source>
-        <translation>أعد&amp; المحاولة</translation>
+        <translation>أعد المحاول&amp;ة</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="548"/>
@@ -852,7 +852,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation>أض&amp;ف رابط الى قائمة تشغيل SMPlayer</translation>
+        <translation>أضف ال&amp;رابط الى قائمة تشغيل SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>
