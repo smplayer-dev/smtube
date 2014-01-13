@@ -271,7 +271,7 @@
     <message>
         <location filename="../about.cpp" line="137"/>
         <source>Slovak</source>
-        <translation type="unfinished"/>
+        <translation>Словацька</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
