@@ -688,7 +688,7 @@ void YTDialog::videoDblClicked(QListWidgetItem *item)
 #ifdef USE_PLAYERS
     bool direct_play = players.currentPlayer().directPlay();
 #else
-    bool direct_play = HCPlayer::directPlay();
+    bool direct_play = HCPLAYER_DIRECTPLAY;
 #endif
     if (!direct_play) {
         RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
@@ -762,7 +762,7 @@ void YTDialog::playVideo(QString file)
 #ifdef USE_PLAYERS
 	QString exec = players.currentPlayer().executable();
 #else
-	QString exec = HCPlayer::executable();
+	QString exec = HCPLAYER_EXECUTABLE;
 #endif
 	qDebug("YTDialog::playVideo: command: '%s'", exec.toUtf8().constData());
 	QProcess::startDetached(exec, QStringList() << file);
@@ -776,8 +776,8 @@ void YTDialog::playYTUrl(const QString & url, QString title, QString /*id*/)
     QString exec = players.currentPlayer().executable();
     QString title_opt = players.currentPlayer().titleOption();
 #else
-    QString exec = HCPlayer::executable();
-    QString title_opt = HCPlayer::titleOption();
+    QString exec = HCPLAYER_EXECUTABLE;
+    QString title_opt = HCPLAYER_TITLEOPTION;
 #endif
     qDebug("YTDialog::playYTUrl: command: '%s'", exec.toUtf8().constData());
     QStringList args;
@@ -808,7 +808,7 @@ void YTDialog::addToPlaylist(const QString &url) {
 		qDebug("YTDialog::addToPlaylist: player not found");
 	}
 #else
-	QString exec = HCPlayer::executable();
+	QString exec = HCPLAYER_EXECUTABLE;
 	if (exec.contains("smplayer")) {
 		QStringList args;
 		args << "-add-to-playlist" << url;

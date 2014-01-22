@@ -19,15 +19,25 @@
 #ifndef HCPLAYERS_H
 #define HCPLAYERS_H
 
-#include <QString>
+#ifdef Q_OS_WIN
 
-class HCPlayer
-{
-public:
-	static QString executable();
-	static bool directPlay();
-	static QString titleOption();
-};
+#define HCPLAYER_EXECUTABLE qApp->applicationDirPath() + "/smplayer.exe"
+#define HCPLAYER_DIRECTPLAY true
+#define HCPLAYER_TITLEOPTION QString::null
+
+#else
+
+#define HCPLAYER_EXECUTABLE "smplayer"
+#define HCPLAYER_DIRECTPLAY true
+#define HCPLAYER_TITLEOPTION QString::null
+
+/*
+#define HCPLAYER_EXECUTABLE "mplayer"
+#define HCPLAYER_DIRECTPLAY false
+#define HCPLAYER_TITLEOPTION "-title "
+*/
 
 #endif
+
+#endif // HCPLAYERS_H
 
