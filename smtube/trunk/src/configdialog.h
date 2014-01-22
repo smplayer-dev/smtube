@@ -35,8 +35,10 @@ public slots:
     void setRecordingDirectory( const QString & folder );
     void setRecordingQuality( int quality );
     void setPlaybackQuality( int quality );
+#ifdef USE_PLAYERS
     void setPlayerNames(QStringList names);
     void setPlayer(QString name);
+#endif
     void setRegion(const QString & region);
     void setPeriod(const QString & period);
 
@@ -44,12 +46,16 @@ public:
     QString recordingDirectory();
     int recordingQuality();
     int playbackQuality();
+#ifdef USE_PLAYERS
     QString player();
+#endif
     QString region();
     QString period();
 
+#ifdef USE_PLAYERS
 protected slots:
     void playerChanged(int);
+#endif
 };
 
 #endif

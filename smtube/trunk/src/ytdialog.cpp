@@ -685,7 +685,12 @@ void YTDialog::videoItemChanged(QListWidgetItem * current, QListWidgetItem * pre
 void YTDialog::videoDblClicked(QListWidgetItem *item)
 {
     SingleVideoItem* svi = item->data(0).value<SingleVideoItem*>();
-    if (!players.currentPlayer().directPlay()) {
+#ifdef USE_PLAYERS
+    bool direct_play = players.currentPlayer().directPlay();
+#else
+    bool direct_play = HCPlayer::directPlay();
+#endif
+    if (!direct_play) {
         RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
         rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) playback_quality);
         #ifdef YT_USE_SCRIPT
@@ -754,20 +759,29 @@ void YTDialog::recordItem(QListWidgetItem *item)
 
 void YTDialog::playVideo(QString file) 
 {
-    QString exec = players.currentPlayer().executable();
-    qDebug("YTDialog::playVideo: command: '%s'", exec.toUtf8().constData());
-    QProcess::startDetached(exec, QStringList() << file);
+#ifdef USE_PLAYERS
+	QString exec = players.currentPlayer().executable();
+#else
+	QString exec = HCPlayer::executable();
+#endif
+	qDebug("YTDialog::playVideo: command: '%s'", exec.toUtf8().constData());
+	QProcess::startDetached(exec, QStringList() << file);
 }
 
 void YTDialog::playYTUrl(const QString & url, QString title, QString /*id*/)
 {
     qDebug("YTDialog::playYTUrl: title: '%s', url: '%s'", title.toUtf8().constData(), url.toUtf8().constData());
 
+#ifdef USE_PLAYERS
     QString exec = players.currentPlayer().executable();
+    QString title_opt = players.currentPlayer().titleOption();
+#else
+    QString exec = HCPlayer::executable();
+    QString title_opt = HCPlayer::titleOption();
+#endif
     qDebug("YTDialog::playYTUrl: command: '%s'", exec.toUtf8().constData());
     QStringList args;
     args << url;
-    QString title_opt = players.currentPlayer().titleOption();
     if (!title_opt.isEmpty()) {
         if (title_opt.endsWith(" ")) {
             args << title_opt.left(title_opt.length()-1) << title;
@@ -781,6 +795,7 @@ void YTDialog::playYTUrl(const QString & url, QString title, QString /*id*/)
 void YTDialog::addToPlaylist(const QString &url) {
 	qDebug("YTDialog::addToPlaylist: %s", url.toUtf8().constData());
 
+#ifdef USE_PLAYERS
 	int p = players.findName("SMPlayer");
 	if (p > -1) {
 		QString exec = players.item(p).executable();
@@ -792,6 +807,16 @@ void YTDialog::addToPlaylist(const QString &url) {
 	} else {
 		qDebug("YTDialog::addToPlaylist: player not found");
 	}
+#else
+	QString exec = HCPlayer::executable();
+	if (exec.contains("smplayer")) {
+		QStringList args;
+		args << "-add-to-playlist" << url;
+		QProcess::startDetached(exec, args);
+	} else {
+		qDebug("YTDialog::addToPlaylist: smplayer not found");
+	}
+#endif
 }
 
 void YTDialog::handleMessage(const QString& message)
@@ -849,8 +874,10 @@ void YTDialog::showConfigDialog()
     ConfigDialog d(this);
     d.setRecordingDirectory(recording_dialog->recordingsDirectory());
     d.setRecordingQuality(recording_dialog->recordingQuality());
+#ifdef USE_PLAYERS
     d.setPlayerNames( players.availablePlayers() );
     d.setPlayer( players.currentPlayer().name() );
+#endif
     d.setPlaybackQuality( playback_quality );
 
     QString period = api->period();
@@ -862,9 +889,11 @@ void YTDialog::showConfigDialog()
     if (d.exec() == QDialog::Accepted) {
         recording_dialog->setRecordingsDirectory(d.recordingDirectory());
         recording_dialog->setRecordingQuality(d.recordingQuality());
+        #ifdef USE_PLAYERS
         int p = players.findName(d.player());
         if (p == -1) p = 0;
         players.setCurrent(p);
+        #endif
         playback_quality = d.playbackQuality();
         api->setPeriod( d.period() );
         api->setRegion( d.region() );
@@ -883,7 +912,9 @@ void YTDialog::loadConfig()
         set->beginGroup("General");
         recording_directory = set->value("recording_directory", recording_dialog->recordingsDirectory()).toString();
         recording_dialog->setRecordingQuality(set->value("record_quality", recording_dialog->recordingQuality()).toInt());
+#ifdef USE_PLAYERS
         players.setCurrent(set->value("player", players.current()).toInt());
+#endif
         api->setRegion(set->value("region", "US").toString());
         api->setPeriod(set->value("period", "today").toString());
         playback_quality = set->value("playback_quality", playback_quality).toInt();
@@ -930,7 +961,9 @@ void YTDialog::saveConfig()
         set->beginGroup("General");
         set->setValue("recording_directory", recording_dialog->recordingsDirectory());
         set->setValue("record_quality", recording_dialog->recordingQuality());
+        #ifdef USE_PLAYERS
         set->setValue("player", players.current());
+        #endif
         set->setValue("region", api->region());
         set->setValue("period", api->period());
         set->setValue("playback_quality", playback_quality);

@@ -17,6 +17,7 @@ RESOURCES = icons.qrc
 
 DEFINES += NO_SMPLAYER_SUPPORT
 DEFINES += YT_USE_SCRIPT
+DEFINES += USE_PLAYERS
 
 isEqual(QT_MAJOR_VERSION, 5) {
 	QT += widgets gui
@@ -26,6 +27,14 @@ contains( DEFINES, YT_USE_SCRIPT ) {
 	HEADERS += codedownloader.h
 	SOURCES += codedownloader.cpp
 	QT += script
+}
+
+contains( DEFINES, USE_PLAYERS ) {
+	HEADERS += players.h
+	SOURCES += players.cpp
+} else {
+	HEADERS += hcplayer.h
+	SOURCES += hcplayer.cpp
 }
 
 # Input
@@ -44,7 +53,6 @@ HEADERS += myborder.h \
            lineedit_with_icon.h \
            filechooser.h \
            configdialog.h \
-           players.h \
            version.h \
            about.h
 
@@ -63,7 +71,6 @@ SOURCES += myborder.cpp \
            lineedit_with_icon.cpp \
            filechooser.cpp \
            configdialog.cpp \
-           players.cpp \
            version.cpp \
            about.cpp \
            main.cpp
