@@ -17,24 +17,15 @@ RESOURCES = icons.qrc
 
 DEFINES += NO_SMPLAYER_SUPPORT
 DEFINES += YT_USE_SCRIPT
-DEFINES += USE_PLAYERS
 
 isEqual(QT_MAJOR_VERSION, 5) {
-	QT += widgets gui
+    QT += widgets gui
 }
 
 contains( DEFINES, YT_USE_SCRIPT ) {
-	HEADERS += codedownloader.h
-	SOURCES += codedownloader.cpp
-	QT += script
-}
-
-contains( DEFINES, USE_PLAYERS ) {
-	HEADERS += players.h
-	SOURCES += players.cpp
-} else {
-	HEADERS += hcplayer.h
-	SOURCES += hcplayer.cpp
+    HEADERS += codedownloader.h
+    SOURCES += codedownloader.cpp
+    QT += script
 }
 
 # Input
@@ -125,8 +116,16 @@ unix {
     OBJECTS_DIR = .obj
 
     DEFINES += TRANSLATION_PATH=$(TRANSLATION_PATH)
+    DEFINES += USE_PLAYERS
 }
 
 win32 {
     RC_FILE = smtube.rc
+}
+
+contains(DEFINES, USE_PLAYERS) {
+    HEADERS += players.h
+    SOURCES += players.cpp
+} else {
+    HEADERS += hcplayer.h
 }
