@@ -100,11 +100,13 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	record_quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
 	record_quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || !defined(USE_PLAYERS)
     playback_group->hide();
 #endif
 
+#ifdef USE_PLAYERS
     connect(player_combo, SIGNAL(currentIndexChanged(int)), this, SLOT(playerChanged(int)));
+#endif
 
     adjustSize();
 }
@@ -131,6 +133,7 @@ int ConfigDialog::recordingQuality() {
 	return record_quality_combo->itemData(index).toInt();
 }
 
+#ifdef USE_PLAYERS
 void ConfigDialog::setPlayerNames(QStringList names)
 {
     player_combo->clear();
@@ -158,6 +161,7 @@ void ConfigDialog::playerChanged(int i) {
 		playback_quality_label->setEnabled(true);
 	}
 }
+#endif
 
 void ConfigDialog::setRegion(const QString & region) {
     int i = region_combo->findData(region);

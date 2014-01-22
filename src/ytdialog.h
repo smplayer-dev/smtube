@@ -29,7 +29,12 @@
 #include <QToolButton>
 #include <QLineEdit>
 #include <QScrollBar>
+
+#ifdef USE_PLAYERS
 #include "players.h"
+#else
+#include "hcplayer.h"
+#endif
 
 class YTTabBar;
 class YTDelegate;
@@ -225,8 +230,11 @@ private:
     QToolButton * recordingButton;
 
     QSettings * set;
-    Players players;
     int playback_quality;
+
+#ifdef USE_PLAYERS
+    Players players;
+#endif
 
 #ifdef YT_USE_SCRIPT
     QString script_file;
