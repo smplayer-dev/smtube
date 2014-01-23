@@ -44,6 +44,10 @@
 /* #include "helper.h" */
 #include "myborder.h"
 
+#ifdef Q_WS_AMIGA // zzd10h
+#include <QProcess>
+#endif
+
 RecordingDelegate::RecordingDelegate(QObject *parent)
     :QStyledItemDelegate(parent), selectedBrush(QPixmap(":/Control/bg-download-active.png"))
 {
@@ -761,7 +765,15 @@ void RecordingDialog::videoDoubleClicked(QListWidgetItem *item)
 
 void RecordingDialog::openFolder()
 {
+ #ifdef Q_WS_AMIGA // zzd10h
+    QProcess *process;
+    QString programme = "Amiga/OpenWorkbench.rexx";
+    QStringList argument ;
+    argument << recordings_directory ;
+    process->startDetached(programme,argument);
+ #else
     QDesktopServices::openUrl(QUrl::fromLocalFile(recordings_directory));
+ #endif
 }
 
 void RecordingDialog::saveList()

@@ -120,6 +120,12 @@ win32 {
     RC_FILE = smtube.rc
 }
 
+amiga {
+    DEFINES -= USE_PLAYERS
+    DEFINES += QT_NO_DEBUG_OUTPUT
+    DEFINES -= USE_SINGLE_APPLICATION
+}
+
 # qtsingleapplication
 contains(DEFINES, USE_SINGLE_APPLICATION) {
     SOURCES += qtsingleapplication/qtsingleapplication.cpp qtsingleapplication/qtlocalpeer.cpp
