@@ -17,6 +17,7 @@ RESOURCES = icons.qrc
 
 DEFINES += NO_SMPLAYER_SUPPORT
 DEFINES += YT_USE_SCRIPT
+DEFINES += USE_SINGLE_APPLICATION
 
 isEqual(QT_MAJOR_VERSION, 5) {
     QT += widgets gui
@@ -105,11 +106,6 @@ TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_fr.ts \
                translations/smtube_it.ts
 
-
-# qtsingleapplication
-SOURCES += qtsingleapplication/qtsingleapplication.cpp qtsingleapplication/qtlocalpeer.cpp
-HEADERS += qtsingleapplication/qtsingleapplication.h qtsingleapplication/qtlocalpeer.h
-
 unix {
     UI_DIR = .ui
     MOC_DIR = .moc
@@ -117,10 +113,17 @@ unix {
 
     DEFINES += TRANSLATION_PATH=$(TRANSLATION_PATH)
     DEFINES += USE_PLAYERS
+    #DEFINES -= USE_SINGLE_APPLICATION
 }
 
 win32 {
     RC_FILE = smtube.rc
+}
+
+# qtsingleapplication
+contains(DEFINES, USE_SINGLE_APPLICATION) {
+    SOURCES += qtsingleapplication/qtsingleapplication.cpp qtsingleapplication/qtlocalpeer.cpp
+    HEADERS += qtsingleapplication/qtsingleapplication.h qtsingleapplication/qtlocalpeer.h
 }
 
 contains(DEFINES, USE_PLAYERS) {
