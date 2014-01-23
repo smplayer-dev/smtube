@@ -716,7 +716,9 @@ void YTDialog::showContextMenu(QPoint point)
     menu.addAction(tr("&Record video"))->setData("record");
     menu.addAction(tr("&Watch on YouTube"))->setData("watch");
     menu.addAction(tr("&Copy link"))->setData("link");
+ #ifndef Q_WS_AMIGA // zzd10h
     menu.addAction(tr("&Add URL to the SMPlayer playlist"))->setData("playlist");
+ #endif
 
     QAction* action = menu.exec(videoList->viewport()->mapToGlobal(point));
     if(!action) return;
@@ -765,7 +767,13 @@ void YTDialog::playVideo(QString file)
 	QString exec = HCPLAYER_EXECUTABLE;
 #endif
 	qDebug("YTDialog::playVideo: command: '%s'", exec.toUtf8().constData());
-	QProcess::startDetached(exec, QStringList() << file);
+
+	QStringList args;
+ #ifdef Q_WS_AMIGA // zzd10h
+	args << "file";
+ #endif
+	args << file;
+	QProcess::startDetached(exec, args);
 }
 
 void YTDialog::playYTUrl(const QString & url, QString title, QString /*id*/)
@@ -781,6 +789,9 @@ void YTDialog::playYTUrl(const QString & url, QString title, QString /*id*/)
 #endif
     qDebug("YTDialog::playYTUrl: command: '%s'", exec.toUtf8().constData());
     QStringList args;
+ #ifdef Q_WS_AMIGA // zzd10h
+    args << "stream";
+ #endif
     args << url;
     if (!title_opt.isEmpty()) {
         if (title_opt.endsWith(" ")) {
@@ -930,6 +941,15 @@ void YTDialog::loadConfig()
 #ifdef PORTABLE_APP
         recording_dialog->setRecordingsDirectory(qApp->applicationDirPath());
 #else
+ #ifdef Q_WS_AMIGA // zzd10h
+        QDir currentDir ;
+        QString mdir = currentDir.absolutePath() + "/Amiga/Videos";
+        if (!QFile::exists(mdir)) {
+            qWarning("YTDialog::loadConfig: folder '%s' does not exist. Using \"RAM Disk:\" as fallback", mdir.toUtf8().constData());
+            mdir = "/RAM Disk/";
+        }
+        QString default_recording_folder = mdir ;
+ #else
         QString mdir;
         #if QT_VERSION >= 0x050000
         mdir = QStandardPaths::writableLocation(QStandardPaths::MoviesLocation);
@@ -946,6 +966,7 @@ void YTDialog::loadConfig()
             mdir = "/tmp";
         }
         QString default_recording_folder = mdir + "/Youtube";
+ #endif
         if (!QFile::exists(default_recording_folder)) {
             qDebug("YTDialog::loadConfig: creating '%s'", default_recording_folder.toUtf8().constData());
             if (!QDir().mkdir(default_recording_folder)) {

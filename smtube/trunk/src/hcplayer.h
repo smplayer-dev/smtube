@@ -27,9 +27,19 @@
 
 #else
 
+#ifdef Q_OS_AMIGA //zzd10h
+
+#define HCPLAYER_EXECUTABLE "Amiga/PlayVideo.rexx"
+#define HCPLAYER_DIRECTPLAY false
+#define HCPLAYER_TITLEOPTION QString::null
+
+#else
+
 #define HCPLAYER_EXECUTABLE "smplayer"
 #define HCPLAYER_DIRECTPLAY true
 #define HCPLAYER_TITLEOPTION QString::null
+
+#endif
 
 /*
 #define HCPLAYER_EXECUTABLE "mplayer"
