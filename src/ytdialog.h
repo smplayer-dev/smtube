@@ -186,7 +186,9 @@ signals:
     void gotUrls(const QMap<int, QString>&, QString, QString);
 
 public slots:
+#ifdef USE_SINGLE_APPLICATION
     void handleMessage(const QString& message);
+#endif
     void gotCurrentTab(int index);
     void nextClicked();
     void prevClicked();

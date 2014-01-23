@@ -17,7 +17,12 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
+#ifdef USE_SINGLE_APPLICATION
 #include "QtSingleApplication"
+#else
+#include <QApplication>
+#endif
+
 #include <QTranslator>
 #include <QLibraryInfo>
 #include <QSettings>
@@ -84,7 +89,11 @@ QString qtTranslationsPath() {
 
 int main( int argc, char ** argv ) 
 {
+#ifdef USE_SINGLE_APPLICATION
 	QtSingleApplication a("smtube", argc, argv);
+#else
+	QApplication a(argc, argv);
+#endif
 	/* a.setWheelScrollLines(1); */
 
 	QString search_term;
@@ -103,6 +112,7 @@ int main( int argc, char ** argv )
 		search_term = args[n];
 	}
 
+#ifdef USE_SINGLE_APPLICATION
 	QString message;
 	if (!search_term.isEmpty()) message = "search " + search_term;
 	if (a.isRunning()) { 
@@ -110,6 +120,7 @@ int main( int argc, char ** argv )
 		qDebug("Another instance is running. Exiting.");
 		return 0;
 	}
+#endif
 	a.connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
 
 	QString locale = QLocale::system().name();
@@ -140,10 +151,11 @@ int main( int argc, char ** argv )
 	yt->setScriptFile(ytcode_file);
 #endif
 
+#ifdef USE_SINGLE_APPLICATION
 	QObject::connect(&a, SIGNAL(messageReceived(const QString&)),
                      yt, SLOT(handleMessage(const QString&)));
-
 	a.setActivationWindow(yt);
+#endif
 
 	if (!search_term.isEmpty()) {
 		yt->setSearchTerm(search_term);

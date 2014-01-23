@@ -819,6 +819,7 @@ void YTDialog::addToPlaylist(const QString &url) {
 #endif
 }
 
+#ifdef USE_SINGLE_APPLICATION
 void YTDialog::handleMessage(const QString& message)
 {
     qDebug("YTDialog::handleMessage: '%s'", message.toUtf8().constData());
@@ -830,6 +831,7 @@ void YTDialog::handleMessage(const QString& message)
         setSearchTerm(search_term);
     }
 }
+#endif
 
 void YTDialog::showErrorDialog(const QString & error) 
 {
