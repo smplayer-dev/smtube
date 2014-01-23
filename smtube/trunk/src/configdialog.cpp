@@ -100,8 +100,12 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	record_quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
 	record_quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
 
-#if defined(Q_OS_WIN) || !defined(USE_PLAYERS)
-    playback_group->hide();
+#ifdef Q_OS_WIN
+	playback_group->hide();
+#else
+#ifndef USE_PLAYERS
+	player_widget->hide();
+#endif
 #endif
 
 #ifdef USE_PLAYERS
