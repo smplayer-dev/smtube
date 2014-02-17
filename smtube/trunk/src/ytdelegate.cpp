@@ -25,6 +25,7 @@
 #include <QTextLayout>
 #include <QTextLine>
 #include <QDebug>
+#include "fontpref.h"
 
 #define PIXWIDTH 120
 
@@ -75,8 +76,8 @@ void YTDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option, co
     {
         painter->drawPixmap(0, 0, PIXWIDTH, sz.height(), index.row() %2 == 0 ? pixBorderOverlay1 : pixBorderOverlay2 );
     }
-    QFont font = option.font;    
-    font.setPixelSize(11);
+    QFont font = option.font;
+    font.setPixelSize(FontPref::base_size);
     QFontMetrics fm(font);
 
     // total time
@@ -94,7 +95,7 @@ void YTDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option, co
 
     // Header
 
-    font.setPixelSize(14);
+    font.setPixelSize(FontPref::base_size + 3);
     fm = QFontMetrics(font);
     painter->setFont(font);
     painter->setPen(cr(Qt::black, white));
@@ -105,17 +106,17 @@ void YTDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option, co
 
 
     // Footer
-    font.setPixelSize(11);
-    fm = QFontMetrics(font);    
+    font.setPixelSize(FontPref::base_size);
+    fm = QFontMetrics(font);
     painter->setPen(cr(QColor("#636363"), white));
-    painter->setFont(font);    
+    painter->setFont(font);
     QRect footerRect(PIXWIDTH + 4, ttRect.top(), sz.width() - PIXWIDTH - 8, ttRect.height());
     painter->drawText(footerRect, Qt::AlignVCenter | Qt::AlignLeft, item->date.toString("yyyy-MM-dd"));
     painter->drawText(footerRect, Qt::AlignVCenter | Qt::AlignRight, tr("%L1 views").arg(item->views));
 
     //Description    
-    font.setPixelSize(12);
-    painter->setFont(font);    
+    font.setPixelSize(FontPref::base_size + 1);
+    painter->setFont(font);
     QRect descRect( PIXWIDTH + 4, headerRect.bottom() + 7, sz.width() - PIXWIDTH - 8, ttRect.top() - headerRect.bottom() - 7);
     QTextLayout textLayout(item->desc, font);
     layoutText(textLayout, item->desc, descRect.size(), 0);

@@ -56,6 +56,11 @@
 #include "codedownloader.h"
 #endif
 
+#include "fontpref.h"
+
+int FontPref::base_size = 11;
+
+
 #define PAGE_RESULT_COUNT 25
 
 OverlayWidget::OverlayWidget(QWidget* parent) : QWidget(parent)
@@ -86,7 +91,7 @@ void OverlayWidget::paintEvent(QPaintEvent * /*e*/)
     }
     p.setPen(Qt::white);
     QFont font = p.font();
-    font.setPointSize(12);
+    font.setPixelSize(FontPref::base_size + 1);
     p.setFont(font);
     QRect textRect(0, 0, 280, 40);
     textRect.translate(rect().center() - textRect.center());
@@ -932,6 +937,7 @@ void YTDialog::loadConfig()
         api->setPeriod(set->value("period", "today").toString());
         playback_quality = set->value("playback_quality", playback_quality).toInt();
         RetrieveYoutubeUrl::setUserAgent(set->value("user_agent", "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1").toString());
+        FontPref::base_size = set->value("font_base_size", FontPref::base_size).toInt();
         set->endGroup();
     }
 
@@ -991,6 +997,7 @@ void YTDialog::saveConfig()
         set->setValue("period", api->period());
         set->setValue("playback_quality", playback_quality);
         set->setValue("user_agent", RetrieveYoutubeUrl::userAgent());
+        set->setValue("font_base_size", FontPref::base_size);
         set->endGroup();
         set->sync();
     }
