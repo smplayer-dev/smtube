@@ -46,7 +46,8 @@ HEADERS += myborder.h \
            filechooser.h \
            configdialog.h \
            version.h \
-           about.h
+           about.h \
+           fontpref.h
 
 SOURCES += myborder.cpp \
            myicon.cpp \
