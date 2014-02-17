@@ -776,7 +776,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="630"/>
         <source>Fetching URL...</source>
-        <translation>URL atraente...</translation>
+        <translation>Carregando URL...</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="647"/>

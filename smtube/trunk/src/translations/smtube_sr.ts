@@ -343,7 +343,7 @@
     <message>
         <location filename="../configdialog.ui" line="28"/>
         <source>&amp;Save to this folder</source>
-        <translation>&amp;Сачувај у овај фолдер</translation>
+        <translation>&amp;Сачувај у ову фасциклу</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="45"/>
@@ -659,7 +659,7 @@
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation>Клик за избор фајла или фолдера</translation>
+        <translation>Клик за избор фајла или фасцикле</translation>
     </message>
 </context>
 <context>
@@ -707,7 +707,7 @@
         <location filename="../recordingdialog.cpp" line="205"/>
         <location filename="../recordingdialog.cpp" line="549"/>
         <source>&amp;Open folder</source>
-        <translation>&amp;Oтвори фолдер</translation>
+        <translation>&amp;Oтвори фасциклу</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="266"/>
