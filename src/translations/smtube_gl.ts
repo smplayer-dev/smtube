@@ -241,37 +241,37 @@
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Greek</source>
-        <translation type="unfinished"/>
+        <translation>Grego</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="132"/>
         <source>Estonian</source>
-        <translation type="unfinished"/>
+        <translation>Estoniano</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="133"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"/>
+        <translation>N&apos;ko</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
         <source>Italian</source>
-        <translation type="unfinished"/>
+        <translation>Italiano</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="135"/>
         <source>Uzbek</source>
-        <translation type="unfinished"/>
+        <translation>Usbeco</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Catalan</source>
-        <translation type="unfinished"/>
+        <translation>Catalán</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="137"/>
         <source>Slovak</source>
-        <translation type="unfinished"/>
+        <translation>Eslovaco</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
@@ -852,7 +852,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"/>
+        <translation>Eng&amp;adir o URL á lista de reprodución de SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>
@@ -884,22 +884,22 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"/>
+        <translation>Música</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"/>
+        <translation>Deportes</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"/>
+        <translation>Vídeos de deporte máis populares en YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"/>
+        <translation>Vídeos musicais máis populares en YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
