@@ -332,6 +332,17 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     setTabOrder(nextButton, tabBar);
     setTabOrder(tabBar, videoList);
 
+    // Key shortcuts to change the font size
+    QAction * incFontSizeAct = new QAction(this);
+    incFontSizeAct->setShortcut(QKeySequence::ZoomIn);
+    connect(incFontSizeAct, SIGNAL(triggered()), this, SLOT(incFontSize()));
+    addAction(incFontSizeAct);
+
+    QAction * decFontSizeAct = new QAction(this);
+    decFontSizeAct->setShortcut(QKeySequence::ZoomOut);
+    connect(decFontSizeAct, SIGNAL(triggered()), this, SLOT(decFontSize()));
+    addAction(decFontSizeAct);
+
     loadConfig();
 
 	move(0, 0);
@@ -359,9 +370,10 @@ YTDialog::~YTDialog()
 		set->endGroup();
 		set->sync();
 	}
+	saveConfig();
 
     delete pixmap_loader;
-    delete recording_dialog; 
+    delete recording_dialog;
 }
 
 void YTDialog::setLoadingOverlay(bool enable)
@@ -1001,6 +1013,18 @@ void YTDialog::saveConfig()
         set->endGroup();
         set->sync();
     }
+}
+
+void YTDialog::incFontSize() {
+    qDebug("YTDialog::incFontSize");
+    FontPref::base_size++;
+    updateNextPrevWidget();
+}
+
+void YTDialog::decFontSize() {
+    qDebug("YTDialog::decFontSize");
+    FontPref::base_size--;
+    updateNextPrevWidget();
 }
 
 #include "moc_ytdialog.cpp"
