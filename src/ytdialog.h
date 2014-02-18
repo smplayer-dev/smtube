@@ -210,6 +210,9 @@ protected slots:
     void showErrorDialog(const QString & error);
     void showErrorSignatureNotFound(const QString &);
 
+    void incFontSize();
+    void decFontSize();
+
 private:
     YTTabBar* tabBar;
     YTDataAPI* api;
