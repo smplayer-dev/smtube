@@ -1,3 +1,38 @@
+Version 1.9:
+
+(2014-02-18)
+ * Add two actions to increase or reduce the font size
+   (shortcuts Ctrl+Plus and Ctrl+Minus).
+
+(2014-01-23)
+ * Add a patch to support AmigaOS4 by zzd10h:
+   http://forum.smplayer.info/viewtopic.php?f=4&t=7081
+
+(2014-01-17)
+ * Add the Italian translation.
+
+(2014-01-13)
+ * Add the French translation.
+
+(2013-12-05)
+ * Add mpv to the list of players.
+
+(2013-10-21)
+ * Add an option to add URL to the SMPlayer playlist.
+
+(2013-10-17)
+ * Replace the 'Most Rated' tab with 'Sports'.
+
+(2013-09-12)
+ * Keys work now in the video list.
+
+(2013-09-09)
+ * Improve support for the encrypted signatures of Youtube.
+
+(2013-08-30 - 2013-10-10)
+ * Adapt the code for Qt 5.
+
+
 Version 1.8:
 
 (2013-08-05) 
