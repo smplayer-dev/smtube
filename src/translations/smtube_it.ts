@@ -121,12 +121,12 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Many people contributed with translations.</source>
-        <translation>Molte persone hanno già contribuito alla traduzione di</translation>
+        <translation>Molte persone hanno già contribuito alla traduzione</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>SMTube, se vuoi aiutarci nel miglioramento delle nostre traduzioni o nel caso si desideri contribuire anche alla localizzazione di SMPlayer...</translation>
+        <translation>di SMTube, vuoi contribuire al loro miglioramento o desideri aiutarci con la traduzione di SMPlayer...</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
@@ -136,7 +136,7 @@
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>Persone attualmente coinvolte nel team di transifex:</translation>
+        <translation>Persone attualmente coinvolte nel team Transifex:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
@@ -338,12 +338,12 @@
     <message>
         <location filename="../configdialog.ui" line="20"/>
         <source>Recording</source>
-        <translation>Registrazione (Download)</translation>
+        <translation>Download (Registrazioni)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="28"/>
         <source>&amp;Save to this folder</source>
-        <translation>&amp;Salva in questa cartella</translation>
+        <translation>&amp;Salva nella cartella</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="45"/>
@@ -573,7 +573,7 @@
     <message>
         <location filename="../configdialog.cpp" line="73"/>
         <source>All time</source>
-        <translation>Tutto</translation>
+        <translation>Completo</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="74"/>
@@ -667,7 +667,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="120"/>
         <source>Canceled</source>
-        <translation>Annullato</translation>
+        <translation>Interrotto</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="120"/>
@@ -696,7 +696,7 @@
         <location filename="../recordingdialog.cpp" line="203"/>
         <location filename="../recordingdialog.cpp" line="420"/>
         <source>Recordings</source>
-        <translation>Registrazioni</translation>
+        <translation>Download</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="204"/>
@@ -719,7 +719,7 @@
         <location filename="../recordingdialog.cpp" line="266"/>
         <location filename="../recordingdialog.cpp" line="665"/>
         <source>Recording failed</source>
-        <translation>Registrazione fallita</translation>
+        <translation>Download fallito</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="307"/>
@@ -740,12 +740,12 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>%1% di %n video - Registrazioni</numerusform><numerusform>%1% di %n video - Registrazioni</numerusform></translation>
+        <translation><numerusform>%1% di %n video - Download</numerusform><numerusform>%1% di %n video - Download</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Cancella</translation>
+        <translation>&amp;Annulla</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="511"/>
@@ -817,7 +817,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="280"/>
         <source>Show recordings</source>
-        <translation>Mostra registrazioni</translation>
+        <translation>Download</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="456"/>
@@ -919,7 +919,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="711"/>
         <source>&amp;Record video</source>
-        <translation>Re&amp;gistra video</translation>
+        <translation>&amp;Scarica video</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="712"/>
@@ -929,7 +929,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="713"/>
         <source>&amp;Copy link</source>
-        <translation>&amp;Copia link</translation>
+        <translation>&amp;Copia indirizzo</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="243"/>
