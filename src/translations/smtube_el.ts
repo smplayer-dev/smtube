@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="el">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="el" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -33,12 +31,12 @@
     <message>
         <location filename="../about.cpp" line="33"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation>Περιηγητής YouTube%1 για το SMPlayer</translation>
+        <translation>Περιηγητής YouTube%1 για τον SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="35"/>
         <source>Based on UMPlayer</source>
-        <translation>Βασισμένος στο UMPlayer</translation>
+        <translation>Βασισμένος στον UMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="37"/>
@@ -48,7 +46,7 @@
     <message>
         <location filename="../about.cpp" line="39"/>
         <source>Portable Edition</source>
-        <translation>Φορητή έκδοση</translation>
+        <translation>Φορητή Έκδοση</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
@@ -59,10 +57,6 @@
         <location filename="../about.cpp" line="44"/>
         <source>Visit our web for updates:</source>
         <translation>Επισκεφτείτε την ιστοσελίδα μας για ενημερώσεις:</translation>
-    </message>
-    <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Οι παρακάτω αναφερόμενοι έχουν συνεισφέρει με μεταφράσεις:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="98"/>
@@ -85,10 +79,6 @@
         <translation>Ιαπωνικά</translation>
     </message>
     <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Απλοποιημένα Κινέζικα</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="99"/>
         <source>Basque</source>
         <translation>Βασκικά</translation>
@@ -101,7 +91,7 @@
     <message>
         <location filename="../about.cpp" line="119"/>
         <source>Hungarian</source>
-        <translation>Ουυγρικά</translation>
+        <translation>Ουγγρικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="114"/>
@@ -111,177 +101,177 @@
     <message>
         <location filename="../about.cpp" line="111"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>Εβραϊκά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ουκρανικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="125"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Νεονορβηγικά Νορβηγικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="101"/>
         <source>Czech</source>
-        <translation type="unfinished"></translation>
+        <translation>Τσεχικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Πολλά άτομα συνείσφεραν με μεταφράσεις.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Μπορείτε και εσείς να βοηθήσετε με τη μετάφραση του SMPlayer στη γλώσσα σας.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισκεφτείτε το %1 και ενταχθείτε σε μια ομάδα μεταφραστών.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Μεταφραστές τώρα από ομάδες στο Trasifex:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Κορεάτικα</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="109"/>
         <source>Malay</source>
-        <translation type="unfinished"></translation>
+        <translation>Μαλαϊκά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Πορτογαλικά - Βραζιλίας</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Κινεζικά Απλοποιημένα</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>French</source>
-        <translation type="unfinished"></translation>
+        <translation>Γαλλικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Δανικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>Γερμανικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Κινεζικά Παραδοσιακά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
         <source>Swedish</source>
-        <translation type="unfinished"></translation>
+        <translation>Σουηδικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="120"/>
         <source>Turkish</source>
-        <translation type="unfinished"></translation>
+        <translation>Τουρκικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="121"/>
         <source>Finnish</source>
-        <translation type="unfinished"></translation>
+        <translation>Φιλανδικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Arabic</source>
-        <translation type="unfinished"></translation>
+        <translation>Αραβικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
         <source>Georgian</source>
-        <translation type="unfinished"></translation>
+        <translation>Γεωργιανά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation>Σερβικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Κροατικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
         <source>Bulgarian</source>
-        <translation type="unfinished"></translation>
+        <translation>Βουλγαρικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="113"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>Βιετναμέζικα</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ινδονησιακά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Αραβικά - Σαουδικής Αραβίας</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="130"/>
         <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation>Σινχαλικά </translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation>Ελληνικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="132"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Εσθονικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="133"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ιταλικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="135"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>Ουζμπέκικα</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Catalan</source>
-        <translation type="unfinished"></translation>
+        <translation>Καταλανικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="137"/>
         <source>Slovak</source>
-        <translation type="unfinished"></translation>
+        <translation>Σλοβακικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
@@ -291,7 +281,7 @@
     <message>
         <location filename="../about.cpp" line="107"/>
         <source>Galician</source>
-        <translation>Γαλικιανά</translation>
+        <translation>Γαλικιακά</translation>
     </message>
 </context>
 <context>
@@ -299,43 +289,43 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Γίνεται λήψη...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Σύνδεση με τον %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ο κώδικας YouTube ενημερώθηκε επιτυχώς.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Εγκατεστημένη έκδοση: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιτυχία</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">Σφάλμα</translation>
+        <translation>Σφάλμα</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνέβη σφάλμα κατά την εγγραφή του %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνέβη σφάλμα κατά την λήψη του αρχείου:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -353,7 +343,7 @@
     <message>
         <location filename="../configdialog.ui" line="28"/>
         <source>&amp;Save to this folder</source>
-        <translation>&amp;Αποθήκευση σε αυτόν το φάκελο</translation>
+        <translation>&amp;Αποθήκευση σε αυτόν τον φάκελο</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="45"/>
@@ -363,17 +353,17 @@
     <message>
         <location filename="../configdialog.ui" line="149"/>
         <source>Standard Feeds</source>
-        <translation type="unfinished"></translation>
+        <translation>Κανονικές Ροές</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="155"/>
         <source>&amp;Region:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Περιοχή:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="181"/>
         <source>Period of &amp;time:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Χρονική περίοδος:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="80"/>
@@ -383,7 +373,7 @@
     <message>
         <location filename="../configdialog.ui" line="88"/>
         <source>Q&amp;uality:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ποιότητα:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="118"/>
@@ -393,212 +383,212 @@
     <message>
         <location filename="../configdialog.cpp" line="31"/>
         <source>Argentina</source>
-        <translation type="unfinished"></translation>
+        <translation>Αργεντινή</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="32"/>
         <source>Australia</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυστραλία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="34"/>
         <source>Belgium</source>
-        <translation type="unfinished"></translation>
+        <translation>Βέλγιο</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="35"/>
         <source>Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Βραζιλία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="36"/>
         <source>Canada</source>
-        <translation type="unfinished"></translation>
+        <translation>Καναδάς</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="37"/>
         <source>Chile</source>
-        <translation type="unfinished"></translation>
+        <translation>Χιλή</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="38"/>
         <source>Colombia</source>
-        <translation type="unfinished"></translation>
+        <translation>Κολομβία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="39"/>
         <source>Czech Republic</source>
-        <translation type="unfinished"></translation>
+        <translation>Τσεχία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="40"/>
         <source>Egypt</source>
-        <translation type="unfinished"></translation>
+        <translation>Αίγυπτος</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="41"/>
         <source>France</source>
-        <translation type="unfinished"></translation>
+        <translation>Γαλλία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="42"/>
         <source>Germany</source>
-        <translation type="unfinished"></translation>
+        <translation>Γερμανία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="43"/>
         <source>Great Britain</source>
-        <translation type="unfinished"></translation>
+        <translation>Μεγάλη Βρετανία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="44"/>
         <source>Hong Kong</source>
-        <translation type="unfinished"></translation>
+        <translation>Χονγκ Κονγκ</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="45"/>
         <source>Hungary</source>
-        <translation type="unfinished"></translation>
+        <translation>Ουγγαρία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="46"/>
         <source>India</source>
-        <translation type="unfinished"></translation>
+        <translation>Ινδία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="47"/>
         <source>Ireland</source>
-        <translation type="unfinished"></translation>
+        <translation>Ιρλανδία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="48"/>
         <source>Israel</source>
-        <translation type="unfinished"></translation>
+        <translation>Ισραήλ</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="49"/>
         <source>Italy</source>
-        <translation type="unfinished"></translation>
+        <translation>Ιταλία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="50"/>
         <source>Japan</source>
-        <translation type="unfinished"></translation>
+        <translation>Ιαπωνία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="52"/>
         <source>Jordan</source>
-        <translation type="unfinished"></translation>
+        <translation>Ιορδανία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="53"/>
         <source>Malaysia</source>
-        <translation type="unfinished"></translation>
+        <translation>Μαλαισία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="54"/>
         <source>Mexico</source>
-        <translation type="unfinished"></translation>
+        <translation>Μεξικό</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="55"/>
         <source>Morocco</source>
-        <translation type="unfinished"></translation>
+        <translation>Μαρόκο</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="56"/>
         <source>Netherlands</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάτω Χώρες</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="57"/>
         <source>New Zealand</source>
-        <translation type="unfinished"></translation>
+        <translation>Νέα Ζηλανδία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="58"/>
         <source>Peru</source>
-        <translation type="unfinished"></translation>
+        <translation>Περού</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="59"/>
         <source>Philippines</source>
-        <translation type="unfinished"></translation>
+        <translation>Φιλιππίνες</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="60"/>
         <source>Poland</source>
-        <translation type="unfinished"></translation>
+        <translation>Πολωνία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="61"/>
         <source>Russia</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρωσία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="62"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Σαουδική Αραβία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="63"/>
         <source>Singapore</source>
-        <translation type="unfinished"></translation>
+        <translation>Σιγκαπούρη</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="64"/>
         <source>South Africa</source>
-        <translation type="unfinished"></translation>
+        <translation>Νότια Αφρική</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="65"/>
         <source>South Korea</source>
-        <translation type="unfinished"></translation>
+        <translation>Νότια Κορέα</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="66"/>
         <source>Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>Ισπανία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="67"/>
         <source>Sweden</source>
-        <translation type="unfinished"></translation>
+        <translation>Σουηδία</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="69"/>
         <source>Taiwan</source>
-        <translation type="unfinished"></translation>
+        <translation>Ταϊβάν</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="70"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished"></translation>
+        <translation>Ηνωμένα Αραβικά Εμιράτα</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="71"/>
         <source>United States</source>
-        <translation type="unfinished"></translation>
+        <translation>Ηνωμένες Πολιτείες</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="73"/>
         <source>All time</source>
-        <translation type="unfinished"></translation>
+        <translation>Όλη</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="74"/>
         <source>This month</source>
-        <translation type="unfinished"></translation>
+        <translation> Αυτόν τον μήνα</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="75"/>
         <source>This week</source>
-        <translation type="unfinished"></translation>
+        <translation> Αυτήν την εβδομάδα</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="76"/>
         <source>Today</source>
-        <translation type="unfinished"></translation>
+        <translation>Σήμερα</translation>
     </message>
 </context>
 <context>
@@ -711,7 +701,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="204"/>
         <source>&amp;Clear list</source>
-        <translation>&amp;Καθαρισμός λίστας</translation>
+        <translation>&amp;Εκκαθάριση λίστας</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="205"/>
@@ -750,10 +740,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="424"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% από %n βίντεο - Λήψεις</numerusform>
-            <numerusform>%1% από %n βίντεο - Λήψεις</numerusform>
-        </translation>
+        <translation><numerusform>%1% από %n βίντεο - Λήψεις</numerusform><numerusform>%1% από %n βίντεο - Λήψεις</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="509"/>
@@ -830,31 +817,27 @@
     <message>
         <location filename="../ytdialog.cpp" line="280"/>
         <source>Show recordings</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση λήψεων</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="456"/>
         <source>Most Relevant</source>
-        <translation>Τα πιο συναφή</translation>
+        <translation>Πιο Συναφή</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="460"/>
         <source>Most Recent</source>
-        <translation>Τα πιο πρόσφατα</translation>
+        <translation>Πιο Πρόσφατα</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="464"/>
         <source>Most Viewed</source>
-        <translation>Περισσότερες προβολές</translation>
+        <translation>Περισσότερες Προβολές</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="468"/>
         <source>Most Popular</source>
-        <translation>Τα πιο δημοφιλή</translation>
-    </message>
-    <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">Τα πιο βαθμολογημένα</translation>
+        <translation>Πιο Δημοφιλή</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="487"/>
@@ -862,40 +845,36 @@
         <translation>Τα πιο δημοφιλή βίντεο στο YouTube%1</translation>
     </message>
     <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">Τα πιο βαθμολογημένα βίντεο στο YouTube%1</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="608"/>
         <source>Error: Could not connect to Youtube server.</source>
-        <translation>Σφάλμα: Αδύνατη η σύνδεση με τον εξυπηρετητή του Youtube.</translation>
+        <translation>Σφάλμα: Αδύνατη η σύνδεση με τον διακομιστή του YouTube.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="714"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Προσθήκη URL στη λίστα αναπαραγωγής του SMPlayer </translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="822"/>
         <location filename="../ytdialog.cpp" line="833"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Προβλήματα με το YouTube</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="824"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Θέλετε να ενημερώσετε τον κώδικα YouTube; Μπορεί να λύσει το πρόβλημα.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="823"/>
         <location filename="../ytdialog.cpp" line="834"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Δυστυχώς, λόγο αλλαγών στο YouTube, δεν γίνεται να παιχτεί ή να ληφθεί το βίντεο «%1».</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="835"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ίσως ευημερώντας αυτήν την εφαρμογή θα λύσει το πρόβλημα.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="492"/>
@@ -905,32 +884,32 @@
     <message>
         <location filename="../ytdialog.cpp" line="472"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>Μουσική</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="476"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation>Αθλητικά</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="488"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Πιο δημοφιλής αθλητικά βίντεο στο YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="489"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Πιο δημοφιλής μουσικά βίντεο στο YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="616"/>
         <source>No videos found</source>
-        <translation>Δεν βρέθηκαν βίντεο</translation>
+        <translation>Δε βρέθηκαν βίντεο</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="618"/>
         <source>No videos found for &quot;%1&quot;</source>
-        <translation>Δεν βρέθηκαν βίντεο για «%1»</translation>
+        <translation>Δε βρέθηκαν βίντεο για το ερώτημα «%1»</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="710"/>
