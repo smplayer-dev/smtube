@@ -27,6 +27,8 @@ contains( DEFINES, YT_USE_SCRIPT ) {
     HEADERS += codedownloader.h
     SOURCES += codedownloader.cpp
     QT += script
+} else {
+    #DEFINES += YTSIG_STATIC
 }
 
 # Input
