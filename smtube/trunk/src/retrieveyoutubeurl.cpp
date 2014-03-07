@@ -1,5 +1,5 @@
 /*  smplayer, GUI front-end for mplayer.
-    Copyright (C) 2006-2013 Ricardo Villalba <rvm@users.sourceforge.net>
+    Copyright (C) 2006-2014 Ricardo Villalba <rvm@users.sourceforge.net>
     Copyright (C) 2010 Ori Rejwan
 
     This program is free software; you can redistribute it and/or modify
@@ -131,6 +131,8 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 	} else {
 		url_title = "Youtube video";
 	}
+
+	//qDebug("RetrieveYoutubeUrl::parse: replyString: %s",replyString.toLatin1().constData());
 
 	QString player;
 	QRegExp rxplayer("html5player-([\\d,\\w,-]+)\\.js");
