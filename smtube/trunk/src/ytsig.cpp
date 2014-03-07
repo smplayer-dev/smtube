@@ -1,5 +1,5 @@
 /*  smplayer, GUI front-end for mplayer.
-    Copyright (C) 2006-2013 Ricardo Villalba <rvm@users.sourceforge.net>
+    Copyright (C) 2006-2014 Ricardo Villalba <rvm@users.sourceforge.net>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -20,11 +20,6 @@
 
 #ifdef YT_USE_SCRIPT
 #include <QtScript>
-#endif
-
-#ifdef YT_USE_SCRIPT
-
-QString YTSig::parsed_ts;
 
 QString YTSig::aclara(const QString & text, const QString & player, const QString & function_name) {
 	int dot = text.indexOf('.');
@@ -102,18 +97,11 @@ QString YTSig::script_file;
 
 QString YTSig::default_script;
 
+#else // YT_USE_SCRIPT
+
+#ifdef YTSIG_STATIC
+#include "ytsig_priv.cpp"
 #else
-
-QString YTSig::parsed_ts;
-
-QString YTSig::rev(const QString & orig) {
-	QString r;
-	for (int n = orig.size()-1; n >= 0; n--) {
-		r.append(orig.at(n));
-	}
-	return r;
-}
-
 QString YTSig::aclara(const QString & text, const QString & player, const QString & function_name) {
 	QString res;
 
@@ -127,11 +115,14 @@ QString YTSig::aclara(const QString & text, const QString & player, const QStrin
 
 	return res;
 }
-
 #endif
+
+#endif // YT_USE_SCRIPT
 
 void YTSig::check(QString & u) {
 	if (!parsed_ts.isEmpty()) {
 		u.append(QString("%1%2%3").arg(QChar(38)).arg(QChar(115)).arg(parsed_ts.replace(": ","=").toLower()));
 	}
 }
+
+QString YTSig::parsed_ts;
