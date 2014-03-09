@@ -383,158 +383,6 @@
         <translation>Re&amp;produtor:</translation>
     </message>
     <message>
-        <source>Argentina</source>
-        <translation type="obsolete">Argentina</translation>
-    </message>
-    <message>
-        <source>Australia</source>
-        <translation type="obsolete">Austrália</translation>
-    </message>
-    <message>
-        <source>Belgium</source>
-        <translation type="obsolete">Bélgica</translation>
-    </message>
-    <message>
-        <source>Brazil</source>
-        <translation type="obsolete">Brasil</translation>
-    </message>
-    <message>
-        <source>Canada</source>
-        <translation type="obsolete">Canadá</translation>
-    </message>
-    <message>
-        <source>Chile</source>
-        <translation type="obsolete">Chile</translation>
-    </message>
-    <message>
-        <source>Colombia</source>
-        <translation type="obsolete">Colômbia</translation>
-    </message>
-    <message>
-        <source>Czech Republic</source>
-        <translation type="obsolete">República Checa</translation>
-    </message>
-    <message>
-        <source>Egypt</source>
-        <translation type="obsolete">Egito</translation>
-    </message>
-    <message>
-        <source>France</source>
-        <translation type="obsolete">França</translation>
-    </message>
-    <message>
-        <source>Germany</source>
-        <translation type="obsolete">Alemanha</translation>
-    </message>
-    <message>
-        <source>Great Britain</source>
-        <translation type="obsolete">Inglaterra</translation>
-    </message>
-    <message>
-        <source>Hong Kong</source>
-        <translation type="obsolete">Hong Kong</translation>
-    </message>
-    <message>
-        <source>Hungary</source>
-        <translation type="obsolete">Húngria</translation>
-    </message>
-    <message>
-        <source>India</source>
-        <translation type="obsolete">Índia</translation>
-    </message>
-    <message>
-        <source>Ireland</source>
-        <translation type="obsolete">Irlanda</translation>
-    </message>
-    <message>
-        <source>Israel</source>
-        <translation type="obsolete">Israel</translation>
-    </message>
-    <message>
-        <source>Italy</source>
-        <translation type="obsolete">Itália</translation>
-    </message>
-    <message>
-        <source>Japan</source>
-        <translation type="obsolete">Japão</translation>
-    </message>
-    <message>
-        <source>Jordan</source>
-        <translation type="obsolete">Jordânia</translation>
-    </message>
-    <message>
-        <source>Malaysia</source>
-        <translation type="obsolete">Malásia</translation>
-    </message>
-    <message>
-        <source>Mexico</source>
-        <translation type="obsolete">México</translation>
-    </message>
-    <message>
-        <source>Morocco</source>
-        <translation type="obsolete">Marrocos</translation>
-    </message>
-    <message>
-        <source>Netherlands</source>
-        <translation type="obsolete">Holanda</translation>
-    </message>
-    <message>
-        <source>New Zealand</source>
-        <translation type="obsolete">Nova Zelândia</translation>
-    </message>
-    <message>
-        <source>Peru</source>
-        <translation type="obsolete">Peru</translation>
-    </message>
-    <message>
-        <source>Philippines</source>
-        <translation type="obsolete">Filipinas</translation>
-    </message>
-    <message>
-        <source>Poland</source>
-        <translation type="obsolete">Polónia</translation>
-    </message>
-    <message>
-        <source>Russia</source>
-        <translation type="obsolete">Rússia</translation>
-    </message>
-    <message>
-        <source>Saudi Arabia</source>
-        <translation type="obsolete">Arábia Saudita</translation>
-    </message>
-    <message>
-        <source>Singapore</source>
-        <translation type="obsolete">Singapura</translation>
-    </message>
-    <message>
-        <source>South Africa</source>
-        <translation type="obsolete">África do Sul</translation>
-    </message>
-    <message>
-        <source>South Korea</source>
-        <translation type="obsolete">Coreia do Sul</translation>
-    </message>
-    <message>
-        <source>Spain</source>
-        <translation type="obsolete">Espanha</translation>
-    </message>
-    <message>
-        <source>Sweden</source>
-        <translation type="obsolete">Suécia</translation>
-    </message>
-    <message>
-        <source>Taiwan</source>
-        <translation type="obsolete">Taiwan</translation>
-    </message>
-    <message>
-        <source>United Arab Emirates</source>
-        <translation type="obsolete">Emirados Árabes Unidos</translation>
-    </message>
-    <message>
-        <source>United States</source>
-        <translation type="obsolete">Estados Unidos</translation>
-    </message>
-    <message>
         <location filename="../configdialog.cpp" line="40"/>
         <source>All time</source>
         <translation>Sempre</translation>
@@ -627,161 +475,6 @@
     </message>
 </context>
 <context>
-    <name>QObject</name>
-    <message>
-        <source>Argentina</source>
-        <translation type="obsolete">Argentina</translation>
-    </message>
-    <message>
-        <source>Australia</source>
-        <translation type="obsolete">Austrália</translation>
-    </message>
-    <message>
-        <source>Belgium</source>
-        <translation type="obsolete">Bélgica</translation>
-    </message>
-    <message>
-        <source>Brazil</source>
-        <translation type="obsolete">Brasil</translation>
-    </message>
-    <message>
-        <source>Canada</source>
-        <translation type="obsolete">Canadá</translation>
-    </message>
-    <message>
-        <source>Chile</source>
-        <translation type="obsolete">Chile</translation>
-    </message>
-    <message>
-        <source>Colombia</source>
-        <translation type="obsolete">Colômbia</translation>
-    </message>
-    <message>
-        <source>Czech Republic</source>
-        <translation type="obsolete">República Checa</translation>
-    </message>
-    <message>
-        <source>Egypt</source>
-        <translation type="obsolete">Egito</translation>
-    </message>
-    <message>
-        <source>France</source>
-        <translation type="obsolete">França</translation>
-    </message>
-    <message>
-        <source>Germany</source>
-        <translation type="obsolete">Alemanha</translation>
-    </message>
-    <message>
-        <source>Great Britain</source>
-        <translation type="obsolete">Inglaterra</translation>
-    </message>
-    <message>
-        <source>Hong Kong</source>
-        <translation type="obsolete">Hong Kong</translation>
-    </message>
-    <message>
-        <source>Hungary</source>
-        <translation type="obsolete">Húngria</translation>
-    </message>
-    <message>
-        <source>India</source>
-        <translation type="obsolete">Índia</translation>
-    </message>
-    <message>
-        <source>Ireland</source>
-        <translation type="obsolete">Irlanda</translation>
-    </message>
-    <message>
-        <source>Israel</source>
-        <translation type="obsolete">Israel</translation>
-    </message>
-    <message>
-        <source>Italy</source>
-        <translation type="obsolete">Itália</translation>
-    </message>
-    <message>
-        <source>Japan</source>
-        <translation type="obsolete">Japão</translation>
-    </message>
-    <message>
-        <source>Jordan</source>
-        <translation type="obsolete">Jordânia</translation>
-    </message>
-    <message>
-        <source>Malaysia</source>
-        <translation type="obsolete">Malásia</translation>
-    </message>
-    <message>
-        <source>Mexico</source>
-        <translation type="obsolete">México</translation>
-    </message>
-    <message>
-        <source>Morocco</source>
-        <translation type="obsolete">Marrocos</translation>
-    </message>
-    <message>
-        <source>Netherlands</source>
-        <translation type="obsolete">Holanda</translation>
-    </message>
-    <message>
-        <source>New Zealand</source>
-        <translation type="obsolete">Nova Zelândia</translation>
-    </message>
-    <message>
-        <source>Peru</source>
-        <translation type="obsolete">Peru</translation>
-    </message>
-    <message>
-        <source>Philippines</source>
-        <translation type="obsolete">Filipinas</translation>
-    </message>
-    <message>
-        <source>Poland</source>
-        <translation type="obsolete">Polónia</translation>
-    </message>
-    <message>
-        <source>Russia</source>
-        <translation type="obsolete">Rússia</translation>
-    </message>
-    <message>
-        <source>Saudi Arabia</source>
-        <translation type="obsolete">Arábia Saudita</translation>
-    </message>
-    <message>
-        <source>Singapore</source>
-        <translation type="obsolete">Singapura</translation>
-    </message>
-    <message>
-        <source>South Africa</source>
-        <translation type="obsolete">África do Sul</translation>
-    </message>
-    <message>
-        <source>South Korea</source>
-        <translation type="obsolete">Coreia do Sul</translation>
-    </message>
-    <message>
-        <source>Spain</source>
-        <translation type="obsolete">Espanha</translation>
-    </message>
-    <message>
-        <source>Sweden</source>
-        <translation type="obsolete">Suécia</translation>
-    </message>
-    <message>
-        <source>Taiwan</source>
-        <translation type="obsolete">Taiwan</translation>
-    </message>
-    <message>
-        <source>United Arab Emirates</source>
-        <translation type="obsolete">Emirados Árabes Unidos</translation>
-    </message>
-    <message>
-        <source>United States</source>
-        <translation type="obsolete">Estados Unidos</translation>
-    </message>
-</context>
-<context>
     <name>RecordingDelegate</name>
     <message>
         <location filename="../recordingdialog.cpp" line="124"/>
@@ -813,7 +506,7 @@
     <name>RecordingDialog</name>
     <message>
         <location filename="../recordingdialog.cpp" line="207"/>
-        <location filename="../recordingdialog.cpp" line="424"/>
+        <location filename="../recordingdialog.cpp" line="459"/>
         <source>Recordings</source>
         <translation>Gravações</translation>
     </message>
@@ -824,40 +517,42 @@
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="209"/>
-        <location filename="../recordingdialog.cpp" line="553"/>
+        <location filename="../recordingdialog.cpp" line="588"/>
         <source>&amp;Open folder</source>
         <translation>&amp;Abrir pasta</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="270"/>
-        <location filename="../recordingdialog.cpp" line="669"/>
+        <location filename="../recordingdialog.cpp" line="283"/>
+        <location filename="../recordingdialog.cpp" line="295"/>
+        <location filename="../recordingdialog.cpp" line="704"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Ocorreu um erro ao obter o URL da transferência.</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="270"/>
-        <location filename="../recordingdialog.cpp" line="669"/>
+        <location filename="../recordingdialog.cpp" line="283"/>
+        <location filename="../recordingdialog.cpp" line="295"/>
+        <location filename="../recordingdialog.cpp" line="704"/>
         <source>Recording failed</source>
         <translation>Falha ao gravar</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="311"/>
-        <location filename="../recordingdialog.cpp" line="687"/>
+        <location filename="../recordingdialog.cpp" line="346"/>
+        <location filename="../recordingdialog.cpp" line="722"/>
         <source>Starting</source>
         <translation>A iniciar</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
+        <location filename="../recordingdialog.cpp" line="380"/>
         <source>Error</source>
         <translation>Erro</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="349"/>
+        <location filename="../recordingdialog.cpp" line="384"/>
         <source>Completed</source>
         <translation>Terminada</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="428"/>
+        <location filename="../recordingdialog.cpp" line="463"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%1% de %n vídeo - Gravações</numerusform>
@@ -865,48 +560,48 @@
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="513"/>
+        <location filename="../recordingdialog.cpp" line="548"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Cancelar</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="515"/>
+        <location filename="../recordingdialog.cpp" line="550"/>
         <source>&amp;Remove from list</source>
         <translation>&amp;Remover da lista</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="534"/>
-        <location filename="../recordingdialog.cpp" line="556"/>
+        <location filename="../recordingdialog.cpp" line="569"/>
+        <location filename="../recordingdialog.cpp" line="591"/>
         <source>Remove from &amp;list</source>
         <translation>Remover da &amp;lista</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="532"/>
+        <location filename="../recordingdialog.cpp" line="567"/>
         <source>&amp;Retry</source>
         <translation>Tenta&amp;r novamente</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="552"/>
+        <location filename="../recordingdialog.cpp" line="587"/>
         <source>&amp;Play</source>
         <translation>Re&amp;produzir</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="555"/>
+        <location filename="../recordingdialog.cpp" line="590"/>
         <source>&amp;Delete</source>
         <translation>&amp;Eliminar</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="634"/>
+        <location filename="../recordingdialog.cpp" line="669"/>
         <source>Fetching URL...</source>
         <translation>A obter URL...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="651"/>
+        <location filename="../recordingdialog.cpp" line="686"/>
         <source>File error</source>
         <translation>Erro no ficheiro</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="652"/>
+        <location filename="../recordingdialog.cpp" line="687"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>O ficheiro não existe. Pretende remover o ficheiro da lista?</translation>
     </message>
@@ -916,192 +611,192 @@
     <message>
         <location filename="../regions.cpp" line="26"/>
         <source>Argentina</source>
-        <translation type="unfinished">Argentina</translation>
+        <translation>Argentina</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="27"/>
         <source>Australia</source>
-        <translation type="unfinished">Austrália</translation>
+        <translation>Austrália</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="29"/>
         <source>Belgium</source>
-        <translation type="unfinished">Bélgica</translation>
+        <translation>Bélgica</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="30"/>
         <source>Brazil</source>
-        <translation type="unfinished">Brasil</translation>
+        <translation>Brasil</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="31"/>
         <source>Canada</source>
-        <translation type="unfinished">Canadá</translation>
+        <translation>Canadá</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="32"/>
         <source>Chile</source>
-        <translation type="unfinished">Chile</translation>
+        <translation>Chile</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="33"/>
         <source>Colombia</source>
-        <translation type="unfinished">Colômbia</translation>
+        <translation>Colômbia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Czech Republic</source>
-        <translation type="unfinished">República Checa</translation>
+        <translation>República Checa</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
         <source>Egypt</source>
-        <translation type="unfinished">Egito</translation>
+        <translation>Egito</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="36"/>
         <source>France</source>
-        <translation type="unfinished">França</translation>
+        <translation>França</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="37"/>
         <source>Germany</source>
-        <translation type="unfinished">Alemanha</translation>
+        <translation>Alemanha</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="38"/>
         <source>Great Britain</source>
-        <translation type="unfinished">Inglaterra</translation>
+        <translation>Inglaterra</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="39"/>
         <source>Hong Kong</source>
-        <translation type="unfinished">Hong Kong</translation>
+        <translation>Hong Kong</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="40"/>
         <source>Hungary</source>
-        <translation type="unfinished">Húngria</translation>
+        <translation>Húngria</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="41"/>
         <source>India</source>
-        <translation type="unfinished">Índia</translation>
+        <translation>Índia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="42"/>
         <source>Ireland</source>
-        <translation type="unfinished">Irlanda</translation>
+        <translation>Irlanda</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="43"/>
         <source>Israel</source>
-        <translation type="unfinished">Israel</translation>
+        <translation>Israel</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="44"/>
         <source>Italy</source>
-        <translation type="unfinished">Itália</translation>
+        <translation>Itália</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="45"/>
         <source>Japan</source>
-        <translation type="unfinished">Japão</translation>
+        <translation>Japão</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="46"/>
         <source>Jordan</source>
-        <translation type="unfinished">Jordânia</translation>
+        <translation>Jordânia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="47"/>
         <source>Malaysia</source>
-        <translation type="unfinished">Malásia</translation>
+        <translation>Malásia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="48"/>
         <source>Mexico</source>
-        <translation type="unfinished">México</translation>
+        <translation>México</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="49"/>
         <source>Morocco</source>
-        <translation type="unfinished">Marrocos</translation>
+        <translation>Marrocos</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="50"/>
         <source>Netherlands</source>
-        <translation type="unfinished">Holanda</translation>
+        <translation>Holanda</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="51"/>
         <source>New Zealand</source>
-        <translation type="unfinished">Nova Zelândia</translation>
+        <translation>Nova Zelândia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="52"/>
         <source>Peru</source>
-        <translation type="unfinished">Peru</translation>
+        <translation>Peru</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="53"/>
         <source>Philippines</source>
-        <translation type="unfinished">Filipinas</translation>
+        <translation>Filipinas</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="54"/>
         <source>Poland</source>
-        <translation type="unfinished">Polónia</translation>
+        <translation>Polónia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="55"/>
         <source>Russia</source>
-        <translation type="unfinished">Rússia</translation>
+        <translation>Rússia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="56"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished">Arábia Saudita</translation>
+        <translation>Arábia Saudita</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="57"/>
         <source>Singapore</source>
-        <translation type="unfinished">Singapura</translation>
+        <translation>Singapura</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="58"/>
         <source>South Africa</source>
-        <translation type="unfinished">África do Sul</translation>
+        <translation>África do Sul</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="59"/>
         <source>South Korea</source>
-        <translation type="unfinished">Coreia do Sul</translation>
+        <translation>Coreia do Sul</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="60"/>
         <source>Spain</source>
-        <translation type="unfinished">Espanha</translation>
+        <translation>Espanha</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="61"/>
         <source>Sweden</source>
-        <translation type="unfinished">Suécia</translation>
+        <translation>Suécia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="63"/>
         <source>Taiwan</source>
-        <translation type="unfinished">Taiwan</translation>
+        <translation>Taiwan</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="64"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished">Emirados Árabes Unidos</translation>
+        <translation>Emirados Árabes Unidos</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="65"/>
         <source>United States</source>
-        <translation type="unfinished">Estados Unidos</translation>
+        <translation>Estados Unidos</translation>
     </message>
 </context>
 <context>
@@ -1165,29 +860,34 @@
         <translation>Não foi possível ligar ao servidor YouTube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="738"/>
+        <location filename="../ytdialog.cpp" line="735"/>
+        <source>R&amp;ecord audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="739"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>&amp;Adicionar URL à lista de reprodução</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="878"/>
-        <location filename="../ytdialog.cpp" line="889"/>
+        <location filename="../ytdialog.cpp" line="893"/>
+        <location filename="../ytdialog.cpp" line="904"/>
         <source>Problems with Youtube</source>
         <translation>Erros Youtube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="880"/>
+        <location filename="../ytdialog.cpp" line="895"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Quer atualizar o código Youtube? Pode ajudar a corrigir o problema.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="879"/>
-        <location filename="../ytdialog.cpp" line="890"/>
+        <location filename="../ytdialog.cpp" line="894"/>
+        <location filename="../ytdialog.cpp" line="905"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Devido às recentes alterações no Youtube, o vídeo %1 não pode ser reproduzido ou transferido.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="891"/>
+        <location filename="../ytdialog.cpp" line="906"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Atualize esta aplicação para tentar resolver os problemas.</translation>
     </message>
@@ -1237,12 +937,12 @@
         <translation>Grava&amp;r vídeo</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="735"/>
+        <location filename="../ytdialog.cpp" line="736"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Ver no YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="736"/>
+        <location filename="../ytdialog.cpp" line="737"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Copiar ligação</translation>
     </message>
@@ -1257,7 +957,7 @@
         <translation>Anterior</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="867"/>
+        <location filename="../ytdialog.cpp" line="882"/>
         <source>Error</source>
         <translation>Erro</translation>
     </message>

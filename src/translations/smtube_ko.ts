@@ -383,158 +383,6 @@
         <translation>재생기:</translation>
     </message>
     <message>
-        <source>Argentina</source>
-        <translation type="obsolete">아르헨티나</translation>
-    </message>
-    <message>
-        <source>Australia</source>
-        <translation type="obsolete">호주</translation>
-    </message>
-    <message>
-        <source>Belgium</source>
-        <translation type="obsolete">벨기에</translation>
-    </message>
-    <message>
-        <source>Brazil</source>
-        <translation type="obsolete">브라질</translation>
-    </message>
-    <message>
-        <source>Canada</source>
-        <translation type="obsolete">캐나다</translation>
-    </message>
-    <message>
-        <source>Chile</source>
-        <translation type="obsolete">칠레</translation>
-    </message>
-    <message>
-        <source>Colombia</source>
-        <translation type="obsolete">콜롬비아</translation>
-    </message>
-    <message>
-        <source>Czech Republic</source>
-        <translation type="obsolete">체코</translation>
-    </message>
-    <message>
-        <source>Egypt</source>
-        <translation type="obsolete">이집트</translation>
-    </message>
-    <message>
-        <source>France</source>
-        <translation type="obsolete">프랑스</translation>
-    </message>
-    <message>
-        <source>Germany</source>
-        <translation type="obsolete">독일</translation>
-    </message>
-    <message>
-        <source>Great Britain</source>
-        <translation type="obsolete">영국</translation>
-    </message>
-    <message>
-        <source>Hong Kong</source>
-        <translation type="obsolete">홍콩</translation>
-    </message>
-    <message>
-        <source>Hungary</source>
-        <translation type="obsolete">헝가리</translation>
-    </message>
-    <message>
-        <source>India</source>
-        <translation type="obsolete">인디아</translation>
-    </message>
-    <message>
-        <source>Ireland</source>
-        <translation type="obsolete">아일랜드</translation>
-    </message>
-    <message>
-        <source>Israel</source>
-        <translation type="obsolete">이스라엘</translation>
-    </message>
-    <message>
-        <source>Italy</source>
-        <translation type="obsolete">이탈리아</translation>
-    </message>
-    <message>
-        <source>Japan</source>
-        <translation type="obsolete">일본</translation>
-    </message>
-    <message>
-        <source>Jordan</source>
-        <translation type="obsolete">요르단</translation>
-    </message>
-    <message>
-        <source>Malaysia</source>
-        <translation type="obsolete">말레이시아</translation>
-    </message>
-    <message>
-        <source>Mexico</source>
-        <translation type="obsolete">멕시코</translation>
-    </message>
-    <message>
-        <source>Morocco</source>
-        <translation type="obsolete">모로코</translation>
-    </message>
-    <message>
-        <source>Netherlands</source>
-        <translation type="obsolete">네델란드</translation>
-    </message>
-    <message>
-        <source>New Zealand</source>
-        <translation type="obsolete">뉴질랜드</translation>
-    </message>
-    <message>
-        <source>Peru</source>
-        <translation type="obsolete">페루</translation>
-    </message>
-    <message>
-        <source>Philippines</source>
-        <translation type="obsolete">필리핀</translation>
-    </message>
-    <message>
-        <source>Poland</source>
-        <translation type="obsolete">폴란드</translation>
-    </message>
-    <message>
-        <source>Russia</source>
-        <translation type="obsolete">러시아</translation>
-    </message>
-    <message>
-        <source>Saudi Arabia</source>
-        <translation type="obsolete">사우디 아라비아</translation>
-    </message>
-    <message>
-        <source>Singapore</source>
-        <translation type="obsolete">싱가포르</translation>
-    </message>
-    <message>
-        <source>South Africa</source>
-        <translation type="obsolete">남아프리카</translation>
-    </message>
-    <message>
-        <source>South Korea</source>
-        <translation type="obsolete">한국</translation>
-    </message>
-    <message>
-        <source>Spain</source>
-        <translation type="obsolete">스페인</translation>
-    </message>
-    <message>
-        <source>Sweden</source>
-        <translation type="obsolete">스웨덴</translation>
-    </message>
-    <message>
-        <source>Taiwan</source>
-        <translation type="obsolete">대만</translation>
-    </message>
-    <message>
-        <source>United Arab Emirates</source>
-        <translation type="obsolete">아랍 에미리트</translation>
-    </message>
-    <message>
-        <source>United States</source>
-        <translation type="obsolete">미국</translation>
-    </message>
-    <message>
         <location filename="../configdialog.cpp" line="40"/>
         <source>All time</source>
         <translation>전체 기간</translation>
@@ -627,161 +475,6 @@
     </message>
 </context>
 <context>
-    <name>QObject</name>
-    <message>
-        <source>Argentina</source>
-        <translation type="obsolete">아르헨티나</translation>
-    </message>
-    <message>
-        <source>Australia</source>
-        <translation type="obsolete">호주</translation>
-    </message>
-    <message>
-        <source>Belgium</source>
-        <translation type="obsolete">벨기에</translation>
-    </message>
-    <message>
-        <source>Brazil</source>
-        <translation type="obsolete">브라질</translation>
-    </message>
-    <message>
-        <source>Canada</source>
-        <translation type="obsolete">캐나다</translation>
-    </message>
-    <message>
-        <source>Chile</source>
-        <translation type="obsolete">칠레</translation>
-    </message>
-    <message>
-        <source>Colombia</source>
-        <translation type="obsolete">콜롬비아</translation>
-    </message>
-    <message>
-        <source>Czech Republic</source>
-        <translation type="obsolete">체코</translation>
-    </message>
-    <message>
-        <source>Egypt</source>
-        <translation type="obsolete">이집트</translation>
-    </message>
-    <message>
-        <source>France</source>
-        <translation type="obsolete">프랑스</translation>
-    </message>
-    <message>
-        <source>Germany</source>
-        <translation type="obsolete">독일</translation>
-    </message>
-    <message>
-        <source>Great Britain</source>
-        <translation type="obsolete">영국</translation>
-    </message>
-    <message>
-        <source>Hong Kong</source>
-        <translation type="obsolete">홍콩</translation>
-    </message>
-    <message>
-        <source>Hungary</source>
-        <translation type="obsolete">헝가리</translation>
-    </message>
-    <message>
-        <source>India</source>
-        <translation type="obsolete">인디아</translation>
-    </message>
-    <message>
-        <source>Ireland</source>
-        <translation type="obsolete">아일랜드</translation>
-    </message>
-    <message>
-        <source>Israel</source>
-        <translation type="obsolete">이스라엘</translation>
-    </message>
-    <message>
-        <source>Italy</source>
-        <translation type="obsolete">이탈리아</translation>
-    </message>
-    <message>
-        <source>Japan</source>
-        <translation type="obsolete">일본</translation>
-    </message>
-    <message>
-        <source>Jordan</source>
-        <translation type="obsolete">요르단</translation>
-    </message>
-    <message>
-        <source>Malaysia</source>
-        <translation type="obsolete">말레이시아</translation>
-    </message>
-    <message>
-        <source>Mexico</source>
-        <translation type="obsolete">멕시코</translation>
-    </message>
-    <message>
-        <source>Morocco</source>
-        <translation type="obsolete">모로코</translation>
-    </message>
-    <message>
-        <source>Netherlands</source>
-        <translation type="obsolete">네델란드</translation>
-    </message>
-    <message>
-        <source>New Zealand</source>
-        <translation type="obsolete">뉴질랜드</translation>
-    </message>
-    <message>
-        <source>Peru</source>
-        <translation type="obsolete">페루</translation>
-    </message>
-    <message>
-        <source>Philippines</source>
-        <translation type="obsolete">필리핀</translation>
-    </message>
-    <message>
-        <source>Poland</source>
-        <translation type="obsolete">폴란드</translation>
-    </message>
-    <message>
-        <source>Russia</source>
-        <translation type="obsolete">러시아</translation>
-    </message>
-    <message>
-        <source>Saudi Arabia</source>
-        <translation type="obsolete">사우디 아라비아</translation>
-    </message>
-    <message>
-        <source>Singapore</source>
-        <translation type="obsolete">싱가포르</translation>
-    </message>
-    <message>
-        <source>South Africa</source>
-        <translation type="obsolete">남아프리카</translation>
-    </message>
-    <message>
-        <source>South Korea</source>
-        <translation type="obsolete">한국</translation>
-    </message>
-    <message>
-        <source>Spain</source>
-        <translation type="obsolete">스페인</translation>
-    </message>
-    <message>
-        <source>Sweden</source>
-        <translation type="obsolete">스웨덴</translation>
-    </message>
-    <message>
-        <source>Taiwan</source>
-        <translation type="obsolete">대만</translation>
-    </message>
-    <message>
-        <source>United Arab Emirates</source>
-        <translation type="obsolete">아랍 에미리트</translation>
-    </message>
-    <message>
-        <source>United States</source>
-        <translation type="obsolete">미국</translation>
-    </message>
-</context>
-<context>
     <name>RecordingDelegate</name>
     <message>
         <location filename="../recordingdialog.cpp" line="124"/>
@@ -813,7 +506,7 @@
     <name>RecordingDialog</name>
     <message>
         <location filename="../recordingdialog.cpp" line="207"/>
-        <location filename="../recordingdialog.cpp" line="424"/>
+        <location filename="../recordingdialog.cpp" line="459"/>
         <source>Recordings</source>
         <translation>녹화</translation>
     </message>
@@ -824,88 +517,90 @@
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="209"/>
-        <location filename="../recordingdialog.cpp" line="553"/>
+        <location filename="../recordingdialog.cpp" line="588"/>
         <source>&amp;Open folder</source>
         <translation>폴더 열기</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="270"/>
-        <location filename="../recordingdialog.cpp" line="669"/>
+        <location filename="../recordingdialog.cpp" line="283"/>
+        <location filename="../recordingdialog.cpp" line="295"/>
+        <location filename="../recordingdialog.cpp" line="704"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>다운로드 주소를 가져오는데 오류가 있습니다.</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="270"/>
-        <location filename="../recordingdialog.cpp" line="669"/>
+        <location filename="../recordingdialog.cpp" line="283"/>
+        <location filename="../recordingdialog.cpp" line="295"/>
+        <location filename="../recordingdialog.cpp" line="704"/>
         <source>Recording failed</source>
         <translation>녹화 실패</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="311"/>
-        <location filename="../recordingdialog.cpp" line="687"/>
+        <location filename="../recordingdialog.cpp" line="346"/>
+        <location filename="../recordingdialog.cpp" line="722"/>
         <source>Starting</source>
         <translation>시작하기</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
+        <location filename="../recordingdialog.cpp" line="380"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="349"/>
+        <location filename="../recordingdialog.cpp" line="384"/>
         <source>Completed</source>
         <translation>완료</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="428"/>
+        <location filename="../recordingdialog.cpp" line="463"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%1% of %n videos - 녹화</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="513"/>
+        <location filename="../recordingdialog.cpp" line="548"/>
         <source>&amp;Cancel</source>
         <translation>취소</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="515"/>
+        <location filename="../recordingdialog.cpp" line="550"/>
         <source>&amp;Remove from list</source>
         <translation>목록에서 지우기</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="534"/>
-        <location filename="../recordingdialog.cpp" line="556"/>
+        <location filename="../recordingdialog.cpp" line="569"/>
+        <location filename="../recordingdialog.cpp" line="591"/>
         <source>Remove from &amp;list</source>
         <translation>목록에서 지우기</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="532"/>
+        <location filename="../recordingdialog.cpp" line="567"/>
         <source>&amp;Retry</source>
         <translation>재시도</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="552"/>
+        <location filename="../recordingdialog.cpp" line="587"/>
         <source>&amp;Play</source>
         <translation>재생</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="555"/>
+        <location filename="../recordingdialog.cpp" line="590"/>
         <source>&amp;Delete</source>
         <translation>삭제</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="634"/>
+        <location filename="../recordingdialog.cpp" line="669"/>
         <source>Fetching URL...</source>
         <translation>URL 가져오는 중...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="651"/>
+        <location filename="../recordingdialog.cpp" line="686"/>
         <source>File error</source>
         <translation>파일 오류</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="652"/>
+        <location filename="../recordingdialog.cpp" line="687"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>이 파일은 존재하지 않습니다, 목록에서 삭제할까요?</translation>
     </message>
@@ -915,192 +610,192 @@
     <message>
         <location filename="../regions.cpp" line="26"/>
         <source>Argentina</source>
-        <translation type="unfinished">아르헨티나</translation>
+        <translation>아르헨티나</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="27"/>
         <source>Australia</source>
-        <translation type="unfinished">호주</translation>
+        <translation>호주</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="29"/>
         <source>Belgium</source>
-        <translation type="unfinished">벨기에</translation>
+        <translation>벨기에</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="30"/>
         <source>Brazil</source>
-        <translation type="unfinished">브라질</translation>
+        <translation>브라질</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="31"/>
         <source>Canada</source>
-        <translation type="unfinished">캐나다</translation>
+        <translation>캐나다</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="32"/>
         <source>Chile</source>
-        <translation type="unfinished">칠레</translation>
+        <translation>칠레</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="33"/>
         <source>Colombia</source>
-        <translation type="unfinished">콜롬비아</translation>
+        <translation>콜롬비아</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Czech Republic</source>
-        <translation type="unfinished">체코</translation>
+        <translation>체코</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
         <source>Egypt</source>
-        <translation type="unfinished">이집트</translation>
+        <translation>이집트</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="36"/>
         <source>France</source>
-        <translation type="unfinished">프랑스</translation>
+        <translation>프랑스</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="37"/>
         <source>Germany</source>
-        <translation type="unfinished">독일</translation>
+        <translation>독일</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="38"/>
         <source>Great Britain</source>
-        <translation type="unfinished">영국</translation>
+        <translation>영국</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="39"/>
         <source>Hong Kong</source>
-        <translation type="unfinished">홍콩</translation>
+        <translation>홍콩</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="40"/>
         <source>Hungary</source>
-        <translation type="unfinished">헝가리</translation>
+        <translation>헝가리</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="41"/>
         <source>India</source>
-        <translation type="unfinished">인디아</translation>
+        <translation>인디아</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="42"/>
         <source>Ireland</source>
-        <translation type="unfinished">아일랜드</translation>
+        <translation>아일랜드</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="43"/>
         <source>Israel</source>
-        <translation type="unfinished">이스라엘</translation>
+        <translation>이스라엘</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="44"/>
         <source>Italy</source>
-        <translation type="unfinished">이탈리아</translation>
+        <translation>이탈리아</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="45"/>
         <source>Japan</source>
-        <translation type="unfinished">일본</translation>
+        <translation>일본</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="46"/>
         <source>Jordan</source>
-        <translation type="unfinished">요르단</translation>
+        <translation>요르단</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="47"/>
         <source>Malaysia</source>
-        <translation type="unfinished">말레이시아</translation>
+        <translation>말레이시아</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="48"/>
         <source>Mexico</source>
-        <translation type="unfinished">멕시코</translation>
+        <translation>멕시코</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="49"/>
         <source>Morocco</source>
-        <translation type="unfinished">모로코</translation>
+        <translation>모로코</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="50"/>
         <source>Netherlands</source>
-        <translation type="unfinished">네델란드</translation>
+        <translation>네델란드</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="51"/>
         <source>New Zealand</source>
-        <translation type="unfinished">뉴질랜드</translation>
+        <translation>뉴질랜드</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="52"/>
         <source>Peru</source>
-        <translation type="unfinished">페루</translation>
+        <translation>페루</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="53"/>
         <source>Philippines</source>
-        <translation type="unfinished">필리핀</translation>
+        <translation>필리핀</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="54"/>
         <source>Poland</source>
-        <translation type="unfinished">폴란드</translation>
+        <translation>폴란드</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="55"/>
         <source>Russia</source>
-        <translation type="unfinished">러시아</translation>
+        <translation>러시아</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="56"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished">사우디 아라비아</translation>
+        <translation>사우디 아라비아</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="57"/>
         <source>Singapore</source>
-        <translation type="unfinished">싱가포르</translation>
+        <translation>싱가포르</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="58"/>
         <source>South Africa</source>
-        <translation type="unfinished">남아프리카</translation>
+        <translation>남아프리카</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="59"/>
         <source>South Korea</source>
-        <translation type="unfinished">한국</translation>
+        <translation>대한민국</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="60"/>
         <source>Spain</source>
-        <translation type="unfinished">스페인</translation>
+        <translation>스페인</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="61"/>
         <source>Sweden</source>
-        <translation type="unfinished">스웨덴</translation>
+        <translation>스웨덴</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="63"/>
         <source>Taiwan</source>
-        <translation type="unfinished">대만</translation>
+        <translation>대만</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="64"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished">아랍 에미리트</translation>
+        <translation>아랍 에미리트</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="65"/>
         <source>United States</source>
-        <translation type="unfinished">미국</translation>
+        <translation>미국</translation>
     </message>
 </context>
 <context>
@@ -1164,29 +859,34 @@
         <translation>오류: 유투브 서버에 연결할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="738"/>
+        <location filename="../ytdialog.cpp" line="735"/>
+        <source>R&amp;ecord audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="739"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>URL을 SMPlayer 재생목록에 추가하기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="878"/>
-        <location filename="../ytdialog.cpp" line="889"/>
+        <location filename="../ytdialog.cpp" line="893"/>
+        <location filename="../ytdialog.cpp" line="904"/>
         <source>Problems with Youtube</source>
         <translation>유투브 문제</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="880"/>
+        <location filename="../ytdialog.cpp" line="895"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>유투브 코드를 업데이트할까요? 업데이트로 문제를 해결할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="879"/>
-        <location filename="../ytdialog.cpp" line="890"/>
+        <location filename="../ytdialog.cpp" line="894"/>
+        <location filename="../ytdialog.cpp" line="905"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>유감스럽게도 유투브 페이지 변경 때문에, &apos;%1&apos; 동영상을 재생하거나 녹화할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="891"/>
+        <location filename="../ytdialog.cpp" line="906"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>이 프로그램을 업데이트해서 문제를 해결할 수 있을 것입니다.</translation>
     </message>
@@ -1236,12 +936,12 @@
         <translation>비디오 녹화</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="735"/>
+        <location filename="../ytdialog.cpp" line="736"/>
         <source>&amp;Watch on YouTube</source>
         <translation>유투브 보기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="736"/>
+        <location filename="../ytdialog.cpp" line="737"/>
         <source>&amp;Copy link</source>
         <translation>링크 복사하기</translation>
     </message>
@@ -1256,7 +956,7 @@
         <translation>이전</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="867"/>
+        <location filename="../ytdialog.cpp" line="882"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
