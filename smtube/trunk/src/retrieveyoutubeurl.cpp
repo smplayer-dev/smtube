@@ -141,9 +141,17 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 		qDebug("RetrieveYoutubeUrl::parse: html5player: %s", player.toLatin1().constData());
 	}
 
+	QString fmtArray;
 	QRegExp regex("\\\"url_encoded_fmt_stream_map\\\"\\s*:\\s*\\\"([^\\\"]*)");
-	regex.indexIn(replyString);
-	QString fmtArray = regex.cap(1);
+	if (regex.indexIn(replyString) != -1) {
+		fmtArray = regex.cap(1);
+	}
+
+	QRegExp regex2("\\\"adaptive_fmts\\\"\\s*:\\s*\\\"([^\\\"]*)");
+	if (regex2.indexIn(replyString) != -1) {
+		fmtArray += regex2.cap(1);
+	}
+
 	fmtArray = sanitizeForUnicodePoint(fmtArray);
 	fmtArray.replace(QRegExp("\\\\(.)"), "\\1");
 
@@ -329,10 +337,12 @@ void RetrieveYoutubeUrl::parseVideoInfo(QByteArray text) {
 	QUrlQuery all;
 	all.setQuery(text);
 	QByteArray fmtArray = all.queryItemValue("url_encoded_fmt_stream_map").toLatin1();
+	fmtArray += all.queryItemValue("adaptive_fmts").toLatin1();
 	#else
 	QUrl all;
 	all.setEncodedQuery(text);
 	QByteArray fmtArray = all.queryItemValue("url_encoded_fmt_stream_map").toLatin1();
+	fmtArray += all.queryItemValue("adaptive_fmts").toLatin1();
 	#endif
 
 	/*
