@@ -23,46 +23,46 @@
 QMap<QString,QString> Regions::list() {
 	QMap<QString,QString> l;
 
-	l["AR"] = QObject::tr("Argentina");
-	l["AU"] = QObject::tr("Australia");
-	// l["AT"] = QObject::tr("Austria"); // Invalid code :?
-	l["BE"] = QObject::tr("Belgium");
-	l["BR"] = QObject::tr("Brazil");
-	l["CA"] = QObject::tr("Canada");
-	l["CL"] = QObject::tr("Chile");
-	l["CO"] = QObject::tr("Colombia");
-	l["CZ"] = QObject::tr("Czech Republic");
-	l["EG"] = QObject::tr("Egypt");
-	l["FR"] = QObject::tr("France");
-	l["DE"] = QObject::tr("Germany");
-	l["GB"] = QObject::tr("Great Britain");
-	l["HK"] = QObject::tr("Hong Kong");
-	l["HU"] = QObject::tr("Hungary");
-	l["IN"] = QObject::tr("India");
-	l["IE"] = QObject::tr("Ireland");
-	l["IL"] = QObject::tr("Israel");
-	l["IT"] = QObject::tr("Italy");
-	l["JP"] = QObject::tr("Japan");
-	l["JO"] = QObject::tr("Jordan");
-	l["MY"] = QObject::tr("Malaysia");
-	l["MX"] = QObject::tr("Mexico");
-	l["MA"] = QObject::tr("Morocco");
-	l["NL"] = QObject::tr("Netherlands");
-	l["NZ"] = QObject::tr("New Zealand");
-	l["PE"] = QObject::tr("Peru");
-	l["PH"] = QObject::tr("Philippines");
-	l["PL"] = QObject::tr("Poland");
-	l["RU"] = QObject::tr("Russia");
-	l["SA"] = QObject::tr("Saudi Arabia");
-	l["SG"] = QObject::tr("Singapore");
-	l["ZA"] = QObject::tr("South Africa");
-	l["KR"] = QObject::tr("South Korea");
-	l["ES"] = QObject::tr("Spain");
-	l["SE"] = QObject::tr("Sweden");
-	//l["CH"] = QObject::tr("Switzerland"); // Invalid code :?
-	l["TW"] = QObject::tr("Taiwan");
-	l["AE"] = QObject::tr("United Arab Emirates");
-	l["US"] = QObject::tr("United States");
+	l["AR"] = tr("Argentina");
+	l["AU"] = tr("Australia");
+	// l["AT"] = tr("Austria"); // Invalid code :?
+	l["BE"] = tr("Belgium");
+	l["BR"] = tr("Brazil");
+	l["CA"] = tr("Canada");
+	l["CL"] = tr("Chile");
+	l["CO"] = tr("Colombia");
+	l["CZ"] = tr("Czech Republic");
+	l["EG"] = tr("Egypt");
+	l["FR"] = tr("France");
+	l["DE"] = tr("Germany");
+	l["GB"] = tr("Great Britain");
+	l["HK"] = tr("Hong Kong");
+	l["HU"] = tr("Hungary");
+	l["IN"] = tr("India");
+	l["IE"] = tr("Ireland");
+	l["IL"] = tr("Israel");
+	l["IT"] = tr("Italy");
+	l["JP"] = tr("Japan");
+	l["JO"] = tr("Jordan");
+	l["MY"] = tr("Malaysia");
+	l["MX"] = tr("Mexico");
+	l["MA"] = tr("Morocco");
+	l["NL"] = tr("Netherlands");
+	l["NZ"] = tr("New Zealand");
+	l["PE"] = tr("Peru");
+	l["PH"] = tr("Philippines");
+	l["PL"] = tr("Poland");
+	l["RU"] = tr("Russia");
+	l["SA"] = tr("Saudi Arabia");
+	l["SG"] = tr("Singapore");
+	l["ZA"] = tr("South Africa");
+	l["KR"] = tr("South Korea");
+	l["ES"] = tr("Spain");
+	l["SE"] = tr("Sweden");
+	//l["CH"] = tr("Switzerland"); // Invalid code :?
+	l["TW"] = tr("Taiwan");
+	l["AE"] = tr("United Arab Emirates");
+	l["US"] = tr("United States");
 
 	return l;
 }
@@ -84,3 +84,4 @@ QString Regions::findRegionForLocale(const QLocale & locale) {
 	return r;
 }
 
+#include "moc_regions.cpp"
