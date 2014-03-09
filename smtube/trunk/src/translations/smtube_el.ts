@@ -383,158 +383,6 @@
         <translation>&amp;Αναπαραγωγέας:</translation>
     </message>
     <message>
-        <source>Argentina</source>
-        <translation type="obsolete">Αργεντινή</translation>
-    </message>
-    <message>
-        <source>Australia</source>
-        <translation type="obsolete">Αυστραλία</translation>
-    </message>
-    <message>
-        <source>Belgium</source>
-        <translation type="obsolete">Βέλγιο</translation>
-    </message>
-    <message>
-        <source>Brazil</source>
-        <translation type="obsolete">Βραζιλία</translation>
-    </message>
-    <message>
-        <source>Canada</source>
-        <translation type="obsolete">Καναδάς</translation>
-    </message>
-    <message>
-        <source>Chile</source>
-        <translation type="obsolete">Χιλή</translation>
-    </message>
-    <message>
-        <source>Colombia</source>
-        <translation type="obsolete">Κολομβία</translation>
-    </message>
-    <message>
-        <source>Czech Republic</source>
-        <translation type="obsolete">Τσεχία</translation>
-    </message>
-    <message>
-        <source>Egypt</source>
-        <translation type="obsolete">Αίγυπτος</translation>
-    </message>
-    <message>
-        <source>France</source>
-        <translation type="obsolete">Γαλλία</translation>
-    </message>
-    <message>
-        <source>Germany</source>
-        <translation type="obsolete">Γερμανία</translation>
-    </message>
-    <message>
-        <source>Great Britain</source>
-        <translation type="obsolete">Μεγάλη Βρετανία</translation>
-    </message>
-    <message>
-        <source>Hong Kong</source>
-        <translation type="obsolete">Χονγκ Κονγκ</translation>
-    </message>
-    <message>
-        <source>Hungary</source>
-        <translation type="obsolete">Ουγγαρία</translation>
-    </message>
-    <message>
-        <source>India</source>
-        <translation type="obsolete">Ινδία</translation>
-    </message>
-    <message>
-        <source>Ireland</source>
-        <translation type="obsolete">Ιρλανδία</translation>
-    </message>
-    <message>
-        <source>Israel</source>
-        <translation type="obsolete">Ισραήλ</translation>
-    </message>
-    <message>
-        <source>Italy</source>
-        <translation type="obsolete">Ιταλία</translation>
-    </message>
-    <message>
-        <source>Japan</source>
-        <translation type="obsolete">Ιαπωνία</translation>
-    </message>
-    <message>
-        <source>Jordan</source>
-        <translation type="obsolete">Ιορδανία</translation>
-    </message>
-    <message>
-        <source>Malaysia</source>
-        <translation type="obsolete">Μαλαισία</translation>
-    </message>
-    <message>
-        <source>Mexico</source>
-        <translation type="obsolete">Μεξικό</translation>
-    </message>
-    <message>
-        <source>Morocco</source>
-        <translation type="obsolete">Μαρόκο</translation>
-    </message>
-    <message>
-        <source>Netherlands</source>
-        <translation type="obsolete">Κάτω Χώρες</translation>
-    </message>
-    <message>
-        <source>New Zealand</source>
-        <translation type="obsolete">Νέα Ζηλανδία</translation>
-    </message>
-    <message>
-        <source>Peru</source>
-        <translation type="obsolete">Περού</translation>
-    </message>
-    <message>
-        <source>Philippines</source>
-        <translation type="obsolete">Φιλιππίνες</translation>
-    </message>
-    <message>
-        <source>Poland</source>
-        <translation type="obsolete">Πολωνία</translation>
-    </message>
-    <message>
-        <source>Russia</source>
-        <translation type="obsolete">Ρωσία</translation>
-    </message>
-    <message>
-        <source>Saudi Arabia</source>
-        <translation type="obsolete">Σαουδική Αραβία</translation>
-    </message>
-    <message>
-        <source>Singapore</source>
-        <translation type="obsolete">Σιγκαπούρη</translation>
-    </message>
-    <message>
-        <source>South Africa</source>
-        <translation type="obsolete">Νότια Αφρική</translation>
-    </message>
-    <message>
-        <source>South Korea</source>
-        <translation type="obsolete">Νότια Κορέα</translation>
-    </message>
-    <message>
-        <source>Spain</source>
-        <translation type="obsolete">Ισπανία</translation>
-    </message>
-    <message>
-        <source>Sweden</source>
-        <translation type="obsolete">Σουηδία</translation>
-    </message>
-    <message>
-        <source>Taiwan</source>
-        <translation type="obsolete">Ταϊβάν</translation>
-    </message>
-    <message>
-        <source>United Arab Emirates</source>
-        <translation type="obsolete">Ηνωμένα Αραβικά Εμιράτα</translation>
-    </message>
-    <message>
-        <source>United States</source>
-        <translation type="obsolete">Ηνωμένες Πολιτείες</translation>
-    </message>
-    <message>
         <location filename="../configdialog.cpp" line="40"/>
         <source>All time</source>
         <translation>Όλη</translation>
@@ -627,161 +475,6 @@
     </message>
 </context>
 <context>
-    <name>QObject</name>
-    <message>
-        <source>Argentina</source>
-        <translation type="obsolete">Αργεντινή</translation>
-    </message>
-    <message>
-        <source>Australia</source>
-        <translation type="obsolete">Αυστραλία</translation>
-    </message>
-    <message>
-        <source>Belgium</source>
-        <translation type="obsolete">Βέλγιο</translation>
-    </message>
-    <message>
-        <source>Brazil</source>
-        <translation type="obsolete">Βραζιλία</translation>
-    </message>
-    <message>
-        <source>Canada</source>
-        <translation type="obsolete">Καναδάς</translation>
-    </message>
-    <message>
-        <source>Chile</source>
-        <translation type="obsolete">Χιλή</translation>
-    </message>
-    <message>
-        <source>Colombia</source>
-        <translation type="obsolete">Κολομβία</translation>
-    </message>
-    <message>
-        <source>Czech Republic</source>
-        <translation type="obsolete">Τσεχία</translation>
-    </message>
-    <message>
-        <source>Egypt</source>
-        <translation type="obsolete">Αίγυπτος</translation>
-    </message>
-    <message>
-        <source>France</source>
-        <translation type="obsolete">Γαλλία</translation>
-    </message>
-    <message>
-        <source>Germany</source>
-        <translation type="obsolete">Γερμανία</translation>
-    </message>
-    <message>
-        <source>Great Britain</source>
-        <translation type="obsolete">Μεγάλη Βρετανία</translation>
-    </message>
-    <message>
-        <source>Hong Kong</source>
-        <translation type="obsolete">Χονγκ Κονγκ</translation>
-    </message>
-    <message>
-        <source>Hungary</source>
-        <translation type="obsolete">Ουγγαρία</translation>
-    </message>
-    <message>
-        <source>India</source>
-        <translation type="obsolete">Ινδία</translation>
-    </message>
-    <message>
-        <source>Ireland</source>
-        <translation type="obsolete">Ιρλανδία</translation>
-    </message>
-    <message>
-        <source>Israel</source>
-        <translation type="obsolete">Ισραήλ</translation>
-    </message>
-    <message>
-        <source>Italy</source>
-        <translation type="obsolete">Ιταλία</translation>
-    </message>
-    <message>
-        <source>Japan</source>
-        <translation type="obsolete">Ιαπωνία</translation>
-    </message>
-    <message>
-        <source>Jordan</source>
-        <translation type="obsolete">Ιορδανία</translation>
-    </message>
-    <message>
-        <source>Malaysia</source>
-        <translation type="obsolete">Μαλαισία</translation>
-    </message>
-    <message>
-        <source>Mexico</source>
-        <translation type="obsolete">Μεξικό</translation>
-    </message>
-    <message>
-        <source>Morocco</source>
-        <translation type="obsolete">Μαρόκο</translation>
-    </message>
-    <message>
-        <source>Netherlands</source>
-        <translation type="obsolete">Κάτω Χώρες</translation>
-    </message>
-    <message>
-        <source>New Zealand</source>
-        <translation type="obsolete">Νέα Ζηλανδία</translation>
-    </message>
-    <message>
-        <source>Peru</source>
-        <translation type="obsolete">Περού</translation>
-    </message>
-    <message>
-        <source>Philippines</source>
-        <translation type="obsolete">Φιλιππίνες</translation>
-    </message>
-    <message>
-        <source>Poland</source>
-        <translation type="obsolete">Πολωνία</translation>
-    </message>
-    <message>
-        <source>Russia</source>
-        <translation type="obsolete">Ρωσία</translation>
-    </message>
-    <message>
-        <source>Saudi Arabia</source>
-        <translation type="obsolete">Σαουδική Αραβία</translation>
-    </message>
-    <message>
-        <source>Singapore</source>
-        <translation type="obsolete">Σιγκαπούρη</translation>
-    </message>
-    <message>
-        <source>South Africa</source>
-        <translation type="obsolete">Νότια Αφρική</translation>
-    </message>
-    <message>
-        <source>South Korea</source>
-        <translation type="obsolete">Νότια Κορέα</translation>
-    </message>
-    <message>
-        <source>Spain</source>
-        <translation type="obsolete">Ισπανία</translation>
-    </message>
-    <message>
-        <source>Sweden</source>
-        <translation type="obsolete">Σουηδία</translation>
-    </message>
-    <message>
-        <source>Taiwan</source>
-        <translation type="obsolete">Ταϊβάν</translation>
-    </message>
-    <message>
-        <source>United Arab Emirates</source>
-        <translation type="obsolete">Ηνωμένα Αραβικά Εμιράτα</translation>
-    </message>
-    <message>
-        <source>United States</source>
-        <translation type="obsolete">Ηνωμένες Πολιτείες</translation>
-    </message>
-</context>
-<context>
     <name>RecordingDelegate</name>
     <message>
         <location filename="../recordingdialog.cpp" line="124"/>
@@ -813,7 +506,7 @@
     <name>RecordingDialog</name>
     <message>
         <location filename="../recordingdialog.cpp" line="207"/>
-        <location filename="../recordingdialog.cpp" line="424"/>
+        <location filename="../recordingdialog.cpp" line="459"/>
         <source>Recordings</source>
         <translation>Λήψεις</translation>
     </message>
@@ -824,40 +517,42 @@
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="209"/>
-        <location filename="../recordingdialog.cpp" line="553"/>
+        <location filename="../recordingdialog.cpp" line="588"/>
         <source>&amp;Open folder</source>
         <translation>&amp;Άνοιγμα φακέλου</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="270"/>
-        <location filename="../recordingdialog.cpp" line="669"/>
+        <location filename="../recordingdialog.cpp" line="283"/>
+        <location filename="../recordingdialog.cpp" line="295"/>
+        <location filename="../recordingdialog.cpp" line="704"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Παρουσιάστηκε ένα σφάλμα κατά την ανάκτηση του URL λήψης.</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="270"/>
-        <location filename="../recordingdialog.cpp" line="669"/>
+        <location filename="../recordingdialog.cpp" line="283"/>
+        <location filename="../recordingdialog.cpp" line="295"/>
+        <location filename="../recordingdialog.cpp" line="704"/>
         <source>Recording failed</source>
         <translation>Η λήψη απέτυχε</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="311"/>
-        <location filename="../recordingdialog.cpp" line="687"/>
+        <location filename="../recordingdialog.cpp" line="346"/>
+        <location filename="../recordingdialog.cpp" line="722"/>
         <source>Starting</source>
         <translation>Εκκίνηση</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
+        <location filename="../recordingdialog.cpp" line="380"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="349"/>
+        <location filename="../recordingdialog.cpp" line="384"/>
         <source>Completed</source>
         <translation>Ολοκληρώθηκε</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="428"/>
+        <location filename="../recordingdialog.cpp" line="463"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%1% από %n βίντεο - Λήψεις</numerusform>
@@ -865,48 +560,48 @@
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="513"/>
+        <location filename="../recordingdialog.cpp" line="548"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Ακύρωση</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="515"/>
+        <location filename="../recordingdialog.cpp" line="550"/>
         <source>&amp;Remove from list</source>
         <translation>&amp;Αφαίρεση από τη λίστα</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="534"/>
-        <location filename="../recordingdialog.cpp" line="556"/>
+        <location filename="../recordingdialog.cpp" line="569"/>
+        <location filename="../recordingdialog.cpp" line="591"/>
         <source>Remove from &amp;list</source>
         <translation>Αφαίρεση από τη &amp;λίστα</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="532"/>
+        <location filename="../recordingdialog.cpp" line="567"/>
         <source>&amp;Retry</source>
         <translation>&amp;Επανάληψη</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="552"/>
+        <location filename="../recordingdialog.cpp" line="587"/>
         <source>&amp;Play</source>
         <translation>&amp;Αναπαραγωγή</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="555"/>
+        <location filename="../recordingdialog.cpp" line="590"/>
         <source>&amp;Delete</source>
         <translation>&amp;Διαγραφή</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="634"/>
+        <location filename="../recordingdialog.cpp" line="669"/>
         <source>Fetching URL...</source>
         <translation>Λήψη του URL...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="651"/>
+        <location filename="../recordingdialog.cpp" line="686"/>
         <source>File error</source>
         <translation>Σφάλμα αρχείου</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="652"/>
+        <location filename="../recordingdialog.cpp" line="687"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>Το αρχείο δεν υπάρχει, επιθυμείτε την αφαίρεσή του από τη λίστα;</translation>
     </message>
@@ -916,192 +611,192 @@
     <message>
         <location filename="../regions.cpp" line="26"/>
         <source>Argentina</source>
-        <translation type="unfinished">Αργεντινή</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="27"/>
         <source>Australia</source>
-        <translation type="unfinished">Αυστραλία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="29"/>
         <source>Belgium</source>
-        <translation type="unfinished">Βέλγιο</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="30"/>
         <source>Brazil</source>
-        <translation type="unfinished">Βραζιλία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="31"/>
         <source>Canada</source>
-        <translation type="unfinished">Καναδάς</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="32"/>
         <source>Chile</source>
-        <translation type="unfinished">Χιλή</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="33"/>
         <source>Colombia</source>
-        <translation type="unfinished">Κολομβία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Czech Republic</source>
-        <translation type="unfinished">Τσεχία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
         <source>Egypt</source>
-        <translation type="unfinished">Αίγυπτος</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="36"/>
         <source>France</source>
-        <translation type="unfinished">Γαλλία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="37"/>
         <source>Germany</source>
-        <translation type="unfinished">Γερμανία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="38"/>
         <source>Great Britain</source>
-        <translation type="unfinished">Μεγάλη Βρετανία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="39"/>
         <source>Hong Kong</source>
-        <translation type="unfinished">Χονγκ Κονγκ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="40"/>
         <source>Hungary</source>
-        <translation type="unfinished">Ουγγαρία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="41"/>
         <source>India</source>
-        <translation type="unfinished">Ινδία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="42"/>
         <source>Ireland</source>
-        <translation type="unfinished">Ιρλανδία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="43"/>
         <source>Israel</source>
-        <translation type="unfinished">Ισραήλ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="44"/>
         <source>Italy</source>
-        <translation type="unfinished">Ιταλία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="45"/>
         <source>Japan</source>
-        <translation type="unfinished">Ιαπωνία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="46"/>
         <source>Jordan</source>
-        <translation type="unfinished">Ιορδανία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="47"/>
         <source>Malaysia</source>
-        <translation type="unfinished">Μαλαισία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="48"/>
         <source>Mexico</source>
-        <translation type="unfinished">Μεξικό</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="49"/>
         <source>Morocco</source>
-        <translation type="unfinished">Μαρόκο</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="50"/>
         <source>Netherlands</source>
-        <translation type="unfinished">Κάτω Χώρες</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="51"/>
         <source>New Zealand</source>
-        <translation type="unfinished">Νέα Ζηλανδία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="52"/>
         <source>Peru</source>
-        <translation type="unfinished">Περού</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="53"/>
         <source>Philippines</source>
-        <translation type="unfinished">Φιλιππίνες</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="54"/>
         <source>Poland</source>
-        <translation type="unfinished">Πολωνία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="55"/>
         <source>Russia</source>
-        <translation type="unfinished">Ρωσία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="56"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished">Σαουδική Αραβία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="57"/>
         <source>Singapore</source>
-        <translation type="unfinished">Σιγκαπούρη</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="58"/>
         <source>South Africa</source>
-        <translation type="unfinished">Νότια Αφρική</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="59"/>
         <source>South Korea</source>
-        <translation type="unfinished">Νότια Κορέα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="60"/>
         <source>Spain</source>
-        <translation type="unfinished">Ισπανία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="61"/>
         <source>Sweden</source>
-        <translation type="unfinished">Σουηδία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="63"/>
         <source>Taiwan</source>
-        <translation type="unfinished">Ταϊβάν</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="64"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished">Ηνωμένα Αραβικά Εμιράτα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="65"/>
         <source>United States</source>
-        <translation type="unfinished">Ηνωμένες Πολιτείες</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1165,29 +860,34 @@
         <translation>Σφάλμα: Αδύνατη η σύνδεση με τον διακομιστή του YouTube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="738"/>
+        <location filename="../ytdialog.cpp" line="735"/>
+        <source>R&amp;ecord audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="739"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>&amp;Προσθήκη URL στη λίστα αναπαραγωγής του SMPlayer </translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="878"/>
-        <location filename="../ytdialog.cpp" line="889"/>
+        <location filename="../ytdialog.cpp" line="893"/>
+        <location filename="../ytdialog.cpp" line="904"/>
         <source>Problems with Youtube</source>
         <translation>Προβλήματα με το YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="880"/>
+        <location filename="../ytdialog.cpp" line="895"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Θέλετε να ενημερώσετε τον κώδικα YouTube; Μπορεί να λύσει το πρόβλημα.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="879"/>
-        <location filename="../ytdialog.cpp" line="890"/>
+        <location filename="../ytdialog.cpp" line="894"/>
+        <location filename="../ytdialog.cpp" line="905"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Δυστυχώς, λόγο αλλαγών στο YouTube, δεν γίνεται να παιχτεί ή να ληφθεί το βίντεο «%1».</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="891"/>
+        <location filename="../ytdialog.cpp" line="906"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Ίσως ευημερώντας αυτήν την εφαρμογή θα λύσει το πρόβλημα.</translation>
     </message>
@@ -1237,12 +937,12 @@
         <translation>&amp;Λήψη βίντεο</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="735"/>
+        <location filename="../ytdialog.cpp" line="736"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Δείτε το στο YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="736"/>
+        <location filename="../ytdialog.cpp" line="737"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Αντιγραφή συνδέσμου</translation>
     </message>
@@ -1257,7 +957,7 @@
         <translation>Προηγούμενο</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="867"/>
+        <location filename="../ytdialog.cpp" line="882"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>

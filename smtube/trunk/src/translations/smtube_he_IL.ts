@@ -383,158 +383,6 @@
         <translation>&amp;נגן:</translation>
     </message>
     <message>
-        <source>Argentina</source>
-        <translation type="obsolete">ארגנטינה</translation>
-    </message>
-    <message>
-        <source>Australia</source>
-        <translation type="obsolete">אוסטרליה</translation>
-    </message>
-    <message>
-        <source>Belgium</source>
-        <translation type="obsolete">בלגיה</translation>
-    </message>
-    <message>
-        <source>Brazil</source>
-        <translation type="obsolete">ברזיל</translation>
-    </message>
-    <message>
-        <source>Canada</source>
-        <translation type="obsolete">קנדה</translation>
-    </message>
-    <message>
-        <source>Chile</source>
-        <translation type="obsolete">צ&apos;ילי</translation>
-    </message>
-    <message>
-        <source>Colombia</source>
-        <translation type="obsolete">קולומביה</translation>
-    </message>
-    <message>
-        <source>Czech Republic</source>
-        <translation type="obsolete">צ&apos;כיה</translation>
-    </message>
-    <message>
-        <source>Egypt</source>
-        <translation type="obsolete">מצרים</translation>
-    </message>
-    <message>
-        <source>France</source>
-        <translation type="obsolete">צרפת</translation>
-    </message>
-    <message>
-        <source>Germany</source>
-        <translation type="obsolete">גרמניה</translation>
-    </message>
-    <message>
-        <source>Great Britain</source>
-        <translation type="obsolete">בריטניה</translation>
-    </message>
-    <message>
-        <source>Hong Kong</source>
-        <translation type="obsolete">הונג קונג</translation>
-    </message>
-    <message>
-        <source>Hungary</source>
-        <translation type="obsolete">הונגריה</translation>
-    </message>
-    <message>
-        <source>India</source>
-        <translation type="obsolete">הודו</translation>
-    </message>
-    <message>
-        <source>Ireland</source>
-        <translation type="obsolete">אירלנד</translation>
-    </message>
-    <message>
-        <source>Israel</source>
-        <translation type="obsolete">ישראל</translation>
-    </message>
-    <message>
-        <source>Italy</source>
-        <translation type="obsolete">איטליה</translation>
-    </message>
-    <message>
-        <source>Japan</source>
-        <translation type="obsolete">יפן</translation>
-    </message>
-    <message>
-        <source>Jordan</source>
-        <translation type="obsolete">ירדן</translation>
-    </message>
-    <message>
-        <source>Malaysia</source>
-        <translation type="obsolete">מלזיה</translation>
-    </message>
-    <message>
-        <source>Mexico</source>
-        <translation type="obsolete">מקסיקו</translation>
-    </message>
-    <message>
-        <source>Morocco</source>
-        <translation type="obsolete">מרוקו</translation>
-    </message>
-    <message>
-        <source>Netherlands</source>
-        <translation type="obsolete">הולנד</translation>
-    </message>
-    <message>
-        <source>New Zealand</source>
-        <translation type="obsolete">ניו זילנד</translation>
-    </message>
-    <message>
-        <source>Peru</source>
-        <translation type="obsolete">פרו</translation>
-    </message>
-    <message>
-        <source>Philippines</source>
-        <translation type="obsolete">פיליפינים</translation>
-    </message>
-    <message>
-        <source>Poland</source>
-        <translation type="obsolete">פולין</translation>
-    </message>
-    <message>
-        <source>Russia</source>
-        <translation type="obsolete">רוסיה</translation>
-    </message>
-    <message>
-        <source>Saudi Arabia</source>
-        <translation type="obsolete">ערב הסעודית</translation>
-    </message>
-    <message>
-        <source>Singapore</source>
-        <translation type="obsolete">סינגפור</translation>
-    </message>
-    <message>
-        <source>South Africa</source>
-        <translation type="obsolete">דרום אפריקה</translation>
-    </message>
-    <message>
-        <source>South Korea</source>
-        <translation type="obsolete">קוריאה הדרומית</translation>
-    </message>
-    <message>
-        <source>Spain</source>
-        <translation type="obsolete">ספרד</translation>
-    </message>
-    <message>
-        <source>Sweden</source>
-        <translation type="obsolete">שבדיה</translation>
-    </message>
-    <message>
-        <source>Taiwan</source>
-        <translation type="obsolete">טייוואן</translation>
-    </message>
-    <message>
-        <source>United Arab Emirates</source>
-        <translation type="obsolete">איחוד אמירויות ערביות</translation>
-    </message>
-    <message>
-        <source>United States</source>
-        <translation type="obsolete">ארצות הברית</translation>
-    </message>
-    <message>
         <location filename="../configdialog.cpp" line="40"/>
         <source>All time</source>
         <translation>כל זמן</translation>
@@ -627,161 +475,6 @@
     </message>
 </context>
 <context>
-    <name>QObject</name>
-    <message>
-        <source>Argentina</source>
-        <translation type="obsolete">ארגנטינה</translation>
-    </message>
-    <message>
-        <source>Australia</source>
-        <translation type="obsolete">אוסטרליה</translation>
-    </message>
-    <message>
-        <source>Belgium</source>
-        <translation type="obsolete">בלגיה</translation>
-    </message>
-    <message>
-        <source>Brazil</source>
-        <translation type="obsolete">ברזיל</translation>
-    </message>
-    <message>
-        <source>Canada</source>
-        <translation type="obsolete">קנדה</translation>
-    </message>
-    <message>
-        <source>Chile</source>
-        <translation type="obsolete">צ&apos;ילי</translation>
-    </message>
-    <message>
-        <source>Colombia</source>
-        <translation type="obsolete">קולומביה</translation>
-    </message>
-    <message>
-        <source>Czech Republic</source>
-        <translation type="obsolete">צ&apos;כיה</translation>
-    </message>
-    <message>
-        <source>Egypt</source>
-        <translation type="obsolete">מצרים</translation>
-    </message>
-    <message>
-        <source>France</source>
-        <translation type="obsolete">צרפת</translation>
-    </message>
-    <message>
-        <source>Germany</source>
-        <translation type="obsolete">גרמניה</translation>
-    </message>
-    <message>
-        <source>Great Britain</source>
-        <translation type="obsolete">בריטניה</translation>
-    </message>
-    <message>
-        <source>Hong Kong</source>
-        <translation type="obsolete">הונג קונג</translation>
-    </message>
-    <message>
-        <source>Hungary</source>
-        <translation type="obsolete">הונגריה</translation>
-    </message>
-    <message>
-        <source>India</source>
-        <translation type="obsolete">הודו</translation>
-    </message>
-    <message>
-        <source>Ireland</source>
-        <translation type="obsolete">אירלנד</translation>
-    </message>
-    <message>
-        <source>Israel</source>
-        <translation type="obsolete">ישראל</translation>
-    </message>
-    <message>
-        <source>Italy</source>
-        <translation type="obsolete">איטליה</translation>
-    </message>
-    <message>
-        <source>Japan</source>
-        <translation type="obsolete">יפן</translation>
-    </message>
-    <message>
-        <source>Jordan</source>
-        <translation type="obsolete">ירדן</translation>
-    </message>
-    <message>
-        <source>Malaysia</source>
-        <translation type="obsolete">מלזיה</translation>
-    </message>
-    <message>
-        <source>Mexico</source>
-        <translation type="obsolete">מקסיקו</translation>
-    </message>
-    <message>
-        <source>Morocco</source>
-        <translation type="obsolete">מרוקו</translation>
-    </message>
-    <message>
-        <source>Netherlands</source>
-        <translation type="obsolete">הולנד</translation>
-    </message>
-    <message>
-        <source>New Zealand</source>
-        <translation type="obsolete">ניו זילנד</translation>
-    </message>
-    <message>
-        <source>Peru</source>
-        <translation type="obsolete">פרו</translation>
-    </message>
-    <message>
-        <source>Philippines</source>
-        <translation type="obsolete">פיליפינים</translation>
-    </message>
-    <message>
-        <source>Poland</source>
-        <translation type="obsolete">פולין</translation>
-    </message>
-    <message>
-        <source>Russia</source>
-        <translation type="obsolete">רוסיה</translation>
-    </message>
-    <message>
-        <source>Saudi Arabia</source>
-        <translation type="obsolete">ערב הסעודית</translation>
-    </message>
-    <message>
-        <source>Singapore</source>
-        <translation type="obsolete">סינגפור</translation>
-    </message>
-    <message>
-        <source>South Africa</source>
-        <translation type="obsolete">דרום אפריקה</translation>
-    </message>
-    <message>
-        <source>South Korea</source>
-        <translation type="obsolete">קוריאה הדרומית</translation>
-    </message>
-    <message>
-        <source>Spain</source>
-        <translation type="obsolete">ספרד</translation>
-    </message>
-    <message>
-        <source>Sweden</source>
-        <translation type="obsolete">שבדיה</translation>
-    </message>
-    <message>
-        <source>Taiwan</source>
-        <translation type="obsolete">טייוואן</translation>
-    </message>
-    <message>
-        <source>United Arab Emirates</source>
-        <translation type="obsolete">איחוד אמירויות ערביות</translation>
-    </message>
-    <message>
-        <source>United States</source>
-        <translation type="obsolete">ארצות הברית</translation>
-    </message>
-</context>
-<context>
     <name>RecordingDelegate</name>
     <message>
         <location filename="../recordingdialog.cpp" line="124"/>
@@ -813,7 +506,7 @@
     <name>RecordingDialog</name>
     <message>
         <location filename="../recordingdialog.cpp" line="207"/>
-        <location filename="../recordingdialog.cpp" line="424"/>
+        <location filename="../recordingdialog.cpp" line="459"/>
         <source>Recordings</source>
         <translation>הקלטות</translation>
     </message>
@@ -824,40 +517,42 @@
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="209"/>
-        <location filename="../recordingdialog.cpp" line="553"/>
+        <location filename="../recordingdialog.cpp" line="588"/>
         <source>&amp;Open folder</source>
         <translation>&amp;פתח תיקייה</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="270"/>
-        <location filename="../recordingdialog.cpp" line="669"/>
+        <location filename="../recordingdialog.cpp" line="283"/>
+        <location filename="../recordingdialog.cpp" line="295"/>
+        <location filename="../recordingdialog.cpp" line="704"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>ארעה שגיאה באחזור URL של הורדה.</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="270"/>
-        <location filename="../recordingdialog.cpp" line="669"/>
+        <location filename="../recordingdialog.cpp" line="283"/>
+        <location filename="../recordingdialog.cpp" line="295"/>
+        <location filename="../recordingdialog.cpp" line="704"/>
         <source>Recording failed</source>
         <translation>הקלטה נכשלה</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="311"/>
-        <location filename="../recordingdialog.cpp" line="687"/>
+        <location filename="../recordingdialog.cpp" line="346"/>
+        <location filename="../recordingdialog.cpp" line="722"/>
         <source>Starting</source>
         <translation>התחילה</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
+        <location filename="../recordingdialog.cpp" line="380"/>
         <source>Error</source>
         <translation>שגיאה</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="349"/>
+        <location filename="../recordingdialog.cpp" line="384"/>
         <source>Completed</source>
         <translation>הושלמה</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="428"/>
+        <location filename="../recordingdialog.cpp" line="463"/>
         <source>%1% of %n video - Recordings</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -865,48 +560,48 @@
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="513"/>
+        <location filename="../recordingdialog.cpp" line="548"/>
         <source>&amp;Cancel</source>
         <translation>&amp;ביטול</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="515"/>
+        <location filename="../recordingdialog.cpp" line="550"/>
         <source>&amp;Remove from list</source>
         <translation>&amp;הסר מן רשימה</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="534"/>
-        <location filename="../recordingdialog.cpp" line="556"/>
+        <location filename="../recordingdialog.cpp" line="569"/>
+        <location filename="../recordingdialog.cpp" line="591"/>
         <source>Remove from &amp;list</source>
         <translation>הסר מן &amp;רשימה</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="532"/>
+        <location filename="../recordingdialog.cpp" line="567"/>
         <source>&amp;Retry</source>
         <translation>&amp;נסה שוב</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="552"/>
+        <location filename="../recordingdialog.cpp" line="587"/>
         <source>&amp;Play</source>
         <translation>&amp;נגן</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="555"/>
+        <location filename="../recordingdialog.cpp" line="590"/>
         <source>&amp;Delete</source>
         <translation>&amp;מחק</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="634"/>
+        <location filename="../recordingdialog.cpp" line="669"/>
         <source>Fetching URL...</source>
         <translation>תופס כעת URL...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="651"/>
+        <location filename="../recordingdialog.cpp" line="686"/>
         <source>File error</source>
         <translation>שגיאת קובץ</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="652"/>
+        <location filename="../recordingdialog.cpp" line="687"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>הקובץ לא קיים, האם ברצונך להסירו מן הרשימה?</translation>
     </message>
@@ -916,192 +611,192 @@
     <message>
         <location filename="../regions.cpp" line="26"/>
         <source>Argentina</source>
-        <translation type="unfinished">ארגנטינה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="27"/>
         <source>Australia</source>
-        <translation type="unfinished">אוסטרליה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="29"/>
         <source>Belgium</source>
-        <translation type="unfinished">בלגיה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="30"/>
         <source>Brazil</source>
-        <translation type="unfinished">ברזיל</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="31"/>
         <source>Canada</source>
-        <translation type="unfinished">קנדה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="32"/>
         <source>Chile</source>
-        <translation type="unfinished">צ&apos;ילי</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="33"/>
         <source>Colombia</source>
-        <translation type="unfinished">קולומביה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Czech Republic</source>
-        <translation type="unfinished">צ&apos;כיה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
         <source>Egypt</source>
-        <translation type="unfinished">מצרים</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="36"/>
         <source>France</source>
-        <translation type="unfinished">צרפת</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="37"/>
         <source>Germany</source>
-        <translation type="unfinished">גרמניה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="38"/>
         <source>Great Britain</source>
-        <translation type="unfinished">בריטניה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="39"/>
         <source>Hong Kong</source>
-        <translation type="unfinished">הונג קונג</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="40"/>
         <source>Hungary</source>
-        <translation type="unfinished">הונגריה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="41"/>
         <source>India</source>
-        <translation type="unfinished">הודו</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="42"/>
         <source>Ireland</source>
-        <translation type="unfinished">אירלנד</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="43"/>
         <source>Israel</source>
-        <translation type="unfinished">ישראל</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="44"/>
         <source>Italy</source>
-        <translation type="unfinished">איטליה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="45"/>
         <source>Japan</source>
-        <translation type="unfinished">יפן</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="46"/>
         <source>Jordan</source>
-        <translation type="unfinished">ירדן</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="47"/>
         <source>Malaysia</source>
-        <translation type="unfinished">מלזיה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="48"/>
         <source>Mexico</source>
-        <translation type="unfinished">מקסיקו</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="49"/>
         <source>Morocco</source>
-        <translation type="unfinished">מרוקו</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="50"/>
         <source>Netherlands</source>
-        <translation type="unfinished">הולנד</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="51"/>
         <source>New Zealand</source>
-        <translation type="unfinished">ניו זילנד</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="52"/>
         <source>Peru</source>
-        <translation type="unfinished">פרו</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="53"/>
         <source>Philippines</source>
-        <translation type="unfinished">פיליפינים</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="54"/>
         <source>Poland</source>
-        <translation type="unfinished">פולין</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="55"/>
         <source>Russia</source>
-        <translation type="unfinished">רוסיה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="56"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished">ערב הסעודית</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="57"/>
         <source>Singapore</source>
-        <translation type="unfinished">סינגפור</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="58"/>
         <source>South Africa</source>
-        <translation type="unfinished">דרום אפריקה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="59"/>
         <source>South Korea</source>
-        <translation type="unfinished">קוריאה הדרומית</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="60"/>
         <source>Spain</source>
-        <translation type="unfinished">ספרד</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="61"/>
         <source>Sweden</source>
-        <translation type="unfinished">שבדיה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="63"/>
         <source>Taiwan</source>
-        <translation type="unfinished">טייוואן</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="64"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished">איחוד אמירויות ערביות</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="65"/>
         <source>United States</source>
-        <translation type="unfinished">ארצות הברית</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1165,29 +860,34 @@
         <translation>שגיאה: לא היה ניתן להתחבר אל Youtube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="738"/>
+        <location filename="../ytdialog.cpp" line="735"/>
+        <source>R&amp;ecord audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="739"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>הוסף &amp;URL אל רשימת SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="878"/>
-        <location filename="../ytdialog.cpp" line="889"/>
+        <location filename="../ytdialog.cpp" line="893"/>
+        <location filename="../ytdialog.cpp" line="904"/>
         <source>Problems with Youtube</source>
         <translation>בעיות עם Youtube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="880"/>
+        <location filename="../ytdialog.cpp" line="895"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>האם ברצונך לעדכן את הקוד של Youtube? זה עשוי לתקן את הבעיה.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="879"/>
-        <location filename="../ytdialog.cpp" line="890"/>
+        <location filename="../ytdialog.cpp" line="894"/>
+        <location filename="../ytdialog.cpp" line="905"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>למרבה הצער בעקבות שינויים אצל Youtube, הוידאו &apos;%1&apos; לא מסוגל להתנגן או להיקלט.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="891"/>
+        <location filename="../ytdialog.cpp" line="906"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>אולי עדכון של SMPlayer עשוי לתקן את הבעיה.</translation>
     </message>
@@ -1237,12 +937,12 @@
         <translation>&amp;הקלט וידאו</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="735"/>
+        <location filename="../ytdialog.cpp" line="736"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;צפה אצל YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="736"/>
+        <location filename="../ytdialog.cpp" line="737"/>
         <source>&amp;Copy link</source>
         <translation>ה&amp;עתק קישור</translation>
     </message>
@@ -1257,7 +957,7 @@
         <translation>הקודם</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="867"/>
+        <location filename="../ytdialog.cpp" line="882"/>
         <source>Error</source>
         <translation>שגיאה</translation>
     </message>
