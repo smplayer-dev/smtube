@@ -46,6 +46,7 @@ HEADERS += myborder.h \
            yttabbar.h \
            lineedit_with_icon.h \
            filechooser.h \
+           regions.h \
            configdialog.h \
            version.h \
            about.h \
@@ -65,6 +66,7 @@ SOURCES += myborder.cpp \
            yttabbar.cpp \
            lineedit_with_icon.cpp \
            filechooser.cpp \
+           regions.cpp \
            configdialog.cpp \
            version.cpp \
            about.cpp \

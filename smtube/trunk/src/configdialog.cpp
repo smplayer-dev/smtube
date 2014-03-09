@@ -19,56 +19,23 @@
 #include "configdialog.h"
 #include "ytdialog.h"
 #include "retrieveyoutubeurl.h"
+#include "regions.h"
 
 ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
     : QDialog(parent, f) 
 {
     setupUi(this);
- 
+
     directory_edit->setDialogType(FileChooser::GetDirectory);
     //layout()->setSizeConstraint(QLayout::SetFixedSize);
 
-    region_combo->addItem( tr("Argentina"), "AR");
-    region_combo->addItem( tr("Australia"), "AU");
-    //region_combo->addItem( tr("Austria"), "AT"); // Invalid code :?
-    region_combo->addItem( tr("Belgium"), "BE");
-    region_combo->addItem( tr("Brazil"), "BR");
-    region_combo->addItem( tr("Canada"), "CA");
-    region_combo->addItem( tr("Chile"), "CL");
-    region_combo->addItem( tr("Colombia"), "CO");
-    region_combo->addItem( tr("Czech Republic"), "CZ");
-    region_combo->addItem( tr("Egypt"), "EG");
-    region_combo->addItem( tr("France"), "FR");
-    region_combo->addItem( tr("Germany"), "DE");
-    region_combo->addItem( tr("Great Britain"), "GB");
-    region_combo->addItem( tr("Hong Kong"), "HK");
-    region_combo->addItem( tr("Hungary"), "HU");
-    region_combo->addItem( tr("India"), "IN");
-    region_combo->addItem( tr("Ireland"), "IE");
-    region_combo->addItem( tr("Israel"), "IL");
-    region_combo->addItem( tr("Italy"), "IT");
-    region_combo->addItem( tr("Japan"), "JP");
-
-    region_combo->addItem( tr("Jordan"), "JO");
-    region_combo->addItem( tr("Malaysia"), "MY");
-    region_combo->addItem( tr("Mexico"), "MX");
-    region_combo->addItem( tr("Morocco"), "MA");
-    region_combo->addItem( tr("Netherlands"), "NL");
-    region_combo->addItem( tr("New Zealand"), "NZ");
-    region_combo->addItem( tr("Peru"), "PE");
-    region_combo->addItem( tr("Philippines"), "PH");
-    region_combo->addItem( tr("Poland"), "PL");
-    region_combo->addItem( tr("Russia"), "RU");
-    region_combo->addItem( tr("Saudi Arabia"), "SA");
-    region_combo->addItem( tr("Singapore"), "SG");
-    region_combo->addItem( tr("South Africa"), "ZA");
-    region_combo->addItem( tr("South Korea"), "KR");
-    region_combo->addItem( tr("Spain"), "ES");
-    region_combo->addItem( tr("Sweden"), "SE");
-    //region_combo->addItem( tr("Switzerland"), "CH"); // Invalid code :?
-    region_combo->addItem( tr("Taiwan"), "TW");
-    region_combo->addItem( tr("United Arab Emirates"), "AE");
-    region_combo->addItem( tr("United States"), "US");
+	// Populate the region_combo combobox
+	QMap<QString,QString> regions_list = Regions::list();
+	QMapIterator<QString,QString> it(regions_list);
+	while (it.hasNext()) {
+		it.next();
+		region_combo->addItem( it.value(), it.key() );
+	}
 
     time_combo->addItem( tr("All time"), "all_time");
     time_combo->addItem( tr("This month"), "this_month");
