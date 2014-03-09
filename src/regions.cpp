@@ -18,6 +18,7 @@
 
 #include "regions.h"
 #include <QObject>
+#include <QLocale>
 
 QMap<QString,QString> Regions::list() {
 	QMap<QString,QString> l;
@@ -64,5 +65,22 @@ QMap<QString,QString> Regions::list() {
 	l["US"] = QObject::tr("United States");
 
 	return l;
+}
+
+QString Regions::findRegionForLocale(const QLocale & locale) {
+	QMap <QString,QString> l = list();
+	QString r = "US"; // default
+
+	QString locale_name = locale.name();
+	qDebug("Regions::findRegionForLocale: locale_name: %s", locale_name.toUtf8().constData());
+
+	int pos = locale_name.indexOf("_");
+	if (pos > -1) {
+		QString country_code = locale_name.mid(pos+1);
+		qDebug("Regions::findRegionForLocale: country: %s", country_code.toUtf8().constData());
+		if (l.contains(country_code)) return country_code;
+	}
+
+	return r;
 }
 
