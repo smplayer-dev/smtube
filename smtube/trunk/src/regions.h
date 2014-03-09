@@ -22,10 +22,13 @@
 #include <QMap>
 #include <QString>
 
+class QLocale;
+
 class Regions
 {
 public:
 	static QMap<QString,QString> list();
+	static QString findRegionForLocale(const QLocale & locale);
 };
 
 #endif

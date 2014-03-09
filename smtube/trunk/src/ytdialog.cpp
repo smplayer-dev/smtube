@@ -45,6 +45,7 @@
 #include "searchbox.h"
 #include "recordingdialog.h"
 #include "configdialog.h"
+#include "regions.h"
 #include "about.h"
 
 #if QT_VERSION >= 0x050000
@@ -945,7 +946,12 @@ void YTDialog::loadConfig()
 #ifdef USE_PLAYERS
         players.setCurrent(set->value("player", players.current()).toInt());
 #endif
-        api->setRegion(set->value("region", "US").toString());
+        // Find user's region to be used as default
+        //QLocale locale(QLocale::German, QLocale::Austria); // TEST
+        QLocale locale = QLocale::system();
+        QString local_region = Regions::findRegionForLocale(locale);
+        qDebug("YTDialog::loadConfig: default region: %s", local_region.toUtf8().constData());
+        api->setRegion(set->value("region", local_region).toString());
         api->setPeriod(set->value("period", "today").toString());
         playback_quality = set->value("playback_quality", playback_quality).toInt();
         RetrieveYoutubeUrl::setUserAgent(set->value("user_agent", "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1").toString());
