@@ -732,6 +732,7 @@ void YTDialog::showContextMenu(QPoint point)
     QMenu menu;
     menu.addAction(tr("&Play video"))->setData("play");
     menu.addAction(tr("&Record video"))->setData("record");
+    menu.addAction(tr("R&ecord audio"))->setData("record_audio");
     menu.addAction(tr("&Watch on YouTube"))->setData("watch");
     menu.addAction(tr("&Copy link"))->setData("link");
  #ifndef Q_WS_AMIGA // zzd10h
@@ -749,6 +750,10 @@ void YTDialog::showContextMenu(QPoint point)
     else if(action->data().toString() == "record")
     {
        recordItem(item);
+    }
+    else if(action->data().toString() == "record_audio")
+    {
+       recordAudioItem(item);
     }
     else if(action->data().toString() == "watch")
     {
@@ -775,6 +780,16 @@ void YTDialog::recordItem(QListWidgetItem *item)
 
     SingleVideoItem* svi = item->data(0).value<SingleVideoItem*>();
     recording_dialog->downloadVideoId(svi->videoid, svi->header, 0);
+}
+
+void YTDialog::recordAudioItem(QListWidgetItem *item)
+{
+    #ifdef YT_USE_SCRIPT
+    YTSig::setScriptFile(script_file);
+    #endif
+
+    SingleVideoItem* svi = item->data(0).value<SingleVideoItem*>();
+    recording_dialog->downloadAudioId(svi->videoid, svi->header, 0);
 }
 
 void YTDialog::playVideo(QString file) 

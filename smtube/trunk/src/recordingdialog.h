@@ -103,6 +103,7 @@ public:
     ~RecordingDialog();
 
     void downloadVideoId(QString videoId, QString title, double duration = 0);
+    void downloadAudioId(QString videoId, QString title, double duration = 0);
     void download(QString url, QString title, QString id, double duration);
     QString getUniqueFileName(QString name);
     bool eventFilter(QObject *watched, QEvent *event);
@@ -154,6 +155,7 @@ public slots:
     void saveList();
     void loadList();
     void recordVideo(const QString & url, QString title, QString id);
+    void recordAudio(const QMap<int, QString>&, QString title, QString id);
 
 protected:
     QString recordings_directory;

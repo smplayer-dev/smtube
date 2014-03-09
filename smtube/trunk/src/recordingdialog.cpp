@@ -263,6 +263,19 @@ void RecordingDialog::downloadVideoId(QString videoId, QString title, double)
     if(!isVisible()) show();
 }
 
+void RecordingDialog::downloadAudioId(QString videoId, QString title, double) {
+	qDebug("RecordingDialog::downloadAudioId");
+
+    RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
+    rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) recording_quality);
+    connect(rvu, SIGNAL(signatureNotFound(const QString &)), this, SIGNAL(signatureNotFound(const QString &)));
+    connect(rvu, SIGNAL(gotUrls(const QMap<int, QString>&, QString, QString)), this, SLOT(recordAudio(const QMap<int, QString>&, QString, QString)));
+    connect(rvu, SIGNAL(gotUrls(const QMap<int, QString>&, QString, QString)), rvu, SLOT(deleteLater()));
+    rvu->fetchYTVideoPage(videoId, title);
+
+    if(!isVisible()) show();
+}
+
 void RecordingDialog::recordVideo(const QString & url, QString title, QString id)
 {
     if(url.isNull())
@@ -271,6 +284,19 @@ void RecordingDialog::recordVideo(const QString & url, QString title, QString id
         return;
     }
     download(url, title, id, 0);
+}
+
+void RecordingDialog::recordAudio(const QMap<int, QString>& map, QString title, QString id) {
+	qDebug("RecordingDialog::recordAudio");
+
+	QString url = RetrieveYoutubeUrl::findBestAudio(map);
+
+	if (url.isEmpty()) {
+		QMessageBox::warning(0, tr("Recording failed"), tr("There was an error in retrieving the download URL."));
+		return;
+	}
+
+	download(url, title, id, 0);
 }
 
 void RecordingDialog::download(QString url, QString title, QString id, double duration)
@@ -300,6 +326,15 @@ void RecordingDialog::download(QString url, QString title, QString id, double du
         case RetrieveYoutubeUrl::WEBM_480p:
         case RetrieveYoutubeUrl::WEBM_720p:
         case RetrieveYoutubeUrl::WEBM_1080p:
+            ext = ".webm";
+            break;
+        case RetrieveYoutubeUrl::DASH_AUDIO_MP4_48:
+        case RetrieveYoutubeUrl::DASH_AUDIO_MP4_128:
+        case RetrieveYoutubeUrl::DASH_AUDIO_MP4_256:
+            ext = ".mp4a";
+            break;
+        case RetrieveYoutubeUrl::DASH_AUDIO_WEBM_128:
+        case RetrieveYoutubeUrl::DASH_AUDIO_WEBM_192:
             ext = ".webm";
             break;
     }
