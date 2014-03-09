@@ -19,13 +19,16 @@
 #ifndef REGIONS_H
 #define REGIONS_H
 
+#include <QObject>
 #include <QMap>
 #include <QString>
 
 class QLocale;
 
-class Regions
+class Regions : public QObject
 {
+	Q_OBJECT
+
 public:
 	static QMap<QString,QString> list();
 	static QString findRegionForLocale(const QLocale & locale);
