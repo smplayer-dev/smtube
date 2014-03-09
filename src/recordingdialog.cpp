@@ -331,7 +331,7 @@ void RecordingDialog::download(QString url, QString title, QString id, double du
         case RetrieveYoutubeUrl::DASH_AUDIO_MP4_48:
         case RetrieveYoutubeUrl::DASH_AUDIO_MP4_128:
         case RetrieveYoutubeUrl::DASH_AUDIO_MP4_256:
-            ext = ".mp4a";
+            ext = ".m4a";
             break;
         case RetrieveYoutubeUrl::DASH_AUDIO_WEBM_128:
         case RetrieveYoutubeUrl::DASH_AUDIO_WEBM_192:
