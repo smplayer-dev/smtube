@@ -516,6 +516,27 @@ QString RetrieveYoutubeUrl::findPreferredUrl(const QMap<int, QString>& urlMap, Q
 	return p_url;
 }
 
+QString RetrieveYoutubeUrl::findBestAudio(const QMap<int, QString>& urlMap) {
+	QString url;
+
+	url = urlMap.value(DASH_AUDIO_MP4_256, QString());
+	if (!url.isEmpty()) return url;
+
+	url = urlMap.value(DASH_AUDIO_WEBM_192, QString());
+	if (!url.isEmpty()) return url;
+
+	url = urlMap.value(DASH_AUDIO_MP4_128, QString());
+	if (!url.isEmpty()) return url;
+
+	url = urlMap.value(DASH_AUDIO_WEBM_128, QString());
+	if (!url.isEmpty()) return url;
+
+	url = urlMap.value(DASH_AUDIO_MP4_48, QString());
+	if (!url.isEmpty()) return url;
+
+	return url;
+}
+
 QString RetrieveYoutubeUrl::sanitizeForUnicodePoint(QString string) {
 	QRegExp rx("\\\\u(\\d{4})");
 	while (rx.indexIn(string) != -1) {

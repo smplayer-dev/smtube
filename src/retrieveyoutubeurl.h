@@ -31,8 +31,10 @@ class RetrieveYoutubeUrl : public QObject
 
 public:
 	enum Quality { FLV_240p = 5, MP4_360p = 18, MP4_720p = 22, FLV_360p = 34,
-                   FLV_480p = 35, MP4_1080p = 37, WEBM_360p = 43, 
-                   WEBM_480p = 44, WEBM_720p = 45, WEBM_1080p = 46 };
+                   FLV_480p = 35, MP4_1080p = 37, WEBM_360p = 43,
+                   WEBM_480p = 44, WEBM_720p = 45, WEBM_1080p = 46,
+                   DASH_AUDIO_MP4_48 = 139, DASH_AUDIO_MP4_128 = 140, DASH_AUDIO_MP4_256 = 141,
+                   DASH_AUDIO_WEBM_128 = 171, DASH_AUDIO_WEBM_192 = 172 };
 
 	RetrieveYoutubeUrl( QObject* parent = 0 );
 	~RetrieveYoutubeUrl();
@@ -48,6 +50,8 @@ public:
 
 	static QString findPreferredUrl(const QMap<int, QString>& urlMap, Quality q);
 	QString findPreferredUrl();
+
+	static QString findBestAudio(const QMap<int, QString>& urlMap);
 
 	QString urlTitle() { return url_title; }
 	QString latestPreferredUrl() { return latest_preferred_url; }

@@ -200,6 +200,7 @@ public slots:
     void setSearchTerm(QString term);
     void showContextMenu(QPoint point);
     void recordItem(QListWidgetItem* item);
+    void recordAudioItem(QListWidgetItem* item);
     void playVideo(QString file);
     void playYTUrl(const QString &url, QString title, QString id);
     void addToPlaylist(const QString &url);
