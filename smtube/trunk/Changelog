@@ -1,5 +1,11 @@
 Version 1.9:
 
+(2014-03-09)
+ * Add an option to record audio.
+
+(2014-03-08)
+ * Use the user's country for default region.
+
 (2014-02-18)
  * Add two actions to increase or reduce the font size
    (shortcuts Ctrl+Plus and Ctrl+Minus).
