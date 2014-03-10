@@ -1,3 +1,14 @@
+Version 1.9
+
+ * New option to record audio.
+ * The 'Most Rated' tab has been replaced with 'Sports'.
+ * An option to add the URL to the SMPlayer playlist has been added.
+ * A default region is selected according to the user's language and country.
+ * Better support for encrypted signatures.
+ * New translations: Italian and French.
+ * Possibility to compile with Qt 5.
+
+
 Version 1.8
 
  * Adapt for Youtube changes.
