@@ -279,8 +279,26 @@ void RecordingDialog::downloadAudioId(QString videoId, QString title, double) {
 void RecordingDialog::recordVideo(const QMap<int, QString>& map, QString title, QString id) {
 	qDebug("RecordingDialog::recordVideo");
 
-	QString url = RetrieveYoutubeUrl::findPreferredUrl(map, (RetrieveYoutubeUrl::Quality) recording_quality);
+	if (recording_quality == RetrieveYoutubeUrl::MP4_1080p || recording_quality == RetrieveYoutubeUrl::WEBM_1080p) {
+		if (!map.contains(RetrieveYoutubeUrl::MP4_1080p) && !map.contains(RetrieveYoutubeUrl::WEBM_1080p)) {
+			qDebug("RecordingDialog::recordVideo: 1080p not found in normal format");
+			// Check if there's a 1080p in DASH format
+			QString video_url = map.value(RetrieveYoutubeUrl::DASH_VIDEO_1080p, QString());
+			QString audio_url = RetrieveYoutubeUrl::findBestAudio(map);
+			if (!video_url.isEmpty() && !audio_url.isEmpty()) {
+				//qDebug("RecordingDialog::recordVideo: video_url: %s", video_url.toLatin1().constData());
+				//qDebug("RecordingDialog::recordVideo: audio_url: %s", audio_url.toLatin1().constData());
+				qDebug("RecordingDialog::recordVideo: video and audio for 1080p DASH format found");
+				#if 1
+				download(video_url, title, id, 0);
+				download(audio_url, title, id, 0);
+				#endif
+				return;
+			}
+		}
+	}
 
+	QString url = RetrieveYoutubeUrl::findPreferredUrl(map, (RetrieveYoutubeUrl::Quality) recording_quality);
 	if (url.isEmpty()) {
 		QMessageBox::warning(0, tr("Recording failed"), tr("There was an error in retrieving the download URL."));
 		return;

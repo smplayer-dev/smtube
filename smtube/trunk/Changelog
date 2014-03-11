@@ -1,5 +1,11 @@
 Version 1.9:
 
+(2014-03-10)
+ * If there's no 1080p video in the normal format, try
+   to download the 1080p video in the DASH format. That
+   actually downloads two files, a mp4 with the video only
+   and a m4a with the audio.
+
 (2014-03-09)
  * Add an option to record audio.
 
