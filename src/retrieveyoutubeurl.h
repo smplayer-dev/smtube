@@ -34,7 +34,10 @@ public:
                    FLV_480p = 35, MP4_1080p = 37, WEBM_360p = 43,
                    WEBM_480p = 44, WEBM_720p = 45, WEBM_1080p = 46,
                    DASH_AUDIO_MP4_48 = 139, DASH_AUDIO_MP4_128 = 140, DASH_AUDIO_MP4_256 = 141,
-                   DASH_AUDIO_WEBM_128 = 171, DASH_AUDIO_WEBM_192 = 172 };
+                   DASH_AUDIO_WEBM_128 = 171, DASH_AUDIO_WEBM_192 = 172,
+                   DASH_VIDEO_1080p = 137, DASH_VIDEO_720p = 136,
+                   DASH_VIDEO_480p = 135, DASH_VIDEO_360p = 134,
+                   DASH_VIDEO_240p = 133 };
 
 	RetrieveYoutubeUrl( QObject* parent = 0 );
 	~RetrieveYoutubeUrl();
