@@ -337,18 +337,15 @@ void RetrieveYoutubeUrl::parseVideoInfo(QByteArray text) {
 	#if QT_VERSION >= 0x050000
 	QUrlQuery all;
 	all.setQuery(text);
-	QByteArray fmtArray;
-	fmtArray = all.queryItemValue("url_encoded_fmt_stream_map").toLatin1();
-	if (!fmtArray.isEmpty()) fmtArray += ",";
-	fmtArray += all.queryItemValue("adaptive_fmts").toLatin1();
 	#else
 	QUrl all;
 	all.setEncodedQuery(text);
+	#endif
+
 	QByteArray fmtArray;
 	fmtArray = all.queryItemValue("url_encoded_fmt_stream_map").toLatin1();
 	if (!fmtArray.isEmpty()) fmtArray += ",";
 	fmtArray += all.queryItemValue("adaptive_fmts").toLatin1();
-	#endif
 
 	/*
 	qDebug("fmtArray: %s", fmtArray.constData());
