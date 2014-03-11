@@ -154,7 +154,7 @@ public slots:
     void videoDoubleClicked(QListWidgetItem* item);
     void saveList();
     void loadList();
-    void recordVideo(const QString & url, QString title, QString id);
+    void recordVideo(const QMap<int, QString>&, QString title, QString id);
     void recordAudio(const QMap<int, QString>&, QString title, QString id);
 
 protected:

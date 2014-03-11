@@ -256,8 +256,8 @@ void RecordingDialog::downloadVideoId(QString videoId, QString title, double)
     RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
     rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) recording_quality);
     connect(rvu, SIGNAL(signatureNotFound(const QString &)), this, SIGNAL(signatureNotFound(const QString &)));
-    connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)), this, SLOT(recordVideo(const QString &,QString,QString)));
-    connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)), rvu, SLOT(deleteLater()));
+    connect(rvu, SIGNAL(gotUrls(const QMap<int, QString>&, QString, QString)), this, SLOT(recordVideo(const QMap<int, QString>&, QString, QString)));
+    connect(rvu, SIGNAL(gotUrls(const QMap<int, QString>&, QString, QString)), rvu, SLOT(deleteLater()));
     rvu->fetchYTVideoPage(videoId, title);
 
     if(!isVisible()) show();
@@ -276,14 +276,16 @@ void RecordingDialog::downloadAudioId(QString videoId, QString title, double) {
     if(!isVisible()) show();
 }
 
-void RecordingDialog::recordVideo(const QString & url, QString title, QString id)
-{
-    if(url.isNull())
-    {
-        QMessageBox::warning(0, tr("Recording failed"), tr("There was an error in retrieving the download URL."));
-        return;
-    }
-    download(url, title, id, 0);
+void RecordingDialog::recordVideo(const QMap<int, QString>& map, QString title, QString id) {
+	qDebug("RecordingDialog::recordVideo");
+
+	QString url = RetrieveYoutubeUrl::findPreferredUrl(map, (RetrieveYoutubeUrl::Quality) recording_quality);
+
+	if (url.isEmpty()) {
+		QMessageBox::warning(0, tr("Recording failed"), tr("There was an error in retrieving the download URL."));
+		return;
+	}
+	download(url, title, id, 0);
 }
 
 void RecordingDialog::recordAudio(const QMap<int, QString>& map, QString title, QString id) {
