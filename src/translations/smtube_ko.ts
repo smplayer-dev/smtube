@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ko">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ko" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -554,9 +552,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="463"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% of %n videos - 녹화</numerusform>
-        </translation>
+        <translation><numerusform>%1% of %n videos - 녹화</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="548"/>
@@ -861,7 +857,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="735"/>
         <source>R&amp;ecord audio</source>
-        <translation type="unfinished"></translation>
+        <translation>음성 녹음하기(&amp;E)</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="739"/>

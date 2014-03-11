@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="cs">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -554,11 +552,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="463"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% z %n videa - nahrávek</numerusform>
-            <numerusform>%1% z %n videí - nahrávek</numerusform>
-            <numerusform>%1% z %n videí - nahrávek</numerusform>
-        </translation>
+        <translation><numerusform>%1% z %n videa - nahrávek</numerusform><numerusform>%1% z %n videí - nahrávek</numerusform><numerusform>%1% z %n videí - nahrávek</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="548"/>
@@ -863,7 +857,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="735"/>
         <source>R&amp;ecord audio</source>
-        <translation type="unfinished"></translation>
+        <translation>N&amp;ahrát zvuk</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="739"/>
