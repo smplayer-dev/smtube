@@ -289,10 +289,8 @@ void RecordingDialog::recordVideo(const QMap<int, QString>& map, QString title, 
 				//qDebug("RecordingDialog::recordVideo: video_url: %s", video_url.toLatin1().constData());
 				//qDebug("RecordingDialog::recordVideo: audio_url: %s", audio_url.toLatin1().constData());
 				qDebug("RecordingDialog::recordVideo: video and audio for 1080p DASH format found");
-				#if 1
-				download(video_url, title, id, 0);
 				download(audio_url, title, id, 0);
-				#endif
+				download(video_url, title, id, 0);
 				return;
 			}
 		}
