@@ -1,6 +1,7 @@
 Version 1.9
 
  * New option to record audio.
+ * Download 1080p in DASH format.
  * The 'Most Rated' tab has been replaced with 'Sports'.
  * An option to add the URL to the SMPlayer playlist has been added.
  * A default region is selected according to the user's language and country.
