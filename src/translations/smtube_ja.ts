@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -278,12 +276,12 @@
     <message>
         <location filename="../about.cpp" line="138"/>
         <source>British English</source>
-        <translation type="unfinished"></translation>
+        <translation>イギリス英語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="139"/>
         <source>Albanian</source>
-        <translation type="unfinished"></translation>
+        <translation>アルバニア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="164"/>
@@ -564,9 +562,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="481"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%n 動画の %1% - 録画</numerusform>
-        </translation>
+        <translation><numerusform>%n 動画の %1% - 録画</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="566"/>
