@@ -1,3 +1,16 @@
+smtube (2.0) precise; urgency=low
+
+  * New option to record audio.
+  * Download 1080p in DASH format.
+  * The 'Most Rated' tab has been replaced with 'Sports'.
+  * An option to add the URL to the SMPlayer playlist has been added.
+  * A default region is selected according to the user's language and country.
+  * Better support for encrypted signatures.
+  * New translations: Italian and French.
+  * Possibility to compile with Qt 5.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 13 Mar 2014 23:22:31 +0100
+
 smtube (1.8) precise; urgency=low
 
   * Adapt for Youtube changes.
