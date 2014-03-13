@@ -1,4 +1,4 @@
-Version 1.9
+Version 2.0
 
  * New option to record audio.
  * Download 1080p in DASH format.
