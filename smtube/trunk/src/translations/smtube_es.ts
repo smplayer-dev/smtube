@@ -250,7 +250,7 @@
     <message>
         <location filename="../about.cpp" line="139"/>
         <source>Albanian</source>
-        <translation>Albano</translation>
+        <translation>Albanés</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="120"/>
