@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -278,12 +276,12 @@
     <message>
         <location filename="../about.cpp" line="138"/>
         <source>British English</source>
-        <translation type="unfinished"></translation>
+        <translation>Britanski engleski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="139"/>
         <source>Albanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Albanski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="164"/>
@@ -564,11 +562,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="481"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% od %n video snimke - Snimanja</numerusform>
-            <numerusform>%1% od %n video snimke - Snimanja</numerusform>
-            <numerusform>%1% od %n video snimaka - Snimanja</numerusform>
-        </translation>
+        <translation><numerusform>%1% od %n video snimke - Snimanja</numerusform><numerusform>%1% od %n video snimke - Snimanja</numerusform><numerusform>%1% od %n video snimaka - Snimanja</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="566"/>
@@ -873,7 +867,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="735"/>
         <source>R&amp;ecord audio</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;nimi zvuk</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="739"/>
