@@ -144,7 +144,7 @@ int main( int argc, char ** argv )
 	YTDialog * yt = new YTDialog(0, &settings);
 
 #ifdef YT_USE_SCRIPT
-	QString ytcode_name = "ytcode.script";
+	QString ytcode_name = "yt.js";
 	QString ytcode_file = configPath() +"/"+ ytcode_name;
 	if (QFile::exists(smplayerConfigPath())) ytcode_file = smplayerConfigPath() +"/"+ ytcode_name;
 	qDebug("ytcode_file: %s", ytcode_file.toUtf8().constData());
