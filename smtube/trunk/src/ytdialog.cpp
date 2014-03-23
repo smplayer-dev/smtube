@@ -898,7 +898,7 @@ void YTDialog::showErrorSignatureNotFound(const QString & title) {
 		if (!downloader) downloader = new CodeDownloader(this);
 		downloader->saveAs(script_file);
 		downloader->show();
-		downloader->download(QUrl("http://updates.smplayer.info/ytcode.script"));
+		downloader->download(QUrl("http://updates.smplayer.info/yt.js"));
 	}
 	#else
 	QMessageBox::warning(this, tr("Problems with Youtube"),
