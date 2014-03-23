@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_CN">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -18,7 +16,7 @@
         <location filename="../about.ui" line="109"/>
         <location filename="../about.ui" line="165"/>
         <source>icon</source>
-        <translation>icon</translation>
+        <translation>图标</translation>
     </message>
     <message>
         <location filename="../about.ui" line="89"/>
@@ -108,7 +106,7 @@
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Ukrainian</source>
-        <translation>Ukrainian</translation>
+        <translation>乌克兰语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="125"/>
@@ -143,7 +141,7 @@
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Korean</source>
-        <translation>Korean</translation>
+        <translation>韩语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="109"/>
@@ -153,7 +151,7 @@
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Portuguese - Brazil</source>
-        <translation>Portuguese - Brazil</translation>
+        <translation>葡萄牙语 - 巴西</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
@@ -163,17 +161,17 @@
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>French</source>
-        <translation>French</translation>
+        <translation>法语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Danish</source>
-        <translation>Danish</translation>
+        <translation>丹麦语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>German</source>
-        <translation>German</translation>
+        <translation>德语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
@@ -198,7 +196,7 @@
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Arabic</source>
-        <translation>Arabic</translation>
+        <translation>阿拉伯语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -208,47 +206,47 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>Serbian</source>
-        <translation>Serbian</translation>
+        <translation>塞尔维亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
         <source>Croatian</source>
-        <translation>Croatian</translation>
+        <translation>克罗地亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
         <source>Bulgarian</source>
-        <translation>Bulgarian</translation>
+        <translation>保加利亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="113"/>
         <source>Vietnamese</source>
-        <translation>Vietnamese</translation>
+        <translation>越南语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
         <source>Indonesian</source>
-        <translation>Indonesian</translation>
+        <translation>印度尼西亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation>Arabic - Saudi Arabia</translation>
+        <translation>阿拉伯语 - 沙特阿拉伯</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="130"/>
         <source>Sinhala</source>
-        <translation>Sinhala</translation>
+        <translation>僧伽罗语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Greek</source>
-        <translation>Greek</translation>
+        <translation>希腊语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="132"/>
         <source>Estonian</source>
-        <translation>Estonian</translation>
+        <translation>爱沙尼亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="133"/>
@@ -258,17 +256,17 @@
     <message>
         <location filename="../about.cpp" line="134"/>
         <source>Italian</source>
-        <translation>Italian</translation>
+        <translation>意大利语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="135"/>
         <source>Uzbek</source>
-        <translation>Uzbek</translation>
+        <translation>乌兹别克语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Catalan</source>
-        <translation>Catalan</translation>
+        <translation>加泰罗尼亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="137"/>
@@ -278,12 +276,12 @@
     <message>
         <location filename="../about.cpp" line="138"/>
         <source>British English</source>
-        <translation type="unfinished"></translation>
+        <translation>英国英语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="139"/>
         <source>Albanian</source>
-        <translation type="unfinished"></translation>
+        <translation>阿尔巴尼亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="164"/>
@@ -355,7 +353,7 @@
     <message>
         <location filename="../configdialog.ui" line="28"/>
         <source>&amp;Save to this folder</source>
-        <translation>保存到文件夹(&amp;S)</translation>
+        <translation>保存到此文件夹(&amp;S)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="45"/>
@@ -523,7 +521,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="208"/>
         <source>&amp;Clear list</source>
-        <translation>清除列表(&amp;C)</translation>
+        <translation>清空列表(&amp;C)</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="209"/>
@@ -564,9 +562,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="481"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% / %n个视频 - 正在录制</numerusform>
-        </translation>
+        <translation><numerusform>%1% / %n个视频 - 正在录制</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="566"/>
@@ -602,7 +598,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="687"/>
         <source>Fetching URL...</source>
-        <translation>正在读取 URL...</translation>
+        <translation>正在提取 URL...</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="704"/>
@@ -620,62 +616,62 @@
     <message>
         <location filename="../regions.cpp" line="26"/>
         <source>Argentina</source>
-        <translation>Argentina</translation>
+        <translation>阿根廷</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="27"/>
         <source>Australia</source>
-        <translation>Australia</translation>
+        <translation>澳大利亚</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="29"/>
         <source>Belgium</source>
-        <translation>Belgium</translation>
+        <translation>比利时</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="30"/>
         <source>Brazil</source>
-        <translation>Brazil</translation>
+        <translation>巴西</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="31"/>
         <source>Canada</source>
-        <translation>Canada</translation>
+        <translation>加拿大</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="32"/>
         <source>Chile</source>
-        <translation>Chile</translation>
+        <translation>智利</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="33"/>
         <source>Colombia</source>
-        <translation>Colombia</translation>
+        <translation>哥伦比亚</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Czech Republic</source>
-        <translation>Czech Republic</translation>
+        <translation>捷克共和国</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
         <source>Egypt</source>
-        <translation>Egypt</translation>
+        <translation>埃及</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="36"/>
         <source>France</source>
-        <translation>France</translation>
+        <translation>法国</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="37"/>
         <source>Germany</source>
-        <translation>Germany</translation>
+        <translation>德国</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="38"/>
         <source>Great Britain</source>
-        <translation>Great Britain</translation>
+        <translation>英国</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="39"/>
@@ -685,87 +681,87 @@
     <message>
         <location filename="../regions.cpp" line="40"/>
         <source>Hungary</source>
-        <translation>Hungary</translation>
+        <translation>匈牙利</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="41"/>
         <source>India</source>
-        <translation>India</translation>
+        <translation>印度</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="42"/>
         <source>Ireland</source>
-        <translation>Ireland</translation>
+        <translation>爱尔兰</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="43"/>
         <source>Israel</source>
-        <translation>Israel</translation>
+        <translation>以色列</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="44"/>
         <source>Italy</source>
-        <translation>Italy</translation>
+        <translation>意大利</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="45"/>
         <source>Japan</source>
-        <translation>Japan</translation>
+        <translation>日本</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="46"/>
         <source>Jordan</source>
-        <translation>Jordan</translation>
+        <translation>约旦</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="47"/>
         <source>Malaysia</source>
-        <translation>Malaysia</translation>
+        <translation>马来西亚</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="48"/>
         <source>Mexico</source>
-        <translation>Mexico</translation>
+        <translation>墨西哥</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="49"/>
         <source>Morocco</source>
-        <translation>Morocco</translation>
+        <translation>摩洛哥</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="50"/>
         <source>Netherlands</source>
-        <translation>Netherlands</translation>
+        <translation>荷兰</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="51"/>
         <source>New Zealand</source>
-        <translation>New Zealand</translation>
+        <translation>新西兰</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="52"/>
         <source>Peru</source>
-        <translation>Peru</translation>
+        <translation>秘鲁</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="53"/>
         <source>Philippines</source>
-        <translation>Philippines</translation>
+        <translation>菲律宾</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="54"/>
         <source>Poland</source>
-        <translation>Poland</translation>
+        <translation>波兰</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="55"/>
         <source>Russia</source>
-        <translation>Russia</translation>
+        <translation>俄罗斯</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="56"/>
         <source>Saudi Arabia</source>
-        <translation>Saudi Arabia</translation>
+        <translation>沙特阿拉伯</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="57"/>
@@ -775,22 +771,22 @@
     <message>
         <location filename="../regions.cpp" line="58"/>
         <source>South Africa</source>
-        <translation>South Africa</translation>
+        <translation>南非</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="59"/>
         <source>South Korea</source>
-        <translation>South Korea</translation>
+        <translation>韩国</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="60"/>
         <source>Spain</source>
-        <translation>Spain</translation>
+        <translation>西班牙</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="61"/>
         <source>Sweden</source>
-        <translation>Sweden</translation>
+        <translation>瑞典</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="63"/>
@@ -800,12 +796,12 @@
     <message>
         <location filename="../regions.cpp" line="64"/>
         <source>United Arab Emirates</source>
-        <translation>United Arab Emirates</translation>
+        <translation>阿拉伯联合酋长国</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="65"/>
         <source>United States</source>
-        <translation>United States</translation>
+        <translation>美国</translation>
     </message>
 </context>
 <context>
@@ -898,7 +894,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="906"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation>或许更新程序能解决这问题。</translation>
+        <translation>或许更新程序能解决此问题。</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="510"/>
@@ -923,7 +919,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="507"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation>在 YouTube%1 上最受欢迎的音乐视频</translation>
+        <translation>在 YouTube%1 上最受欢迎的MV</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="634"/>
