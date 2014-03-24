@@ -285,6 +285,8 @@ void RecordingDialog::recordVideo(const QMap<int, QString>& map, QString title, 
 			// Check if there's a 1080p in DASH format
 			QString video_url = map.value(RetrieveYoutubeUrl::DASH_VIDEO_1080p, QString());
 			QString audio_url = RetrieveYoutubeUrl::findBestAudio(map);
+			video_url += "&ratebypass=yes";
+			audio_url += "&ratebypass=yes";
 			if (!video_url.isEmpty() && !audio_url.isEmpty()) {
 				//qDebug("RecordingDialog::recordVideo: video_url: %s", video_url.toLatin1().constData());
 				//qDebug("RecordingDialog::recordVideo: audio_url: %s", audio_url.toLatin1().constData());
@@ -308,6 +310,7 @@ void RecordingDialog::recordAudio(const QMap<int, QString>& map, QString title, 
 	qDebug("RecordingDialog::recordAudio");
 
 	QString url = RetrieveYoutubeUrl::findBestAudio(map);
+	url += "&ratebypass=yes";
 
 	if (url.isEmpty()) {
 		QMessageBox::warning(0, tr("Recording failed"), tr("There was an error in retrieving the download URL."));
