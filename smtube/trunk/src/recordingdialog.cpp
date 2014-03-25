@@ -56,7 +56,7 @@ RecordingDelegate::RecordingDelegate(QObject *parent)
     QPixmap retryPix(":/Control/bt-download-retry.png");
     playIcon = getIcon(playPix);
     cancelIcon = getIcon(cancelPix);
-    retryIcon = getIcon(retryPix);    
+    retryIcon = getIcon(retryPix);
 }
 
 void RecordingDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option, const QModelIndex &index) const
@@ -105,7 +105,7 @@ void RecordingDelegate::paint(QPainter *painter, const QStyleOptionViewItem &opt
         painter->drawText(QRect(13, optionProgress.rect.bottom() + 3, rect.width(), rect.height()), Qt::AlignLeft | Qt::AlignTop, dd->downloadProgress);
     }
     else if(dd->downloadState == DownloadData::Canceled || dd->downloadState == DownloadData::Error)
-    {        
+    {
         QDateTime time = dd->completionTime;
         QString currentDateString;
         if(time.date() == QDate::currentDate())
@@ -122,7 +122,7 @@ void RecordingDelegate::paint(QPainter *painter, const QStyleOptionViewItem &opt
                                 headerTextRect.height()), Qt::AlignVCenter | Qt::AlignRight, currentDateString );
         painter->drawText(QRect(headerTextRect.left(), headerTextRect.bottom() + 5, rect.width(), rect.height()),
                           Qt::AlignLeft | Qt::AlignTop, dd->downloadState == DownloadData::Canceled ? tr("Canceled") : tr("Error"));
-        currentPix = retryIcon.pixmap(dd->buttonState, MyIcon::Off );
+        currentPix = retryIcon.pixmap(dd->retry_possible ? dd->buttonState : MyIcon::Disabled, MyIcon::Off );
         QRect buttonRect(rect.width() - 13 - currentPix.width(), headerTextRect.bottom() + 5, currentPix.width(), currentPix.height());
         if(dd->buttonRect != buttonRect) dd->buttonRect = buttonRect;
         painter->drawPixmap(buttonRect, currentPix);
@@ -313,9 +313,9 @@ void RecordingDialog::recordVideo(const QMap<int, QString>& map, QString title, 
 				if (QFile::exists(audio_name)) {
 					qDebug("RecordingDialog::recordVideo: the audio file already exists. Skipping.");
 				} else {
-					download(audio_url, title, id, 0, audio_name);
+					download(audio_url, title, id, 0, audio_name, false);
 				}
-				download(video_url, title, id, 0, video_name);
+				download(video_url, title, id, 0, video_name, false);
 				return;
 			}
 		}
@@ -340,10 +340,10 @@ void RecordingDialog::recordAudio(const QMap<int, QString>& map, QString title, 
 		return;
 	}
 
-	download(url, title, id, 0);
+	download(url, title, id, 0, QString::null, false);
 }
 
-void RecordingDialog::download(QString url, QString title, QString id, double duration, const QString & saveas)
+void RecordingDialog::download(QString url, QString title, QString id, double duration, const QString & saveas, bool retry_possible)
 {
     QUrl qurl(url);
     QListWidgetItem* item = new QListWidgetItem(0, QListWidgetItem::UserType + 1);
@@ -394,12 +394,13 @@ void RecordingDialog::download(QString url, QString title, QString id, double du
     dd->videoDuration = (int)duration;
     dd->downloadProgress = tr("Starting");
     dd->completionTime = QDateTime::currentDateTime();
+    dd->retry_possible = retry_possible;
     item->setData(DownloadDataRole, QVariant::fromValue(dd));
     item->setData(emitDataChangedRole, true);
 
     DownloadFile* dfile = new DownloadFile(url, file, this);
-    file->setParent(dfile);    
-    itemDownloadMap[dfile] = item;    
+    file->setParent(dfile);
+    itemDownloadMap[dfile] = item;
     connect(dfile, SIGNAL(downloadFinished(bool)), this, SLOT(oneDownloadFinished(bool)));
     connect(dfile, SIGNAL(downloadStatus(QString)), this, SLOT(oneDownloadProgressStatus(QString)));
     connect(dfile, SIGNAL(progress(int, qint64)), this, SLOT(oneDownloadProgress(int, qint64)));
@@ -714,6 +715,9 @@ void RecordingDialog::cancelDownload(QListWidgetItem *item)
 void RecordingDialog::retryDownload(QListWidgetItem *item)
 {
     DownloadData* dd = item->data(DownloadDataRole).value<DownloadData*>();
+
+    if (!dd->retry_possible) return;
+
     dd->downloadState = DownloadData::Progressing;
     dd->downloadProgress = tr("Fetching URL...");
     dd->downloadProgressPercent = 0;
@@ -879,6 +883,7 @@ void RecordingDialog::saveList()
             ddMap["videoid"] = dd->videoId;
             ddMap["video_duration"] = dd->videoDuration;
             ddMap["title"] = dd->title;
+            ddMap["retry_possible"] = dd->retry_possible;
         }
         itemList.append(ddMap);
     }
@@ -913,6 +918,7 @@ void RecordingDialog::loadList()
         dd->videoDuration = ddMap.value("video_duration").toInt();
         dd->completionTime = ddMap.value("time").toDateTime();
         dd->fileSize = ddMap.value("size").toLongLong();
+        dd->retry_possible = ddMap.value("retry_possible").toBool();
         item->setData(DownloadDataRole, QVariant::fromValue(dd));
         item->setData(emitDataChangedRole, true);
     }
