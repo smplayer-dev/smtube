@@ -186,7 +186,7 @@ MyIcon RecordingDelegate::getIcon(QPixmap pix)
     return icon;
 }
 
-QSize RecordingDelegate::sizeHint(const QStyleOptionViewItem &option, const QModelIndex &index) const
+QSize RecordingDelegate::sizeHint(const QStyleOptionViewItem & /*option*/, const QModelIndex &index) const
 {
     DownloadData* dd = index.data(RecordingDialog::DownloadDataRole).value<DownloadData*>();
     if(dd->downloadState == DownloadData::Progressing)
@@ -521,7 +521,7 @@ void RecordingDialog::removeDFileFromMap(DownloadFile *dfile)
     updateWindowTitle();
 }
 
-void RecordingDialog::resizeEvent(QResizeEvent *r)
+void RecordingDialog::resizeEvent(QResizeEvent * /*r*/)
 {
     static_cast<RecordingDelegate*>(downloadList->itemDelegate())->setWidth( downloadList->viewport()->width());
 }
