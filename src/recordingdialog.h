@@ -64,8 +64,7 @@ public :
         QString title;
         QRect buttonRect;
         QString filePath;
-
-
+        bool retry_possible;
 };
 
 Q_DECLARE_METATYPE(DownloadData*)
@@ -104,7 +103,7 @@ public:
 
     void downloadVideoId(QString videoId, QString title, double duration = 0);
     void downloadAudioId(QString videoId, QString title, double duration = 0);
-    void download(QString url, QString title, QString id, double duration, const QString & saveas = QString::null);
+    void download(QString url, QString title, QString id, double duration, const QString & saveas = QString::null, bool retry_possible = true);
     QString getUniqueFileName(QString name);
     bool eventFilter(QObject *watched, QEvent *event);
 
