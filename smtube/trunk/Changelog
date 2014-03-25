@@ -1,3 +1,15 @@
+Version 2.1:
+
+(2014-03-25)
+ * When saving DASH 1080, be sure the video and audio files 
+   have the same name.
+ * Disable the retry option for DASH streams since that option 
+   doesn't work well yet.
+
+(2014-03-24)
+ * Increase speed when downloading DASH streams.
+
+
 Version 2.0:
 
 (2014-03-10)
