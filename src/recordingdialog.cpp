@@ -285,11 +285,13 @@ void RecordingDialog::recordVideo(const QMap<int, QString>& map, QString title, 
 			// Check if there's a 1080p in DASH format
 			QString video_url = map.value(RetrieveYoutubeUrl::DASH_VIDEO_1080p, QString());
 			QString audio_url = RetrieveYoutubeUrl::findBestAudio(map);
-			video_url += "&ratebypass=yes";
-			audio_url += "&ratebypass=yes";
 			if (!video_url.isEmpty() && !audio_url.isEmpty()) {
+				video_url += "&ratebypass=yes";
+				audio_url += "&ratebypass=yes";
+
 				//qDebug("RecordingDialog::recordVideo: video_url: %s", video_url.toLatin1().constData());
 				//qDebug("RecordingDialog::recordVideo: audio_url: %s", audio_url.toLatin1().constData());
+
 				qDebug("RecordingDialog::recordVideo: video and audio for 1080p DASH format found");
 				QString video_name = getUniqueFileName(title +".mp4");
 				qDebug("RecordingDialog::recordVideo: video name '%s'", video_name.toUtf8().constData());
@@ -308,8 +310,12 @@ void RecordingDialog::recordVideo(const QMap<int, QString>& map, QString title, 
 				QString audio_name = fi.absolutePath() +"/"+ fi.completeBaseName() + audio_extension;
 				qDebug("RecordingDialog::recordVideo: audio name '%s'", audio_name.toUtf8().constData());
 
-				download(audio_url, title, id, 0, video_name);
-				download(video_url, title, id, 0, audio_name);
+				if (QFile::exists(audio_name)) {
+					qDebug("RecordingDialog::recordVideo: the audio file already exists. Skipping.");
+				} else {
+					download(audio_url, title, id, 0, audio_name);
+				}
+				download(video_url, title, id, 0, video_name);
 				return;
 			}
 		}
