@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hu" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -278,7 +276,6 @@
     <message>
         <location filename="../about.cpp" line="138"/>
         <source>British English</source>
-        <translatorcomment>vagy Angol (Egyesült Királyság), Angol (UK)</translatorcomment>
         <translation>Brit Angol</translation>
     </message>
     <message>
@@ -366,7 +363,6 @@
     <message>
         <location filename="../configdialog.ui" line="157"/>
         <source>Standard Feeds</source>
-        <translatorcomment>Szabványos feed-ek</translatorcomment>
         <translation>Szűrők</translation>
     </message>
     <message>
@@ -377,7 +373,6 @@
     <message>
         <location filename="../configdialog.ui" line="189"/>
         <source>Period of &amp;time:</source>
-        <translatorcomment>Feltöltés dá&amp;tum</translatorcomment>
         <translation>I&amp;dőszak:</translation>
     </message>
     <message>
@@ -567,9 +562,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="481"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%n videó %1%-a - Felvételek</numerusform>
-        </translation>
+        <translation><numerusform>%n videó %1%-a - Felvételek</numerusform><numerusform>%n videók %1%-a - Felvételek</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="566"/>
