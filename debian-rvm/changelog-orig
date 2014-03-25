@@ -1,3 +1,9 @@
+smtube (2.1) precise; urgency=low
+
+  * Improve the download speed for DASH formats.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 25 Mar 2014 23:03:47 +0100
+
 smtube (2.0) precise; urgency=low
 
   * New option to record audio.
