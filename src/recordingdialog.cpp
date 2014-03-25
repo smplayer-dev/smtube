@@ -614,7 +614,9 @@ bool RecordingDialog::eventFilter(QObject *watched, QEvent *event)
                     }
                     else if(dd->downloadState == DownloadData::Canceled || dd->downloadState == DownloadData::Error )
                     {
-                        contextMenu.addAction(tr("&Retry"))->setData("retry");
+                        QAction *retryAct = contextMenu.addAction(tr("&Retry"));
+                        retryAct->setData("retry");
+                        if (!dd->retry_possible) retryAct->setEnabled(false);
                         contextMenu.addSeparator();
                         contextMenu.addAction(tr("Remove from &list"))->setData("remove");
                         QAction* action = contextMenu.exec(m->globalPos());
@@ -814,7 +816,7 @@ void RecordingDialog::clearList()
             ++i ;
         }
         else
-        {            
+        {
             delete model->index(i, 0).data(DownloadDataRole).value<DownloadData*>();
             model->removeRow(i);
         }
