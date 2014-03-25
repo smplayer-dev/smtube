@@ -291,8 +291,25 @@ void RecordingDialog::recordVideo(const QMap<int, QString>& map, QString title, 
 				//qDebug("RecordingDialog::recordVideo: video_url: %s", video_url.toLatin1().constData());
 				//qDebug("RecordingDialog::recordVideo: audio_url: %s", audio_url.toLatin1().constData());
 				qDebug("RecordingDialog::recordVideo: video and audio for 1080p DASH format found");
-				download(audio_url, title, id, 0);
-				download(video_url, title, id, 0);
+				QString video_name = getUniqueFileName(title +".mp4");
+				qDebug("RecordingDialog::recordVideo: video name '%s'", video_name.toUtf8().constData());
+
+				QString audio_extension = ".m4a";
+				QRegExp rx("itag=(\\d+)");
+				if (rx.indexIn(audio_url) != -1) {
+					int itag = rx.cap(1).toInt();
+					//qDebug("itag: %d", itag);
+					if ((itag == RetrieveYoutubeUrl::DASH_AUDIO_WEBM_128) || (itag == RetrieveYoutubeUrl::DASH_AUDIO_WEBM_192)) {
+						audio_extension = ".webm";
+					}
+				}
+
+				QFileInfo fi(video_name);
+				QString audio_name = fi.absolutePath() +"/"+ fi.completeBaseName() + audio_extension;
+				qDebug("RecordingDialog::recordVideo: audio name '%s'", audio_name.toUtf8().constData());
+
+				download(audio_url, title, id, 0, video_name);
+				download(video_url, title, id, 0, audio_name);
 				return;
 			}
 		}
@@ -320,7 +337,7 @@ void RecordingDialog::recordAudio(const QMap<int, QString>& map, QString title, 
 	download(url, title, id, 0);
 }
 
-void RecordingDialog::download(QString url, QString title, QString id, double duration)
+void RecordingDialog::download(QString url, QString title, QString id, double duration, const QString & saveas)
 {
     QUrl qurl(url);
     QListWidgetItem* item = new QListWidgetItem(0, QListWidgetItem::UserType + 1);
@@ -360,7 +377,12 @@ void RecordingDialog::download(QString url, QString title, QString id, double du
             break;
     }
 
-    QFile* file = new QFile(getUniqueFileName(title + ext));
+    QString output_filename = saveas;
+    if (output_filename.isEmpty()) {
+         output_filename = getUniqueFileName(title + ext);
+    }
+
+    QFile* file = new QFile(output_filename);
     dd->title = QFileInfo(*file).fileName();
     dd->filePath = QFileInfo(*file).absoluteFilePath();
     dd->videoDuration = (int)duration;

@@ -104,7 +104,7 @@ public:
 
     void downloadVideoId(QString videoId, QString title, double duration = 0);
     void downloadAudioId(QString videoId, QString title, double duration = 0);
-    void download(QString url, QString title, QString id, double duration);
+    void download(QString url, QString title, QString id, double duration, const QString & saveas = QString::null);
     QString getUniqueFileName(QString name);
     bool eventFilter(QObject *watched, QEvent *event);
 
