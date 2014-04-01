@@ -24,6 +24,7 @@
 #include <QMap>
 
 #define YT_GET_VIDEOINFO
+#define YT_DASH_SUPPORT
 
 class RetrieveYoutubeUrl : public QObject
 {
@@ -54,7 +55,9 @@ public:
 	static QString findPreferredUrl(const QMap<int, QString>& urlMap, Quality q);
 	QString findPreferredUrl();
 
+#ifdef YT_DASH_SUPPORT
 	static QString findBestAudio(const QMap<int, QString>& urlMap);
+#endif
 
 	QString urlTitle() { return url_title; }
 	QString latestPreferredUrl() { return latest_preferred_url; }

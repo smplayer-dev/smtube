@@ -149,11 +149,13 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 		fmtArray = regex.cap(1);
 	}
 
+#ifdef YT_DASH_SUPPORT
 	QRegExp regex2("\\\"adaptive_fmts\\\"\\s*:\\s*\\\"([^\\\"]*)");
 	if (regex2.indexIn(replyString) != -1) {
 		if (!fmtArray.isEmpty()) fmtArray += ",";
 		fmtArray += regex2.cap(1);
 	}
+#endif
 
 	fmtArray = sanitizeForUnicodePoint(fmtArray);
 	fmtArray.replace(QRegExp("\\\\(.)"), "\\1");
@@ -346,8 +348,11 @@ void RetrieveYoutubeUrl::parseVideoInfo(QByteArray text) {
 
 	QByteArray fmtArray;
 	fmtArray = all.queryItemValue("url_encoded_fmt_stream_map").toLatin1();
+
+#ifdef YT_DASH_SUPPORT
 	if (!fmtArray.isEmpty()) fmtArray += ",";
 	fmtArray += all.queryItemValue("adaptive_fmts").toLatin1();
+#endif
 
 	/*
 	qDebug("fmtArray: %s", fmtArray.constData());
@@ -520,6 +525,7 @@ QString RetrieveYoutubeUrl::findPreferredUrl(const QMap<int, QString>& urlMap, Q
 	return p_url;
 }
 
+#ifdef YT_DASH_SUPPORT
 QString RetrieveYoutubeUrl::findBestAudio(const QMap<int, QString>& urlMap) {
 	QString url;
 
@@ -540,6 +546,7 @@ QString RetrieveYoutubeUrl::findBestAudio(const QMap<int, QString>& urlMap) {
 
 	return url;
 }
+#endif
 
 QString RetrieveYoutubeUrl::sanitizeForUnicodePoint(QString string) {
 	QRegExp rx("\\\\u(\\d{4})");
