@@ -50,6 +50,7 @@ void RetrieveYoutubeUrl::fetchPage(const QString & url) {
 
 	QNetworkRequest req(url);
 	req.setRawHeader("User-Agent", agent.toLatin1());
+	req.setRawHeader("Accept-Language", "en-us,en;q=0.5");
 	reply = manager->get(req);
 	connect(reply, SIGNAL(finished()), this, SLOT(gotResponse()));
 	orig_url = url;
@@ -69,6 +70,7 @@ void RetrieveYoutubeUrl::fetchVideoInfoPage() {
 	YTSig::check(url);
 	QNetworkRequest req(url);
 	req.setRawHeader("User-Agent", user_agent.toLatin1());
+	req.setRawHeader("Accept-Language", "en-us,en;q=0.5");
 	reply = manager->get(req);
 	connect(reply, SIGNAL(finished()), this, SLOT(gotVideoInfoResponse()));
 
