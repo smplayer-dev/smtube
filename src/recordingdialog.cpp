@@ -333,13 +333,13 @@ void RecordingDialog::recordAudio(const QMap<int, QString>& map, QString title, 
 	qDebug("RecordingDialog::recordAudio");
 
 	QString url = RetrieveYoutubeUrl::findBestAudio(map);
-	url += "&ratebypass=yes";
 
 	if (url.isEmpty()) {
 		QMessageBox::warning(0, tr("Recording failed"), tr("There was an error in retrieving the download URL."));
 		return;
 	}
 
+	url += "&ratebypass=yes";
 	download(url, title, id, 0, QString::null, false);
 }
 
