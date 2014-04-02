@@ -867,7 +867,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="735"/>
         <source>R&amp;ecord audio</source>
-        <translation>S&amp;carica audio</translation>
+        <translation>Scarica &amp;audio</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="739"/>
@@ -939,7 +939,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="734"/>
         <source>&amp;Record video</source>
-        <translation>&amp;Scarica video</translation>
+        <translation>Scarica &amp;video</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="736"/>
@@ -949,7 +949,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="737"/>
         <source>&amp;Copy link</source>
-        <translation>&amp;Copia indirizzo</translation>
+        <translation>Copia &amp;indirizzo</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="249"/>
