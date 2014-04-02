@@ -286,9 +286,6 @@ void RecordingDialog::recordVideo(const QMap<int, QString>& map, QString title, 
 			QString video_url = map.value(RetrieveYoutubeUrl::DASH_VIDEO_1080p, QString());
 			QString audio_url = RetrieveYoutubeUrl::findBestAudio(map);
 			if (!video_url.isEmpty() && !audio_url.isEmpty()) {
-				video_url += "&ratebypass=yes";
-				audio_url += "&ratebypass=yes";
-
 				//qDebug("RecordingDialog::recordVideo: video_url: %s", video_url.toLatin1().constData());
 				//qDebug("RecordingDialog::recordVideo: audio_url: %s", audio_url.toLatin1().constData());
 
@@ -339,7 +336,6 @@ void RecordingDialog::recordAudio(const QMap<int, QString>& map, QString title, 
 		return;
 	}
 
-	url += "&ratebypass=yes";
 	download(url, title, id, 0, QString::null, false);
 }
 
