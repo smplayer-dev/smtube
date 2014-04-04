@@ -46,6 +46,7 @@
 
 #ifdef Q_WS_AMIGA // zzd10h
 #include <QProcess>
+#include <QDesktopWidget>
 #endif
 
 RecordingDelegate::RecordingDelegate(QObject *parent)
@@ -232,6 +233,16 @@ RecordingDialog::RecordingDialog(QWidget *parent, QSettings * s) :
     downloadList->setFrameStyle(QFrame::Plain | QFrame::NoFrame);
     downloadList->viewport()->setMouseTracking(true);
     resize(500, 300);
+
+#ifdef Q_WS_AMIGA
+	// zzd10h - center the download recording dialog
+	QDesktopWidget workbench;
+	QRect dimension_workbench = workbench.screenGeometry();
+	int x = dimension_workbench.width()/2 - width()/2;
+	int y = dimension_workbench.height()/2 - height()/2;
+	move(x,y);
+#endif
+
     QAbstractItemModel* downloadModel = downloadList->model();
 
     connect(clearListButton, SIGNAL(clicked()), this, SLOT(clearList()));    
