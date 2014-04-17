@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_TW">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -38,7 +36,7 @@
     <message>
         <location filename="../about.cpp" line="35"/>
         <source>Based on UMPlayer</source>
-        <translation>基于 UMPlayer</translation>
+        <translation>基於 UMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="37"/>
@@ -273,17 +271,17 @@
     <message>
         <location filename="../about.cpp" line="137"/>
         <source>Slovak</source>
-        <translation type="unfinished"></translation>
+        <translation>斯洛伐克</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="138"/>
         <source>British English</source>
-        <translation type="unfinished"></translation>
+        <translation>英式英語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="139"/>
         <source>Albanian</source>
-        <translation type="unfinished"></translation>
+        <translation>阿爾巴尼亞</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="164"/>
@@ -564,9 +562,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="481"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform> %n 個影片的 %1% 已完成 - 正在錄製</numerusform>
-        </translation>
+        <translation><numerusform> %n 個影片的 %1% 已完成 - 正在錄製</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="566"/>
@@ -620,192 +616,192 @@
     <message>
         <location filename="../regions.cpp" line="26"/>
         <source>Argentina</source>
-        <translation type="unfinished"></translation>
+        <translation>阿根廷</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="27"/>
         <source>Australia</source>
-        <translation type="unfinished"></translation>
+        <translation>澳洲</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="29"/>
         <source>Belgium</source>
-        <translation type="unfinished"></translation>
+        <translation>比利時</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="30"/>
         <source>Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>巴西</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="31"/>
         <source>Canada</source>
-        <translation type="unfinished"></translation>
+        <translation>加拿大</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="32"/>
         <source>Chile</source>
-        <translation type="unfinished"></translation>
+        <translation>智利</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="33"/>
         <source>Colombia</source>
-        <translation type="unfinished"></translation>
+        <translation>哥倫比亞</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Czech Republic</source>
-        <translation type="unfinished"></translation>
+        <translation>捷克</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
         <source>Egypt</source>
-        <translation type="unfinished"></translation>
+        <translation>埃及</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="36"/>
         <source>France</source>
-        <translation type="unfinished"></translation>
+        <translation>法國</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="37"/>
         <source>Germany</source>
-        <translation type="unfinished"></translation>
+        <translation>德國</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="38"/>
         <source>Great Britain</source>
-        <translation type="unfinished"></translation>
+        <translation>英國</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="39"/>
         <source>Hong Kong</source>
-        <translation type="unfinished"></translation>
+        <translation>香港</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="40"/>
         <source>Hungary</source>
-        <translation type="unfinished"></translation>
+        <translation>匈牙利</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="41"/>
         <source>India</source>
-        <translation type="unfinished"></translation>
+        <translation>印度</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="42"/>
         <source>Ireland</source>
-        <translation type="unfinished"></translation>
+        <translation>愛爾蘭</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="43"/>
         <source>Israel</source>
-        <translation type="unfinished"></translation>
+        <translation>以色列</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="44"/>
         <source>Italy</source>
-        <translation type="unfinished"></translation>
+        <translation>意大利</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="45"/>
         <source>Japan</source>
-        <translation type="unfinished"></translation>
+        <translation>日本</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="46"/>
         <source>Jordan</source>
-        <translation type="unfinished"></translation>
+        <translation>約旦</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="47"/>
         <source>Malaysia</source>
-        <translation type="unfinished"></translation>
+        <translation>馬來西亞</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="48"/>
         <source>Mexico</source>
-        <translation type="unfinished"></translation>
+        <translation>墨西哥</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="49"/>
         <source>Morocco</source>
-        <translation type="unfinished"></translation>
+        <translation>摩洛哥</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="50"/>
         <source>Netherlands</source>
-        <translation type="unfinished"></translation>
+        <translation>荷蘭</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="51"/>
         <source>New Zealand</source>
-        <translation type="unfinished"></translation>
+        <translation>紐西蘭</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="52"/>
         <source>Peru</source>
-        <translation type="unfinished"></translation>
+        <translation>秘魯</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="53"/>
         <source>Philippines</source>
-        <translation type="unfinished"></translation>
+        <translation>菲律賓</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="54"/>
         <source>Poland</source>
-        <translation type="unfinished"></translation>
+        <translation>波蘭</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="55"/>
         <source>Russia</source>
-        <translation type="unfinished"></translation>
+        <translation>俄羅斯</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="56"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>沙烏地阿拉伯</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="57"/>
         <source>Singapore</source>
-        <translation type="unfinished"></translation>
+        <translation>新加坡</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="58"/>
         <source>South Africa</source>
-        <translation type="unfinished"></translation>
+        <translation>南非</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="59"/>
         <source>South Korea</source>
-        <translation type="unfinished"></translation>
+        <translation>南韓</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="60"/>
         <source>Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>西班牙</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="61"/>
         <source>Sweden</source>
-        <translation type="unfinished"></translation>
+        <translation>瑞典</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="63"/>
         <source>Taiwan</source>
-        <translation type="unfinished"></translation>
+        <translation>台灣</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="64"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished"></translation>
+        <translation>阿拉伯聯合大公國</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="65"/>
         <source>United States</source>
-        <translation type="unfinished"></translation>
+        <translation>美國</translation>
     </message>
 </context>
 <context>
@@ -871,7 +867,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="735"/>
         <source>R&amp;ecord audio</source>
-        <translation type="unfinished"></translation>
+        <translation>錄製音訊(&amp;E)</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="739"/>
@@ -918,12 +914,12 @@
     <message>
         <location filename="../ytdialog.cpp" line="506"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation>在YouTube%1上最受歡迎的運動影片</translation>
+        <translation>在 YouTube%1上最受歡迎的運動影片</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="507"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation>在YouTube%1上最受歡迎的音樂影片</translation>
+        <translation>在 YouTube%1上最受歡迎的音樂影片</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="634"/>
