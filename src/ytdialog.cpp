@@ -881,6 +881,13 @@ void YTDialog::handleMessage(const QString& message)
         qDebug("YTDialog::handleMessage: search_term: '%s'", search_term.toUtf8().constData());
         setSearchTerm(search_term);
     }
+    else
+    if (message.startsWith("download "))
+    {
+        QString download_url = message.mid(9);
+        qDebug("YTDialog::handleMessage: download_url: '%s'", download_url.toUtf8().constData());
+        downloadUrl(download_url);
+    }
 }
 #endif
 
