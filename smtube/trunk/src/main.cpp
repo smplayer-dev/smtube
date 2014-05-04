@@ -121,10 +121,13 @@ int main( int argc, char ** argv )
 	}
 
 #ifdef USE_SINGLE_APPLICATION
-	QString message;
-	if (!search_term.isEmpty()) message = "search " + search_term;
-	if (a.isRunning()) { 
+	if (a.isRunning()) {
+		QString message;
+		if (!search_term.isEmpty()) message = "search " + search_term;
 		a.sendMessage(message);
+		if (!download_url.isEmpty()) {
+			a.sendMessage("download " + download_url);
+		}
 		qDebug("Another instance is running. Exiting.");
 		return 0;
 	}
