@@ -262,6 +262,17 @@ RecordingDialog::~RecordingDialog()
     }
 }
 
+void RecordingDialog::downloadUrl(const QString & url) {
+    RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
+    rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) recording_quality);
+    connect(rvu, SIGNAL(signatureNotFound(const QString &)), this, SIGNAL(signatureNotFound(const QString &)));
+    connect(rvu, SIGNAL(gotVideoInfo(const QMap<int, QString>&, QString, QString)), this, SLOT(recordVideo(const QMap<int, QString>&, QString, QString)));
+    connect(rvu, SIGNAL(gotVideoInfo(const QMap<int, QString>&, QString, QString)), rvu, SLOT(deleteLater()));
+    rvu->fetchPage(url);
+
+    if (!isVisible()) show();
+}
+
 void RecordingDialog::downloadVideoId(QString videoId, QString title, double)
 {
     RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
@@ -288,7 +299,7 @@ void RecordingDialog::downloadAudioId(QString videoId, QString title, double) {
 }
 
 void RecordingDialog::recordVideo(const QMap<int, QString>& map, QString title, QString id) {
-	qDebug("RecordingDialog::recordVideo");
+	qDebug("RecordingDialog::recordVideo: title: '%s' id: %s", title.toUtf8().constData(), id.toUtf8().constData());
 
 	if (recording_quality == RetrieveYoutubeUrl::MP4_1080p || recording_quality == RetrieveYoutubeUrl::WEBM_1080p) {
 		if (!map.contains(RetrieveYoutubeUrl::MP4_1080p) && !map.contains(RetrieveYoutubeUrl::WEBM_1080p)) {

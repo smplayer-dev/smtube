@@ -792,6 +792,13 @@ void YTDialog::recordAudioItem(QListWidgetItem *item)
     recording_dialog->downloadAudioId(svi->videoid, svi->header, 0);
 }
 
+void YTDialog::downloadUrl(const QString & url) {
+	#ifdef YT_USE_SCRIPT
+	YTSig::setScriptFile(script_file);
+	#endif
+	recording_dialog->downloadUrl(url);
+}
+
 void YTDialog::playVideo(QString file) 
 {
 #ifdef USE_PLAYERS

@@ -98,6 +98,7 @@ int main( int argc, char ** argv )
 
 	QString search_term;
 	QString language;
+	QString download_url;
 
 	QStringList args = qApp->arguments();
 	for (int n = 1; n < args.count(); n++) {
@@ -106,6 +107,13 @@ int main( int argc, char ** argv )
 			if (n+1 < args.count()) {
 				n++;
 				language = args[n];
+			}
+		}
+		else
+		if (argument == "-url") {
+			if (n+1 < args.count()) {
+				n++;
+				download_url = args[n];
 			}
 		}
 		else
@@ -163,6 +171,7 @@ int main( int argc, char ** argv )
 		yt->setMode(YTDialog::Button);
 	}
 	yt->show();
+	if (!download_url.isEmpty()) yt->downloadUrl(download_url);
 
 	int r = a.exec();
 
