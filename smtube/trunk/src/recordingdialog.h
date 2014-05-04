@@ -101,6 +101,7 @@ public:
     RecordingDialog(QWidget *parent = 0, QSettings * s = 0);
     ~RecordingDialog();
 
+    void downloadUrl(const QString & url);
     void downloadVideoId(QString videoId, QString title, double duration = 0);
     void downloadAudioId(QString videoId, QString title, double duration = 0);
     void download(QString url, QString title, QString id, double duration, const QString & saveas = QString::null, bool retry_possible = true);

@@ -269,6 +269,9 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 	if (!p_url.isNull()) {
 		emit gotUrls(urlMap);
 		emit gotPreferredUrl(p_url);
+		#ifdef YT_GET_VIDEOINFO
+		emit gotVideoInfo(urlMap, url_title, video_id);
+		#endif
 	} else {
 		 emit gotEmptyList();
 	}
@@ -454,6 +457,9 @@ void RetrieveYoutubeUrl::parseVideoInfo(QByteArray text) {
 	if (!p_url.isNull()) {
 		emit gotUrls(urlMap);
 		emit gotPreferredUrl(p_url);
+		#ifdef YT_GET_VIDEOINFO
+		emit gotVideoInfo(urlMap, url_title, video_id);
+		#endif
 	} else {
 		 emit gotEmptyList();
 	}

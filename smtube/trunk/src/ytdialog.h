@@ -204,6 +204,7 @@ public slots:
     void playVideo(QString file);
     void playYTUrl(const QString &url, QString title, QString id);
     void addToPlaylist(const QString &url);
+    void downloadUrl(const QString & url);
 
 protected slots:
     void showConfigDialog();
