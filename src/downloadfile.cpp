@@ -175,7 +175,7 @@ void DownloadFile::gotMetaData()
 
 void DownloadFile::finished(QNetworkReply *rep)
 {
-        qDebug() << reply->error() << reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl();
+        //qDebug() << "DownloadFile::finished:" << reply->error() << reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl();
         if(reply->error() != QNetworkReply::NoError  && reply->error() != QNetworkReply::ContentOperationNotPermittedError ) return;
         file->close();
         QUrl url = reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl();
@@ -193,13 +193,14 @@ void DownloadFile::finished(QNetworkReply *rep)
         }
 }
 
-void DownloadFile::cancel()
-{
-        reply->disconnect(this, SLOT(downloaded(qint64,qint64)));
-        reply->disconnect(this, SLOT(gotMetaData()));
-        reply->abort();
-        if(file->isOpen()) file->close();
-        file->remove();
+void DownloadFile::cancel() {
+	if (reply) {
+		reply->disconnect(this, SLOT(downloaded(qint64,qint64)));
+		reply->disconnect(this, SLOT(gotMetaData()));
+		reply->abort();
+	}
+	if (file->isOpen()) file->close();
+	file->remove();
 }
 
 void DownloadFile::emitError(QNetworkReply::NetworkError error)
