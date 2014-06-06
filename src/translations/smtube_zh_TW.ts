@@ -867,7 +867,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="735"/>
         <source>R&amp;ecord audio</source>
-        <translation>錄製音訊(&amp;E)</translation>
+        <translation>錄製聲音(&amp;E)</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="739"/>
