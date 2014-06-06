@@ -934,12 +934,12 @@
     <message>
         <location filename="../ytdialog.cpp" line="733"/>
         <source>&amp;Play video</source>
-        <translation>&amp;Video abspielen</translation>
+        <translation>Video &amp;wiedergeben</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="734"/>
         <source>&amp;Record video</source>
-        <translation>Vi&amp;deo aufnehmen</translation>
+        <translation>Video &amp;aufnehmen</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="736"/>
