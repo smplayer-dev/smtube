@@ -739,9 +739,7 @@ void YTDialog::showContextMenu(QPoint point)
     QMenu menu;
     menu.addAction(tr("&Play video"))->setData("play");
     menu.addAction(tr("&Record video"))->setData("record");
- #ifndef Q_WS_AMIGA // zzd10h
     menu.addAction(tr("R&ecord audio"))->setData("record_audio");
- #endif
     menu.addAction(tr("&Watch on YouTube"))->setData("watch");
     menu.addAction(tr("&Copy link"))->setData("link");
  #ifndef Q_WS_AMIGA // zzd10h
