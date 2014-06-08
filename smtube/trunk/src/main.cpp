@@ -29,6 +29,10 @@
 #include <QDir>
 #include "ytdialog.h"
 
+#ifdef Q_WS_AMIGA // zzd10h
+const char* __attribute__((used)) stack_cookie = "\0$STACK:500000\0";
+#endif
+
 QString configPath() {
 #ifdef PORTABLE_APP
     return qApp->applicationDirPath();
@@ -68,6 +72,10 @@ QString smplayerConfigPath() {
 #endif // YT_USE_SCRIPT
 
 QString translationsPath() {
+#ifdef Q_WS_AMIGA // zzd10h
+	QDir::setCurrent(qApp->applicationDirPath());
+#endif
+
 	QString path = "translations";
 #if !defined(Q_OS_WIN)
 #ifdef TRANSLATION_PATH

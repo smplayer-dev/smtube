@@ -15,7 +15,7 @@ Prerequisites :
 
 1- Download the current svn sources : 
 
-svn co https://subversion.assembla.com/svn/smplayer/smtube/trunk/ smtube 
+svn co http://subversion.assembla.com/svn/smplayer/smtube/trunk/ smtube 
 
 2- in the SMTube svn drawer, in a CLI window, type : 
 
@@ -53,7 +53,6 @@ For example: MPLAYER_CONSOLE = "1450/975/465/99"  to get a log console in the bo
 Could be useful to debug if the streaming failed. 
 SECONDS = 10 
 
-
 Many thanks to : 
 
 Ricardo 'rvm' Villalba for his SMTube program and for having included AmigaOS4 modifications 
@@ -63,4 +62,4 @@ Alfkil Thorbjørn Wennermark for the AmigaOS 4.1 port of Qt
 
   
 Guillaume 'zzd10h' Boesel 
-2014/01/23 
+2014/06/01 

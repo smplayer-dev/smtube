@@ -9,20 +9,23 @@ parse arg type url
 
 MPLAYER_OPTIONS = ""					
 DEBUG = ON
-WAIT = ON
-SECONDS = 10
+WAIT = OFF
+SECONDS = 3
 MPLAYER = "APPDIR:MPlayer" 
 MPLAYER_CONSOLE = "0/400/640/400" 
 /*MPLAYER_CONSOLE = "1450/975/465/99" */	/* console in lower right corner ONLY for 1920x1080 screen */
-
+/*MPLAYER_CONSOLE = "9999/9999/400/100" */	/* console in lower right corner ONLY for 1920x1080 screen */
 
 /* END OF UPDATABLES PARAMETERS */
 
 /* examples */
-/*MPLAYER = "APPDIR:MPlayer_SDL_1.1.4" */
-/*MPLAYER = "APPDIR:MPlayer_MUI" */	 	
-/*MPLAYER_OPTIONS = "-vo cgx_wpa -cache 8192" */		/* for MUI-Mplayer without overlay */
 
+/* MPLAYER = "APPDIR:MPlayer_SDL_1.1_Altivec_cache" */
+/* optimisations from K-L (compatible with MUI-MPlayer Overlay and SDL-MPlayer) */ 
+/*MPLAYER_OPTIONS = "-cache 8192 -cache-min 20 -autoq 100 -autosync 30" */
+
+/* optimisations from K-L (compatible with MUI-MPlayer NON-Overlay) */ 
+/*MPLAYER_OPTIONS = "-vo cgx_wpa -cache-min 20 -autoq 100 -autosync 30" */ 
 
 /* DON'T MODIFY BELOW THESE LINES */
 /* DON'T MODIFY BELOW THESE LINES */
@@ -46,6 +49,9 @@ then do
 
 	url = INSERT('"',url)
 	url = INSERT('"',url,length(url))
+
+	type = substr(url,lastpos(".",url)+1,3)
+
 end
 
 if DEBUG = ON, 
@@ -56,6 +62,7 @@ then do
 	open(STDOUT, 'con:'MPLAYER_CONSOLE'/smTube AmigaOS4 console/CLOSE',W) 
 
 	say "URL = "url
+
 	say "Mplayer options ="MPLAYER_OPTIONS 
 
 	ADDRESS COMMAND MPLAYER MPLAYER_OPTIONS url
@@ -71,6 +78,7 @@ then do
 	SAY "This DEBUG console can be turned OFF in Amiga\PlayVideo.rexx (DEBUG = OFF)."
 	SAY " "	
 
+   
 	if wait = ON, 
 	then do
 		SAY "Waiting "SECONDS" seconds before to close this debug window..."
@@ -85,7 +93,6 @@ then do
 	else do
 		SAY "----------------------------------------------------------------------"
 	end
-
 	call close STDOUT
 end
 else do	

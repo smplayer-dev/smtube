@@ -493,6 +493,13 @@ void YTDialog::addTab(Tabs tab)
     {
         index = tabBar->addTab(tr("Sports"));
     }    
+
+#ifdef Q_WS_AMIGA  // zzd10h  
+    QStringList args = qApp->arguments();
+    if(tab != Relevant && args.count() )
+        tabBar->setTabEnabled(index,false);
+#endif
+
     tabBar->setTabData(index, tab);
 }
 
@@ -732,7 +739,9 @@ void YTDialog::showContextMenu(QPoint point)
     QMenu menu;
     menu.addAction(tr("&Play video"))->setData("play");
     menu.addAction(tr("&Record video"))->setData("record");
+ #ifndef Q_WS_AMIGA // zzd10h
     menu.addAction(tr("R&ecord audio"))->setData("record_audio");
+ #endif
     menu.addAction(tr("&Watch on YouTube"))->setData("watch");
     menu.addAction(tr("&Copy link"))->setData("link");
  #ifndef Q_WS_AMIGA // zzd10h
@@ -893,7 +902,11 @@ void YTDialog::handleMessage(const QString& message)
 
 void YTDialog::showErrorDialog(const QString & error) 
 {
+#ifndef Q_WS_AMIGA  // zzd10h  
     QMessageBox::warning(this, tr("Error"), error);
+#else
+    QMessageBox::warning(this, tr("Error"),"<center>"+error.leftJustified(150, ' ')+"</center>");
+#endif
 }
 
 void YTDialog::showErrorSignatureNotFound(const QString & title) {
