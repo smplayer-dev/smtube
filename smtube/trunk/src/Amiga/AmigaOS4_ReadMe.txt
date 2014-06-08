@@ -53,6 +53,10 @@ For example: MPLAYER_CONSOLE = "1450/975/465/99"  to get a log console in the bo
 Could be useful to debug if the streaming failed. 
 SECONDS = 10 
 
+5- when downloading an "audio stream" an extra step is required as M4A DASH is not supported by AmigaAmp or TuneNet
+	
+	APPDIR:ffmpeg -i "input.m4a" -b:a 128k "output.MP3"
+
 Many thanks to : 
 
 Ricardo 'rvm' Villalba for his SMTube program and for having included AmigaOS4 modifications 
