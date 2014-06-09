@@ -37,6 +37,7 @@
 #include <QLabel>
 #include <QMenu>
 #include <QMessageBox>
+#include <QInputDialog>
 #include <QSettings>
 #include "recordingdialog.h"
 #include "downloadfile.h"
@@ -208,9 +209,11 @@ RecordingDialog::RecordingDialog(QWidget *parent, QSettings * s) :
     setWindowTitle(tr("Recordings"));
     clearListButton = new QPushButton(tr("&Clear list"), this);
     openFolderButton = new QPushButton(tr("&Open folder"), this);
+    enterUrlButton = new QPushButton(tr("&Enter URL"), this);
     downloadList = new QListWidget(this);
 
     QHBoxLayout* hbox = new QHBoxLayout;
+    hbox->addWidget(enterUrlButton);
     hbox->addWidget(clearListButton);
     hbox->addSpacerItem(new QSpacerItem(10, 10, QSizePolicy::Expanding, QSizePolicy::Preferred));
     hbox->addWidget(openFolderButton);
@@ -251,6 +254,7 @@ RecordingDialog::RecordingDialog(QWidget *parent, QSettings * s) :
     connect(downloadList, SIGNAL(itemDoubleClicked(QListWidgetItem*)), this, SLOT(videoDoubleClicked(QListWidgetItem*)));
     connect(downloadModel, SIGNAL(dataChanged(QModelIndex,QModelIndex)), this, SLOT(updateClearListButton()));
     connect(openFolderButton, SIGNAL(clicked()), this, SLOT(openFolder()));
+    connect(enterUrlButton, SIGNAL(clicked()), this, SLOT(enterUrl()));
     loadList();
 }
 
@@ -882,6 +886,20 @@ void RecordingDialog::openFolder()
  #else
     QDesktopServices::openUrl(QUrl::fromLocalFile(recordings_directory));
  #endif
+}
+
+void RecordingDialog::enterUrl() {
+	qDebug("RecordingDialog::enterUrl");
+	QString url = QInputDialog::getText(this, tr("Enter a URL"),
+                                        tr("Enter a Youtube URL to download"));
+	if (!url.isEmpty()) {
+		RetrieveYoutubeUrl r(this);
+		QString full_url = r.fullUrl(url);
+		qDebug("RecordingDialog::enterUrl: full_url: %s", full_url.toUtf8().constData());
+		if (!full_url.isEmpty()) {
+			downloadUrl(full_url);
+		}
+	}
 }
 
 void RecordingDialog::saveList()
