@@ -507,27 +507,27 @@
 <context>
     <name>RecordingDelegate</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="125"/>
+        <location filename="../recordingdialog.cpp" line="126"/>
         <source>Canceled</source>
         <translation>أُلغيَ</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="125"/>
+        <location filename="../recordingdialog.cpp" line="126"/>
         <source>Error</source>
         <translation>خطأ</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="155"/>
+        <location filename="../recordingdialog.cpp" line="156"/>
         <source>%1 MB</source>
         <translation>%1 م ب</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="159"/>
+        <location filename="../recordingdialog.cpp" line="160"/>
         <source>%1 KB</source>
         <translation>%1 ك ب</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="163"/>
+        <location filename="../recordingdialog.cpp" line="164"/>
         <source>%1 bytes</source>
         <translation>%1 بايت</translation>
     </message>
@@ -535,54 +535,59 @@
 <context>
     <name>RecordingDialog</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="208"/>
-        <location filename="../recordingdialog.cpp" line="527"/>
+        <location filename="../recordingdialog.cpp" line="209"/>
+        <location filename="../recordingdialog.cpp" line="531"/>
         <source>Recordings</source>
         <translation>التسجيلات</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="209"/>
+        <location filename="../recordingdialog.cpp" line="210"/>
         <source>&amp;Clear list</source>
         <translation>مسح ال&amp;قائمة</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="210"/>
-        <location filename="../recordingdialog.cpp" line="658"/>
+        <location filename="../recordingdialog.cpp" line="211"/>
+        <location filename="../recordingdialog.cpp" line="662"/>
         <source>&amp;Open folder</source>
         <translation>ف&amp;تح المجلد</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
-        <location filename="../recordingdialog.cpp" line="357"/>
-        <location filename="../recordingdialog.cpp" line="777"/>
+        <location filename="../recordingdialog.cpp" line="212"/>
+        <source>&amp;Enter URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../recordingdialog.cpp" line="349"/>
+        <location filename="../recordingdialog.cpp" line="361"/>
+        <location filename="../recordingdialog.cpp" line="781"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>حصل خطأ اثناء استحضار رابط التحميل.</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
-        <location filename="../recordingdialog.cpp" line="357"/>
-        <location filename="../recordingdialog.cpp" line="777"/>
+        <location filename="../recordingdialog.cpp" line="349"/>
+        <location filename="../recordingdialog.cpp" line="361"/>
+        <location filename="../recordingdialog.cpp" line="781"/>
         <source>Recording failed</source>
         <translation>فشل التسجيل</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="413"/>
-        <location filename="../recordingdialog.cpp" line="795"/>
+        <location filename="../recordingdialog.cpp" line="417"/>
+        <location filename="../recordingdialog.cpp" line="799"/>
         <source>Starting</source>
         <translation>يجري البدأ</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="448"/>
+        <location filename="../recordingdialog.cpp" line="452"/>
         <source>Error</source>
         <translation>خطأ</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="452"/>
+        <location filename="../recordingdialog.cpp" line="456"/>
         <source>Completed</source>
         <translation>اكتمل</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="531"/>
+        <location filename="../recordingdialog.cpp" line="535"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>لا تسجيل فيديو من %n</numerusform>
@@ -594,48 +599,58 @@
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="616"/>
+        <location filename="../recordingdialog.cpp" line="620"/>
         <source>&amp;Cancel</source>
         <translation>أل&amp;غِ</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="618"/>
+        <location filename="../recordingdialog.cpp" line="622"/>
         <source>&amp;Remove from list</source>
         <translation>أز&amp;ل من القائمة</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="639"/>
-        <location filename="../recordingdialog.cpp" line="661"/>
+        <location filename="../recordingdialog.cpp" line="643"/>
+        <location filename="../recordingdialog.cpp" line="665"/>
         <source>Remove from &amp;list</source>
         <translation>أزل من الق&amp;ائمة</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="635"/>
+        <location filename="../recordingdialog.cpp" line="893"/>
+        <source>Enter a URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../recordingdialog.cpp" line="894"/>
+        <source>Enter a Youtube URL to download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../recordingdialog.cpp" line="639"/>
         <source>&amp;Retry</source>
         <translation>أعد المحاول&amp;ة</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="657"/>
+        <location filename="../recordingdialog.cpp" line="661"/>
         <source>&amp;Play</source>
         <translation>تش&amp;غيل</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="660"/>
+        <location filename="../recordingdialog.cpp" line="664"/>
         <source>&amp;Delete</source>
         <translation>حذ&amp;ف</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="742"/>
+        <location filename="../recordingdialog.cpp" line="746"/>
         <source>Fetching URL...</source>
         <translation>استحضار الرابط...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="759"/>
+        <location filename="../recordingdialog.cpp" line="763"/>
         <source>File error</source>
         <translation>خطأ في الملف</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="760"/>
+        <location filename="../recordingdialog.cpp" line="764"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>الملف غير موجود، أترغب في ازالته من اللائحة؟</translation>
     </message>
