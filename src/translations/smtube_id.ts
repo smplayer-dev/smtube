@@ -507,27 +507,27 @@
 <context>
     <name>RecordingDelegate</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="125"/>
+        <location filename="../recordingdialog.cpp" line="126"/>
         <source>Canceled</source>
         <translation>DIbatalkan</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="125"/>
+        <location filename="../recordingdialog.cpp" line="126"/>
         <source>Error</source>
         <translation>Kesalahan</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="155"/>
+        <location filename="../recordingdialog.cpp" line="156"/>
         <source>%1 MB</source>
         <translation>%1 MB</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="159"/>
+        <location filename="../recordingdialog.cpp" line="160"/>
         <source>%1 KB</source>
         <translation>%1 KB</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="163"/>
+        <location filename="../recordingdialog.cpp" line="164"/>
         <source>%1 bytes</source>
         <translation>%1 bytes</translation>
     </message>
@@ -535,102 +535,117 @@
 <context>
     <name>RecordingDialog</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="208"/>
-        <location filename="../recordingdialog.cpp" line="527"/>
+        <location filename="../recordingdialog.cpp" line="209"/>
+        <location filename="../recordingdialog.cpp" line="531"/>
         <source>Recordings</source>
         <translation>Perekaman</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="209"/>
+        <location filename="../recordingdialog.cpp" line="210"/>
         <source>&amp;Clear list</source>
         <translation>%Bersihkan daftar</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="210"/>
-        <location filename="../recordingdialog.cpp" line="658"/>
+        <location filename="../recordingdialog.cpp" line="211"/>
+        <location filename="../recordingdialog.cpp" line="662"/>
         <source>&amp;Open folder</source>
         <translation>Buka f&amp;older</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
-        <location filename="../recordingdialog.cpp" line="357"/>
-        <location filename="../recordingdialog.cpp" line="777"/>
+        <location filename="../recordingdialog.cpp" line="212"/>
+        <source>&amp;Enter URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../recordingdialog.cpp" line="349"/>
+        <location filename="../recordingdialog.cpp" line="361"/>
+        <location filename="../recordingdialog.cpp" line="781"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Terdapat kesalahan dalam penerimaan URL unduhan.</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
-        <location filename="../recordingdialog.cpp" line="357"/>
-        <location filename="../recordingdialog.cpp" line="777"/>
+        <location filename="../recordingdialog.cpp" line="349"/>
+        <location filename="../recordingdialog.cpp" line="361"/>
+        <location filename="../recordingdialog.cpp" line="781"/>
         <source>Recording failed</source>
         <translation>Perekaman gagal</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="413"/>
-        <location filename="../recordingdialog.cpp" line="795"/>
+        <location filename="../recordingdialog.cpp" line="417"/>
+        <location filename="../recordingdialog.cpp" line="799"/>
         <source>Starting</source>
         <translation>Memulai</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="448"/>
+        <location filename="../recordingdialog.cpp" line="452"/>
         <source>Error</source>
         <translation>Kesalahan</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="452"/>
+        <location filename="../recordingdialog.cpp" line="456"/>
         <source>Completed</source>
         <translation>Selesai</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="531"/>
+        <location filename="../recordingdialog.cpp" line="535"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%1% dari %n video - Perekaman</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="616"/>
+        <location filename="../recordingdialog.cpp" line="620"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Batal</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="618"/>
+        <location filename="../recordingdialog.cpp" line="622"/>
         <source>&amp;Remove from list</source>
         <translation>Hapus dari dafta&amp;r</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="639"/>
-        <location filename="../recordingdialog.cpp" line="661"/>
+        <location filename="../recordingdialog.cpp" line="643"/>
+        <location filename="../recordingdialog.cpp" line="665"/>
         <source>Remove from &amp;list</source>
         <translation>Hapus dari &amp;daftar</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="635"/>
+        <location filename="../recordingdialog.cpp" line="893"/>
+        <source>Enter a URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../recordingdialog.cpp" line="894"/>
+        <source>Enter a Youtube URL to download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../recordingdialog.cpp" line="639"/>
         <source>&amp;Retry</source>
         <translation>&amp;Coba lagi</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="657"/>
+        <location filename="../recordingdialog.cpp" line="661"/>
         <source>&amp;Play</source>
         <translation>Main&amp;kan</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="660"/>
+        <location filename="../recordingdialog.cpp" line="664"/>
         <source>&amp;Delete</source>
         <translation>Ha&amp;pus</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="742"/>
+        <location filename="../recordingdialog.cpp" line="746"/>
         <source>Fetching URL...</source>
         <translation>Mengambil URL...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="759"/>
+        <location filename="../recordingdialog.cpp" line="763"/>
         <source>File error</source>
         <translation>Kesalahan berkas</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="760"/>
+        <location filename="../recordingdialog.cpp" line="764"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>berkas tidak ada, apakah anda ingin menghapusnya dari daftar?</translation>
     </message>

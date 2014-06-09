@@ -288,22 +288,22 @@
     <message>
         <location filename="../about.cpp" line="140"/>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>Холандски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="141"/>
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Румунски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="142"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>Кмерски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation>Телушки</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -507,27 +507,27 @@
 <context>
     <name>RecordingDelegate</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="125"/>
+        <location filename="../recordingdialog.cpp" line="126"/>
         <source>Canceled</source>
         <translation>Поништено</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="125"/>
+        <location filename="../recordingdialog.cpp" line="126"/>
         <source>Error</source>
         <translation>Грешка</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="155"/>
+        <location filename="../recordingdialog.cpp" line="156"/>
         <source>%1 MB</source>
         <translation>%1 МБ</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="159"/>
+        <location filename="../recordingdialog.cpp" line="160"/>
         <source>%1 KB</source>
         <translation>%1 KБ</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="163"/>
+        <location filename="../recordingdialog.cpp" line="164"/>
         <source>%1 bytes</source>
         <translation>%1 бајтова</translation>
     </message>
@@ -535,54 +535,59 @@
 <context>
     <name>RecordingDialog</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="208"/>
-        <location filename="../recordingdialog.cpp" line="527"/>
+        <location filename="../recordingdialog.cpp" line="209"/>
+        <location filename="../recordingdialog.cpp" line="531"/>
         <source>Recordings</source>
         <translation>Снимања</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="209"/>
+        <location filename="../recordingdialog.cpp" line="210"/>
         <source>&amp;Clear list</source>
         <translation>&amp;Очисти попис</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="210"/>
-        <location filename="../recordingdialog.cpp" line="658"/>
+        <location filename="../recordingdialog.cpp" line="211"/>
+        <location filename="../recordingdialog.cpp" line="662"/>
         <source>&amp;Open folder</source>
         <translation>&amp;Oтвори фасциклу</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
-        <location filename="../recordingdialog.cpp" line="357"/>
-        <location filename="../recordingdialog.cpp" line="777"/>
+        <location filename="../recordingdialog.cpp" line="212"/>
+        <source>&amp;Enter URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../recordingdialog.cpp" line="349"/>
+        <location filename="../recordingdialog.cpp" line="361"/>
+        <location filename="../recordingdialog.cpp" line="781"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Догодила се грешка код примања адресе преузимања.</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
-        <location filename="../recordingdialog.cpp" line="357"/>
-        <location filename="../recordingdialog.cpp" line="777"/>
+        <location filename="../recordingdialog.cpp" line="349"/>
+        <location filename="../recordingdialog.cpp" line="361"/>
+        <location filename="../recordingdialog.cpp" line="781"/>
         <source>Recording failed</source>
         <translation>Неуспело снимање</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="413"/>
-        <location filename="../recordingdialog.cpp" line="795"/>
+        <location filename="../recordingdialog.cpp" line="417"/>
+        <location filename="../recordingdialog.cpp" line="799"/>
         <source>Starting</source>
         <translation>Покретање</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="448"/>
+        <location filename="../recordingdialog.cpp" line="452"/>
         <source>Error</source>
         <translation>Грешка</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="452"/>
+        <location filename="../recordingdialog.cpp" line="456"/>
         <source>Completed</source>
         <translation>Завршено</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="531"/>
+        <location filename="../recordingdialog.cpp" line="535"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%1% од %n видео снимка - Снимања</numerusform>
@@ -591,48 +596,58 @@
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="616"/>
+        <location filename="../recordingdialog.cpp" line="620"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Поништи</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="618"/>
+        <location filename="../recordingdialog.cpp" line="622"/>
         <source>&amp;Remove from list</source>
         <translation>&amp;Уклони са пописа</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="639"/>
-        <location filename="../recordingdialog.cpp" line="661"/>
+        <location filename="../recordingdialog.cpp" line="643"/>
+        <location filename="../recordingdialog.cpp" line="665"/>
         <source>Remove from &amp;list</source>
         <translation>Уклони са &amp;пописа</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="635"/>
+        <location filename="../recordingdialog.cpp" line="893"/>
+        <source>Enter a URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../recordingdialog.cpp" line="894"/>
+        <source>Enter a Youtube URL to download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../recordingdialog.cpp" line="639"/>
         <source>&amp;Retry</source>
         <translation>&amp;Покушај поново</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="657"/>
+        <location filename="../recordingdialog.cpp" line="661"/>
         <source>&amp;Play</source>
         <translation>&amp;Репродукуј</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="660"/>
+        <location filename="../recordingdialog.cpp" line="664"/>
         <source>&amp;Delete</source>
         <translation>&amp;Уклони</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="742"/>
+        <location filename="../recordingdialog.cpp" line="746"/>
         <source>Fetching URL...</source>
         <translation>Дохватам УРЛ...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="759"/>
+        <location filename="../recordingdialog.cpp" line="763"/>
         <source>File error</source>
         <translation>Грешка фајла</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="760"/>
+        <location filename="../recordingdialog.cpp" line="764"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>Фајл не постоји, желите ли је уклонити са пописа?</translation>
     </message>
