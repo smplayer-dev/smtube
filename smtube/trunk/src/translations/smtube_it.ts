@@ -288,22 +288,22 @@
     <message>
         <location filename="../about.cpp" line="140"/>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>Olandese</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="141"/>
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Rumeno</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="142"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>Cambogiano</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation>Telugu</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -357,7 +357,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Si è verificato un errore durante lo scaricamento del file:&lt;br&gt;%1</translation>
+        <translation>Si è verificato un errore durante il tentativo di scaricamento del file:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -554,14 +554,14 @@
     <message>
         <location filename="../recordingdialog.cpp" line="212"/>
         <source>&amp;Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Inserisci &amp;URL</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="349"/>
         <location filename="../recordingdialog.cpp" line="361"/>
         <location filename="../recordingdialog.cpp" line="781"/>
         <source>There was an error in retrieving the download URL.</source>
-        <translation>Si è verificato un errore durante il recupero dell&apos;indirizzo da dove scaricare.</translation>
+        <translation>Si è verificato un errore durante il tentativo di recupero dell&apos;indirizzo da cui scaricare.</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="349"/>
@@ -613,12 +613,12 @@
     <message>
         <location filename="../recordingdialog.cpp" line="893"/>
         <source>Enter a URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Inserisci un URL</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="894"/>
         <source>Enter a Youtube URL to download</source>
-        <translation type="unfinished"></translation>
+        <translation>Inserisci indirizzo per scaricare da YouTube</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="639"/>
@@ -929,12 +929,12 @@
         <location filename="../ytdialog.cpp" line="919"/>
         <location filename="../ytdialog.cpp" line="930"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation>Sfortunatamente a causa delle recenti modifiche apportate a YouTube il video &apos;%1&apos; non è visualizzabile o registrabile.</translation>
+        <translation>Sfortunatamente a causa delle recenti modifiche apportate a YouTube il video &apos;%1&apos; che si sta cercando non è più visualizzabile o registrabile.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="931"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation>Forse aggiornando questa applicazione si potrebbe risolvere il problema.</translation>
+        <translation>Il problema potrebbe essere aggirabile aggiornando questa applicazione.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="517"/>

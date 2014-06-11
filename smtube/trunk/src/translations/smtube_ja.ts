@@ -554,7 +554,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="212"/>
         <source>&amp;Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL の入力(&amp;E)</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="349"/>
@@ -612,12 +612,12 @@
     <message>
         <location filename="../recordingdialog.cpp" line="893"/>
         <source>Enter a URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL の入力</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="894"/>
         <source>Enter a Youtube URL to download</source>
-        <translation type="unfinished"></translation>
+        <translation>ダウンロードする YouTube の URL を入力します</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="639"/>

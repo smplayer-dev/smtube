@@ -288,22 +288,22 @@
     <message>
         <location filename="../about.cpp" line="140"/>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>Néérlandais</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="141"/>
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Roumain</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="142"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>Khmer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation>Télougou</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -554,7 +554,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="212"/>
         <source>&amp;Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Entrez une URL</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="349"/>
@@ -613,12 +613,12 @@
     <message>
         <location filename="../recordingdialog.cpp" line="893"/>
         <source>Enter a URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Entrez une URL</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="894"/>
         <source>Enter a Youtube URL to download</source>
-        <translation type="unfinished"></translation>
+        <translation>Entrez une URL Youtube à télécharger</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="639"/>
