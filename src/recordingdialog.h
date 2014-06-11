@@ -117,7 +117,6 @@ public:
 private:
     QPushButton* clearListButton;
     QPushButton* openFolderButton;
-    QPushButton* enterUrlButton;
 
     QListWidget* downloadList;
     QListWidgetItem* pressedItemLeftButton;
@@ -151,7 +150,6 @@ public slots:
     void fetchUrlError(QString title, int error);
     void clearList();
     void openFolder();
-    void enterUrl();
     void updateClearListButton();
     void videoDoubleClicked(QListWidgetItem* item);
     void saveList();
