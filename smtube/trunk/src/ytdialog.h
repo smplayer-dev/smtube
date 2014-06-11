@@ -207,6 +207,7 @@ public slots:
     void downloadUrl(const QString & url);
 
 protected slots:
+    void enterUrl();
     void showConfigDialog();
     void showAboutDialog();
     void showErrorDialog(const QString & error);
@@ -235,6 +236,7 @@ private:
     QToolButton * configButton;
     QToolButton * infoButton;
     QToolButton * recordingButton;
+    QToolButton * enterUrlButton;
 
     QSettings * set;
     int playback_quality;
