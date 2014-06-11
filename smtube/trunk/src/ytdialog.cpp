@@ -289,6 +289,7 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     connect(recordingButton, SIGNAL(clicked()), recording_dialog, SLOT(show()));
 
     enterUrlButton = new QToolButton(this);
+    enterUrlButton->setIcon(QPixmap(":/icons/download.png"));
     enterUrlButton->setToolTip(tr("Enter URL"));
     enterUrlButton->setShortcut(QKeySequence("Alt+U"));
     connect(enterUrlButton, SIGNAL(clicked()), this, SLOT(enterUrl()));
