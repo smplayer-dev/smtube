@@ -507,27 +507,27 @@
 <context>
     <name>RecordingDelegate</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="126"/>
+        <location filename="../recordingdialog.cpp" line="125"/>
         <source>Canceled</source>
         <translation>Ακυρώθηκε</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="126"/>
+        <location filename="../recordingdialog.cpp" line="125"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="156"/>
+        <location filename="../recordingdialog.cpp" line="155"/>
         <source>%1 MB</source>
         <translation>%1 MB</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="160"/>
+        <location filename="../recordingdialog.cpp" line="159"/>
         <source>%1 KB</source>
         <translation>%1 KB</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="164"/>
+        <location filename="../recordingdialog.cpp" line="163"/>
         <source>%1 bytes</source>
         <translation>%1 bytes</translation>
     </message>
@@ -535,59 +535,54 @@
 <context>
     <name>RecordingDialog</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="209"/>
-        <location filename="../recordingdialog.cpp" line="531"/>
+        <location filename="../recordingdialog.cpp" line="208"/>
+        <location filename="../recordingdialog.cpp" line="527"/>
         <source>Recordings</source>
         <translation>Λήψεις</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="210"/>
+        <location filename="../recordingdialog.cpp" line="209"/>
         <source>&amp;Clear list</source>
         <translation>&amp;Εκκαθάριση λίστας</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="211"/>
-        <location filename="../recordingdialog.cpp" line="662"/>
+        <location filename="../recordingdialog.cpp" line="210"/>
+        <location filename="../recordingdialog.cpp" line="658"/>
         <source>&amp;Open folder</source>
         <translation>&amp;Άνοιγμα φακέλου</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="212"/>
-        <source>&amp;Enter URL</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../recordingdialog.cpp" line="349"/>
-        <location filename="../recordingdialog.cpp" line="361"/>
-        <location filename="../recordingdialog.cpp" line="781"/>
+        <location filename="../recordingdialog.cpp" line="345"/>
+        <location filename="../recordingdialog.cpp" line="357"/>
+        <location filename="../recordingdialog.cpp" line="777"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Παρουσιάστηκε σφάλμα κατά την ανάκτηση του συνδέσμου λήψης.</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="349"/>
-        <location filename="../recordingdialog.cpp" line="361"/>
-        <location filename="../recordingdialog.cpp" line="781"/>
+        <location filename="../recordingdialog.cpp" line="345"/>
+        <location filename="../recordingdialog.cpp" line="357"/>
+        <location filename="../recordingdialog.cpp" line="777"/>
         <source>Recording failed</source>
         <translation>Η λήψη απέτυχε</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="417"/>
-        <location filename="../recordingdialog.cpp" line="799"/>
+        <location filename="../recordingdialog.cpp" line="413"/>
+        <location filename="../recordingdialog.cpp" line="795"/>
         <source>Starting</source>
         <translation>Εκκίνηση</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="452"/>
+        <location filename="../recordingdialog.cpp" line="448"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="456"/>
+        <location filename="../recordingdialog.cpp" line="452"/>
         <source>Completed</source>
         <translation>Ολοκληρώθηκε</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="535"/>
+        <location filename="../recordingdialog.cpp" line="531"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%1% από %n βίντεο - Λήψεις</numerusform>
@@ -595,58 +590,48 @@
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="620"/>
+        <location filename="../recordingdialog.cpp" line="616"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Ακύρωση</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="622"/>
+        <location filename="../recordingdialog.cpp" line="618"/>
         <source>&amp;Remove from list</source>
         <translation>&amp;Αφαίρεση από τη λίστα</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="643"/>
-        <location filename="../recordingdialog.cpp" line="665"/>
+        <location filename="../recordingdialog.cpp" line="639"/>
+        <location filename="../recordingdialog.cpp" line="661"/>
         <source>Remove from &amp;list</source>
         <translation>Αφαίρεση από τη &amp;λίστα</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="893"/>
-        <source>Enter a URL</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../recordingdialog.cpp" line="894"/>
-        <source>Enter a Youtube URL to download</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../recordingdialog.cpp" line="639"/>
+        <location filename="../recordingdialog.cpp" line="635"/>
         <source>&amp;Retry</source>
         <translation>&amp;Επανάληψη</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="661"/>
+        <location filename="../recordingdialog.cpp" line="657"/>
         <source>&amp;Play</source>
         <translation>&amp;Αναπαραγωγή</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="664"/>
+        <location filename="../recordingdialog.cpp" line="660"/>
         <source>&amp;Delete</source>
         <translation>&amp;Διαγραφή</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="746"/>
+        <location filename="../recordingdialog.cpp" line="742"/>
         <source>Fetching URL...</source>
         <translation>Λήψη του URL...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="763"/>
+        <location filename="../recordingdialog.cpp" line="759"/>
         <source>File error</source>
         <translation>Σφάλμα αρχείου</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="764"/>
+        <location filename="../recordingdialog.cpp" line="760"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>Το αρχείο δεν υπάρχει, επιθυμείτε την αφαίρεσή του από τη λίστα;</translation>
     </message>
@@ -855,155 +840,170 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="226"/>
+        <location filename="../ytdialog.cpp" line="227"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>Περιηγητής YouTube - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="274"/>
+        <location filename="../ytdialog.cpp" line="275"/>
         <source>Settings</source>
         <translation>Ρυθμίσεις</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="280"/>
+        <location filename="../ytdialog.cpp" line="281"/>
         <source>Information</source>
         <translation>Πληροφορίες</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="286"/>
+        <location filename="../ytdialog.cpp" line="287"/>
         <source>Show recordings</source>
         <translation>Εμφάνιση λήψεων</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="474"/>
+        <location filename="../ytdialog.cpp" line="293"/>
+        <source>Enter URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="483"/>
         <source>Most Relevant</source>
         <translation>Πιο Σχετικά</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="478"/>
+        <location filename="../ytdialog.cpp" line="487"/>
         <source>Most Recent</source>
         <translation>Πιο Πρόσφατα</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="482"/>
+        <location filename="../ytdialog.cpp" line="491"/>
         <source>Most Viewed</source>
         <translation>Περισσότερες Προβολές</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="486"/>
+        <location filename="../ytdialog.cpp" line="495"/>
         <source>Most Popular</source>
         <translation>Πιο Δημοφιλή</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="512"/>
+        <location filename="../ytdialog.cpp" line="521"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Τα πιο δημοφιλή βίντεο στο YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="633"/>
+        <location filename="../ytdialog.cpp" line="642"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Σφάλμα: Αδύνατη η σύνδεση με τον διακομιστή του YouTube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="742"/>
+        <location filename="../ytdialog.cpp" line="751"/>
         <source>R&amp;ecord audio</source>
         <translation>Λήψη ή&amp;χου</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="746"/>
+        <location filename="../ytdialog.cpp" line="755"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>&amp;Προσθήκη URL στη λίστα αναπαραγωγής του SMPlayer </translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="918"/>
-        <location filename="../ytdialog.cpp" line="929"/>
+        <location filename="../ytdialog.cpp" line="820"/>
+        <source>Enter a URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="821"/>
+        <source>Enter a Youtube URL to download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="942"/>
+        <location filename="../ytdialog.cpp" line="953"/>
         <source>Problems with Youtube</source>
         <translation>Προβλήματα με το YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="920"/>
+        <location filename="../ytdialog.cpp" line="944"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Θέλετε να ενημερώσετε τον κώδικα YouTube; Μπορεί να λύσει το πρόβλημα.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="919"/>
-        <location filename="../ytdialog.cpp" line="930"/>
+        <location filename="../ytdialog.cpp" line="943"/>
+        <location filename="../ytdialog.cpp" line="954"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Δυστυχώς, λόγο αλλαγών στο YouTube, δεν γίνεται να παιχτεί ή να ληφθεί το βίντεο «%1».</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="931"/>
+        <location filename="../ytdialog.cpp" line="955"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Ίσως ευημερώντας αυτήν την εφαρμογή θα λύσει το πρόβλημα.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="517"/>
+        <location filename="../ytdialog.cpp" line="526"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>Αποτελέσματα YouTube%2 για «%1»</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="490"/>
+        <location filename="../ytdialog.cpp" line="499"/>
         <source>Music</source>
         <translation>Μουσική</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="494"/>
+        <location filename="../ytdialog.cpp" line="503"/>
         <source>Sports</source>
         <translation>Αθλητικά</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="513"/>
+        <location filename="../ytdialog.cpp" line="522"/>
         <source>Most popular sport videos on YouTube%1</source>
         <translation>Πιο δημοφιλής αθλητικά βίντεο στο YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="514"/>
+        <location filename="../ytdialog.cpp" line="523"/>
         <source>Most popular music videos on YouTube%1</source>
         <translation>Πιο δημοφιλής μουσικά βίντεο στο YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="641"/>
+        <location filename="../ytdialog.cpp" line="650"/>
         <source>No videos found</source>
         <translation>Δε βρέθηκαν βίντεο</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="643"/>
+        <location filename="../ytdialog.cpp" line="652"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Δε βρέθηκαν βίντεο για το ερώτημα «%1»</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="740"/>
+        <location filename="../ytdialog.cpp" line="749"/>
         <source>&amp;Play video</source>
         <translation>&amp;Αναπαραγωγή βίντεο</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="741"/>
+        <location filename="../ytdialog.cpp" line="750"/>
         <source>&amp;Record video</source>
         <translation>&amp;Λήψη βίντεο</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="743"/>
+        <location filename="../ytdialog.cpp" line="752"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Δείτε το στο YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="744"/>
+        <location filename="../ytdialog.cpp" line="753"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Αντιγραφή συνδέσμου</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="249"/>
+        <location filename="../ytdialog.cpp" line="250"/>
         <source>Next</source>
         <translation>Επόμενο</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="255"/>
+        <location filename="../ytdialog.cpp" line="256"/>
         <source>Previous</source>
         <translation>Προηγούμενο</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="904"/>
-        <location filename="../ytdialog.cpp" line="906"/>
+        <location filename="../ytdialog.cpp" line="928"/>
+        <location filename="../ytdialog.cpp" line="930"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>
