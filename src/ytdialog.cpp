@@ -36,6 +36,7 @@
 #include <QProcess>
 #include <QClipboard>
 #include <QSettings>
+#include <QInputDialog>
 #include "ytdialog.h"
 #include "yttabbar.h"
 #include "ytdelegate.h"
@@ -287,9 +288,15 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     recordingButton->setShortcut(QKeySequence("Alt+R"));
     connect(recordingButton, SIGNAL(clicked()), recording_dialog, SLOT(show()));
 
+    enterUrlButton = new QToolButton(this);
+    enterUrlButton->setToolTip(tr("Enter URL"));
+    enterUrlButton->setShortcut(QKeySequence("Alt+U"));
+    connect(enterUrlButton, SIGNAL(clicked()), this, SLOT(enterUrl()));
+
     QHBoxLayout* hbox = new QHBoxLayout;
     hbox->addWidget(searchBox);
     hbox->addWidget(recordingButton);
+    hbox->addWidget(enterUrlButton);
     hbox->addWidget(configButton);
     hbox->addWidget(infoButton);
 
@@ -326,7 +333,8 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     */
 
     setTabOrder(searchBox, recordingButton);
-    setTabOrder(recordingButton, configButton);
+    setTabOrder(recordingButton, enterUrlButton);
+    setTabOrder(enterUrlButton, configButton);
     setTabOrder(configButton, infoButton);
     setTabOrder(infoButton, prevButton);
     setTabOrder(prevButton, nextButton);
@@ -805,6 +813,21 @@ void YTDialog::downloadUrl(const QString & url) {
 	#endif
 	recording_dialog->downloadUrl(url);
 }
+
+void YTDialog::enterUrl() {
+	qDebug("YTDialog::enterUrl");
+	QString url = QInputDialog::getText(this, tr("Enter a URL"),
+                                        tr("Enter a Youtube URL to download"));
+	if (!url.isEmpty()) {
+		RetrieveYoutubeUrl r(this);
+		QString full_url = r.fullUrl(url);
+		qDebug("RecordingDialog::enterUrl: full_url: %s", full_url.toUtf8().constData());
+		if (!full_url.isEmpty()) {
+			downloadUrl(full_url);
+		}
+	}
+}
+
 
 void YTDialog::playVideo(QString file) 
 {
