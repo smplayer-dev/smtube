@@ -507,27 +507,27 @@
 <context>
     <name>RecordingDelegate</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="126"/>
+        <location filename="../recordingdialog.cpp" line="125"/>
         <source>Canceled</source>
         <translation>Zrušeno</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="126"/>
+        <location filename="../recordingdialog.cpp" line="125"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="156"/>
+        <location filename="../recordingdialog.cpp" line="155"/>
         <source>%1 MB</source>
         <translation>%1 MB</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="160"/>
+        <location filename="../recordingdialog.cpp" line="159"/>
         <source>%1 KB</source>
         <translation>%1 KB</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="164"/>
+        <location filename="../recordingdialog.cpp" line="163"/>
         <source>%1 bytes</source>
         <translation>%1 bytů</translation>
     </message>
@@ -535,59 +535,58 @@
 <context>
     <name>RecordingDialog</name>
     <message>
-        <location filename="../recordingdialog.cpp" line="209"/>
-        <location filename="../recordingdialog.cpp" line="531"/>
+        <location filename="../recordingdialog.cpp" line="208"/>
+        <location filename="../recordingdialog.cpp" line="527"/>
         <source>Recordings</source>
         <translation>Nahrávky</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="210"/>
+        <location filename="../recordingdialog.cpp" line="209"/>
         <source>&amp;Clear list</source>
         <translation>&amp;Vyčistit seznam</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="211"/>
-        <location filename="../recordingdialog.cpp" line="662"/>
+        <location filename="../recordingdialog.cpp" line="210"/>
+        <location filename="../recordingdialog.cpp" line="658"/>
         <source>&amp;Open folder</source>
         <translation>&amp;Otevřít složku</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="212"/>
         <source>&amp;Enter URL</source>
-        <translation>&amp;Vložit adresu URL</translation>
+        <translation type="obsolete">&amp;Vložit adresu URL</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="349"/>
-        <location filename="../recordingdialog.cpp" line="361"/>
-        <location filename="../recordingdialog.cpp" line="781"/>
+        <location filename="../recordingdialog.cpp" line="345"/>
+        <location filename="../recordingdialog.cpp" line="357"/>
+        <location filename="../recordingdialog.cpp" line="777"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Došlo k chybě </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="349"/>
-        <location filename="../recordingdialog.cpp" line="361"/>
-        <location filename="../recordingdialog.cpp" line="781"/>
+        <location filename="../recordingdialog.cpp" line="345"/>
+        <location filename="../recordingdialog.cpp" line="357"/>
+        <location filename="../recordingdialog.cpp" line="777"/>
         <source>Recording failed</source>
         <translation>Nahrávání </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="417"/>
-        <location filename="../recordingdialog.cpp" line="799"/>
+        <location filename="../recordingdialog.cpp" line="413"/>
+        <location filename="../recordingdialog.cpp" line="795"/>
         <source>Starting</source>
         <translation>Spuštění</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="452"/>
+        <location filename="../recordingdialog.cpp" line="448"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="456"/>
+        <location filename="../recordingdialog.cpp" line="452"/>
         <source>Completed</source>
         <translation>Hotovo</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="535"/>
+        <location filename="../recordingdialog.cpp" line="531"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%1% z %n videa - nahrávek</numerusform>
@@ -596,58 +595,56 @@
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="620"/>
+        <location filename="../recordingdialog.cpp" line="616"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Zrušit</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="622"/>
+        <location filename="../recordingdialog.cpp" line="618"/>
         <source>&amp;Remove from list</source>
         <translation>&amp;Odstranit ze seznamu</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="643"/>
-        <location filename="../recordingdialog.cpp" line="665"/>
+        <location filename="../recordingdialog.cpp" line="639"/>
+        <location filename="../recordingdialog.cpp" line="661"/>
         <source>Remove from &amp;list</source>
         <translation>Odstranit ze &amp;seznamu</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="893"/>
         <source>Enter a URL</source>
-        <translation>Vložit adresu URL</translation>
+        <translation type="obsolete">Vložit adresu URL</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="894"/>
         <source>Enter a Youtube URL to download</source>
-        <translation>Pro stáhnutí vložte adresu z Youtube</translation>
+        <translation type="obsolete">Pro stáhnutí vložte adresu z Youtube</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="639"/>
+        <location filename="../recordingdialog.cpp" line="635"/>
         <source>&amp;Retry</source>
         <translation>&amp;Zkusit znovu</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="661"/>
+        <location filename="../recordingdialog.cpp" line="657"/>
         <source>&amp;Play</source>
         <translation>&amp;Přehrát</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="664"/>
+        <location filename="../recordingdialog.cpp" line="660"/>
         <source>&amp;Delete</source>
         <translation>Smazat</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="746"/>
+        <location filename="../recordingdialog.cpp" line="742"/>
         <source>Fetching URL...</source>
         <translation>Načítání URL...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="763"/>
+        <location filename="../recordingdialog.cpp" line="759"/>
         <source>File error</source>
         <translation>Chyba souboru</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="764"/>
+        <location filename="../recordingdialog.cpp" line="760"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>Soubor neexistuje, chcete ho odstranit ze seznamu?</translation>
     </message>
@@ -856,155 +853,170 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="226"/>
+        <location filename="../ytdialog.cpp" line="227"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>Prohlížeč YouTube - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="274"/>
+        <location filename="../ytdialog.cpp" line="275"/>
         <source>Settings</source>
         <translation>Nastavení</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="280"/>
+        <location filename="../ytdialog.cpp" line="281"/>
         <source>Information</source>
         <translation>Informace</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="286"/>
+        <location filename="../ytdialog.cpp" line="287"/>
         <source>Show recordings</source>
         <translation>Zobrazit nahrávky</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="474"/>
+        <location filename="../ytdialog.cpp" line="293"/>
+        <source>Enter URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="483"/>
         <source>Most Relevant</source>
         <translation>Nejrelevantnější</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="478"/>
+        <location filename="../ytdialog.cpp" line="487"/>
         <source>Most Recent</source>
         <translation>Nejnovější</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="482"/>
+        <location filename="../ytdialog.cpp" line="491"/>
         <source>Most Viewed</source>
         <translation>Nejsledovanější</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="486"/>
+        <location filename="../ytdialog.cpp" line="495"/>
         <source>Most Popular</source>
         <translation>Nejpopulárnější</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="512"/>
+        <location filename="../ytdialog.cpp" line="521"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Nejpopulárnější videa na YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="633"/>
+        <location filename="../ytdialog.cpp" line="642"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Chyba: Nelze se spojit se serverem Youtube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="742"/>
+        <location filename="../ytdialog.cpp" line="751"/>
         <source>R&amp;ecord audio</source>
         <translation>N&amp;ahrát zvuk</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="746"/>
+        <location filename="../ytdialog.cpp" line="755"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>&amp;Přidat URL do playlistu SMPlayeru</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="918"/>
-        <location filename="../ytdialog.cpp" line="929"/>
+        <location filename="../ytdialog.cpp" line="820"/>
+        <source>Enter a URL</source>
+        <translation type="unfinished">Vložit adresu URL</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="821"/>
+        <source>Enter a Youtube URL to download</source>
+        <translation type="unfinished">Pro stáhnutí vložte adresu z Youtube</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="942"/>
+        <location filename="../ytdialog.cpp" line="953"/>
         <source>Problems with Youtube</source>
         <translation>Problémy s Youtube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="920"/>
+        <location filename="../ytdialog.cpp" line="944"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Chcete aktualizovat kód Youtube? To může problém vyřešit.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="919"/>
-        <location filename="../ytdialog.cpp" line="930"/>
+        <location filename="../ytdialog.cpp" line="943"/>
+        <location filename="../ytdialog.cpp" line="954"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Kvůli změnám na stránce Youtube nelze video &apos;%1&apos; přehrát nebo nahrát.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="931"/>
+        <location filename="../ytdialog.cpp" line="955"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Vyřešení problému by mohlo napomoci aktualizování této aplikace.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="517"/>
+        <location filename="../ytdialog.cpp" line="526"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 výsledky pro &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="490"/>
+        <location filename="../ytdialog.cpp" line="499"/>
         <source>Music</source>
         <translation>Hudba</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="494"/>
+        <location filename="../ytdialog.cpp" line="503"/>
         <source>Sports</source>
         <translation>Sporty</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="513"/>
+        <location filename="../ytdialog.cpp" line="522"/>
         <source>Most popular sport videos on YouTube%1</source>
         <translation>Nejpopulárnější sportovní videa na YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="514"/>
+        <location filename="../ytdialog.cpp" line="523"/>
         <source>Most popular music videos on YouTube%1</source>
         <translation>Nejpopulárnější hudební videa na YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="641"/>
+        <location filename="../ytdialog.cpp" line="650"/>
         <source>No videos found</source>
         <translation>Nebyla nalezena žádná videa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="643"/>
+        <location filename="../ytdialog.cpp" line="652"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Nebyla nalezena videa pro &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="740"/>
+        <location filename="../ytdialog.cpp" line="749"/>
         <source>&amp;Play video</source>
         <translation>&amp;Přehrát video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="741"/>
+        <location filename="../ytdialog.cpp" line="750"/>
         <source>&amp;Record video</source>
         <translation>&amp;Nahrát video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="743"/>
+        <location filename="../ytdialog.cpp" line="752"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Sledovat na YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="744"/>
+        <location filename="../ytdialog.cpp" line="753"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Kopírovat odkaz</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="249"/>
+        <location filename="../ytdialog.cpp" line="250"/>
         <source>Next</source>
         <translation>Další</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="255"/>
+        <location filename="../ytdialog.cpp" line="256"/>
         <source>Previous</source>
         <translation>Předchozí</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="904"/>
-        <location filename="../ytdialog.cpp" line="906"/>
+        <location filename="../ytdialog.cpp" line="928"/>
+        <location filename="../ytdialog.cpp" line="930"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
