@@ -912,11 +912,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="821"/>
-        <source>Enter a Youtube URL to download</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="942"/>
         <location filename="../ytdialog.cpp" line="953"/>
         <source>Problems with Youtube</source>
@@ -931,6 +926,11 @@
         <location filename="../ytdialog.cpp" line="943"/>
         <location filename="../ytdialog.cpp" line="954"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="821"/>
+        <source>Enter a Youtube URL to record</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

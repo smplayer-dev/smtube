@@ -909,11 +909,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="821"/>
-        <source>Enter a Youtube URL to download</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="942"/>
         <location filename="../ytdialog.cpp" line="953"/>
         <source>Problems with Youtube</source>
@@ -998,6 +993,11 @@
     <message>
         <location filename="../ytdialog.cpp" line="256"/>
         <source>Previous</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="821"/>
+        <source>Enter a Youtube URL to record</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

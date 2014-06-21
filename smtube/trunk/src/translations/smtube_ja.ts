@@ -921,9 +921,8 @@
         <translation type="unfinished">URL の入力</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to download</source>
-        <translation type="unfinished">ダウンロードする YouTube の URL を入力します</translation>
+        <translation type="obsolete">ダウンロードする YouTube の URL を入力します</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
@@ -1011,6 +1010,11 @@
         <location filename="../ytdialog.cpp" line="256"/>
         <source>Previous</source>
         <translation>前へ</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="821"/>
+        <source>Enter a Youtube URL to record</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>

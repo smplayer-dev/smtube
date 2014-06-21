@@ -923,9 +923,8 @@
         <translation type="unfinished">Vložit adresu URL</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to download</source>
-        <translation type="unfinished">Pro stáhnutí vložte adresu z Youtube</translation>
+        <translation type="obsolete">Pro stáhnutí vložte adresu z Youtube</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
@@ -1013,6 +1012,11 @@
         <location filename="../ytdialog.cpp" line="256"/>
         <source>Previous</source>
         <translation>Předchozí</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="821"/>
+        <source>Enter a Youtube URL to record</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>

@@ -922,9 +922,8 @@
         <translation type="unfinished">Digite uma URL</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to download</source>
-        <translation type="unfinished">Digite uma URL do Youtube para baixar</translation>
+        <translation type="obsolete">Digite uma URL do Youtube para baixar</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
@@ -1012,6 +1011,11 @@
         <location filename="../ytdialog.cpp" line="256"/>
         <source>Previous</source>
         <translation>Anterior</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="821"/>
+        <source>Enter a Youtube URL to record</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>
