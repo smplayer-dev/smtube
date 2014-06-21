@@ -818,7 +818,7 @@ void YTDialog::downloadUrl(const QString & url) {
 void YTDialog::enterUrl() {
 	qDebug("YTDialog::enterUrl");
 	QString url = QInputDialog::getText(this, tr("Enter a URL"),
-                                        tr("Enter a Youtube URL to download"));
+                                        tr("Enter a Youtube URL to record"));
 	if (!url.isEmpty()) {
 		RetrieveYoutubeUrl r(this);
 		QString full_url = r.fullUrl(url);
@@ -924,11 +924,11 @@ void YTDialog::handleMessage(const QString& message)
 
 void YTDialog::showErrorDialog(const QString & error) 
 {
-#ifndef Q_WS_AMIGA  // zzd10h  
+ #ifndef Q_WS_AMIGA  // zzd10h
     QMessageBox::warning(this, tr("Error"), error);
-#else
+ #else
     QMessageBox::warning(this, tr("Error"),"<center>"+error.leftJustified(150, ' ')+"</center>");
-#endif
+ #endif
 }
 
 void YTDialog::showErrorSignatureNotFound(const QString & title) {

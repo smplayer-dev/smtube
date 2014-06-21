@@ -923,9 +923,8 @@
         <translation type="unfinished">Унеси УРЛ</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to download</source>
-        <translation type="unfinished">Унеси Youtube УРЛ за преузимање</translation>
+        <translation type="obsolete">Унеси Youtube УРЛ за преузимање</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
@@ -1013,6 +1012,11 @@
         <location filename="../ytdialog.cpp" line="256"/>
         <source>Previous</source>
         <translation>Претходно</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="821"/>
+        <source>Enter a Youtube URL to record</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>

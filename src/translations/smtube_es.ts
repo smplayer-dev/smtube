@@ -1327,9 +1327,8 @@
         <translation>Introducir URL</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to download</source>
-        <translation>Introduce una URL de Youtube para descargar</translation>
+        <translation type="obsolete">Introduce una URL de Youtube para descargar</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
@@ -1351,6 +1350,11 @@
         <location filename="../ytdialog.cpp" line="954"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Lamentablemente debido a cambios en Youtube, no es posible reproducir ni descargar el vídeo &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="821"/>
+        <source>Enter a Youtube URL to record</source>
+        <translation>Introduce una URL de Youtube para descargar</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="955"/>

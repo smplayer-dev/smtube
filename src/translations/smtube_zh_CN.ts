@@ -921,9 +921,8 @@
         <translation type="unfinished">输入一个网址</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to download</source>
-        <translation type="unfinished">输入 Youtube 地址开始下载</translation>
+        <translation type="obsolete">输入 Youtube 地址开始下载</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
@@ -1011,6 +1010,11 @@
         <location filename="../ytdialog.cpp" line="256"/>
         <source>Previous</source>
         <translation>上一页</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="821"/>
+        <source>Enter a Youtube URL to record</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>

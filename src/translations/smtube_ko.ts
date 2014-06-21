@@ -921,9 +921,8 @@
         <translation type="unfinished">주소 입력하기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to download</source>
-        <translation type="unfinished">다운로드할 유투브 주소 입력하기</translation>
+        <translation type="obsolete">다운로드할 유투브 주소 입력하기</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
@@ -1011,6 +1010,11 @@
         <location filename="../ytdialog.cpp" line="256"/>
         <source>Previous</source>
         <translation>이전</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="821"/>
+        <source>Enter a Youtube URL to record</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>
