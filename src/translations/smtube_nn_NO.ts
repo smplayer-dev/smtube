@@ -118,192 +118,192 @@
     <message>
         <location filename="../about.cpp" line="101"/>
         <source>Czech</source>
-        <translation type="unfinished"></translation>
+        <translation>Tsjekkisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fleire har bidrege med omsettingar.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan ogso bidra, slik at SMPlayer finst på ditt morsmål.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå til %1 og meld deg inn i ei omsetjing gruppa.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Noverande omsetjarar i Transifex gruppa:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Koreansk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="109"/>
         <source>Malay</source>
-        <translation type="unfinished"></translation>
+        <translation>Malayisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugisisk - Brazil</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Forenkla kinesisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>French</source>
-        <translation type="unfinished"></translation>
+        <translation>Fransk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Dansk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>Tysk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="123"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Tradisjonell kinesisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
         <source>Swedish</source>
-        <translation type="unfinished"></translation>
+        <translation>Svensk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="120"/>
         <source>Turkish</source>
-        <translation type="unfinished"></translation>
+        <translation>Tyrkisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="121"/>
         <source>Finnish</source>
-        <translation type="unfinished"></translation>
+        <translation>Finsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Arabic</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
         <source>Georgian</source>
-        <translation type="unfinished"></translation>
+        <translation>Georgisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation>Serbisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Kroatisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
         <source>Bulgarian</source>
-        <translation type="unfinished"></translation>
+        <translation>Bulgarsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="113"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>Vietnamesisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>Indonesisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabisk - Saudi-Arabia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="130"/>
         <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation>Singalesisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation>Gresk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="132"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Estisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="133"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>N&apos;ko</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>Italiensk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="135"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>Usbekisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Catalan</source>
-        <translation type="unfinished"></translation>
+        <translation>Katalansk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="137"/>
         <source>Slovak</source>
-        <translation type="unfinished"></translation>
+        <translation>Slovakisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="138"/>
         <source>British English</source>
-        <translation type="unfinished"></translation>
+        <translation>Britisk engelsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="139"/>
         <source>Albanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Albansk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="140"/>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>Nederlandsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="141"/>
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Rumensk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="142"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>Khmer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation>Telugu</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -321,43 +321,43 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lastar ned...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Koplar til %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube koden har blitt oppdatert.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Installert versjon: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Suksess</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="133"/>
         <location filename="../codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation type="unfinished">Feil</translation>
+        <translation>Feil</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein feil oppstod ved skriving av %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein feil oppstod ved nedlasting av fila:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -385,17 +385,17 @@
     <message>
         <location filename="../configdialog.ui" line="157"/>
         <source>Standard Feeds</source>
-        <translation type="unfinished"></translation>
+        <translation>Normal oppsett</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="163"/>
         <source>&amp;Region:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Region:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="189"/>
         <source>Period of &amp;time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tids &amp;periode:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="80"/>
@@ -405,7 +405,7 @@
     <message>
         <location filename="../configdialog.ui" line="88"/>
         <source>Q&amp;uality:</source>
-        <translation type="unfinished"></translation>
+        <translation>K&amp;valitet:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="125"/>
@@ -415,22 +415,22 @@
     <message>
         <location filename="../configdialog.cpp" line="40"/>
         <source>All time</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="41"/>
         <source>This month</source>
-        <translation type="unfinished"></translation>
+        <translation>Denne månaden</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="42"/>
         <source>This week</source>
-        <translation type="unfinished"></translation>
+        <translation>Denne veka</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="43"/>
         <source>Today</source>
-        <translation type="unfinished"></translation>
+        <translation>I dag</translation>
     </message>
 </context>
 <context>
@@ -641,192 +641,192 @@
     <message>
         <location filename="../regions.cpp" line="26"/>
         <source>Argentina</source>
-        <translation type="unfinished"></translation>
+        <translation>Argentina</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="27"/>
         <source>Australia</source>
-        <translation type="unfinished"></translation>
+        <translation>Australia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="29"/>
         <source>Belgium</source>
-        <translation type="unfinished"></translation>
+        <translation>Belgia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="30"/>
         <source>Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Brasil</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="31"/>
         <source>Canada</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanada</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="32"/>
         <source>Chile</source>
-        <translation type="unfinished"></translation>
+        <translation>Chile</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="33"/>
         <source>Colombia</source>
-        <translation type="unfinished"></translation>
+        <translation>Colombia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Czech Republic</source>
-        <translation type="unfinished"></translation>
+        <translation>Den tsjekkiske republikk</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
         <source>Egypt</source>
-        <translation type="unfinished"></translation>
+        <translation>Egypt</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="36"/>
         <source>France</source>
-        <translation type="unfinished"></translation>
+        <translation>Frankrike</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="37"/>
         <source>Germany</source>
-        <translation type="unfinished"></translation>
+        <translation>Tyskland</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="38"/>
         <source>Great Britain</source>
-        <translation type="unfinished"></translation>
+        <translation>Storbritannia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="39"/>
         <source>Hong Kong</source>
-        <translation type="unfinished"></translation>
+        <translation>Hongkong</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="40"/>
         <source>Hungary</source>
-        <translation type="unfinished"></translation>
+        <translation>Ungarn</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="41"/>
         <source>India</source>
-        <translation type="unfinished"></translation>
+        <translation>India</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="42"/>
         <source>Ireland</source>
-        <translation type="unfinished"></translation>
+        <translation>Irland</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="43"/>
         <source>Israel</source>
-        <translation type="unfinished"></translation>
+        <translation>Israel</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="44"/>
         <source>Italy</source>
-        <translation type="unfinished"></translation>
+        <translation>Italia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="45"/>
         <source>Japan</source>
-        <translation type="unfinished"></translation>
+        <translation>Japan</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="46"/>
         <source>Jordan</source>
-        <translation type="unfinished"></translation>
+        <translation>Jordan</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="47"/>
         <source>Malaysia</source>
-        <translation type="unfinished"></translation>
+        <translation>Malaysia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="48"/>
         <source>Mexico</source>
-        <translation type="unfinished"></translation>
+        <translation>Mexiko</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="49"/>
         <source>Morocco</source>
-        <translation type="unfinished"></translation>
+        <translation>Marokko</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="50"/>
         <source>Netherlands</source>
-        <translation type="unfinished"></translation>
+        <translation>Nederland</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="51"/>
         <source>New Zealand</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny-Zealand</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="52"/>
         <source>Peru</source>
-        <translation type="unfinished"></translation>
+        <translation>Peru</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="53"/>
         <source>Philippines</source>
-        <translation type="unfinished"></translation>
+        <translation>Filippinene</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="54"/>
         <source>Poland</source>
-        <translation type="unfinished"></translation>
+        <translation>Polen</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="55"/>
         <source>Russia</source>
-        <translation type="unfinished"></translation>
+        <translation>Russland</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="56"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Saudi-Arabia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="57"/>
         <source>Singapore</source>
-        <translation type="unfinished"></translation>
+        <translation>Singapore</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="58"/>
         <source>South Africa</source>
-        <translation type="unfinished"></translation>
+        <translation>Sør-Afrika</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="59"/>
         <source>South Korea</source>
-        <translation type="unfinished"></translation>
+        <translation>Sør-Korea</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="60"/>
         <source>Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>Spania</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="61"/>
         <source>Sweden</source>
-        <translation type="unfinished"></translation>
+        <translation>Sverige</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="63"/>
         <source>Taiwan</source>
-        <translation type="unfinished"></translation>
+        <translation>Taiwan</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="64"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished"></translation>
+        <translation>De forente arabiske emirater</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="65"/>
         <source>United States</source>
-        <translation type="unfinished"></translation>
+        <translation>Amerikas forente stater</translation>
     </message>
 </context>
 <context>
@@ -860,6 +860,11 @@
         <translation>Vis opptak</translation>
     </message>
     <message>
+        <location filename="../ytdialog.cpp" line="293"/>
+        <source>Enter URL</source>
+        <translation>Skriv inn URL</translation>
+    </message>
+    <message>
         <location filename="../ytdialog.cpp" line="483"/>
         <source>Most Relevant</source>
         <translation>Mest relevant</translation>
@@ -880,21 +885,9 @@
         <translation>Mest populære</translation>
     </message>
     <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">Mest vurderte</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="521"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Mest populære videoar på YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">Mest vurderte videoar YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated music videos this week on YouTube%1</source>
-        <translation type="obsolete">Mest vurderte musikkvideoar denne veka på YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="642"/>
@@ -902,41 +895,42 @@
         <translation>Feil: Klarte ikkje å kople til Youtube-tenaren.</translation>
     </message>
     <message>
+        <location filename="../ytdialog.cpp" line="751"/>
+        <source>R&amp;ecord audio</source>
+        <translation>Ta&amp; opp lyd</translation>
+    </message>
+    <message>
         <location filename="../ytdialog.cpp" line="755"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Legg ein URL i spelelista til SMPlayer.  </translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="820"/>
         <source>Enter a URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Legg til ein URL</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
         <location filename="../ytdialog.cpp" line="953"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Problem med YouTube</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="944"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vil du oppdatera YouTube koden? 
+Dette kan løyse problemet. </translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="943"/>
         <location filename="../ytdialog.cpp" line="954"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="821"/>
-        <source>Enter a Youtube URL to record</source>
-        <translation type="unfinished"></translation>
+        <translation>Uheldigvis, grunna endringar på YouTube kan ikkje video &apos;%1&apos; verken spelast av eller takast opp.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="955"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oppdatering av programvare kan, kanskje, løyse problemet.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="526"/>
@@ -944,29 +938,24 @@
         <translation>YouTube%2 resultat for &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="293"/>
-        <source>Enter URL</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="499"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>Musikk</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="503"/>
         <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <translation>Sport</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="522"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Mest populære idrett video på YouTube%1</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="523"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Mest omtykte musikk video på YouTube</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="650"/>
@@ -989,11 +978,6 @@
         <translation>&amp;Spel inn vdeo</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="751"/>
-        <source>R&amp;ecord audio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="752"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Sjå på YouTube</translation>
@@ -1014,8 +998,9 @@
         <translation>Førre</translation>
     </message>
     <message>
-        <source>Music Top Rated</source>
-        <translation type="obsolete">Musikk på topp</translation>
+        <location filename="../ytdialog.cpp" line="821"/>
+        <source>Enter a Youtube URL to record</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>

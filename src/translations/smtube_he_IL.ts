@@ -288,22 +288,22 @@
     <message>
         <location filename="../about.cpp" line="140"/>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>הולנדית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="141"/>
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation>רומנית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="142"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>חמר</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation>טלוגו</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -862,7 +862,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="293"/>
         <source>Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>הזן URL</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="483"/>
@@ -907,7 +907,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="820"/>
         <source>Enter a URL</source>
-        <translation type="unfinished"></translation>
+        <translation>הזנת URL</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>

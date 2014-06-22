@@ -552,10 +552,6 @@
         <translation>&amp;Oтвори фасциклу</translation>
     </message>
     <message>
-        <source>&amp;Enter URL</source>
-        <translation type="obsolete">&amp;Унеси УРЛ</translation>
-    </message>
-    <message>
         <location filename="../recordingdialog.cpp" line="345"/>
         <location filename="../recordingdialog.cpp" line="357"/>
         <location filename="../recordingdialog.cpp" line="777"/>
@@ -609,14 +605,6 @@
         <location filename="../recordingdialog.cpp" line="661"/>
         <source>Remove from &amp;list</source>
         <translation>Уклони са &amp;пописа</translation>
-    </message>
-    <message>
-        <source>Enter a URL</source>
-        <translation type="obsolete">Унеси УРЛ</translation>
-    </message>
-    <message>
-        <source>Enter a Youtube URL to download</source>
-        <translation type="obsolete">Унеси Youtube УРЛ за преузимање</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="635"/>
@@ -875,7 +863,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="293"/>
         <source>Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Унеси УРЛ</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="483"/>
@@ -920,11 +908,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="820"/>
         <source>Enter a URL</source>
-        <translation type="unfinished">Унеси УРЛ</translation>
-    </message>
-    <message>
-        <source>Enter a Youtube URL to download</source>
-        <translation type="obsolete">Унеси Youtube УРЛ за преузимање</translation>
+        <translation>Унеси УРЛ</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>

@@ -862,7 +862,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="293"/>
         <source>Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Adresse eingeben</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="483"/>
@@ -907,7 +907,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="820"/>
         <source>Enter a URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine Adresse eingeben</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
