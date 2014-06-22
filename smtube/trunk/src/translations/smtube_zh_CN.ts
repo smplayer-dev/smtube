@@ -552,10 +552,6 @@
         <translation>打开文件夹(&amp;O)</translation>
     </message>
     <message>
-        <source>&amp;Enter URL</source>
-        <translation type="obsolete">输入网址(&amp;E)</translation>
-    </message>
-    <message>
         <location filename="../recordingdialog.cpp" line="345"/>
         <location filename="../recordingdialog.cpp" line="357"/>
         <location filename="../recordingdialog.cpp" line="777"/>
@@ -607,14 +603,6 @@
         <location filename="../recordingdialog.cpp" line="661"/>
         <source>Remove from &amp;list</source>
         <translation>从列表中移除(&amp;L)</translation>
-    </message>
-    <message>
-        <source>Enter a URL</source>
-        <translation type="obsolete">输入一个网址</translation>
-    </message>
-    <message>
-        <source>Enter a Youtube URL to download</source>
-        <translation type="obsolete">输入 Youtube 地址开始下载</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="635"/>
@@ -873,7 +861,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="293"/>
         <source>Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>输入链接地址</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="483"/>
@@ -918,11 +906,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="820"/>
         <source>Enter a URL</source>
-        <translation type="unfinished">输入一个网址</translation>
-    </message>
-    <message>
-        <source>Enter a Youtube URL to download</source>
-        <translation type="obsolete">输入 Youtube 地址开始下载</translation>
+        <translation>输入一个链接地址</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
@@ -1014,7 +998,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to record</source>
-        <translation type="unfinished"></translation>
+        <translation>输入 Youtube 网址开始录制</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>

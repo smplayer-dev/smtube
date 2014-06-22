@@ -552,10 +552,6 @@
         <translation>フォルダーを開く(&amp;O)</translation>
     </message>
     <message>
-        <source>&amp;Enter URL</source>
-        <translation type="obsolete">URL の入力(&amp;E)</translation>
-    </message>
-    <message>
         <location filename="../recordingdialog.cpp" line="345"/>
         <location filename="../recordingdialog.cpp" line="357"/>
         <location filename="../recordingdialog.cpp" line="777"/>
@@ -607,14 +603,6 @@
         <location filename="../recordingdialog.cpp" line="661"/>
         <source>Remove from &amp;list</source>
         <translation>一覧から削除(&amp;L)</translation>
-    </message>
-    <message>
-        <source>Enter a URL</source>
-        <translation type="obsolete">URL の入力</translation>
-    </message>
-    <message>
-        <source>Enter a Youtube URL to download</source>
-        <translation type="obsolete">ダウンロードする YouTube の URL を入力します</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="635"/>
@@ -873,7 +861,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="293"/>
         <source>Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL の入力</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="483"/>
@@ -918,11 +906,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="820"/>
         <source>Enter a URL</source>
-        <translation type="unfinished">URL の入力</translation>
-    </message>
-    <message>
-        <source>Enter a Youtube URL to download</source>
-        <translation type="obsolete">ダウンロードする YouTube の URL を入力します</translation>
+        <translation>URL の入力</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>

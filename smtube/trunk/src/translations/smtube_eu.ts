@@ -552,10 +552,6 @@
         <translation>Ireki &amp;agiritegia</translation>
     </message>
     <message>
-        <source>&amp;Enter URL</source>
-        <translation type="obsolete">&amp;Sartu URL-a</translation>
-    </message>
-    <message>
         <location filename="../recordingdialog.cpp" line="345"/>
         <location filename="../recordingdialog.cpp" line="357"/>
         <location filename="../recordingdialog.cpp" line="777"/>
@@ -608,14 +604,6 @@
         <location filename="../recordingdialog.cpp" line="661"/>
         <source>Remove from &amp;list</source>
         <translation>Kendu ze&amp;rrendatik</translation>
-    </message>
-    <message>
-        <source>Enter a URL</source>
-        <translation type="obsolete">Sartu URL-a</translation>
-    </message>
-    <message>
-        <source>Enter a Youtube URL to download</source>
-        <translation type="obsolete">Sartu Youtube URL bat jeisteko</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="635"/>
@@ -874,7 +862,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="293"/>
         <source>Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Sartu URL-a</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="483"/>
@@ -919,11 +907,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="820"/>
         <source>Enter a URL</source>
-        <translation type="unfinished">Sartu URL-a</translation>
-    </message>
-    <message>
-        <source>Enter a Youtube URL to download</source>
-        <translation type="obsolete">Sartu Youtube URL bat jeisteko</translation>
+        <translation>Sartu URL bat</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
@@ -1015,7 +999,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to record</source>
-        <translation type="unfinished"></translation>
+        <translation>Sartu Youtube URL bat grabatzeko</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>
