@@ -1000,7 +1000,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to record</source>
-        <translation type="unfinished"></translation>
+        <translation>Pro nahrání vložte adresu z Youtube</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>
