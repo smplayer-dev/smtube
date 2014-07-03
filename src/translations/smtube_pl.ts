@@ -278,7 +278,7 @@
     <message>
         <location filename="../about.cpp" line="138"/>
         <source>British English</source>
-        <translation>Angielski brytyjski</translation>
+        <translation>Angielski - Brytyjski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="139"/>
@@ -380,7 +380,7 @@
     <message>
         <location filename="../configdialog.ui" line="45"/>
         <source>&amp;Quality</source>
-        <translation>&amp;Jakość</translation>
+        <translation>Jakość (&amp;Q)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="157"/>
@@ -410,7 +410,7 @@
     <message>
         <location filename="../configdialog.ui" line="125"/>
         <source>&amp;Player:</source>
-        <translation>&amp;Odtwarzacz:</translation>
+        <translation>Odtwarzacz (&amp;p):</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="40"/>
@@ -898,12 +898,12 @@
     <message>
         <location filename="../ytdialog.cpp" line="751"/>
         <source>R&amp;ecord audio</source>
-        <translation>&amp;Nagrywanie dźwięku</translation>
+        <translation>Nagrywani&amp;e dźwięku</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="755"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation>&amp;Dodaj adres URL do listy odtwarzania SMPlayer</translation>
+        <translation>Dod&amp;aj adres URL do listy odtwarzania SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="820"/>
@@ -985,7 +985,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="753"/>
         <source>&amp;Copy link</source>
-        <translation>&amp;Kopiuj odnośnik</translation>
+        <translation>Kopiuj odnośnik (&amp;c)</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="250"/>

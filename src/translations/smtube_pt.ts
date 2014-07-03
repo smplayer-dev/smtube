@@ -48,7 +48,7 @@
     <message>
         <location filename="../about.cpp" line="39"/>
         <source>Portable Edition</source>
-        <translation>Edição portátUnreviewil</translation>
+        <translation>Edição portátil</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
