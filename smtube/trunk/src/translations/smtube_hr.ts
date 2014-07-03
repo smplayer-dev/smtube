@@ -288,22 +288,22 @@
     <message>
         <location filename="../about.cpp" line="140"/>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>Nizozemski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="141"/>
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Rumunjski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="142"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>Kmerski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation>Teluški</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -863,7 +863,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="293"/>
         <source>Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Upiši URL</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="483"/>
@@ -908,7 +908,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="820"/>
         <source>Enter a URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Upiši URL</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
@@ -1000,7 +1000,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to record</source>
-        <translation type="unfinished"></translation>
+        <translation>Upiši Youtube URL za snimanje</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>
