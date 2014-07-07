@@ -1,3 +1,15 @@
+Version 14.7:
+
+(2014-06-11)
+ * Add a new button to enter a URL.
+
+(2014-06-05)
+ * Fix the record audio option.
+
+(2014-04-05)
+ * New option for command line: -url
+
+
 Version 2.1:
 
 (2014-03-25)
