@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sq_AL" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="sq_AL">
 <context>
     <name>About</name>
     <message>
@@ -286,25 +288,35 @@
     <message>
         <location filename="../about.cpp" line="140"/>
         <source>Dutch</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="141"/>
         <source>Romanian</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="142"/>
         <source>Khmer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Telugu</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="144"/>
+        <source>Tamil</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="145"/>
+        <source>Malayalam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="170"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -363,7 +375,7 @@
     <message>
         <location filename="../configdialog.ui" line="14"/>
         <source>Settings</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="20"/>
@@ -398,7 +410,7 @@
     <message>
         <location filename="../configdialog.ui" line="80"/>
         <source>Playback</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="88"/>
@@ -582,7 +594,10 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="531"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>%1% nga %n video - Regjistrimet</numerusform><numerusform>%1% nga %n video-t - Regjistrimet</numerusform></translation>
+        <translation>
+            <numerusform>%1% nga %n video - Regjistrimet</numerusform>
+            <numerusform>%1% nga %n video-t - Regjistrimet</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="616"/>
@@ -842,7 +857,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="275"/>
         <source>Settings</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="281"/>
@@ -857,7 +872,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="293"/>
         <source>Enter URL</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="483"/>
@@ -882,7 +897,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="521"/>
         <source>Most popular videos on YouTube%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="642"/>
@@ -902,7 +917,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="820"/>
         <source>Enter a URL</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
@@ -919,7 +934,7 @@
         <location filename="../ytdialog.cpp" line="943"/>
         <location filename="../ytdialog.cpp" line="954"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="955"/>
@@ -944,12 +959,12 @@
     <message>
         <location filename="../ytdialog.cpp" line="522"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="523"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="650"/>
@@ -994,7 +1009,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to record</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>

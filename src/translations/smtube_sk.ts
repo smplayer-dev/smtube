@@ -1,10 +1,12 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sk" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="sk">
 <context>
     <name>About</name>
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
@@ -31,7 +33,7 @@
     <message>
         <location filename="../about.cpp" line="33"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="35"/>
@@ -71,7 +73,7 @@
     <message>
         <location filename="../about.cpp" line="108"/>
         <source>Lithuanian</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="102"/>
@@ -101,7 +103,7 @@
     <message>
         <location filename="../about.cpp" line="111"/>
         <source>Hebrew</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
@@ -111,7 +113,7 @@
     <message>
         <location filename="../about.cpp" line="125"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="101"/>
@@ -146,7 +148,7 @@
     <message>
         <location filename="../about.cpp" line="109"/>
         <source>Malay</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="110"/>
@@ -166,7 +168,7 @@
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Danish</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
@@ -211,7 +213,7 @@
     <message>
         <location filename="../about.cpp" line="100"/>
         <source>Croatian</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
@@ -221,22 +223,22 @@
     <message>
         <location filename="../about.cpp" line="113"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
         <source>Indonesian</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="130"/>
         <source>Sinhala</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
@@ -251,7 +253,7 @@
     <message>
         <location filename="../about.cpp" line="133"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
@@ -261,7 +263,7 @@
     <message>
         <location filename="../about.cpp" line="135"/>
         <source>Uzbek</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="136"/>
@@ -276,35 +278,45 @@
     <message>
         <location filename="../about.cpp" line="138"/>
         <source>British English</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="139"/>
         <source>Albanian</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="140"/>
         <source>Dutch</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="141"/>
         <source>Romanian</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="142"/>
         <source>Khmer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Telugu</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="144"/>
+        <source>Tamil</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="145"/>
+        <source>Malayalam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="170"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -334,12 +346,12 @@
     <message>
         <location filename="../codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="133"/>
@@ -350,12 +362,12 @@
     <message>
         <location filename="../codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -398,7 +410,7 @@
     <message>
         <location filename="../configdialog.ui" line="80"/>
         <source>Playback</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="88"/>
@@ -408,27 +420,27 @@
     <message>
         <location filename="../configdialog.ui" line="125"/>
         <source>&amp;Player:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="40"/>
         <source>All time</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="41"/>
         <source>This month</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="42"/>
         <source>This week</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="43"/>
         <source>Today</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -436,7 +448,7 @@
     <message>
         <location filename="../downloadfile.cpp" line="117"/>
         <source>%1 hours</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="123"/>
@@ -446,7 +458,7 @@
     <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="126"/>
@@ -456,42 +468,42 @@
     <message>
         <location filename="../downloadfile.cpp" line="127"/>
         <source>%1 remaining</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="132"/>
         <source>%1 of %2 MB</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="138"/>
         <source>%1 of %2 KB</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="144"/>
         <source>%1 of %2 bytes</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="148"/>
         <source>%1 of unknown size</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="153"/>
         <source>%1 MB/sec</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="157"/>
         <source>%1 KB/sec</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="161"/>
         <source>%1 bytes/sec</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -499,7 +511,7 @@
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -507,7 +519,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="125"/>
         <source>Canceled</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="125"/>
@@ -517,17 +529,17 @@
     <message>
         <location filename="../recordingdialog.cpp" line="155"/>
         <source>%1 MB</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="159"/>
         <source>%1 KB</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="163"/>
         <source>%1 bytes</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -554,20 +566,20 @@
         <location filename="../recordingdialog.cpp" line="357"/>
         <location filename="../recordingdialog.cpp" line="777"/>
         <source>There was an error in retrieving the download URL.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="345"/>
         <location filename="../recordingdialog.cpp" line="357"/>
         <location filename="../recordingdialog.cpp" line="777"/>
         <source>Recording failed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="413"/>
         <location filename="../recordingdialog.cpp" line="795"/>
         <source>Starting</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="448"/>
@@ -577,12 +589,16 @@
     <message>
         <location filename="../recordingdialog.cpp" line="452"/>
         <source>Completed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="531"/>
         <source>%1% of %n video - Recordings</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="616"/>
@@ -592,18 +608,18 @@
     <message>
         <location filename="../recordingdialog.cpp" line="618"/>
         <source>&amp;Remove from list</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="639"/>
         <location filename="../recordingdialog.cpp" line="661"/>
         <source>Remove from &amp;list</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="635"/>
         <source>&amp;Retry</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="657"/>
@@ -613,22 +629,22 @@
     <message>
         <location filename="../recordingdialog.cpp" line="660"/>
         <source>&amp;Delete</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="742"/>
         <source>Fetching URL...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="759"/>
         <source>File error</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="760"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -636,27 +652,27 @@
     <message>
         <location filename="../regions.cpp" line="26"/>
         <source>Argentina</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="27"/>
         <source>Australia</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="29"/>
         <source>Belgium</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="30"/>
         <source>Brazil</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="31"/>
         <source>Canada</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="32"/>
@@ -666,12 +682,12 @@
     <message>
         <location filename="../regions.cpp" line="33"/>
         <source>Colombia</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Czech Republic</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
@@ -681,17 +697,17 @@
     <message>
         <location filename="../regions.cpp" line="36"/>
         <source>France</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="37"/>
         <source>Germany</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="38"/>
         <source>Great Britain</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="39"/>
@@ -701,7 +717,7 @@
     <message>
         <location filename="../regions.cpp" line="40"/>
         <source>Hungary</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="41"/>
@@ -711,52 +727,52 @@
     <message>
         <location filename="../regions.cpp" line="42"/>
         <source>Ireland</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="43"/>
         <source>Israel</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="44"/>
         <source>Italy</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="45"/>
         <source>Japan</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="46"/>
         <source>Jordan</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="47"/>
         <source>Malaysia</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="48"/>
         <source>Mexico</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="49"/>
         <source>Morocco</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="50"/>
         <source>Netherlands</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="51"/>
         <source>New Zealand</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="52"/>
@@ -766,47 +782,47 @@
     <message>
         <location filename="../regions.cpp" line="53"/>
         <source>Philippines</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="54"/>
         <source>Poland</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="55"/>
         <source>Russia</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="56"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="57"/>
         <source>Singapore</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="58"/>
         <source>South Africa</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="59"/>
         <source>South Korea</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="60"/>
         <source>Spain</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="61"/>
         <source>Sweden</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="63"/>
@@ -816,12 +832,12 @@
     <message>
         <location filename="../regions.cpp" line="64"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="65"/>
         <source>United States</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -829,7 +845,7 @@
     <message>
         <location filename="../ytdelegate.cpp" line="115"/>
         <source>%L1 views</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -837,7 +853,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="227"/>
         <source>YouTube Browser - SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="275"/>
@@ -857,22 +873,22 @@
     <message>
         <location filename="../ytdialog.cpp" line="293"/>
         <source>Enter URL</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="483"/>
         <source>Most Relevant</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="487"/>
         <source>Most Recent</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="491"/>
         <source>Most Viewed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="495"/>
@@ -887,7 +903,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="642"/>
         <source>Error: Could not connect to Youtube server.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="751"/>
@@ -902,13 +918,13 @@
     <message>
         <location filename="../ytdialog.cpp" line="820"/>
         <source>Enter a URL</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="942"/>
         <location filename="../ytdialog.cpp" line="953"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="944"/>
@@ -919,17 +935,17 @@
         <location filename="../ytdialog.cpp" line="943"/>
         <location filename="../ytdialog.cpp" line="954"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="955"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="526"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="499"/>
@@ -954,12 +970,12 @@
     <message>
         <location filename="../ytdialog.cpp" line="650"/>
         <source>No videos found</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="652"/>
         <source>No videos found for &quot;%1&quot;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="749"/>
@@ -994,7 +1010,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to record</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>
