@@ -1,6 +1,7 @@
 Version 14.7
 
  * Fix the option Record audio.
+ * New translations: Albanian, Slovak and English UK.
 
 
 Version 2.1
