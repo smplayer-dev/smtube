@@ -109,7 +109,8 @@ TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_et.ts \
                translations/smtube_ko.ts \
                translations/smtube_fr.ts \
-               translations/smtube_it.ts
+               translations/smtube_it.ts \
+               translations/smtube_sq_AL.ts
 
 unix {
     UI_DIR = .ui
