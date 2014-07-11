@@ -1,3 +1,10 @@
+smtube (14.7.0) precise; urgency=low
+
+  * Fix the option Record audio.
+  * New translations: Albanian, Slovak and English UK.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 11 Jul 2014 23:07:39 +0200
+
 smtube (2.1) precise; urgency=low
 
   * Improve the download speed for DASH formats.
