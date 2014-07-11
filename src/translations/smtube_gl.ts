@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="gl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -584,10 +582,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="531"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% de %n vídeos - Gravacións</numerusform>
-            <numerusform>%1% de %n vídeos - Gravacións</numerusform>
-        </translation>
+        <translation><numerusform>%1% de %n vídeos - Gravacións</numerusform><numerusform>%1% de %n vídeos - Gravacións</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="616"/>
@@ -999,7 +994,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to record</source>
-        <translation type="unfinished"></translation>
+        <translation>Introduce unha URL de Youtube para gravala</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="928"/>
