@@ -655,7 +655,7 @@ void YTDialog::gotAPIReply(const YTReply& formattedReply)
     }
     setLoadingOverlay(false);
 
-    if (error) setMode(YTDialog::Button);
+    if ((error) && (!searchTerm.isEmpty())) setMode(YTDialog::Button);
 }
 
 void YTDialog::gotPixmap(QPixmap pix, int id)
