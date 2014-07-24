@@ -854,165 +854,165 @@
         <translation>YouTube Böngésző - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="275"/>
+        <location filename="../ytdialog.cpp" line="277"/>
         <source>Settings</source>
         <translation>Beállítások</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="281"/>
+        <location filename="../ytdialog.cpp" line="283"/>
         <source>Information</source>
         <translation>Információ</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="287"/>
+        <location filename="../ytdialog.cpp" line="290"/>
         <source>Show recordings</source>
         <translation>Felvételek lista</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="293"/>
+        <location filename="../ytdialog.cpp" line="296"/>
         <source>Enter URL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="483"/>
+        <location filename="../ytdialog.cpp" line="497"/>
         <source>Most Relevant</source>
         <translation>Kapcsolódó videók</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="487"/>
+        <location filename="../ytdialog.cpp" line="501"/>
         <source>Most Recent</source>
         <translation>Legfrissebb</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="491"/>
+        <location filename="../ytdialog.cpp" line="505"/>
         <source>Most Viewed</source>
         <translation>Legnézettebb</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="495"/>
+        <location filename="../ytdialog.cpp" line="509"/>
         <source>Most Popular</source>
         <translation>Népszerű</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="521"/>
+        <location filename="../ytdialog.cpp" line="535"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Népszerű videók a YouTube-on%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="642"/>
+        <location filename="../ytdialog.cpp" line="656"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Hiba: Nem sikerült csatlakozni a Youtube szerveréhez.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="751"/>
+        <location filename="../ytdialog.cpp" line="766"/>
         <source>R&amp;ecord audio</source>
         <translation>&amp;Hang rögzítése</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="755"/>
+        <location filename="../ytdialog.cpp" line="771"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>URL &amp;hozzáadása az SMPlayer lejátszási listájához</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="820"/>
+        <location filename="../ytdialog.cpp" line="839"/>
         <source>Enter a URL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="942"/>
-        <location filename="../ytdialog.cpp" line="953"/>
+        <location filename="../ytdialog.cpp" line="963"/>
+        <location filename="../ytdialog.cpp" line="974"/>
         <source>Problems with Youtube</source>
         <translation>Problémák a Youtube-bal</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="944"/>
+        <location filename="../ytdialog.cpp" line="965"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Szeretné frissíteni a Youtube kódot? Ez megoldja a problémát.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="943"/>
-        <location filename="../ytdialog.cpp" line="954"/>
+        <location filename="../ytdialog.cpp" line="964"/>
+        <location filename="../ytdialog.cpp" line="975"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Sajnos a Youtube-on történt változások miatt, a(z) &apos;%1&apos; videót nem lehet lejátszani vagy rögzíteni.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="955"/>
+        <location filename="../ytdialog.cpp" line="976"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Lehet, hogy az alkalmazás frissítése megoldja a problémát.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="526"/>
+        <location filename="../ytdialog.cpp" line="540"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 videótalálatok: &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="499"/>
+        <location filename="../ytdialog.cpp" line="513"/>
         <source>Music</source>
         <translation>Zene</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="503"/>
+        <location filename="../ytdialog.cpp" line="517"/>
         <source>Sports</source>
         <translation>Sportok</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="522"/>
+        <location filename="../ytdialog.cpp" line="536"/>
         <source>Most popular sport videos on YouTube%1</source>
         <translation>Legnépszerűbb sport videók a Youtube-on%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="523"/>
+        <location filename="../ytdialog.cpp" line="537"/>
         <source>Most popular music videos on YouTube%1</source>
         <translation>Legnépszerűbb zenei videók a Youtube-on%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="650"/>
+        <location filename="../ytdialog.cpp" line="664"/>
         <source>No videos found</source>
         <translation>Nincs videótalálat</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="652"/>
+        <location filename="../ytdialog.cpp" line="666"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Nincs videotalálat a következő keresésre: &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="749"/>
+        <location filename="../ytdialog.cpp" line="763"/>
         <source>&amp;Play video</source>
         <translation>&amp;Videó lejátszása</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="750"/>
+        <location filename="../ytdialog.cpp" line="765"/>
         <source>&amp;Record video</source>
         <translation>&amp;Videó rögzítése</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="752"/>
+        <location filename="../ytdialog.cpp" line="768"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Megtekintés a YouTube-on</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="753"/>
+        <location filename="../ytdialog.cpp" line="769"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Hivatkozás másolása</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="250"/>
+        <location filename="../ytdialog.cpp" line="252"/>
         <source>Next</source>
         <translation>Következő</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="256"/>
+        <location filename="../ytdialog.cpp" line="258"/>
         <source>Previous</source>
         <translation>Előző</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="821"/>
+        <location filename="../ytdialog.cpp" line="840"/>
         <source>Enter a Youtube URL to record</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="928"/>
-        <location filename="../ytdialog.cpp" line="930"/>
+        <location filename="../ytdialog.cpp" line="949"/>
+        <location filename="../ytdialog.cpp" line="951"/>
         <source>Error</source>
         <translation>Hiba</translation>
     </message>
