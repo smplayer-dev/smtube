@@ -8,8 +8,8 @@ TARGET = smtube
 INCLUDEPATH += qtsingleapplication
 
 CONFIG += qt warn_on
-#CONFIG += release
-CONFIG += debug
+CONFIG += release
+#CONFIG += debug
 
 CONFIG(release, debug|release):DEFINES += QT_NO_DEBUG_OUTPUT QT_NO_WARNING_OUTPUT
 
@@ -18,7 +18,7 @@ RESOURCES = icons.qrc
 DEFINES += NO_SMPLAYER_SUPPORT
 DEFINES += YT_USE_SCRIPT
 DEFINES += USE_SINGLE_APPLICATION
-#DEFINES += YT_DL
+DEFINES += YT_DL
 
 isEqual(QT_MAJOR_VERSION, 5) {
     QT += widgets gui
