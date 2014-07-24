@@ -106,7 +106,9 @@ int main( int argc, char ** argv )
 
 	QString search_term;
 	QString language;
+#ifdef YT_DL
 	QString download_url;
+#endif
 
 	QStringList args = qApp->arguments();
 	for (int n = 1; n < args.count(); n++) {
@@ -117,6 +119,7 @@ int main( int argc, char ** argv )
 				language = args[n];
 			}
 		}
+		#ifdef YT_DL
 		else
 		if (argument == "-url") {
 			if (n+1 < args.count()) {
@@ -124,6 +127,7 @@ int main( int argc, char ** argv )
 				download_url = args[n];
 			}
 		}
+		#endif
 		else
 		search_term = args[n];
 	}
@@ -133,9 +137,11 @@ int main( int argc, char ** argv )
 		QString message;
 		if (!search_term.isEmpty()) message = "search " + search_term;
 		a.sendMessage(message);
+		#ifdef YT_DL
 		if (!download_url.isEmpty()) {
 			a.sendMessage("download " + download_url);
 		}
+		#endif
 		qDebug("Another instance is running. Exiting.");
 		return 0;
 	}
@@ -182,7 +188,9 @@ int main( int argc, char ** argv )
 		yt->setMode(YTDialog::Button);
 	}
 	yt->show();
+#ifdef YT_DL
 	if (!download_url.isEmpty()) yt->downloadUrl(download_url);
+#endif
 
 	int r = a.exec();
 

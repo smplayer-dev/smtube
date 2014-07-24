@@ -199,15 +199,21 @@ public slots:
     void videoItemChanged(QListWidgetItem * current, QListWidgetItem * previous);
     void setSearchTerm(QString term);
     void showContextMenu(QPoint point);
+
+#ifdef YT_DL
     void recordItem(QListWidgetItem* item);
     void recordAudioItem(QListWidgetItem* item);
+    void downloadUrl(const QString & url);
+#endif
+
     void playVideo(QString file);
     void playYTUrl(const QString &url, QString title, QString id);
     void addToPlaylist(const QString &url);
-    void downloadUrl(const QString & url);
 
 protected slots:
+#ifdef YT_DL
     void enterUrl();
+#endif
     void showConfigDialog();
     void showAboutDialog();
     void showErrorDialog(const QString & error);
@@ -222,7 +228,12 @@ private:
     SmoothListWidget* videoList;
     YTDelegate* delegate;
     PixmapLoader * pixmap_loader;
+
+#ifdef YT_DL
     RecordingDialog * recording_dialog;
+    QToolButton * recordingButton;
+    QToolButton * enterUrlButton;
+#endif
 
     bool overlayVisible;
     OverlayWidget* overlay;
@@ -235,9 +246,6 @@ private:
     SearchBox* searchBox;
     QToolButton * configButton;
     QToolButton * infoButton;
-    QToolButton * recordingButton;
-    QToolButton * enterUrlButton;
-
     QSettings * set;
     int playback_quality;
 

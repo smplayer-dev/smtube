@@ -8,8 +8,8 @@ TARGET = smtube
 INCLUDEPATH += qtsingleapplication
 
 CONFIG += qt warn_on
-CONFIG += release
-#CONFIG += debug
+#CONFIG += release
+CONFIG += debug
 
 CONFIG(release, debug|release):DEFINES += QT_NO_DEBUG_OUTPUT QT_NO_WARNING_OUTPUT
 
@@ -18,6 +18,7 @@ RESOURCES = icons.qrc
 DEFINES += NO_SMPLAYER_SUPPORT
 DEFINES += YT_USE_SCRIPT
 DEFINES += USE_SINGLE_APPLICATION
+#DEFINES += YT_DL
 
 isEqual(QT_MAJOR_VERSION, 5) {
     QT += widgets gui
@@ -34,8 +35,6 @@ contains( DEFINES, YT_USE_SCRIPT ) {
 # Input
 HEADERS += myborder.h \
            myicon.h \
-           downloadfile.h \
-           recordingdialog.h \
            retrieveyoutubeurl.h \
            rvu.h \
            ytsig.h \
@@ -54,8 +53,6 @@ HEADERS += myborder.h \
 
 SOURCES += myborder.cpp \
            myicon.cpp \
-           downloadfile.cpp \
-           recordingdialog.cpp \
            retrieveyoutubeurl.cpp \
            rvu.cpp \
            ytsig.cpp \
@@ -145,4 +142,9 @@ contains(DEFINES, USE_PLAYERS) {
     SOURCES += players.cpp
 } else {
     HEADERS += hcplayer.h
+}
+
+contains(DEFINES, YT_DL) {
+    HEADERS += recordingdialog.h downloadfile.h
+    SOURCES += recordingdialog.cpp downloadfile.cpp
 }
