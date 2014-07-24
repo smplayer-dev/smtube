@@ -75,6 +75,10 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 #endif
 #endif
 
+#ifndef YT_DL
+	recording_group->hide();
+#endif
+
 #ifdef USE_PLAYERS
     connect(player_combo, SIGNAL(currentIndexChanged(int)), this, SLOT(playerChanged(int)));
 #endif
