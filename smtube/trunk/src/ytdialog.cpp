@@ -231,9 +231,11 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     videoList = new SmoothListWidget(this);
     pixmap_loader = new PixmapLoader;
 
+#ifdef YT_DL
     recording_dialog = new RecordingDialog(0, settings);
     recording_dialog->setRecordingsDirectory("");
     recording_dialog->setRecordingQuality(RetrieveYoutubeUrl::MP4_720p);
+#endif
 
     MyBorder* border = new MyBorder(this);
     border->setBGColor(palette().color(backgroundRole()));
@@ -282,6 +284,7 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     infoButton->setShortcut(QKeySequence("Alt+I"));
     connect(infoButton, SIGNAL(clicked()), this, SLOT(showAboutDialog()));
 
+#ifdef YT_DL
     recordingButton = new QToolButton(this);
     recordingButton->setIcon(QPixmap(":/icons/recordings.png"));
     recordingButton->setToolTip(tr("Show recordings"));
@@ -293,11 +296,14 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     enterUrlButton->setToolTip(tr("Enter URL"));
     enterUrlButton->setShortcut(QKeySequence("Alt+U"));
     connect(enterUrlButton, SIGNAL(clicked()), this, SLOT(enterUrl()));
+#endif
 
     QHBoxLayout* hbox = new QHBoxLayout;
     hbox->addWidget(searchBox);
+#ifdef YT_DL
     hbox->addWidget(recordingButton);
     hbox->addWidget(enterUrlButton);
+#endif
     hbox->addWidget(configButton);
     hbox->addWidget(infoButton);
 
@@ -324,18 +330,24 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     connect(videoList, SIGNAL(currentItemChanged(QListWidgetItem*,QListWidgetItem*)), this, SLOT(videoItemChanged(QListWidgetItem*,QListWidgetItem*)));
     connect(videoList, SIGNAL(customContextMenuRequested(QPoint)), this, SLOT(showContextMenu(QPoint)));
 
+#ifdef YT_DL
     connect(recording_dialog, SIGNAL(playFile(QString)), this, SLOT(playVideo(QString)));
     connect(recording_dialog, SIGNAL(signatureNotFound(const QString &)),
             this, SLOT(showErrorSignatureNotFound(const QString &)));
+#endif
 
     /*
     connect(this, SIGNAL(gotUrls(QMap<int,QString>, QString, QString)), 
             this, SLOT(playYTUrl(QMap<int,QString>,QString, QString)));
     */
 
+#ifdef YT_DL
     setTabOrder(searchBox, recordingButton);
     setTabOrder(recordingButton, enterUrlButton);
     setTabOrder(enterUrlButton, configButton);
+#else
+    setTabOrder(searchBox, configButton);
+#endif
     setTabOrder(configButton, infoButton);
     setTabOrder(infoButton, prevButton);
     setTabOrder(prevButton, nextButton);
@@ -383,7 +395,9 @@ YTDialog::~YTDialog()
 	saveConfig();
 
     delete pixmap_loader;
+#ifdef YT_DL
     delete recording_dialog;
+#endif
 }
 
 void YTDialog::setLoadingOverlay(bool enable)
@@ -744,11 +758,13 @@ void YTDialog::videoDblClicked(QListWidgetItem *item)
 }
 
 void YTDialog::showContextMenu(QPoint point)
-{ 
+{
     QMenu menu;
     menu.addAction(tr("&Play video"))->setData("play");
+#ifdef YT_DL
     menu.addAction(tr("&Record video"))->setData("record");
     menu.addAction(tr("R&ecord audio"))->setData("record_audio");
+#endif
     menu.addAction(tr("&Watch on YouTube"))->setData("watch");
     menu.addAction(tr("&Copy link"))->setData("link");
  #ifndef Q_WS_AMIGA // zzd10h
@@ -763,6 +779,7 @@ void YTDialog::showContextMenu(QPoint point)
     {
        videoDblClicked(item);
     }
+#ifdef YT_DL
     else if(action->data().toString() == "record")
     {
        recordItem(item);
@@ -771,6 +788,7 @@ void YTDialog::showContextMenu(QPoint point)
     {
        recordAudioItem(item);
     }
+#endif
     else if(action->data().toString() == "watch")
     {
         SingleVideoItem* svi = item->data(0).value<SingleVideoItem*>();
@@ -788,6 +806,7 @@ void YTDialog::showContextMenu(QPoint point)
     }
 }
 
+#ifdef YT_DL
 void YTDialog::recordItem(QListWidgetItem *item)
 {
     #ifdef YT_USE_SCRIPT
@@ -828,7 +847,7 @@ void YTDialog::enterUrl() {
 		}
 	}
 }
-
+#endif // YT_DL
 
 void YTDialog::playVideo(QString file) 
 {
@@ -912,6 +931,7 @@ void YTDialog::handleMessage(const QString& message)
         qDebug("YTDialog::handleMessage: search_term: '%s'", search_term.toUtf8().constData());
         setSearchTerm(search_term);
     }
+	#ifdef YT_DL
     else
     if (message.startsWith("download "))
     {
@@ -919,6 +939,7 @@ void YTDialog::handleMessage(const QString& message)
         qDebug("YTDialog::handleMessage: download_url: '%s'", download_url.toUtf8().constData());
         downloadUrl(download_url);
     }
+	#endif
 }
 #endif
 
@@ -967,8 +988,10 @@ void YTDialog::showConfigDialog()
     qDebug("YTDialog::showConfigDialog");
 
     ConfigDialog d(this);
+#ifdef YT_DL
     d.setRecordingDirectory(recording_dialog->recordingsDirectory());
     d.setRecordingQuality(recording_dialog->recordingQuality());
+#endif
 #ifdef USE_PLAYERS
     d.setPlayerNames( players.availablePlayers() );
     d.setPlayer( players.currentPlayer().name() );
@@ -982,8 +1005,10 @@ void YTDialog::showConfigDialog()
     d.setRegion( region );
 
     if (d.exec() == QDialog::Accepted) {
+        #ifdef YT_DL
         recording_dialog->setRecordingsDirectory(d.recordingDirectory());
         recording_dialog->setRecordingQuality(d.recordingQuality());
+        #endif
         #ifdef USE_PLAYERS
         int p = players.findName(d.player());
         if (p == -1) p = 0;
@@ -1002,11 +1027,15 @@ void YTDialog::showConfigDialog()
 
 void YTDialog::loadConfig() 
 {
+#ifdef YT_DL
     QString recording_directory;
+#endif
     if (set) {
         set->beginGroup("General");
+        #ifdef YT_DL
         recording_directory = set->value("recording_directory", recording_dialog->recordingsDirectory()).toString();
         recording_dialog->setRecordingQuality(set->value("record_quality", recording_dialog->recordingQuality()).toInt());
+        #endif
 #ifdef USE_PLAYERS
         players.setCurrent(set->value("player", players.current()).toInt());
 #endif
@@ -1023,6 +1052,7 @@ void YTDialog::loadConfig()
         set->endGroup();
     }
 
+#ifdef YT_DL
     if (!recording_directory.isEmpty()) {
         recording_dialog->setRecordingsDirectory(recording_directory);
     } else {
@@ -1064,14 +1094,17 @@ void YTDialog::loadConfig()
         recording_dialog->setRecordingsDirectory(default_recording_folder);
 #endif
     }
+#endif // YT_DL
 }
 
 void YTDialog::saveConfig() 
 {
     if (set) {
         set->beginGroup("General");
+        #ifdef YT_DL
         set->setValue("recording_directory", recording_dialog->recordingsDirectory());
         set->setValue("record_quality", recording_dialog->recordingQuality());
+        #endif
         #ifdef USE_PLAYERS
         set->setValue("player", players.current());
         #endif
