@@ -61,10 +61,6 @@
         <translation>Besök vår hemsida för uppdateringar:</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Följande personer har bidragit med översättningar:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="98"/>
         <source>Spanish</source>
         <translation>Spanska</translation>
@@ -83,10 +79,6 @@
         <location filename="../about.cpp" line="102"/>
         <source>Japanese</source>
         <translation>Japanska</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Förenklad-Kinesiska</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -109,24 +101,19 @@
         <translation>Polska</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="131"/>
-        <source>Greek</source>
-        <translation type="unfinished">Grekiska</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="111"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>Hebreiska</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukrainska</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="125"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Norska</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="101"/>
@@ -251,6 +238,11 @@
     <message>
         <location filename="../about.cpp" line="130"/>
         <source>Sinhala</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="131"/>
+        <source>Greek</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -863,173 +855,165 @@
         <translation>YouTube Bläddrare - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="275"/>
+        <location filename="../ytdialog.cpp" line="277"/>
         <source>Settings</source>
         <translation>Inställningar</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="281"/>
+        <location filename="../ytdialog.cpp" line="283"/>
         <source>Information</source>
         <translation>Information</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="287"/>
+        <location filename="../ytdialog.cpp" line="290"/>
         <source>Show recordings</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa inspelningar</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="483"/>
-        <source>Most Relevant</source>
-        <translation>Mest Relevanta</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="487"/>
-        <source>Most Recent</source>
-        <translation>De Senaste</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="491"/>
-        <source>Most Viewed</source>
-        <translation>Mest Visade</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="495"/>
-        <source>Most Popular</source>
-        <translation>Populäraste</translation>
-    </message>
-    <message>
-        <source>Most Rated</source>
-        <translation type="obsolete">Mest Betygsatta</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="521"/>
-        <source>Most popular videos on YouTube%1</source>
-        <translation>Populäraste videoklippen på YouTube%1</translation>
-    </message>
-    <message>
-        <source>Most rated videos on YouTube%1</source>
-        <translation type="obsolete">Mest betygsatta videoklippen på YouTube%1</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="642"/>
-        <source>Error: Could not connect to Youtube server.</source>
-        <translation>Fel: Kunde inte ansluta till Youtube server.</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="755"/>
-        <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="820"/>
-        <source>Enter a URL</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="942"/>
-        <location filename="../ytdialog.cpp" line="953"/>
-        <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="944"/>
-        <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="943"/>
-        <location filename="../ytdialog.cpp" line="954"/>
-        <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="955"/>
-        <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="526"/>
-        <source>YouTube%2 results for &quot;%1&quot;</source>
-        <translation>YouTube%2 resultat för &quot;%1&quot;</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="293"/>
+        <location filename="../ytdialog.cpp" line="296"/>
         <source>Enter URL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="499"/>
-        <source>Music</source>
-        <translation type="unfinished"></translation>
+        <location filename="../ytdialog.cpp" line="497"/>
+        <source>Most Relevant</source>
+        <translation>Mest Relevanta</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="503"/>
-        <source>Sports</source>
-        <translation type="unfinished"></translation>
+        <location filename="../ytdialog.cpp" line="501"/>
+        <source>Most Recent</source>
+        <translation>De Senaste</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="522"/>
-        <source>Most popular sport videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <location filename="../ytdialog.cpp" line="505"/>
+        <source>Most Viewed</source>
+        <translation>Mest Visade</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="523"/>
-        <source>Most popular music videos on YouTube%1</source>
-        <translation type="unfinished"></translation>
+        <location filename="../ytdialog.cpp" line="509"/>
+        <source>Most Popular</source>
+        <translation>Populäraste</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="650"/>
-        <source>No videos found</source>
-        <translation>Inga videoklipp hittades</translation>
+        <location filename="../ytdialog.cpp" line="535"/>
+        <source>Most popular videos on YouTube%1</source>
+        <translation>Populäraste videoklippen på YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="652"/>
-        <source>No videos found for &quot;%1&quot;</source>
-        <translation>Inga videoklipp hittades för  &quot;%1&quot;</translation>
+        <location filename="../ytdialog.cpp" line="656"/>
+        <source>Error: Could not connect to Youtube server.</source>
+        <translation>Fel: Kunde inte ansluta till Youtube server.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="749"/>
-        <source>&amp;Play video</source>
-        <translation>&amp;Spela video</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="750"/>
-        <source>&amp;Record video</source>
-        <translation>&amp;Spela in video</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="751"/>
+        <location filename="../ytdialog.cpp" line="766"/>
         <source>R&amp;ecord audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="752"/>
+        <location filename="../ytdialog.cpp" line="771"/>
+        <source>&amp;Add URL to the SMPlayer playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="839"/>
+        <source>Enter a URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="963"/>
+        <location filename="../ytdialog.cpp" line="974"/>
+        <source>Problems with Youtube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="965"/>
+        <source>Do you want to update the Youtube code? This may fix the problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="964"/>
+        <location filename="../ytdialog.cpp" line="975"/>
+        <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="976"/>
+        <source>Maybe updating this application could fix the problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="540"/>
+        <source>YouTube%2 results for &quot;%1&quot;</source>
+        <translation>YouTube%2 resultat för &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="513"/>
+        <source>Music</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="517"/>
+        <source>Sports</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="536"/>
+        <source>Most popular sport videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="537"/>
+        <source>Most popular music videos on YouTube%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="664"/>
+        <source>No videos found</source>
+        <translation>Inga videoklipp hittades</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="666"/>
+        <source>No videos found for &quot;%1&quot;</source>
+        <translation>Inga videoklipp hittades för  &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="763"/>
+        <source>&amp;Play video</source>
+        <translation>&amp;Spela video</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="765"/>
+        <source>&amp;Record video</source>
+        <translation>&amp;Spela in video</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="768"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Titta på YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="753"/>
+        <location filename="../ytdialog.cpp" line="769"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Kopiera länk</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="250"/>
+        <location filename="../ytdialog.cpp" line="252"/>
         <source>Next</source>
         <translation>Nästa</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="256"/>
+        <location filename="../ytdialog.cpp" line="258"/>
         <source>Previous</source>
         <translation>Föregående</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="821"/>
+        <location filename="../ytdialog.cpp" line="840"/>
         <source>Enter a Youtube URL to record</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="928"/>
-        <location filename="../ytdialog.cpp" line="930"/>
+        <location filename="../ytdialog.cpp" line="949"/>
+        <location filename="../ytdialog.cpp" line="951"/>
         <source>Error</source>
         <translation>Fel</translation>
     </message>
