@@ -1050,6 +1050,14 @@ void YTDialog::loadConfig()
         /* RetrieveYoutubeUrl::setUserAgent(set->value("user_agent", "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1").toString()); */
         RetrieveYoutubeUrl::setUserAgent(set->value("user_agent", "").toString());
         FontPref::base_size = set->value("font_base_size", FontPref::base_size).toInt();
+
+        int config_version = set->value("config_version", 0).toInt();
+        if (config_version < 1) {
+            qDebug("YTDialog::loadConfig: reseting some options");
+            config_version = 1;
+            set->setValue("config_version", config_version);
+            RetrieveYoutubeUrl::setUserAgent("");
+        }
         set->endGroup();
     }
 
