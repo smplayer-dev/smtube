@@ -1,3 +1,8 @@
+Version 14.8
+
+ * Fix playback (for players other than smplayer).
+
+
 Version 14.7
 
  * Fix the option Record audio.

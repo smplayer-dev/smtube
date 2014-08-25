@@ -1,3 +1,12 @@
+Version 14.8:
+
+(2014-08-07)
+ * Fix playback (for players other than smplayer).
+
+(2014-07-24)
+ * Possibility to compile without the option to download videos.
+
+
 Version 14.7:
 
 (2014-07-11)
