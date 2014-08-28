@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="nn_NO">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nn_NO" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -48,7 +46,7 @@
     <message>
         <location filename="../about.cpp" line="39"/>
         <source>Portable Edition</source>
-        <translation>Portabel utgåve</translation>
+        <translation>Berbar utgåve</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
@@ -123,7 +121,7 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Many people contributed with translations.</source>
-        <translation>Fleire har bidrege med omsettingar.</translation>
+        <translation>Mange personar har bidrege med ommsettingar.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
@@ -133,12 +131,12 @@
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>Gå til %1 og meld deg inn i ei omsetjing gruppa.</translation>
+        <translation>Gå til %1 og meld deg inn i ei omsetjingsgruppe.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>Noverande omsetjarar i Transifex gruppa:</translation>
+        <translation>Omsetjarar i Transifex-gruppa:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
@@ -153,7 +151,7 @@
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Portuguese - Brazil</source>
-        <translation>Portugisisk - Brazil</translation>
+        <translation>Portugisisk - Brasil</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
@@ -278,7 +276,7 @@
     <message>
         <location filename="../about.cpp" line="138"/>
         <source>British English</source>
-        <translation>Britisk engelsk</translation>
+        <translation>Britisk-engelsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="139"/>
@@ -308,12 +306,12 @@
     <message>
         <location filename="../about.cpp" line="144"/>
         <source>Tamil</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamilsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Malayalam</source>
-        <translation type="unfinished"></translation>
+        <translation>Malayalam</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
@@ -331,7 +329,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Lastar ned...</translation>
+        <translation>Lastar ned …</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
@@ -341,7 +339,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>YouTube koden har blitt oppdatert.</translation>
+        <translation>YouTube-koden er oppdatert.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="127"/>
@@ -385,7 +383,7 @@
     <message>
         <location filename="../configdialog.ui" line="28"/>
         <source>&amp;Save to this folder</source>
-        <translation>&amp;Lagre til denne mappa</translation>
+        <translation>&amp;Lagre i denne mappa</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="45"/>
@@ -395,7 +393,7 @@
     <message>
         <location filename="../configdialog.ui" line="157"/>
         <source>Standard Feeds</source>
-        <translation>Normal oppsett</translation>
+        <translation>Standardkjelder</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="163"/>
@@ -468,7 +466,7 @@
     <message>
         <location filename="../downloadfile.cpp" line="127"/>
         <source>%1 remaining</source>
-        <translation>%1 er att</translation>
+        <translation>%1 står att</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="132"/>
@@ -488,22 +486,22 @@
     <message>
         <location filename="../downloadfile.cpp" line="148"/>
         <source>%1 of unknown size</source>
-        <translation>%1 av ukjend størrelse</translation>
+        <translation>%1 av ukjend storleik</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="153"/>
         <source>%1 MB/sec</source>
-        <translation>%1 MB/sek</translation>
+        <translation>%1 MB/sek.</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="157"/>
         <source>%1 KB/sec</source>
-        <translation>%1 KB/sek</translation>
+        <translation>%1 KB/sek.</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="161"/>
         <source>%1 bytes/sec</source>
-        <translation>%1 byte/sek</translation>
+        <translation>%1 byte/sek.</translation>
     </message>
 </context>
 <context>
@@ -511,7 +509,7 @@
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation>Klikk for å velje ei fil eller mappe</translation>
+        <translation>Klikk for å velja ei fil eller mappe</translation>
     </message>
 </context>
 <context>
@@ -559,14 +557,14 @@
         <location filename="../recordingdialog.cpp" line="210"/>
         <location filename="../recordingdialog.cpp" line="658"/>
         <source>&amp;Open folder</source>
-        <translation>&amp;Opne mappe</translation>
+        <translation>&amp;Opna mappe</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="345"/>
         <location filename="../recordingdialog.cpp" line="357"/>
         <location filename="../recordingdialog.cpp" line="777"/>
         <source>There was an error in retrieving the download URL.</source>
-        <translation>Feil under henting av nedlastings URL-en</translation>
+        <translation>Feil under henting av nedlastings-URL.</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="345"/>
@@ -594,10 +592,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="531"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% av %n video - Opptak</numerusform>
-            <numerusform>%1% av %n videar - Opptak</numerusform>
-        </translation>
+        <translation><numerusform>%1% av %n videoopptak</numerusform><numerusform>%1% av %n video-opptak</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="616"/>
@@ -643,7 +638,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="760"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
-        <translation>Fila finst ikkje. Vil du fjerne henne frå lista?</translation>
+        <translation>Fila finst ikkje. Vil du fjerna henne frå lista?</translation>
     </message>
 </context>
 <context>
@@ -671,7 +666,7 @@
     <message>
         <location filename="../regions.cpp" line="31"/>
         <source>Canada</source>
-        <translation>Kanada</translation>
+        <translation>Canada</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="32"/>
@@ -686,7 +681,7 @@
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Czech Republic</source>
-        <translation>Den tsjekkiske republikk</translation>
+        <translation>Tsjekkia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
@@ -756,7 +751,7 @@
     <message>
         <location filename="../regions.cpp" line="48"/>
         <source>Mexico</source>
-        <translation>Mexiko</translation>
+        <translation>Mexico</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="49"/>
@@ -781,7 +776,7 @@
     <message>
         <location filename="../regions.cpp" line="53"/>
         <source>Philippines</source>
-        <translation>Filippinene</translation>
+        <translation>Filipinane</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="54"/>
@@ -831,12 +826,12 @@
     <message>
         <location filename="../regions.cpp" line="64"/>
         <source>United Arab Emirates</source>
-        <translation>De forente arabiske emirater</translation>
+        <translation>Dei sameinte arabiske emirata</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="65"/>
         <source>United States</source>
-        <translation>Amerikas forente stater</translation>
+        <translation>Sambandsstatane (USA)</translation>
     </message>
 </context>
 <context>
@@ -855,166 +850,166 @@
         <translation>YouTube-lesar - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="277"/>
+        <location filename="../ytdialog.cpp" line="275"/>
         <source>Settings</source>
         <translation>Innstillingar</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="283"/>
+        <location filename="../ytdialog.cpp" line="281"/>
         <source>Information</source>
         <translation>Informasjon</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="290"/>
+        <location filename="../ytdialog.cpp" line="287"/>
         <source>Show recordings</source>
-        <translation>Vis opptak</translation>
+        <translation>Vis innspelingar</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="296"/>
+        <location filename="../ytdialog.cpp" line="293"/>
         <source>Enter URL</source>
         <translation>Skriv inn URL</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="497"/>
+        <location filename="../ytdialog.cpp" line="483"/>
         <source>Most Relevant</source>
         <translation>Mest relevant</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="501"/>
+        <location filename="../ytdialog.cpp" line="487"/>
         <source>Most Recent</source>
         <translation>Siste</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="505"/>
+        <location filename="../ytdialog.cpp" line="491"/>
         <source>Most Viewed</source>
         <translation>Mest sette</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="509"/>
+        <location filename="../ytdialog.cpp" line="495"/>
         <source>Most Popular</source>
         <translation>Mest populære</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="535"/>
+        <location filename="../ytdialog.cpp" line="521"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Mest populære videoar på YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="656"/>
+        <location filename="../ytdialog.cpp" line="642"/>
         <source>Error: Could not connect to Youtube server.</source>
-        <translation>Feil: Klarte ikkje å kople til Youtube-tenaren.</translation>
+        <translation>Feil: Klarte ikkje å kopla til Youtube-tenaren.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="766"/>
+        <location filename="../ytdialog.cpp" line="751"/>
         <source>R&amp;ecord audio</source>
         <translation>Ta&amp; opp lyd</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="771"/>
+        <location filename="../ytdialog.cpp" line="755"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>&amp;Legg ein URL i spelelista til SMPlayer.  </translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="839"/>
+        <location filename="../ytdialog.cpp" line="820"/>
         <source>Enter a URL</source>
         <translation>Legg til ein URL</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="963"/>
-        <location filename="../ytdialog.cpp" line="974"/>
+        <location filename="../ytdialog.cpp" line="942"/>
+        <location filename="../ytdialog.cpp" line="953"/>
         <source>Problems with Youtube</source>
         <translation>Problem med YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="965"/>
+        <location filename="../ytdialog.cpp" line="944"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation>Vil du oppdatera YouTube koden? 
+        <translation>Vil du oppdatera YouTube-koden? 
 Dette kan løyse problemet. </translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="964"/>
-        <location filename="../ytdialog.cpp" line="975"/>
+        <location filename="../ytdialog.cpp" line="943"/>
+        <location filename="../ytdialog.cpp" line="954"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation>Uheldigvis, grunna endringar på YouTube kan ikkje video &apos;%1&apos; verken spelast av eller takast opp.</translation>
+        <translation>Uheldigvis, grunna endringar på YouTube kan ikkje videoen &apos;%1&apos; korkje spelast av eller takast opp.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="976"/>
+        <location filename="../ytdialog.cpp" line="955"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation>Oppdatering av programvare kan, kanskje, løyse problemet.</translation>
+        <translation>Oppdatering av programmet kan kanskje løysa dette problemet.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="540"/>
+        <location filename="../ytdialog.cpp" line="526"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 resultat for &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="513"/>
+        <location filename="../ytdialog.cpp" line="499"/>
         <source>Music</source>
         <translation>Musikk</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="517"/>
+        <location filename="../ytdialog.cpp" line="503"/>
         <source>Sports</source>
         <translation>Sport</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="536"/>
+        <location filename="../ytdialog.cpp" line="522"/>
         <source>Most popular sport videos on YouTube%1</source>
-        <translation>Mest populære idrett video på YouTube%1</translation>
+        <translation>Mest populære sportsvideoar på YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="537"/>
+        <location filename="../ytdialog.cpp" line="523"/>
         <source>Most popular music videos on YouTube%1</source>
-        <translation>Mest omtykte musikk video på YouTube</translation>
+        <translation>Mest omtykte musikkvideoar på YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="664"/>
+        <location filename="../ytdialog.cpp" line="650"/>
         <source>No videos found</source>
         <translation>Fann ingen videoar</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="666"/>
+        <location filename="../ytdialog.cpp" line="652"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Fann ingen videoar for &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="763"/>
+        <location filename="../ytdialog.cpp" line="749"/>
         <source>&amp;Play video</source>
         <translation>&amp;Spel video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="765"/>
+        <location filename="../ytdialog.cpp" line="750"/>
         <source>&amp;Record video</source>
-        <translation>&amp;Spel inn vdeo</translation>
+        <translation>&amp;Spel inn video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="768"/>
+        <location filename="../ytdialog.cpp" line="752"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Sjå på YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="769"/>
+        <location filename="../ytdialog.cpp" line="753"/>
         <source>&amp;Copy link</source>
-        <translation>&amp;Kopier lenke</translation>
+        <translation>&amp;Kopier lenkje</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="252"/>
+        <location filename="../ytdialog.cpp" line="250"/>
         <source>Next</source>
         <translation>Neste</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="258"/>
+        <location filename="../ytdialog.cpp" line="256"/>
         <source>Previous</source>
         <translation>Førre</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="840"/>
+        <location filename="../ytdialog.cpp" line="821"/>
         <source>Enter a Youtube URL to record</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv inn ein YouTube-URL for å spela inn</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="949"/>
-        <location filename="../ytdialog.cpp" line="951"/>
+        <location filename="../ytdialog.cpp" line="928"/>
+        <location filename="../ytdialog.cpp" line="930"/>
         <source>Error</source>
         <translation>Feil</translation>
     </message>
