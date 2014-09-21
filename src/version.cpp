@@ -34,6 +34,13 @@
 #endif
 #endif
 
+#ifdef Q_WS_AMIGA // zzd10h
+#include "svn_revision.h"
+#include "amiga_date.h"
+#define VERSTAG_AMIGA "\0$VER: SMTube " VERSION " " DATE_AMIGA " " SVN_REVISION
+char * ver = (char *)VERSTAG_AMIGA; 
+#endif
+
 QString smtubeVersion() {
 #if USE_SVN_VERSIONS
 #ifdef Q_OS_WIN

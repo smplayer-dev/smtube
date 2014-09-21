@@ -23,6 +23,8 @@ sh
 
 ./get_svn_revision.sh to build the svn version file used in version.cpp 
 
+./get_amiga_date.sh to build the amiga date file for AmiUpdate used in version.cpp 
+
 cd src 
 
 qmake *to build the Qt project file*
@@ -30,6 +32,8 @@ qmake *to build the Qt project file*
 gmake *to build SMTube*
 
 lrelease smtube.pro *to build the translations files. Cancel Requesters if needed*
+
+delete translations/*.ts
 
 cd Amiga 
 
@@ -66,4 +70,4 @@ Alfkil Thorbjørn Wennermark for the AmigaOS 4.1 port of Qt
 
   
 Guillaume 'zzd10h' Boesel 
-2014/06/01 
+2014/09/20 
