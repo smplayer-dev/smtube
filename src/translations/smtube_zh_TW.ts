@@ -296,22 +296,22 @@
     <message>
         <location filename="../about.cpp" line="142"/>
         <source>Khmer</source>
-        <translation type="unfinished"/>
+        <translation>高棉語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Telugu</source>
-        <translation type="unfinished"/>
+        <translation>泰盧固語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="144"/>
         <source>Tamil</source>
-        <translation type="unfinished"/>
+        <translation>坦米爾語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Malayalam</source>
-        <translation type="unfinished"/>
+        <translation>馬拉亞姆語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
