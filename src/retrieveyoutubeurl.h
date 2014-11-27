@@ -66,6 +66,11 @@ public:
 	bool isUrlSupported(const QString & url);
 	QString fullUrl(const QString & url);
 
+	static void setUseHttpsMain(bool b) { use_https_main = b; };
+	static void setUseHttpsVi(bool b) { use_https_vi = b; };
+	static bool useHttpsMain() { return use_https_main; };
+	static bool useHttpsVi() { return use_https_vi; };
+
 signals:
 	void gotUrls(const QMap<int, QString>&);
 	void gotPreferredUrl(const QString &);
@@ -78,6 +83,8 @@ signals:
 	void errorOcurred(int error_number, QString error_str);
 
 	void signatureNotFound(const QString & title);
+
+	void noSslSupport();
 
 protected slots:
 	void gotResponse();
@@ -100,6 +107,8 @@ protected:
 
 	Quality preferred_quality;
 	static QString user_agent;
+	static bool use_https_main;
+	static bool use_https_vi;
 
 #ifdef YT_GET_VIDEOINFO
 	QString video_id;
