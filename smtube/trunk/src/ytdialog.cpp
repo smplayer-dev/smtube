@@ -334,6 +334,8 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     connect(recording_dialog, SIGNAL(playFile(QString)), this, SLOT(playVideo(QString)));
     connect(recording_dialog, SIGNAL(signatureNotFound(const QString &)),
             this, SLOT(showErrorSignatureNotFound(const QString &)));
+    connect(recording_dialog, SIGNAL(noSslSupport()),
+            this, SLOT(showErrorNoSslSupport()));
 #endif
 
     /*
@@ -748,6 +750,7 @@ void YTDialog::videoDblClicked(QListWidgetItem *item)
                 this, SLOT(playYTUrl(const QString &, QString, QString)));
         connect(rvu, SIGNAL(signatureNotFound(const QString &)), 
                 this, SLOT(showErrorSignatureNotFound(const QString &)));
+        connect(rvu, SIGNAL(noSslSupport()), this, SLOT(showErrorNoSslSupport()));
         connect(rvu, SIGNAL(gotPreferredUrl(const QString &, QString, QString)),
                 rvu, SLOT(deleteLater()));
         rvu->fetchYTVideoPage( svi->videoid, svi->header );
@@ -950,6 +953,15 @@ void YTDialog::showErrorDialog(const QString & error)
  #else
     QMessageBox::warning(this, tr("Error"),"<center>"+error.leftJustified(150, ' ')+"</center>");
  #endif
+}
+
+void YTDialog::showErrorNoSslSupport() {
+	qDebug("YTDialog::showErrorNoSslSupport");
+	QMessageBox::warning(this, tr("Connection failed"),
+		tr("The video you requested needs to open a HTTPS connection.") +"<br>"+
+		tr("Unfortunately the openssl component, required for it, it's not available in your system.") +"<br>"+
+		tr("Please, visit %1 to know how to fix this problem.")
+			.arg("<a href=\"http://smplayer.sourceforge.net/openssl.php\">" + tr("this link") + "</a>") );
 }
 
 void YTDialog::showErrorSignatureNotFound(const QString & title) {

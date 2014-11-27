@@ -137,6 +137,7 @@ protected:
 signals:
     void playFile(QString path);
     void signatureNotFound(const QString &);
+    void noSslSupport();
 
 public slots:
     void oneDownloadFinished(bool error);

@@ -218,6 +218,7 @@ protected slots:
     void showAboutDialog();
     void showErrorDialog(const QString & error);
     void showErrorSignatureNotFound(const QString &);
+    void showErrorNoSslSupport();
 
     void incFontSize();
     void decFontSize();
