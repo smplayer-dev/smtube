@@ -266,6 +266,7 @@ void RecordingDialog::downloadUrl(const QString & url) {
     RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
     rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) recording_quality);
     connect(rvu, SIGNAL(signatureNotFound(const QString &)), this, SIGNAL(signatureNotFound(const QString &)));
+    connect(rvu, SIGNAL(noSslSupport()), this, SIGNAL(noSslSupport()));
     connect(rvu, SIGNAL(gotVideoInfo(const QMap<int, QString>&, QString, QString)), this, SLOT(recordVideo(const QMap<int, QString>&, QString, QString)));
     connect(rvu, SIGNAL(gotVideoInfo(const QMap<int, QString>&, QString, QString)), rvu, SLOT(deleteLater()));
     rvu->fetchPage(url);
@@ -278,6 +279,7 @@ void RecordingDialog::downloadVideoId(QString videoId, QString title, double)
     RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
     rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) recording_quality);
     connect(rvu, SIGNAL(signatureNotFound(const QString &)), this, SIGNAL(signatureNotFound(const QString &)));
+    connect(rvu, SIGNAL(noSslSupport()), this, SIGNAL(noSslSupport()));
     connect(rvu, SIGNAL(gotUrls(const QMap<int, QString>&, QString, QString)), this, SLOT(recordVideo(const QMap<int, QString>&, QString, QString)));
     connect(rvu, SIGNAL(gotUrls(const QMap<int, QString>&, QString, QString)), rvu, SLOT(deleteLater()));
     rvu->fetchYTVideoPage(videoId, title);
@@ -291,6 +293,7 @@ void RecordingDialog::downloadAudioId(QString videoId, QString title, double) {
     RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
     rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) recording_quality);
     connect(rvu, SIGNAL(signatureNotFound(const QString &)), this, SIGNAL(signatureNotFound(const QString &)));
+    connect(rvu, SIGNAL(noSslSupport()), this, SIGNAL(noSslSupport()));
     connect(rvu, SIGNAL(gotUrls(const QMap<int, QString>&, QString, QString)), this, SLOT(recordAudio(const QMap<int, QString>&, QString, QString)));
     connect(rvu, SIGNAL(gotUrls(const QMap<int, QString>&, QString, QString)), rvu, SLOT(deleteLater()));
     rvu->fetchYTVideoPage(videoId, title);
@@ -745,6 +748,7 @@ void RecordingDialog::retryDownload(QListWidgetItem *item)
     RetrieveVideoUrl* rvu = new RetrieveVideoUrl(this);
     rvu->setPreferredQuality((RetrieveYoutubeUrl::Quality) recording_quality);
     connect(rvu, SIGNAL(signatureNotFound(const QString &)), this, SIGNAL(signatureNotFound(const QString &)));
+    connect(rvu, SIGNAL(noSslSupport()), this, SIGNAL(noSslSupport()));
     connect(rvu, SIGNAL(gotPreferredUrl(const QString &,QString, QString)), this, SLOT(urlToDownload(const QString &,QString)));
     connect(rvu, SIGNAL(errorOcurred(QString,int)), this, SLOT(fetchUrlError(QString,int)));
     rvu->fetchYTVideoPage(dd->videoId, dd->title);
