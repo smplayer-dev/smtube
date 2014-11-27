@@ -1061,6 +1061,8 @@ void YTDialog::loadConfig()
         playback_quality = set->value("playback_quality", playback_quality).toInt();
         /* RetrieveYoutubeUrl::setUserAgent(set->value("user_agent", "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1").toString()); */
         RetrieveYoutubeUrl::setUserAgent(set->value("user_agent", "").toString());
+        RetrieveYoutubeUrl::setUseHttpsMain(set->value("use_https_main", false).toBool());
+        RetrieveYoutubeUrl::setUseHttpsVi(set->value("use_https_vi", false).toBool());
         FontPref::base_size = set->value("font_base_size", FontPref::base_size).toInt();
 
         int config_version = set->value("config_version", 0).toInt();
@@ -1133,6 +1135,9 @@ void YTDialog::saveConfig()
         set->setValue("period", api->period());
         set->setValue("playback_quality", playback_quality);
         set->setValue("user_agent", RetrieveYoutubeUrl::userAgent());
+        set->setValue("use_https_main", RetrieveYoutubeUrl::useHttpsMain());
+        set->setValue("use_https_vi", RetrieveYoutubeUrl::useHttpsVi());
+
         set->setValue("font_base_size", FontPref::base_size);
         set->endGroup();
         set->sync();

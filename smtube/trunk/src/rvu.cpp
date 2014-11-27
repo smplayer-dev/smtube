@@ -35,7 +35,7 @@ void RetrieveVideoUrl::fetchYTVideoPage(QString videoId, QString title) {
 	id = videoId;
 	m_title = title;
 
-	fetchPage(videoPageUrl);
+	fetchPage(fullUrl(videoPageUrl));
 }
 
 void RetrieveVideoUrl::receiveUrls(const QMap<int, QString>& map) {
