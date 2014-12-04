@@ -238,7 +238,7 @@
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>アラビア語 - シリア</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
@@ -323,12 +323,12 @@
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Thai</source>
-        <translation type="unfinished"></translation>
+        <translation>タイ語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="148"/>
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation>ペルシア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="173"/>
@@ -522,6 +522,14 @@
     </message>
 </context>
 <context>
+    <name>ErrorAmiga</name>
+    <message>
+        <location filename="../erroramiga.cpp" line="42"/>
+        <source>OK</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>FileChooser</name>
     <message>
         <location filename="../filechooser.cpp" line="54"/>
@@ -561,7 +569,7 @@
     <name>RecordingDialog</name>
     <message>
         <location filename="../recordingdialog.cpp" line="208"/>
-        <location filename="../recordingdialog.cpp" line="527"/>
+        <location filename="../recordingdialog.cpp" line="530"/>
         <source>Recordings</source>
         <translation>録画</translation>
     </message>
@@ -572,90 +580,90 @@
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="210"/>
-        <location filename="../recordingdialog.cpp" line="658"/>
+        <location filename="../recordingdialog.cpp" line="661"/>
         <source>&amp;Open folder</source>
         <translation>フォルダーを開く(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
-        <location filename="../recordingdialog.cpp" line="357"/>
-        <location filename="../recordingdialog.cpp" line="777"/>
+        <location filename="../recordingdialog.cpp" line="348"/>
+        <location filename="../recordingdialog.cpp" line="360"/>
+        <location filename="../recordingdialog.cpp" line="781"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>ダウンロード URL の取得でエラーがありました。</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
-        <location filename="../recordingdialog.cpp" line="357"/>
-        <location filename="../recordingdialog.cpp" line="777"/>
+        <location filename="../recordingdialog.cpp" line="348"/>
+        <location filename="../recordingdialog.cpp" line="360"/>
+        <location filename="../recordingdialog.cpp" line="781"/>
         <source>Recording failed</source>
-        <translation>録画が失敗しました</translation>
+        <translation>録画に失敗しました</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="413"/>
-        <location filename="../recordingdialog.cpp" line="795"/>
+        <location filename="../recordingdialog.cpp" line="416"/>
+        <location filename="../recordingdialog.cpp" line="799"/>
         <source>Starting</source>
         <translation>開始しています</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="448"/>
+        <location filename="../recordingdialog.cpp" line="451"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="452"/>
+        <location filename="../recordingdialog.cpp" line="455"/>
         <source>Completed</source>
         <translation>完了しました</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="531"/>
+        <location filename="../recordingdialog.cpp" line="534"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%n 個の動画の %1% - 録画</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="616"/>
+        <location filename="../recordingdialog.cpp" line="619"/>
         <source>&amp;Cancel</source>
         <translation>キャンセル(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="618"/>
+        <location filename="../recordingdialog.cpp" line="621"/>
         <source>&amp;Remove from list</source>
         <translation>一覧から削除(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="639"/>
-        <location filename="../recordingdialog.cpp" line="661"/>
+        <location filename="../recordingdialog.cpp" line="642"/>
+        <location filename="../recordingdialog.cpp" line="664"/>
         <source>Remove from &amp;list</source>
         <translation>一覧から削除(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="635"/>
+        <location filename="../recordingdialog.cpp" line="638"/>
         <source>&amp;Retry</source>
         <translation>再試行(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="657"/>
+        <location filename="../recordingdialog.cpp" line="660"/>
         <source>&amp;Play</source>
         <translation>再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="660"/>
+        <location filename="../recordingdialog.cpp" line="663"/>
         <source>&amp;Delete</source>
         <translation>削除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="742"/>
+        <location filename="../recordingdialog.cpp" line="745"/>
         <source>Fetching URL...</source>
         <translation>URL を取得しています...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="759"/>
+        <location filename="../recordingdialog.cpp" line="763"/>
         <source>File error</source>
         <translation>ファイル エラー</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="760"/>
+        <location filename="../recordingdialog.cpp" line="764"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>ファイルが存在しません、一覧から削除しますか?</translation>
     </message>
@@ -864,170 +872,195 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="227"/>
+        <location filename="../ytdialog.cpp" line="231"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>YouTube ブラウザー - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="277"/>
+        <location filename="../ytdialog.cpp" line="281"/>
         <source>Settings</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="283"/>
+        <location filename="../ytdialog.cpp" line="287"/>
         <source>Information</source>
         <translation>情報</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="290"/>
+        <location filename="../ytdialog.cpp" line="294"/>
         <source>Show recordings</source>
         <translation>録画の表示</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="296"/>
+        <location filename="../ytdialog.cpp" line="300"/>
         <source>Enter URL</source>
         <translation>URL の入力</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="497"/>
+        <location filename="../ytdialog.cpp" line="503"/>
         <source>Most Relevant</source>
         <translation>関連のある動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="501"/>
+        <location filename="../ytdialog.cpp" line="507"/>
         <source>Most Recent</source>
         <translation>最新の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="505"/>
+        <location filename="../ytdialog.cpp" line="511"/>
         <source>Most Viewed</source>
         <translation>再生回数の多い動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="509"/>
+        <location filename="../ytdialog.cpp" line="515"/>
         <source>Most Popular</source>
         <translation>人気の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="535"/>
+        <location filename="../ytdialog.cpp" line="541"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>YouTube%1 で人気の動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="656"/>
+        <location filename="../ytdialog.cpp" line="662"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>エラー: YouTube サーバーへ接続できませんでした。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="766"/>
+        <location filename="../ytdialog.cpp" line="773"/>
         <source>R&amp;ecord audio</source>
         <translation>録音(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="771"/>
+        <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>URL を SMPlayer のプレイリストに追加(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="839"/>
+        <location filename="../ytdialog.cpp" line="846"/>
         <source>Enter a URL</source>
         <translation>URL の入力</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="963"/>
-        <location filename="../ytdialog.cpp" line="974"/>
+        <location filename="../ytdialog.cpp" line="964"/>
+        <source>Connection failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="965"/>
+        <source>The video you requested needs to open a HTTPS connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="966"/>
+        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="967"/>
+        <source>Please, visit %1 to know how to fix this problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="968"/>
+        <source>this link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="979"/>
+        <location filename="../ytdialog.cpp" line="990"/>
         <source>Problems with Youtube</source>
         <translation>YouTube に関する問題</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="965"/>
+        <location filename="../ytdialog.cpp" line="981"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>YouTube のコードを更新しますか? これにより問題が修正されるかもしれません。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="964"/>
-        <location filename="../ytdialog.cpp" line="975"/>
+        <location filename="../ytdialog.cpp" line="980"/>
+        <location filename="../ytdialog.cpp" line="991"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>YouTube ページの変更のため、ビデオ &apos;%1&apos; は残念ながら再生または録画できません。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="976"/>
+        <location filename="../ytdialog.cpp" line="992"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>このアプリケーションの更新により問題が修正されるかもしれません。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="540"/>
+        <location filename="../ytdialog.cpp" line="546"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; の YouTube%2 での検索結果</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="513"/>
+        <location filename="../ytdialog.cpp" line="519"/>
         <source>Music</source>
         <translation>音楽</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="517"/>
+        <location filename="../ytdialog.cpp" line="523"/>
         <source>Sports</source>
         <translation>スポーツ</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="536"/>
+        <location filename="../ytdialog.cpp" line="542"/>
         <source>Most popular sport videos on YouTube%1</source>
         <translation>YouTube%1 で人気のスポーツ動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="537"/>
+        <location filename="../ytdialog.cpp" line="543"/>
         <source>Most popular music videos on YouTube%1</source>
         <translation>YouTube%1 で人気の音楽動画</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="664"/>
+        <location filename="../ytdialog.cpp" line="670"/>
         <source>No videos found</source>
         <translation>動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="666"/>
+        <location filename="../ytdialog.cpp" line="672"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; に一致する動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="763"/>
+        <location filename="../ytdialog.cpp" line="770"/>
         <source>&amp;Play video</source>
         <translation>動画を再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="765"/>
+        <location filename="../ytdialog.cpp" line="772"/>
         <source>&amp;Record video</source>
         <translation>録画(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="768"/>
+        <location filename="../ytdialog.cpp" line="775"/>
         <source>&amp;Watch on YouTube</source>
         <translation>YouTube で見る(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="769"/>
+        <location filename="../ytdialog.cpp" line="776"/>
         <source>&amp;Copy link</source>
         <translation>リンクのコピー(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="252"/>
+        <location filename="../ytdialog.cpp" line="256"/>
         <source>Next</source>
         <translation>次へ</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="258"/>
+        <location filename="../ytdialog.cpp" line="262"/>
         <source>Previous</source>
         <translation>前へ</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="840"/>
+        <location filename="../ytdialog.cpp" line="847"/>
         <source>Enter a Youtube URL to record</source>
         <translation>録画する YouTube の URL を入力します</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="949"/>
-        <location filename="../ytdialog.cpp" line="951"/>
+        <location filename="../ytdialog.cpp" line="956"/>
+        <location filename="../ytdialog.cpp" line="958"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
