@@ -60,6 +60,10 @@
 
 #include "fontpref.h"
 
+#ifdef Q_WS_AMIGA // zzd10h
+#include "erroramiga.h"
+#endif
+
 int FontPref::base_size = 11;
 
 
@@ -951,7 +955,7 @@ void YTDialog::showErrorDialog(const QString & error)
  #ifndef Q_WS_AMIGA  // zzd10h
     QMessageBox::warning(this, tr("Error"), error);
  #else
-    QMessageBox::warning(this, tr("Error"),"<center>"+error.leftJustified(150, ' ')+"</center>");
+    ErrorAmiga::showError(tr("Error"), error);
  #endif
 }
 

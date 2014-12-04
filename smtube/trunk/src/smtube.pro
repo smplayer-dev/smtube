@@ -129,6 +129,8 @@ amiga {
     DEFINES -= USE_PLAYERS
     DEFINES += QT_NO_DEBUG_OUTPUT
     DEFINES -= USE_SINGLE_APPLICATION
+    HEADERS += erroramiga.h
+    SOURCES += erroramiga.cpp
 }
 
 # qtsingleapplication
