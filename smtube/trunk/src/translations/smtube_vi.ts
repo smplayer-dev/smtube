@@ -522,6 +522,14 @@
     </message>
 </context>
 <context>
+    <name>ErrorAmiga</name>
+    <message>
+        <location filename="../erroramiga.cpp" line="42"/>
+        <source>OK</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>FileChooser</name>
     <message>
         <location filename="../filechooser.cpp" line="54"/>
@@ -561,7 +569,7 @@
     <name>RecordingDialog</name>
     <message>
         <location filename="../recordingdialog.cpp" line="208"/>
-        <location filename="../recordingdialog.cpp" line="527"/>
+        <location filename="../recordingdialog.cpp" line="530"/>
         <source>Recordings</source>
         <translation>Phần ghi hình</translation>
     </message>
@@ -572,90 +580,90 @@
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="210"/>
-        <location filename="../recordingdialog.cpp" line="658"/>
+        <location filename="../recordingdialog.cpp" line="661"/>
         <source>&amp;Open folder</source>
         <translation>&amp;Mở thư mục</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
-        <location filename="../recordingdialog.cpp" line="357"/>
-        <location filename="../recordingdialog.cpp" line="777"/>
+        <location filename="../recordingdialog.cpp" line="348"/>
+        <location filename="../recordingdialog.cpp" line="360"/>
+        <location filename="../recordingdialog.cpp" line="781"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Xảy ra lỗi khi nhận dữ liệu từ đường dẫn tải về.</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="345"/>
-        <location filename="../recordingdialog.cpp" line="357"/>
-        <location filename="../recordingdialog.cpp" line="777"/>
+        <location filename="../recordingdialog.cpp" line="348"/>
+        <location filename="../recordingdialog.cpp" line="360"/>
+        <location filename="../recordingdialog.cpp" line="781"/>
         <source>Recording failed</source>
         <translation>Ghi hình thất bại</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="413"/>
-        <location filename="../recordingdialog.cpp" line="795"/>
+        <location filename="../recordingdialog.cpp" line="416"/>
+        <location filename="../recordingdialog.cpp" line="799"/>
         <source>Starting</source>
         <translation>Bắt đầu</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="448"/>
+        <location filename="../recordingdialog.cpp" line="451"/>
         <source>Error</source>
         <translation>Lỗi</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="452"/>
+        <location filename="../recordingdialog.cpp" line="455"/>
         <source>Completed</source>
         <translation>Đã hoàn tất</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="531"/>
+        <location filename="../recordingdialog.cpp" line="534"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
             <numerusform>%1% của %n videos - Đang ghi hình</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="616"/>
+        <location filename="../recordingdialog.cpp" line="619"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Hủy bỏ</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="618"/>
+        <location filename="../recordingdialog.cpp" line="621"/>
         <source>&amp;Remove from list</source>
         <translation>&amp;Loại khỏi danh sách</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="639"/>
-        <location filename="../recordingdialog.cpp" line="661"/>
+        <location filename="../recordingdialog.cpp" line="642"/>
+        <location filename="../recordingdialog.cpp" line="664"/>
         <source>Remove from &amp;list</source>
         <translation>Loại khỏi d&amp;anh sách</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="635"/>
+        <location filename="../recordingdialog.cpp" line="638"/>
         <source>&amp;Retry</source>
         <translation>&amp;Thử lại</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="657"/>
+        <location filename="../recordingdialog.cpp" line="660"/>
         <source>&amp;Play</source>
         <translation>&amp;Phát</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="660"/>
+        <location filename="../recordingdialog.cpp" line="663"/>
         <source>&amp;Delete</source>
         <translation>&amp;Xóa</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="742"/>
+        <location filename="../recordingdialog.cpp" line="745"/>
         <source>Fetching URL...</source>
         <translation>Tải về đường dẫn...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="759"/>
+        <location filename="../recordingdialog.cpp" line="763"/>
         <source>File error</source>
         <translation>Lỗi tập tin</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="760"/>
+        <location filename="../recordingdialog.cpp" line="764"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>Tập tin này không tồn tại, bạn có muốn loại bỏ nó khỏi danh sách?</translation>
     </message>
@@ -864,170 +872,195 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="227"/>
+        <location filename="../ytdialog.cpp" line="231"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>Trình duyệt YouTube - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="277"/>
+        <location filename="../ytdialog.cpp" line="281"/>
         <source>Settings</source>
         <translation>Thiết lập</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="283"/>
+        <location filename="../ytdialog.cpp" line="287"/>
         <source>Information</source>
         <translation>Thông tin</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="290"/>
+        <location filename="../ytdialog.cpp" line="294"/>
         <source>Show recordings</source>
         <translation>Hiển thị phần ghi hình</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="296"/>
+        <location filename="../ytdialog.cpp" line="300"/>
         <source>Enter URL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="497"/>
+        <location filename="../ytdialog.cpp" line="503"/>
         <source>Most Relevant</source>
         <translation>Liên quan nhất</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="501"/>
+        <location filename="../ytdialog.cpp" line="507"/>
         <source>Most Recent</source>
         <translation>Gần đây nhất</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="505"/>
+        <location filename="../ytdialog.cpp" line="511"/>
         <source>Most Viewed</source>
         <translation>Xem nhiều nhất</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="509"/>
+        <location filename="../ytdialog.cpp" line="515"/>
         <source>Most Popular</source>
         <translation>Phổ biến nhất</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="535"/>
+        <location filename="../ytdialog.cpp" line="541"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Các video phổ biến nhất trên YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="656"/>
+        <location filename="../ytdialog.cpp" line="662"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Lỗi: Không thể kết nối đến máy chủ YouTube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="766"/>
+        <location filename="../ytdialog.cpp" line="773"/>
         <source>R&amp;ecord audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="771"/>
+        <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="839"/>
+        <location filename="../ytdialog.cpp" line="846"/>
         <source>Enter a URL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="963"/>
-        <location filename="../ytdialog.cpp" line="974"/>
+        <location filename="../ytdialog.cpp" line="964"/>
+        <source>Connection failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="965"/>
+        <source>The video you requested needs to open a HTTPS connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="966"/>
+        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="967"/>
+        <source>Please, visit %1 to know how to fix this problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="968"/>
+        <source>this link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="979"/>
+        <location filename="../ytdialog.cpp" line="990"/>
         <source>Problems with Youtube</source>
         <translation>Xảy ra lỗi với Youtube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="965"/>
+        <location filename="../ytdialog.cpp" line="981"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Bạn có muốn cập nhật đoạn mã Youtube? Điều này có thể sửa lỗi này</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="964"/>
-        <location filename="../ytdialog.cpp" line="975"/>
+        <location filename="../ytdialog.cpp" line="980"/>
+        <location filename="../ytdialog.cpp" line="991"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Do có sự thay đổi từ Youtube, nên video &apos;%1&apos; không thể được phát hoặc ghi lại.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="976"/>
+        <location filename="../ytdialog.cpp" line="992"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Bạn nên cập nhật ứng dụng này lên phiên bản mới nhất để sửa lỗi này.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="540"/>
+        <location filename="../ytdialog.cpp" line="546"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 kết quả cho &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="513"/>
+        <location filename="../ytdialog.cpp" line="519"/>
         <source>Music</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="517"/>
+        <location filename="../ytdialog.cpp" line="523"/>
         <source>Sports</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="536"/>
+        <location filename="../ytdialog.cpp" line="542"/>
         <source>Most popular sport videos on YouTube%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="537"/>
+        <location filename="../ytdialog.cpp" line="543"/>
         <source>Most popular music videos on YouTube%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="664"/>
+        <location filename="../ytdialog.cpp" line="670"/>
         <source>No videos found</source>
         <translation>Không tìm thấy video nào</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="666"/>
+        <location filename="../ytdialog.cpp" line="672"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Không tìm thấy video nào cho &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="763"/>
+        <location filename="../ytdialog.cpp" line="770"/>
         <source>&amp;Play video</source>
         <translation>&amp;Phát video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="765"/>
+        <location filename="../ytdialog.cpp" line="772"/>
         <source>&amp;Record video</source>
         <translation>&amp;Ghi hình video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="768"/>
+        <location filename="../ytdialog.cpp" line="775"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Xem trên YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="769"/>
+        <location filename="../ytdialog.cpp" line="776"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Sao chép liên kết</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="252"/>
+        <location filename="../ytdialog.cpp" line="256"/>
         <source>Next</source>
         <translation>Tiếp theo</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="258"/>
+        <location filename="../ytdialog.cpp" line="262"/>
         <source>Previous</source>
         <translation>Trước đó</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="840"/>
+        <location filename="../ytdialog.cpp" line="847"/>
         <source>Enter a Youtube URL to record</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="949"/>
-        <location filename="../ytdialog.cpp" line="951"/>
+        <location filename="../ytdialog.cpp" line="956"/>
+        <location filename="../ytdialog.cpp" line="958"/>
         <source>Error</source>
         <translation>Lỗi</translation>
     </message>
