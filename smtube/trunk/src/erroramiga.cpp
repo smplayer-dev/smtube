@@ -48,7 +48,7 @@ ErrorAmiga::ErrorAmiga(QWidget * parent, Qt::WindowFlags f) : QWidget(parent,f)
 
 	QHBoxLayout *layout = new QHBoxLayout;
 	QLabel *picture = new QLabel;
-	picture->setPixmap(QPixmap("Amiga/SMTube.png"));
+	picture->setPixmap( QPixmap(":/icons/logo.png").scaledToHeight(64, Qt::SmoothTransformation) );
 
 	labelTitle = new QLabel("", this);
 
