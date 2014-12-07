@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -53,7 +51,7 @@
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Compiled with Qt %1 (using %2)</source>
-        <translation>Kompajlirano sa Qt %1 (koristeći %2)</translation>
+        <translation>Kompajlirano s Qt %1 (koristeći %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="44"/>
@@ -522,14 +520,6 @@
     </message>
 </context>
 <context>
-    <name>ErrorAmiga</name>
-    <message>
-        <location filename="../erroramiga.cpp" line="42"/>
-        <source>OK</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>FileChooser</name>
     <message>
         <location filename="../filechooser.cpp" line="54"/>
@@ -569,7 +559,7 @@
     <name>RecordingDialog</name>
     <message>
         <location filename="../recordingdialog.cpp" line="208"/>
-        <location filename="../recordingdialog.cpp" line="530"/>
+        <location filename="../recordingdialog.cpp" line="527"/>
         <source>Recordings</source>
         <translation>Snimanja</translation>
     </message>
@@ -580,92 +570,88 @@
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="210"/>
-        <location filename="../recordingdialog.cpp" line="661"/>
+        <location filename="../recordingdialog.cpp" line="658"/>
         <source>&amp;Open folder</source>
         <translation>&amp;Otvori mapu</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="348"/>
-        <location filename="../recordingdialog.cpp" line="360"/>
-        <location filename="../recordingdialog.cpp" line="781"/>
+        <location filename="../recordingdialog.cpp" line="345"/>
+        <location filename="../recordingdialog.cpp" line="357"/>
+        <location filename="../recordingdialog.cpp" line="777"/>
         <source>There was an error in retrieving the download URL.</source>
         <translation>Dogodila se greška pri primanju URL-a preuzimanja.</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="348"/>
-        <location filename="../recordingdialog.cpp" line="360"/>
-        <location filename="../recordingdialog.cpp" line="781"/>
+        <location filename="../recordingdialog.cpp" line="345"/>
+        <location filename="../recordingdialog.cpp" line="357"/>
+        <location filename="../recordingdialog.cpp" line="777"/>
         <source>Recording failed</source>
         <translation>Neuspjelo snimanje</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="416"/>
-        <location filename="../recordingdialog.cpp" line="799"/>
+        <location filename="../recordingdialog.cpp" line="413"/>
+        <location filename="../recordingdialog.cpp" line="795"/>
         <source>Starting</source>
         <translation>Pokretanje</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="451"/>
+        <location filename="../recordingdialog.cpp" line="448"/>
         <source>Error</source>
         <translation>Greška</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="455"/>
+        <location filename="../recordingdialog.cpp" line="452"/>
         <source>Completed</source>
         <translation>Završeno</translation>
     </message>
     <message numerus="yes">
-        <location filename="../recordingdialog.cpp" line="534"/>
+        <location filename="../recordingdialog.cpp" line="531"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% od %n video snimke - Snimanja</numerusform>
-            <numerusform>%1% od %n video snimke - Snimanja</numerusform>
-            <numerusform>%1% od %n video snimaka - Snimanja</numerusform>
-        </translation>
+        <translation><numerusform>%1% od %n video snimke - Snimanja</numerusform><numerusform>%1% od %n video snimke - Snimanja</numerusform><numerusform>%1% od %n video snimaka - Snimanja</numerusform></translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="619"/>
+        <location filename="../recordingdialog.cpp" line="616"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Poništi</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="621"/>
+        <location filename="../recordingdialog.cpp" line="618"/>
         <source>&amp;Remove from list</source>
         <translation>&amp;Ukloni sa popisa</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="642"/>
-        <location filename="../recordingdialog.cpp" line="664"/>
+        <location filename="../recordingdialog.cpp" line="639"/>
+        <location filename="../recordingdialog.cpp" line="661"/>
         <source>Remove from &amp;list</source>
         <translation>Ukloni sa &amp;popisa</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="638"/>
+        <location filename="../recordingdialog.cpp" line="635"/>
         <source>&amp;Retry</source>
         <translation>&amp;Pokušaj ponovno</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="660"/>
+        <location filename="../recordingdialog.cpp" line="657"/>
         <source>&amp;Play</source>
         <translation>&amp;Reproduciraj</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="663"/>
+        <location filename="../recordingdialog.cpp" line="660"/>
         <source>&amp;Delete</source>
         <translation>&amp;Obriši</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="745"/>
+        <location filename="../recordingdialog.cpp" line="742"/>
         <source>Fetching URL...</source>
         <translation>Dohvaćam URL...</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="763"/>
+        <location filename="../recordingdialog.cpp" line="759"/>
         <source>File error</source>
         <translation>Greška datoteke</translation>
     </message>
     <message>
-        <location filename="../recordingdialog.cpp" line="764"/>
+        <location filename="../recordingdialog.cpp" line="760"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
         <translation>Datoteka ne postoji, želite li ju ukloniti sa popisa?</translation>
     </message>
@@ -874,195 +860,170 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="231"/>
+        <location filename="../ytdialog.cpp" line="227"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>YouTube preglednik - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="281"/>
+        <location filename="../ytdialog.cpp" line="277"/>
         <source>Settings</source>
         <translation>Postavke</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="287"/>
+        <location filename="../ytdialog.cpp" line="283"/>
         <source>Information</source>
         <translation>Informacije</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="294"/>
+        <location filename="../ytdialog.cpp" line="290"/>
         <source>Show recordings</source>
         <translation>Prikaži snimanja</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="300"/>
+        <location filename="../ytdialog.cpp" line="296"/>
         <source>Enter URL</source>
         <translation>Upiši URL</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="503"/>
+        <location filename="../ytdialog.cpp" line="497"/>
         <source>Most Relevant</source>
         <translation>Pretraga</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="507"/>
+        <location filename="../ytdialog.cpp" line="501"/>
         <source>Most Recent</source>
         <translation>Najnovije</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="511"/>
+        <location filename="../ytdialog.cpp" line="505"/>
         <source>Most Viewed</source>
         <translation>Najgledanije</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="515"/>
+        <location filename="../ytdialog.cpp" line="509"/>
         <source>Most Popular</source>
         <translation>Najpopularnije</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="541"/>
+        <location filename="../ytdialog.cpp" line="535"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>Najpopularnije video snimke na YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="662"/>
+        <location filename="../ytdialog.cpp" line="656"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>Greška: Nemoguće povezivanje s Youtube poslužiteljem.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="773"/>
+        <location filename="../ytdialog.cpp" line="766"/>
         <source>R&amp;ecord audio</source>
         <translation>S&amp;nimi zvuk</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="778"/>
+        <location filename="../ytdialog.cpp" line="771"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>&amp;Dodaj URL na SMPlayer popis izvođenja</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="846"/>
+        <location filename="../ytdialog.cpp" line="839"/>
         <source>Enter a URL</source>
         <translation>Upiši URL</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="964"/>
-        <source>Connection failed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="965"/>
-        <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="966"/>
-        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="967"/>
-        <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="968"/>
-        <source>this link</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="979"/>
-        <location filename="../ytdialog.cpp" line="990"/>
+        <location filename="../ytdialog.cpp" line="963"/>
+        <location filename="../ytdialog.cpp" line="974"/>
         <source>Problems with Youtube</source>
         <translation>Problemi sa Youtubom</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="981"/>
+        <location filename="../ytdialog.cpp" line="965"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Želite li ažurirati Youtube kôd? To može popraviti problem.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="980"/>
-        <location filename="../ytdialog.cpp" line="991"/>
+        <location filename="../ytdialog.cpp" line="964"/>
+        <location filename="../ytdialog.cpp" line="975"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Nažalost tijekom promjena na Youtubu, video snimka &apos;%1&apos; se ne može reproducirati ili snimiti.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="992"/>
+        <location filename="../ytdialog.cpp" line="976"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Možda nadogradnja ove aplikacije može popraviti problem.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="546"/>
+        <location filename="../ytdialog.cpp" line="540"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>YouTube%2 rezultati pretraživanja za &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="519"/>
+        <location filename="../ytdialog.cpp" line="513"/>
         <source>Music</source>
         <translation>Glazba</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="523"/>
+        <location filename="../ytdialog.cpp" line="517"/>
         <source>Sports</source>
         <translation>Sport</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="542"/>
+        <location filename="../ytdialog.cpp" line="536"/>
         <source>Most popular sport videos on YouTube%1</source>
         <translation>Najpopularnije sportske video snimke na YouTubu%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="543"/>
+        <location filename="../ytdialog.cpp" line="537"/>
         <source>Most popular music videos on YouTube%1</source>
         <translation>Najpopularnije glazbene video snimke na YouTubu%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="670"/>
+        <location filename="../ytdialog.cpp" line="664"/>
         <source>No videos found</source>
         <translation>Nema pronađenih video snimaka</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="672"/>
+        <location filename="../ytdialog.cpp" line="666"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>Nema pronađenih video snimaka za &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="770"/>
+        <location filename="../ytdialog.cpp" line="763"/>
         <source>&amp;Play video</source>
         <translation>&amp;Reproduciraj video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="772"/>
+        <location filename="../ytdialog.cpp" line="765"/>
         <source>&amp;Record video</source>
         <translation>&amp;Snimi video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="775"/>
+        <location filename="../ytdialog.cpp" line="768"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Gledaj na YouTubu</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="776"/>
+        <location filename="../ytdialog.cpp" line="769"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Kopiraj poveznicu</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="256"/>
+        <location filename="../ytdialog.cpp" line="252"/>
         <source>Next</source>
         <translation>Sljedeće</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="262"/>
+        <location filename="../ytdialog.cpp" line="258"/>
         <source>Previous</source>
         <translation>Prijašnje</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="847"/>
+        <location filename="../ytdialog.cpp" line="840"/>
         <source>Enter a Youtube URL to record</source>
         <translation>Upiši Youtube URL za snimanje</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="956"/>
-        <location filename="../ytdialog.cpp" line="958"/>
+        <location filename="../ytdialog.cpp" line="949"/>
+        <location filename="../ytdialog.cpp" line="951"/>
         <source>Error</source>
         <translation>Greška</translation>
     </message>
