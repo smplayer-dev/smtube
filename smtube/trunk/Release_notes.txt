@@ -1,3 +1,9 @@
+Version 14.12
+
+ * To prevent possible problems, now smtube is compiled by default
+   without the options to download files.
+
+
 Version 14.8
 
  * Fix playback (for players other than smplayer).
