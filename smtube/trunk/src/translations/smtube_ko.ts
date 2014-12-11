@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ko">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ko" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -526,7 +524,7 @@
     <message>
         <location filename="../erroramiga.cpp" line="42"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>확인</translation>
     </message>
 </context>
 <context>
@@ -617,9 +615,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="534"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% of %n videos - 녹화</numerusform>
-        </translation>
+        <translation><numerusform>%1% of %n videos - 녹화</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="619"/>
@@ -944,27 +940,27 @@
     <message>
         <location filename="../ytdialog.cpp" line="964"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>연결에 실패했습니다</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="965"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>요청한 비디오는 HTTPS 연결이 필요합니다</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="966"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>불행히도 openssl 컴포넌트가 필요한데 당신의 시스템에는 없습니다.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="967"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 문제를 해결하려면 %1 을 방문하세요.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="968"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>이 링크</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="979"/>

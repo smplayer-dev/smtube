@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="he">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="he" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -258,7 +256,7 @@
     <message>
         <location filename="../about.cpp" line="134"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="135"/>
@@ -526,7 +524,7 @@
     <message>
         <location filename="../erroramiga.cpp" line="42"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -617,10 +615,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="534"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% מתוך %n סרטון - כעת מקליט</numerusform>
-            <numerusform>%1% מתוך %n סרטונים - כעת מקליט</numerusform>
-        </translation>
+        <translation><numerusform>%1% מתוך %n סרטון - כעת מקליט</numerusform><numerusform>%1% מתוך %n סרטונים - כעת מקליט</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="619"/>
@@ -945,27 +940,27 @@
     <message>
         <location filename="../ytdialog.cpp" line="964"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="965"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="966"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="967"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="968"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="979"/>

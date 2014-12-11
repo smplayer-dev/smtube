@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_CN">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -526,7 +524,7 @@
     <message>
         <location filename="../erroramiga.cpp" line="42"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>确定</translation>
     </message>
 </context>
 <context>
@@ -617,9 +615,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="534"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% / %n个视频 - 正在录制</numerusform>
-        </translation>
+        <translation><numerusform>%1% / %n个视频 - 正在录制</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="619"/>
@@ -944,27 +940,27 @@
     <message>
         <location filename="../ytdialog.cpp" line="964"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>连接失败</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="965"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>您请求的视频需要使用HTTPS连接。</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="966"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>很不幸，此功能需要openssl组件，而您的系统中没有。</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="967"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>请访问 %1 查看如何解决此问题。</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="968"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>此链接</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="979"/>
