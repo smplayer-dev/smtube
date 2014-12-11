@@ -40,8 +40,15 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 #endif
         "<br>" +
         tr("Compiled with Qt %1 (using %2)").arg(QT_VERSION_STR).arg(qVersion()) + 
-        "<p>" + 
-        tr("Visit our web for updates:") +"<br>"+ link("http://www.smtube.org")
+        "<p>" +
+
+#ifdef YT_DL
+        tr("Visit our web for updates:")
+#else
+        + "<b>-- " + tr("THIS IS A REDUCED VERSION") + " --</b><br>" +
+        tr("Visit our web to get the full version:")
+#endif
+        + "<br>"+ link("http://www.smtube.org")
     );
 
     license->setHtml(
