@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -48,7 +46,7 @@
     <message>
         <location filename="../about.cpp" line="39"/>
         <source>Portable Edition</source>
-        <translation>Bewegliche Version</translation>
+        <translation>Portable Version</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
@@ -128,7 +126,7 @@
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>Sie können auch mithelfen, den SMPlayer in Ihre eigene Sprache zu übersetzen.</translation>
+        <translation>Sie können auch mithelfen, SMPlayer in Ihre Muttersprache zu übersetzen.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
@@ -233,7 +231,7 @@
     <message>
         <location filename="../about.cpp" line="128"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation>Arabisch (Saudi-Arabien)</translation>
+        <translation>Arabisch - Saudi-Arabien</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="129"/>
@@ -400,7 +398,7 @@
     <message>
         <location filename="../configdialog.ui" line="28"/>
         <source>&amp;Save to this folder</source>
-        <translation>&amp;In diesem Ordner speichern</translation>
+        <translation>In diesem Ordner &amp;speichern</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="45"/>
@@ -420,7 +418,7 @@
     <message>
         <location filename="../configdialog.ui" line="189"/>
         <source>Period of &amp;time:</source>
-        <translation>&amp;Zeitraum:</translation>
+        <translation>Zei&amp;traum:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="80"/>
@@ -526,7 +524,7 @@
     <message>
         <location filename="../erroramiga.cpp" line="42"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -617,10 +615,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="534"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% von %n Videoaufnahmen</numerusform>
-            <numerusform>%1% von %n Videoaufnahmen</numerusform>
-        </translation>
+        <translation><numerusform>%1% von %n Videoaufnahmen</numerusform><numerusform>%1% von %n Videoaufnahmen</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="619"/>
@@ -656,7 +651,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="745"/>
         <source>Fetching URL...</source>
-        <translation>Adresse abrufen …</translation>
+        <translation>Adresse wird abgerufen …</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="763"/>
@@ -779,7 +774,7 @@
     <message>
         <location filename="../regions.cpp" line="48"/>
         <source>Mexico</source>
-        <translation>Mexico</translation>
+        <translation>Mexiko</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="49"/>
@@ -910,7 +905,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="511"/>
         <source>Most Viewed</source>
-        <translation>Meist gesehen</translation>
+        <translation>Meistgesehenste</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="515"/>
@@ -935,7 +930,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation>&amp;Adresse zur SMPlayer Wiedergabeliste hinzufügen</translation>
+        <translation>&amp;Adresse zur SMPlayer-Wiedergabeliste hinzufügen</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="846"/>
@@ -945,27 +940,27 @@
     <message>
         <location filename="../ytdialog.cpp" line="964"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Verbindung fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="965"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das von Ihnen angeforderte Video muss eine HTTPS-Verbindung öffnen.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="966"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Leider ist die openssl-Komponente, welche dafür erforderlich ist, nicht auf Ihrem System verfügbar.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="967"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte %1 aufrufen, um zu erfahren, wie das Problem gelöst werden kann.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="968"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>dieser Verweis</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="979"/>
