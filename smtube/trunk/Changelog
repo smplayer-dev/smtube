@@ -1,8 +1,8 @@
 Version 14.12:
 
-(2014-12-06)
+(2014-12-11)
  * To prevent possible problems, now smtube is compiled by default
-   without the options to download files.
+   on Windows without the options to download files.
 
 
 Version 14.8:
