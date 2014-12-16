@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="hr">
 <context>
     <name>About</name>
     <message>
@@ -54,287 +56,297 @@
         <translation>Kompajlirano s Qt %1 (koristeći %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="44"/>
+        <location filename="../about.cpp" line="46"/>
         <source>Visit our web for updates:</source>
         <translation>Posjetite našu web stranicu za noviju inačicu:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="98"/>
+        <location filename="../about.cpp" line="105"/>
         <source>Spanish</source>
         <translation>Španjolski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="115"/>
+        <location filename="../about.cpp" line="122"/>
         <source>Russian</source>
         <translation>Ruski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="108"/>
+        <location filename="../about.cpp" line="115"/>
         <source>Lithuanian</source>
         <translation>Litavski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="102"/>
+        <location filename="../about.cpp" line="109"/>
         <source>Japanese</source>
         <translation>Japanski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
+        <location filename="../about.cpp" line="106"/>
         <source>Basque</source>
         <translation>Baskijski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="104"/>
+        <location filename="../about.cpp" line="111"/>
         <source>Portuguese</source>
         <translation>Portugalski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="119"/>
+        <location filename="../about.cpp" line="126"/>
         <source>Hungarian</source>
         <translation>Mađarski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="114"/>
+        <location filename="../about.cpp" line="121"/>
         <source>Polish</source>
         <translation>Poljski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="111"/>
+        <location filename="../about.cpp" line="118"/>
         <source>Hebrew</source>
         <translation>Hebrejski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="106"/>
+        <location filename="../about.cpp" line="113"/>
         <source>Ukrainian</source>
         <translation>Ukrajinski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
+        <location filename="../about.cpp" line="132"/>
         <source>Norwegian Nynorsk</source>
         <translation>Norveški Nynorsk</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="101"/>
+        <location filename="../about.cpp" line="108"/>
         <source>Czech</source>
         <translation>Češki</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="92"/>
+        <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
         <translation>Mnogo ljudi je doprinjelo sa prijevodima.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="93"/>
+        <location filename="../about.cpp" line="100"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
         <translation>Vi isto tako možete pomoći u prijevodu SMPlayera na vaš jezik.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="94"/>
+        <location filename="../about.cpp" line="101"/>
         <source>Visit %1 and join a translation team.</source>
         <translation>Posjetite %1 i pridružite se prevoditeljskom timu.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="96"/>
+        <location filename="../about.cpp" line="103"/>
         <source>Current translators from the transifex teams:</source>
         <translation>Trenutni prevoditelji sa transifex timova:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="103"/>
+        <location filename="../about.cpp" line="110"/>
         <source>Korean</source>
         <translation>Korejski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="109"/>
+        <location filename="../about.cpp" line="116"/>
         <source>Malay</source>
         <translation>Malajski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="110"/>
+        <location filename="../about.cpp" line="117"/>
         <source>Portuguese - Brazil</source>
         <translation>Portugalski - Brazil</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="112"/>
+        <location filename="../about.cpp" line="119"/>
         <source>Simplified Chinese</source>
         <translation>Pojednostavljeni kineski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="116"/>
+        <location filename="../about.cpp" line="123"/>
         <source>French</source>
         <translation>Francuski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="118"/>
+        <location filename="../about.cpp" line="125"/>
         <source>Danish</source>
         <translation>Danski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="122"/>
+        <location filename="../about.cpp" line="129"/>
         <source>German</source>
         <translation>Njemački</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="123"/>
+        <location filename="../about.cpp" line="130"/>
         <source>Traditional Chinese</source>
         <translation>Tradicionalni kineski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="126"/>
+        <location filename="../about.cpp" line="133"/>
         <source>Swedish</source>
         <translation>Švedski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
+        <location filename="../about.cpp" line="127"/>
         <source>Turkish</source>
         <translation>Turski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="121"/>
+        <location filename="../about.cpp" line="128"/>
         <source>Finnish</source>
         <translation>Finski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
+        <location filename="../about.cpp" line="134"/>
         <source>Arabic</source>
         <translation>Arapski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="130"/>
+        <location filename="../about.cpp" line="137"/>
         <source>Georgian</source>
         <translation>Gruzijski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="105"/>
+        <location filename="../about.cpp" line="112"/>
         <source>Serbian</source>
         <translation>Srpski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="100"/>
+        <location filename="../about.cpp" line="107"/>
         <source>Croatian</source>
         <translation>Hrvatski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="124"/>
+        <location filename="../about.cpp" line="131"/>
         <source>Bulgarian</source>
         <translation>Bugarski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="113"/>
+        <location filename="../about.cpp" line="120"/>
         <source>Vietnamese</source>
         <translation>Vijetnamski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="117"/>
+        <location filename="../about.cpp" line="48"/>
+        <source>THIS IS A REDUCED VERSION</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="49"/>
+        <source>Visit our web to get the full version:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="124"/>
         <source>Indonesian</source>
         <translation>Indonezijski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="128"/>
+        <location filename="../about.cpp" line="135"/>
         <source>Arabic - Saudi Arabia</source>
         <translation>Arapski - Saudijska Arabija</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="129"/>
+        <location filename="../about.cpp" line="136"/>
         <source>Arabic - Syria</source>
         <translation>Arapski - Sirija</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="131"/>
+        <location filename="../about.cpp" line="138"/>
         <source>Sinhala</source>
         <translation>Sinhalaški</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
+        <location filename="../about.cpp" line="139"/>
         <source>Greek</source>
         <translation>Grčki</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="133"/>
+        <location filename="../about.cpp" line="140"/>
         <source>Estonian</source>
         <translation>Estonski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="134"/>
+        <location filename="../about.cpp" line="141"/>
         <source>N&apos;ko</source>
         <translation>N&apos;ko</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="135"/>
+        <location filename="../about.cpp" line="142"/>
         <source>Italian</source>
         <translation>Talijanski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="136"/>
+        <location filename="../about.cpp" line="143"/>
         <source>Uzbek</source>
         <translation>Uzbečki</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="137"/>
+        <location filename="../about.cpp" line="144"/>
         <source>Catalan</source>
         <translation>Katalonski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="138"/>
+        <location filename="../about.cpp" line="145"/>
         <source>Slovak</source>
         <translation>Slovački</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="139"/>
+        <location filename="../about.cpp" line="146"/>
         <source>British English</source>
         <translation>Britanski engleski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="140"/>
+        <location filename="../about.cpp" line="147"/>
         <source>Albanian</source>
         <translation>Albanski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="141"/>
+        <location filename="../about.cpp" line="148"/>
         <source>Dutch</source>
         <translation>Nizozemski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="142"/>
+        <location filename="../about.cpp" line="149"/>
         <source>Romanian</source>
         <translation>Rumunjski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="143"/>
+        <location filename="../about.cpp" line="150"/>
         <source>Khmer</source>
         <translation>Kmerski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="144"/>
+        <location filename="../about.cpp" line="151"/>
         <source>Telugu</source>
         <translation>Teluški</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="145"/>
+        <location filename="../about.cpp" line="152"/>
         <source>Tamil</source>
         <translation>Tamilski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="146"/>
+        <location filename="../about.cpp" line="153"/>
         <source>Malayalam</source>
         <translation>Malajalamski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
+        <location filename="../about.cpp" line="154"/>
         <source>Thai</source>
         <translation>Tajlandski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="148"/>
+        <location filename="../about.cpp" line="155"/>
         <source>Persian</source>
         <translation>Perzijski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="173"/>
+        <location filename="../about.cpp" line="180"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="107"/>
+        <location filename="../about.cpp" line="114"/>
         <source>Galician</source>
         <translation>Galicijski</translation>
     </message>
@@ -615,7 +627,11 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="534"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>%1% od %n video snimke - Snimanja</numerusform><numerusform>%1% od %n video snimke - Snimanja</numerusform><numerusform>%1% od %n video snimaka - Snimanja</numerusform></translation>
+        <translation>
+            <numerusform>%1% od %n video snimke - Snimanja</numerusform>
+            <numerusform>%1% od %n video snimke - Snimanja</numerusform>
+            <numerusform>%1% od %n video snimaka - Snimanja</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="619"/>
