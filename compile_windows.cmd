@@ -113,7 +113,11 @@ mingw32-make
 if not ERRORLEVEL 1 (
   if [%runnsiscmd%]==[yes] (
     mkdir "%SMTUBE_DIR%\setup\output"
-    call "%SMTUBE_DIR%\setup\scripts\make_pkgs.cmd" -1
+    if [%X86_64%]==[yes] (
+      call "%SMTUBE_DIR%\setup\scripts\make_pkgs.cmd" -2
+    ) else (
+      call "%SMTUBE_DIR%\setup\scripts\make_pkgs.cmd" -1
+    )
   )
 )
 
