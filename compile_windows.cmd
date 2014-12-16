@@ -117,15 +117,18 @@ if not ERRORLEVEL 1 (
   )
 )
 
-if [%build_pe%]==[yes] (
-  mkdir "%SMTUBE_DIR%\setup\portable"
+if not ERRORLEVEL 1 (
+  if [%build_pe%]==[yes] (
+    mkdir "%SMTUBE_DIR%\setup\portable"
 
-  if [%X86_64%]==[yes] (
-    copy /y release\smtube.exe "%SMTUBE_DIR%\setup\portable\smtube-portable64.exe"
-  ) else ( 
-    copy /y release\smtube.exe "%SMTUBE_DIR%\setup\portable\smtube-portable.exe"
+    if [%X86_64%]==[yes] (
+      copy /y release\smtube.exe "%SMTUBE_DIR%\setup\portable\smtube-portable64.exe"
+    ) else ( 
+      copy /y release\smtube.exe "%SMTUBE_DIR%\setup\portable\smtube-portable.exe"
+    )
   )
 )
+
 :: Return to starting directory
 cd /d "%start_dir%"
 
