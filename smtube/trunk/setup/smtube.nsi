@@ -68,6 +68,9 @@
 ;Variables
 
   Var InstType_Is_Portable
+!ifdef WIN64
+  Var SMPlayer_Path
+!endif
   Var SMPlayer_StartMenuFolder
 
 ;--------------------------------
@@ -269,6 +272,14 @@ SectionEnd
 ;Installer functions
 
 Function .onInit
+
+!ifdef WIN64
+  SetRegView 64
+
+  ;Workaround for InstallDirRegKey on 64-bit
+  ReadRegStr $SMPlayer_Path HKLM "${SMPLAYER_REG_KEY}" "Path"
+  StrCpy $INSTDIR $SMPlayer_Path
+!endif
 
   ;Gets start menu folder name
   !insertmacro MUI_STARTMENU_GETFOLDER "SMP_SMenu" $SMPlayer_StartMenuFolder
