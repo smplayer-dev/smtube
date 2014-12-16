@@ -82,10 +82,6 @@
   !define MUI_UNWELCOMEFINISHPAGE_BITMAP "smtube-orange-wizard-un.bmp"
   !define MUI_ABORTWARNING
 
-  ;Welcome page
-  ;!define MUI_WELCOMEPAGE_TITLE $(WelcomePage_Title)
-  ;!define MUI_WELCOMEPAGE_TEXT $(WelcomePage_Text)
-
   ;License page
   !define MUI_LICENSEPAGE_RADIOBUTTONS
 
@@ -135,7 +131,7 @@
 
   ;Install pages
   #Welcome
-  ;!insertmacro MUI_PAGE_WELCOME
+  !insertmacro MUI_PAGE_WELCOME
 
   #License
   !insertmacro MUI_PAGE_LICENSE "license.txt"
