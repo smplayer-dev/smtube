@@ -289,11 +289,14 @@ Section "SMTube (required)" SecSMTube
   SetOutPath "$INSTDIR\docs\smtube"
   File "..\*.txt"
 
-  SetShellVarContext all
-  SetOutPath "$INSTDIR"
-  !insertmacro MUI_STARTMENU_WRITE_BEGIN SMP_SMenu
-    CreateShortCut "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMTube.lnk" "$INSTDIR\smtube.exe"
-  !insertmacro MUI_STARTMENU_WRITE_END
+  ${IfNot} $InstType_Is_Portable == 1
+    SetShellVarContext all
+    SetOutPath "$INSTDIR"
+
+    !insertmacro MUI_STARTMENU_WRITE_BEGIN SMP_SMenu
+      CreateShortCut "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMTube.lnk" "$INSTDIR\smtube.exe"
+    !insertmacro MUI_STARTMENU_WRITE_END
+  ${EndIf}
 
 SectionEnd
 
