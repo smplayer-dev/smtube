@@ -46,7 +46,7 @@ ${!defineifexist} USE_MOREINFO MoreInfo.dll
 !endif
 
   !define SMPLAYER_REG_KEY "Software\SMPlayer"
-  
+
   !define SMPLAYER_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
 !ifdef WIN64
@@ -98,6 +98,7 @@ ${!defineifexist} USE_MOREINFO MoreInfo.dll
   Var SMPlayer_StartMenuFolder
 
 !ifdef USE_MOREINFO
+  Var SMPlayer_FileDescription
   Var SMPlayer_ProductName
 !endif
 
@@ -272,6 +273,10 @@ Section "SMTube (required)" SecSMTube
 
   SectionIn RO
 
+  ${If} $InstType_Is_Portable == 1
+    DetailPrint "Found portable version of SMPlayer."
+  ${EndIf}
+
   SetOutPath "$INSTDIR"
   ${If} $InstType_Is_Portable == 1
 !ifdef WIN64
@@ -297,6 +302,8 @@ Section "SMTube (required)" SecSMTube
       CreateShortCut "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMTube.lnk" "$INSTDIR\smtube.exe"
     !insertmacro MUI_STARTMENU_WRITE_END
   ${EndIf}
+
+  SetAutoClose false
 
 SectionEnd
 
@@ -384,20 +391,27 @@ Function PageComponentsLeave
   MoreInfo::GetProductName "$INSTDIR\smplayer.exe"
   Pop $SMPlayer_ProductName
 
-  ${StrContains} $0 "(${SMTUBE_INST_ARCH})" "$SMPlayer_ProductName"
-  StrCmp $0 "" notfound
-    Goto done
-  notfound:
-    MessageBox MB_YESNO|MB_ICONEXCLAMATION "This version of SMTube requires a ${SMTUBE_INST_ARCH} installation of SMPlayer.$\r$\n$\r$\nProceed anyway?" /SD IDNO IDYES done
-    Abort
-  done:
-!endif
+  MoreInfo::GetFileDescription "$INSTDIR\smplayer.exe"
+  Pop $SMPlayer_FileDescription
 
+  ${StrContains} $0 "(${SMTUBE_INST_ARCH})" "$SMPlayer_ProductName"
+  StrCmp $0 "" 0 +3
+    MessageBox MB_YESNO|MB_ICONEXCLAMATION "This version of SMTube requires a ${SMTUBE_INST_ARCH} installation of SMPlayer.$\r$\n$\r$\nContinue anyway?" /SD IDNO IDYES +2
+    Abort
+
+  ${StrContains} $1 "Portable" "$SMPlayer_FileDescription"
+  StrCmp $1 "" 0 +3
+    StrCpy $InstType_Is_Portable 0
+    Goto +2
+  StrCpy $InstType_Is_Portable 1
+!else
+ ; Simple way to figure out portable/non-portable w/o MoreInfo
   ${If} ${FileExists} "$INSTDIR\smplayer_orig.ini"
     StrCpy $InstType_Is_Portable 1
   ${Else}
     StrCpy $InstType_Is_Portable 0
   ${EndIf}
+!endif
 
 FunctionEnd
 
