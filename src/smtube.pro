@@ -46,6 +46,7 @@ HEADERS += myborder.h \
            lineedit_with_icon.h \
            filechooser.h \
            regions.h \
+           proxy.h \
            configdialog.h \
            version.h \
            about.h \
@@ -64,6 +65,7 @@ SOURCES += myborder.cpp \
            lineedit_with_icon.cpp \
            filechooser.cpp \
            regions.cpp \
+           proxy.cpp \
            configdialog.cpp \
            version.cpp \
            about.cpp \

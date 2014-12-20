@@ -45,6 +45,7 @@
 #include "myborder.h"
 #include "searchbox.h"
 #include "recordingdialog.h"
+#include "proxy.h"
 #include "configdialog.h"
 #include "regions.h"
 #include "about.h"
@@ -371,6 +372,7 @@ YTDialog::YTDialog(QWidget *parent, QSettings * settings) :
     connect(decFontSizeAct, SIGNAL(triggered()), this, SLOT(decFontSize()));
     addAction(decFontSizeAct);
 
+    proxy = new Proxy;
     loadConfig();
 
 	move(0, 0);
@@ -399,6 +401,7 @@ YTDialog::~YTDialog()
 		set->sync();
 	}
 	saveConfig();
+	delete proxy;
 
     delete pixmap_loader;
 #ifdef YT_DL
@@ -1077,6 +1080,9 @@ void YTDialog::loadConfig()
             RetrieveYoutubeUrl::setUserAgent("");
         }
         set->endGroup();
+
+        proxy->load(set);
+        proxy->applyProxy();
     }
 
 #ifdef YT_DL
@@ -1144,6 +1150,9 @@ void YTDialog::saveConfig()
 
         set->setValue("font_base_size", FontPref::base_size);
         set->endGroup();
+
+        proxy->save(set);
+
         set->sync();
     }
 }

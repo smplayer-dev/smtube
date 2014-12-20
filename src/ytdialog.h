@@ -47,6 +47,7 @@ class QNetworkAccessManager;
 class QTimeLine;
 class RecordingDialog;
 class QSettings;
+class Proxy;
 
 class SmoothListWidget : public QListWidget
 {
@@ -235,6 +236,7 @@ private:
     QToolButton * recordingButton;
     QToolButton * enterUrlButton;
 #endif
+    Proxy * proxy;
 
     bool overlayVisible;
     OverlayWidget* overlay;
