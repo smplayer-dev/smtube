@@ -1023,6 +1023,13 @@ void YTDialog::showConfigDialog()
     d.setPeriod( period );
     d.setRegion( region );
 
+	d.setUseProxy(proxy->useProxy());
+	d.setProxyHostname(proxy->host());
+	d.setProxyPort(proxy->port());
+	d.setProxyUsername(proxy->username());
+	d.setProxyPassword(proxy->password());
+	d.setProxyType(proxy->type());
+
     if (d.exec() == QDialog::Accepted) {
         #ifdef YT_DL
         recording_dialog->setRecordingsDirectory(d.recordingDirectory());
@@ -1036,6 +1043,15 @@ void YTDialog::showConfigDialog()
         playback_quality = d.playbackQuality();
         api->setPeriod( d.period() );
         api->setRegion( d.region() );
+
+		proxy->setUseProxy(d.useProxy());
+		proxy->setHost(d.proxyHostname());
+		proxy->setPort(d.proxyPort());
+		proxy->setUsername(d.proxyUsername());
+		proxy->setPassword(d.proxyPassword());
+		proxy->setType(d.proxyType());
+		proxy->applyProxy();
+
         saveConfig();
 
         if ((d.period() != period) || (d.region() != region)) {
