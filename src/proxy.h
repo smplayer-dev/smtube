@@ -40,6 +40,9 @@ public:
 	void setHost(const QString & host) { proxy_host = host; };
 	QString host() { return proxy_host; };
 
+	void setPort(int port) { proxy_port = port; };
+	int port() { return proxy_port; };
+
 	void setUsername(const QString & username) { proxy_username = username; };
 	QString username() { return proxy_username; };
 

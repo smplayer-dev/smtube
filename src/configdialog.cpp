@@ -20,6 +20,7 @@
 #include "ytdialog.h"
 #include "retrieveyoutubeurl.h"
 #include "regions.h"
+#include <QNetworkProxy>
 
 ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
     : QDialog(parent, f) 
@@ -66,6 +67,9 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	record_quality_combo->addItem( "720p (webm)", RetrieveYoutubeUrl::WEBM_720p );
 	record_quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
 	record_quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
+
+	proxy_type_combo->addItem( tr("HTTP"), QNetworkProxy::HttpProxy);
+	proxy_type_combo->addItem( tr("SOCKS5"), QNetworkProxy::Socks5Proxy);
 
 #ifdef Q_OS_WIN
 	playback_group->hide();
@@ -163,6 +167,57 @@ void ConfigDialog::setPlaybackQuality(int quality) {
 int ConfigDialog::playbackQuality() {
 	int index = playback_quality_combo->currentIndex();
 	return playback_quality_combo->itemData(index).toInt();
+}
+
+void ConfigDialog::setUseProxy(bool b) {
+	use_proxy_check->setChecked(b);
+}
+
+bool ConfigDialog::useProxy() {
+	return use_proxy_check->isChecked();
+}
+
+void ConfigDialog::setProxyHostname(const QString & host) {
+	proxy_hostname_edit->setText(host);
+}
+
+QString ConfigDialog::proxyHostname() {
+	return proxy_hostname_edit->text();
+}
+
+void ConfigDialog::setProxyPort(int port) {
+	proxy_port_spin->setValue(port);
+}
+
+int ConfigDialog::proxyPort() {
+	return proxy_port_spin->value();
+}
+
+void ConfigDialog::setProxyUsername(const QString & username) {
+	proxy_username_edit->setText(username);
+}
+
+QString ConfigDialog::proxyUsername() {
+	return proxy_username_edit->text();
+}
+
+void ConfigDialog::setProxyPassword(const QString & pass) {
+	proxy_password_edit->setText(pass);
+}
+
+QString ConfigDialog::proxyPassword() {
+	return proxy_password_edit->text();
+}
+
+void ConfigDialog::setProxyType(int type) {
+	int index = proxy_type_combo->findData(type);
+	if (index == -1) index = 0;
+	proxy_type_combo->setCurrentIndex(index);
+}
+
+int ConfigDialog::proxyType() {
+	int index = proxy_type_combo->currentIndex();
+	return proxy_type_combo->itemData(index).toInt();
 }
 
 #include "moc_configdialog.cpp"

@@ -42,6 +42,13 @@ public slots:
     void setRegion(const QString & region);
     void setPeriod(const QString & period);
 
+	void setUseProxy(bool b);
+	void setProxyHostname(const QString & host);
+	void setProxyPort(int port);
+	void setProxyUsername(const QString & username);
+	void setProxyPassword(const QString & pass);
+	void setProxyType(int type);
+
 public:
     QString recordingDirectory();
     int recordingQuality();
@@ -51,6 +58,13 @@ public:
 #endif
     QString region();
     QString period();
+
+	bool useProxy();
+	QString proxyHostname();
+	int proxyPort();
+	QString proxyUsername();
+	QString proxyPassword();
+	int proxyType();
 
 #ifdef USE_PLAYERS
 protected slots:
