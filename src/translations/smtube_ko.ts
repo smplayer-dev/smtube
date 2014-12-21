@@ -228,12 +228,12 @@
     <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
-        <translation type="unfinished"></translation>
+        <translation>이것은 간소화 버전입니다</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Visit our web to get the full version:</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 버전은 웹사이트를 방문하세요:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
@@ -403,69 +403,119 @@
         <translation>설정</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="20"/>
+        <location filename="../configdialog.ui" line="24"/>
+        <source>&amp;General</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="30"/>
         <source>Recording</source>
         <translation>녹화</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="28"/>
+        <location filename="../configdialog.ui" line="38"/>
         <source>&amp;Save to this folder</source>
         <translation>이 폴더에 저장하기</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="45"/>
+        <location filename="../configdialog.ui" line="55"/>
         <source>&amp;Quality</source>
         <translation>품질</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="157"/>
+        <location filename="../configdialog.ui" line="167"/>
         <source>Standard Feeds</source>
         <translation>표준 피드</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="163"/>
+        <location filename="../configdialog.ui" line="173"/>
         <source>&amp;Region:</source>
         <translation>지역:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="189"/>
+        <location filename="../configdialog.ui" line="199"/>
         <source>Period of &amp;time:</source>
         <translation>기간:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="80"/>
+        <location filename="../configdialog.ui" line="229"/>
+        <source>&amp;Proxy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="235"/>
+        <source>&amp;Enable proxy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="248"/>
+        <source>&amp;Host:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="261"/>
+        <source>&amp;Port:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="281"/>
+        <source>&amp;Username:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="294"/>
+        <source>Pa&amp;ssword:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="311"/>
+        <source>&amp;Type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="90"/>
         <source>Playback</source>
         <translation>재생</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="88"/>
+        <location filename="../configdialog.ui" line="98"/>
         <source>Q&amp;uality:</source>
         <translation>품질:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="125"/>
+        <location filename="../configdialog.ui" line="135"/>
         <source>&amp;Player:</source>
         <translation>재생기:</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="40"/>
+        <location filename="../configdialog.cpp" line="41"/>
         <source>All time</source>
         <translation>전체 기간</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="41"/>
+        <location filename="../configdialog.cpp" line="42"/>
         <source>This month</source>
         <translation>이번 달</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="42"/>
+        <location filename="../configdialog.cpp" line="43"/>
         <source>This week</source>
         <translation>이번 주</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="43"/>
+        <location filename="../configdialog.cpp" line="44"/>
         <source>Today</source>
         <translation>오늘</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="71"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="72"/>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -882,195 +932,195 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="231"/>
+        <location filename="../ytdialog.cpp" line="232"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>유투브 브라우저 - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="281"/>
+        <location filename="../ytdialog.cpp" line="282"/>
         <source>Settings</source>
         <translation>설정</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="287"/>
+        <location filename="../ytdialog.cpp" line="288"/>
         <source>Information</source>
         <translation>정보</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="294"/>
+        <location filename="../ytdialog.cpp" line="295"/>
         <source>Show recordings</source>
         <translation>녹화 보기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="300"/>
+        <location filename="../ytdialog.cpp" line="301"/>
         <source>Enter URL</source>
         <translation>주소 입력하기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="503"/>
+        <location filename="../ytdialog.cpp" line="506"/>
         <source>Most Relevant</source>
         <translation>관련 동영상</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="507"/>
+        <location filename="../ytdialog.cpp" line="510"/>
         <source>Most Recent</source>
         <translation>최신 동영상</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="511"/>
+        <location filename="../ytdialog.cpp" line="514"/>
         <source>Most Viewed</source>
         <translation>많이 본 동영상</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="515"/>
+        <location filename="../ytdialog.cpp" line="518"/>
         <source>Most Popular</source>
         <translation>인기 동영상</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="541"/>
+        <location filename="../ytdialog.cpp" line="544"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>유투브%1 의 가장 인기 있는 동영상</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="662"/>
+        <location filename="../ytdialog.cpp" line="665"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>오류: 유투브 서버에 연결할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="773"/>
+        <location filename="../ytdialog.cpp" line="776"/>
         <source>R&amp;ecord audio</source>
         <translation>음성 녹음하기(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="778"/>
+        <location filename="../ytdialog.cpp" line="781"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>URL을 SMPlayer 재생목록에 추가하기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="846"/>
+        <location filename="../ytdialog.cpp" line="849"/>
         <source>Enter a URL</source>
         <translation>주소 입력하기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="964"/>
+        <location filename="../ytdialog.cpp" line="967"/>
         <source>Connection failed</source>
         <translation>연결에 실패했습니다</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="965"/>
+        <location filename="../ytdialog.cpp" line="968"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>요청한 비디오는 HTTPS 연결이 필요합니다</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="966"/>
+        <location filename="../ytdialog.cpp" line="969"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
         <translation>불행히도 openssl 컴포넌트가 필요한데 당신의 시스템에는 없습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="967"/>
+        <location filename="../ytdialog.cpp" line="970"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>이 문제를 해결하려면 %1 을 방문하세요.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="968"/>
+        <location filename="../ytdialog.cpp" line="971"/>
         <source>this link</source>
         <translation>이 링크</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="979"/>
-        <location filename="../ytdialog.cpp" line="990"/>
+        <location filename="../ytdialog.cpp" line="982"/>
+        <location filename="../ytdialog.cpp" line="993"/>
         <source>Problems with Youtube</source>
         <translation>유투브 문제</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="981"/>
+        <location filename="../ytdialog.cpp" line="984"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>유투브 코드를 업데이트할까요? 업데이트로 문제를 해결할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="980"/>
-        <location filename="../ytdialog.cpp" line="991"/>
+        <location filename="../ytdialog.cpp" line="983"/>
+        <location filename="../ytdialog.cpp" line="994"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>유감스럽게도 유투브 페이지 변경 때문에, &apos;%1&apos; 동영상을 재생하거나 녹화할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="992"/>
+        <location filename="../ytdialog.cpp" line="995"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>이 프로그램을 업데이트해서 문제를 해결할 수 있을 것입니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="546"/>
+        <location filename="../ytdialog.cpp" line="549"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; 의 결과 유투브%2</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="519"/>
+        <location filename="../ytdialog.cpp" line="522"/>
         <source>Music</source>
         <translation>음악</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="523"/>
+        <location filename="../ytdialog.cpp" line="526"/>
         <source>Sports</source>
         <translation>스포츠</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="542"/>
+        <location filename="../ytdialog.cpp" line="545"/>
         <source>Most popular sport videos on YouTube%1</source>
         <translation>유투브%1 의 가장 인기 있는 스포츠 동영상</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="543"/>
+        <location filename="../ytdialog.cpp" line="546"/>
         <source>Most popular music videos on YouTube%1</source>
         <translation>유투브%1 의 가장 인기 있는 뮤직 비디오</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="670"/>
+        <location filename="../ytdialog.cpp" line="673"/>
         <source>No videos found</source>
         <translation>동영상이 없습니다</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="672"/>
+        <location filename="../ytdialog.cpp" line="675"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; 에 관한 동영상이 없습니다</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="770"/>
+        <location filename="../ytdialog.cpp" line="773"/>
         <source>&amp;Play video</source>
         <translation>비디오 재생</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="772"/>
+        <location filename="../ytdialog.cpp" line="775"/>
         <source>&amp;Record video</source>
         <translation>비디오 녹화</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="775"/>
+        <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Watch on YouTube</source>
         <translation>유투브 보기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="776"/>
+        <location filename="../ytdialog.cpp" line="779"/>
         <source>&amp;Copy link</source>
         <translation>링크 복사하기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="256"/>
+        <location filename="../ytdialog.cpp" line="257"/>
         <source>Next</source>
         <translation>다음</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="262"/>
+        <location filename="../ytdialog.cpp" line="263"/>
         <source>Previous</source>
         <translation>이전</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="847"/>
+        <location filename="../ytdialog.cpp" line="850"/>
         <source>Enter a Youtube URL to record</source>
         <translation>녹화할 유투브 주소 입력하기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="956"/>
-        <location filename="../ytdialog.cpp" line="958"/>
+        <location filename="../ytdialog.cpp" line="959"/>
+        <location filename="../ytdialog.cpp" line="961"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>

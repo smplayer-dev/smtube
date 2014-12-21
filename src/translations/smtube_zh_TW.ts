@@ -228,12 +228,12 @@
     <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
-        <translation type="unfinished"></translation>
+        <translation>這是一個陽春版本</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Visit our web to get the full version:</source>
-        <translation type="unfinished"></translation>
+        <translation>請參觀我們的網站，以獲得完整版：</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
@@ -403,69 +403,119 @@
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="20"/>
+        <location filename="../configdialog.ui" line="24"/>
+        <source>&amp;General</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="30"/>
         <source>Recording</source>
         <translation>錄製</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="28"/>
+        <location filename="../configdialog.ui" line="38"/>
         <source>&amp;Save to this folder</source>
         <translation>儲存到這個資料夾(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="45"/>
+        <location filename="../configdialog.ui" line="55"/>
         <source>&amp;Quality</source>
         <translation>品質(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="157"/>
+        <location filename="../configdialog.ui" line="167"/>
         <source>Standard Feeds</source>
         <translation>標準影片來源</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="163"/>
+        <location filename="../configdialog.ui" line="173"/>
         <source>&amp;Region:</source>
         <translation>地區(&amp;R)：</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="189"/>
+        <location filename="../configdialog.ui" line="199"/>
         <source>Period of &amp;time:</source>
         <translation>時間範圍(&amp;T)：</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="80"/>
+        <location filename="../configdialog.ui" line="229"/>
+        <source>&amp;Proxy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="235"/>
+        <source>&amp;Enable proxy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="248"/>
+        <source>&amp;Host:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="261"/>
+        <source>&amp;Port:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="281"/>
+        <source>&amp;Username:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="294"/>
+        <source>Pa&amp;ssword:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="311"/>
+        <source>&amp;Type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="90"/>
         <source>Playback</source>
         <translation>播放</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="88"/>
+        <location filename="../configdialog.ui" line="98"/>
         <source>Q&amp;uality:</source>
         <translation>品質(&amp;U)：</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="125"/>
+        <location filename="../configdialog.ui" line="135"/>
         <source>&amp;Player:</source>
         <translation>播放器(&amp;P)：</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="40"/>
+        <location filename="../configdialog.cpp" line="41"/>
         <source>All time</source>
         <translation>所有時刻</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="41"/>
+        <location filename="../configdialog.cpp" line="42"/>
         <source>This month</source>
         <translation>本月</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="42"/>
+        <location filename="../configdialog.cpp" line="43"/>
         <source>This week</source>
         <translation>本週</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="43"/>
+        <location filename="../configdialog.cpp" line="44"/>
         <source>Today</source>
         <translation>今天</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="71"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="72"/>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -536,7 +586,7 @@
     <message>
         <location filename="../erroramiga.cpp" line="42"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>確定</translation>
     </message>
 </context>
 <context>
@@ -882,195 +932,195 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="231"/>
+        <location filename="../ytdialog.cpp" line="232"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>YouTube 瀏覽器 - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="281"/>
+        <location filename="../ytdialog.cpp" line="282"/>
         <source>Settings</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="287"/>
+        <location filename="../ytdialog.cpp" line="288"/>
         <source>Information</source>
         <translation>資訊</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="294"/>
+        <location filename="../ytdialog.cpp" line="295"/>
         <source>Show recordings</source>
         <translation>顯示錄製清單</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="300"/>
+        <location filename="../ytdialog.cpp" line="301"/>
         <source>Enter URL</source>
         <translation>輸入網址</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="503"/>
+        <location filename="../ytdialog.cpp" line="506"/>
         <source>Most Relevant</source>
         <translation>相關性最高的</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="507"/>
+        <location filename="../ytdialog.cpp" line="510"/>
         <source>Most Recent</source>
         <translation>最新的</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="511"/>
+        <location filename="../ytdialog.cpp" line="514"/>
         <source>Most Viewed</source>
         <translation>瀏覽最多</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="515"/>
+        <location filename="../ytdialog.cpp" line="518"/>
         <source>Most Popular</source>
         <translation>最受歡迎</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="541"/>
+        <location filename="../ytdialog.cpp" line="544"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>在 YouTube%1 上最受歡迎的影片</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="662"/>
+        <location filename="../ytdialog.cpp" line="665"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>錯誤：無法連接到 Youtube 伺服器。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="773"/>
+        <location filename="../ytdialog.cpp" line="776"/>
         <source>R&amp;ecord audio</source>
         <translation>錄製聲音(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="778"/>
+        <location filename="../ytdialog.cpp" line="781"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>加入網址到 SMPlayer 播放清單(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="846"/>
+        <location filename="../ytdialog.cpp" line="849"/>
         <source>Enter a URL</source>
         <translation>輸入網址</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="964"/>
-        <source>Connection failed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="965"/>
-        <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="966"/>
-        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="967"/>
-        <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <source>Connection failed</source>
+        <translation>連接失敗</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="968"/>
-        <source>this link</source>
-        <translation type="unfinished"></translation>
+        <source>The video you requested needs to open a HTTPS connection.</source>
+        <translation>您要求的影片需要開啟一個 HTTPS 連接。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="979"/>
-        <location filename="../ytdialog.cpp" line="990"/>
+        <location filename="../ytdialog.cpp" line="969"/>
+        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
+        <translation>不幸的是，需要 OpenSSL 組件，而在您的系統中卻沒有可用的。</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="970"/>
+        <source>Please, visit %1 to know how to fix this problem.</source>
+        <translation>請參觀 %1 以瞭解如何修正這個問題。</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>this link</source>
+        <translation>這個連結</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="982"/>
+        <location filename="../ytdialog.cpp" line="993"/>
         <source>Problems with Youtube</source>
         <translation>與 YouTube 的問題</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="981"/>
+        <location filename="../ytdialog.cpp" line="984"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>您想要更新 YouTube 的程式碼嗎？這可能會解決這個問題。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="980"/>
-        <location filename="../ytdialog.cpp" line="991"/>
+        <location filename="../ytdialog.cpp" line="983"/>
+        <location filename="../ytdialog.cpp" line="994"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>不幸的是，由於 Youtube 本身的改變，影片 &apos;%1&apos; 不能播放或錄製。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="992"/>
+        <location filename="../ytdialog.cpp" line="995"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>也許更新應用程式可以解決這個問題。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="546"/>
+        <location filename="../ytdialog.cpp" line="549"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>&quot;%1&quot; 的 YouTube%2 結果</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="519"/>
+        <location filename="../ytdialog.cpp" line="522"/>
         <source>Music</source>
         <translation>音樂</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="523"/>
+        <location filename="../ytdialog.cpp" line="526"/>
         <source>Sports</source>
         <translation>運動</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="542"/>
+        <location filename="../ytdialog.cpp" line="545"/>
         <source>Most popular sport videos on YouTube%1</source>
         <translation>在 YouTube%1上最受歡迎的運動影片</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="543"/>
+        <location filename="../ytdialog.cpp" line="546"/>
         <source>Most popular music videos on YouTube%1</source>
         <translation>在 YouTube%1上最受歡迎的音樂影片</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="670"/>
+        <location filename="../ytdialog.cpp" line="673"/>
         <source>No videos found</source>
         <translation>沒有找到影片</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="672"/>
+        <location filename="../ytdialog.cpp" line="675"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>沒有找到影片 &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="770"/>
+        <location filename="../ytdialog.cpp" line="773"/>
         <source>&amp;Play video</source>
         <translation>播放影片(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="772"/>
+        <location filename="../ytdialog.cpp" line="775"/>
         <source>&amp;Record video</source>
         <translation>錄製影片(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="775"/>
+        <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Watch on YouTube</source>
         <translation>在 YouTube 上觀看(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="776"/>
+        <location filename="../ytdialog.cpp" line="779"/>
         <source>&amp;Copy link</source>
         <translation>複製連結(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="256"/>
+        <location filename="../ytdialog.cpp" line="257"/>
         <source>Next</source>
         <translation>下一頁</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="262"/>
+        <location filename="../ytdialog.cpp" line="263"/>
         <source>Previous</source>
         <translation>上一頁</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="847"/>
+        <location filename="../ytdialog.cpp" line="850"/>
         <source>Enter a Youtube URL to record</source>
         <translation>輸入要錄製的網址</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="956"/>
-        <location filename="../ytdialog.cpp" line="958"/>
+        <location filename="../ytdialog.cpp" line="959"/>
+        <location filename="../ytdialog.cpp" line="961"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
