@@ -1,8 +1,7 @@
 Version 14.12:
 
-(2014-12-11)
- * To prevent possible problems, now smtube is compiled by default
-   on Windows without the options to download files.
+(2014-12-20)
+ * New options to set a proxy.
 
 
 Version 14.8:
