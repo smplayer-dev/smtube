@@ -403,69 +403,119 @@
         <translation>الإعدادات</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="20"/>
+        <location filename="../configdialog.ui" line="24"/>
+        <source>&amp;General</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="30"/>
         <source>Recording</source>
         <translation>يجري التسجيل</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="28"/>
+        <location filename="../configdialog.ui" line="38"/>
         <source>&amp;Save to this folder</source>
         <translation>احف&amp;ظ الى هذا المجلد</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="45"/>
+        <location filename="../configdialog.ui" line="55"/>
         <source>&amp;Quality</source>
         <translation>الن&amp;وعية</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="157"/>
+        <location filename="../configdialog.ui" line="167"/>
         <source>Standard Feeds</source>
         <translation>التغذية القياسية</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="163"/>
+        <location filename="../configdialog.ui" line="173"/>
         <source>&amp;Region:</source>
         <translation>المن&amp;طقة:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="189"/>
+        <location filename="../configdialog.ui" line="199"/>
         <source>Period of &amp;time:</source>
         <translation>الفترة ال&amp;زمنية:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="80"/>
+        <location filename="../configdialog.ui" line="229"/>
+        <source>&amp;Proxy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="235"/>
+        <source>&amp;Enable proxy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="248"/>
+        <source>&amp;Host:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="261"/>
+        <source>&amp;Port:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="281"/>
+        <source>&amp;Username:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="294"/>
+        <source>Pa&amp;ssword:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="311"/>
+        <source>&amp;Type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="90"/>
         <source>Playback</source>
         <translation>تشغيل</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="88"/>
+        <location filename="../configdialog.ui" line="98"/>
         <source>Q&amp;uality:</source>
         <translation>ال&amp;نوعية:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="125"/>
+        <location filename="../configdialog.ui" line="135"/>
         <source>&amp;Player:</source>
         <translation>المشغ&amp;ل:</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="40"/>
+        <location filename="../configdialog.cpp" line="41"/>
         <source>All time</source>
         <translation>كل الوقت</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="41"/>
+        <location filename="../configdialog.cpp" line="42"/>
         <source>This month</source>
         <translation>هذا الشهر</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="42"/>
+        <location filename="../configdialog.cpp" line="43"/>
         <source>This week</source>
         <translation>هذا الاسبوع</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="43"/>
+        <location filename="../configdialog.cpp" line="44"/>
         <source>Today</source>
         <translation>اليوم</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="71"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="72"/>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -887,195 +937,195 @@
 <context>
     <name>YTDialog</name>
     <message>
-        <location filename="../ytdialog.cpp" line="231"/>
+        <location filename="../ytdialog.cpp" line="232"/>
         <source>YouTube Browser - SMPlayer</source>
         <translation>متصفح يوتيوب - المشغل SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="281"/>
+        <location filename="../ytdialog.cpp" line="282"/>
         <source>Settings</source>
         <translation>إعدادات</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="287"/>
+        <location filename="../ytdialog.cpp" line="288"/>
         <source>Information</source>
         <translation>معلومات</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="294"/>
+        <location filename="../ytdialog.cpp" line="295"/>
         <source>Show recordings</source>
         <translation>أَظهِر التسجيلات</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="300"/>
+        <location filename="../ytdialog.cpp" line="301"/>
         <source>Enter URL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="503"/>
+        <location filename="../ytdialog.cpp" line="506"/>
         <source>Most Relevant</source>
         <translation>الأكثر مشابهة</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="507"/>
+        <location filename="../ytdialog.cpp" line="510"/>
         <source>Most Recent</source>
         <translation>الأحدث</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="511"/>
+        <location filename="../ytdialog.cpp" line="514"/>
         <source>Most Viewed</source>
         <translation>الاكثر مشاهدة</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="515"/>
+        <location filename="../ytdialog.cpp" line="518"/>
         <source>Most Popular</source>
         <translation>الاكثر شهرة</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="541"/>
+        <location filename="../ytdialog.cpp" line="544"/>
         <source>Most popular videos on YouTube%1</source>
         <translation>الفيديوات الاكثر شهرة على يوتيوب YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="662"/>
+        <location filename="../ytdialog.cpp" line="665"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>خطأ: لا يمكن الاتصال بخادوم يوتيوب Youtube .</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="773"/>
+        <location filename="../ytdialog.cpp" line="776"/>
         <source>R&amp;ecord audio</source>
         <translation>ت&amp;سجيل الصوت</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="778"/>
+        <location filename="../ytdialog.cpp" line="781"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>أضف ال&amp;رابط الى قائمة تشغيل SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="846"/>
+        <location filename="../ytdialog.cpp" line="849"/>
         <source>Enter a URL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="964"/>
+        <location filename="../ytdialog.cpp" line="967"/>
         <source>Connection failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="965"/>
+        <location filename="../ytdialog.cpp" line="968"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="966"/>
+        <location filename="../ytdialog.cpp" line="969"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="967"/>
+        <location filename="../ytdialog.cpp" line="970"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="968"/>
+        <location filename="../ytdialog.cpp" line="971"/>
         <source>this link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="979"/>
-        <location filename="../ytdialog.cpp" line="990"/>
+        <location filename="../ytdialog.cpp" line="982"/>
+        <location filename="../ytdialog.cpp" line="993"/>
         <source>Problems with Youtube</source>
         <translation>مشكلات في YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="981"/>
+        <location filename="../ytdialog.cpp" line="984"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>أتريد تحديث النص البرمجي لـليوتيوب YouTube؟ لعل هذا يحلّ المشكلة.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="980"/>
-        <location filename="../ytdialog.cpp" line="991"/>
+        <location filename="../ytdialog.cpp" line="983"/>
+        <location filename="../ytdialog.cpp" line="994"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>نأسف، نظرا لتغييرات في يوتيوب Youtube، لا يمكن تشغيل الفيديو &apos;%1&apos; أو تسجيله.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="992"/>
+        <location filename="../ytdialog.cpp" line="995"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>تحديث هذا التطبيق قد يحل المشكلة.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="546"/>
+        <location filename="../ytdialog.cpp" line="549"/>
         <source>YouTube%2 results for &quot;%1&quot;</source>
         <translation>نتائج يوتيوب YouTube%2 لـ &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="519"/>
+        <location filename="../ytdialog.cpp" line="522"/>
         <source>Music</source>
         <translation>موسيقى</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="523"/>
+        <location filename="../ytdialog.cpp" line="526"/>
         <source>Sports</source>
         <translation>رياضة</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="542"/>
+        <location filename="../ytdialog.cpp" line="545"/>
         <source>Most popular sport videos on YouTube%1</source>
         <translation>أشهر فيديوات الرياضة من يوتيوب YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="543"/>
+        <location filename="../ytdialog.cpp" line="546"/>
         <source>Most popular music videos on YouTube%1</source>
         <translation>أشهر فيديوات الموسيقى من يوتيوب YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="670"/>
+        <location filename="../ytdialog.cpp" line="673"/>
         <source>No videos found</source>
         <translation>لم يُعثر على فيديو</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="672"/>
+        <location filename="../ytdialog.cpp" line="675"/>
         <source>No videos found for &quot;%1&quot;</source>
         <translation>لم يُعثَر على فيديوات لـ &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="770"/>
+        <location filename="../ytdialog.cpp" line="773"/>
         <source>&amp;Play video</source>
         <translation>تش&amp;غيل الفيديو</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="772"/>
+        <location filename="../ytdialog.cpp" line="775"/>
         <source>&amp;Record video</source>
         <translation>تس&amp;جيل الفيديو</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="775"/>
+        <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Watch on YouTube</source>
         <translation>م&amp;شاهدة على YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="776"/>
+        <location filename="../ytdialog.cpp" line="779"/>
         <source>&amp;Copy link</source>
         <translation>ن&amp;سخ الرابط</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="256"/>
+        <location filename="../ytdialog.cpp" line="257"/>
         <source>Next</source>
         <translation>التالي</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="262"/>
+        <location filename="../ytdialog.cpp" line="263"/>
         <source>Previous</source>
         <translation>السابق</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="847"/>
+        <location filename="../ytdialog.cpp" line="850"/>
         <source>Enter a Youtube URL to record</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="956"/>
-        <location filename="../ytdialog.cpp" line="958"/>
+        <location filename="../ytdialog.cpp" line="959"/>
+        <location filename="../ytdialog.cpp" line="961"/>
         <source>Error</source>
         <translation>خطأ</translation>
     </message>
