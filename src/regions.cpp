@@ -31,6 +31,7 @@ QMap<QString,QString> Regions::list() {
 	l["CA"] = tr("Canada");
 	l["CL"] = tr("Chile");
 	l["CO"] = tr("Colombia");
+	l["HR"] = tr("Croatia");
 	l["CZ"] = tr("Czech Republic");
 	l["EG"] = tr("Egypt");
 	l["FR"] = tr("France");
