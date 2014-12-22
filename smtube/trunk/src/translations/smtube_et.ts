@@ -768,156 +768,161 @@
     </message>
     <message>
         <location filename="../regions.cpp" line="34"/>
-        <source>Czech Republic</source>
+        <source>Croatia</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
-        <source>Egypt</source>
+        <source>Czech Republic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="36"/>
-        <source>France</source>
+        <source>Egypt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="37"/>
-        <source>Germany</source>
+        <source>France</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="38"/>
-        <source>Great Britain</source>
+        <source>Germany</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="39"/>
-        <source>Hong Kong</source>
+        <source>Great Britain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="40"/>
-        <source>Hungary</source>
+        <source>Hong Kong</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="41"/>
-        <source>India</source>
+        <source>Hungary</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="42"/>
-        <source>Ireland</source>
+        <source>India</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="43"/>
-        <source>Israel</source>
+        <source>Ireland</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="44"/>
-        <source>Italy</source>
+        <source>Israel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="45"/>
-        <source>Japan</source>
+        <source>Italy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="46"/>
-        <source>Jordan</source>
+        <source>Japan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="47"/>
-        <source>Malaysia</source>
+        <source>Jordan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="48"/>
-        <source>Mexico</source>
+        <source>Malaysia</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="49"/>
-        <source>Morocco</source>
+        <source>Mexico</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="50"/>
-        <source>Netherlands</source>
+        <source>Morocco</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="51"/>
-        <source>New Zealand</source>
+        <source>Netherlands</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="52"/>
-        <source>Peru</source>
+        <source>New Zealand</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="53"/>
-        <source>Philippines</source>
+        <source>Peru</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="54"/>
-        <source>Poland</source>
+        <source>Philippines</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="55"/>
-        <source>Russia</source>
+        <source>Poland</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="56"/>
-        <source>Saudi Arabia</source>
+        <source>Russia</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="57"/>
-        <source>Singapore</source>
+        <source>Saudi Arabia</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="58"/>
-        <source>South Africa</source>
+        <source>Singapore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="59"/>
-        <source>South Korea</source>
+        <source>South Africa</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="60"/>
-        <source>Spain</source>
+        <source>South Korea</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="61"/>
+        <source>Spain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../regions.cpp" line="62"/>
         <source>Sweden</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="63"/>
+        <location filename="../regions.cpp" line="64"/>
         <source>Taiwan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="64"/>
+        <location filename="../regions.cpp" line="65"/>
         <source>United Arab Emirates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="65"/>
+        <location filename="../regions.cpp" line="66"/>
         <source>United States</source>
         <translation type="unfinished"></translation>
     </message>
