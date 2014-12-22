@@ -1132,7 +1132,7 @@ void YTDialog::loadConfig()
             qWarning("YTDialog::loadConfig: folder '%s' does not exist. Using /tmp as fallback", mdir.toUtf8().constData());
             mdir = "/tmp";
         }
-        QString default_recording_folder = mdir + "/Youtube";
+        QString default_recording_folder = mdir + QDir::separator() + "Youtube";
  #endif
         if (!QFile::exists(default_recording_folder)) {
             qDebug("YTDialog::loadConfig: creating '%s'", default_recording_folder.toUtf8().constData());
