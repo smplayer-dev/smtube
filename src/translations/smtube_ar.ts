@@ -772,156 +772,161 @@
     </message>
     <message>
         <location filename="../regions.cpp" line="34"/>
+        <source>Croatia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../regions.cpp" line="35"/>
         <source>Czech Republic</source>
         <translation>جمهورية الجيك</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="35"/>
+        <location filename="../regions.cpp" line="36"/>
         <source>Egypt</source>
         <translation>مصر</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="36"/>
+        <location filename="../regions.cpp" line="37"/>
         <source>France</source>
         <translation>فرنسا</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="37"/>
+        <location filename="../regions.cpp" line="38"/>
         <source>Germany</source>
         <translation>ألمانيا</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="38"/>
+        <location filename="../regions.cpp" line="39"/>
         <source>Great Britain</source>
         <translation>بريطانيا العظمى</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="39"/>
+        <location filename="../regions.cpp" line="40"/>
         <source>Hong Kong</source>
         <translation>هونغ كونغ</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="40"/>
+        <location filename="../regions.cpp" line="41"/>
         <source>Hungary</source>
         <translation>هنغاريا</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="41"/>
+        <location filename="../regions.cpp" line="42"/>
         <source>India</source>
         <translation>الهند</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="42"/>
+        <location filename="../regions.cpp" line="43"/>
         <source>Ireland</source>
         <translation>ايرلندا</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="43"/>
+        <location filename="../regions.cpp" line="44"/>
         <source>Israel</source>
         <translation>اسرائيل</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="44"/>
+        <location filename="../regions.cpp" line="45"/>
         <source>Italy</source>
         <translation>ايطاليا</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="45"/>
+        <location filename="../regions.cpp" line="46"/>
         <source>Japan</source>
         <translation>اليابان</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="46"/>
+        <location filename="../regions.cpp" line="47"/>
         <source>Jordan</source>
         <translation>الأردن</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="47"/>
+        <location filename="../regions.cpp" line="48"/>
         <source>Malaysia</source>
         <translation>ماليزيا</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="48"/>
+        <location filename="../regions.cpp" line="49"/>
         <source>Mexico</source>
         <translation>المكسيك</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="49"/>
+        <location filename="../regions.cpp" line="50"/>
         <source>Morocco</source>
         <translation>المغرب</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="50"/>
+        <location filename="../regions.cpp" line="51"/>
         <source>Netherlands</source>
         <translation>هولندا</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="51"/>
+        <location filename="../regions.cpp" line="52"/>
         <source>New Zealand</source>
         <translation>نيوزلندا</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="52"/>
+        <location filename="../regions.cpp" line="53"/>
         <source>Peru</source>
         <translation>بيرو</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="53"/>
+        <location filename="../regions.cpp" line="54"/>
         <source>Philippines</source>
         <translation>الفلبين</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="54"/>
+        <location filename="../regions.cpp" line="55"/>
         <source>Poland</source>
         <translation>بولندا</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="55"/>
+        <location filename="../regions.cpp" line="56"/>
         <source>Russia</source>
         <translation>روسيا</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="56"/>
+        <location filename="../regions.cpp" line="57"/>
         <source>Saudi Arabia</source>
         <translation>المملكة العربية السعودية </translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="57"/>
+        <location filename="../regions.cpp" line="58"/>
         <source>Singapore</source>
         <translation>سنغافورة</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="58"/>
+        <location filename="../regions.cpp" line="59"/>
         <source>South Africa</source>
         <translation>جنوب أفريقيا</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="59"/>
+        <location filename="../regions.cpp" line="60"/>
         <source>South Korea</source>
         <translation>كوريا الجنوبية</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="60"/>
+        <location filename="../regions.cpp" line="61"/>
         <source>Spain</source>
         <translation>اسبانيا</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="61"/>
+        <location filename="../regions.cpp" line="62"/>
         <source>Sweden</source>
         <translation>السويد</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="63"/>
+        <location filename="../regions.cpp" line="64"/>
         <source>Taiwan</source>
         <translation>تايوان</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="64"/>
+        <location filename="../regions.cpp" line="65"/>
         <source>United Arab Emirates</source>
         <translation>الإمارات العربية المتحدة</translation>
     </message>
     <message>
-        <location filename="../regions.cpp" line="65"/>
+        <location filename="../regions.cpp" line="66"/>
         <source>United States</source>
         <translation>الولايات المتحدة</translation>
     </message>
