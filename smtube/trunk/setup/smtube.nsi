@@ -51,8 +51,10 @@ ${!defineifexist} USE_MOREINFO MoreInfo.dll
 
 !ifdef WIN64
   !define SMTUBE_INST_ARCH "64-bit"
+  !define SMTUBE_PE_EXE "smtube-portable64.exe"
 !else
   !define SMTUBE_INST_ARCH "32-bit"
+  !define SMTUBE_PE_EXE "smtube-portable.exe"
 !endif
 
 ;--------------------------------
@@ -273,17 +275,10 @@ Section "SMTube (required)" SecSMTube
 
   SectionIn RO
 
-  ${If} $InstType_Is_Portable == 1
-    DetailPrint "Found portable version of SMPlayer."
-  ${EndIf}
-
   SetOutPath "$INSTDIR"
   ${If} $InstType_Is_Portable == 1
-!ifdef WIN64
-    File /oname=smtube.exe "portable\smtube-portable64.exe"
-!else
-    File /oname=smtube.exe "portable\smtube-portable.exe"
-!endif
+    DetailPrint "Found portable version of SMPlayer."
+    File /oname=smtube.exe "portable\${SMTUBE_PE_EXE}"
   ${Else}
     File "..\src\release\smtube.exe"
   ${EndIf}
