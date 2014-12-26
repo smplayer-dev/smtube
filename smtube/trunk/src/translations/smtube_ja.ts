@@ -768,7 +768,7 @@
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Croatia</source>
-        <translation type="unfinished"></translation>
+        <translation>クロアチア</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
