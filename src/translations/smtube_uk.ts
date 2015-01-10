@@ -248,7 +248,7 @@
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Арабська - Сирія</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="138"/>
@@ -303,7 +303,7 @@
     <message>
         <location filename="../about.cpp" line="148"/>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>Голландська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
@@ -333,12 +333,12 @@
     <message>
         <location filename="../about.cpp" line="154"/>
         <source>Thai</source>
-        <translation type="unfinished"></translation>
+        <translation>Тайська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation>Перська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
@@ -460,12 +460,12 @@
     <message>
         <location filename="../configdialog.ui" line="281"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ім&apos;я користувача:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="294"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>Па&amp;роль:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="311"/>
@@ -510,12 +510,12 @@
     <message>
         <location filename="../configdialog.cpp" line="71"/>
         <source>HTTP</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="72"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS5</translation>
     </message>
 </context>
 <context>
@@ -586,7 +586,7 @@
     <message>
         <location filename="../erroramiga.cpp" line="42"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>Гаразд</translation>
     </message>
 </context>
 <context>
@@ -770,7 +770,7 @@
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Croatia</source>
-        <translation type="unfinished"></translation>
+        <translation>Хорватія</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
@@ -961,7 +961,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="301"/>
         <source>Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Уведіть URL</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="506"/>
@@ -1011,7 +1011,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="967"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Не вдалося встановити з&apos;єднання</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="968"/>
@@ -1031,7 +1031,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="971"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>це посилання</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="982"/>

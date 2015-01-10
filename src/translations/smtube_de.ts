@@ -425,7 +425,7 @@
     <message>
         <location filename="../configdialog.ui" line="167"/>
         <source>Standard Feeds</source>
-        <translation>Standard-Feeds</translation>
+        <translation>Standarddaten</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="173"/>
@@ -435,7 +435,7 @@
     <message>
         <location filename="../configdialog.ui" line="199"/>
         <source>Period of &amp;time:</source>
-        <translation>Zei&amp;traum:</translation>
+        <translation>&amp;Zeitraum:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="229"/>

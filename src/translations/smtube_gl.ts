@@ -228,12 +228,12 @@
     <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
-        <translation type="unfinished"></translation>
+        <translation>ESTA É UNHA VERSIÓN REDUCIDA</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Visit our web to get the full version:</source>
-        <translation type="unfinished"></translation>
+        <translation>Visita o noso web para obter a versión completa:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
@@ -248,7 +248,7 @@
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Árabe - Siria</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="138"/>
@@ -313,12 +313,12 @@
     <message>
         <location filename="../about.cpp" line="150"/>
         <source>Khmer</source>
-        <translation>Camboiano</translation>
+        <translation>Cambodjano</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="151"/>
         <source>Telugu</source>
-        <translation>Telugu</translation>
+        <translation>Telugú</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="152"/>
@@ -328,17 +328,17 @@
     <message>
         <location filename="../about.cpp" line="153"/>
         <source>Malayalam</source>
-        <translation>Malaio</translation>
+        <translation>Malaialam</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="154"/>
         <source>Thai</source>
-        <translation type="unfinished"></translation>
+        <translation>Tailandés</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation>Persa</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
@@ -405,7 +405,7 @@
     <message>
         <location filename="../configdialog.ui" line="24"/>
         <source>&amp;General</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Xeral</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="30"/>
@@ -440,37 +440,37 @@
     <message>
         <location filename="../configdialog.ui" line="229"/>
         <source>&amp;Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Proxy</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="235"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Activar o proxy</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="248"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Servidor</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="261"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Porto:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="281"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nome de usuario:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="294"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Contrasinal:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="311"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tipo:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="90"/>
@@ -510,12 +510,12 @@
     <message>
         <location filename="../configdialog.cpp" line="71"/>
         <source>HTTP</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="72"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS5</translation>
     </message>
 </context>
 <context>
@@ -586,7 +586,7 @@
     <message>
         <location filename="../erroramiga.cpp" line="42"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>Aceptar</translation>
     </message>
 </context>
 <context>
@@ -769,7 +769,7 @@
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Croatia</source>
-        <translation type="unfinished"></translation>
+        <translation>Croacia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
@@ -1005,32 +1005,32 @@
     <message>
         <location filename="../ytdialog.cpp" line="849"/>
         <source>Enter a URL</source>
-        <translation>Introduza un URL</translation>
+        <translation>Introducir URL</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="967"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Fallou a conexión</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="968"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>O video solicitado precisa abrir unha conexión HTTPS.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="969"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mais o compoñente openssl, que se precisa para a abrir, non está instalado no seu sistema.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="970"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Accede a %1 para coñecer como resolver isto.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="971"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>esta ligazón</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="982"/>

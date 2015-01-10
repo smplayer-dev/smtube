@@ -113,7 +113,7 @@
     <message>
         <location filename="../about.cpp" line="132"/>
         <source>Norwegian Nynorsk</source>
-        <translation>Norwegian Nynorsk</translation>
+        <translation>Norsk Nynorsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="108"/>
@@ -123,7 +123,7 @@
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
-        <translation>Mange personar har bidrege med ommsettingar.</translation>
+        <translation>Mange personar har bidrege med omsettingar.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
@@ -133,7 +133,7 @@
     <message>
         <location filename="../about.cpp" line="101"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>Gå til %1 og meld deg inn i ei omsetjingsgruppe.</translation>
+        <translation>Gå til %1 og meld deg inn i ei omsettingsgruppe.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
@@ -233,7 +233,7 @@
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Visit our web to get the full version:</source>
-        <translation>Gå til nettsida vår for å få fullversjonen</translation>
+        <translation>Gå til nettsida vår for å få fullversjonen:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
@@ -366,7 +366,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>YouTube-koden er oppdatert.</translation>
+        <translation>YouTube-koden er vellukka oppdatert.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="127"/>
@@ -415,7 +415,7 @@
     <message>
         <location filename="../configdialog.ui" line="38"/>
         <source>&amp;Save to this folder</source>
-        <translation>&amp;Lagre i denne mappa</translation>
+        <translation>&amp;Lagra i denne mappa</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="55"/>
@@ -435,7 +435,7 @@
     <message>
         <location filename="../configdialog.ui" line="199"/>
         <source>Period of &amp;time:</source>
-        <translation>Tids &amp;periode:</translation>
+        <translation>Tids-&amp;periode:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="229"/>
@@ -470,7 +470,7 @@
     <message>
         <location filename="../configdialog.ui" line="311"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Type:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="90"/>
@@ -515,7 +515,7 @@
     <message>
         <location filename="../configdialog.cpp" line="72"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS5</translation>
     </message>
 </context>
 <context>
@@ -656,7 +656,7 @@
         <location filename="../recordingdialog.cpp" line="360"/>
         <location filename="../recordingdialog.cpp" line="781"/>
         <source>Recording failed</source>
-        <translation>Mislykka opptak</translation>
+        <translation>Mislukka opptak</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="416"/>
@@ -678,8 +678,8 @@
         <location filename="../recordingdialog.cpp" line="534"/>
         <source>%1% of %n video - Recordings</source>
         <translation>
-            <numerusform>%1% av %n videoopptak</numerusform>
-            <numerusform>%1% av %n video-opptak</numerusform>
+            <numerusform>%1% av %n videoinnspeling</numerusform>
+            <numerusform>%1% av %n videoinnspelingar</numerusform>
         </translation>
     </message>
     <message>
@@ -701,7 +701,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="638"/>
         <source>&amp;Retry</source>
-        <translation>&amp;Prøv igjen</translation>
+        <translation>&amp;Prøv omatt</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="660"/>
@@ -769,7 +769,7 @@
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Croatia</source>
-        <translation type="unfinished"></translation>
+        <translation>Kroatia</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
@@ -970,7 +970,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="510"/>
         <source>Most Recent</source>
-        <translation>Siste</translation>
+        <translation>Nylege</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="514"/>
@@ -995,12 +995,12 @@
     <message>
         <location filename="../ytdialog.cpp" line="776"/>
         <source>R&amp;ecord audio</source>
-        <translation>Ta&amp; opp lyd</translation>
+        <translation>S&amp;pel inn lyd</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
-        <translation>&amp;Legg ein URL i spelelista til SMPlayer.  </translation>
+        <translation>&amp;Legg til ein URL i SMPlayer.-spelelista  </translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="849"/>
@@ -1010,12 +1010,12 @@
     <message>
         <location filename="../ytdialog.cpp" line="967"/>
         <source>Connection failed</source>
-        <translation>Mislukka tilkopling</translation>
+        <translation>Tilkopling mislukkast</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="968"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation>Videoen du førspurde må opnast i ei HTTPS-tilkopling.</translation>
+        <translation>Førespurd video må opnast i ei HTTPS-tilkopling.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="969"/>
