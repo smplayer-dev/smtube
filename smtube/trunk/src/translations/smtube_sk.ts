@@ -490,22 +490,22 @@
     <message>
         <location filename="../configdialog.cpp" line="41"/>
         <source>All time</source>
-        <translation type="unfinished"></translation>
+        <translation>Za celý čas</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="42"/>
         <source>This month</source>
-        <translation type="unfinished"></translation>
+        <translation>Tento mesiac</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="43"/>
         <source>This week</source>
-        <translation type="unfinished"></translation>
+        <translation>Tento týždeň</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="44"/>
         <source>Today</source>
-        <translation type="unfinished"></translation>
+        <translation>Dnes</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="71"/>
@@ -691,13 +691,13 @@
     <message>
         <location filename="../recordingdialog.cpp" line="621"/>
         <source>&amp;Remove from list</source>
-        <translation type="unfinished"></translation>
+        <translation>Odst&amp;rániť zo zoznamu</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="642"/>
         <location filename="../recordingdialog.cpp" line="664"/>
         <source>Remove from &amp;list</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstrániť zo &amp;zoznamu</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="638"/>
@@ -712,7 +712,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="663"/>
         <source>&amp;Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vymazať</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="745"/>
@@ -961,7 +961,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="301"/>
         <source>Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadať URL adresu</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="506"/>
@@ -1006,7 +1006,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="849"/>
         <source>Enter a URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadať URL adresu</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="967"/>
@@ -1123,7 +1123,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="850"/>
         <source>Enter a Youtube URL to record</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadajte URL adresu videa na Youtube, pre nahratie</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="959"/>
