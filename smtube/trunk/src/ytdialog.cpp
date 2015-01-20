@@ -769,6 +769,9 @@ void YTDialog::videoDblClicked(QListWidgetItem *item)
 
 void YTDialog::showContextMenu(QPoint point)
 {
+    QListWidgetItem* item = videoList->itemAt(point);
+    if (!item) return;
+
     QMenu menu;
     menu.addAction(tr("&Play video"))->setData("play");
 #ifdef YT_DL
@@ -784,7 +787,6 @@ void YTDialog::showContextMenu(QPoint point)
     QAction* action = menu.exec(videoList->viewport()->mapToGlobal(point));
     if(!action) return;
 
-    QListWidgetItem* item = videoList->itemAt(point);
     if(action->data().toString() == "play")
     {
        videoDblClicked(item);
