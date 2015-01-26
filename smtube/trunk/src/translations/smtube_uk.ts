@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -228,12 +226,12 @@
     <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Visit our web to get the full version:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
@@ -405,7 +403,7 @@
     <message>
         <location filename="../configdialog.ui" line="24"/>
         <source>&amp;General</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Загальне</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="30"/>
@@ -440,22 +438,22 @@
     <message>
         <location filename="../configdialog.ui" line="229"/>
         <source>&amp;Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Проксі</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="235"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Увімкнути проксі</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="248"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Сервер:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="261"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>П&amp;орт:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="281"/>
@@ -470,7 +468,7 @@
     <message>
         <location filename="../configdialog.ui" line="311"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Тип:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="90"/>
@@ -677,11 +675,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="534"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% з %n відео - Запис</numerusform>
-            <numerusform>%1% з %n відео - Записи</numerusform>
-            <numerusform>%1% з %n відео - Запису</numerusform>
-        </translation>
+        <translation><numerusform>%1% з %n відео - Запис</numerusform><numerusform>%1% з %n відео - Записи</numerusform><numerusform>%1% з %n відео - Запису</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="619"/>
@@ -1006,7 +1000,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="849"/>
         <source>Enter a URL</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="967"/>
@@ -1016,17 +1010,17 @@
     <message>
         <location filename="../ytdialog.cpp" line="968"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="969"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="970"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="971"/>
@@ -1123,7 +1117,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="850"/>
         <source>Enter a Youtube URL to record</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="959"/>
