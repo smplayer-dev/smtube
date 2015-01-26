@@ -1,3 +1,9 @@
+Version 15.1.26:
+
+(2015-01-16)
+ * Fix a crash when showing the context menu in an empty space.
+
+
 Version 15.1:
 
 (2015-01-16)
