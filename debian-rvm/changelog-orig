@@ -1,3 +1,9 @@
+smtube (15.1.26) precise; urgency=low
+
+  * Fix a crash when showing the context menu in an empty space.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 26 Jan 2015 22:55:49 +0100
+
 smtube (15.1.0) precise; urgency=low
 
   * Fix for VEVO videos.
