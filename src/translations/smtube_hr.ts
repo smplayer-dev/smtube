@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -123,7 +121,7 @@
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
-        <translation>Mnogo ljudi je doprinjelo sa prijevodima.</translation>
+        <translation>Mnogo ljudi je doprinjelo s prijevodima.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
@@ -138,7 +136,7 @@
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>Trenutni prevoditelji sa transifex timova:</translation>
+        <translation>Trenutni prevoditelji s transifex timova:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="110"/>
@@ -677,11 +675,7 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="534"/>
         <source>%1% of %n video - Recordings</source>
-        <translation>
-            <numerusform>%1% od %n video snimke - Snimanja</numerusform>
-            <numerusform>%1% od %n video snimke - Snimanja</numerusform>
-            <numerusform>%1% od %n video snimaka - Snimanja</numerusform>
-        </translation>
+        <translation><numerusform>%1% od %n video snimke - Snimanja</numerusform><numerusform>%1% od %n video snimke - Snimanja</numerusform><numerusform>%1% od %n video snimaka - Snimanja</numerusform></translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="619"/>
@@ -691,13 +685,13 @@
     <message>
         <location filename="../recordingdialog.cpp" line="621"/>
         <source>&amp;Remove from list</source>
-        <translation>&amp;Ukloni sa popisa</translation>
+        <translation>&amp;Ukloni s popisa</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="642"/>
         <location filename="../recordingdialog.cpp" line="664"/>
         <source>Remove from &amp;list</source>
-        <translation>Ukloni sa &amp;popisa</translation>
+        <translation>Ukloni s &amp;popisa</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="638"/>
@@ -727,7 +721,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="764"/>
         <source>The file does not exists, would you like to remove it from the list?</source>
-        <translation>Datoteka ne postoji, želite li ju ukloniti sa popisa?</translation>
+        <translation>Datoteka ne postoji, želite li ju ukloniti s popisa?</translation>
     </message>
 </context>
 <context>
@@ -1037,7 +1031,7 @@
         <location filename="../ytdialog.cpp" line="982"/>
         <location filename="../ytdialog.cpp" line="993"/>
         <source>Problems with Youtube</source>
-        <translation>Problemi sa Youtubom</translation>
+        <translation>Problemi s Youtubom</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="984"/>
