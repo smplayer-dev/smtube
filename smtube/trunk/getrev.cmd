@@ -2,41 +2,51 @@
 
 :: Some SVN clients can use localized messages (e.g. SlikSVN), force English
 set LC_ALL=C
-set SVN_REV=
+set svn_revision=
+set use_svn_versions=
+set version_cpp=
 
-for /f "tokens=2" %%i in ('svn info ^| find "Revision:"') do set SVN_REV=%%i
+for /f "tokens=2" %%i in ('svn info ^| find /I "Revision:"') do set svn_revision=%%i
 
-:: Set to UNKNOWN if no svn or working copy
-if "%SVN_REV%"=="" (
-  set SVN_REV=UNKNOWN
+if "%svn_revision%"=="" (
+  set svn_revision=UNKNOWN
   echo Unknown SVN revision. SVN missing in PATH or not a working copy.
 ) else (
-  echo SVN Revision: %SVN_REV%
+  echo SVN Revision: %svn_revision%
 )
 echo.
 
-echo #define SVN_REVISION "%SVN_REV%">src\svn_revision.h
+echo #define SVN_REVISION "%svn_revision%">src\svn_revision.h
 
-:::: Extract version for pkg_version
-:: Get value of #define USE_SVN_VERSIONS
-for /f "tokens=3" %%j in ('type src\version.cpp ^| find "USE_SVN_VERSIONS"') do set use_svn_revision=%%j
-
-:: Get version from version.cpp
-for /f "tokens=3" %%k in ('type src\version.cpp ^| find "#define VERSION"') do set CPP_VERSION=%%k
+:: Get values of USE_SVN_VERSIONS & VERSION
+for /f "tokens=3" %%j in ('type src\version.cpp ^| find /I "USE_SVN_VERSIONS"') do set use_svn_versions=%%j
+for /f "tokens=3" %%k in ('type src\version.cpp ^| find /I "#define VERSION"') do set version_cpp=%%k
 
 :: Remove quotes
-SET CPP_VERSION=###%CPP_VERSION%###
-SET CPP_VERSION=%CPP_VERSION:"###=%
-SET CPP_VERSION=%CPP_VERSION:###"=%
-SET CPP_VERSION=%CPP_VERSION:###=%
+setlocal enableDelayedExpansion
+for /f "delims=" %%A in ("!use_svn_versions!") do endlocal & set "use_svn_versions=%%~A"
+setlocal enableDelayedExpansion
+for /f "delims=" %%A in ("!version_cpp!") do endlocal & set "version_cpp=%%~A"
 
-for /f "tokens=2" %%k in ('svn info ^| find "Revision:"') do set SVN_REV=%%k
-
-if [%use_svn_revision%]==[1] (
-  echo %CPP_VERSION%.%SVN_REV%>setup\scripts\pkg_version
-) else (
-  echo %CPP_VERSION%>setup\scripts\pkg_version
+:: Verify svn revision & version are actually numbers and version has at least ver_major.ver_minor.ver_build
+if defined use_svn_versions (
+  echo %svn_revision%|findstr /r /c:"^[0-9][0-9]*$" >nul
+  if errorlevel 1 (set use_svn_versions=)
 )
-:::: 
 
-set SVN_REV=
+if defined version_cpp (
+  echo %version_cpp%|findstr /r /c:"^[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*$" >nul
+  if errorlevel 1 (set version_cpp=)
+)
+
+if defined version_cpp (
+  if [%use_svn_versions%]==[1] (
+    echo %version_cpp%.%svn_revision%>setup\scripts\pkg_version
+  ) else (
+    echo %version_cpp%>setup\scripts\pkg_version
+  )
+)
+
+set svn_revision=
+set use_svn_versions=
+set version_cpp=
