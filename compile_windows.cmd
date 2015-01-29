@@ -114,9 +114,9 @@ if not ERRORLEVEL 1 (
   if [%runnsiscmd%]==[yes] (
     mkdir "%SMTUBE_DIR%\setup\output"
     if [%X86_64%]==[yes] (
-      call "%SMTUBE_DIR%\setup\scripts\make_pkgs.cmd" -2
+      call "%SMTUBE_DIR%\setup\scripts\make_pkgs.cmd" 2
     ) else (
-      call "%SMTUBE_DIR%\setup\scripts\make_pkgs.cmd" -1
+      call "%SMTUBE_DIR%\setup\scripts\make_pkgs.cmd" 1
     )
   )
 )
