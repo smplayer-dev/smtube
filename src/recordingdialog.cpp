@@ -160,7 +160,7 @@ void RecordingDelegate::paint(QPainter *painter, const QStyleOptionViewItem &opt
         }
         else
         {
-            sizeString += tr("%1 bytes").arg(size);
+            sizeString += tr("%n bytes", 0, size);
         }
         sizeString += " ";
         painter->drawText(QRect(headerTextRect.left(), headerTextRect.bottom() + 5, rect.width(), rect.height()),
