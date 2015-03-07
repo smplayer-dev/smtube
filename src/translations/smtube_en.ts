@@ -523,79 +523,79 @@
     <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
-        <translation type="unfinished"></translation>
+        <translation>unknown time remaining</translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="121"/>
         <source>%n hours</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n hour</numerusform>
+            <numerusform>%n hours</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="128"/>
         <source>%n minutes</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minute</numerusform>
+            <numerusform>%n minutes</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="132"/>
         <source>%n seconds</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n second</numerusform>
+            <numerusform>%n seconds</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="134"/>
         <source>%n seconds remaining</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n second remaining</numerusform>
+            <numerusform>%n seconds remaining</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="136"/>
         <source>%1 remaining</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 remaining</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="143"/>
         <source>%1 of %2 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 of %2 M</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="149"/>
         <source>%1 of %2 KB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 of %2 KB</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="155"/>
         <source>%1 of %2 bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 of %2 byte</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="159"/>
         <source>%1 of unknown size</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 of unknown size</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="164"/>
         <source>%1 MB/sec</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 MB/sec</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="168"/>
         <source>%1 KB/sec</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 KB/sec</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="172"/>
         <source>%1 bytes/sec</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 bytes/sec</translation>
     </message>
 </context>
 <context>
@@ -619,29 +619,29 @@
     <message>
         <location filename="../recordingdialog.cpp" line="125"/>
         <source>Canceled</source>
-        <translation type="unfinished"></translation>
+        <translation>Canceled</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="125"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Error</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="155"/>
         <source>%1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 MB</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="159"/>
         <source>%1 KB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 KB</translation>
     </message>
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="163"/>
         <source>%n bytes</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n byte</numerusform>
+            <numerusform>%n bytes</numerusform>
         </translation>
     </message>
 </context>
