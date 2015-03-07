@@ -33,7 +33,7 @@
     <message>
         <location filename="../about.cpp" line="33"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation>متصفح YouTube%1 للمشغل SMPlayer</translation>
+        <translation>مستعرِض YouTube%1 للمشغل SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="35"/>
@@ -228,12 +228,12 @@
     <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
-        <translation type="unfinished"></translation>
+        <translation>هذا إصدار مقنَّن</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Visit our web to get the full version:</source>
-        <translation type="unfinished"></translation>
+        <translation>زُر موقعنا للحصول على الإصدار الكامل:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
@@ -248,7 +248,7 @@
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>العربية - سوريا</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="138"/>
@@ -303,42 +303,42 @@
     <message>
         <location filename="../about.cpp" line="148"/>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>الهولندية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation>الرومانية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="150"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>الخميرية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="151"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation>التيلوغية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="152"/>
         <source>Tamil</source>
-        <translation type="unfinished"></translation>
+        <translation>التاميلية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="153"/>
         <source>Malayalam</source>
-        <translation type="unfinished"></translation>
+        <translation>الملايلامية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="154"/>
         <source>Thai</source>
-        <translation type="unfinished"></translation>
+        <translation>التايلندية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation>الفارسية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
@@ -405,12 +405,12 @@
     <message>
         <location filename="../configdialog.ui" line="24"/>
         <source>&amp;General</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;عام</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="30"/>
         <source>Recording</source>
-        <translation>يجري التسجيل</translation>
+        <translation>التسجيل</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="38"/>
@@ -425,7 +425,7 @@
     <message>
         <location filename="../configdialog.ui" line="167"/>
         <source>Standard Feeds</source>
-        <translation>التغذية القياسية</translation>
+        <translation>الموجزات القياسية</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="173"/>
@@ -440,42 +440,42 @@
     <message>
         <location filename="../configdialog.ui" line="229"/>
         <source>&amp;Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;خادوم الوسيط</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="235"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;مكّن الخادوم الوسيط</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="248"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>الم&amp;ستضيف:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="261"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>الم&amp;نفذ:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="281"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;اسم المستخدِم:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="294"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>ك&amp;لمة المرور:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="311"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>النو&amp;ع:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="90"/>
         <source>Playback</source>
-        <translation>تشغيل</translation>
+        <translation>التشغيل</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="98"/>
@@ -510,73 +510,125 @@
     <message>
         <location filename="../configdialog.cpp" line="71"/>
         <source>HTTP</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="72"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS5</translation>
     </message>
 </context>
 <context>
     <name>DownloadFile</name>
-    <message>
-        <location filename="../downloadfile.cpp" line="117"/>
+    <message numerus="yes">
         <source>%1 hours</source>
-        <translation>%1 ساعة</translation>
+        <translation type="obsolete">
+            <numerusform>%1 ساعة</numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="123"/>
         <source>%1 minutes</source>
-        <translation>%1 دقيقة</translation>
+        <translation type="obsolete">%1 دقيقة</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
         <translation>الوقت المتبقي غير معلوم</translation>
     </message>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="121"/>
+        <source>%n hours</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
     <message>
-        <location filename="../downloadfile.cpp" line="126"/>
         <source>%1 seconds</source>
-        <translation>%1 ثانية</translation>
+        <translation type="obsolete">%1 ثانية</translation>
     </message>
-    <message>
-        <location filename="../downloadfile.cpp" line="127"/>
-        <source>%1 remaining</source>
-        <translation>%1 متبقي</translation>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="128"/>
+        <source>%n minutes</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../downloadfile.cpp" line="132"/>
+        <source>%n seconds</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="134"/>
+        <source>%n seconds remaining</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../downloadfile.cpp" line="136"/>
+        <source>%1 remaining</source>
+        <translation type="unfinished">%1 متبقي</translation>
+    </message>
+    <message>
+        <location filename="../downloadfile.cpp" line="143"/>
         <source>%1 of %2 MB</source>
         <translation>%1 من %2 ميغا بايت</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="138"/>
+        <location filename="../downloadfile.cpp" line="149"/>
         <source>%1 of %2 KB</source>
         <translation>%1 من %2 كيلوبايت</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="144"/>
+        <location filename="../downloadfile.cpp" line="155"/>
         <source>%1 of %2 bytes</source>
         <translation>%1 من %2 بايت</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="148"/>
+        <location filename="../downloadfile.cpp" line="159"/>
         <source>%1 of unknown size</source>
         <translation>%1 من حجم غير معلوم</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="153"/>
+        <location filename="../downloadfile.cpp" line="164"/>
         <source>%1 MB/sec</source>
         <translation>%1 م ب/ثا</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="157"/>
+        <location filename="../downloadfile.cpp" line="168"/>
         <source>%1 KB/sec</source>
         <translation>%1 ك ب/ثا</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="161"/>
+        <location filename="../downloadfile.cpp" line="172"/>
         <source>%1 bytes/sec</source>
         <translation>%1 بايت/ثا</translation>
     </message>
@@ -586,7 +638,7 @@
     <message>
         <location filename="../erroramiga.cpp" line="42"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>حسناً</translation>
     </message>
 </context>
 <context>
@@ -619,10 +671,21 @@
         <source>%1 KB</source>
         <translation>%1 ك ب</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="163"/>
+        <source>%n bytes</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
         <source>%1 bytes</source>
-        <translation>%1 بايت</translation>
+        <translation type="obsolete">%1 بايت</translation>
     </message>
 </context>
 <context>
@@ -662,7 +725,7 @@
         <location filename="../recordingdialog.cpp" line="416"/>
         <location filename="../recordingdialog.cpp" line="799"/>
         <source>Starting</source>
-        <translation>يجري البدأ</translation>
+        <translation>البدأ</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="451"/>
@@ -773,7 +836,7 @@
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Croatia</source>
-        <translation type="unfinished"></translation>
+        <translation>الكرواتية</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
@@ -944,7 +1007,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="232"/>
         <source>YouTube Browser - SMPlayer</source>
-        <translation>متصفح يوتيوب - المشغل SMPlayer</translation>
+        <translation>مستعرِض يوتيوب - المشغل SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="282"/>
@@ -964,7 +1027,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="301"/>
         <source>Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>ادخال رابط</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="506"/>
@@ -997,64 +1060,64 @@
         <translation>خطأ: لا يمكن الاتصال بخادوم يوتيوب Youtube .</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="776"/>
+        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
         <translation>ت&amp;سجيل الصوت</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="781"/>
+        <location filename="../ytdialog.cpp" line="784"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>أضف ال&amp;رابط الى قائمة تشغيل SMPlayer</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="849"/>
+        <location filename="../ytdialog.cpp" line="851"/>
         <source>Enter a URL</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="967"/>
-        <source>Connection failed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="968"/>
-        <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>ادخل رابطاً</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="969"/>
-        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <source>Connection failed</source>
+        <translation>فشل الإتصال</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="970"/>
-        <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <source>The video you requested needs to open a HTTPS connection.</source>
+        <translation>الفيديو الذي طلبته يحتاج الى فتح اتصال HTTPS.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="971"/>
-        <source>this link</source>
-        <translation type="unfinished"></translation>
+        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
+        <translation>للأسف المكون openssl، و الضروري لهذا، غير متوفر في نظامك.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="982"/>
-        <location filename="../ytdialog.cpp" line="993"/>
+        <location filename="../ytdialog.cpp" line="972"/>
+        <source>Please, visit %1 to know how to fix this problem.</source>
+        <translation>لطفاً زُر %1 لمعرفة كيفية إصلاح هذه المشكلة.</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="973"/>
+        <source>this link</source>
+        <translation>هذا الرابط</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="984"/>
+        <location filename="../ytdialog.cpp" line="995"/>
         <source>Problems with Youtube</source>
         <translation>مشكلات في YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="984"/>
+        <location filename="../ytdialog.cpp" line="986"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>أتريد تحديث النص البرمجي لـليوتيوب YouTube؟ لعل هذا يحلّ المشكلة.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="983"/>
-        <location filename="../ytdialog.cpp" line="994"/>
+        <location filename="../ytdialog.cpp" line="985"/>
+        <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>نأسف، نظرا لتغييرات في يوتيوب Youtube، لا يمكن تشغيل الفيديو &apos;%1&apos; أو تسجيله.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="995"/>
+        <location filename="../ytdialog.cpp" line="997"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>تحديث هذا التطبيق قد يحل المشكلة.</translation>
     </message>
@@ -1094,22 +1157,22 @@
         <translation>لم يُعثَر على فيديوات لـ &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="773"/>
+        <location filename="../ytdialog.cpp" line="776"/>
         <source>&amp;Play video</source>
         <translation>تش&amp;غيل الفيديو</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="775"/>
+        <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>تس&amp;جيل الفيديو</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="778"/>
+        <location filename="../ytdialog.cpp" line="781"/>
         <source>&amp;Watch on YouTube</source>
         <translation>م&amp;شاهدة على YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
+        <location filename="../ytdialog.cpp" line="782"/>
         <source>&amp;Copy link</source>
         <translation>ن&amp;سخ الرابط</translation>
     </message>
@@ -1124,13 +1187,13 @@
         <translation>السابق</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="850"/>
+        <location filename="../ytdialog.cpp" line="852"/>
         <source>Enter a Youtube URL to record</source>
-        <translation type="unfinished"></translation>
+        <translation>أدخل رابط يوتيوب Youtube للتسجيل</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="959"/>
         <location filename="../ytdialog.cpp" line="961"/>
+        <location filename="../ytdialog.cpp" line="963"/>
         <source>Error</source>
         <translation>خطأ</translation>
     </message>

@@ -520,63 +520,90 @@
 </context>
 <context>
     <name>DownloadFile</name>
-    <message>
-        <location filename="../downloadfile.cpp" line="117"/>
+    <message numerus="yes">
         <source>%1 hours</source>
-        <translation>%1 小時</translation>
+        <translation type="obsolete">
+            <numerusform>%1 小時</numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="123"/>
         <source>%1 minutes</source>
-        <translation>%1 分</translation>
+        <translation type="obsolete">%1 分</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
         <translation>剩餘時間未知</translation>
     </message>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="121"/>
+        <source>%n hours</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
     <message>
-        <location filename="../downloadfile.cpp" line="126"/>
         <source>%1 seconds</source>
-        <translation>%1 秒</translation>
+        <translation type="obsolete">%1 秒</translation>
     </message>
-    <message>
-        <location filename="../downloadfile.cpp" line="127"/>
-        <source>%1 remaining</source>
-        <translation>剩下 %1</translation>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="128"/>
+        <source>%n minutes</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../downloadfile.cpp" line="132"/>
+        <source>%n seconds</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="134"/>
+        <source>%n seconds remaining</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../downloadfile.cpp" line="136"/>
+        <source>%1 remaining</source>
+        <translation type="unfinished">剩下 %1</translation>
+    </message>
+    <message>
+        <location filename="../downloadfile.cpp" line="143"/>
         <source>%1 of %2 MB</source>
         <translation>%1 / %2 MB</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="138"/>
+        <location filename="../downloadfile.cpp" line="149"/>
         <source>%1 of %2 KB</source>
         <translation>%1 / %2 KB</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="144"/>
+        <location filename="../downloadfile.cpp" line="155"/>
         <source>%1 of %2 bytes</source>
         <translation>%1 / %2 bytes</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="148"/>
+        <location filename="../downloadfile.cpp" line="159"/>
         <source>%1 of unknown size</source>
         <translation>%1 / 未知大小</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="153"/>
+        <location filename="../downloadfile.cpp" line="164"/>
         <source>%1 MB/sec</source>
         <translation>%1 MB/秒</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="157"/>
+        <location filename="../downloadfile.cpp" line="168"/>
         <source>%1 KB/sec</source>
         <translation>%1 KB/秒</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="161"/>
+        <location filename="../downloadfile.cpp" line="172"/>
         <source>%1 bytes/sec</source>
         <translation>%1 bytes/秒</translation>
     </message>
@@ -619,10 +646,16 @@
         <source>%1 KB</source>
         <translation>%1 KB</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="163"/>
+        <source>%n bytes</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
         <source>%1 bytes</source>
-        <translation>%1 bytes</translation>
+        <translation type="obsolete">%1 bytes</translation>
     </message>
 </context>
 <context>
@@ -992,64 +1025,64 @@
         <translation>錯誤：無法連接到 Youtube 伺服器。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="776"/>
+        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
         <translation>錄製聲音(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="781"/>
+        <location filename="../ytdialog.cpp" line="784"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>加入網址到 SMPlayer 播放清單(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="849"/>
+        <location filename="../ytdialog.cpp" line="851"/>
         <source>Enter a URL</source>
         <translation>輸入網址</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="967"/>
+        <location filename="../ytdialog.cpp" line="969"/>
         <source>Connection failed</source>
         <translation>連接失敗</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="968"/>
+        <location filename="../ytdialog.cpp" line="970"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>您要求的影片需要開啟一個 HTTPS 連接。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="969"/>
+        <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
         <translation>不幸的是，需要 OpenSSL 組件，而在您的系統中卻沒有可用的。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="970"/>
+        <location filename="../ytdialog.cpp" line="972"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>請參觀 %1 以瞭解如何修正這個問題。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="971"/>
+        <location filename="../ytdialog.cpp" line="973"/>
         <source>this link</source>
         <translation>這個連結</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="982"/>
-        <location filename="../ytdialog.cpp" line="993"/>
+        <location filename="../ytdialog.cpp" line="984"/>
+        <location filename="../ytdialog.cpp" line="995"/>
         <source>Problems with Youtube</source>
         <translation>與 YouTube 的問題</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="984"/>
+        <location filename="../ytdialog.cpp" line="986"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>您想要更新 YouTube 的程式碼嗎？這可能會解決這個問題。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="983"/>
-        <location filename="../ytdialog.cpp" line="994"/>
+        <location filename="../ytdialog.cpp" line="985"/>
+        <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>不幸的是，由於 Youtube 本身的改變，影片 &apos;%1&apos; 不能播放或錄製。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="995"/>
+        <location filename="../ytdialog.cpp" line="997"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>也許更新應用程式可以解決這個問題。</translation>
     </message>
@@ -1089,22 +1122,22 @@
         <translation>沒有找到影片 &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="773"/>
+        <location filename="../ytdialog.cpp" line="776"/>
         <source>&amp;Play video</source>
         <translation>播放影片(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="775"/>
+        <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>錄製影片(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="778"/>
+        <location filename="../ytdialog.cpp" line="781"/>
         <source>&amp;Watch on YouTube</source>
         <translation>在 YouTube 上觀看(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
+        <location filename="../ytdialog.cpp" line="782"/>
         <source>&amp;Copy link</source>
         <translation>複製連結(&amp;C)</translation>
     </message>
@@ -1119,13 +1152,13 @@
         <translation>上一頁</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="850"/>
+        <location filename="../ytdialog.cpp" line="852"/>
         <source>Enter a Youtube URL to record</source>
         <translation>輸入要錄製的網址</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="959"/>
         <location filename="../ytdialog.cpp" line="961"/>
+        <location filename="../ytdialog.cpp" line="963"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>

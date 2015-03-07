@@ -520,63 +520,95 @@
 </context>
 <context>
     <name>DownloadFile</name>
-    <message>
-        <location filename="../downloadfile.cpp" line="117"/>
+    <message numerus="yes">
         <source>%1 hours</source>
-        <translation>%1 timmar</translation>
+        <translation type="obsolete">
+            <numerusform>%1 timmar</numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="123"/>
         <source>%1 minutes</source>
-        <translation>%1 minuter</translation>
+        <translation type="obsolete">%1 minuter</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
         <translation>okänd tid kvar</translation>
     </message>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="121"/>
+        <source>%n hours</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
     <message>
-        <location filename="../downloadfile.cpp" line="126"/>
         <source>%1 seconds</source>
-        <translation>%1 sekunder</translation>
+        <translation type="obsolete">%1 sekunder</translation>
     </message>
-    <message>
-        <location filename="../downloadfile.cpp" line="127"/>
-        <source>%1 remaining</source>
-        <translation>%1 kvar</translation>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="128"/>
+        <source>%n minutes</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../downloadfile.cpp" line="132"/>
+        <source>%n seconds</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="134"/>
+        <source>%n seconds remaining</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../downloadfile.cpp" line="136"/>
+        <source>%1 remaining</source>
+        <translation type="unfinished">%1 kvar</translation>
+    </message>
+    <message>
+        <location filename="../downloadfile.cpp" line="143"/>
         <source>%1 of %2 MB</source>
         <translation>%1 av %2 MB</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="138"/>
+        <location filename="../downloadfile.cpp" line="149"/>
         <source>%1 of %2 KB</source>
         <translation>%1 av %2 KB</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="144"/>
+        <location filename="../downloadfile.cpp" line="155"/>
         <source>%1 of %2 bytes</source>
         <translation>%1 av %2 bytes</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="148"/>
+        <location filename="../downloadfile.cpp" line="159"/>
         <source>%1 of unknown size</source>
         <translation>%1 av okänd storlek</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="153"/>
+        <location filename="../downloadfile.cpp" line="164"/>
         <source>%1 MB/sec</source>
         <translation>%1 MB/sek</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="157"/>
+        <location filename="../downloadfile.cpp" line="168"/>
         <source>%1 KB/sec</source>
         <translation>%1 KB/sek</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="161"/>
+        <location filename="../downloadfile.cpp" line="172"/>
         <source>%1 bytes/sec</source>
         <translation>%1 bytes/sek</translation>
     </message>
@@ -619,10 +651,17 @@
         <source>%1 KB</source>
         <translation>%1 KB</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="163"/>
+        <source>%n bytes</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
         <source>%1 bytes</source>
-        <translation>%1 bytes</translation>
+        <translation type="obsolete">%1 bytes</translation>
     </message>
 </context>
 <context>
@@ -993,64 +1032,64 @@
         <translation>Fel: Kunde inte ansluta till Youtube server.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="776"/>
+        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
         <translation>S&amp;pela in ljud</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="781"/>
+        <location filename="../ytdialog.cpp" line="784"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>&amp;Lägg till URL i SMPlayers spellista</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="849"/>
+        <location filename="../ytdialog.cpp" line="851"/>
         <source>Enter a URL</source>
         <translation>Ange en URL</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="967"/>
+        <location filename="../ytdialog.cpp" line="969"/>
         <source>Connection failed</source>
         <translation>Uppkoppling bröts</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="968"/>
+        <location filename="../ytdialog.cpp" line="970"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Videon du frågade efter behöver öppna en HTTPS uppkoppling.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="969"/>
+        <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
         <translation>Tyvärr saknades openssl komponenten som krävdes, den finns inte tillgänglig på ditt system.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="970"/>
+        <location filename="../ytdialog.cpp" line="972"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>Var god, besök %1 för att få veta hur du löser problemet.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="971"/>
+        <location filename="../ytdialog.cpp" line="973"/>
         <source>this link</source>
         <translation>denna länk</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="982"/>
-        <location filename="../ytdialog.cpp" line="993"/>
+        <location filename="../ytdialog.cpp" line="984"/>
+        <location filename="../ytdialog.cpp" line="995"/>
         <source>Problems with Youtube</source>
         <translation>Problem med Youtube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="984"/>
+        <location filename="../ytdialog.cpp" line="986"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Vill du uppdatera Youtube koden? Detta kan lösa problemet.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="983"/>
-        <location filename="../ytdialog.cpp" line="994"/>
+        <location filename="../ytdialog.cpp" line="985"/>
+        <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>På grund av ändringar i Youtube, kan videon &apos;%1&apos; inte spelas eller spelas in.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="995"/>
+        <location filename="../ytdialog.cpp" line="997"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>En uppdatering av programmet kanske kan lösa problemet.</translation>
     </message>
@@ -1090,22 +1129,22 @@
         <translation>Inga videoklipp hittades för  &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="773"/>
+        <location filename="../ytdialog.cpp" line="776"/>
         <source>&amp;Play video</source>
         <translation>&amp;Spela video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="775"/>
+        <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>&amp;Spela in video</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="778"/>
+        <location filename="../ytdialog.cpp" line="781"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;Titta på YouTube</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
+        <location filename="../ytdialog.cpp" line="782"/>
         <source>&amp;Copy link</source>
         <translation>&amp;Kopiera länk</translation>
     </message>
@@ -1120,13 +1159,13 @@
         <translation>Föregående</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="850"/>
+        <location filename="../ytdialog.cpp" line="852"/>
         <source>Enter a Youtube URL to record</source>
         <translation>Ange en Youtube URL att spela in</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="959"/>
         <location filename="../ytdialog.cpp" line="961"/>
+        <location filename="../ytdialog.cpp" line="963"/>
         <source>Error</source>
         <translation>Fel</translation>
     </message>

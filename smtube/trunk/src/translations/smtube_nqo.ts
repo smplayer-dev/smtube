@@ -520,63 +520,90 @@
 </context>
 <context>
     <name>DownloadFile</name>
-    <message>
-        <location filename="../downloadfile.cpp" line="117"/>
+    <message numerus="yes">
         <source>%1 hours</source>
-        <translation>ߕߎ߬ߡߊ߬ߙߋ߲߬ %1</translation>
+        <translation type="obsolete">
+            <numerusform>ߕߎ߬ߡߊ߬ߙߋ߲߬ %1</numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="123"/>
         <source>%1 minutes</source>
-        <translation>ߡߌ߬ߛߍ߲߬ %1</translation>
+        <translation type="obsolete">ߡߌ߬ߛߍ߲߬ %1</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
         <translation>ߕߎ߬ߡߊ߬ ߕߏߣߍ߲ ߡߊ߫ ߟߐ߲߫</translation>
     </message>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="121"/>
+        <source>%n hours</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
     <message>
-        <location filename="../downloadfile.cpp" line="126"/>
         <source>%1 seconds</source>
-        <translation>ߝߌ߬ߟߊ߲߬ %1</translation>
+        <translation type="obsolete">ߝߌ߬ߟߊ߲߬ %1</translation>
     </message>
-    <message>
-        <location filename="../downloadfile.cpp" line="127"/>
-        <source>%1 remaining</source>
-        <translation>ߕߐ߭ %1</translation>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="128"/>
+        <source>%n minutes</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../downloadfile.cpp" line="132"/>
+        <source>%n seconds</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="134"/>
+        <source>%n seconds remaining</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../downloadfile.cpp" line="136"/>
+        <source>%1 remaining</source>
+        <translation type="unfinished">ߕߐ߭ %1</translation>
+    </message>
+    <message>
+        <location filename="../downloadfile.cpp" line="143"/>
         <source>%1 of %2 MB</source>
         <translation>%1 ߘߐ߫ %2 MB</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="138"/>
+        <location filename="../downloadfile.cpp" line="149"/>
         <source>%1 of %2 KB</source>
         <translation>%1 ߘߐ߫ %2 MB</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="144"/>
+        <location filename="../downloadfile.cpp" line="155"/>
         <source>%1 of %2 bytes</source>
         <translation>%1 ߘߐ߫ %2 ߝߌ߬ߟߓߊ߬</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="148"/>
+        <location filename="../downloadfile.cpp" line="159"/>
         <source>%1 of unknown size</source>
         <translation>%1 ߘߍ߲߬ߘߍ߲߬ ߟߐ߲ߓߊߟߌ ߘߐ߫</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="153"/>
+        <location filename="../downloadfile.cpp" line="164"/>
         <source>%1 MB/sec</source>
         <translation>%1 MB/ߝߌ߬ߟ</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="157"/>
+        <location filename="../downloadfile.cpp" line="168"/>
         <source>%1 KB/sec</source>
         <translation>%1 KB/ߝߌ߬ߟ</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="161"/>
+        <location filename="../downloadfile.cpp" line="172"/>
         <source>%1 bytes/sec</source>
         <translation>%1 bytes/ߝߌ߬ߟ</translation>
     </message>
@@ -619,10 +646,16 @@
         <source>%1 KB</source>
         <translation>%1 KB</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="163"/>
+        <source>%n bytes</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
         <source>%1 bytes</source>
-        <translation> ߝߌ߬ߟߓߊ߬ %1</translation>
+        <translation type="obsolete"> ߝߌ߬ߟߓߊ߬ %1</translation>
     </message>
 </context>
 <context>
@@ -992,64 +1025,64 @@
         <translation>ߝߌ߬ߟߌ: ߕߍ߫ ߛߋ߫ ߜߊ߲߬ߞߎ߲߬ ߠߊ߫ ߦߕߎߓ ߛߐߘߊ ߟߊ߫.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="776"/>
+        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
         <translation>ߡߍ߲ߕߊ ߟߊ߬ߞ&amp;ߎ߲߬ߘߎ߬</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="781"/>
+        <location filename="../ytdialog.cpp" line="784"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>&amp;ߛߘߌ߬ߜߋ߲ ߝߙߊ߬ ߛߡߔߑߟߋߦߊ ߕߟߏ߲ߛߙߍߘߍ ߟߊ߫</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="849"/>
+        <location filename="../ytdialog.cpp" line="851"/>
         <source>Enter a URL</source>
         <translation>ߛߘߌ߬ߜߋ߲ ߠߊߘߏ߲߬</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="967"/>
+        <location filename="../ytdialog.cpp" line="969"/>
         <source>Connection failed</source>
         <translation>ߜߊ߲߬ߞߎ߲߬ߠߌ ߓߘߊ߫ ߗߌߙߏ߲߫</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="968"/>
+        <location filename="../ytdialog.cpp" line="970"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>ߦߋߡߍ߲ߕߊ߫ ߡߊߢߌ߬ߣߌ߲߬ߞߊ߬ߣߍ߲ ߡߊ߬ߞߏ ߦߋ߫ HTTPS ߜߊ߲ߞߎ߲ߠߌ ߘߏ߫ ߟߊ߫</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="969"/>
+        <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
         <translation>ߥߊߦߌߞߊ߬߸ sslߘߊߦߟߍ ߛߌ߲߬ߝߏ߲ ߕߴߌ ߟߊ߫ ߞߊ߲ߞߋ ߞߊ߲߬.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="970"/>
+        <location filename="../ytdialog.cpp" line="972"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>%1 ߡߊߝߟߍ߫ ߞߊ߬ ߝߙߋߞߋ ߣߌ߲߬ ߓߐߢߊ ߟߐ߲߫.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="971"/>
+        <location filename="../ytdialog.cpp" line="973"/>
         <source>this link</source>
         <translation>ߛߘߌ߬ߜߋ߲ ߣߌ߲߬</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="982"/>
-        <location filename="../ytdialog.cpp" line="993"/>
+        <location filename="../ytdialog.cpp" line="984"/>
+        <location filename="../ytdialog.cpp" line="995"/>
         <source>Problems with Youtube</source>
         <translation>ߝߙߋߞߋ ߦߕߎߓ ߟߊ߫</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="984"/>
+        <location filename="../ytdialog.cpp" line="986"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>ߌ ߦߴߊ߬ ߝߍ߬ ߞߊ߬ ߦߕߎߓ ߘߏ ߟߏ߲ߘߐߦߊ߫؟ ߏ߬ ߘߌ߫ ߛߋ߫ ߝߙߋߞߋ ߢߊߓߐ߫ ߟߊ߫.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="983"/>
-        <location filename="../ytdialog.cpp" line="994"/>
+        <location filename="../ytdialog.cpp" line="985"/>
+        <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>ߥߊߦߌߞߊ߬߸ ߦߕߎߓ ߖߛߐߟߌ ߟߎ߬ ߞߏߛߐ߲߬، ߦߋߡߍ߲ߕߊ &apos;%1&apos; ߡߊ߫ ߛߋ߫ ߕߏߟߏ߲߫ ߠߊ߫ ߥߟߊ߫ ߞߊ߬ ߟߊߞߎ߲߬ߘߎ߬.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="995"/>
+        <location filename="../ytdialog.cpp" line="997"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>ߛߎ߲ߝߘߍ ߟߏ߲ߘߐߦߊߟߌ ߘߏ߫ ߘߌ߫ ߛߋ߫ ߝߙߋߞߋ ߣߌ߲߬ ߢߊߓߐ߫ ߟߊ߫.</translation>
     </message>
@@ -1089,22 +1122,22 @@
         <translation>ߦߋߡߍ߲ߕߊ߫ ߡߊ߫ ߛߐ߬ߘߐ߲߬ &quot;%1&quot; ߢߍ߫</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="773"/>
+        <location filename="../ytdialog.cpp" line="776"/>
         <source>&amp;Play video</source>
         <translation>ߦߋߡߍ߲ߕߊ ߕߏߟߏ߲߫</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="775"/>
+        <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>&amp;ߦߋߡߍ߲ߕߊ ߟߊߞߎ߲߬ߘߎ߬</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="778"/>
+        <location filename="../ytdialog.cpp" line="781"/>
         <source>&amp;Watch on YouTube</source>
         <translation>&amp;ߊ߬ ߝߟߍ߫ ߦߕߎߓ ߞߊ߲߬</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
+        <location filename="../ytdialog.cpp" line="782"/>
         <source>&amp;Copy link</source>
         <translation>&amp;ߛߘߌ߬ߜߋ߲ ߓߊߓߌߟߊ߫</translation>
     </message>
@@ -1119,13 +1152,13 @@
         <translation>ߕߊ߬ߡߌ߲߬ߣߍ߲</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="850"/>
+        <location filename="../ytdialog.cpp" line="852"/>
         <source>Enter a Youtube URL to record</source>
         <translation>ߦߕߎߓ ߟߊߞߎ߲߬ߘߎ߬ߕߊ ߘߏ߫ ߛߘߌ߬ߜߋ߲ ߠߊߘߏ߲߬</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="959"/>
         <location filename="../ytdialog.cpp" line="961"/>
+        <location filename="../ytdialog.cpp" line="963"/>
         <source>Error</source>
         <translation>ߝߎ߬ߕߎ߲߬ߕߌ</translation>
     </message>
