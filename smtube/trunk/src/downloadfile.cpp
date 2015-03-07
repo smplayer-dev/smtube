@@ -110,21 +110,32 @@ void DownloadFile::updateFooterText()
                 remainingTimeString = tr("unknown time remaining") + " - ";
         else
         {
+                int hours = 0;
+                int minutes = 0;
+                int seconds = 0;
                 QString rem;
                 bool flag = false; // if hour is there but not minutes
                 if(remainingTime > 3600)
                 {
-                        rem += tr("%1 hours").arg(remainingTime / 3600) + ", ";
+                        hours = remainingTime / 3600;
+                        rem += tr("%n hours", 0, hours) + ", ";
                         remainingTime = remainingTime % 3600;
                         flag = true;
                 }
                 if(remainingTime > 60 || flag)
                 {
-                        rem += tr("%1 minutes").arg(remainingTime / 60 /*, 2, 10, QChar('0')*/) + ", ";
+                        minutes = remainingTime / 60;
+                        rem += tr("%n minutes", 0, minutes) + ", ";
                         remainingTime = remainingTime % 60;
                 }
-                rem += tr("%1 seconds").arg(remainingTime /*, 2, 10, QChar('0')*/);
-                remainingTimeString = tr("%1 remaining").arg(rem) + " - ";
+                seconds = remainingTime;
+                rem += tr("%n seconds", 0, seconds);
+                if ((hours == 0) && (minutes == 0)) {
+                        remainingTimeString = tr("%n seconds remaining", 0, seconds);
+                } else {
+                        remainingTimeString = tr("%1 remaining").arg(rem);
+                }
+                remainingTimeString += " - ";
         }
 
         if(totalSize > 1048576 )
