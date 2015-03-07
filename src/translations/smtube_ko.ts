@@ -520,63 +520,90 @@
 </context>
 <context>
     <name>DownloadFile</name>
-    <message>
-        <location filename="../downloadfile.cpp" line="117"/>
+    <message numerus="yes">
         <source>%1 hours</source>
-        <translation>%1 시</translation>
+        <translation type="obsolete">
+            <numerusform>%1 시</numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="123"/>
         <source>%1 minutes</source>
-        <translation>%1 분</translation>
+        <translation type="obsolete">%1 분</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
         <translation>남은 시간 알 수 없음</translation>
     </message>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="121"/>
+        <source>%n hours</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
     <message>
-        <location filename="../downloadfile.cpp" line="126"/>
         <source>%1 seconds</source>
-        <translation>%1 초</translation>
+        <translation type="obsolete">%1 초</translation>
     </message>
-    <message>
-        <location filename="../downloadfile.cpp" line="127"/>
-        <source>%1 remaining</source>
-        <translation>%1 남음</translation>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="128"/>
+        <source>%n minutes</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../downloadfile.cpp" line="132"/>
+        <source>%n seconds</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../downloadfile.cpp" line="134"/>
+        <source>%n seconds remaining</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../downloadfile.cpp" line="136"/>
+        <source>%1 remaining</source>
+        <translation type="unfinished">%1 남음</translation>
+    </message>
+    <message>
+        <location filename="../downloadfile.cpp" line="143"/>
         <source>%1 of %2 MB</source>
         <translation>%1 of %2 MB</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="138"/>
+        <location filename="../downloadfile.cpp" line="149"/>
         <source>%1 of %2 KB</source>
         <translation>%1 of %2 KB</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="144"/>
+        <location filename="../downloadfile.cpp" line="155"/>
         <source>%1 of %2 bytes</source>
         <translation>%1 of %2 bytes</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="148"/>
+        <location filename="../downloadfile.cpp" line="159"/>
         <source>%1 of unknown size</source>
         <translation>알 수 없는 크기 %1</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="153"/>
+        <location filename="../downloadfile.cpp" line="164"/>
         <source>%1 MB/sec</source>
         <translation>%1 MB/sec</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="157"/>
+        <location filename="../downloadfile.cpp" line="168"/>
         <source>%1 KB/sec</source>
         <translation>%1 KB/sec</translation>
     </message>
     <message>
-        <location filename="../downloadfile.cpp" line="161"/>
+        <location filename="../downloadfile.cpp" line="172"/>
         <source>%1 bytes/sec</source>
         <translation>%1 bytes/sec</translation>
     </message>
@@ -619,10 +646,16 @@
         <source>%1 KB</source>
         <translation>%1 KB</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="163"/>
+        <source>%n bytes</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
         <source>%1 bytes</source>
-        <translation>%1 bytes</translation>
+        <translation type="obsolete">%1 bytes</translation>
     </message>
 </context>
 <context>
@@ -992,64 +1025,64 @@
         <translation>오류: 유투브 서버에 연결할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="776"/>
+        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
         <translation>음성 녹음하기(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="781"/>
+        <location filename="../ytdialog.cpp" line="784"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>URL을 SMPlayer 재생목록에 추가하기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="849"/>
+        <location filename="../ytdialog.cpp" line="851"/>
         <source>Enter a URL</source>
         <translation>주소 입력하기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="967"/>
+        <location filename="../ytdialog.cpp" line="969"/>
         <source>Connection failed</source>
         <translation>연결에 실패했습니다</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="968"/>
+        <location filename="../ytdialog.cpp" line="970"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>요청한 비디오는 HTTPS 연결이 필요합니다</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="969"/>
+        <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
         <translation>불행히도 openssl 컴포넌트가 필요한데 당신의 시스템에는 없습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="970"/>
+        <location filename="../ytdialog.cpp" line="972"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>이 문제를 해결하려면 %1 을 방문하세요.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="971"/>
+        <location filename="../ytdialog.cpp" line="973"/>
         <source>this link</source>
         <translation>이 링크</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="982"/>
-        <location filename="../ytdialog.cpp" line="993"/>
+        <location filename="../ytdialog.cpp" line="984"/>
+        <location filename="../ytdialog.cpp" line="995"/>
         <source>Problems with Youtube</source>
         <translation>유투브 문제</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="984"/>
+        <location filename="../ytdialog.cpp" line="986"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>유투브 코드를 업데이트할까요? 업데이트로 문제를 해결할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="983"/>
-        <location filename="../ytdialog.cpp" line="994"/>
+        <location filename="../ytdialog.cpp" line="985"/>
+        <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>유감스럽게도 유투브 페이지 변경 때문에, &apos;%1&apos; 동영상을 재생하거나 녹화할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="995"/>
+        <location filename="../ytdialog.cpp" line="997"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>이 프로그램을 업데이트해서 문제를 해결할 수 있을 것입니다.</translation>
     </message>
@@ -1089,22 +1122,22 @@
         <translation>&quot;%1&quot; 에 관한 동영상이 없습니다</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="773"/>
+        <location filename="../ytdialog.cpp" line="776"/>
         <source>&amp;Play video</source>
         <translation>비디오 재생</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="775"/>
+        <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>비디오 녹화</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="778"/>
+        <location filename="../ytdialog.cpp" line="781"/>
         <source>&amp;Watch on YouTube</source>
         <translation>유투브 보기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
+        <location filename="../ytdialog.cpp" line="782"/>
         <source>&amp;Copy link</source>
         <translation>링크 복사하기</translation>
     </message>
@@ -1119,13 +1152,13 @@
         <translation>이전</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="850"/>
+        <location filename="../ytdialog.cpp" line="852"/>
         <source>Enter a Youtube URL to record</source>
         <translation>녹화할 유투브 주소 입력하기</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="959"/>
         <location filename="../ytdialog.cpp" line="961"/>
+        <location filename="../ytdialog.cpp" line="963"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
