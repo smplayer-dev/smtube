@@ -18,7 +18,7 @@
         <location filename="../about.ui" line="109"/>
         <location filename="../about.ui" line="165"/>
         <source>icon</source>
-        <translation>צלמית</translation>
+        <translation>סמל</translation>
     </message>
     <message>
         <location filename="../about.ui" line="89"/>
@@ -405,7 +405,7 @@
     <message>
         <location filename="../configdialog.ui" line="24"/>
         <source>&amp;General</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;כללי</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="30"/>
@@ -440,37 +440,37 @@
     <message>
         <location filename="../configdialog.ui" line="229"/>
         <source>&amp;Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;פרוקסי</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="235"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;אפשר פרוקסי</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="248"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;מארח:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="261"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;פורט:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="281"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;שם משתמש:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="294"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;סיסמה:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="311"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;טיפוס:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="90"/>
@@ -510,27 +510,16 @@
     <message>
         <location filename="../configdialog.cpp" line="71"/>
         <source>HTTP</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="72"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS5</translation>
     </message>
 </context>
 <context>
     <name>DownloadFile</name>
-    <message numerus="yes">
-        <source>%1 hours</source>
-        <translation type="obsolete">
-            <numerusform>%1 שעות</numerusform>
-            <numerusform></numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>%1 minutes</source>
-        <translation type="obsolete">%1 דקות</translation>
-    </message>
     <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
@@ -539,43 +528,39 @@
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="121"/>
         <source>%n hours</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>שעה %n</numerusform>
+            <numerusform>%n שעות</numerusform>
         </translation>
-    </message>
-    <message>
-        <source>%1 seconds</source>
-        <translation type="obsolete">%1 שניות</translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="128"/>
         <source>%n minutes</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>דקה %n</numerusform>
+            <numerusform>%n דקות</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="132"/>
         <source>%n seconds</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>שנייה %n</numerusform>
+            <numerusform>%n שניות</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="134"/>
         <source>%n seconds remaining</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>נותרה שנייה %n</numerusform>
+            <numerusform>%n שניות נותרו</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="136"/>
         <source>%1 remaining</source>
-        <translation type="unfinished">%1 נותרו</translation>
+        <translation>%1 נותרו</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="143"/>
@@ -618,7 +603,7 @@
     <message>
         <location filename="../erroramiga.cpp" line="42"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>אישור</translation>
     </message>
 </context>
 <context>
@@ -658,10 +643,6 @@
             <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
-    </message>
-    <message>
-        <source>%1 bytes</source>
-        <translation type="obsolete">%1 בתים</translation>
     </message>
 </context>
 <context>
@@ -808,7 +789,7 @@
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Croatia</source>
-        <translation type="unfinished"></translation>
+        <translation>קרואטיה</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
@@ -1049,27 +1030,27 @@
     <message>
         <location filename="../ytdialog.cpp" line="969"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>חיבור נכשל</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="970"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>הסרטון שביקשת צריך לפתוח חיבור HTTPS.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>למרבה הצער, הרכיב openssl, שדרוש לשם זאת, אינו זמין בתוך המערכת שלך.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>בבקשה, בקר את %1 כדי לדעת כיצד לתקן את בעיה זו.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="973"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>קישור זה</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="984"/>

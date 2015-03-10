@@ -520,16 +520,6 @@
 </context>
 <context>
     <name>DownloadFile</name>
-    <message numerus="yes">
-        <source>%1 hours</source>
-        <translation type="obsolete">
-            <numerusform>ߕߎ߬ߡߊ߬ߙߋ߲߬ %1</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>%1 minutes</source>
-        <translation type="obsolete">ߡߌ߬ߛߍ߲߬ %1</translation>
-    </message>
     <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
@@ -541,10 +531,6 @@
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
-    </message>
-    <message>
-        <source>%1 seconds</source>
-        <translation type="obsolete">ߝߌ߬ߟߊ߲߬ %1</translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="128"/>
@@ -570,7 +556,7 @@
     <message>
         <location filename="../downloadfile.cpp" line="136"/>
         <source>%1 remaining</source>
-        <translation type="unfinished">ߕߐ߭ %1</translation>
+        <translation>ߕߐ߭ %1</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="143"/>
@@ -652,10 +638,6 @@
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
-    </message>
-    <message>
-        <source>%1 bytes</source>
-        <translation type="obsolete"> ߝߌ߬ߟߓߊ߬ %1</translation>
     </message>
 </context>
 <context>

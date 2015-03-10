@@ -520,18 +520,6 @@
 </context>
 <context>
     <name>DownloadFile</name>
-    <message numerus="yes">
-        <source>%1 hours</source>
-        <translation type="obsolete">
-            <numerusform>%1 sata</numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>%1 minutes</source>
-        <translation type="obsolete">%1 minuta</translation>
-    </message>
     <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
@@ -540,47 +528,43 @@
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="121"/>
         <source>%n hours</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n sat</numerusform>
+            <numerusform>%n sata</numerusform>
+            <numerusform>%n sati</numerusform>
         </translation>
-    </message>
-    <message>
-        <source>%1 seconds</source>
-        <translation type="obsolete">%1 sekunda</translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="128"/>
         <source>%n minutes</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minuta</numerusform>
+            <numerusform>%n minute</numerusform>
+            <numerusform>%n minuta</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="132"/>
         <source>%n seconds</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n sekunda</numerusform>
+            <numerusform>%n sekunde</numerusform>
+            <numerusform>%n sekundi</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="134"/>
         <source>%n seconds remaining</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n sekunda preostala</numerusform>
+            <numerusform>%n sekunde preostale</numerusform>
+            <numerusform>%n sekunda preostalo</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="136"/>
         <source>%1 remaining</source>
-        <translation type="unfinished">%1 preostalo</translation>
+        <translation>%1 preostalo</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="143"/>
@@ -659,15 +643,11 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="163"/>
         <source>%n bytes</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n bajt</numerusform>
+            <numerusform>%n bajta</numerusform>
+            <numerusform>%n bajta</numerusform>
         </translation>
-    </message>
-    <message>
-        <source>%1 bytes</source>
-        <translation type="obsolete">%1 bajta</translation>
     </message>
 </context>
 <context>

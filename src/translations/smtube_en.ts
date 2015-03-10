@@ -382,7 +382,7 @@
         <location filename="../codedownloader.cpp" line="133"/>
         <location filename="../codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Error</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="133"/>
@@ -687,7 +687,7 @@
     <message>
         <location filename="../recordingdialog.cpp" line="451"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Error</translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="455"/>
@@ -1148,7 +1148,7 @@
         <location filename="../ytdialog.cpp" line="961"/>
         <location filename="../ytdialog.cpp" line="963"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Error</translation>
     </message>
 </context>
 </TS>
