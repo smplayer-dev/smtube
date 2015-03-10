@@ -521,10 +521,6 @@
 <context>
     <name>DownloadFile</name>
     <message>
-        <source>%1 minutes</source>
-        <translation type="obsolete">%1 minúty</translation>
-    </message>
-    <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
         <translation type="unfinished"></translation>
@@ -537,10 +533,6 @@
             <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
-    </message>
-    <message>
-        <source>%1 seconds</source>
-        <translation type="obsolete">%1 sekundy</translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="128"/>

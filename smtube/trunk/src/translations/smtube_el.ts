@@ -248,7 +248,7 @@
     <message>
         <location filename="../about.cpp" line="136"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Αραβικά - Συρίας</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="138"/>
@@ -333,12 +333,12 @@
     <message>
         <location filename="../about.cpp" line="154"/>
         <source>Thai</source>
-        <translation type="unfinished"></translation>
+        <translation>Ταϊλανδικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation>Περσικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
@@ -510,27 +510,16 @@
     <message>
         <location filename="../configdialog.cpp" line="71"/>
         <source>HTTP</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="72"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS5</translation>
     </message>
 </context>
 <context>
     <name>DownloadFile</name>
-    <message numerus="yes">
-        <source>%1 hours</source>
-        <translation type="obsolete">
-            <numerusform>%1 ώρες</numerusform>
-            <numerusform></numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>%1 minutes</source>
-        <translation type="obsolete">%1 λεπτά</translation>
-    </message>
     <message>
         <location filename="../downloadfile.cpp" line="110"/>
         <source>unknown time remaining</source>
@@ -539,43 +528,39 @@
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="121"/>
         <source>%n hours</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n ώρα</numerusform>
+            <numerusform>%n ώρες</numerusform>
         </translation>
-    </message>
-    <message>
-        <source>%1 seconds</source>
-        <translation type="obsolete">%1 δευτερόλεπτα</translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="128"/>
         <source>%n minutes</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n λεπτό</numerusform>
+            <numerusform>%n λεπτά</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="132"/>
         <source>%n seconds</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n δευτερόλεπτο</numerusform>
+            <numerusform>%n δευτερόλεπτα</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="134"/>
         <source>%n seconds remaining</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n δευτερόλεπτο απομένει</numerusform>
+            <numerusform>%n δευτερόλεπτα απομένουν</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="136"/>
         <source>%1 remaining</source>
-        <translation type="unfinished">Απομένουν %1</translation>
+        <translation>Απομένουν %1</translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="143"/>
@@ -618,7 +603,7 @@
     <message>
         <location filename="../erroramiga.cpp" line="42"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>Εντάξει</translation>
     </message>
 </context>
 <context>
@@ -658,10 +643,6 @@
             <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
-    </message>
-    <message>
-        <source>%1 bytes</source>
-        <translation type="obsolete">%1 bytes</translation>
     </message>
 </context>
 <context>
@@ -808,7 +789,7 @@
     <message>
         <location filename="../regions.cpp" line="34"/>
         <source>Croatia</source>
-        <translation type="unfinished"></translation>
+        <translation>Κροατία</translation>
     </message>
     <message>
         <location filename="../regions.cpp" line="35"/>
