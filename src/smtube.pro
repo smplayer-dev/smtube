@@ -111,7 +111,10 @@ TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_it.ts \
                translations/smtube_sq_AL.ts \
                translations/smtube_en_GB.ts \
-               translations/smtube_sk.ts
+               translations/smtube_sk.ts \
+               translations/smtube_nl.ts \
+               translations/smtube_th.ts \
+               translations/smtube_da.ts
 
 unix {
     UI_DIR = .ui
