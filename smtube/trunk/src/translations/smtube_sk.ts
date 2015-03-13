@@ -1019,9 +1019,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>N&amp;ahrať zvuk</translation>
+        <translation type="obsolete">N&amp;ahrať zvuk</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1124,6 +1123,11 @@
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>Nah&amp;rať video</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>

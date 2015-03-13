@@ -1037,9 +1037,8 @@
         <translation>خطأ: لا يمكن الاتصال بخادوم يوتيوب Youtube .</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>ت&amp;سجيل الصوت</translation>
+        <translation type="obsolete">ت&amp;سجيل الصوت</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1142,6 +1141,11 @@
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>تس&amp;جيل الفيديو</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>

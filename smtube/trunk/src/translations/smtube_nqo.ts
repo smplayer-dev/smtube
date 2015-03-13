@@ -1007,9 +1007,8 @@
         <translation>ߝߌ߬ߟߌ: ߕߍ߫ ߛߋ߫ ߜߊ߲߬ߞߎ߲߬ ߠߊ߫ ߦߕߎߓ ߛߐߘߊ ߟߊ߫.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>ߡߍ߲ߕߊ ߟߊ߬ߞ&amp;ߎ߲߬ߘߎ߬</translation>
+        <translation type="obsolete">ߡߍ߲ߕߊ ߟߊ߬ߞ&amp;ߎ߲߬ߘߎ߬</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1112,6 +1111,11 @@
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>&amp;ߦߋߡߍ߲ߕߊ ߟߊߞߎ߲߬ߘߎ߬</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>

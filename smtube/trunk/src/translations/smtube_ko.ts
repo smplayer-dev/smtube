@@ -1007,9 +1007,8 @@
         <translation>오류: 유투브 서버에 연결할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>음성 녹음하기(&amp;E)</translation>
+        <translation type="obsolete">음성 녹음하기(&amp;E)</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1112,6 +1111,11 @@
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>비디오 녹화</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>

@@ -1007,9 +1007,8 @@
         <translation>錯誤：無法連接到 Youtube 伺服器。</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>錄製聲音(&amp;E)</translation>
+        <translation type="obsolete">錄製聲音(&amp;E)</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1112,6 +1111,11 @@
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>錄製影片(&amp;R)</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>
