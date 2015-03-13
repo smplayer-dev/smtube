@@ -776,7 +776,7 @@ void YTDialog::showContextMenu(QPoint point)
     menu.addAction(tr("&Play video"))->setData("play");
 #ifdef YT_DL
     menu.addAction(tr("&Record video"))->setData("record");
-    menu.addAction(tr("R&ecord audio"))->setData("record_audio");
+    menu.addAction(tr("R&ecord audio only"))->setData("record_audio");
 #endif
     menu.addAction(tr("&Watch on YouTube"))->setData("watch");
     menu.addAction(tr("&Copy link"))->setData("link");
