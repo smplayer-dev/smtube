@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="da">
 <context>
     <name>About</name>
     <message>
@@ -478,7 +480,7 @@
     <message>
         <location filename="../configdialog.ui" line="98"/>
         <source>Q&amp;uality:</source>
-        <translation>&amp;Kvalitet</translation>
+        <translation>&amp;Kvalitet:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="135"/>
@@ -526,22 +528,34 @@
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="121"/>
         <source>%n hours</source>
-        <translation><numerusform>%n time</numerusform><numerusform>%n timer</numerusform></translation>
+        <translation>
+            <numerusform>%n time</numerusform>
+            <numerusform>%n timer</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="128"/>
         <source>%n minutes</source>
-        <translation><numerusform>%n minut</numerusform><numerusform>%n minutter</numerusform></translation>
+        <translation>
+            <numerusform>%n minut</numerusform>
+            <numerusform>%n minutter</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="132"/>
         <source>%n seconds</source>
-        <translation><numerusform>%n sekund</numerusform><numerusform>%n sekunder</numerusform></translation>
+        <translation>
+            <numerusform>%n sekund</numerusform>
+            <numerusform>%n sekunder</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="134"/>
         <source>%n seconds remaining</source>
-        <translation><numerusform>%n sekund tilbage</numerusform><numerusform>%n sekunder tilbage</numerusform></translation>
+        <translation>
+            <numerusform>%n sekund tilbage</numerusform>
+            <numerusform>%n sekunder tilbage</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../downloadfile.cpp" line="136"/>
@@ -625,7 +639,10 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="163"/>
         <source>%n bytes</source>
-        <translation><numerusform>%n byte</numerusform><numerusform>%n bytes</numerusform></translation>
+        <translation>
+            <numerusform>%n byte</numerusform>
+            <numerusform>%n bytes</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -680,7 +697,10 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="534"/>
         <source>%1% of %n video - Recordings</source>
-        <translation><numerusform>%1% af %n video - Optagelser</numerusform><numerusform>%1% af %n videoer - Optagelser</numerusform></translation>
+        <translation>
+            <numerusform>%1% af %n video - Optagelser</numerusform>
+            <numerusform>%1% af %n videoer - Optagelser</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../recordingdialog.cpp" line="619"/>
@@ -993,9 +1013,8 @@
         <translation>Fejl: Kunne ikke forbinde til YouTube server.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>&amp;Optag lyd</translation>
+        <translation type="obsolete">&amp;Optag lyd</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1020,7 +1039,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"/>
+        <translation>Desværre er openssl-komponenten, der er påkrævet, ikke tilgængelig på dit system.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
@@ -1041,13 +1060,13 @@
     <message>
         <location filename="../ytdialog.cpp" line="986"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation>Vil du opdatere YouTube koden. Dette kan måske rette problemet.</translation>
+        <translation>Vil du opdatere YouTube-koden. Dette kan måske rette problemet.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="985"/>
         <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"/>
+        <translation>På grund af ændringer på YouTube, kan videoen &apos;%1&apos; ikke afspilles eller optages.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="997"/>
@@ -1098,6 +1117,11 @@
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>&amp;Optag video</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>

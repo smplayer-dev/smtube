@@ -1449,9 +1449,8 @@
         <translation>Vídeos musicales más populares en YouTube%1</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>Grabar a&amp;udio</translation>
+        <translation type="obsolete">Grabar a&amp;udio</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1487,6 +1486,11 @@
         <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Lamentablemente debido a cambios en Youtube, no es posible reproducir ni descargar el vídeo &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation>Grabar sólo el a&amp;udio</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="852"/>

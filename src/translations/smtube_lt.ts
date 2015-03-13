@@ -1019,9 +1019,8 @@
         <translation>Klaida: nepavyko prisijungti prie YouTube serverio.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>&amp;Įrašyti audio</translation>
+        <translation type="obsolete">&amp;Įrašyti audio</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1124,6 +1123,11 @@
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>&amp;Įrašyti video</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>

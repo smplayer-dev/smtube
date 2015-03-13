@@ -1013,9 +1013,8 @@
         <translation>Σφάλμα: Αδύνατη η σύνδεση με τον διακομιστή του YouTube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>Λήψη ή&amp;χου</translation>
+        <translation type="obsolete">Λήψη ή&amp;χου</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1118,6 +1117,11 @@
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>&amp;Καταγραφή βίντεο</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>

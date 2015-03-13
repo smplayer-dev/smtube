@@ -1019,9 +1019,8 @@
         <translation>Greška: Nemoguće povezivanje s Youtube poslužiteljem.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>S&amp;nimi zvuk</translation>
+        <translation type="obsolete">S&amp;nimi zvuk</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1124,6 +1123,11 @@
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>&amp;Snimi video</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>

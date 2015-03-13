@@ -528,9 +528,9 @@
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="121"/>
         <source>%n hours</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n time</numerusform>
+            <numerusform>%n timar</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -1013,9 +1013,8 @@
         <translation>Feil: Klarte ikkje å kopla til Youtube-tenaren.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>S&amp;pel inn lyd</translation>
+        <translation type="obsolete">S&amp;pel inn lyd</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1119,6 +1118,11 @@ Dette kan løyse problemet. </translation>
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>&amp;Spel inn video</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>

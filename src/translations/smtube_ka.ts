@@ -1032,11 +1032,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
-        <source>R&amp;ecord audio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="784"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation type="unfinished"></translation>
@@ -1136,6 +1131,11 @@
     <message>
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

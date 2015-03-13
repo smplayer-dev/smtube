@@ -1013,9 +1013,8 @@
         <translation>שגיאה: לא היה ניתן להתחבר אל Youtube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>הקל&amp;ט אודיו</translation>
+        <translation type="obsolete">הקל&amp;ט אודיו</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1118,6 +1117,11 @@
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>&amp;הקלט וידאו</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>

@@ -1013,9 +1013,8 @@
         <translation>Erro: Não foi possível se conectar ao servidor do Youtube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>G&amp;ravar áudio</translation>
+        <translation type="obsolete">G&amp;ravar áudio</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1118,6 +1117,11 @@
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>&amp;Gravar vídeo</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>

@@ -1007,9 +1007,8 @@
         <translation>Hiba: Nem sikerült csatlakozni a Youtube szerveréhez.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio</source>
-        <translation>&amp;Hang rögzítése</translation>
+        <translation type="obsolete">&amp;Hang rögzítése</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
@@ -1112,6 +1111,11 @@
         <location filename="../ytdialog.cpp" line="778"/>
         <source>&amp;Record video</source>
         <translation>&amp;Videó rögzítése</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="779"/>
+        <source>R&amp;ecord audio only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>
