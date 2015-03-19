@@ -61,64 +61,57 @@
         <translation>업데이트하려면 웹 방문하기:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="105"/>
+        <location filename="../about.cpp" line="103"/>
+        <source>Click here to know the translators from the transifex teams</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Spanish</source>
-        <translation>스페인어</translation>
+        <translation type="obsolete">스페인어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="122"/>
         <source>Russian</source>
-        <translation>러시아어</translation>
+        <translation type="obsolete">러시아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="115"/>
         <source>Lithuanian</source>
-        <translation>리투아니아어</translation>
+        <translation type="obsolete">리투아니아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="109"/>
         <source>Japanese</source>
-        <translation>일본어</translation>
+        <translation type="obsolete">일본어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="106"/>
         <source>Basque</source>
-        <translation>바스크어</translation>
+        <translation type="obsolete">바스크어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="111"/>
         <source>Portuguese</source>
-        <translation>포르투갈어</translation>
+        <translation type="obsolete">포르투갈어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="126"/>
         <source>Hungarian</source>
-        <translation>헝가리어</translation>
+        <translation type="obsolete">헝가리어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="121"/>
         <source>Polish</source>
-        <translation>폴란드어</translation>
+        <translation type="obsolete">폴란드어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="118"/>
         <source>Hebrew</source>
-        <translation>히브리어</translation>
+        <translation type="obsolete">히브리어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="113"/>
         <source>Ukrainian</source>
-        <translation>우크라이나어</translation>
+        <translation type="obsolete">우크라이나어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
         <source>Norwegian Nynorsk</source>
-        <translation>노르웨이 뉘노르스크어</translation>
+        <translation type="obsolete">노르웨이 뉘노르스크어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="108"/>
         <source>Czech</source>
-        <translation>체코어</translation>
+        <translation type="obsolete">체코어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -136,94 +129,76 @@
         <translation>%1 을 방문하고 번역 팀에 참여하세요.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="103"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>Transifex 팀의 현재 번역가들:</translation>
+        <translation type="obsolete">Transifex 팀의 현재 번역가들:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="110"/>
         <source>Korean</source>
-        <translation>한국어</translation>
+        <translation type="obsolete">한국어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="116"/>
         <source>Malay</source>
-        <translation>말레이어</translation>
+        <translation type="obsolete">말레이어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="117"/>
         <source>Portuguese - Brazil</source>
-        <translation>포르투갈어 - 브라질</translation>
+        <translation type="obsolete">포르투갈어 - 브라질</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="119"/>
         <source>Simplified Chinese</source>
-        <translation>간체 중국어</translation>
+        <translation type="obsolete">간체 중국어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="123"/>
         <source>French</source>
-        <translation>프랑스어</translation>
+        <translation type="obsolete">프랑스어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
         <source>Danish</source>
-        <translation>덴마크어</translation>
+        <translation type="obsolete">덴마크어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="129"/>
         <source>German</source>
-        <translation>독일어</translation>
+        <translation type="obsolete">독일어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="130"/>
         <source>Traditional Chinese</source>
-        <translation>번체 중국어</translation>
+        <translation type="obsolete">번체 중국어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="133"/>
         <source>Swedish</source>
-        <translation>스웨덴어</translation>
+        <translation type="obsolete">스웨덴어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
         <source>Turkish</source>
-        <translation>터키어</translation>
+        <translation type="obsolete">터키어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="128"/>
         <source>Finnish</source>
-        <translation>핀란드어</translation>
+        <translation type="obsolete">핀란드어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="134"/>
         <source>Arabic</source>
-        <translation>아랍어</translation>
+        <translation type="obsolete">아랍어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="137"/>
         <source>Georgian</source>
-        <translation>그루지야어</translation>
+        <translation type="obsolete">그루지야어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="112"/>
         <source>Serbian</source>
-        <translation>세르비아어</translation>
+        <translation type="obsolete">세르비아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="107"/>
         <source>Croatian</source>
-        <translation>크로아티아어</translation>
+        <translation type="obsolete">크로아티아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="131"/>
         <source>Bulgarian</source>
-        <translation>불가리아어</translation>
+        <translation type="obsolete">불가리아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
         <source>Vietnamese</source>
-        <translation>베트남어</translation>
+        <translation type="obsolete">베트남어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="48"/>
@@ -236,119 +211,97 @@
         <translation>전체 버전은 웹사이트를 방문하세요:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="124"/>
         <source>Indonesian</source>
-        <translation>인도네시아어</translation>
+        <translation type="obsolete">인도네시아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="135"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation>아랍어 - 사우디 아라비아</translation>
+        <translation type="obsolete">아랍어 - 사우디 아라비아</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="136"/>
         <source>Arabic - Syria</source>
-        <translation>아랍어 - 시리아</translation>
+        <translation type="obsolete">아랍어 - 시리아</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="138"/>
         <source>Sinhala</source>
-        <translation>신할라어</translation>
+        <translation type="obsolete">신할라어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="139"/>
         <source>Greek</source>
-        <translation>그리스어</translation>
+        <translation type="obsolete">그리스어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="140"/>
         <source>Estonian</source>
-        <translation>에스토니아어</translation>
+        <translation type="obsolete">에스토니아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="141"/>
         <source>N&apos;ko</source>
-        <translation>응코어</translation>
+        <translation type="obsolete">응코어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="142"/>
         <source>Italian</source>
-        <translation>이탈리아어</translation>
+        <translation type="obsolete">이탈리아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="143"/>
         <source>Uzbek</source>
-        <translation>우즈베크어</translation>
+        <translation type="obsolete">우즈베크어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="144"/>
         <source>Catalan</source>
-        <translation>카탈루냐어</translation>
+        <translation type="obsolete">카탈루냐어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="145"/>
         <source>Slovak</source>
-        <translation>슬로바키아어</translation>
+        <translation type="obsolete">슬로바키아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="146"/>
         <source>British English</source>
-        <translation>영국식 영어</translation>
+        <translation type="obsolete">영국식 영어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
         <source>Albanian</source>
-        <translation>알바니아어</translation>
+        <translation type="obsolete">알바니아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="148"/>
         <source>Dutch</source>
-        <translation>네덜란드어</translation>
+        <translation type="obsolete">네덜란드어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="149"/>
         <source>Romanian</source>
-        <translation>루마니아어</translation>
+        <translation type="obsolete">루마니아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="150"/>
         <source>Khmer</source>
-        <translation>크메르어</translation>
+        <translation type="obsolete">크메르어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
         <source>Telugu</source>
-        <translation>텔루구어</translation>
+        <translation type="obsolete">텔루구어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
         <source>Tamil</source>
-        <translation>타밀어</translation>
+        <translation type="obsolete">타밀어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
         <source>Malayalam</source>
-        <translation>말라얄람어</translation>
+        <translation type="obsolete">말라얄람어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
         <source>Thai</source>
-        <translation>타이어</translation>
+        <translation type="obsolete">타이어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="155"/>
         <source>Persian</source>
-        <translation>페르시아어</translation>
+        <translation type="obsolete">페르시아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="180"/>
+        <location filename="../about.cpp" line="128"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="114"/>
         <source>Galician</source>
-        <translation>갈리시아어</translation>
+        <translation type="obsolete">갈리시아어</translation>
     </message>
 </context>
 <context>
@@ -1007,10 +960,6 @@
         <translation>오류: 유투브 서버에 연결할 수 없습니다.</translation>
     </message>
     <message>
-        <source>R&amp;ecord audio</source>
-        <translation type="obsolete">음성 녹음하기(&amp;E)</translation>
-    </message>
-    <message>
         <location filename="../ytdialog.cpp" line="784"/>
         <source>&amp;Add URL to the SMPlayer playlist</source>
         <translation>URL을 SMPlayer 재생목록에 추가하기</translation>
@@ -1115,7 +1064,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio only</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 녹음하기(&amp;E)</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>

@@ -61,64 +61,57 @@
         <translation>ߊ߲ ߠߊ߫ ߗߍߦߙߐ ߡߊߝߟߍ߫ ߟߏ߲ߘߐߦߊߟߌ ߞߏ ߘߐ߫:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="105"/>
+        <location filename="../about.cpp" line="103"/>
+        <source>Click here to know the translators from the transifex teams</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Spanish</source>
-        <translation>ߊߛߌߔߊ߲</translation>
+        <translation type="obsolete">ߊߛߌߔߊ߲</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="122"/>
         <source>Russian</source>
-        <translation>ߙߌ߬ߛߌ</translation>
+        <translation type="obsolete">ߙߌ߬ߛߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="115"/>
         <source>Lithuanian</source>
-        <translation>ߟߌߕߎߊߣߌ</translation>
+        <translation type="obsolete">ߟߌߕߎߊߣߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="109"/>
         <source>Japanese</source>
-        <translation>ߣߌߔߐ߲</translation>
+        <translation type="obsolete">ߣߌߔߐ߲</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="106"/>
         <source>Basque</source>
-        <translation>ߓߊߛߞߌ</translation>
+        <translation type="obsolete">ߓߊߛߞߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="111"/>
         <source>Portuguese</source>
-        <translation>ߔߙߐߕߎߞߍ</translation>
+        <translation type="obsolete">ߔߙߐߕߎߞߍ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="126"/>
         <source>Hungarian</source>
-        <translation>ߤߐ߲ߞߙߌ</translation>
+        <translation type="obsolete">ߤߐ߲ߞߙߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="121"/>
         <source>Polish</source>
-        <translation>ߔߏߟߐ߲</translation>
+        <translation type="obsolete">ߔߏߟߐ߲</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="118"/>
         <source>Hebrew</source>
-        <translation>ߤߋߓߙߋ</translation>
+        <translation type="obsolete">ߤߋߓߙߋ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="113"/>
         <source>Ukrainian</source>
-        <translation>ߎߞߙߍߣߌ</translation>
+        <translation type="obsolete">ߎߞߙߍߣߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
         <source>Norwegian Nynorsk</source>
-        <translation>ߣߙߐߝߍߛߌߞߎߘߊ</translation>
+        <translation type="obsolete">ߣߙߐߝߍߛߌߞߎߘߊ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="108"/>
         <source>Czech</source>
-        <translation>ߗߍߞߌ</translation>
+        <translation type="obsolete">ߗߍߞߌ</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -136,94 +129,76 @@
         <translation>%1 ߡߊߝߍߣߍ߲߫ ߞߊ߬ ߘߏ߲߬ ߘߟߊߡߌߣߊߟߌ ߞߙߎ ߘߏ߫ ߘߐ߫.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="103"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>ߕߊߙߊ߲ߛߌߝߍߞߛ ߓߌ߭ߓߌ ߣߌ߲߬ ߘߟߊߡߌߣߊߟߌ ߞߙߎ ߟߎ߬:</translation>
+        <translation type="obsolete">ߕߊߙߊ߲ߛߌߝߍߞߛ ߓߌ߭ߓߌ ߣߌ߲߬ ߘߟߊߡߌߣߊߟߌ ߞߙߎ ߟߎ߬:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="110"/>
         <source>Korean</source>
-        <translation>ߞߏߙߋ</translation>
+        <translation type="obsolete">ߞߏߙߋ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="116"/>
         <source>Malay</source>
-        <translation>ߡߊߟߍ</translation>
+        <translation type="obsolete">ߡߊߟߍ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="117"/>
         <source>Portuguese - Brazil</source>
-        <translation>ߔߙߐߕߎߞߍ - ߓߙߊߛߌߟ</translation>
+        <translation type="obsolete">ߔߙߐߕߎߞߍ - ߓߙߊߛߌߟ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="119"/>
         <source>Simplified Chinese</source>
-        <translation>ߛߌߣߌ߲ߞߊ߲ ߠߊߣߐ߰ߦߊ߬ߣߍ߲</translation>
+        <translation type="obsolete">ߛߌߣߌ߲ߞߊ߲ ߠߊߣߐ߰ߦߊ߬ߣߍ߲</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="123"/>
         <source>French</source>
-        <translation>ߝߊ߬ߙߊ߲߬ߛߌ</translation>
+        <translation type="obsolete">ߝߊ߬ߙߊ߲߬ߛߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
         <source>Danish</source>
-        <translation>ߘߊߣߛߌ</translation>
+        <translation type="obsolete">ߘߊߣߛߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="129"/>
         <source>German</source>
-        <translation>ߊߟߌߡߊ߲</translation>
+        <translation type="obsolete">ߊߟߌߡߊ߲</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="130"/>
         <source>Traditional Chinese</source>
-        <translation>ߛߌߣߌ߲ߞߊ߲ ߞߘߐ߬ߡߊ߲</translation>
+        <translation type="obsolete">ߛߌߣߌ߲ߞߊ߲ ߞߘߐ߬ߡߊ߲</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="133"/>
         <source>Swedish</source>
-        <translation>ߛߎߥߍߘߌ</translation>
+        <translation type="obsolete">ߛߎߥߍߘߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
         <source>Turkish</source>
-        <translation>ߕߙߎߞߌ</translation>
+        <translation type="obsolete">ߕߙߎߞߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="128"/>
         <source>Finnish</source>
-        <translation>ߝߣߌߛߌ</translation>
+        <translation type="obsolete">ߝߣߌߛߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="134"/>
         <source>Arabic</source>
-        <translation>ߊߙߊߓߎ</translation>
+        <translation type="obsolete">ߊߙߊߓߎ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="137"/>
         <source>Georgian</source>
-        <translation>ߖߐߙߛߌ</translation>
+        <translation type="obsolete">ߖߐߙߛߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="112"/>
         <source>Serbian</source>
-        <translation>ߛߍߙߓߌ</translation>
+        <translation type="obsolete">ߛߍߙߓߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="107"/>
         <source>Croatian</source>
-        <translation>ߞߙߏߥߊߕߌ</translation>
+        <translation type="obsolete">ߞߙߏߥߊߕߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="131"/>
         <source>Bulgarian</source>
-        <translation>ߓߟߎߞߊߙߌ</translation>
+        <translation type="obsolete">ߓߟߎߞߊߙߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
         <source>Vietnamese</source>
-        <translation>ߝߌߋߕߌߣߊߡߌ</translation>
+        <translation type="obsolete">ߝߌߋߕߌߣߊߡߌ</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="48"/>
@@ -236,119 +211,97 @@
         <translation>ߊ߲ ߠߊ߫ ߗߍߦߙߐ ߡߊߝߍߣߍ߲߫ ߞߊ߬ ߘߟߊߡߌߟߌ ߘߝߊߣߍ߲ ߡߊߛߐ߬ߘߐ߲߬:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="124"/>
         <source>Indonesian</source>
-        <translation>ߍ߲ߘߏߣߋߛߌ</translation>
+        <translation type="obsolete">ߍ߲ߘߏߣߋߛߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="135"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation>ߊߙߊߓߎ - ߛߎ߰ߘߎ߬ߟߊ߫</translation>
+        <translation type="obsolete">ߊߙߊߓߎ - ߛߎ߰ߘߎ߬ߟߊ߫</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="136"/>
         <source>Arabic - Syria</source>
-        <translation>ߊߙߊߓߎ - ߛߙߌ߫</translation>
+        <translation type="obsolete">ߊߙߊߓߎ - ߛߙߌ߫</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="138"/>
         <source>Sinhala</source>
-        <translation>ߛߌߣߟߊ</translation>
+        <translation type="obsolete">ߛߌߣߟߊ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="139"/>
         <source>Greek</source>
-        <translation>ߞߙߍ߬ߞߌ</translation>
+        <translation type="obsolete">ߞߙߍ߬ߞߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="140"/>
         <source>Estonian</source>
-        <translation>ߍߛߌߕߏߣߌ</translation>
+        <translation type="obsolete">ߍߛߌߕߏߣߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="141"/>
         <source>N&apos;ko</source>
-        <translation>ߒߞߏ</translation>
+        <translation type="obsolete">ߒߞߏ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="142"/>
         <source>Italian</source>
-        <translation>ߌߕߊߟߌ</translation>
+        <translation type="obsolete">ߌߕߊߟߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="143"/>
         <source>Uzbek</source>
-        <translation>ߎߛߎߓߋߞߌ</translation>
+        <translation type="obsolete">ߎߛߎߓߋߞߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="144"/>
         <source>Catalan</source>
-        <translation>ߞߕߊߟߊ߲</translation>
+        <translation type="obsolete">ߞߕߊߟߊ߲</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="145"/>
         <source>Slovak</source>
-        <translation>ߛߎߟߏߝߊߞߌ</translation>
+        <translation type="obsolete">ߛߎߟߏߝߊߞߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="146"/>
         <source>British English</source>
-        <translation>ߓߙߌߕߊ߲߫ ߊ߲ߞߌߟߍ</translation>
+        <translation type="obsolete">ߓߙߌߕߊ߲߫ ߊ߲ߞߌߟߍ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
         <source>Albanian</source>
-        <translation>ߊߟߌߓߊߣߌ</translation>
+        <translation type="obsolete">ߊߟߌߓߊߣߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="148"/>
         <source>Dutch</source>
-        <translation>ߤߏߟߊ߲ߘߌ</translation>
+        <translation type="obsolete">ߤߏߟߊ߲ߘߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="149"/>
         <source>Romanian</source>
-        <translation>ߙߎߡߊߣߌ</translation>
+        <translation type="obsolete">ߙߎߡߊߣߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="150"/>
         <source>Khmer</source>
-        <translation>ߞߌߡߍߙߌ</translation>
+        <translation type="obsolete">ߞߌߡߍߙߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
         <source>Telugu</source>
-        <translation>ߕߋߟߞߎ</translation>
+        <translation type="obsolete">ߕߋߟߞߎ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
         <source>Tamil</source>
-        <translation>ߕߊߡߟߌ</translation>
+        <translation type="obsolete">ߕߊߡߟߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
         <source>Malayalam</source>
-        <translation>ߡߊߟߍߟߊߡߎ</translation>
+        <translation type="obsolete">ߡߊߟߍߟߊߡߎ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
         <source>Thai</source>
-        <translation>ߕߊߦߌ</translation>
+        <translation type="obsolete">ߕߊߦߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="155"/>
         <source>Persian</source>
-        <translation>ߔߍߙߛߌ</translation>
+        <translation type="obsolete">ߔߍߙߛߌ</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="180"/>
+        <location filename="../about.cpp" line="128"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="114"/>
         <source>Galician</source>
-        <translation>ߞߊߟߛߌ</translation>
+        <translation type="obsolete">ߞߊߟߛߌ</translation>
     </message>
 </context>
 <context>
@@ -1005,10 +958,6 @@
         <location filename="../ytdialog.cpp" line="665"/>
         <source>Error: Could not connect to Youtube server.</source>
         <translation>ߝߌ߬ߟߌ: ߕߍ߫ ߛߋ߫ ߜߊ߲߬ߞߎ߲߬ ߠߊ߫ ߦߕߎߓ ߛߐߘߊ ߟߊ߫.</translation>
-    </message>
-    <message>
-        <source>R&amp;ecord audio</source>
-        <translation type="obsolete">ߡߍ߲ߕߊ ߟߊ߬ߞ&amp;ߎ߲߬ߘߎ߬</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="784"/>
