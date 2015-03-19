@@ -61,81 +61,73 @@
         <translation>Visita nuestra web para conseguir actualizaciones:</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="103"/>
+        <source>Click here to know the translators from the transifex teams</source>
+        <translation>Pulsa aquí para conocer los traductores de los equipos de transifex</translation>
+    </message>
+    <message>
         <source>The following people have contributed with translations:</source>
         <translation type="obsolete">Las siguientes personas han contribuido con traducciones:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="105"/>
         <source>Spanish</source>
-        <translation>Español</translation>
+        <translation type="obsolete">Español</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="122"/>
         <source>Russian</source>
-        <translation>Ruso</translation>
+        <translation type="obsolete">Ruso</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="115"/>
         <source>Lithuanian</source>
-        <translation>Lituano</translation>
+        <translation type="obsolete">Lituano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="109"/>
         <source>Japanese</source>
-        <translation>Japonés</translation>
+        <translation type="obsolete">Japonés</translation>
     </message>
     <message>
         <source>Simplified-Chinese</source>
         <translation type="obsolete">Chino simplificado</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="106"/>
         <source>Basque</source>
-        <translation>Vasco</translation>
+        <translation type="obsolete">Vasco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="111"/>
         <source>Portuguese</source>
-        <translation>Portugués</translation>
+        <translation type="obsolete">Portugués</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="126"/>
         <source>Hungarian</source>
-        <translation>Húngaro</translation>
+        <translation type="obsolete">Húngaro</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="121"/>
         <source>Polish</source>
-        <translation>Polaco</translation>
+        <translation type="obsolete">Polaco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="139"/>
         <source>Greek</source>
-        <translation>Griego</translation>
+        <translation type="obsolete">Griego</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="118"/>
         <source>Hebrew</source>
-        <translation>Hebreo</translation>
+        <translation type="obsolete">Hebreo</translation>
     </message>
     <message>
         <source>Portuguese (Brazil)</source>
         <translation type="obsolete">Portugués (Brasil)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="113"/>
         <source>Ukrainian</source>
-        <translation>Ucraniano</translation>
+        <translation type="obsolete">Ucraniano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
         <source>Norwegian Nynorsk</source>
-        <translation>Nynorsk</translation>
+        <translation type="obsolete">Nynorsk</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="108"/>
         <source>Czech</source>
-        <translation>Checo</translation>
+        <translation type="obsolete">Checo</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="48"/>
@@ -163,194 +155,156 @@
         <translation>Visita %1 y únete a un equipo de traducción.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="103"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>Traductores actuales de los equipos de transifex:</translation>
+        <translation type="obsolete">Traductores actuales de los equipos de transifex:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="110"/>
         <source>Korean</source>
-        <translation>Coreano</translation>
+        <translation type="obsolete">Coreano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="116"/>
         <source>Malay</source>
-        <translation>Malayo</translation>
+        <translation type="obsolete">Malayo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="117"/>
         <source>Portuguese - Brazil</source>
-        <translation>Portugués - Brasil</translation>
+        <translation type="obsolete">Portugués - Brasil</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="119"/>
         <source>Simplified Chinese</source>
-        <translation>Chino simplificado</translation>
+        <translation type="obsolete">Chino simplificado</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="123"/>
         <source>French</source>
-        <translation>Francés</translation>
+        <translation type="obsolete">Francés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
         <source>Danish</source>
-        <translation>Danés</translation>
+        <translation type="obsolete">Danés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="129"/>
         <source>German</source>
-        <translation>Alemán</translation>
+        <translation type="obsolete">Alemán</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="130"/>
         <source>Traditional Chinese</source>
-        <translation>Chino tradicional</translation>
+        <translation type="obsolete">Chino tradicional</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="133"/>
         <source>Swedish</source>
-        <translation>Sueco</translation>
+        <translation type="obsolete">Sueco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="135"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation>Árabe - Arabia Saudita</translation>
+        <translation type="obsolete">Árabe - Arabia Saudita</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="136"/>
         <source>Arabic - Syria</source>
-        <translation>Árabe - Siria</translation>
+        <translation type="obsolete">Árabe - Siria</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="138"/>
         <source>Sinhala</source>
-        <translation>Cingalés</translation>
+        <translation type="obsolete">Cingalés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="140"/>
         <source>Estonian</source>
-        <translation>Estonio</translation>
+        <translation type="obsolete">Estonio</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="141"/>
         <source>N&apos;ko</source>
-        <translation>N&apos;ko</translation>
+        <translation type="obsolete">N&apos;ko</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="142"/>
         <source>Italian</source>
-        <translation>Italiano</translation>
+        <translation type="obsolete">Italiano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="143"/>
         <source>Uzbek</source>
-        <translation>Uzbeko</translation>
+        <translation type="obsolete">Uzbeko</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="144"/>
         <source>Catalan</source>
-        <translation>Catalán</translation>
+        <translation type="obsolete">Catalán</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="145"/>
         <source>Slovak</source>
-        <translation>Eslovaco</translation>
+        <translation type="obsolete">Eslovaco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="146"/>
         <source>British English</source>
-        <translation>Inglés Británico</translation>
+        <translation type="obsolete">Inglés Británico</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
         <source>Albanian</source>
-        <translation>Albanés</translation>
+        <translation type="obsolete">Albanés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="148"/>
         <source>Dutch</source>
-        <translation>Holandés</translation>
+        <translation type="obsolete">Holandés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="149"/>
         <source>Romanian</source>
-        <translation>Rumano</translation>
+        <translation type="obsolete">Rumano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="150"/>
         <source>Khmer</source>
-        <translation>Camboyano</translation>
+        <translation type="obsolete">Camboyano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
         <source>Telugu</source>
-        <translation>Telugú</translation>
+        <translation type="obsolete">Telugú</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
         <source>Tamil</source>
-        <translation>Tamil</translation>
+        <translation type="obsolete">Tamil</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
         <source>Malayalam</source>
-        <translation>Malayalam</translation>
+        <translation type="obsolete">Malayalam</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
         <source>Thai</source>
-        <translation>Tailandés</translation>
+        <translation type="obsolete">Tailandés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="155"/>
         <source>Persian</source>
-        <translation>Persa</translation>
+        <translation type="obsolete">Persa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
         <source>Turkish</source>
-        <translation>Turco</translation>
+        <translation type="obsolete">Turco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="128"/>
         <source>Finnish</source>
-        <translation>Finés</translation>
+        <translation type="obsolete">Finés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="134"/>
         <source>Arabic</source>
-        <translation>Árabe</translation>
+        <translation type="obsolete">Árabe</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="137"/>
         <source>Georgian</source>
-        <translation>Georgiano</translation>
+        <translation type="obsolete">Georgiano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="112"/>
         <source>Serbian</source>
-        <translation>Serbio</translation>
+        <translation type="obsolete">Serbio</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="107"/>
         <source>Croatian</source>
-        <translation>Croata</translation>
+        <translation type="obsolete">Croata</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="131"/>
         <source>Bulgarian</source>
-        <translation>Búlgaro</translation>
+        <translation type="obsolete">Búlgaro</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="120"/>
         <source>Vietnamese</source>
-        <translation>Vietnamita</translation>
+        <translation type="obsolete">Vietnamita</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="124"/>
         <source>Indonesian</source>
-        <translation>Indonesio</translation>
+        <translation type="obsolete">Indonesio</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -373,14 +327,13 @@
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="180"/>
+        <location filename="../about.cpp" line="128"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="114"/>
         <source>Galician</source>
-        <translation>Gallego</translation>
+        <translation type="obsolete">Gallego</translation>
     </message>
     <message>
         <source>&amp;Youtube</source>
