@@ -66,54 +66,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Spanish</source>
-        <translation type="obsolete">Ispanų</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Rusų</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Lietuvių</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Japonų</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Baskų</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">Portugalų</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Bulgarų</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Lenkų</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">Hebrajų</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ukrainiečių</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">Norvegų</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">Čekų</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
         <translation>Daug žmonių prisidėjo vertimais.</translation>
@@ -129,78 +81,6 @@
         <translation>Aplankykite %1 ir prisijunkite prie vertėjų komandos.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">Dabartiniai vertėjai transifex komandose:</translation>
-    </message>
-    <message>
-        <source>Korean</source>
-        <translation type="obsolete">Korėjiečių</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">Malajiečių</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portugalų -Brazilija</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">Supaprastinta kinų</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">Prancūzų</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">Danų</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">Vokiečių</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Kinų tradicinė</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">Švedų</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">Turkų</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">Suomių</translation>
-    </message>
-    <message>
-        <source>Arabic</source>
-        <translation type="obsolete">Arabų</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">Gruzinų</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">Serbų</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">Kroatų</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bulgarų</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">Vietnamiečių</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation type="unfinished"></translation>
@@ -211,97 +91,9 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">Indoneziečių</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">Arabų - Saudo arabija</translation>
-    </message>
-    <message>
-        <source>Arabic - Syria</source>
-        <translation type="obsolete">Arabų - Sirija</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">Sinhalų</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">Graikų</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">Estų</translation>
-    </message>
-    <message>
-        <source>N&apos;ko</source>
-        <translation type="obsolete">N&apos;ko</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Italų</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">Uzbekų</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Katalonų</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Slovakų</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">Anglų (Britiška)</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">Albanų</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Olandų</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Rumunų</translation>
-    </message>
-    <message>
-        <source>Khmer</source>
-        <translation type="obsolete">Kmerų</translation>
-    </message>
-    <message>
-        <source>Telugu</source>
-        <translation type="obsolete">Telugų</translation>
-    </message>
-    <message>
-        <source>Tamil</source>
-        <translation type="obsolete">Tamilų</translation>
-    </message>
-    <message>
-        <source>Malayalam</source>
-        <translation type="obsolete">Malajalių</translation>
-    </message>
-    <message>
-        <source>Thai</source>
-        <translation type="obsolete">Tajų</translation>
-    </message>
-    <message>
-        <source>Persian</source>
-        <translation type="obsolete">Persų</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="128"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Galų</translation>
     </message>
 </context>
 <context>

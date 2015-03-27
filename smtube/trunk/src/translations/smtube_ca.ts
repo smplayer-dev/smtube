@@ -66,38 +66,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Spanish</source>
-        <translation type="obsolete">Espanyol</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Rus</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Lituà</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Japonès</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Basc</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">Portuguès</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Hongarès</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Polonès</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
         <translation type="unfinished"></translation>
@@ -126,10 +94,6 @@
         <location filename="../about.cpp" line="128"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Gallec</translation>
     </message>
 </context>
 <context>

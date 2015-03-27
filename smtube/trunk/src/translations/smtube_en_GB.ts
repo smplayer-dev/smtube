@@ -66,54 +66,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Spanish</source>
-        <translation type="obsolete">Spanish</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Russian</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Lithuanian</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Japanese</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Basque</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">Portuguese</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Hungarian</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Polish</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">Hebrew</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ukrainian</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">Norwegian Nynorsk</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">Czech</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
         <translation>Many people contributed with translations.</translation>
@@ -129,78 +81,6 @@
         <translation>Visit %1 and join a translation team.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">Current translators from the transifex teams:</translation>
-    </message>
-    <message>
-        <source>Korean</source>
-        <translation type="obsolete">Korean</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">Malay</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portuguese - Brazil</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">Simplified Chinese</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">French</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">Danish</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">German</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Traditional Chinese</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">Swedish</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">Turkish</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">Finnish</translation>
-    </message>
-    <message>
-        <source>Arabic</source>
-        <translation type="obsolete">Arabic</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">Georgian</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">Serbian</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">Croatian</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bulgarian</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">Vietnamese</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation>THIS IS A REDUCED VERSION</translation>
@@ -211,97 +91,9 @@
         <translation>Visit our web to get the full version:</translation>
     </message>
     <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">Indonesian</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">Arabic - Saudi Arabia</translation>
-    </message>
-    <message>
-        <source>Arabic - Syria</source>
-        <translation type="obsolete">Arabic - Syria</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">Sinhala</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">Greek</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">Estonian</translation>
-    </message>
-    <message>
-        <source>N&apos;ko</source>
-        <translation type="obsolete">N&apos;ko</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Italian</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">Uzbek</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Catalan</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Slovak</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">British English</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">Albanian</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Dutch</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Romanian</translation>
-    </message>
-    <message>
-        <source>Khmer</source>
-        <translation type="obsolete">Khmer</translation>
-    </message>
-    <message>
-        <source>Telugu</source>
-        <translation type="obsolete">Telugu</translation>
-    </message>
-    <message>
-        <source>Tamil</source>
-        <translation type="obsolete">Tamil</translation>
-    </message>
-    <message>
-        <source>Malayalam</source>
-        <translation type="obsolete">Malayalam</translation>
-    </message>
-    <message>
-        <source>Thai</source>
-        <translation type="obsolete">Thai</translation>
-    </message>
-    <message>
-        <source>Persian</source>
-        <translation type="obsolete">Persian</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="128"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Galician</translation>
     </message>
 </context>
 <context>

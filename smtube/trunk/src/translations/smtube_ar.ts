@@ -63,55 +63,7 @@
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation type="obsolete">الاسبانية</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">الروسية</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">اللثوانية</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">اليابانية</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">الباسكية</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">البرتغالية</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">الهنغارية</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">البولندية</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">العبرية</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">الاوكرانية</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">النينورسكية النرويجية</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">الجيكية</translation>
+        <translation>انقر هنا لتعرف المترجمين الحاليين من فِرَق transifex</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -129,78 +81,6 @@
         <translation>زُر %1 وانضم إلى فريق للترجمة.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">المترجمون الحاليون من فِرَق Transifex:</translation>
-    </message>
-    <message>
-        <source>Korean</source>
-        <translation type="obsolete">الكورية</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">الملايو</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">البرتغالية - البرازيل</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">الصينية المبسطة</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">الفرنسية</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">الدانماركية</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">الالمانية</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">الصينية التقليدية</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">السويدية</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">التركية</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">الفلندية</translation>
-    </message>
-    <message>
-        <source>Arabic</source>
-        <translation type="obsolete">العربية</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">الجيورجية</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">الصربية</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">الكرواتية</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">البلغارية</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">الفيتنامية</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation>هذا إصدار مقنَّن</translation>
@@ -211,97 +91,9 @@
         <translation>زُر موقعنا للحصول على الإصدار الكامل:</translation>
     </message>
     <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">الإندونيسية</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">العربية - المملكة العربية السعودية</translation>
-    </message>
-    <message>
-        <source>Arabic - Syria</source>
-        <translation type="obsolete">العربية - سوريا</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">السنهالية</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">اليونانية</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">الاستونية</translation>
-    </message>
-    <message>
-        <source>N&apos;ko</source>
-        <translation type="obsolete">أنكو</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">الايطالية</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">الأوزبكية</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">الكتالانية</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">السلوفاكية</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">الانكليزية البريطانية</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">الألبانية</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">الهولندية</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">الرومانية</translation>
-    </message>
-    <message>
-        <source>Khmer</source>
-        <translation type="obsolete">الخميرية</translation>
-    </message>
-    <message>
-        <source>Telugu</source>
-        <translation type="obsolete">التيلوغية</translation>
-    </message>
-    <message>
-        <source>Tamil</source>
-        <translation type="obsolete">التاميلية</translation>
-    </message>
-    <message>
-        <source>Malayalam</source>
-        <translation type="obsolete">الملايلامية</translation>
-    </message>
-    <message>
-        <source>Thai</source>
-        <translation type="obsolete">التايلندية</translation>
-    </message>
-    <message>
-        <source>Persian</source>
-        <translation type="obsolete">الفارسية</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="128"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">الجاليكية</translation>
     </message>
 </context>
 <context>
@@ -481,49 +273,49 @@
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="121"/>
         <source>%n hours</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>0 ساعة</numerusform>
+            <numerusform>ساعة واحدة</numerusform>
+            <numerusform>ساعتان</numerusform>
+            <numerusform>%n ساعات</numerusform>
+            <numerusform>%n ساعةً</numerusform>
+            <numerusform>%n ساعةٍ</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="128"/>
         <source>%n minutes</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>0 دقيقة</numerusform>
+            <numerusform>دقيقة واحدة</numerusform>
+            <numerusform>دقيقتان</numerusform>
+            <numerusform>%n دقائق</numerusform>
+            <numerusform>%n دقيقةً</numerusform>
+            <numerusform>%n دقيقةٍ</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="132"/>
         <source>%n seconds</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>0 ثانية</numerusform>
+            <numerusform>ثانية واحدة</numerusform>
+            <numerusform>ثانيتان</numerusform>
+            <numerusform>%n ثواني</numerusform>
+            <numerusform>%n ثانيةً</numerusform>
+            <numerusform>%n ثانيةٍ</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../downloadfile.cpp" line="134"/>
         <source>%n seconds remaining</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>0 ثانية متبقية</numerusform>
+            <numerusform>ثانية واحدة متبقية</numerusform>
+            <numerusform>ثانيتان متبقيتان</numerusform>
+            <numerusform>%n ثواني متبقية</numerusform>
+            <numerusform>%n ثانية متبقية</numerusform>
+            <numerusform>%n ثانية متبقية</numerusform>
         </translation>
     </message>
     <message>
@@ -608,13 +400,13 @@
     <message numerus="yes">
         <location filename="../recordingdialog.cpp" line="163"/>
         <source>%n bytes</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>0 بايت</numerusform>
+            <numerusform>بايت واحد</numerusform>
+            <numerusform>اثنان بايت</numerusform>
+            <numerusform>%n بايت</numerusform>
+            <numerusform>%n بايت</numerusform>
+            <numerusform>%n بايت</numerusform>
         </translation>
     </message>
 </context>
@@ -1094,7 +886,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="779"/>
         <source>R&amp;ecord audio only</source>
-        <translation type="unfinished"></translation>
+        <translation>تسجيل ال&amp;صوت فقط</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="781"/>

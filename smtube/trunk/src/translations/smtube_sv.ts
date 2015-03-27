@@ -66,50 +66,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Spanish</source>
-        <translation type="obsolete">Spanska</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Ryska</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Litauiska</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Japanska</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Baskiska</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">Portugisiska</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Ungerska</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Polska</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">Hebreiska</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ukrainska</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">Norska</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
         <translation>Många människor har bidragit med översättningar.</translation>
@@ -125,10 +81,6 @@
         <translation>Besök %1 och gå med i ett översättningsteam.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">Nuvarande översättare från transifex teamen:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation>DETTA ÄR EN REDUCERAD VERSION</translation>
@@ -142,10 +94,6 @@
         <location filename="../about.cpp" line="128"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Galiciska</translation>
     </message>
 </context>
 <context>

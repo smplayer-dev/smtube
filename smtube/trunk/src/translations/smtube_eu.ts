@@ -63,55 +63,7 @@
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation type="obsolete">Espainiera</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Errusiera</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Lituaniera</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Japoniera</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Euskara</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">Portugalera</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Hungariera</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Poloniera</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">Hebraiera</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ukrainiera</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">Norbegiera Nynorsk</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">Txekiera</translation>
+        <translation>Klikatu hemen transifex-ko taldeetako itzultzaileak ezagutzeko</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -129,78 +81,6 @@
         <translation>Ikusi %1 eta bat egin itzulpen talde batean.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">Oraingo itzultzaileak transifex taldeetatik:</translation>
-    </message>
-    <message>
-        <source>Korean</source>
-        <translation type="obsolete">Koreaera</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">Malaiera</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portugalera - Brazil</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">Txinera Arrundua</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">Frantziera</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">Daniera</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">Alemaniera</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Txinera Tradizionala</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">Suediera</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">Turkiera</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">Finlandiera</translation>
-    </message>
-    <message>
-        <source>Arabic</source>
-        <translation type="obsolete">Arabiera</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">Georgiera</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">Serbiera</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">Kroaziera</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bulgariera</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">Vietnamiera</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation>HAU BERTSIO MURRIZTU BAT DA</translation>
@@ -211,97 +91,9 @@
         <translation>Ikusi gure webgunea bertsio osoa lortzeko:</translation>
     </message>
     <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">Indonesiera</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">Arabiera - Saudiar Arabia</translation>
-    </message>
-    <message>
-        <source>Arabic - Syria</source>
-        <translation type="obsolete">Arabiera - Siria</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">Sinhalera</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">Greziera</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">Estoniera</translation>
-    </message>
-    <message>
-        <source>N&apos;ko</source>
-        <translation type="obsolete">N&apos;koera</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Italiera</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">Uzbekiera</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Kataluniera</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Eslobakiera</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">Britainiar Ingelera</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">Albaniera</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Herbeherera</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Errumaniera</translation>
-    </message>
-    <message>
-        <source>Khmer</source>
-        <translation type="obsolete">Khmerera</translation>
-    </message>
-    <message>
-        <source>Telugu</source>
-        <translation type="obsolete">Teleguera</translation>
-    </message>
-    <message>
-        <source>Tamil</source>
-        <translation type="obsolete">Tamilera</translation>
-    </message>
-    <message>
-        <source>Malayalam</source>
-        <translation type="obsolete">Malayalamera</translation>
-    </message>
-    <message>
-        <source>Thai</source>
-        <translation type="obsolete">Thailandiera</translation>
-    </message>
-    <message>
-        <source>Persian</source>
-        <translation type="obsolete">Pertsiera</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="128"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Galiziera</translation>
     </message>
 </context>
 <context>

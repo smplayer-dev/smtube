@@ -66,54 +66,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Spanish</source>
-        <translation type="obsolete">ספרדית</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">רוסית</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">ליטאית</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">יפנית</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">בסקית</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">פורטוגזית</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">הונגרית</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">פולנית</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">עברית</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">אוקראינית</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">נורבגית חדשה</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">צ&apos;כית</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
         <translation>אנשים רבים תרמו באמצעות תרגומים.</translation>
@@ -129,78 +81,6 @@
         <translation>אפשר לבקר ב %1 ולהצטרף אל קבוצת תרגום.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">תרגומים עדכניים מקבוצות transifex:</translation>
-    </message>
-    <message>
-        <source>Korean</source>
-        <translation type="obsolete">קוריאנית</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">מלאי</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">פורטוגזית - ברזיל</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">סינית מפושטת</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">צרפתית</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">דנית</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">גרמנית</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">סינית מסורתית</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">שבדית</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">טורקית</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">פינית</translation>
-    </message>
-    <message>
-        <source>Arabic</source>
-        <translation type="obsolete">ערבית</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">גרוזינית</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">סרבי</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">קרואטית</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">בולגרית</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">ווייטנאמית</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation type="unfinished"></translation>
@@ -211,93 +91,9 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">אינדונזית</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">ערבית - ערב הסעודית</translation>
-    </message>
-    <message>
-        <source>Arabic - Syria</source>
-        <translation type="obsolete">ערבית - סוריה</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">סינהלה</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">יוונית</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">אסטונית</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">איטלקית</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">אוזבקית</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">קטלנית</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">סלובקית</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">אנגלית בריטית</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">אלבנית</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">הולנדית</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">רומנית</translation>
-    </message>
-    <message>
-        <source>Khmer</source>
-        <translation type="obsolete">חמר</translation>
-    </message>
-    <message>
-        <source>Telugu</source>
-        <translation type="obsolete">טלוגו</translation>
-    </message>
-    <message>
-        <source>Tamil</source>
-        <translation type="obsolete">טמילי</translation>
-    </message>
-    <message>
-        <source>Malayalam</source>
-        <translation type="obsolete">מליאלאם</translation>
-    </message>
-    <message>
-        <source>Thai</source>
-        <translation type="obsolete">תאי</translation>
-    </message>
-    <message>
-        <source>Persian</source>
-        <translation type="obsolete">פרסית</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="128"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">גליצאית</translation>
     </message>
 </context>
 <context>
