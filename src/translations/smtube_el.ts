@@ -66,54 +66,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Spanish</source>
-        <translation type="obsolete">Ισπανικά</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Ρωσικά</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Λιθουανικά</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Ιαπωνικά</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Βασκικά</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">Πορτογαλικά</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Ουγγρικά</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Πολωνικά</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">Εβραϊκά</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ουκρανικά</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">Νεονορβηγικά Νορβηγικά</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">Τσεχικά</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
         <translation>Πολλά άτομα συνείσφεραν με μεταφράσεις.</translation>
@@ -129,78 +81,6 @@
         <translation>Επισκεφτείτε το %1 και ενταχθείτε σε μια ομάδα μεταφραστών.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">Μεταφραστές τώρα από ομάδες στο Trasifex:</translation>
-    </message>
-    <message>
-        <source>Korean</source>
-        <translation type="obsolete">Κορεάτικα</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">Μαλαϊκά</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Πορτογαλικά - Βραζιλίας</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">Κινεζικά Απλοποιημένα</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">Γαλλικά</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">Δανικά</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">Γερμανικά</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Κινεζικά Παραδοσιακά</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">Σουηδικά</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">Τουρκικά</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">Φιλανδικά</translation>
-    </message>
-    <message>
-        <source>Arabic</source>
-        <translation type="obsolete">Αραβικά</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">Γεωργιανά</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">Σερβικά</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">Κροατικά</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Βουλγαρικά</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">Βιετναμέζικα</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation type="unfinished"></translation>
@@ -211,77 +91,9 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">Ινδονησιακά</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">Αραβικά - Σαουδικής Αραβίας</translation>
-    </message>
-    <message>
-        <source>Arabic - Syria</source>
-        <translation type="obsolete">Αραβικά - Συρίας</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">Σινχαλικά </translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">Ελληνικά</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">Εσθονικά</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Ιταλικά</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">Ουζμπέκικα</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Καταλανικά</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Σλοβακικά</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">Βρετανικά Αγγλικά</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">Αλβανικά</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Ολλανδικά</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Ρουμάνικα</translation>
-    </message>
-    <message>
-        <source>Thai</source>
-        <translation type="obsolete">Ταϊλανδικά</translation>
-    </message>
-    <message>
-        <source>Persian</source>
-        <translation type="obsolete">Περσικά</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="128"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Γαλικιακά</translation>
     </message>
 </context>
 <context>

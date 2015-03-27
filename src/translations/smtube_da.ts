@@ -33,7 +33,7 @@
     <message>
         <location filename="../about.cpp" line="33"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation>YouTube%1 browser til SMPlayer</translation>
+        <translation>YouTube%1-browser til SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="35"/>
@@ -63,55 +63,7 @@
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation type="obsolete">Spansk</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Russisk</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Litauisk</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Japansk</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Baskisk</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">Portugisisk</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Ungarsk</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Polsk</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">Hebraisk</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ukrainsk</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">Norsk nynorsk</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">Tjekkisk</translation>
+        <translation>Klik her for at se oversætterne fra Transifex teams</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -129,78 +81,6 @@
         <translation>Besøg %1 og tilmeld dig et oversætter hold.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">Nuværende oversættere fra Transifex-teams:</translation>
-    </message>
-    <message>
-        <source>Korean</source>
-        <translation type="obsolete">Koreansk</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">Malajisk</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portugisisk - Brasilien</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">Forenklet kinesisk</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">Fransk</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">Dansk</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">Tysk</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Traditionel kinesisk</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">Svensk</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">Tyrkisk</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">Finsk</translation>
-    </message>
-    <message>
-        <source>Arabic</source>
-        <translation type="obsolete">Arabisk</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">Georgisk</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">Serbokroatisk</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">Kroatisk</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bulgarsk</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">Vietnamesisk</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation>DETTE ER EN BEGRÆNSET VERSION</translation>
@@ -211,97 +91,9 @@
         <translation>Besøg vores websted for at hente den fulde version:</translation>
     </message>
     <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">Indonesisk</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">Arabisk - Saudi-arabien</translation>
-    </message>
-    <message>
-        <source>Arabic - Syria</source>
-        <translation type="obsolete">Arabisk - Syrien</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">Singalesisk</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">Græsk</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">Estisk</translation>
-    </message>
-    <message>
-        <source>N&apos;ko</source>
-        <translation type="obsolete">N&apos;ko</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Italiensk</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">Usbekisk</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Catalansk</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Slovakisk</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">Britisk engelsk</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">Albansk</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Nederlandsk</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Rumænsk</translation>
-    </message>
-    <message>
-        <source>Khmer</source>
-        <translation type="obsolete">Khmer</translation>
-    </message>
-    <message>
-        <source>Telugu</source>
-        <translation type="obsolete">Telugu</translation>
-    </message>
-    <message>
-        <source>Tamil</source>
-        <translation type="obsolete">Tamil</translation>
-    </message>
-    <message>
-        <source>Malayalam</source>
-        <translation type="obsolete">Malayalam</translation>
-    </message>
-    <message>
-        <source>Thai</source>
-        <translation type="obsolete">Thailandsk</translation>
-    </message>
-    <message>
-        <source>Persian</source>
-        <translation type="obsolete">Persisk</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="128"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Galicisk</translation>
     </message>
 </context>
 <context>
@@ -913,7 +705,7 @@
     <message>
         <location filename="../ytdialog.cpp" line="232"/>
         <source>YouTube Browser - SMPlayer</source>
-        <translation>YouTube browser - SMPlayer</translation>
+        <translation>YouTube-browser - SMPlayer</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="282"/>

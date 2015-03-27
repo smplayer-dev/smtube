@@ -389,10 +389,6 @@
             <numerusform></numerusform>
         </translation>
     </message>
-    <message>
-        <source>%1 bytes</source>
-        <translation type="obsolete">%1 tavua</translation>
-    </message>
 </context>
 <context>
     <name>RecordingDialog</name>

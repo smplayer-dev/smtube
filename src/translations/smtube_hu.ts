@@ -66,54 +66,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Spanish</source>
-        <translation type="obsolete">Spanyol</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Orosz</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Litván</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Japán</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Baszk</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">Portugál (Brazil)</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Magyar</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Lengyel</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">Héber</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ukrán</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">Norvég</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">Cseh</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
         <translation>Sokan hozzájárultak a fordításhoz.</translation>
@@ -129,78 +81,6 @@
         <translation>Látogasd meg a %1 címet és csatlakozz valamelyik fordítói csapathoz.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">A Transifex csapatok jelenlegi fordítói:</translation>
-    </message>
-    <message>
-        <source>Korean</source>
-        <translation type="obsolete">Koreai</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">Maláj</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portugál - Brazil</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">Egyszerűsített kínai</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">Francia</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">Dán</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">Német</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Hagyományos kínai</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">Svéd</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">Török</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">Finn</translation>
-    </message>
-    <message>
-        <source>Arabic</source>
-        <translation type="obsolete">Arab</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">Grúz</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">Szerb</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">Horvát</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bolgár</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">Vietnami</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation type="unfinished"></translation>
@@ -211,61 +91,9 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">Indonéz</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">Arab - Szaúd-Arábia</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">Szimhala</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">Görög</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">Észt</translation>
-    </message>
-    <message>
-        <source>N&apos;ko</source>
-        <translation type="obsolete">N&apos;ko</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Olasz</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">Üzbég</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Katalán</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Szlovák</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">Brit Angol</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">Albánia</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="128"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Galíciai</translation>
     </message>
 </context>
 <context>
