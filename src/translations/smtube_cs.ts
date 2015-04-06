@@ -63,7 +63,7 @@
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
+        <translation>Klikněte zde, abyste upozornili překladatele týmů na Transifexu</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
