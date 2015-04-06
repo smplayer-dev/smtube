@@ -301,9 +301,9 @@
         <location filename="../downloadfile.cpp" line="134"/>
         <source>%n seconds remaining</source>
         <translation>
-            <numerusform>%n sekunda pozostała</numerusform>
-            <numerusform>%n sekundy pozostały</numerusform>
-            <numerusform>%n sekund pozostało</numerusform>
+            <numerusform>Pozostała %n sekunda</numerusform>
+            <numerusform>Pozostały %n sekundy</numerusform>
+            <numerusform>Pozostało %n sekund</numerusform>
         </translation>
     </message>
     <message>
@@ -786,17 +786,17 @@
     <message>
         <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation>Niestety, wymagany składnik openssl, nie jest dostępny w systemie.</translation>
+        <translation>Niestety, wymagany do tego składnik openssl, nie jest dostępny w Twoim systemie.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation>Proszę, odwiedź %1 aby poznać, jak rozwiązać ten problem.</translation>
+        <translation>Proszę odwiedzić %1, aby dowiedzieć się, jak rozwiązać ten problem.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="973"/>
         <source>this link</source>
-        <translation>ten link</translation>
+        <translation>ten odnośnik</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="984"/>

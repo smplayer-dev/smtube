@@ -180,7 +180,7 @@
     <message>
         <location filename="../configdialog.ui" line="199"/>
         <source>Period of &amp;time:</source>
-        <translation>&amp;Periode:</translation>
+        <translation>&amp;Varighed:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="229"/>
@@ -210,7 +210,7 @@
     <message>
         <location filename="../configdialog.ui" line="294"/>
         <source>Pa&amp;ssword:</source>
-        <translation>&amp;Adgangskode:</translation>
+        <translation>Adgang&amp;skode:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="311"/>
