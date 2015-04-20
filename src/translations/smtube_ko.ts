@@ -56,9 +56,8 @@
         <translation>Qt %1 (%2 사용) 로 컴파일함</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="46"/>
         <source>Visit our web for updates:</source>
-        <translation>업데이트하려면 웹 방문하기:</translation>
+        <translation type="obsolete">업데이트하려면 웹 방문하기:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
@@ -69,6 +68,16 @@
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
         <translation>많은 사람들이 번역에 공헌했습니다.</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="46"/>
+        <source>Visit our website for updates:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="49"/>
+        <source>Visit our website to get the full version:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
@@ -86,9 +95,8 @@
         <translation>이것은 간소화 버전입니다</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="49"/>
         <source>Visit our web to get the full version:</source>
-        <translation>전체 버전은 웹사이트를 방문하세요:</translation>
+        <translation type="obsolete">전체 버전은 웹사이트를 방문하세요:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -772,9 +780,8 @@
         <translation>요청한 비디오는 HTTPS 연결이 필요합니다</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation>불행히도 openssl 컴포넌트가 필요한데 당신의 시스템에는 없습니다.</translation>
+        <translation type="obsolete">불행히도 openssl 컴포넌트가 필요한데 당신의 시스템에는 없습니다.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
@@ -802,6 +809,11 @@
         <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>유감스럽게도 유투브 페이지 변경 때문에, &apos;%1&apos; 동영상을 재생하거나 녹화할 수 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>Unfortunately the OpenSSL component, required for it, it&apos;s not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="997"/>

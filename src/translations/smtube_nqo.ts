@@ -56,9 +56,8 @@
         <translation>ߊ߬ ߣߌ߫ Qt %1 ߢߊ߯ߡߌ߲߫ (%2 ߟߊߓߊ߯ߙߊ ߘߐ߫)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="46"/>
         <source>Visit our web for updates:</source>
-        <translation>ߊ߲ ߠߊ߫ ߗߍߦߙߐ ߡߊߝߟߍ߫ ߟߏ߲ߘߐߦߊߟߌ ߞߏ ߘߐ߫:</translation>
+        <translation type="obsolete">ߊ߲ ߠߊ߫ ߗߍߦߙߐ ߡߊߝߟߍ߫ ߟߏ߲ߘߐߦߊߟߌ ߞߏ ߘߐ߫:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
@@ -69,6 +68,16 @@
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
         <translation>ߡߐ߰ ߛߌߦߊߡߊ߲߫ ߕߘߍ߬ ߘߊ߫ ߘߟߡߌߘߊߟߌ ߟߎ߬ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="46"/>
+        <source>Visit our website for updates:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="49"/>
+        <source>Visit our website to get the full version:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
@@ -86,9 +95,8 @@
         <translation>ߣߌ߲߬ ߦߋ߫ ߘߟߊߡߌߣߊߟߌ ߟߊߘߛߏߣߍ߲ ߠߋ߬ ߘߌ߫</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="49"/>
         <source>Visit our web to get the full version:</source>
-        <translation>ߊ߲ ߠߊ߫ ߗߍߦߙߐ ߡߊߝߍߣߍ߲߫ ߞߊ߬ ߘߟߊߡߌߟߌ ߘߝߊߣߍ߲ ߡߊߛߐ߬ߘߐ߲߬:</translation>
+        <translation type="obsolete">ߊ߲ ߠߊ߫ ߗߍߦߙߐ ߡߊߝߍߣߍ߲߫ ߞߊ߬ ߘߟߊߡߌߟߌ ߘߝߊߣߍ߲ ߡߊߛߐ߬ߘߐ߲߬:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -772,9 +780,8 @@
         <translation>ߦߋߡߍ߲ߕߊ߫ ߡߊߢߌ߬ߣߌ߲߬ߞߊ߬ߣߍ߲ ߡߊ߬ߞߏ ߦߋ߫ HTTPS ߜߊ߲ߞߎ߲ߠߌ ߘߏ߫ ߟߊ߫</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation>ߥߊߦߌߞߊ߬߸ sslߘߊߦߟߍ ߛߌ߲߬ߝߏ߲ ߕߴߌ ߟߊ߫ ߞߊ߲ߞߋ ߞߊ߲߬.</translation>
+        <translation type="obsolete">ߥߊߦߌߞߊ߬߸ sslߘߊߦߟߍ ߛߌ߲߬ߝߏ߲ ߕߴߌ ߟߊ߫ ߞߊ߲ߞߋ ߞߊ߲߬.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
@@ -802,6 +809,11 @@
         <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>ߥߊߦߌߞߊ߬߸ ߦߕߎߓ ߖߛߐߟߌ ߟߎ߬ ߞߏߛߐ߲߬، ߦߋߡߍ߲ߕߊ &apos;%1&apos; ߡߊ߫ ߛߋ߫ ߕߏߟߏ߲߫ ߠߊ߫ ߥߟߊ߫ ߞߊ߬ ߟߊߞߎ߲߬ߘߎ߬.</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>Unfortunately the OpenSSL component, required for it, it&apos;s not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="997"/>

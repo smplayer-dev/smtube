@@ -56,9 +56,8 @@
         <translation>Kompajlirano s Qt %1 (koristeći %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="46"/>
         <source>Visit our web for updates:</source>
-        <translation>Posjetite našu web stranicu za noviju inačicu:</translation>
+        <translation type="obsolete">Posjetite našu web stranicu za noviju inačicu:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
@@ -69,6 +68,16 @@
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
         <translation>Mnogo ljudi je doprinjelo s prijevodima.</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="46"/>
+        <source>Visit our website for updates:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="49"/>
+        <source>Visit our website to get the full version:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
@@ -86,9 +95,8 @@
         <translation>OVO JE OGRANIČENA INAČICA</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="49"/>
         <source>Visit our web to get the full version:</source>
-        <translation>Posjetite našu web stranicu za nabavku potpune inačice:</translation>
+        <translation type="obsolete">Posjetite našu web stranicu za nabavku potpune inačice:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -784,9 +792,8 @@
         <translation>Video snimka koju ste zatražili treba HTTPS povezivanje.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation>Nažalost potrebna openssl komponenta, nije dostupna na vašem sustavu.</translation>
+        <translation type="obsolete">Nažalost potrebna openssl komponenta, nije dostupna na vašem sustavu.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
@@ -814,6 +821,11 @@
         <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Nažalost tijekom promjena na Youtubu, video snimka &apos;%1&apos; se ne može reproducirati ili snimiti.</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>Unfortunately the OpenSSL component, required for it, it&apos;s not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="997"/>
