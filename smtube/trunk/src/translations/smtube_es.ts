@@ -57,8 +57,17 @@
     </message>
     <message>
         <location filename="../about.cpp" line="46"/>
-        <source>Visit our web for updates:</source>
+        <source>Visit our website for updates:</source>
         <translation>Visita nuestra web para conseguir actualizaciones:</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="49"/>
+        <source>Visit our website to get the full version:</source>
+        <translation>Visita nuestra web para obtener la versión completa:</translation>
+    </message>
+    <message>
+        <source>Visit our web for updates:</source>
+        <translation type="obsolete">Visita nuestra web para conseguir actualizaciones:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
@@ -135,9 +144,8 @@
         <translation>ESTA ES UNA VERSIÓN REDUCIDA</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="49"/>
         <source>Visit our web to get the full version:</source>
-        <translation>Visita nuestra web para obtener la versión completa:</translation>
+        <translation type="obsolete">Visita nuestra web para obtener la versión completa:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
@@ -1402,6 +1410,11 @@
         <translation>Vídeos musicales más populares en YouTube%1</translation>
     </message>
     <message>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>Unfortunately the OpenSSL component, required for it, it&apos;s not available in your system.</source>
+        <translation>Lamentablemente el componente OpenSSL, que es necesario para ello, no se encuentra en tu sistema.</translation>
+    </message>
+    <message>
         <source>R&amp;ecord audio</source>
         <translation type="obsolete">Grabar a&amp;udio</translation>
     </message>
@@ -1461,9 +1474,8 @@
         <translation>El vídeo que has solicitado necesita abrir una conexión HTTPS.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation>Lamentablemente el componente openssl, que es necesario para ello, no se encuentra en tu sistema.</translation>
+        <translation type="obsolete">Lamentablemente el componente openssl, que es necesario para ello, no se encuentra en tu sistema.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>

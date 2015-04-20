@@ -56,9 +56,8 @@
         <translation>Compilato con Qt %1 (usando Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="46"/>
         <source>Visit our web for updates:</source>
-        <translation>Per ulteriori informazioni visita il nostro sito web:</translation>
+        <translation type="obsolete">Per ulteriori informazioni visita il nostro sito web:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
@@ -69,6 +68,16 @@
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
         <translation>Molte persone hanno già contribuito alla traduzione</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="46"/>
+        <source>Visit our website for updates:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="49"/>
+        <source>Visit our website to get the full version:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
@@ -86,9 +95,8 @@
         <translation>VERSIONE RIDOTTA</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="49"/>
         <source>Visit our web to get the full version:</source>
-        <translation>Per ulteriori informazioni visita il nostro sito web:</translation>
+        <translation type="obsolete">Per ulteriori informazioni visita il nostro sito web:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -778,9 +786,8 @@
         <translation>Il video richiesto richiede l&apos;apertura di una connessione HTTPS.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation>Attenzione, il componente OpenSSL richiesto non è disponibile sul tuo computer.</translation>
+        <translation type="obsolete">Attenzione, il componente OpenSSL richiesto non è disponibile sul tuo computer.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
@@ -808,6 +815,11 @@
         <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Sfortunatamente a causa delle recenti modifiche apportate a YouTube il video &apos;%1&apos; che si sta cercando non è più visualizzabile o registrabile.</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>Unfortunately the OpenSSL component, required for it, it&apos;s not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="997"/>

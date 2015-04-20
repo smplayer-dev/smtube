@@ -56,9 +56,8 @@
         <translation>Dikompilasi dengan Qt %1 (menggunakan %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="46"/>
         <source>Visit our web for updates:</source>
-        <translation>Kunjungi situs kami untuk pembaharuan:</translation>
+        <translation type="obsolete">Kunjungi situs kami untuk pembaharuan:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
@@ -69,6 +68,16 @@
         <location filename="../about.cpp" line="99"/>
         <source>Many people contributed with translations.</source>
         <translation>Banyak orang yang berkontribusi untuk menerjemahkannya.</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="46"/>
+        <source>Visit our website for updates:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="49"/>
+        <source>Visit our website to get the full version:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
@@ -86,9 +95,8 @@
         <translation>INI ADALAH VERSI PENGURANGAN</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="49"/>
         <source>Visit our web to get the full version:</source>
-        <translation>Kunjungi web kami untuk mendapatkan versi penuh:</translation>
+        <translation type="obsolete">Kunjungi web kami untuk mendapatkan versi penuh:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -772,9 +780,8 @@
         <translation>Video yang kamu rekuest membutuhkan untuk membuka koneksi HTTPS</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation>Sayangnya komponen openssl, membutuhkan untuk itu, itu tidak tersedia di sistem kamu.</translation>
+        <translation type="obsolete">Sayangnya komponen openssl, membutuhkan untuk itu, itu tidak tersedia di sistem kamu.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
@@ -802,6 +809,11 @@
         <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Sayangnya dengan adanya perubahan di Youtube, video &apos;%1&apos; tidak dapat diputar atau direkam.</translation>
+    </message>
+    <message>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>Unfortunately the OpenSSL component, required for it, it&apos;s not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="997"/>
