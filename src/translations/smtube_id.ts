@@ -56,10 +56,6 @@
         <translation>Dikompilasi dengan Qt %1 (menggunakan %2)</translation>
     </message>
     <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Kunjungi situs kami untuk pembaharuan:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="103"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation>Klik disini untuk mengetahui penerjemah dari tim transifex</translation>
@@ -93,10 +89,6 @@
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation>INI ADALAH VERSI PENGURANGAN</translation>
-    </message>
-    <message>
-        <source>Visit our web to get the full version:</source>
-        <translation type="obsolete">Kunjungi web kami untuk mendapatkan versi penuh:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -780,8 +772,9 @@
         <translation>Video yang kamu rekuest membutuhkan untuk membuka koneksi HTTPS</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="obsolete">Sayangnya komponen openssl, membutuhkan untuk itu, itu tidak tersedia di sistem kamu.</translation>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
@@ -809,11 +802,6 @@
         <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Sayangnya dengan adanya perubahan di Youtube, video &apos;%1&apos; tidak dapat diputar atau direkam.</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="971"/>
-        <source>Unfortunately the OpenSSL component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="997"/>
