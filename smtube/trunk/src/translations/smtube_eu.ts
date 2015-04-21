@@ -56,10 +56,6 @@
         <translation>Qt%1-rekin Bilduta (%2 erabiliz)</translation>
     </message>
     <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Ikusi gure webgunea eguneraketentzat:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="103"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation>Klikatu hemen transifex-ko taldeetako itzultzaileak ezagutzeko</translation>
@@ -72,12 +68,12 @@
     <message>
         <location filename="../about.cpp" line="46"/>
         <source>Visit our website for updates:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikusi gure webgunea eguneraketentzat:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Visit our website to get the full version:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikusi gure webgunea bertsio osoa lortzeko:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
@@ -93,10 +89,6 @@
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation>HAU BERTSIO MURRIZTU BAT DA</translation>
-    </message>
-    <message>
-        <source>Visit our web to get the full version:</source>
-        <translation type="obsolete">Ikusi gure webgunea bertsio osoa lortzeko:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -786,8 +778,9 @@
         <translation>Eskatu duzun bideoak HTTPS elkarketa bat irekitzea behar du.</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="obsolete">Zorigaitzez openssl osagaia, horretarako beharrezkoa dena, ez dago eskuragarri zure sisteman.</translation>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
@@ -817,9 +810,8 @@
         <translation>Zoritxarrez Youtube-ko aldaketengaitik, &apos;%1&apos; bideoa ezin da irakurri edo grabatu.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the OpenSSL component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Zorigaitzez OpenSSL osagaia, horretarako beharrezkoa dena, ez dago eskuragarri zure sisteman.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="997"/>

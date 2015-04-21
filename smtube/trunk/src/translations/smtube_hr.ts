@@ -56,10 +56,6 @@
         <translation>Kompajlirano s Qt %1 (koristeći %2)</translation>
     </message>
     <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Posjetite našu web stranicu za noviju inačicu:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="103"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation>Kliknite ovdje kako bi vidjeli prevoditelje s transifex timova</translation>
@@ -93,10 +89,6 @@
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation>OVO JE OGRANIČENA INAČICA</translation>
-    </message>
-    <message>
-        <source>Visit our web to get the full version:</source>
-        <translation type="obsolete">Posjetite našu web stranicu za nabavku potpune inačice:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -792,8 +784,9 @@
         <translation>Video snimka koju ste zatražili treba HTTPS povezivanje.</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="obsolete">Nažalost potrebna openssl komponenta, nije dostupna na vašem sustavu.</translation>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
@@ -821,11 +814,6 @@
         <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>Nažalost tijekom promjena na Youtubu, video snimka &apos;%1&apos; se ne može reproducirati ili snimiti.</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="971"/>
-        <source>Unfortunately the OpenSSL component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="997"/>

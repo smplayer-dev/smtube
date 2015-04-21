@@ -56,10 +56,6 @@
         <translation>Compilado con Qt %1 (empregando %2)</translation>
     </message>
     <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Visita o noso sitio web para informarte sobre das actualizacións:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="103"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation>Prema aquí para coñecer os equipos de tradutores do Transifex</translation>
@@ -72,12 +68,12 @@
     <message>
         <location filename="../about.cpp" line="46"/>
         <source>Visit our website for updates:</source>
-        <translation type="unfinished"></translation>
+        <translation>Busque actualizacións no noso web:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Visit our website to get the full version:</source>
-        <translation type="unfinished"></translation>
+        <translation>Visita o noso web para obter a versión completa:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
@@ -93,10 +89,6 @@
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation>ESTA É UNHA VERSIÓN REDUCIDA</translation>
-    </message>
-    <message>
-        <source>Visit our web to get the full version:</source>
-        <translation type="obsolete">Visita o noso web para obter a versión completa:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -786,8 +778,9 @@
         <translation>O video solicitado precisa abrir unha conexión HTTPS.</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="obsolete">Mais o compoñente openssl, que se precisa para a abrir, non está instalado no seu sistema.</translation>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
@@ -817,9 +810,8 @@
         <translation>Non se pode reproducir o vídeo «%1» por mor de cambios na páxina do Youtube.</translation>
     </message>
     <message>
-        <location filename="../ytdialog.cpp" line="971"/>
         <source>Unfortunately the OpenSSL component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Desafortunadamente o compoñente OpenSSL requirido non está dispoñíbel no sistema.</translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="997"/>

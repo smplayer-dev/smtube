@@ -56,10 +56,6 @@
         <translation>Compiled with Qt %1 (using %2)</translation>
     </message>
     <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">בקר באתר הרשת שלנו לשם עדכונים:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="103"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation type="unfinished"></translation>
@@ -782,8 +778,9 @@
         <translation>הסרטון שביקשת צריך לפתוח חיבור HTTPS.</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="obsolete">למרבה הצער, הרכיב openssl, שדרוש לשם זאת, אינו זמין בתוך המערכת שלך.</translation>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
@@ -811,11 +808,6 @@
         <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>למרבה הצער בעקבות שינויים אצל Youtube, הוידאו &apos;%1&apos; לא מסוגל להתנגן או להיקלט.</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="971"/>
-        <source>Unfortunately the OpenSSL component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="997"/>

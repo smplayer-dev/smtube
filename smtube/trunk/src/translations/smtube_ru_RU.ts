@@ -928,6 +928,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../ytdialog.cpp" line="972"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation type="unfinished"></translation>
@@ -952,11 +957,6 @@
         <location filename="../ytdialog.cpp" line="985"/>
         <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="971"/>
-        <source>Unfortunately the OpenSSL component, required for it, it&apos;s not available in your system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

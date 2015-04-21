@@ -56,10 +56,6 @@
         <translation>Компилиран с Qt %1 (използва %2)</translation>
     </message>
     <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Посети нашият уеб сайт за обновления:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="103"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation type="unfinished"></translation>
@@ -93,10 +89,6 @@
         <location filename="../about.cpp" line="48"/>
         <source>THIS IS A REDUCED VERSION</source>
         <translation>ТОВА Е СЪКРАТЕНА ВЕРСИЯ</translation>
-    </message>
-    <message>
-        <source>Visit our web to get the full version:</source>
-        <translation type="obsolete">Посетете нашият сайт, за да изтеглите пълната версия:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
@@ -786,8 +778,9 @@
         <translation>Видеото, което поръчахте, изисква отварянето на HTTPS връзка.</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="obsolete">За съжаление компонентът openssl, необходим за него, не е наличен на вашата система.</translation>
+        <location filename="../ytdialog.cpp" line="971"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="972"/>
@@ -815,11 +808,6 @@
         <location filename="../ytdialog.cpp" line="996"/>
         <source>Unfortunately due to changes in Youtube, the video &apos;%1&apos; can&apos;t be played or recorded.</source>
         <translation>За съжаление поради промени в Youtube, клипът „%1“ не може да бъде възпроизведен или записан.</translation>
-    </message>
-    <message>
-        <location filename="../ytdialog.cpp" line="971"/>
-        <source>Unfortunately the OpenSSL component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ytdialog.cpp" line="997"/>
