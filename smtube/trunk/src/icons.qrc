@@ -1,0 +1,6 @@
+<RCC>
+	<qresource prefix="/">
+		<file>icons/home.png</file>
+		<file>icons/smtube.png</file>
+	</qresource>
+</RCC>

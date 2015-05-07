@@ -1,0 +1,3 @@
+home.png:
+url: http://findicons.com/icon/237969/go_home?id=240422
+license: GPL

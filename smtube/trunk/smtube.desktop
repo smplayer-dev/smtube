@@ -1,0 +1,10 @@
+[Desktop Entry]
+Exec=smtube
+Comment=Browse and search from YouTube
+Comment[es]=Permite buscar vídeos de YouTube
+GenericName=Youtube Browser
+GenericName[es]=Buscar vídeos en YouTube
+Icon=smtube
+Name=YouTube Browser for SMPlayer
+Type=Application
+Categories=Qt;KDE;AudioVideo;Player;Video;

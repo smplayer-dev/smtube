@@ -1,0 +1,5 @@
+smtube (15.5.7) precise; urgency=low
+
+  * New smtube, rewritten from scratch.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 07 May 2015 00:15:39 +0200
