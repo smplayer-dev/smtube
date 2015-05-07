@@ -41,6 +41,8 @@ RetrieveYoutubeUrl::RetrieveYoutubeUrl( QObject* parent ) : QObject(parent)
 	manager = new QNetworkAccessManager(this);
 
 	preferred_quality = FLV_360p;
+
+	itag_from_preferred_quality = -1;
 }
 
 RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
@@ -522,7 +524,7 @@ void RetrieveYoutubeUrl::parseVideoInfo(QByteArray text) {
 	}
 
 	QString p_url = findPreferredUrl();
-	//qDebug("p_url: '%s'", p_url.toLatin1().constData());
+	qDebug("p_url: '%s'", p_url.toLatin1().constData());
 
 	if (!p_url.isNull()) {
 		emit gotUrls(urlMap);
@@ -537,71 +539,90 @@ void RetrieveYoutubeUrl::parseVideoInfo(QByteArray text) {
 #endif
 
 QString RetrieveYoutubeUrl::findPreferredUrl() {
-	latest_preferred_url = findPreferredUrl(urlMap, preferred_quality);
+	int itag;
+	latest_preferred_url = findPreferredUrl(urlMap, preferred_quality, &itag);
+	itag_from_preferred_quality = itag;
 	return latest_preferred_url;
 }
 
-QString RetrieveYoutubeUrl::findPreferredUrl(const QMap<int, QString>& urlMap, Quality q) {
+QString RetrieveYoutubeUrl::findPreferredUrl(const QMap<int, QString>& urlMap, Quality q, int * itag) {
 	// Choose a url according to preferred quality
 	QString p_url;
 	//Quality q = preferred_quality;
 
+	int chosen_quality = -1;
+
+	#define SETPURL(QUALITY) { \
+			p_url= urlMap.value(QUALITY, QString()); \
+			if (!p_url.isNull()) chosen_quality = QUALITY; \
+		}
+
+
 	if (q==MP4_1080p) {
-		p_url = urlMap.value(MP4_1080p, QString());
-		if (p_url.isNull()) p_url= urlMap.value(WEBM_1080p, QString());
+		SETPURL(MP4_1080p)
+		if (p_url.isNull()) SETPURL(WEBM_1080p)
 		if (p_url.isNull()) q = MP4_720p;
 	}
 
 	if (q==WEBM_1080p) {
-		p_url = urlMap.value(WEBM_1080p, QString());
-		if (p_url.isNull()) p_url= urlMap.value(MP4_1080p, QString());
+		SETPURL(WEBM_1080p)
+		if (p_url.isNull()) SETPURL(MP4_1080p)
 		if (p_url.isNull()) q = WEBM_720p;
 	}
 
 	if (q==MP4_720p) {
-		p_url = urlMap.value(MP4_720p, QString());
-		if (p_url.isNull()) p_url= urlMap.value(WEBM_720p, QString());
-		if (p_url.isNull()) p_url = urlMap.value(WEBM_480p, QString());
+		SETPURL(MP4_720p)
+		if (p_url.isNull()) SETPURL(WEBM_720p)
+		if (p_url.isNull()) SETPURL(WEBM_480p)
 		if (p_url.isNull()) q = MP4_360p;
 	}
 
 	if (q==WEBM_720p) {
-		p_url = urlMap.value(WEBM_720p, QString());
-		if (p_url.isNull()) p_url= urlMap.value(MP4_720p, QString());
+		SETPURL(WEBM_720p)
+		if (p_url.isNull()) SETPURL(MP4_720p)
 		if (p_url.isNull()) q = WEBM_480p;
 	}
 
 	if (q==WEBM_480p) {
-		p_url = urlMap.value(WEBM_480p, QString());
+		SETPURL(WEBM_480p)
 		if (p_url.isNull()) q = WEBM_360p;
 	}
 
 	if (q==MP4_360p) {
-		p_url = urlMap.value(MP4_360p, QString());
-		if (p_url.isNull()) p_url= urlMap.value(WEBM_360p, QString());
+		SETPURL(MP4_360p)
+		if (p_url.isNull()) SETPURL(WEBM_360p)
 		if (p_url.isNull()) q = FLV_360p;
 	}
 
 	if (q==WEBM_360p) {
-		p_url = urlMap.value(WEBM_360p, QString());
-		if (p_url.isNull()) p_url= urlMap.value(MP4_360p, QString());
+		SETPURL(WEBM_360p)
+		if (p_url.isNull()) SETPURL(MP4_360p)
 		if (p_url.isNull()) q = FLV_360p;
 	}
 
 	// FLV, low priority
 	if (q==FLV_480p) {
-		p_url = urlMap.value(FLV_480p, QString());
+		SETPURL(FLV_480p)
 		if (p_url.isNull()) q = FLV_360p;
 	}
 
 	if (q==FLV_360p) {
-		p_url = urlMap.value(FLV_360p, QString());
+		SETPURL(FLV_360p)
 		if (p_url.isNull()) q = FLV_240p;
 	}
 
 	if (q==FLV_240p) {
-		p_url = urlMap.value(q, QString());
+		SETPURL(q)
 	}
+
+	// If everything fails, take the first url in the map
+	if (p_url.isEmpty()) {
+		QList<int> keys = urlMap.keys();
+		if (!keys.isEmpty()) SETPURL(keys[0])
+	}
+	
+	qDebug("RetrieveYoutubeUrl::findPreferredUrl: chosen_quality: %d", chosen_quality);
+	if (itag) *itag = chosen_quality;
 
 	return p_url;
 }
@@ -645,6 +666,34 @@ void RetrieveYoutubeUrl::htmlDecode(QString& string) {
 	string.replace("%25", "%", Qt::CaseInsensitive);
 	string.replace("%26", "&", Qt::CaseInsensitive);
 	string.replace("%3D", "=", Qt::CaseInsensitive);
+}
+
+QString RetrieveYoutubeUrl::extensionForItag(int itag) {
+	QString ext = ".mp4";
+	switch (itag) {
+		case RetrieveYoutubeUrl::FLV_240p:
+		case RetrieveYoutubeUrl::FLV_360p:
+		case RetrieveYoutubeUrl::FLV_480p:
+			ext = ".flv";
+			break;
+		case RetrieveYoutubeUrl::WEBM_360p:
+		case RetrieveYoutubeUrl::WEBM_480p:
+		case RetrieveYoutubeUrl::WEBM_720p:
+		case RetrieveYoutubeUrl::WEBM_1080p:
+			ext = ".webm";
+			break;
+		case RetrieveYoutubeUrl::DASH_AUDIO_MP4_48:
+		case RetrieveYoutubeUrl::DASH_AUDIO_MP4_128:
+		case RetrieveYoutubeUrl::DASH_AUDIO_MP4_256:
+			ext = ".m4a";
+			break;
+		case RetrieveYoutubeUrl::DASH_AUDIO_WEBM_128:
+		case RetrieveYoutubeUrl::DASH_AUDIO_WEBM_192:
+			ext = ".webm";
+			break;
+	}
+
+	return ext;
 }
 
 #include "moc_retrieveyoutubeurl.cpp"

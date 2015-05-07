@@ -1,6 +1,5 @@
-    smtube - a small youtube browser
-    Copyright (C) 2012-2015 Ricardo Villalba <rvm@users.sourceforge.net>
-    Copyright (C) 2010 Ori Rejwan
+    SMTube - a small YouTube browser for SMPlayer
+    Copyright (C) 2015 Ricardo Villalba <rvm@users.sourceforge.net>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -18,33 +17,24 @@
 
     -------------------------------------------------------------------------
 
-    This is a youtube browser for smplayer. You can browse, search, download
-    and play youtube videos. The videos are currently played in smplayer but
-    in the future it may be added the possibility to use other players.
-
-    The code has been taken from UMPlayer (http://www.umplayer.com). I made
-    some modifications to make it a stand-alone application and added a few 
-    improvements.
-
-    The original author is Ori Rejwan.
+    This is a YouTube browser for SMPlayer. You can browse, search and
+    play YouTube videos. The videos can be played in SMPlayer or any
+    other media player.
 
     Visit the web for updates:
-    http://smplayer.berlios.de
-    http://smplayer.sourceforge.net
+    http://smtube.sourceforge.net
 
     Forum:
-    http://smplayer.berlios.de/forum
+    http://forum.smplayer.info
 
-    Icon for smtube created by redxii (<redxii@users.sourceforge.net>), 
-    based on Crystal Project icons(http://everaldo.com/crystal/), 
+    The SMTube icon was created by redxii (<redxii@users.sourceforge.net>),
+    based on Crystal Project icons(http://everaldo.com/crystal/),
     license LGPL.
 
     -------------------------------------------------------------------------
 
     Third-party:
 
-     * QtSingleApplication from Qt Solutions.
-       url: http://qt.gitorious.org/qt-solutions
-       license: BSD (see src/qtsingleapplication/qtsingleapplication.h)
-
-     * Some icons taken from smplayer and umplayer.
+     * Icon home.png:
+       url: http://findicons.com/icon/237969/go_home?id=240422
+       license: GPL

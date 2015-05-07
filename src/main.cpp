@@ -1,6 +1,5 @@
-/*  smtube, a small youtube browser.
-    Copyright (C) 2012-2015 Ricardo Villalba <rvm@users.sourceforge.net>
-    Copyright (C) 2010 Ori Rejwan
+/*  SMTUBE2, a small YouTube browser for SMPlayer
+    Copyright (C) 2015 Ricardo Villalba <rvm@users.sourceforge.net>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -17,36 +16,27 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifdef USE_SINGLE_APPLICATION
-#include "QtSingleApplication"
-#else
+#include "browserwindow.h"
 #include <QApplication>
-#endif
-
+#include <QDir>
 #include <QTranslator>
 #include <QLibraryInfo>
-#include <QSettings>
-#include <QDir>
-#include "ytdialog.h"
-
-#ifdef Q_WS_AMIGA // zzd10h
-const char* __attribute__((used)) stack_cookie = "\0$STACK:500000\0";
-#endif
+#include <QDebug>
 
 QString configPath() {
 #ifdef PORTABLE_APP
-    return qApp->applicationDirPath();
+	return qApp->applicationDirPath();
 #else
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
-    const char * XDG_CONFIG_HOME = getenv("XDG_CONFIG_HOME");
-    if (XDG_CONFIG_HOME!=NULL) {
-        /* qDebug("configPath: XDG_CONFIG_HOME: %s", XDG_CONFIG_HOME); */
-        return QString(XDG_CONFIG_HOME) + "/smtube";
-    } 
-    else
-    return QDir::homePath() + "/.config/smtube";
+	const char * XDG_CONFIG_HOME = getenv("XDG_CONFIG_HOME");
+	if (XDG_CONFIG_HOME!=NULL) {
+		/* qDebug("configPath: XDG_CONFIG_HOME: %s", XDG_CONFIG_HOME); */
+		return QString(XDG_CONFIG_HOME) + "/smtube";
+	}
+	else
+	return QDir::homePath() + "/.config/smtube";
 #else
-    return QDir::homePath() + "/.smtube";
+	return QDir::homePath() + "/.smtube";
 #endif
 #endif // PORTABLE_APP
 }
@@ -54,22 +44,23 @@ QString configPath() {
 #ifdef YT_USE_SCRIPT
 QString smplayerConfigPath() {
 #ifdef PORTABLE_APP
-    return qApp->applicationDirPath();
+	return qApp->applicationDirPath();
 #else
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
-    const char * XDG_CONFIG_HOME = getenv("XDG_CONFIG_HOME");
-    if (XDG_CONFIG_HOME!=NULL) {
-        /* qDebug("configPath: XDG_CONFIG_HOME: %s", XDG_CONFIG_HOME); */
-        return QString(XDG_CONFIG_HOME) + "/smplayer";
-    } 
-    else
-    return QDir::homePath() + "/.config/smplayer";
+	const char * XDG_CONFIG_HOME = getenv("XDG_CONFIG_HOME");
+	if (XDG_CONFIG_HOME!=NULL) {
+		/* qDebug("configPath: XDG_CONFIG_HOME: %s", XDG_CONFIG_HOME); */
+		return QString(XDG_CONFIG_HOME) + "/smplayer";
+	}
+	else
+	return QDir::homePath() + "/.config/smplayer";
 #else
-    return QDir::homePath() + "/.smplayer";
+	return QDir::homePath() + "/.smplayer";
 #endif
 #endif // PORTABLE_APP
 }
 #endif // YT_USE_SCRIPT
+
 
 QString translationsPath() {
 #ifdef Q_WS_AMIGA // zzd10h
@@ -79,36 +70,28 @@ QString translationsPath() {
 	QString path = "translations";
 #if !defined(Q_OS_WIN)
 #ifdef TRANSLATION_PATH
-	 QString s = QString(TRANSLATION_PATH);
-	 if (!s.isEmpty()) path = s;
+	QString s = QString(TRANSLATION_PATH);
+	if (!s.isEmpty()) path = s;
 #endif
 #endif
-    //qDebug("Translations path: '%s'", path.toUtf8().constData());
-    return path;
+	qDebug() << "Translations path:" << path;
+	return path;
 }
 
 QString qtTranslationsPath() {
 #if defined(Q_OS_WIN)
-    return "translations";
+	return "translations";
 #else
-    return QLibraryInfo::location(QLibraryInfo::TranslationsPath);
+	return QLibraryInfo::location(QLibraryInfo::TranslationsPath);
 #endif
 }
 
-int main( int argc, char ** argv ) 
-{
-#ifdef USE_SINGLE_APPLICATION
-	QtSingleApplication a("smtube", argc, argv);
-#else
+int main(int argc, char * argv[]) {
 	QApplication a(argc, argv);
-#endif
-	/* a.setWheelScrollLines(1); */
 
+	QUrl url;
 	QString search_term;
 	QString language;
-#ifdef YT_DL
-	QString download_url;
-#endif
 
 	QStringList args = qApp->arguments();
 	for (int n = 1; n < args.count(); n++) {
@@ -119,34 +102,16 @@ int main( int argc, char ** argv )
 				language = args[n];
 			}
 		}
-		#ifdef YT_DL
 		else
 		if (argument == "-url") {
 			if (n+1 < args.count()) {
 				n++;
-				download_url = args[n];
+				url = QUrl::fromUserInput(argv[n]);
 			}
 		}
-		#endif
 		else
 		search_term = args[n];
 	}
-
-#ifdef USE_SINGLE_APPLICATION
-	if (a.isRunning()) {
-		QString message;
-		if (!search_term.isEmpty()) message = "search " + search_term;
-		a.sendMessage(message);
-		#ifdef YT_DL
-		if (!download_url.isEmpty()) {
-			a.sendMessage("download " + download_url);
-		}
-		#endif
-		qDebug("Another instance is running. Exiting.");
-		return 0;
-	}
-#endif
-	a.connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
 
 	QString locale = QLocale::system().name();
 	if (!language.isEmpty()) locale = language;
@@ -160,41 +125,34 @@ int main( int argc, char ** argv )
 	a.installTranslator(&qt_trans);
 
 	if (!QFile::exists(configPath())) {
-		qDebug("Creating '%s'", configPath().toUtf8().constData() );
+		qDebug() << "Creating" << configPath();
 		QDir().mkpath( configPath() );
 	}
 
-	QSettings settings(configPath() + "/smtube.ini", QSettings::IniFormat);
-
-	YTDialog * yt = new YTDialog(0, &settings);
+	BrowserWindow * w = new BrowserWindow(configPath());
 
 #ifdef YT_USE_SCRIPT
 	QString ytcode_name = "yt.js";
 	QString ytcode_file = configPath() +"/"+ ytcode_name;
 	if (QFile::exists(smplayerConfigPath())) ytcode_file = smplayerConfigPath() +"/"+ ytcode_name;
-	qDebug("ytcode_file: %s", ytcode_file.toUtf8().constData());
-	yt->setScriptFile(ytcode_file);
-#endif
-
-#ifdef USE_SINGLE_APPLICATION
-	QObject::connect(&a, SIGNAL(messageReceived(const QString&)),
-                     yt, SLOT(handleMessage(const QString&)));
-	a.setActivationWindow(yt);
+	qDebug() << "ytcode_file:" << ytcode_file;
+	w->setScriptFile(ytcode_file);
 #endif
 
 	if (!search_term.isEmpty()) {
-		yt->setSearchTerm(search_term);
-	} else {
-		yt->setMode(YTDialog::Button);
+		w->search(search_term);
 	}
-	yt->show();
-#ifdef YT_DL
-	if (!download_url.isEmpty()) yt->downloadUrl(download_url);
-#endif
+	else
+	if (url.isValid()) {
+		w->loadUrl(url);
+	}
+	else {
+		w->loadHomePage();
+	}
 
+	w->show();
 	int r = a.exec();
 
-	delete yt;
-
+	delete w;
 	return r;
 }

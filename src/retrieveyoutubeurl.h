@@ -52,7 +52,7 @@ public:
 	void setPreferredQuality(Quality q) { preferred_quality = q; }
 	Quality preferredQuality() { return preferred_quality; }
 
-	static QString findPreferredUrl(const QMap<int, QString>& urlMap, Quality q);
+	static QString findPreferredUrl(const QMap<int, QString>& urlMap, Quality q, int * itag = 0);
 	QString findPreferredUrl();
 
 #ifdef YT_DASH_SUPPORT
@@ -60,8 +60,10 @@ public:
 #endif
 
 	QString urlTitle() { return url_title; }
-	QString latestPreferredUrl() { return latest_preferred_url; }
 	QString origUrl() { return orig_url; }
+
+	QString latestPreferredUrl() { return latest_preferred_url; }
+	int itagFromPreferredQuality() { return itag_from_preferred_quality; }
 
 	bool isUrlSupported(const QString & url);
 	QString fullUrl(const QString & url);
@@ -70,6 +72,8 @@ public:
 	static void setUseHttpsVi(bool b) { use_https_vi = b; };
 	static bool useHttpsMain() { return use_https_main; };
 	static bool useHttpsVi() { return use_https_vi; };
+
+	static QString extensionForItag(int itag);
 
 signals:
 	void gotUrls(const QMap<int, QString>&);
@@ -104,6 +108,7 @@ protected:
 	QString url_title;
 	QString orig_url;
 	QString latest_preferred_url;
+	int itag_from_preferred_quality;
 
 	Quality preferred_quality;
 	static QString user_agent;

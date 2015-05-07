@@ -21,30 +21,34 @@
 
 #ifdef Q_OS_WIN
 
+#define HCPLAYER_NAME "SMPlayer"
 #define HCPLAYER_EXECUTABLE qApp->applicationDirPath() + "/smplayer.exe"
+#define HCPLAYER_ARGUMENTS "%u"
 #define HCPLAYER_DIRECTPLAY true
-#define HCPLAYER_TITLEOPTION QString::null
 
 #else
 
 #ifdef Q_OS_AMIGA //zzd10h
 
+#define HCPLAYER_NAME "MPlayer"
 #define HCPLAYER_EXECUTABLE "Amiga/PlayVideo.rexx"
+#define HCPLAYER_ARGUMENTS "%u"
 #define HCPLAYER_DIRECTPLAY false
-#define HCPLAYER_TITLEOPTION QString::null
 
 #else
 
+#define HCPLAYER_NAME "SMPlayer"
 #define HCPLAYER_EXECUTABLE "smplayer"
+#define HCPLAYER_ARGUMENTS "%u"
 #define HCPLAYER_DIRECTPLAY true
-#define HCPLAYER_TITLEOPTION QString::null
 
 #endif
 
 /*
+#define HCPLAYER_NAME "MPlayer"
 #define HCPLAYER_EXECUTABLE "mplayer"
+#define HCPLAYER_ARGUMENTS "%u -title %t"
 #define HCPLAYER_DIRECTPLAY false
-#define HCPLAYER_TITLEOPTION "-title "
 */
 
 #endif

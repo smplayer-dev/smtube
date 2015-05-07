@@ -43,7 +43,7 @@ install: src/smtube
 	-install -d $(DESTDIR)$(KDE_ICONS)/48x48/apps/
 	-install -d $(DESTDIR)$(KDE_ICONS)/32x32/apps/
 	-install -d $(DESTDIR)$(KDE_ICONS)/16x16/apps/
-	install -m 644 src/icons/logo.png $(DESTDIR)$(KDE_ICONS)/256x256/apps/smtube.png
+	install -m 644 icons/smtube_256.png $(DESTDIR)$(KDE_ICONS)/256x256/apps/smtube.png
 	install -m 644 icons/smtube_128.png $(DESTDIR)$(KDE_ICONS)/128x128/apps/smtube.png
 	install -m 644 icons/smtube_64.png $(DESTDIR)$(KDE_ICONS)/64x64/apps/smtube.png
 	install -m 644 icons/smtube_48.png $(DESTDIR)$(KDE_ICONS)/48x48/apps/smtube.png

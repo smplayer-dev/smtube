@@ -23,30 +23,36 @@
 #include <QStringList>
 #include <QList>
 
+class QSettings;
+
 class Player
 {
 public:
-	Player(QString name, QString binary, bool directPlay, QString title_option = QString::null) { 
+	Player(QString name, QString binary, QString arguments, bool directPlay) {
 		player_name = name;
 		player_bin = binary;
+		args = arguments;
 		direct_play = directPlay;
-		title_opt = title_option;
 	}
 
 	void setName(QString name) { player_name = name; }
 	void setBinary(QString binary) { player_bin = binary; }
+	void setArguments(QString arguments) { args = arguments; }
 	void setDirectPlay(bool b) { direct_play = b; }
-	void setTitleOption(QString s) { title_opt = s; }
 
 	QString name() { return player_name; }
 	QString binary() { return player_bin; }
+	QString arguments() { return args; };
 	bool directPlay() { return direct_play; }
-	QString titleOption() { return title_opt; }
 
 	QString executable(bool * found = 0);
 
 protected:
-	QString player_name, player_bin, title_opt;
+#ifdef Q_OS_LINUX
+	QString findExecutable(const QString & name);
+#endif
+
+	QString player_name, player_bin, args;
 	bool direct_play;
 };
 
@@ -64,12 +70,17 @@ public:
 	Player item(int i) { return list[i]; }
 	Player currentPlayer() { return list[curr]; }
 
-	QStringList availablePlayers();
+	QList<Player> availablePlayers();
 	int findName(QString name);
+
+	void save(QSettings * set);
+	void load(QSettings * set);
 
 protected:
 	QList <Player> list;
 	int curr;
+
+	QList <Player> available_players_cache;
 };
 
 #endif
