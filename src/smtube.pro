@@ -2,8 +2,8 @@
 TEMPLATE = app
 QT += network
 
-CONFIG += release
-#CONFIG += debug
+#CONFIG += release
+CONFIG += debug
 
 DEFINES += USE_PLAYERS
 DEFINES += YT_USE_SCRIPT
@@ -25,6 +25,7 @@ HEADERS = mywebview.h \
           retrieveyoutubeurl.h \
           supportedurls.h \
           version.h \
+          configdialog.h \
           browserwindow.h
 
 SOURCES = mywebview.cpp \
@@ -34,8 +35,11 @@ SOURCES = mywebview.cpp \
           retrieveyoutubeurl.cpp \
           supportedurls.cpp \
           version.cpp \
+          configdialog.cpp \
           browserwindow.cpp \
           main.cpp
+
+FORMS = configdialog.ui
 
 RESOURCES = icons.qrc
 
