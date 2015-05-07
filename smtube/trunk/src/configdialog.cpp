@@ -22,6 +22,7 @@
 #define COL_NAME 0
 #define COL_BINARY 1
 #define COL_PARMS 2
+#define COL_DIRECTPLAY 3
 
 ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
     : QDialog(parent, f) 
@@ -33,13 +34,12 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	table->setHorizontalHeaderLabels(QStringList() << tr("Name") << tr("Binary") << tr("Parameters") );
 
 	table->setAlternatingRowColors(true);
-/*
+
 #if QT_VERSION >= 0x050000
-	table->horizontalHeader()->setSectionResizeMode(COL_FILE, QHeaderView::Stretch);
+	table->horizontalHeader()->setSectionResizeMode(COL_BINARY, QHeaderView::Stretch);
 #else
-	table->horizontalHeader()->setResizeMode(COL_FILE, QHeaderView::Stretch);
+	table->horizontalHeader()->setResizeMode(COL_BINARY, QHeaderView::Stretch);
 #endif
-*/
 
 	table->setSelectionBehavior(QAbstractItemView::SelectRows);
 	table->setSelectionMode(QAbstractItemView::ExtendedSelection);
@@ -62,9 +62,13 @@ void ConfigDialog::setPlayers(QList<Player> list) {
 		QTableWidgetItem * params_item = new QTableWidgetItem;
 		params_item->setText( list[n].arguments() );
 
+		QTableWidgetItem * dplay_item = new QTableWidgetItem;
+		dplay_item->setCheckState( list[n].directPlay() ? Qt::Checked : Qt::Unchecked );
+
 		table->setItem(n, COL_NAME, name_item);
 		table->setItem(n, COL_BINARY, binary_item);
 		table->setItem(n, COL_PARMS, params_item);
+		table->setItem(n, COL_DIRECTPLAY, dplay_item);
 	}
 }
 
