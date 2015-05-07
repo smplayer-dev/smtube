@@ -69,6 +69,7 @@ protected slots:
 	void openYTUrl(const QString & url);
 
 	void showAbout();
+	void showConfigDialog();
 
 protected:
 	void saveConfig();

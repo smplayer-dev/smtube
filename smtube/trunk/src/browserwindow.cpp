@@ -35,6 +35,7 @@
 #include "supportedurls.h"
 #include "retrieveyoutubeurl.h"
 
+#include "configdialog.h"
 #include "version.h"
 
 #ifdef YT_USE_SCRIPT
@@ -107,8 +108,12 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	toggleStatusbarAct->setCheckable(true);
 	connect(toggleStatusbarAct, SIGNAL(toggled(bool)), this, SLOT(viewStatusbar(bool)));
 
+	QAction * showConfigDialogAct = new QAction(tr("Configuration"), this);
+	connect(showConfigDialogAct, SIGNAL(triggered()), this, SLOT(showConfigDialog()));
+
 	viewMenu->addAction(toggleToolbarAct);
 	viewMenu->addAction(toggleStatusbarAct);
+	viewMenu->addAction(showConfigDialogAct);
 
 	QMenu * helpMenu = menuBar()->addMenu(tr("&Help"));
 	QAction * aboutAct = new QAction(tr("About"), this);
@@ -315,6 +320,14 @@ void BrowserWindow::showAbout() {
 		tr("License: %1").arg("GPL v.2") +
 		"<p>"+
 		tr("Version: %1").arg(smtubeVersion()));
+}
+
+void BrowserWindow::showConfigDialog() {
+	ConfigDialog d(this);
+	d.setPlayers(players.allPlayers());
+
+	if (d.exec() == QDialog::Accepted) {
+	}
 }
 
 void BrowserWindow::saveConfig() {
