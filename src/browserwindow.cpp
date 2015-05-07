@@ -35,6 +35,8 @@
 #include "supportedurls.h"
 #include "retrieveyoutubeurl.h"
 
+#include "version.h"
+
 #ifdef YT_USE_SCRIPT
 #include "ytsig.h"
 #endif
@@ -310,7 +312,9 @@ void BrowserWindow::showAbout() {
 		tr("Many things are still missing.") +
 		"<p>&copy; 2015 Ricardo Villalba &lt;rvm@users.sourceforge.net&gt;"
 		"<p>"+
-		tr("License: %1").arg("GPL v.2"));
+		tr("License: %1").arg("GPL v.2") +
+		"<p>"+
+		tr("Version: %1").arg(smtubeVersion()));
 }
 
 void BrowserWindow::saveConfig() {

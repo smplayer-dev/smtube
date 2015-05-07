@@ -24,6 +24,7 @@ HEADERS = mywebview.h \
           ytsig.h \
           retrieveyoutubeurl.h \
           supportedurls.h \
+          version.h \
           browserwindow.h
 
 SOURCES = mywebview.cpp \
@@ -32,6 +33,7 @@ SOURCES = mywebview.cpp \
           ytsig.cpp \
           retrieveyoutubeurl.cpp \
           supportedurls.cpp \
+          version.cpp \
           browserwindow.cpp \
           main.cpp
 
