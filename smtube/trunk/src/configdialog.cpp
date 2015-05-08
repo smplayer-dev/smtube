@@ -63,6 +63,7 @@ void ConfigDialog::setPlayers(QList<Player> list) {
 		params_item->setText( list[n].arguments() );
 
 		QTableWidgetItem * dplay_item = new QTableWidgetItem;
+		dplay_item->setFlags(Qt::ItemIsUserCheckable | Qt::ItemIsEnabled | Qt::ItemIsSelectable);
 		dplay_item->setCheckState( list[n].directPlay() ? Qt::Checked : Qt::Unchecked );
 
 		table->setItem(n, COL_NAME, name_item);
@@ -108,6 +109,7 @@ void ConfigDialog::on_add_button_clicked() {
 	table->insertRow(row);
 
 	QTableWidgetItem * dplay_item = new QTableWidgetItem;
+	dplay_item->setFlags(Qt::ItemIsUserCheckable | Qt::ItemIsEnabled | Qt::ItemIsSelectable);
 	dplay_item->setCheckState(Qt::Unchecked);
 
 	table->setItem(row, COL_NAME, new QTableWidgetItem);
