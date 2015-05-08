@@ -240,9 +240,9 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 	if (direct_play) {
 		qDebug() << "BrowserWindow::openWith: ready to play with" << player_name;
 		if (binary.contains(" ")) binary = "\""+ binary +"\"";
-		QString command = binary +" "+ QString(arguments).replace("%u", "\""+ url.toString() +"\"").replace("%t", "\" \"");
+		QString command = binary +" "+ QString(arguments).replace("%u", "\""+ url.toString() +"\"");
 		qDebug() << "BrowserWindow::openWith: command:" << command;
-		QProcess::startDetached(binary, QStringList() << url.toString());
+		QProcess::startDetached(command);
 	} else {
 		qDebug() << "BrowserWindow::openWith:" << player_name << "can't play this URL";
 		#ifdef USE_PLAYERS
