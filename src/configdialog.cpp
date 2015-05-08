@@ -27,6 +27,7 @@
 #define COL_PARMS 2
 #define COL_DIRECTPLAY 3
 
+#ifdef USE_PLAYERS
 class TDelegate : public QItemDelegate
 {
 public:
@@ -78,35 +79,38 @@ void TDelegate::setModelData(QWidget *editor, QAbstractItemModel *model, const Q
 		}
 	}
 }
-
+#endif
 
 ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
     : QDialog(parent, f) 
 {
 	setupUi(this);
 
+#ifdef USE_PLAYERS
 	// Setup player's table
 	table->setColumnCount(4);
 	table->setHorizontalHeaderLabels(QStringList() << tr("Name") << tr("Binary") << tr("Parameters") << tr("Support for") );
 
 	table->setAlternatingRowColors(true);
 
-#if QT_VERSION >= 0x050000
+	#if QT_VERSION >= 0x050000
 	table->horizontalHeader()->setSectionResizeMode(COL_PARMS, QHeaderView::Stretch);
-#else
+	#else
 	table->horizontalHeader()->setResizeMode(COL_PARMS, QHeaderView::Stretch);
-#endif
+	#endif
 
 	table->setSelectionBehavior(QAbstractItemView::SelectRows);
 	table->setSelectionMode(QAbstractItemView::ExtendedSelection);
 
 	table->setItemDelegateForColumn( COL_BINARY, new TDelegate(table) );
 	table->setItemDelegateForColumn( COL_DIRECTPLAY, new TDelegate(table) );
+#endif
 }
 
 ConfigDialog::~ConfigDialog() {
 }
 
+#ifdef USE_PLAYERS
 void ConfigDialog::setPlayers(QList<Player> list) {
 	qDebug() << "ConfigDialog::setPlayers:" << list.count();
 
@@ -231,5 +235,6 @@ void ConfigDialog::setRow(int row, const QList<QTableWidgetItem*>& rowItems) {
 		table->setItem(row, col, rowItems.at(col));
 	}
 }
+#endif
 
 #include "moc_configdialog.cpp"

@@ -324,11 +324,15 @@ void BrowserWindow::showAbout() {
 
 void BrowserWindow::showConfigDialog() {
 	ConfigDialog d(this);
+	#ifdef USE_PLAYERS
 	d.setPlayers(players.allPlayers());
+	#endif
 
 	if (d.exec() == QDialog::Accepted) {
+		#ifdef USE_PLAYERS
 		players.setAllPlayers(d.players());
 		view->setPlayers(players.availablePlayers());
+		#endif
 	}
 }
 
