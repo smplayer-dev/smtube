@@ -25,6 +25,8 @@ HEADERS = mywebview.h \
           retrieveyoutubeurl.h \
           supportedurls.h \
           version.h \
+          lineedit_with_icon.h \
+          filechooser.h \
           configdialog.h \
           browserwindow.h
 
@@ -35,6 +37,8 @@ SOURCES = mywebview.cpp \
           retrieveyoutubeurl.cpp \
           supportedurls.cpp \
           version.cpp \
+          lineedit_with_icon.cpp \
+          filechooser.cpp \
           configdialog.cpp \
           browserwindow.cpp \
           main.cpp
