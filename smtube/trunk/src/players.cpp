@@ -116,8 +116,8 @@ Players::Players() {
 	list.push_back( Player("Totem", "totem", "%u", false) );
 	list.push_back( Player("GNOME-MPlayer", "gnome-mplayer", "%u", false) );
 	list.push_back( Player("mpv", "mpv", "%u --title=%t", false) );
+	list.push_back( Player("mpv + youtube-dl", "mpv", "--ytdl --ytdl-format=best %u", true) );
 	/*
-	list.push_back( Player("mpv (0.8.3)", "mpv-0.8.3", "%u", true) );
 	list.push_back( Player("uget", "uget-gtk", "--quiet --folder=/tmp --filename=%f %u", false) );
 	*/
 #endif
