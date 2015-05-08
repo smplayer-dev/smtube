@@ -97,6 +97,10 @@ QString Player::executable(bool * found) {
 	return player_bin;
 }
 
+QString Player::directPlayToString(bool b) {
+	return (b ? QObject::tr("Video sites") : QObject::tr("Normal streams"));
+}
+
 
 Players::Players() {
 #ifdef Q_OS_WIN
