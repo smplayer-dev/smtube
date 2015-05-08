@@ -23,7 +23,9 @@
 
 #include <QDialog>
 
+#ifdef USE_PLAYERS
 #include "players.h"
+#endif
 
 class ConfigDialog : public QDialog, public Ui::ConfigDialog
 {
@@ -33,6 +35,7 @@ public:
 	ConfigDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
 	~ConfigDialog();
 
+#ifdef USE_PLAYERS
 	void setPlayers(QList<Player> list);
 	QList<Player> players();
 
@@ -45,6 +48,7 @@ protected slots:
 protected:
 	QList<QTableWidgetItem*> takeRow(int row);
 	void setRow(int row, const QList<QTableWidgetItem*>& rowItems);
+#endif
 };
 
 #endif
