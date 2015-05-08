@@ -77,4 +77,83 @@ QList<Player> ConfigDialog::players() {
 	return list;
 }
 
+void ConfigDialog::on_delete_button_clicked() {
+	int row = table->currentRow();
+	qDebug() << "ConfigDialog::on_delete_button_clicked: current_row:" << row;
+
+	if (row > -1) table->removeRow(row);
+
+	if (row >= table->rowCount()) row--;
+	table->setCurrentCell(row, table->currentColumn());
+}
+
+void ConfigDialog::on_add_button_clicked() {
+	int row = table->currentRow();
+	qDebug() << "ConfigDialog::on_add_button_clicked: current_row:" << row;
+	row++;
+	table->insertRow(row);
+
+	QTableWidgetItem * dplay_item = new QTableWidgetItem;
+	dplay_item->setCheckState(Qt::Unchecked);
+
+	table->setItem(row, COL_NAME, new QTableWidgetItem);
+	table->setItem(row, COL_BINARY, new QTableWidgetItem);
+	table->setItem(row, COL_PARMS, new QTableWidgetItem);
+	table->setItem(row, COL_DIRECTPLAY, dplay_item);
+
+	table->setCurrentCell(row, table->currentColumn());
+}
+
+void ConfigDialog::on_up_button_clicked() {
+	int row = table->currentRow();
+	qDebug() << "ConfigDialog::on_up_button_clicked: current_row:" << row;
+
+	if (row == 0) return;
+
+	// take whole rows
+	QList<QTableWidgetItem*> source_items = takeRow(row);
+	QList<QTableWidgetItem*> dest_items = takeRow(row-1);
+ 
+	// set back in reverse order
+	setRow(row, dest_items);
+	setRow(row-1, source_items);
+
+	table->setCurrentCell(row-1, table->currentColumn());
+}
+
+void ConfigDialog::on_down_button_clicked() {
+	int row = table->currentRow();
+	qDebug() << "ConfigDialog::on_down_button_clicked: current_row:" << row;
+
+	if ((row+1) >= table->rowCount()) return;
+
+	// take whole rows
+	QList<QTableWidgetItem*> source_items = takeRow(row);
+	QList<QTableWidgetItem*> dest_items = takeRow(row+1);
+ 
+	// set back in reverse order
+	setRow(row, dest_items);
+	setRow(row+1, source_items);
+
+	table->setCurrentCell(row+1, table->currentColumn());
+}
+
+// takes and returns the whole row
+QList<QTableWidgetItem*> ConfigDialog::takeRow(int row) {
+	QList<QTableWidgetItem*> rowItems;
+	for (int col = 0; col < table->columnCount(); ++col)
+	{
+		rowItems << table->takeItem(row, col);
+	}
+	return rowItems;
+}
+
+// sets the whole row
+void ConfigDialog::setRow(int row, const QList<QTableWidgetItem*>& rowItems) {
+	for (int col = 0; col < table->columnCount(); ++col)
+	{
+		table->setItem(row, col, rowItems.at(col));
+	}
+}
+
 #include "moc_configdialog.cpp"

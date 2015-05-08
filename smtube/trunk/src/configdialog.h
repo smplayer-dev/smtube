@@ -35,6 +35,16 @@ public:
 
 	void setPlayers(QList<Player> list);
 	QList<Player> players();
+
+protected slots:
+	void on_up_button_clicked();
+	void on_down_button_clicked();
+	void on_delete_button_clicked();
+	void on_add_button_clicked();
+
+protected:
+	QList<QTableWidgetItem*> takeRow(int row);
+	void setRow(int row, const QList<QTableWidgetItem*>& rowItems);
 };
 
 #endif
