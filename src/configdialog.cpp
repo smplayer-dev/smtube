@@ -92,9 +92,9 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	table->setAlternatingRowColors(true);
 
 #if QT_VERSION >= 0x050000
-	table->horizontalHeader()->setSectionResizeMode(COL_BINARY, QHeaderView::Stretch);
+	table->horizontalHeader()->setSectionResizeMode(COL_PARMS, QHeaderView::Stretch);
 #else
-	table->horizontalHeader()->setResizeMode(COL_BINARY, QHeaderView::Stretch);
+	table->horizontalHeader()->setResizeMode(COL_PARMS, QHeaderView::Stretch);
 #endif
 
 	table->setSelectionBehavior(QAbstractItemView::SelectRows);
