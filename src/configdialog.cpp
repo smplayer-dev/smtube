@@ -18,6 +18,7 @@
 
 #include "configdialog.h"
 #include <QItemDelegate>
+#include <QComboBox>
 #include <QDebug>
 #include "filechooser.h"
 
@@ -49,6 +50,13 @@ QWidget * TDelegate::createEditor(QWidget *parent, const QStyleOptionViewItem & 
 		fch->setText( index.model()->data(index, Qt::DisplayRole).toString() );
 		return fch;
 	}
+	if (index.column() == COL_DIRECTPLAY) {
+		QComboBox * combo = new QComboBox(parent);
+		combo->addItem(Player::directPlayToString(false), false);
+		combo->addItem(Player::directPlayToString(true), true);
+		combo->setCurrentIndex( index.model()->data(index, Qt::UserRole).toBool() ? 1 : 0 );
+		return combo;
+	}
 	else {
 		return QItemDelegate::createEditor(parent, option, index);
 	}
@@ -58,6 +66,16 @@ void TDelegate::setModelData(QWidget *editor, QAbstractItemModel *model, const Q
 	if (index.column() == COL_BINARY) {
 		FileChooser * fch = static_cast<FileChooser*>(editor);
 		model->setData(index, fch->text() );
+	}
+
+	if (index.column() == COL_DIRECTPLAY) {
+		QComboBox * combo = static_cast<QComboBox*>(editor);
+		int i = combo->currentIndex();
+		if (i > -1) {
+			bool b = combo->itemData(i).toBool();
+			model->setData(index, b, Qt::UserRole);
+			model->setData(index, Player::directPlayToString(b), Qt::DisplayRole);
+		}
 	}
 }
 
@@ -69,7 +87,7 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 
 	// Setup player's table
 	table->setColumnCount(4);
-	table->setHorizontalHeaderLabels(QStringList() << tr("Name") << tr("Binary") << tr("Parameters") );
+	table->setHorizontalHeaderLabels(QStringList() << tr("Name") << tr("Binary") << tr("Parameters") << tr("Support for") );
 
 	table->setAlternatingRowColors(true);
 
@@ -83,6 +101,7 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	table->setSelectionMode(QAbstractItemView::ExtendedSelection);
 
 	table->setItemDelegateForColumn( COL_BINARY, new TDelegate(table) );
+	table->setItemDelegateForColumn( COL_DIRECTPLAY, new TDelegate(table) );
 }
 
 ConfigDialog::~ConfigDialog() {
@@ -103,8 +122,9 @@ void ConfigDialog::setPlayers(QList<Player> list) {
 		params_item->setText( list[n].arguments() );
 
 		QTableWidgetItem * dplay_item = new QTableWidgetItem;
-		dplay_item->setFlags(Qt::ItemIsUserCheckable | Qt::ItemIsEnabled | Qt::ItemIsSelectable);
-		dplay_item->setCheckState( list[n].directPlay() ? Qt::Checked : Qt::Unchecked );
+		bool value = list[n].directPlay();
+		dplay_item->setData(Qt::UserRole, value);
+		dplay_item->setData(Qt::DisplayRole, Player::directPlayToString(value));
 
 		table->setItem(n, COL_NAME, name_item);
 		table->setItem(n, COL_BINARY, binary_item);
@@ -122,7 +142,7 @@ QList<Player> ConfigDialog::players() {
 		QString name = table->item(n, COL_NAME)->text();
 		QString binary = table->item(n, COL_BINARY)->text();
 		QString params = table->item(n, COL_PARMS)->text();
-		bool direct_play = (table->item(n, COL_DIRECTPLAY)->checkState() == Qt::Checked);
+		bool direct_play = table->item(n, COL_DIRECTPLAY)->data(Qt::UserRole).toBool();
 
 		if (!name.isEmpty() && !binary.isEmpty()) {
 			list << Player(name, binary, params, direct_play);
@@ -149,8 +169,8 @@ void ConfigDialog::on_add_button_clicked() {
 	table->insertRow(row);
 
 	QTableWidgetItem * dplay_item = new QTableWidgetItem;
-	dplay_item->setFlags(Qt::ItemIsUserCheckable | Qt::ItemIsEnabled | Qt::ItemIsSelectable);
-	dplay_item->setCheckState(Qt::Unchecked);
+	dplay_item->setData(Qt::UserRole, false);
+	dplay_item->setData(Qt::DisplayRole, Player::directPlayToString(false));
 
 	table->setItem(row, COL_NAME, new QTableWidgetItem);
 	table->setItem(row, COL_BINARY, new QTableWidgetItem);

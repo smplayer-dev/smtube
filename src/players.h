@@ -47,6 +47,8 @@ public:
 
 	QString executable(bool * found = 0);
 
+	static QString directPlayToString(bool b);
+
 protected:
 #ifdef Q_OS_LINUX
 	QString findExecutable(const QString & name);
