@@ -120,6 +120,11 @@ Players::Players() {
 	curr = 0;
 }
 
+void Players::setAllPlayers(QList<Player> players) { 
+	list = players;
+	available_players_cache.clear();
+}
+
 QList<Player> Players::availablePlayers() {
 	if (!available_players_cache.isEmpty()) {
 		return available_players_cache;
