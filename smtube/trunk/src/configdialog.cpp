@@ -17,12 +17,50 @@
 */
 
 #include "configdialog.h"
+#include <QItemDelegate>
 #include <QDebug>
+#include "filechooser.h"
 
 #define COL_NAME 0
 #define COL_BINARY 1
 #define COL_PARMS 2
 #define COL_DIRECTPLAY 3
+
+class TDelegate : public QItemDelegate
+{
+public:
+	TDelegate(QObject *parent = 0);
+
+	QWidget *createEditor(QWidget *parent, const QStyleOptionViewItem &option,
+                           const QModelIndex &index) const;
+	virtual void setModelData(QWidget * editor, QAbstractItemModel * model,
+                              const QModelIndex & index ) const;
+};
+
+TDelegate::TDelegate(QObject *parent) : QItemDelegate(parent) {
+}
+
+QWidget * TDelegate::createEditor(QWidget *parent, const QStyleOptionViewItem & option, const QModelIndex & index) const {
+	//qDebug("TDelegate::createEditor");
+
+	if (index.column() == COL_BINARY) {
+		FileChooser * fch = new FileChooser(parent);
+		fch->setOptions(QFileDialog::DontUseNativeDialog | QFileDialog::DontResolveSymlinks); // Crashes if use the KDE dialog
+		fch->setText( index.model()->data(index, Qt::DisplayRole).toString() );
+		return fch;
+	}
+	else {
+		return QItemDelegate::createEditor(parent, option, index);
+	}
+}
+
+void TDelegate::setModelData(QWidget *editor, QAbstractItemModel *model, const QModelIndex &index) const {
+	if (index.column() == COL_BINARY) {
+		FileChooser * fch = static_cast<FileChooser*>(editor);
+		model->setData(index, fch->text() );
+	}
+}
+
 
 ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
     : QDialog(parent, f) 
@@ -43,6 +81,8 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 
 	table->setSelectionBehavior(QAbstractItemView::SelectRows);
 	table->setSelectionMode(QAbstractItemView::ExtendedSelection);
+
+	table->setItemDelegateForColumn( COL_BINARY, new TDelegate(table) );
 }
 
 ConfigDialog::~ConfigDialog() {
