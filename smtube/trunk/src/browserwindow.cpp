@@ -108,7 +108,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	toggleStatusbarAct->setCheckable(true);
 	connect(toggleStatusbarAct, SIGNAL(toggled(bool)), this, SLOT(viewStatusbar(bool)));
 
-	QAction * showConfigDialogAct = new QAction(tr("Configuration"), this);
+	QAction * showConfigDialogAct = new QAction(tr("&Settings"), this);
 	connect(showConfigDialogAct, SIGNAL(triggered()), this, SLOT(showConfigDialog()));
 
 	viewMenu->addAction(toggleToolbarAct);
