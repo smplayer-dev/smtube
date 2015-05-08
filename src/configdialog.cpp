@@ -70,10 +70,24 @@ void ConfigDialog::setPlayers(QList<Player> list) {
 		table->setItem(n, COL_PARMS, params_item);
 		table->setItem(n, COL_DIRECTPLAY, dplay_item);
 	}
+
+	table->setCurrentCell(0, 0);
 }
 
 QList<Player> ConfigDialog::players() {
 	QList<Player> list;
+
+	for (int n = 0; n < table->rowCount(); n++) {
+		QString name = table->item(n, COL_NAME)->text();
+		QString binary = table->item(n, COL_BINARY)->text();
+		QString params = table->item(n, COL_PARMS)->text();
+		bool direct_play = (table->item(n, COL_DIRECTPLAY)->checkState() == Qt::Checked);
+
+		if (!name.isEmpty() && !binary.isEmpty()) {
+			list << Player(name, binary, params, direct_play);
+		}
+	}
+
 	return list;
 }
 

@@ -327,6 +327,8 @@ void BrowserWindow::showConfigDialog() {
 	d.setPlayers(players.allPlayers());
 
 	if (d.exec() == QDialog::Accepted) {
+		players.setAllPlayers(d.players());
+		view->setPlayers(players.availablePlayers());
 	}
 }
 

@@ -76,7 +76,7 @@ public:
 	void save(QSettings * set);
 	void load(QSettings * set);
 
-	void setAllPlayers(QList<Player> players) { list = players; }
+	void setAllPlayers(QList<Player> players);
 	QList<Player> allPlayers() { return list; }
 
 protected:
