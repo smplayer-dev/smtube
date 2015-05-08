@@ -21,6 +21,7 @@
 #include <QComboBox>
 #include <QDebug>
 #include "filechooser.h"
+#include "retrieveyoutubeurl.h"
 
 #define COL_NAME 0
 #define COL_BINARY 1
@@ -86,6 +87,17 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 
+	playback_quality_combo->addItem( "240p (flv)", RetrieveYoutubeUrl::FLV_240p );
+	playback_quality_combo->addItem( "360p (flv)", RetrieveYoutubeUrl::FLV_360p );
+	playback_quality_combo->addItem( "360p (mp4)", RetrieveYoutubeUrl::MP4_360p );
+	playback_quality_combo->addItem( "360p (webm)", RetrieveYoutubeUrl::WEBM_360p );
+	playback_quality_combo->addItem( "480p (flv)", RetrieveYoutubeUrl::FLV_480p );
+	playback_quality_combo->addItem( "480p (webm)", RetrieveYoutubeUrl::WEBM_480p );
+	playback_quality_combo->addItem( "720p (mp4)", RetrieveYoutubeUrl::MP4_720p );
+	playback_quality_combo->addItem( "720p (webm)", RetrieveYoutubeUrl::WEBM_720p );
+	playback_quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
+	playback_quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
+
 #ifdef USE_PLAYERS
 	// Setup player's table
 	table->setColumnCount(4);
@@ -108,6 +120,15 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 }
 
 ConfigDialog::~ConfigDialog() {
+}
+
+void ConfigDialog::setPlaybackQuality(int quality) {
+	playback_quality_combo->setCurrentIndex(playback_quality_combo->findData(quality));
+}
+
+int ConfigDialog::playbackQuality() {
+	int index = playback_quality_combo->currentIndex();
+	return playback_quality_combo->itemData(index).toInt();
 }
 
 #ifdef USE_PLAYERS

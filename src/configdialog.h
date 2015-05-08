@@ -35,6 +35,9 @@ public:
 	ConfigDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
 	~ConfigDialog();
 
+	void setPlaybackQuality(int quality);
+	int playbackQuality();
+
 #ifdef USE_PLAYERS
 	void setPlayers(QList<Player> list);
 	QList<Player> players();

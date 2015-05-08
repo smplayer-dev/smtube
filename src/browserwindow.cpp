@@ -324,11 +324,14 @@ void BrowserWindow::showAbout() {
 
 void BrowserWindow::showConfigDialog() {
 	ConfigDialog d(this);
+
+	d.setPlaybackQuality(ryu->preferredQuality());
 	#ifdef USE_PLAYERS
 	d.setPlayers(players.allPlayers());
 	#endif
 
 	if (d.exec() == QDialog::Accepted) {
+		ryu->setPreferredQuality((RetrieveYoutubeUrl::Quality) d.playbackQuality());
 		#ifdef USE_PLAYERS
 		players.setAllPlayers(d.players());
 		view->setPlayers(players.availablePlayers());
