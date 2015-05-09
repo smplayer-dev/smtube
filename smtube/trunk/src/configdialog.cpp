@@ -102,7 +102,7 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	// Setup player's table
 	table->setColumnCount(4);
 	table->setHorizontalHeaderLabels(QStringList() << tr("Name") << tr("Binary") << tr("Parameters") << tr("Support for") );
-
+	table->verticalHeader()->setVisible(false);
 	table->setAlternatingRowColors(true);
 
 	#if QT_VERSION >= 0x050000
