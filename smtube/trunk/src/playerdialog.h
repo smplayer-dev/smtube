@@ -16,43 +16,31 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef CONFIGDIALOG_H
-#define CONFIGDIALOG_H
+#ifndef PLAYERDIALOG_H
+#define PLAYERDIALOG_H
 
-#include "ui_configdialog.h"
+#include "ui_playerdialog.h"
 
 #include <QDialog>
 
-#ifdef USE_PLAYERS
-#include "players.h"
-#endif
-
-class ConfigDialog : public QDialog, public Ui::ConfigDialog
+class PlayerDialog : public QDialog, public Ui::PlayerDialog
 {
 	Q_OBJECT
 
 public:
-	ConfigDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
-	~ConfigDialog();
+	PlayerDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	~PlayerDialog();
 
-	void setPlaybackQuality(int quality);
-	int playbackQuality();
+	void setName(const QString & name);
+	void setBinary(const QString & binary);
+	void setParameters(const QString & parms);
+	void setDirectPlay(bool b);
 
-#ifdef USE_PLAYERS
-	void setPlayers(QList<Player> list);
-	QList<Player> players();
-
-protected slots:
-	void on_up_button_clicked();
-	void on_down_button_clicked();
-	void on_delete_button_clicked();
-	void on_add_button_clicked();
-	void on_edit_button_clicked();
-
-protected:
-	QList<QTableWidgetItem*> takeRow(int row);
-	void setRow(int row, const QList<QTableWidgetItem*>& rowItems);
-#endif
+	QString name();
+	QString binary();
+	QString parameters();
+	bool directPlay();
 };
 
 #endif
+

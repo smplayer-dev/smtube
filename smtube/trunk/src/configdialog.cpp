@@ -22,6 +22,7 @@
 #include <QDebug>
 #include "filechooser.h"
 #include "retrieveyoutubeurl.h"
+#include "playerdialog.h"
 
 #define COL_NAME 0
 #define COL_BINARY 1
@@ -139,6 +140,10 @@ void ConfigDialog::setPlayers(QList<Player> list) {
 	for (int n = 0; n < list.count(); n++) {
 		QTableWidgetItem * name_item = new QTableWidgetItem;
 		name_item->setText( list[n].name() );
+		name_item->setData(Qt::UserRole + COL_NAME, list[n].name());
+		name_item->setData(Qt::UserRole + COL_BINARY, list[n].binary());
+		name_item->setData(Qt::UserRole + COL_PARMS, list[n].arguments());
+		name_item->setData(Qt::UserRole + COL_DIRECTPLAY, list[n].directPlay());
 
 		QTableWidgetItem * binary_item = new QTableWidgetItem;
 		binary_item->setText( list[n].binary() );
@@ -175,6 +180,32 @@ QList<Player> ConfigDialog::players() {
 	}
 
 	return list;
+}
+
+void ConfigDialog::on_edit_button_clicked() {
+	qDebug() << "ConfigDialog::on_edit_button_clicked";
+
+	int row = table->currentRow();
+	QTableWidgetItem * i = table->item(row, COL_NAME);
+
+	QString name = i->data(Qt::UserRole + COL_NAME).toString();
+	QString binary = i->data(Qt::UserRole + COL_BINARY).toString();
+	QString parms = i->data(Qt::UserRole + COL_PARMS).toString();
+	bool direct_play = i->data(Qt::UserRole + COL_DIRECTPLAY).toBool();
+
+	PlayerDialog d(this);
+	d.setName(name);
+	d.setBinary(binary);
+	d.setParameters(parms);
+	d.setDirectPlay(direct_play);
+
+	if (d.exec() == QDialog::Accepted) {
+		i->setText(d.name());
+		i->setData(Qt::UserRole + COL_NAME, d.name());
+		i->setData(Qt::UserRole + COL_BINARY, d.binary());
+		i->setData(Qt::UserRole + COL_PARMS, d.parameters());
+		i->setData(Qt::UserRole + COL_DIRECTPLAY, d.directPlay());
+	}
 }
 
 void ConfigDialog::on_delete_button_clicked() {

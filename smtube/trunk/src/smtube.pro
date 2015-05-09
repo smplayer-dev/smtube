@@ -27,6 +27,7 @@ HEADERS = mywebview.h \
           version.h \
           lineedit_with_icon.h \
           filechooser.h \
+          playerdialog.h \
           configdialog.h \
           browserwindow.h
 
@@ -39,11 +40,12 @@ SOURCES = mywebview.cpp \
           version.cpp \
           lineedit_with_icon.cpp \
           filechooser.cpp \
+          playerdialog.cpp \
           configdialog.cpp \
           browserwindow.cpp \
           main.cpp
 
-FORMS = configdialog.ui
+FORMS = playerdialog.ui configdialog.ui
 
 RESOURCES = icons.qrc
 
