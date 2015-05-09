@@ -81,8 +81,12 @@
         <layout class="QGridLayout" name="gridLayout">
          <item row="0" column="0">
           <widget class="QPushButton" name="add_button">
-           <property name="text">
+           <property name="toolTip">
             <string>Add</string>
+           </property>
+           <property name="icon">
+            <iconset resource="icons.qrc">
+             <normaloff>:/icons/list-add.png</normaloff>:/icons/list-add.png</iconset>
            </property>
           </widget>
          </item>
@@ -101,22 +105,34 @@
          </item>
          <item row="0" column="2">
           <widget class="QPushButton" name="up_button">
-           <property name="text">
+           <property name="toolTip">
             <string>Up</string>
+           </property>
+           <property name="icon">
+            <iconset resource="icons.qrc">
+             <normaloff>:/icons/arrow-up.png</normaloff>:/icons/arrow-up.png</iconset>
            </property>
           </widget>
          </item>
          <item row="1" column="0">
           <widget class="QPushButton" name="delete_button">
-           <property name="text">
+           <property name="toolTip">
             <string>Delete</string>
+           </property>
+           <property name="icon">
+            <iconset resource="icons.qrc">
+             <normaloff>:/icons/list-remove.png</normaloff>:/icons/list-remove.png</iconset>
            </property>
           </widget>
          </item>
          <item row="1" column="2">
           <widget class="QPushButton" name="down_button">
-           <property name="text">
+           <property name="toolTip">
             <string>Down</string>
+           </property>
+           <property name="icon">
+            <iconset resource="icons.qrc">
+             <normaloff>:/icons/arrow-down.png</normaloff>:/icons/arrow-down.png</iconset>
            </property>
           </widget>
          </item>
@@ -148,7 +164,9 @@
   <tabstop>down_button</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>buttonBox</sender>

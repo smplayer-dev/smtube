@@ -88,7 +88,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	location->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
 	connect(location, SIGNAL(returnPressed()), SLOT(changeLocation()));
 
-	QAction * loadHomePageAct = new QAction(QPixmap(":/icons/home.png"), tr("Home"), this);
+	QAction * loadHomePageAct = new QAction(QPixmap(":/icons/go-home.png"), tr("Home"), this);
 	connect(loadHomePageAct, SIGNAL(triggered()), SLOT(loadHomePage()));
 
 	toolbar = addToolBar(tr("Navigation"));
