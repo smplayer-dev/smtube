@@ -48,7 +48,8 @@ FileChooser::~FileChooser() {
 
 void FileChooser::setupButton() {
 #ifdef NO_SMPLAYER_SUPPORT
-	setIcon( qApp->style()->standardIcon(QStyle::SP_DirOpenIcon).pixmap(QSize(16,16)) );
+	//setIcon( qApp->style()->standardIcon(QStyle::SP_DirOpenIcon).pixmap(QSize(16,16)) );
+	setIcon(QPixmap(":/icons/document-open-folder.png"));
 #else
 	setIcon( Images::icon("folder_open") );
 #endif

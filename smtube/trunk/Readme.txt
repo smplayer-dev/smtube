@@ -35,6 +35,8 @@
 
     Third-party:
 
-     * Icon home.png:
-       url: http://findicons.com/icon/237969/go_home?id=240422
-       license: GPL
+     * Icons:
+         H2O icons:
+         URL: http://kde-look.org/content/show.php/H2O+Icon+Theme?content=127149
+         License: GPL
+
