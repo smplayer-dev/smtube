@@ -16,43 +16,49 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef CONFIGDIALOG_H
-#define CONFIGDIALOG_H
+#include "playerdialog.h"
 
-#include "ui_configdialog.h"
-
-#include <QDialog>
-
-#ifdef USE_PLAYERS
-#include "players.h"
-#endif
-
-class ConfigDialog : public QDialog, public Ui::ConfigDialog
+PlayerDialog::PlayerDialog(QWidget * parent, Qt::WindowFlags f)
+    : QDialog(parent, f) 
 {
-	Q_OBJECT
+	setupUi(this);
+}
 
-public:
-	ConfigDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
-	~ConfigDialog();
+PlayerDialog::~PlayerDialog() {
+}
 
-	void setPlaybackQuality(int quality);
-	int playbackQuality();
+void PlayerDialog::setName(const QString & name) {
+	name_edit->setText(name);
+}
 
-#ifdef USE_PLAYERS
-	void setPlayers(QList<Player> list);
-	QList<Player> players();
+void PlayerDialog::setBinary(const QString & binary) {
+	binary_edit->setText(binary);
+}
 
-protected slots:
-	void on_up_button_clicked();
-	void on_down_button_clicked();
-	void on_delete_button_clicked();
-	void on_add_button_clicked();
-	void on_edit_button_clicked();
+void PlayerDialog::setParameters(const QString & parms) {
+	parms_edit->setText(parms);
+}
 
-protected:
-	QList<QTableWidgetItem*> takeRow(int row);
-	void setRow(int row, const QList<QTableWidgetItem*>& rowItems);
-#endif
-};
+void PlayerDialog::setDirectPlay(bool b) {
+	directplay_check->setChecked(b);
+}
 
-#endif
+QString PlayerDialog::name() {
+	return name_edit->text();
+}
+
+QString PlayerDialog::binary() {
+	return binary_edit->text();
+}
+
+QString PlayerDialog::parameters() {
+	return parms_edit->text();
+}
+
+bool PlayerDialog::directPlay() {
+	return directplay_check->isChecked();
+}
+
+#include "moc_playerdialog.cpp"
+
+
