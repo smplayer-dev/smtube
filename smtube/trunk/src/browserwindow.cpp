@@ -435,6 +435,9 @@ void BrowserWindow::saveConfig() {
 
 	settings->beginGroup("general");
 	settings->setValue("playback_quality", ryu->preferredQuality());
+	settings->setValue("user_agent", ryu->userAgent());
+	settings->setValue("use_https_main", ryu->useHttpsMain());
+	settings->setValue("use_https_vi", ryu->useHttpsVi());
 	settings->endGroup();
 
 #ifdef USE_PLAYERS
@@ -452,12 +455,16 @@ void BrowserWindow::loadConfig() {
 
 	settings->beginGroup("view");
 	toggleToolbarAct->setChecked(settings->value("toolbar", false).toBool());
-	toggleStatusbarAct->setChecked(settings->value("statusbar", true).toBool());
+	toggleStatusbarAct->setChecked(settings->value("statusbar", false).toBool());
 	settings->endGroup();
 
 	settings->beginGroup("general");
 	int quality = settings->value("playback_quality", RetrieveYoutubeUrl::MP4_360p).toInt();
 	ryu->setPreferredQuality((RetrieveYoutubeUrl::Quality) quality);
+	ryu->setUserAgent(settings->value("user_agent", "").toString());
+	ryu->setUseHttpsMain(settings->value("use_https_main", false).toBool());
+	ryu->setUseHttpsVi(settings->value("use_https_vi", false).toBool());
+
 	bool shown_notes = settings->value("shown_notes", false).toBool();
 	settings->setValue("shown_notes", true);
 	settings->endGroup();
