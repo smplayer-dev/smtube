@@ -55,6 +55,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	, codedownloader(0)
 #endif
 {
+	setWindowTitle("SMTube");
 	setWindowIcon(QPixmap(":/icons/smtube.png"));
 	home_page = "http://smtube.org/videos/";
 
