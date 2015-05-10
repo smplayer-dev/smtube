@@ -150,7 +150,13 @@ void BrowserWindow::loadUrl(const QUrl & url) {
 }
 
 void BrowserWindow::search(const QString & term) {
-	QString q = home_page + "search.php?q=" + term;
+	QString search_term = term.toLower();
+	if (search_term.startsWith("http://") || search_term.startsWith("https://")) {
+		search_term = search_term.replace("http://", "");
+		search_term = search_term.replace("https://", "");
+	}
+
+	QString q = home_page + "search.php?q=" + search_term;
 	loadUrl(QUrl(q));
 }
 
