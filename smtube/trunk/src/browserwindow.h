@@ -34,6 +34,7 @@ class QLineEdit;
 class RetrieveYoutubeUrl;
 class QAction;
 class QSettings;
+class CodeDownloader;
 
 class BrowserWindow : public QMainWindow
 {
@@ -71,6 +72,14 @@ protected slots:
 	void showAbout();
 	void showConfigDialog();
 
+	void showErrorSignatureNotFound(const QString &);
+	void showErrorNoSslSupport();
+	void showErrorEmptyList();
+
+#ifdef YT_USE_SCRIPT
+	void updateYTCode();
+#endif
+
 protected:
 	void saveConfig();
 	void loadConfig();
@@ -94,6 +103,7 @@ private:
 
 #ifdef YT_USE_SCRIPT
 	QString script_file;
+	CodeDownloader * codedownloader;
 #endif
 
 	QString home_page;
