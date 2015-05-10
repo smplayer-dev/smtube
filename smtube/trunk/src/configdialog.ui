@@ -25,7 +25,7 @@
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <item>
-        <widget class="QGroupBox" name="groupBox">
+        <widget class="QGroupBox" name="playback_group">
          <property name="title">
           <string>Playback</string>
          </property>
@@ -33,7 +33,7 @@
           <item>
            <widget class="QLabel" name="playback_quality_label">
             <property name="text">
-             <string>&amp;Quality:</string>
+             <string>Preferred &amp;quality:</string>
             </property>
             <property name="buddy">
              <cstring>playback_quality_combo</cstring>
@@ -60,7 +60,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QGroupBox" name="groupBox_2">
+        <widget class="QGroupBox" name="players_group">
          <property name="title">
           <string>Players</string>
          </property>
@@ -151,6 +151,19 @@
           </item>
          </layout>
         </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
        </item>
       </layout>
      </widget>

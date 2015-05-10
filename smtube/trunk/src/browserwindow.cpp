@@ -339,7 +339,7 @@ void BrowserWindow::showErrorNoSslSupport() {
 void BrowserWindow::showErrorEmptyList() {
 	qDebug() << "showErrorEmptyList";
 	QMessageBox::warning(this, tr("No video found"),
-		tr("It wasn't possible to find the stream URL for this video."));
+		tr("It wasn't possible to find the URL for this video."));
 }
 
 void BrowserWindow::showErrorSignatureNotFound(const QString & title) {
