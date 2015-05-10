@@ -50,7 +50,7 @@
          <item>
           <widget class="QLabel" name="logo">
            <property name="text">
-            <string>icon</string>
+            <string notr="true">icon</string>
            </property>
           </widget>
          </item>
@@ -106,7 +106,7 @@
          <item>
           <widget class="QLabel" name="translators_icon">
            <property name="text">
-            <string>icon</string>
+            <string notr="true">icon</string>
            </property>
           </widget>
          </item>
@@ -162,7 +162,7 @@
          <item>
           <widget class="QLabel" name="license_icon">
            <property name="text">
-            <string>icon</string>
+            <string notr="true">icon</string>
            </property>
           </widget>
          </item>

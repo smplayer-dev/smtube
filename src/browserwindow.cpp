@@ -358,16 +358,16 @@ void BrowserWindow::showErrorSignatureNotFound(const QString & title) {
 	t.replace(" - YouTube", "");
 
 	#ifdef YT_USE_SCRIPT
-	int ret = QMessageBox::question(this, tr("Problems with Youtube"),
-				tr("Unfortunately due to changes in Youtube, the video '%1' can't be played.").arg(t) + "<br><br>" +
-				tr("Do you want to update the Youtube code? This may fix the problem."),
+	int ret = QMessageBox::question(this, tr("Problems with YouTube"),
+				tr("Unfortunately due to changes in YouTube, the video '%1' can't be played.").arg(t) + "<br><br>" +
+				tr("Do you want to update the YouTube code? This may fix the problem."),
 				QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 	if (ret == QMessageBox::Yes) {
 		updateYTCode();
 	}
 	#else
-	QMessageBox::warning(this, tr("Problems with Youtube"),
-		tr("Unfortunately due to changes in Youtube, the video '%1' can't be played.").arg(t) + "<br><br>" +
+	QMessageBox::warning(this, tr("Problems with YouTube"),
+		tr("Unfortunately due to changes in YouTube, the video '%1' can't be played.").arg(t) + "<br><br>" +
 		tr("Maybe updating this application could fix the problem."));
 	#endif
 }
