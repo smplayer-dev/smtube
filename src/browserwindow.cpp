@@ -36,6 +36,7 @@
 #include "retrieveyoutubeurl.h"
 
 #include "configdialog.h"
+#include "about.h"
 #include "version.h"
 
 #ifdef YT_USE_SCRIPT
@@ -123,11 +124,17 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	viewMenu->addAction(showConfigDialogAct);
 
 	QMenu * helpMenu = menuBar()->addMenu(tr("&Help"));
+
 #ifdef YT_USE_SCRIPT
 	QAction * updateCodeAct = new QAction(tr("&Update the YouTube code"), this);
 	connect(updateCodeAct, SIGNAL(triggered()), this, SLOT(updateYTCode()));
 	helpMenu->addAction(updateCodeAct);
 #endif
+
+	QAction * aboutReleaseAct = new QAction(tr("About this &release"), this);
+	connect(aboutReleaseAct, SIGNAL(triggered()), this, SLOT(showAboutRelease()));
+	helpMenu->addAction(aboutReleaseAct);
+
 	QAction * aboutAct = new QAction(tr("&About SMTube"), this);
 	connect(aboutAct, SIGNAL(triggered()), this, SLOT(showAbout()));
 	helpMenu->addAction(aboutAct);
@@ -376,15 +383,22 @@ void BrowserWindow::updateYTCode() {
 }
 #endif
 
+void BrowserWindow::showAboutRelease() {
+	QMessageBox::about(this, tr("About this release"),
+		"<p>"+ tr("Due to changes in YouTube, the old SMTube doesn't work anymore.") + "<p>"+
+		tr("This is an early version of the new SMTube, written from scratch.") +" "+
+		tr("Some functionality is not available yet.")
+#ifdef YT_USE_SCRIPT
+		+ "<p><b>"+ tr("Important:") + "</b><br>"+
+		tr("If the VEVO videos fail to play, please use the option %1 in the Help menu.")
+			.arg("<i><b>" + tr("Update the YouTube code") + "</b></i>")
+#endif
+	);
+}
+
 void BrowserWindow::showAbout() {
-	QMessageBox::about(this, tr("About SMTube"),
-		tr("This is an early version of the new SMTube.") +"<br>"+
-		tr("Many things are still missing.") +
-		"<p>&copy; 2015 Ricardo Villalba &lt;rvm@users.sourceforge.net&gt;"
-		"<p>"+
-		tr("License: %1").arg("GPL v.2") +
-		"<p>"+
-		tr("Version: %1").arg(smtubeVersion()));
+	About d(this);
+	d.exec();
 }
 
 void BrowserWindow::showConfigDialog() {
