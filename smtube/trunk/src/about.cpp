@@ -84,7 +84,7 @@ About::~About() {
 QString About::getTranslators() {
 	return QString(
 		 tr("Many people contributed with translations.") +" "+
-		 tr("You can also help to translate SMPlayer into your own language.") +"<p>"+
+		 tr("You can also help to translate SMTube into your own language.") +"<p>"+
 		 tr("Visit %1 and join a translation team.").arg("<a href=\"http://www.transifex.com/projects/p/smplayer/\">http://www.transifex.com/projects/p/smplayer/</a>") +
 		"<p><a href=\"http://smplayer.sourceforge.net/translators.php\">" +
 		 tr("Click here to know the translators from the transifex teams") +
