@@ -33,9 +33,13 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
     : QDialog(parent, f) 
 {
 	setupUi(this);
+
+#ifdef USE_PLAYERS
 	connect(edit_button, SIGNAL(clicked()), this, SLOT(editCurrentItem()));
 	connect(table, SIGNAL(itemActivated(QListWidgetItem *)), this, SLOT(editCurrentItem()));
-
+#else
+	players_group->hide();
+#endif
 
 	playback_quality_combo->addItem( "240p (flv)", RetrieveYoutubeUrl::FLV_240p );
 	playback_quality_combo->addItem( "360p (flv)", RetrieveYoutubeUrl::FLV_360p );
