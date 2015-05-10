@@ -33,6 +33,9 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
     : QDialog(parent, f) 
 {
 	setupUi(this);
+	connect(edit_button, SIGNAL(clicked()), this, SLOT(editCurrentItem()));
+	connect(table, SIGNAL(itemActivated(QListWidgetItem *)), this, SLOT(editCurrentItem()));
+
 
 	playback_quality_combo->addItem( "240p (flv)", RetrieveYoutubeUrl::FLV_240p );
 	playback_quality_combo->addItem( "360p (flv)", RetrieveYoutubeUrl::FLV_360p );
@@ -94,8 +97,8 @@ QList<Player> ConfigDialog::players() {
 	return list;
 }
 
-void ConfigDialog::on_edit_button_clicked() {
-	qDebug() << "ConfigDialog::on_edit_button_clicked";
+void ConfigDialog::editCurrentItem() {
+	qDebug() << "ConfigDialog::editCurrentItem";
 
 	QListWidgetItem * i = table->currentItem();
 
@@ -142,7 +145,7 @@ void ConfigDialog::on_add_button_clicked() {
 	table->insertItem(row, i);
 	table->setCurrentRow(row);
 
-	on_edit_button_clicked();
+	editCurrentItem();
 }
 
 void ConfigDialog::on_up_button_clicked() {
