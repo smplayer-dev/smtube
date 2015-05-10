@@ -68,7 +68,7 @@
    <item>
     <widget class="QCheckBox" name="directplay_check">
      <property name="text">
-      <string>Direct play</string>
+      <string>This player supports &amp;video sites</string>
      </property>
     </widget>
    </item>
