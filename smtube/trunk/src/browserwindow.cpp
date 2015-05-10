@@ -27,6 +27,7 @@
 #include <QProcess>
 #include <QSettings>
 #include <QMessageBox>
+#include <QTimer>
 
 #include "mywebview.h"
 #include "mywebpage.h"
@@ -386,7 +387,7 @@ void BrowserWindow::updateYTCode() {
 void BrowserWindow::showAboutRelease() {
 	QMessageBox::about(this, tr("About this release"),
 		"<p>"+ tr("Due to changes in YouTube, the old SMTube doesn't work anymore.") + "<p>"+
-		tr("This is an early version of the new SMTube, written from scratch.") +" "+
+		tr("This is a new version of SMTube, written from scratch.") +" "+
 		tr("Some functionality is not available yet.")
 #ifdef YT_USE_SCRIPT
 		+ "<p><b>"+ tr("Important:") + "</b><br>"+
@@ -456,6 +457,8 @@ void BrowserWindow::loadConfig() {
 	settings->beginGroup("general");
 	int quality = settings->value("playback_quality", RetrieveYoutubeUrl::MP4_360p).toInt();
 	ryu->setPreferredQuality((RetrieveYoutubeUrl::Quality) quality);
+	bool shown_notes = settings->value("shown_notes", false).toBool();
+	settings->setValue("shown_notes", true);
 	settings->endGroup();
 
 	SupportedUrls::load();
@@ -466,6 +469,10 @@ void BrowserWindow::loadConfig() {
 #else
 	view->setPlayer(HCPLAYER_NAME);
 #endif
+
+	if (!shown_notes) {
+		QTimer::singleShot(3000, this, SLOT(showAboutRelease()));
+	}
 }
 
 #include "moc_browserwindow.cpp"
