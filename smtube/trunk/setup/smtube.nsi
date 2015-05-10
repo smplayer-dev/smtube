@@ -278,7 +278,7 @@ Section "SMTube (required)" SecSMTube
   SetOutPath "$INSTDIR"
   ${If} $InstType_Is_Portable == 1
     DetailPrint "Found portable version of SMPlayer."
-    #File /oname=smtube.exe "portable\${SMTUBE_PE_EXE}"
+    File /oname=smtube.exe "portable\${SMTUBE_PE_EXE}"
   ${Else}
     File "..\src\release\smtube.exe"
   ${EndIf}
