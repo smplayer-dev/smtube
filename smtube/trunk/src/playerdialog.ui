@@ -44,7 +44,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="binary_edit"/>
+      <widget class="FileChooser" name="binary_edit"/>
      </item>
     </layout>
    </item>
@@ -104,6 +104,13 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FileChooser</class>
+   <extends>QLineEdit</extends>
+   <header>filechooser.h</header>
+  </customwidget>
+ </customwidgets>
  <tabstops>
   <tabstop>name_edit</tabstop>
   <tabstop>binary_edit</tabstop>
