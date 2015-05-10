@@ -69,6 +69,7 @@ protected slots:
 	void openWith(const QString & player, const QUrl & url);
 	void openYTUrl(const QString & url);
 
+	void showAboutRelease();
 	void showAbout();
 	void showConfigDialog();
 

@@ -25,7 +25,8 @@ HEADERS = mywebview.h \
           filechooser.h \
           playerdialog.h \
           configdialog.h \
-          browserwindow.h
+          browserwindow.h \
+          about.h
 
 SOURCES = mywebview.cpp \
           mywebpage.cpp \
@@ -39,9 +40,10 @@ SOURCES = mywebview.cpp \
           playerdialog.cpp \
           configdialog.cpp \
           browserwindow.cpp \
+          about.cpp \
           main.cpp
 
-FORMS = playerdialog.ui configdialog.ui
+FORMS = playerdialog.ui configdialog.ui about.ui
 
 RESOURCES = icons.qrc
 
