@@ -14,10 +14,6 @@ isEqual(QT_MAJOR_VERSION, 5) {
 	QT += webkit
 }
 
-contains( DEFINES, YT_USE_SCRIPT ) {
-	QT += script
-}
-
 HEADERS = mywebview.h \
           mywebpage.h \
           mycookiejar.h \
@@ -51,6 +47,12 @@ RESOURCES = icons.qrc
 
 TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_en.ts
+
+contains( DEFINES, YT_USE_SCRIPT ) {
+	QT += script
+	HEADERS += codedownloader.h
+	SOURCES += codedownloader.cpp
+}
 
 contains(DEFINES, USE_PLAYERS) {
 	HEADERS += players.h

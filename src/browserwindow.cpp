@@ -40,6 +40,7 @@
 
 #ifdef YT_USE_SCRIPT
 #include "ytsig.h"
+#include "codedownloader.h"
 #endif
 
 
@@ -47,6 +48,9 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	: QMainWindow(parent, flags)
 #ifdef USE_PLAYERS
 	, current_player(-1)
+#endif
+#ifdef YT_USE_SCRIPT
+	, codedownloader(0)
 #endif
 {
 	setWindowIcon(QPixmap(":/icons/smtube.png"));
@@ -56,6 +60,9 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 
 	ryu = new RetrieveYoutubeUrl(this);
 	connect(ryu, SIGNAL(gotPreferredUrl(const QString &)), this, SLOT(openYTUrl(const QString &)));
+	connect(ryu, SIGNAL(signatureNotFound(const QString &)), this, SLOT(showErrorSignatureNotFound(const QString &)));
+	connect(ryu, SIGNAL(noSslSupport()), this, SLOT(showErrorNoSslSupport()));
+	connect(ryu, SIGNAL(gotEmptyList()), this, SLOT(showErrorEmptyList()));
 
 	QNetworkProxyFactory::setUseSystemConfiguration(true);
 
@@ -116,7 +123,12 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	viewMenu->addAction(showConfigDialogAct);
 
 	QMenu * helpMenu = menuBar()->addMenu(tr("&Help"));
-	QAction * aboutAct = new QAction(tr("About"), this);
+#ifdef YT_USE_SCRIPT
+	QAction * updateCodeAct = new QAction(tr("&Update the YouTube code"), this);
+	connect(updateCodeAct, SIGNAL(triggered()), this, SLOT(updateYTCode()));
+	helpMenu->addAction(updateCodeAct);
+#endif
+	QAction * aboutAct = new QAction(tr("&About SMTube"), this);
 	connect(aboutAct, SIGNAL(triggered()), this, SLOT(showAbout()));
 	helpMenu->addAction(aboutAct);
 
@@ -316,6 +328,53 @@ void BrowserWindow::openYTUrl(const QString & url) {
 
 	QProcess::startDetached(command);
 }
+
+void BrowserWindow::showErrorNoSslSupport() {
+	qDebug() << "BrowserWindow::showErrorNoSslSupport";
+	QMessageBox::warning(this, tr("Connection failed"),
+		tr("The video you requested needs to open a HTTPS connection.") +"<br>"+
+		tr("Unfortunately the OpenSSL component, required for it, is not available in your system."));
+}
+
+void BrowserWindow::showErrorEmptyList() {
+	qDebug() << "showErrorEmptyList";
+	QMessageBox::warning(this, tr("No video found"),
+		tr("It wasn't possible to find the stream URL for this video."));
+}
+
+void BrowserWindow::showErrorSignatureNotFound(const QString & title) {
+	qDebug() << "YTDialog::showErrorSignatureNotFound:" << title;
+
+	QString t = title;
+	t.replace(" - YouTube", "");
+
+	#ifdef YT_USE_SCRIPT
+	int ret = QMessageBox::question(this, tr("Problems with Youtube"),
+				tr("Unfortunately due to changes in Youtube, the video '%1' can't be played.").arg(t) + "<br><br>" +
+				tr("Do you want to update the Youtube code? This may fix the problem."),
+				QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+	if (ret == QMessageBox::Yes) {
+		updateYTCode();
+	}
+	#else
+	QMessageBox::warning(this, tr("Problems with Youtube"),
+		tr("Unfortunately due to changes in Youtube, the video '%1' can't be played.").arg(t) + "<br><br>" +
+		tr("Maybe updating this application could fix the problem."));
+	#endif
+}
+
+#ifdef YT_USE_SCRIPT
+void BrowserWindow::updateYTCode() {
+	qDebug() << "BrowserWindow::updateYTCode";
+
+	if (!codedownloader) {
+		codedownloader = new CodeDownloader(this);
+	}
+	codedownloader->saveAs(script_file);
+	codedownloader->show();
+	codedownloader->download(QUrl("http://updates.smplayer.info/yt.js"));
+}
+#endif
 
 void BrowserWindow::showAbout() {
 	QMessageBox::about(this, tr("About SMTube"),
