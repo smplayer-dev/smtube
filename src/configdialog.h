@@ -47,7 +47,7 @@ protected slots:
 	void on_down_button_clicked();
 	void on_delete_button_clicked();
 	void on_add_button_clicked();
-	void on_edit_button_clicked();
+	void editCurrentItem();
 #endif
 };
 
