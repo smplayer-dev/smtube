@@ -44,24 +44,6 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	playback_quality_combo->addItem( "720p (webm)", RetrieveYoutubeUrl::WEBM_720p );
 	playback_quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
 	playback_quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
-
-#ifdef USE_PLAYERS
-	// Setup player's table
-	table->setColumnCount(1);
-	//table->setHorizontalHeaderLabels(QStringList() << tr("Name") << tr("Binary") << tr("Parameters") << tr("Support for") );
-	table->horizontalHeader()->setVisible(false);
-	table->verticalHeader()->setVisible(false);
-	table->setAlternatingRowColors(true);
-
-	#if QT_VERSION >= 0x050000
-	table->horizontalHeader()->setSectionResizeMode(COL_NAME, QHeaderView::Stretch);
-	#else
-	table->horizontalHeader()->setResizeMode(COL_NAME, QHeaderView::Stretch);
-	#endif
-
-	table->setSelectionBehavior(QAbstractItemView::SelectRows);
-	table->setSelectionMode(QAbstractItemView::ExtendedSelection);
-#endif
 }
 
 ConfigDialog::~ConfigDialog() {
@@ -80,27 +62,25 @@ int ConfigDialog::playbackQuality() {
 void ConfigDialog::setPlayers(QList<Player> list) {
 	qDebug() << "ConfigDialog::setPlayers:" << list.count();
 
-	table->setRowCount(list.count());
 	for (int n = 0; n < list.count(); n++) {
-		QTableWidgetItem * name_item = new QTableWidgetItem;
-		name_item->setText( list[n].name() );
-		name_item->setData(Qt::UserRole + COL_NAME, list[n].name());
-		name_item->setData(Qt::UserRole + COL_BINARY, list[n].binary());
-		name_item->setData(Qt::UserRole + COL_PARMS, list[n].arguments());
-		name_item->setData(Qt::UserRole + COL_DIRECTPLAY, list[n].directPlay());
-		name_item->setFlags(Qt::ItemIsEnabled | Qt::ItemIsSelectable);
+		QListWidgetItem * i = new QListWidgetItem;
+		i->setText( list[n].name() );
+		i->setData(Qt::UserRole + COL_NAME, list[n].name());
+		i->setData(Qt::UserRole + COL_BINARY, list[n].binary());
+		i->setData(Qt::UserRole + COL_PARMS, list[n].arguments());
+		i->setData(Qt::UserRole + COL_DIRECTPLAY, list[n].directPlay());
 
-		table->setItem(n, COL_NAME, name_item);
+		table->addItem(i);
 	}
 
-	table->setCurrentCell(0, 0);
+	table->setCurrentRow(0);
 }
 
 QList<Player> ConfigDialog::players() {
 	QList<Player> list;
 
-	for (int n = 0; n < table->rowCount(); n++) {
-		QTableWidgetItem * i = table->item(n, COL_NAME);
+	for (int n = 0; n < table->count(); n++) {
+		QListWidgetItem * i = table->item(n);
 		QString name = i->data(Qt::UserRole + COL_NAME).toString();
 		QString binary = i->data(Qt::UserRole + COL_BINARY).toString();
 		QString params = i->data(Qt::UserRole + COL_PARMS).toString();
@@ -117,8 +97,7 @@ QList<Player> ConfigDialog::players() {
 void ConfigDialog::on_edit_button_clicked() {
 	qDebug() << "ConfigDialog::on_edit_button_clicked";
 
-	int row = table->currentRow();
-	QTableWidgetItem * i = table->item(row, COL_NAME);
+	QListWidgetItem * i = table->currentItem();
 
 	QString name = i->data(Qt::UserRole + COL_NAME).toString();
 	QString binary = i->data(Qt::UserRole + COL_BINARY).toString();
@@ -142,85 +121,46 @@ void ConfigDialog::on_edit_button_clicked() {
 
 void ConfigDialog::on_delete_button_clicked() {
 	int row = table->currentRow();
-	qDebug() << "ConfigDialog::on_delete_button_clicked: current_row:" << row;
+	qDebug() << "ConfigDialog::on_delete_button_clicked: row:" << row;
 
-	if (row > -1) table->removeRow(row);
-
-	if (row >= table->rowCount()) row--;
-	table->setCurrentCell(row, table->currentColumn());
+	QListWidgetItem * i = table->takeItem(row);
+	delete i;
 }
 
 void ConfigDialog::on_add_button_clicked() {
 	int row = table->currentRow();
-	qDebug() << "ConfigDialog::on_add_button_clicked: current_row:" << row;
+	qDebug() << "ConfigDialog::on_add_button_clicked: row:" << row;
 	row++;
-	table->insertRow(row);
 
-	QTableWidgetItem * name_item = new QTableWidgetItem;
-	name_item->setText("");
-	name_item->setData(Qt::UserRole + COL_NAME, "");
-	name_item->setData(Qt::UserRole + COL_BINARY, "");
-	name_item->setData(Qt::UserRole + COL_PARMS, "%u");
-	name_item->setData(Qt::UserRole + COL_DIRECTPLAY, false);
-	name_item->setFlags(Qt::ItemIsEnabled | Qt::ItemIsSelectable);
+	QListWidgetItem * i = new QListWidgetItem;
+	i->setText("");
+	i->setData(Qt::UserRole + COL_NAME, "");
+	i->setData(Qt::UserRole + COL_BINARY, "");
+	i->setData(Qt::UserRole + COL_PARMS, "%u");
+	i->setData(Qt::UserRole + COL_DIRECTPLAY, false);
 
-	table->setItem(row, COL_NAME, name_item);
-
-	table->setCurrentCell(row, table->currentColumn());
+	table->insertItem(row, i);
+	table->setCurrentRow(row);
 
 	on_edit_button_clicked();
 }
 
 void ConfigDialog::on_up_button_clicked() {
 	int row = table->currentRow();
-	qDebug() << "ConfigDialog::on_up_button_clicked: current_row:" << row;
+	qDebug() << "ConfigDialog::on_up_button_clicked: row:" << row;
 
-	if (row == 0) return;
-
-	// take whole rows
-	QList<QTableWidgetItem*> source_items = takeRow(row);
-	QList<QTableWidgetItem*> dest_items = takeRow(row-1);
- 
-	// set back in reverse order
-	setRow(row, dest_items);
-	setRow(row-1, source_items);
-
-	table->setCurrentCell(row-1, table->currentColumn());
+	QListWidgetItem * i = table->takeItem(row);
+	table->insertItem(row-1, i);
+	table->setCurrentRow(row-1);
 }
 
 void ConfigDialog::on_down_button_clicked() {
 	int row = table->currentRow();
-	qDebug() << "ConfigDialog::on_down_button_clicked: current_row:" << row;
+	qDebug() << "ConfigDialog::on_down_button_clicked: row:" << row;
 
-	if ((row+1) >= table->rowCount()) return;
-
-	// take whole rows
-	QList<QTableWidgetItem*> source_items = takeRow(row);
-	QList<QTableWidgetItem*> dest_items = takeRow(row+1);
- 
-	// set back in reverse order
-	setRow(row, dest_items);
-	setRow(row+1, source_items);
-
-	table->setCurrentCell(row+1, table->currentColumn());
-}
-
-// takes and returns the whole row
-QList<QTableWidgetItem*> ConfigDialog::takeRow(int row) {
-	QList<QTableWidgetItem*> rowItems;
-	for (int col = 0; col < table->columnCount(); ++col)
-	{
-		rowItems << table->takeItem(row, col);
-	}
-	return rowItems;
-}
-
-// sets the whole row
-void ConfigDialog::setRow(int row, const QList<QTableWidgetItem*>& rowItems) {
-	for (int col = 0; col < table->columnCount(); ++col)
-	{
-		table->setItem(row, col, rowItems.at(col));
-	}
+	QListWidgetItem * i = table->takeItem(row);
+	table->insertItem(row+1, i);
+	table->setCurrentRow(row+1);
 }
 #endif
 

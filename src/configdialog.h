@@ -48,10 +48,6 @@ protected slots:
 	void on_delete_button_clicked();
 	void on_add_button_clicked();
 	void on_edit_button_clicked();
-
-protected:
-	QList<QTableWidgetItem*> takeRow(int row);
-	void setRow(int row, const QList<QTableWidgetItem*>& rowItems);
 #endif
 };
 
