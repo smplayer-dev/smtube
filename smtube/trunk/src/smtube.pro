@@ -48,7 +48,19 @@ FORMS = playerdialog.ui configdialog.ui about.ui
 RESOURCES = icons.qrc
 
 TRANSLATIONS = translations/smtube_es.ts \
-               translations/smtube_en.ts
+               translations/smtube_en.ts \
+               translations/smtube_de.ts \
+               translations/smtube_fr.ts \
+               translations/smtube_it.ts \
+               translations/smtube_ko.ts \
+               translations/smtube_pt.ts \
+               translations/smtube_sr.ts \
+               translations/smtube_eu.ts \
+               translations/smtube_gl.ts \
+               translations/smtube_ja.ts \
+               translations/smtube_pt_BR.ts \
+               translations/smtube_ru.ts \
+               translations/smtube_zh_TW.ts
 
 contains( DEFINES, YT_USE_SCRIPT ) {
 	QT += script
