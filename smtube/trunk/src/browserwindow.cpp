@@ -307,7 +307,7 @@ void BrowserWindow::openYTUrl(const QString & url) {
 	}
 #endif
 
-	QString title = ryu->urlTitle();
+	QString title = ryu->urlTitle().replace('"', "'");
 	int itag = ryu->itagFromPreferredQuality();
 	qDebug() << "BrowserWindow::openYTUrl: itag:" << itag;
 
