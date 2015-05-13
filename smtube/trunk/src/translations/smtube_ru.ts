@@ -164,12 +164,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="363"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation>Хотите обновить код YouTube? Это может решить проблему.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="371"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation>Возможно обновление данного приложения позволит решить проблему.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="389"/>
@@ -179,32 +179,32 @@
     <message>
         <location filename="../browserwindow.cpp" line="390"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
-        <translation type="unfinished"/>
+        <translation>Старый SMTube больше не работает из-за изменений на YouTube.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="391"/>
         <source>This is a new version of SMTube, written from scratch.</source>
-        <translation type="unfinished"/>
+        <translation>Это новая версия SMTube, написанная с нуля.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="392"/>
         <source>Some functionality is not available yet.</source>
-        <translation type="unfinished"/>
+        <translation>Некоторые функции пока не доступны.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="394"/>
         <source>Important:</source>
-        <translation type="unfinished"/>
+        <translation>Важно:</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="395"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
-        <translation type="unfinished"/>
+        <translation>Если VEVO видео не хочет проигрываться, пожалуйста,  используйте пункт %1 в меню Справки.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="396"/>
         <source>Update the YouTube code</source>
-        <translation type="unfinished"/>
+        <translation>Обновить код YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="211"/>
@@ -253,7 +253,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"/>
+        <translation>Возникла ошибка при загрузке файла:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -314,7 +314,7 @@
     <message>
         <location filename="../filechooser.cpp" line="56"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"/>
+        <translation>Нажмите для выбора файла или папки</translation>
     </message>
 </context>
 <context>
@@ -322,28 +322,28 @@
     <message>
         <location filename="../mywebview.cpp" line="32"/>
         <source>Open link in a web browser</source>
-        <translation type="unfinished"/>
+        <translation>Открыть ссылку в веб-браузере</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="74"/>
         <location filename="../mywebview.cpp" line="82"/>
         <source>Open with %1</source>
-        <translation type="unfinished"/>
+        <translation>Открыть с %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="90"/>
         <source>Copy link to clipboard</source>
-        <translation type="unfinished"/>
+        <translation>Скопировать ссылку в буфер обмена</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="93"/>
         <source>Open link in this window</source>
-        <translation type="unfinished"/>
+        <translation>Открыть ссылку в этом окне</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="96"/>
         <source>Copy text to clipboard</source>
-        <translation type="unfinished"/>
+        <translation>Скопировать текст в буфер обмена</translation>
     </message>
 </context>
 <context>
@@ -371,7 +371,7 @@
     <message>
         <location filename="../playerdialog.ui" line="71"/>
         <source>This player supports &amp;video sites</source>
-        <translation type="unfinished"/>
+        <translation>Данный плеер поддерживает &amp;видео-сайты</translation>
     </message>
 </context>
 <context>
