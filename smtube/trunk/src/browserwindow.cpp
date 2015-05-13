@@ -311,7 +311,8 @@ void BrowserWindow::openYTUrl(const QString & url) {
 	int itag = ryu->itagFromPreferredQuality();
 	qDebug() << "BrowserWindow::openYTUrl: itag:" << itag;
 
-	QString filename = title.replace(" - YouTube", "");
+	QString filename = title;
+	filename = filename.replace(" - YouTube", "").replace(":", "");
 	filename += RetrieveYoutubeUrl::extensionForItag(itag);
 
 	qDebug() << "BrowserWindow::openYTUrl: filename:" << filename;
