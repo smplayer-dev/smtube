@@ -433,7 +433,7 @@ void BrowserWindow::saveConfig() {
 	settings->setValue("statusbar", toggleStatusbarAct->isChecked());
 	settings->endGroup();
 
-	settings->beginGroup("general");
+	settings->beginGroup("General");
 	settings->setValue("playback_quality", ryu->preferredQuality());
 	settings->setValue("user_agent", ryu->userAgent());
 	settings->setValue("use_https_main", ryu->useHttpsMain());
@@ -458,7 +458,7 @@ void BrowserWindow::loadConfig() {
 	toggleStatusbarAct->setChecked(settings->value("statusbar", false).toBool());
 	settings->endGroup();
 
-	settings->beginGroup("general");
+	settings->beginGroup("General");
 	int quality = settings->value("playback_quality", RetrieveYoutubeUrl::MP4_360p).toInt();
 	ryu->setPreferredQuality((RetrieveYoutubeUrl::Quality) quality);
 	ryu->setUserAgent(settings->value("user_agent", "").toString());
