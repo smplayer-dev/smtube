@@ -417,7 +417,7 @@
     <message>
         <location filename="../playerdialog.ui" line="14"/>
         <source>Edit Player</source>
-        <translation>Edtar Reproductor</translation>
+        <translation>Editar Reproductor</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="22"/>
