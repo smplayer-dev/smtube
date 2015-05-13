@@ -4,7 +4,7 @@
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About...</source>
-        <translation>Informazioni...</translation>
+        <translation>Informazioni su SMTube</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
@@ -49,12 +49,12 @@
     <message>
         <location filename="../about.cpp" line="86"/>
         <source>Many people contributed with translations.</source>
-        <translation>Molte persone hanno già contribuito alla traduzione di SMTube.</translation>
+        <translation>Molte persone hanno già contribuito alla traduzione di SMTube,</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="87"/>
         <source>You can also help to translate SMTube into your own language.</source>
-        <translation>Vuoi contribuire al loro miglioramento o desideri aiutarci con la traduzione di SMPlayer ?</translation>
+        <translation>vuoi contribuire al loro miglioramento o desideri aiutarci con la traduzione di SMPlayer ?</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="88"/>
@@ -64,7 +64,7 @@
     <message>
         <location filename="../about.cpp" line="90"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation>Persone attualmente coinvolte nel team Transifex</translation>
+        <translation>Persone coinvolte nel team di Transifex</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
@@ -112,17 +112,17 @@
     <message>
         <location filename="../browserwindow.cpp" line="131"/>
         <source>&amp;Update the YouTube code</source>
-        <translation>&amp;Aggiorna il codice di YouTube</translation>
+        <translation>Aggiorna &amp;codice di YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="136"/>
         <source>About this &amp;release</source>
-        <translation>Informazioni su questa &amp;versione</translation>
+        <translation>Informazioni sulla &amp;versione...</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="140"/>
         <source>&amp;About SMTube</source>
-        <translation>&amp;Informazioni su SMTube</translation>
+        <translation>Informazioni su &amp;SMTube...</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="343"/>
@@ -184,12 +184,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="391"/>
         <source>This is a new version of SMTube, written from scratch.</source>
-        <translation>Questa è una nuova versione di SMTune riscritta da zero</translation>
+        <translation>Questa è una nuova versione parzialmente riscritta</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="392"/>
         <source>Some functionality is not available yet.</source>
-        <translation>Alcune funzionalità sono incomplete.</translation>
+        <translation>e diverse funzionalità non sono ancora state implementate.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="394"/>
@@ -199,7 +199,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="395"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
-        <translation>Nel caso i video da VEVO risultino inaccessibili per favore usa l&apos;opzione %1 dal menu Aiuto</translation>
+        <translation>Nel caso i video da VEVO risultino inaccessibili per favore usa l&apos;opzione %1 dal menu &quot;Aiuto&quot;</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="396"/>
@@ -276,7 +276,7 @@
     <message>
         <location filename="../configdialog.ui" line="76"/>
         <source>Up</source>
-        <translation>In alto</translation>
+        <translation>Sposta in alto</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="30"/>
@@ -291,7 +291,7 @@
     <message>
         <location filename="../configdialog.ui" line="65"/>
         <source>Players</source>
-        <translation>Lettori</translation>
+        <translation>Lettori video</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="122"/>
@@ -306,7 +306,7 @@
     <message>
         <location filename="../configdialog.ui" line="87"/>
         <source>Down</source>
-        <translation>In basso</translation>
+        <translation>Sposta in basso</translation>
     </message>
 </context>
 <context>
@@ -371,7 +371,7 @@
     <message>
         <location filename="../playerdialog.ui" line="71"/>
         <source>This player supports &amp;video sites</source>
-        <translation>Questo lettore supporta i portali &amp;video</translation>
+        <translation>Questo lettore supporta vari portali &amp;video</translation>
     </message>
 </context>
 <context>
@@ -384,7 +384,7 @@
     <message>
         <location filename="../players.cpp" line="101"/>
         <source>Normal streams</source>
-        <translation>Stream normale</translation>
+        <translation>Stream normali</translation>
     </message>
 </context>
 </TS>

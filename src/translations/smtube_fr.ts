@@ -371,7 +371,7 @@
     <message>
         <location filename="../playerdialog.ui" line="71"/>
         <source>This player supports &amp;video sites</source>
-        <translation>Ce lecteur supporte les sites de %vidéo</translation>
+        <translation>Ce lecteur supporte les sites de &amp;vidéo</translation>
     </message>
 </context>
 <context>
