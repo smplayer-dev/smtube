@@ -105,11 +105,13 @@ QString Player::directPlayToString(bool b) {
 Players::Players() {
 #ifdef Q_OS_WIN
 	list.push_back( Player("SMPlayer", "smplayer.exe", "%u", true) );
+	list.push_back( Player("SMPlayer (add to playlist)", "smplayer.exe", "-add-to-playlist %u", true) );
 	/*
 	list.push_back( Player("VLC", "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe", "%u --meta-title=%t", false) );
 	*/
 #else
 	list.push_back( Player("SMPlayer", "smplayer", "%u", true) );
+	list.push_back( Player("SMPlayer (add to playlist)", "smplayer", "-add-to-playlist %u", true) );
 	list.push_back( Player("MPlayer", "mplayer", "%u -title %t", false) );
 	list.push_back( Player("VLC", "vlc", "%u --meta-title=%t", false) );
 	list.push_back( Player("Dragon Player", "dragon", "%u", false) );
