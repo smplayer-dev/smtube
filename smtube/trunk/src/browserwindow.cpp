@@ -76,11 +76,6 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 
 	view->setPage(page);
 	view->page()->setLinkDelegationPolicy(QWebPage::DelegateAllLinks);
-	view->page()->settings()->setAttribute(QWebSettings::PluginsEnabled, false);
-	view->page()->settings()->setAttribute(QWebSettings::JavaEnabled, false);
-	view->page()->settings()->setAttribute(QWebSettings::JavascriptEnabled, true);
-	//view->page()->settings()->setAttribute(QWebSettings::AutoLoadImages, false);
-	//view->page()->settings()->setAttribute(QWebSettings::DeveloperExtrasEnabled, true);
 
 	MyCookieJar * jar = new MyCookieJar(config_path + "/cookies.ini");
 	view->page()->networkAccessManager()->setCookieJar(jar);
@@ -441,6 +436,15 @@ void BrowserWindow::saveConfig() {
 	settings->setValue("use_https_vi", ryu->useHttpsVi());
 	settings->endGroup();
 
+	settings->beginGroup("browser");
+	QWebSettings * ws = view->page()->settings();
+	settings->setValue("plugins", ws->testAttribute(QWebSettings::PluginsEnabled));
+	settings->setValue("javascript", ws->testAttribute(QWebSettings::JavascriptEnabled));
+	settings->setValue("java", ws->testAttribute(QWebSettings::JavaEnabled));
+	settings->setValue("images", ws->testAttribute(QWebSettings::AutoLoadImages));
+	settings->setValue("developer_extras", ws->testAttribute(QWebSettings::DeveloperExtrasEnabled));
+	settings->endGroup();
+
 #ifdef USE_PLAYERS
 	players.save(settings);
 #endif
@@ -468,6 +472,15 @@ void BrowserWindow::loadConfig() {
 
 	bool shown_notes = settings->value("shown_notes", false).toBool();
 	settings->setValue("shown_notes", true);
+	settings->endGroup();
+
+	settings->beginGroup("browser");
+	QWebSettings * ws = view->page()->settings();
+	ws->setAttribute(QWebSettings::PluginsEnabled, settings->value("plugins", false).toBool());
+	ws->setAttribute(QWebSettings::JavascriptEnabled, settings->value("javascript", true).toBool());
+	ws->setAttribute(QWebSettings::JavaEnabled, settings->value("java", false).toBool());
+	ws->setAttribute(QWebSettings::AutoLoadImages, settings->value("images", true).toBool());
+	ws->setAttribute(QWebSettings::DeveloperExtrasEnabled, settings->value("developer_extras", false).toBool());
 	settings->endGroup();
 
 	SupportedUrls::load();
