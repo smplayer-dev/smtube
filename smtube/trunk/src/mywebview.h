@@ -50,13 +50,12 @@ protected slots:
 	void openWithTriggered();
 
 protected:
-	void createContextMenu(int site_id);
+	void createContextMenu(int site_id, const QUrl & url);
 	void contextMenuEvent(QContextMenuEvent* event);
 
 private:
 	QMenu * context_menu;
 	QAction * openLinkInExternalBrowserAct;
-	QUrl selected_url;
 
 #ifdef USE_PLAYERS
 	QList<Player> player_list;

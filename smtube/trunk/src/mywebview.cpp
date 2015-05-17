@@ -44,8 +44,7 @@ void MyWebView::contextMenuEvent(QContextMenuEvent* event) {
 	} else {
 		int site_type = SupportedUrls::site(url.toString());
 		if (site_type != SupportedUrls::Unsupported) {
-			selected_url = url;
-			createContextMenu(site_type);
+			createContextMenu(site_type, url);
 			context_menu->exec(mapToGlobal(QPoint(event->x(),event->y())));
 		} else {
 			QWebView::contextMenuEvent(event);
@@ -53,7 +52,7 @@ void MyWebView::contextMenuEvent(QContextMenuEvent* event) {
 	}
 }
 
-void MyWebView::createContextMenu(int site_id) {
+void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 	if (context_menu == 0) {
 		context_menu = new QMenu(this);
 	}
@@ -72,7 +71,9 @@ void MyWebView::createContextMenu(int site_id) {
 			QAction * a = new QAction(this);
 			connect(a, SIGNAL(triggered()), this, SLOT(openWithTriggered()));
 			a->setText(tr("Open with %1").arg(player_list[n].name()));
-			a->setData(player_list[n].name());
+			QStringList data;
+			data << player_list[n].name() << url.toString();
+			a->setData(data);
 			context_menu->addAction(a);
 		}
 	}
@@ -80,7 +81,9 @@ void MyWebView::createContextMenu(int site_id) {
 	QAction * a = new QAction(this);
 	connect(a, SIGNAL(triggered()), this, SLOT(openWithTriggered()));
 	a->setText(tr("Open with %1").arg(player_name));
-	a->setData(player_name);
+	QStringList data;
+	data << player_name << url.toString();
+	a->setData(data);
 	context_menu->addAction(a);
 #endif
 
@@ -95,6 +98,8 @@ void MyWebView::createContextMenu(int site_id) {
 	QAction *copy_text = pageAction(QWebPage::Copy);
 	copy_text->setText(tr("Copy text to clipboard"));
 
+	openLinkInExternalBrowserAct->setData(url.toString());
+
 	context_menu->addAction(copy_link);
 	context_menu->addAction(open_link);
 	context_menu->addAction(openLinkInExternalBrowserAct);
@@ -105,14 +110,20 @@ void MyWebView::openWithTriggered() {
 	qDebug() << "MyWebView::openWithTriggered";
 	QAction * a = qobject_cast<QAction *>(sender());
 	if (a) {
-		QString player = a->data().toString();
-		qDebug() << "MyWebView::openWithTriggered: player:" << player;
-		emit requestedOpenWith(player, selected_url);
+		QStringList data = a->data().toStringList();
+		if (data.count() == 2) {
+			QString player = data[0];
+			QString url = data[1];
+			qDebug() << "MyWebView::openWithTriggered: player:" << player;
+			emit requestedOpenWith(player, url);
+		}
 	}
 }
 
 void MyWebView::openLinkInExternalBrowser() {
-	QDesktopServices::openUrl(selected_url);
+	QString url = openLinkInExternalBrowserAct->data().toString();
+	qDebug() << "MyWebView::openLinkInExternalBrowser: url:" << url;
+	QDesktopServices::openUrl(url);
 }
 
 #include "moc_mywebview.cpp"
