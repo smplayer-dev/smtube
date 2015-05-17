@@ -39,12 +39,12 @@
     <message>
         <location filename="../about.cpp" line="41"/>
         <source>Compiled with Qt %1 (using %2)</source>
-        <translation>Compilato con Qt %1 (usando %2)</translation>
+        <translation>Compilato con Qt %1 (versione in uso: %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="43"/>
         <source>Visit our website for updates:</source>
-        <translation>Per ulteriori informazioni visita il nostro sito web:</translation>
+        <translation>Per ulteriori aggiornamenti visita il sito:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -54,12 +54,12 @@
     <message>
         <location filename="../about.cpp" line="87"/>
         <source>You can also help to translate SMTube into your own language.</source>
-        <translation>vuoi contribuire al loro miglioramento o desideri aiutarci con la traduzione di SMPlayer ?</translation>
+        <translation>se desideri contribuire con la tua traduzione o aiutarci con la traduzione di SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="88"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>Visita il sito web %1 </translation>
+        <translation>Visita il sito %1 </translation>
     </message>
     <message>
         <location filename="../about.cpp" line="90"/>
@@ -102,7 +102,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="121"/>
         <source>&amp;Settings</source>
-        <translation>&amp;Impostazioni</translation>
+        <translation>&amp;Impostazioni...</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="128"/>
@@ -281,7 +281,7 @@
     <message>
         <location filename="../configdialog.ui" line="30"/>
         <source>Playback</source>
-        <translation>Playback</translation>
+        <translation>Riproduzione</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="36"/>
