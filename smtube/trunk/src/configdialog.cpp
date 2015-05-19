@@ -101,6 +101,11 @@ QList<Player> ConfigDialog::players() {
 	return list;
 }
 
+void ConfigDialog::setDefaultPlayers(QList<Player> players) {
+	default_players = players;
+	updateAddPlayersButton();
+}
+
 void ConfigDialog::editCurrentItem() {
 	qDebug() << "ConfigDialog::editCurrentItem";
 
@@ -132,6 +137,8 @@ void ConfigDialog::on_delete_button_clicked() {
 
 	QListWidgetItem * i = table->takeItem(row);
 	delete i;
+
+	updateAddPlayersButton();
 }
 
 void ConfigDialog::on_add_button_clicked() {
@@ -150,6 +157,8 @@ void ConfigDialog::on_add_button_clicked() {
 	table->setCurrentRow(row);
 
 	editCurrentItem();
+
+	updateAddPlayersButton();
 }
 
 void ConfigDialog::on_up_button_clicked() {
@@ -168,6 +177,41 @@ void ConfigDialog::on_down_button_clicked() {
 	QListWidgetItem * i = table->takeItem(row);
 	table->insertItem(row+1, i);
 	table->setCurrentRow(row+1);
+}
+
+void ConfigDialog::on_addplayers_button_clicked() {
+	qDebug() << "ConfigDialog::on_addplayers_button_clicked";
+
+	for (int n = 0; n < default_players.count(); n++) {
+		QString name = default_players[n].name();
+		QList<QListWidgetItem *> items = table->findItems(name, Qt::MatchExactly);
+		if (items.isEmpty()) {
+			qDebug() << "ConfigDialog::on_addplayers_button_clicked: player" << name << "not found";
+			// Add player
+			QListWidgetItem * i = new QListWidgetItem;
+			i->setText( name );
+			i->setData(Qt::UserRole + COL_NAME, name);
+			i->setData(Qt::UserRole + COL_BINARY, default_players[n].binary());
+			i->setData(Qt::UserRole + COL_PARMS, default_players[n].arguments());
+			i->setData(Qt::UserRole + COL_DIRECTPLAY, default_players[n].directPlay());
+			table->addItem(i);
+		}
+	}
+	addplayers_button->setEnabled(false);
+}
+
+void ConfigDialog::updateAddPlayersButton() {
+	bool available_player = false;
+
+	for (int n = 0; n < default_players.count(); n++) {
+		QString name = default_players[n].name();
+		QList<QListWidgetItem *> items = table->findItems(name, Qt::MatchExactly);
+		if (items.isEmpty()) {
+			available_player = true;
+		}
+	}
+
+	addplayers_button->setEnabled(available_player);
 }
 #endif
 

@@ -42,12 +42,20 @@ public:
 	void setPlayers(QList<Player> list);
 	QList<Player> players();
 
+	void setDefaultPlayers(QList<Player> players);
+
 protected slots:
 	void on_up_button_clicked();
 	void on_down_button_clicked();
 	void on_delete_button_clicked();
 	void on_add_button_clicked();
 	void editCurrentItem();
+	void on_addplayers_button_clicked();
+
+	void updateAddPlayersButton();
+
+protected:
+	QList<Player> default_players;
 #endif
 };
 

@@ -405,6 +405,7 @@ void BrowserWindow::showConfigDialog() {
 	d.setPlaybackQuality(ryu->preferredQuality());
 	#ifdef USE_PLAYERS
 	d.setPlayers(players.allPlayers());
+	d.setDefaultPlayers(players.defaultPlayers());
 	#endif
 
 	if (d.exec() == QDialog::Accepted) {
