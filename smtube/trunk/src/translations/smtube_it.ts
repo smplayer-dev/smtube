@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="it">
 <context>
     <name>About</name>
     <message>
@@ -75,139 +77,139 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="101"/>
+        <location filename="../browserwindow.cpp" line="96"/>
         <source>Home</source>
         <translation>Home</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="104"/>
+        <location filename="../browserwindow.cpp" line="99"/>
         <source>Navigation</source>
         <translation>Navigazione</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="112"/>
+        <location filename="../browserwindow.cpp" line="107"/>
         <source>&amp;View</source>
         <translation>&amp;Mostra</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="113"/>
+        <location filename="../browserwindow.cpp" line="108"/>
         <source>Toolbar</source>
         <translation>Barra strumenti</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="117"/>
+        <location filename="../browserwindow.cpp" line="112"/>
         <source>Statusbar</source>
         <translation>Barra di stato</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="121"/>
+        <location filename="../browserwindow.cpp" line="116"/>
         <source>&amp;Settings</source>
         <translation>&amp;Impostazioni...</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="128"/>
+        <location filename="../browserwindow.cpp" line="123"/>
         <source>&amp;Help</source>
         <translation>&amp;Aiuto</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="131"/>
+        <location filename="../browserwindow.cpp" line="126"/>
         <source>&amp;Update the YouTube code</source>
         <translation>Aggiorna &amp;codice di YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="136"/>
+        <location filename="../browserwindow.cpp" line="131"/>
         <source>About this &amp;release</source>
         <translation>Informazioni sulla &amp;versione...</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="140"/>
+        <location filename="../browserwindow.cpp" line="135"/>
         <source>&amp;About SMTube</source>
         <translation>Informazioni su &amp;SMTube...</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="343"/>
+        <location filename="../browserwindow.cpp" line="339"/>
         <source>Connection failed</source>
         <translation>Connessione fallita</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="344"/>
+        <location filename="../browserwindow.cpp" line="340"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Il video richiesto richiede l&apos;apertura di una connessione HTTPS.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="345"/>
+        <location filename="../browserwindow.cpp" line="341"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>Attenzione, il componente OpenSSL richiesto non è disponibile sul tuo computer.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="350"/>
+        <location filename="../browserwindow.cpp" line="346"/>
         <source>No video found</source>
         <translation>Nessun video trovato</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="351"/>
+        <location filename="../browserwindow.cpp" line="347"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Non è stato possibile trovare l&apos;URL di questo video</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="361"/>
-        <location filename="../browserwindow.cpp" line="369"/>
+        <location filename="../browserwindow.cpp" line="357"/>
+        <location filename="../browserwindow.cpp" line="365"/>
         <source>Problems with YouTube</source>
         <translation>Problemi con YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="362"/>
-        <location filename="../browserwindow.cpp" line="370"/>
+        <location filename="../browserwindow.cpp" line="358"/>
+        <location filename="../browserwindow.cpp" line="366"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Sfortunatamente a causa delle recenti modifiche apportate a YouTube il video &apos;%1&apos; che si sta cercando non è più visualizzabile.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="363"/>
+        <location filename="../browserwindow.cpp" line="359"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>Si desidera aggiornare il codice di YouTube? Questa operazione potrebbe risolvere il problema.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="371"/>
+        <location filename="../browserwindow.cpp" line="367"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Il problema potrebbe essere risolvibile aggiornando questa applicazione.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="389"/>
+        <location filename="../browserwindow.cpp" line="385"/>
         <source>About this release</source>
         <translation>Informazioni sulla versione</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="390"/>
+        <location filename="../browserwindow.cpp" line="386"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
-        <translation>A causa delle recenti modifiche apportate a YouTube la vecchia versione di SMTube non è più funzionante</translation>
+        <translation>A causa delle recenti modifiche apportate a YouTube la vecchia versione di SMTube non è più funzionante.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="391"/>
+        <location filename="../browserwindow.cpp" line="387"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>Questa è una nuova versione parzialmente riscritta</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="392"/>
+        <location filename="../browserwindow.cpp" line="388"/>
         <source>Some functionality is not available yet.</source>
         <translation>e diverse funzionalità non sono ancora state implementate.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="394"/>
+        <location filename="../browserwindow.cpp" line="390"/>
         <source>Important:</source>
         <translation>Importante:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="395"/>
+        <location filename="../browserwindow.cpp" line="391"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>Nel caso i video da VEVO risultino inaccessibili per favore usa l&apos;opzione %1 dal menu &quot;Aiuto&quot;</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="396"/>
+        <location filename="../browserwindow.cpp" line="392"/>
         <source>Update the YouTube code</source>
-        <translation>Aggiornamento del codice di YouTube</translation>
+        <translation>Aggiorna codice di YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="211"/>
+        <location filename="../browserwindow.cpp" line="206"/>
         <source>Loading... %1%</source>
         <translation>Caricamento... %1%</translation>
     </message>
@@ -269,12 +271,12 @@
         <translation>&amp;Generale</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="111"/>
+        <location filename="../configdialog.ui" line="113"/>
         <source>Add</source>
         <translation>Aggiungi</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="76"/>
+        <location filename="../configdialog.ui" line="78"/>
         <source>Up</source>
         <translation>Sposta in alto</translation>
     </message>
@@ -294,17 +296,22 @@
         <translation>Lettori video</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="122"/>
+        <location filename="../configdialog.ui" line="124"/>
         <source>Delete</source>
-        <translation>Elimina</translation>
+        <translation>Rimuovi</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="146"/>
+        <location filename="../configdialog.ui" line="148"/>
         <source>Edit</source>
         <translation>Modifica</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="87"/>
+        <location filename="../configdialog.ui" line="161"/>
+        <source>A&amp;dd predefined players</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="89"/>
         <source>Down</source>
         <translation>Sposta in basso</translation>
     </message>
@@ -325,23 +332,23 @@
         <translation>Apri link nel browser</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="74"/>
-        <location filename="../mywebview.cpp" line="82"/>
+        <location filename="../mywebview.cpp" line="73"/>
+        <location filename="../mywebview.cpp" line="83"/>
         <source>Open with %1</source>
         <translation>Apri con %1</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="90"/>
+        <location filename="../mywebview.cpp" line="93"/>
         <source>Copy link to clipboard</source>
         <translation>Copia link nella clipboard</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="93"/>
+        <location filename="../mywebview.cpp" line="96"/>
         <source>Open link in this window</source>
         <translation>Apri link in questa finestra</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="96"/>
+        <location filename="../mywebview.cpp" line="99"/>
         <source>Copy text to clipboard</source>
         <translation>Copia testo nella clipboard</translation>
     </message>
