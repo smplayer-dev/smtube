@@ -81,8 +81,12 @@ public:
 	void setAllPlayers(QList<Player> players);
 	QList<Player> allPlayers() { return list; }
 
+	QList<Player> defaultPlayers() { return default_list; }
+
 protected:
-	QList <Player> list;
+	QList<Player> list;
+	QList<Player> default_list;
+
 	int curr;
 
 	QList <Player> available_players_cache;

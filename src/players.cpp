@@ -123,6 +123,7 @@ Players::Players() {
 	list.push_back( Player("uget", "uget-gtk", "--quiet --folder=/tmp --filename=%f %u", false) );
 	*/
 #endif
+	default_list = list;
 	curr = 0;
 }
 
