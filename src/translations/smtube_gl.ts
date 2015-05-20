@@ -308,7 +308,7 @@
     <message>
         <location filename="../configdialog.ui" line="161"/>
         <source>A&amp;dd predefined players</source>
-        <translation type="unfinished"></translation>
+        <translation>Enga&amp;dir os reprodutores predefinidos</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="89"/>
