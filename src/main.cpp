@@ -88,6 +88,7 @@ QString qtTranslationsPath() {
 
 int main(int argc, char * argv[]) {
 	QApplication a(argc, argv);
+	a.setApplicationName("smtube");
 
 	QUrl url;
 	QString search_term;

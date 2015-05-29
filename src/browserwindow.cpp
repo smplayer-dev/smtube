@@ -45,6 +45,11 @@
 #include "codedownloader.h"
 #endif
 
+#if QT_VERSION >= 0x050000
+#include <QStandardPaths>
+#else
+#include <QDesktopServices>
+#endif
 
 BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::WindowFlags flags)
 	: QMainWindow(parent, flags)
@@ -482,7 +487,18 @@ void BrowserWindow::loadConfig() {
 	ws->setAttribute(QWebSettings::JavaEnabled, settings->value("java", false).toBool());
 	ws->setAttribute(QWebSettings::AutoLoadImages, settings->value("images", true).toBool());
 	ws->setAttribute(QWebSettings::DeveloperExtrasEnabled, settings->value("developer_extras", false).toBool());
+	bool use_cache = settings->value("use_cache", true).toBool();
 	settings->endGroup();
+
+	if (use_cache) {
+		#if QT_VERSION >= 0x050000
+		QString cache_path = QStandardPaths::writableLocation(QStandardPaths::CacheLocation);
+		#else
+		QString cache_path = QDesktopServices::storageLocation(QDesktopServices::CacheLocation);
+		#endif
+		qDebug() << "BrowserWindow::loadConfig: cache enabled. Location:" << cache_path;
+		QWebSettings::enablePersistentStorage(cache_path);
+	}
 
 	SupportedUrls::load();
 
