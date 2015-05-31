@@ -104,21 +104,21 @@ QString Player::directPlayToString(bool b) {
 
 Players::Players() {
 #ifdef Q_OS_WIN
-	list.push_back( Player("SMPlayer", "smplayer.exe", "%u", true) );
-	list.push_back( Player("SMPlayer (add to playlist)", "smplayer.exe", "-add-to-playlist %u", true) );
+	list.push_back( Player("SMPlayer", "smplayer.exe", "%u", true, Player::VideoAudio) );
+	list.push_back( Player("SMPlayer (add to playlist)", "smplayer.exe", "-add-to-playlist %u", true, Player::VideoAudio) );
 	/*
 	list.push_back( Player("VLC", "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe", "%u --meta-title=%t", false) );
 	*/
 #else
-	list.push_back( Player("SMPlayer", "smplayer", "%u", true) );
-	list.push_back( Player("SMPlayer (add to playlist)", "smplayer", "-add-to-playlist %u", true) );
-	list.push_back( Player("MPlayer", "mplayer", "%u -title %t", false) );
-	list.push_back( Player("VLC", "vlc", "%u --meta-title=%t", false) );
-	list.push_back( Player("Dragon Player", "dragon", "%u", false) );
-	list.push_back( Player("Totem", "totem", "%u", false) );
-	list.push_back( Player("GNOME-MPlayer", "gnome-mplayer", "%u", false) );
-	list.push_back( Player("mpv", "mpv", "%u --title=%t", false) );
-	list.push_back( Player("mpv + youtube-dl", "mpv", "--ytdl --ytdl-format=best %u", true) );
+	list.push_back( Player("SMPlayer", "smplayer", "%u", true, Player::VideoAudio) );
+	list.push_back( Player("SMPlayer (add to playlist)", "smplayer", "-add-to-playlist %u", true, Player::VideoAudio) );
+	list.push_back( Player("MPlayer", "mplayer", "%u -title %t", false, Player::Video) );
+	list.push_back( Player("VLC", "vlc", "%u --meta-title=%t", false, Player::VideoAudio) );
+	list.push_back( Player("Dragon Player", "dragon", "%u", false, Player::VideoAudio) );
+	list.push_back( Player("Totem", "totem", "%u", false, Player::VideoAudio) );
+	list.push_back( Player("GNOME-MPlayer", "gnome-mplayer", "%u", false, Player::VideoAudio) );
+	list.push_back( Player("mpv", "mpv", "%u --title=%t", false, Player::Video) );
+	list.push_back( Player("mpv + youtube-dl", "mpv", "--ytdl --ytdl-format=best %u", true, Player::Video) );
 	/*
 	list.push_back( Player("uget", "uget-gtk", "--quiet --folder=/tmp --filename=%f %u", false) );
 	*/
@@ -171,6 +171,7 @@ void Players::save(QSettings * set) {
 		set->setValue("binary", list[n].binary());
 		set->setValue("arguments", list[n].arguments());
 		set->setValue("directplay", list[n].directPlay());
+		set->setValue("supported_media", list[n].supportedMedia());
 		set->endGroup();
 	}
 
@@ -193,7 +194,8 @@ void Players::load(QSettings * set) {
 			QString binary = set->value("binary", "").toString();
 			QString arguments = set->value("arguments", "").toString();
 			bool directplay = set->value("directplay", false).toBool();
-			list.push_back( Player(name, binary, arguments, directplay) );
+			int supported_media = set->value("supported_media", Player::VideoAudio).toInt();
+			list.push_back( Player(name, binary, arguments, directplay, (Player::Media) supported_media) );
 			set->endGroup();
 		}
 	}

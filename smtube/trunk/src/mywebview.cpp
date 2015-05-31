@@ -75,18 +75,23 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 		if (site_id == SupportedUrls::Other && player_list[n].directPlay()) add_this_player = true;
 
 		if (add_this_player) {
-			QAction * videoAct = new QAction(this);
-			connect(videoAct, SIGNAL(triggered()), this, SLOT(openWithTriggered()));
-			videoAct->setText(tr("Open with %1").arg(player_list[n].name()));
-			videoAct->setData(QStringList() << player_list[n].name() << url.toString());
-			context_menu->addAction(videoAct);
+			Player::Media media = player_list[n].supportedMedia();
+			if (media == Player::Video || media == Player::VideoAudio) {
+				QAction * videoAct = new QAction(this);
+				connect(videoAct, SIGNAL(triggered()), this, SLOT(openWithTriggered()));
+				videoAct->setText(tr("Open with %1").arg(player_list[n].name()));
+				videoAct->setData(QStringList() << player_list[n].name() << url.toString());
+				context_menu->addAction(videoAct);
+			}
 
 			// Audio
-			QAction * audioAct = new QAction(this);
-			connect(audioAct, SIGNAL(triggered()), this, SLOT(openAudioWithTriggered()));
-			audioAct->setText(player_list[n].name());
-			audioAct->setData(QStringList() << player_list[n].name() << url.toString());
-			audio_menu->addAction(audioAct);
+			if (media == Player::Audio || media == Player::VideoAudio) {
+				QAction * audioAct = new QAction(this);
+				connect(audioAct, SIGNAL(triggered()), this, SLOT(openAudioWithTriggered()));
+				audioAct->setText(player_list[n].name());
+				audioAct->setData(QStringList() << player_list[n].name() << url.toString());
+				audio_menu->addAction(audioAct);
+			}
 		}
 	}
 
