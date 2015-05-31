@@ -305,7 +305,7 @@ void BrowserWindow::openWith(const QString & player, const QUrl & url) {
 #endif
 }
 
-void BrowserWindow::openYTUrl(RetrieveYoutubeUrl * ryu, const QString & url) {
+void BrowserWindow::openYTUrl(QString title, QString extension, const QString & url) {
 	qDebug() << "BrowserWindow::openYTUrl:" << url;
 
 #ifdef USE_PLAYERS
@@ -315,13 +315,11 @@ void BrowserWindow::openYTUrl(RetrieveYoutubeUrl * ryu, const QString & url) {
 	}
 #endif
 
-	QString title = ryu->urlTitle().replace('"', "'");
-	int itag = ryu->itagFromPreferredQuality();
-	qDebug() << "BrowserWindow::openYTUrl: itag:" << itag;
+	title = title.replace('"', "'");
 
 	QString filename = title;
 	filename = filename.replace(" - YouTube", "").replace(":", "");
-	filename += RetrieveYoutubeUrl::extensionForItag(itag);
+	filename += extension;
 
 	qDebug() << "BrowserWindow::openYTUrl: filename:" << filename;
 
@@ -348,7 +346,7 @@ void BrowserWindow::openYTUrl(RetrieveYoutubeUrl * ryu, const QString & url) {
 }
 
 void BrowserWindow::openYTUrl(const QString & url) {
-	openYTUrl(ryu, url);
+	openYTUrl(ryu->urlTitle(), ryu->extensionForItag(ryu->itagFromPreferredQuality()), url);
 }
 
 void BrowserWindow::openAudioWith(const QString & player, const QUrl & url) {
@@ -378,7 +376,7 @@ void BrowserWindow::openYTAudioUrl(const QMap<int, QString>& url_map) {
 	//qDebug() << "BrowserWindow::openYTAudioUrl: url:" << url;
 
 	if (!url.isEmpty()) {
-		openYTUrl(ryua, url);
+		openYTUrl(ryua->urlTitle(), ".m4a", url); // FIXME: pass the actual extension
 	}
 }
 
