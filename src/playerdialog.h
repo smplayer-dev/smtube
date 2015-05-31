@@ -35,11 +35,13 @@ public:
 	void setBinary(const QString & binary);
 	void setParameters(const QString & parms);
 	void setDirectPlay(bool b);
+	void setMedia(int m);
 
 	QString name();
 	QString binary();
 	QString parameters();
 	bool directPlay();
+	int media();
 };
 
 #endif

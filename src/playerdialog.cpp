@@ -17,11 +17,17 @@
 */
 
 #include "playerdialog.h"
+#include "players.h"
 
 PlayerDialog::PlayerDialog(QWidget * parent, Qt::WindowFlags f)
     : QDialog(parent, f) 
 {
 	setupUi(this);
+
+	media_combo->addItem( tr("None"), Player::None );
+	media_combo->addItem( tr("Video"), Player::Video );
+	media_combo->addItem( tr("Audio"), Player::Audio );
+	media_combo->addItem( tr("Video and audio"), Player::VideoAudio );
 }
 
 PlayerDialog::~PlayerDialog() {
@@ -43,6 +49,12 @@ void PlayerDialog::setDirectPlay(bool b) {
 	directplay_check->setChecked(b);
 }
 
+void PlayerDialog::setMedia(int m) {
+	int i = media_combo->findData(m);
+	if (i == -1) i = 0;
+	media_combo->setCurrentIndex(i);
+}
+
 QString PlayerDialog::name() {
 	return name_edit->text();
 }
@@ -57,6 +69,11 @@ QString PlayerDialog::parameters() {
 
 bool PlayerDialog::directPlay() {
 	return directplay_check->isChecked();
+}
+
+int PlayerDialog::media() {
+	int i = media_combo->currentIndex();
+	return media_combo->itemData(i).toInt();
 }
 
 #include "moc_playerdialog.cpp"
