@@ -28,6 +28,9 @@
 MyWebView::MyWebView(QWidget * parent)
 	:QWebView(parent)
 	,context_menu(0)
+#ifdef USE_PLAYERS
+	,audio_menu(0)
+#endif
 {
 	openLinkInExternalBrowserAct = new QAction(tr("Open link in a web browser"), this);
 	connect(openLinkInExternalBrowserAct, SIGNAL(triggered()), this, SLOT(openLinkInExternalBrowser()));
@@ -56,10 +59,14 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 	if (context_menu == 0) {
 		context_menu = new QMenu(this);
 	}
-
 	context_menu->clear();
 
 #ifdef USE_PLAYERS
+	if (audio_menu == 0) {
+		audio_menu = new QMenu(tr("Open audio with"), this);
+	}
+	audio_menu->clear();
+
 	for (int n = 0; n < player_list.count(); n++) {
 		bool add_this_player = false;
 
@@ -68,23 +75,36 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 		if (site_id == SupportedUrls::Other && player_list[n].directPlay()) add_this_player = true;
 
 		if (add_this_player) {
-			QAction * a = new QAction(this);
-			connect(a, SIGNAL(triggered()), this, SLOT(openWithTriggered()));
-			a->setText(tr("Open with %1").arg(player_list[n].name()));
-			QStringList data;
-			data << player_list[n].name() << url.toString();
-			a->setData(data);
-			context_menu->addAction(a);
+			QAction * videoAct = new QAction(this);
+			connect(videoAct, SIGNAL(triggered()), this, SLOT(openWithTriggered()));
+			videoAct->setText(tr("Open with %1").arg(player_list[n].name()));
+			videoAct->setData(QStringList() << player_list[n].name() << url.toString());
+			context_menu->addAction(videoAct);
+
+			// Audio
+			QAction * audioAct = new QAction(this);
+			connect(audioAct, SIGNAL(triggered()), this, SLOT(openAudioWithTriggered()));
+			audioAct->setText(player_list[n].name());
+			audioAct->setData(QStringList() << player_list[n].name() << url.toString());
+			audio_menu->addAction(audioAct);
 		}
 	}
+
+	context_menu->addMenu(audio_menu);
+
 #else
-	QAction * a = new QAction(this);
-	connect(a, SIGNAL(triggered()), this, SLOT(openWithTriggered()));
-	a->setText(tr("Open with %1").arg(player_name));
-	QStringList data;
-	data << player_name << url.toString();
-	a->setData(data);
-	context_menu->addAction(a);
+	QAction * videoAct = new QAction(this);
+	connect(videoAct, SIGNAL(triggered()), this, SLOT(openWithTriggered()));
+	videoAct->setText(tr("Open with %1").arg(player_name));
+	videoAct->setData(QStringList() << player_name << url.toString());
+	context_menu->addAction(videoAct);
+
+	// Audio
+	QAction * audioAct = new QAction(this);
+	connect(audioAct, SIGNAL(triggered()), this, SLOT(openAudioWithTriggered()));
+	audioAct->setText(tr("Open audio with %1").arg(player_name));
+	audioAct->setData(QStringList() << player_name << url.toString());
+	context_menu->addAction(audioAct);
 #endif
 
 	context_menu->addSeparator();
@@ -116,6 +136,20 @@ void MyWebView::openWithTriggered() {
 			QString url = data[1];
 			qDebug() << "MyWebView::openWithTriggered: player:" << player;
 			emit requestedOpenWith(player, url);
+		}
+	}
+}
+
+void MyWebView::openAudioWithTriggered() {
+	qDebug() << "MyWebView::openAudioWithTriggered";
+	QAction * a = qobject_cast<QAction *>(sender());
+	if (a) {
+		QStringList data = a->data().toStringList();
+		if (data.count() == 2) {
+			QString player = data[0];
+			QString url = data[1];
+			qDebug() << "MyWebView::openWithTriggered: player:" << player;
+			emit requestedOpenAudioWith(player, url);
 		}
 	}
 }
