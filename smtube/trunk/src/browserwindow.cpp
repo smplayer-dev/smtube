@@ -72,12 +72,20 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	connect(ryu, SIGNAL(noSslSupport()), this, SLOT(showErrorNoSslSupport()));
 	connect(ryu, SIGNAL(gotEmptyList()), this, SLOT(showErrorEmptyList()));
 
+	ryua = new RetrieveYoutubeUrl(this);
+	connect(ryua, SIGNAL(gotUrls(const QMap<int, QString>&)), this, SLOT(openYTAudioUrl(const QMap<int, QString>&)));
+	connect(ryua, SIGNAL(signatureNotFound(const QString &)), this, SLOT(showErrorSignatureNotFound(const QString &)));
+	connect(ryua, SIGNAL(noSslSupport()), this, SLOT(showErrorNoSslSupport()));
+	connect(ryua, SIGNAL(gotEmptyList()), this, SLOT(showErrorEmptyList()));
+
+
 	QNetworkProxyFactory::setUseSystemConfiguration(true);
 
 	MyWebPage * page = new MyWebPage(this);
 
 	view = new MyWebView(this);
 	connect(view, SIGNAL(requestedOpenWith(const QString&, const QUrl&)), this, SLOT(openWith(const QString&, const QUrl&)));
+	connect(view, SIGNAL(requestedOpenAudioWith(const QString&, const QUrl&)), this, SLOT(openAudioWith(const QString&, const QUrl&)));
 
 	view->setPage(page);
 	view->page()->setLinkDelegationPolicy(QWebPage::DelegateAllLinks);
@@ -297,7 +305,7 @@ void BrowserWindow::openWith(const QString & player, const QUrl & url) {
 #endif
 }
 
-void BrowserWindow::openYTUrl(const QString & url) {
+void BrowserWindow::openYTUrl(RetrieveYoutubeUrl * ryu, const QString & url) {
 	qDebug() << "BrowserWindow::openYTUrl:" << url;
 
 #ifdef USE_PLAYERS
@@ -337,6 +345,41 @@ void BrowserWindow::openYTUrl(const QString & url) {
 	qDebug() << "BrowserWindow::openYTUrl: command:" << command;
 
 	QProcess::startDetached(command);
+}
+
+void BrowserWindow::openYTUrl(const QString & url) {
+	openYTUrl(ryu, url);
+}
+
+void BrowserWindow::openAudioWith(const QString & player, const QUrl & url) {
+	qDebug() << "BrowserWindow::openAudioWith: player:" << player << "url:" << url.toString();
+
+#ifdef USE_PLAYERS
+	int p = players.findName(player);
+#else
+	int p = 0;
+#endif
+
+	if (p != -1) {
+		#ifdef USE_PLAYERS
+		current_player = p;
+		#endif
+		#ifdef YT_USE_SCRIPT
+		YTSig::setScriptFile(script_file);
+		#endif
+		ryua->fetchPage(url.toString());
+	}
+}
+
+void BrowserWindow::openYTAudioUrl(const QMap<int, QString>& url_map) {
+	qDebug() << "BrowserWindow::openYTAudioUrl";
+	QString url = ryua->findBestAudio(url_map);
+
+	//qDebug() << "BrowserWindow::openYTAudioUrl: url:" << url;
+
+	if (!url.isEmpty()) {
+		openYTUrl(ryua, url);
+	}
 }
 
 void BrowserWindow::showErrorNoSslSupport() {

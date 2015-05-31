@@ -67,7 +67,12 @@ protected slots:
 
 	void openWith(int player_id, const QUrl & url);
 	void openWith(const QString & player, const QUrl & url);
+
+	void openYTUrl(RetrieveYoutubeUrl * ryu, const QString & url);
 	void openYTUrl(const QString & url);
+
+	void openAudioWith(const QString & player, const QUrl & url);
+	void openYTAudioUrl(const QMap<int, QString>&);
 
 	void showAboutRelease();
 	void showAbout();
@@ -91,6 +96,7 @@ private:
 	QToolBar *toolbar;
 	QLineEdit *location;
 	RetrieveYoutubeUrl * ryu;
+	RetrieveYoutubeUrl * ryua;
 
 	QAction *toggleToolbarAct;
 	QAction *toggleStatusbarAct;

@@ -44,10 +44,12 @@ public:
 
 signals:
 	void requestedOpenWith(const QString &, const QUrl &);
+	void requestedOpenAudioWith(const QString &, const QUrl &);
 
 protected slots:
 	void openLinkInExternalBrowser();
 	void openWithTriggered();
+	void openAudioWithTriggered();
 
 protected:
 	void createContextMenu(int site_id, const QUrl & url);
@@ -59,6 +61,7 @@ private:
 
 #ifdef USE_PLAYERS
 	QList<Player> player_list;
+	QMenu * audio_menu;
 #else
 	QString player_name;
 #endif
