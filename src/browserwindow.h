@@ -68,7 +68,7 @@ protected slots:
 	void openWith(int player_id, const QUrl & url);
 	void openWith(const QString & player, const QUrl & url);
 
-	void openYTUrl(RetrieveYoutubeUrl * ryu, const QString & url);
+	void openYTUrl(QString title, QString extension, const QString & url);
 	void openYTUrl(const QString & url);
 
 	void openAudioWith(const QString & player, const QUrl & url);
