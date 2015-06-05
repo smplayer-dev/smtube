@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ko">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ko" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -308,7 +306,7 @@
     <message>
         <location filename="../configdialog.ui" line="161"/>
         <source>A&amp;dd predefined players</source>
-        <translation type="unfinished"></translation>
+        <translation>미리 정의한 재생기 추가하기</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="89"/>

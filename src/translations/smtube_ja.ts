@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -134,7 +132,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="340"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation>要求したビデオは HTTPS 接続を開く必要があります。</translation>
+        <translation>要求した動画は HTTPS 接続を開く必要があります。</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="341"/>
@@ -144,12 +142,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="346"/>
         <source>No video found</source>
-        <translation>ビデオが見つかりません</translation>
+        <translation>動画が見つかりません</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="347"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation>このビデオの URL を見つけることができませんでした。</translation>
+        <translation>この動画の URL を見つけることができませんでした。</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="357"/>
@@ -161,7 +159,7 @@
         <location filename="../browserwindow.cpp" line="358"/>
         <location filename="../browserwindow.cpp" line="366"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation>YouTube の変更のため、ビデオ &apos;%1&apos; は残念ながら再生できません。</translation>
+        <translation>YouTube の変更のため、動画 &apos;%1&apos; は残念ながら再生できません。</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="359"/>
@@ -201,7 +199,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="391"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
-        <translation>VEVO のビデオが再生に失敗する場合は、[ヘルプ] メニューのオプション [%1] を使用してください。</translation>
+        <translation>VEVO の動画の再生が失敗する場合は、[ヘルプ] メニューのオプション [%1] を使用してください。</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="392"/>
@@ -378,7 +376,7 @@
     <message>
         <location filename="../playerdialog.ui" line="71"/>
         <source>This player supports &amp;video sites</source>
-        <translation>ビデオ サイト対応のプレーヤー(&amp;V)</translation>
+        <translation>動画サイト対応のプレーヤー(&amp;V)</translation>
     </message>
 </context>
 <context>
@@ -386,7 +384,7 @@
     <message>
         <location filename="../players.cpp" line="101"/>
         <source>Video sites</source>
-        <translation>ビデオ サイト</translation>
+        <translation>動画サイト</translation>
     </message>
     <message>
         <location filename="../players.cpp" line="101"/>
