@@ -7,4 +7,6 @@ file_filter = smtube_<lang>.ts
 source_lang = en
 source_file = smtube_en.ts
 trans.he = smtube_he_IL.ts
+trans.ms_MY = smtube_ms.ts
+trans.sq_AL = smtube_sq.ts
 minimum_perc = 20
