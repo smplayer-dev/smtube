@@ -501,7 +501,7 @@ void BrowserWindow::loadConfig() {
 	qDebug() << "BrowserWindow::loadConfig";
 
 	settings->beginGroup("window");
-	resize(settings->value("size", QSize(796, 711)).toSize());
+	resize(settings->value("size", QSize(650, 715)).toSize());
 	move(settings->value("pos", pos()).toPoint());
 	settings->endGroup();
 
