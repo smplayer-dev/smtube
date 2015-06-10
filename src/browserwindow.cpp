@@ -62,7 +62,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 {
 	setWindowTitle("SMTube");
 	setWindowIcon(QPixmap(":/icons/smtube.png"));
-	//home_page = "http://www.tonvid.com/";
+	home_page = "http://www.tonvid.com/";
 
 	settings = new QSettings(config_path + "/smtube2.ini", QSettings::IniFormat, this);
 
@@ -477,7 +477,6 @@ void BrowserWindow::saveConfig() {
 	settings->endGroup();
 
 	settings->beginGroup("General");
-	settings->setValue("home_page", home_page);
 	settings->setValue("playback_quality", ryu->preferredQuality());
 	settings->setValue("user_agent", ryu->userAgent());
 	settings->setValue("use_https_main", ryu->useHttpsMain());
@@ -512,7 +511,6 @@ void BrowserWindow::loadConfig() {
 	settings->endGroup();
 
 	settings->beginGroup("General");
-	home_page = settings->value("home_page", "http://www.tonvid.com/").toString();
 	int quality = settings->value("playback_quality", RetrieveYoutubeUrl::MP4_360p).toInt();
 	ryu->setPreferredQuality((RetrieveYoutubeUrl::Quality) quality);
 	ryu->setUserAgent(settings->value("user_agent", "").toString());
