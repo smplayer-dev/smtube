@@ -20,10 +20,11 @@
 #include <QDebug>
 
 QString MyWebPage::userAgentForUrl(const QUrl& url) const {
-#if 0
-	if (url.host().contains("youtube.com")) {
-		return "Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19";
+#if 1
+	if (url.host().contains("m.youtube.com")) {
+		//return "Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19";
 		//return "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5";
+		return "Mozilla/5.0 (Linux; Android 4.0.4)";
 	} else {
 		return QWebPage::userAgentForUrl(url);
 	}
