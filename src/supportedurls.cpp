@@ -36,7 +36,7 @@ int SupportedUrls::site(const QString & url) {
 }
 
 void SupportedUrls::load() {
-	ytrx = QRegExp("^(https?\\:\\/\\/)?(www\\.)?youtube\\.com\\/watch\\?v=.+$");
+	ytrx = QRegExp("^(https?\\:\\/\\/)?(www\\.|m\\.)?youtube\\.com\\/watch\\?v=.+$");
 
 	list << QRegExp("^(https?\\:\\/\\/)?(www\\.)?dailymotion\\.com\\/video\\/.+$");
 	list << QRegExp("^(https?\\:\\/\\/)?(www\\.)?vimeo\\.com\\/(channels\\/staffpicks\\/)?\\d+$");
