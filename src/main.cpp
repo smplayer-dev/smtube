@@ -90,6 +90,11 @@ int main(int argc, char * argv[]) {
 	QApplication a(argc, argv);
 	a.setApplicationName("smtube");
 
+#if QT_VERSION >= 0x040400
+	// Enable icons in menus
+	QCoreApplication::setAttribute(Qt::AA_DontShowIconsInMenus, false);
+#endif
+
 	QUrl url;
 	QString search_term;
 	QString language;
