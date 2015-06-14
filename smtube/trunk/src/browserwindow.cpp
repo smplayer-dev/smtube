@@ -117,6 +117,17 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	toolbar->addAction(view->pageAction(QWebPage::Stop));
 	toolbar->addWidget(location);
 
+	QAction * quitAct = new QAction(tr("&Quit"), this);
+	connect(quitAct, SIGNAL(triggered()), this, SLOT(close()));
+
+	QMenu * browseMenu = menuBar()->addMenu(tr("&Navigate"));
+	browseMenu->addAction(view->pageAction(QWebPage::Back));
+	browseMenu->addAction(view->pageAction(QWebPage::Forward));
+	browseMenu->addAction(view->pageAction(QWebPage::Reload));
+	browseMenu->addAction(view->pageAction(QWebPage::Stop));
+	browseMenu->addSeparator();
+	browseMenu->addAction(quitAct);
+
 	QMenu * viewMenu = menuBar()->addMenu(tr("&View"));
 	toggleToolbarAct = new QAction(tr("Toolbar"), this);
 	toggleToolbarAct->setCheckable(true);
@@ -131,6 +142,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 
 	viewMenu->addAction(toggleToolbarAct);
 	viewMenu->addAction(toggleStatusbarAct);
+	viewMenu->addSeparator();
 	viewMenu->addAction(showConfigDialogAct);
 
 	QMenu * helpMenu = menuBar()->addMenu(tr("&Help"));
