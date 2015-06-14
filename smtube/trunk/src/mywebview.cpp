@@ -85,17 +85,21 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 			}
 
 			// Audio
-			if (media == Player::Audio || media == Player::VideoAudio) {
-				QAction * audioAct = new QAction(this);
-				connect(audioAct, SIGNAL(triggered()), this, SLOT(openAudioWithTriggered()));
-				audioAct->setText(player_list[n].name());
-				audioAct->setData(QStringList() << player_list[n].name() << url.toString());
-				audio_menu->addAction(audioAct);
+			if (site_id == SupportedUrls::Youtube) {
+				if (media == Player::Audio || media == Player::VideoAudio) {
+					QAction * audioAct = new QAction(this);
+					connect(audioAct, SIGNAL(triggered()), this, SLOT(openAudioWithTriggered()));
+					audioAct->setText(player_list[n].name());
+					audioAct->setData(QStringList() << player_list[n].name() << url.toString());
+					audio_menu->addAction(audioAct);
+				}
 			}
 		}
 	}
 
-	context_menu->addMenu(audio_menu);
+	if (!audio_menu->isEmpty()) {
+		context_menu->addMenu(audio_menu);
+	}
 
 #else
 	QAction * videoAct = new QAction(this);
