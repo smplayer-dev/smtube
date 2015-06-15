@@ -120,7 +120,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	QAction * quitAct = new QAction(tr("&Quit"), this);
 	connect(quitAct, SIGNAL(triggered()), this, SLOT(close()));
 
-	QMenu * browseMenu = menuBar()->addMenu(tr("&Navigate"));
+	QMenu * browseMenu = menuBar()->addMenu(tr("&Navigation"));
 	browseMenu->addAction(loadHomePageAct);
 	browseMenu->addAction(view->pageAction(QWebPage::Back));
 	browseMenu->addAction(view->pageAction(QWebPage::Forward));
