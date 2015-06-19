@@ -55,6 +55,9 @@ protected:
 	void createContextMenu(int site_id, const QUrl & url);
 	void contextMenuEvent(QContextMenuEvent* event);
 
+	QWebView *createWindow(QWebPage::WebWindowType type);
+	void mousePressEvent(QMouseEvent * event);
+
 private:
 	QMenu * context_menu;
 	QAction * openLinkInExternalBrowserAct;
@@ -65,6 +68,7 @@ private:
 #else
 	QString player_name;
 #endif
+	QPoint last_click;
 };
 
 #endif

@@ -169,4 +169,23 @@ void MyWebView::openLinkInExternalBrowser() {
 	QDesktopServices::openUrl(url);
 }
 
+QWebView * MyWebView::createWindow(QWebPage::WebWindowType type) {
+	qDebug() << "MyWebView::createWindow";
+	QWebHitTestResult result = page()->mainFrame()->hitTestContent(last_click);
+	QUrl url = result.linkUrl();
+	qDebug() << "MyWebView::createWindow: url:" << url.toString();
+
+	if (!url.isEmpty()) {
+		QDesktopServices::openUrl(url);
+	}
+
+	return 0;
+}
+
+void MyWebView::mousePressEvent(QMouseEvent * event) {
+	//qDebug() << "MyWebView::mousePressEvent";
+	last_click = event->pos();
+	QWebView::mousePressEvent(event);
+}
+
 #include "moc_mywebview.cpp"
