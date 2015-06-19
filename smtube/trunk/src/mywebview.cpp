@@ -42,6 +42,14 @@ void MyWebView::contextMenuEvent(QContextMenuEvent* event) {
 	QUrl url = hit_test.linkUrl();
 	qDebug() << "MyWebView::contextMenuEvent: url:" << url.toString();
 
+	// Translate and adjust some actions
+	pageAction(QWebPage::DownloadLinkToDisk)->setEnabled(false);
+	pageAction(QWebPage::DownloadLinkToDisk)->setText(tr("Save link..."));
+	pageAction(QWebPage::CopyLinkToClipboard)->setText(tr("Copy link to clipboard"));
+	pageAction(QWebPage::OpenLink)->setText(tr("Open link in this window"));
+	pageAction(QWebPage::Copy)->setText(tr("Copy text to clipboard"));
+	pageAction(QWebPage::OpenLinkInNewWindow)->setText(tr("Open link in new window"));
+
 	if (url.isEmpty()) {
 		QWebView::contextMenuEvent(event);
 	} else {
@@ -119,13 +127,8 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 	context_menu->addSeparator();
 
 	QAction *copy_link = pageAction(QWebPage::CopyLinkToClipboard);
-	copy_link->setText(tr("Copy link to clipboard"));
-
 	QAction *open_link = pageAction(QWebPage::OpenLink);
-	open_link->setText(tr("Open link in this window"));
-
 	QAction *copy_text = pageAction(QWebPage::Copy);
-	copy_text->setText(tr("Copy text to clipboard"));
 
 	openLinkInExternalBrowserAct->setData(url.toString());
 
