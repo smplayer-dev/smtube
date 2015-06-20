@@ -89,12 +89,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="120"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Quitter</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="123"/>
         <source>&amp;Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Navigation</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="132"/>
@@ -344,12 +344,12 @@
     <message>
         <location filename="../mywebview.cpp" line="51"/>
         <source>Open link in new window</source>
-        <translation type="unfinished"></translation>
+        <translation>Ouvrir le lien dans une nouvelle fenêtre</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="74"/>
         <source>Open audio with</source>
-        <translation type="unfinished"></translation>
+        <translation>Ouvrir l&apos;audio avec</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="90"/>
@@ -360,7 +360,7 @@
     <message>
         <location filename="../mywebview.cpp" line="122"/>
         <source>Open audio with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ouvrir l&apos;audio avec %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
@@ -370,7 +370,7 @@
     <message>
         <location filename="../mywebview.cpp" line="47"/>
         <source>Save link...</source>
-        <translation type="unfinished"></translation>
+        <translation>Enregistrer le lien...</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="49"/>
@@ -413,27 +413,27 @@
     <message>
         <location filename="../playerdialog.ui" line="80"/>
         <source>Add to &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajouter dans le &amp;menu</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="27"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Aucun</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
         <source>Video</source>
-        <translation type="unfinished"></translation>
+        <translation>Vidéo</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="29"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="30"/>
         <source>Video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Vidéo et audio</translation>
     </message>
 </context>
 <context>
