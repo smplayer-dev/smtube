@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="ja">
 <context>
     <name>About</name>
     <message>
@@ -75,139 +77,149 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="96"/>
+        <location filename="../browserwindow.cpp" line="109"/>
         <source>Home</source>
         <translation>ホーム</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="99"/>
+        <location filename="../browserwindow.cpp" line="112"/>
         <source>Navigation</source>
         <translation>ナビゲーション</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="107"/>
+        <location filename="../browserwindow.cpp" line="120"/>
+        <source>&amp;Quit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="123"/>
+        <source>&amp;Navigation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="132"/>
         <source>&amp;View</source>
         <translation>表示(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="108"/>
+        <location filename="../browserwindow.cpp" line="133"/>
         <source>Toolbar</source>
         <translation>ツール バー</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="112"/>
+        <location filename="../browserwindow.cpp" line="137"/>
         <source>Statusbar</source>
         <translation>ステータス バー</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="116"/>
+        <location filename="../browserwindow.cpp" line="141"/>
         <source>&amp;Settings</source>
         <translation>設定(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="123"/>
+        <location filename="../browserwindow.cpp" line="149"/>
         <source>&amp;Help</source>
         <translation>ヘルプ(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="126"/>
+        <location filename="../browserwindow.cpp" line="152"/>
         <source>&amp;Update the YouTube code</source>
         <translation>YouTube のコードの更新(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="131"/>
+        <location filename="../browserwindow.cpp" line="157"/>
         <source>About this &amp;release</source>
         <translation>このリリースについて(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="135"/>
+        <location filename="../browserwindow.cpp" line="161"/>
         <source>&amp;About SMTube</source>
         <translation>SMTube のバージョン情報(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="339"/>
+        <location filename="../browserwindow.cpp" line="398"/>
         <source>Connection failed</source>
         <translation>接続に失敗しました</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="340"/>
+        <location filename="../browserwindow.cpp" line="399"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>要求した動画は HTTPS 接続を開く必要があります。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="341"/>
+        <location filename="../browserwindow.cpp" line="400"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>残念ながらそれに必要な OpenSSL コンポーネントはお使いのシステムで利用できません。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="346"/>
+        <location filename="../browserwindow.cpp" line="405"/>
         <source>No video found</source>
         <translation>動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="347"/>
+        <location filename="../browserwindow.cpp" line="406"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>この動画の URL を見つけることができませんでした。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="357"/>
-        <location filename="../browserwindow.cpp" line="365"/>
+        <location filename="../browserwindow.cpp" line="416"/>
+        <location filename="../browserwindow.cpp" line="424"/>
         <source>Problems with YouTube</source>
         <translation>YouTube に関する問題</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="358"/>
-        <location filename="../browserwindow.cpp" line="366"/>
+        <location filename="../browserwindow.cpp" line="417"/>
+        <location filename="../browserwindow.cpp" line="425"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>YouTube の変更のため、動画 &apos;%1&apos; は残念ながら再生できません。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="359"/>
+        <location filename="../browserwindow.cpp" line="418"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>YouTube のコードを更新しますか? これで問題を修正できる可能性があります。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="367"/>
+        <location filename="../browserwindow.cpp" line="426"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>このアプリケーションの更新により問題が修正されるかもしれません。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="385"/>
+        <location filename="../browserwindow.cpp" line="444"/>
         <source>About this release</source>
         <translation>このリリースについて</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="386"/>
+        <location filename="../browserwindow.cpp" line="445"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>YouTube の変更のため、古い SMTube はもはや動作しません。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="387"/>
+        <location filename="../browserwindow.cpp" line="446"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>これは一から書き直された SMTube の新しいバージョンです。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="388"/>
+        <location filename="../browserwindow.cpp" line="447"/>
         <source>Some functionality is not available yet.</source>
         <translation>一部の機能はまだ利用できません。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="390"/>
+        <location filename="../browserwindow.cpp" line="449"/>
         <source>Important:</source>
         <translation>重要:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="391"/>
+        <location filename="../browserwindow.cpp" line="450"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>VEVO の動画の再生が失敗する場合は、[ヘルプ] メニューのオプション [%1] を使用してください。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="392"/>
+        <location filename="../browserwindow.cpp" line="451"/>
         <source>Update the YouTube code</source>
         <translation>YouTube のコードの更新</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="206"/>
+        <location filename="../browserwindow.cpp" line="232"/>
         <source>Loading... %1%</source>
         <translation>読み込み中... %1%</translation>
     </message>
@@ -325,28 +337,48 @@
 <context>
     <name>MyWebView</name>
     <message>
-        <location filename="../mywebview.cpp" line="32"/>
+        <location filename="../mywebview.cpp" line="35"/>
         <source>Open link in a web browser</source>
         <translation>Web ブラウザーでリンクを開く</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="73"/>
-        <location filename="../mywebview.cpp" line="83"/>
+        <location filename="../mywebview.cpp" line="51"/>
+        <source>Open link in new window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="74"/>
+        <source>Open audio with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="90"/>
+        <location filename="../mywebview.cpp" line="115"/>
         <source>Open with %1</source>
         <translation>%1 で開く</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="93"/>
+        <location filename="../mywebview.cpp" line="122"/>
+        <source>Open audio with %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="48"/>
         <source>Copy link to clipboard</source>
         <translation>クリップボードへリンクをコピー</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="96"/>
+        <location filename="../mywebview.cpp" line="47"/>
+        <source>Save link...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="49"/>
         <source>Open link in this window</source>
         <translation>このウィンドウでリンクを開く</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="99"/>
+        <location filename="../mywebview.cpp" line="50"/>
         <source>Copy text to clipboard</source>
         <translation>クリップボードへテキストをコピー</translation>
     </message>
@@ -377,6 +409,31 @@
         <location filename="../playerdialog.ui" line="71"/>
         <source>This player supports &amp;video sites</source>
         <translation>動画サイト対応のプレーヤー(&amp;V)</translation>
+    </message>
+    <message>
+        <location filename="../playerdialog.ui" line="80"/>
+        <source>Add to &amp;menu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playerdialog.cpp" line="27"/>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playerdialog.cpp" line="28"/>
+        <source>Video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playerdialog.cpp" line="29"/>
+        <source>Audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playerdialog.cpp" line="30"/>
+        <source>Video and audio</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
