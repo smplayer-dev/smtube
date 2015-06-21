@@ -28,6 +28,7 @@
 #include <QSettings>
 #include <QMessageBox>
 #include <QTimer>
+#include <QDesktopServices>
 
 #include "mywebview.h"
 #include "mywebpage.h"
