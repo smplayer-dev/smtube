@@ -21,6 +21,7 @@
 #include <QWebHitTestResult>
 #include <QMenu>
 #include <QDesktopServices>
+#include <QWebElement>
 #include <QDebug>
 
 #include "supportedurls.h"
@@ -188,6 +189,13 @@ QWebView * MyWebView::createWindow(QWebPage::WebWindowType type) {
 void MyWebView::mousePressEvent(QMouseEvent * event) {
 	//qDebug() << "MyWebView::mousePressEvent";
 	last_click = event->pos();
+	if (event->button() == Qt::LeftButton) {
+		QWebHitTestResult result = page()->mainFrame()->hitTestContent(event->pos());
+		last_clicked_url = result.linkUrl();
+		last_clicked_target = result.linkElement().attribute("target", "");
+		qDebug() << "MyWebView::mousePressEvent: link:" << last_clicked_url.toString();
+		qDebug() << "MyWebView::mousePressEvent: target:" << last_clicked_target;
+	}
 	QWebView::mousePressEvent(event);
 }
 

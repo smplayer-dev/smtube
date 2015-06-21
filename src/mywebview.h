@@ -42,6 +42,9 @@ public:
 	void setPlayer(const QString & player) { player_name = player; };
 #endif
 
+	QUrl lastClickedUrl() { return last_clicked_url; }
+	QString lastClickedTarget() { return last_clicked_target; }
+
 signals:
 	void requestedOpenWith(const QString &, const QUrl &);
 	void requestedOpenAudioWith(const QString &, const QUrl &);
@@ -68,7 +71,10 @@ private:
 #else
 	QString player_name;
 #endif
+
 	QPoint last_click;
+	QUrl last_clicked_url;
+	QString last_clicked_target;
 };
 
 #endif

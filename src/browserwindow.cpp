@@ -260,7 +260,12 @@ void BrowserWindow::processLink(const QUrl & url ) {
 	#endif
 
 	if (!can_play_this) {
-		view->load(url);
+		if (view->lastClickedUrl() == url && view->lastClickedTarget() == "_blank") {
+			qDebug() << "BrowserWindow::processLink: link will be opened in an external browser";
+			QDesktopServices::openUrl(url);
+		} else {
+			view->load(url);
+		}
 	} else {
 		#ifdef USE_PLAYERS
 		openWith(pl[player_id].name(), QUrl(link));
