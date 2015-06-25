@@ -41,7 +41,7 @@ QString configPath() {
 #endif // PORTABLE_APP
 }
 
-#ifdef YT_USE_SCRIPT
+#ifdef YT_USE_YTSIG
 QString smplayerConfigPath() {
 #ifdef PORTABLE_APP
 	return qApp->applicationDirPath();
@@ -59,7 +59,7 @@ QString smplayerConfigPath() {
 #endif
 #endif // PORTABLE_APP
 }
-#endif // YT_USE_SCRIPT
+#endif // YT_USE_YTSIG
 
 
 QString translationsPath() {
@@ -137,7 +137,7 @@ int main(int argc, char * argv[]) {
 
 	BrowserWindow * w = new BrowserWindow(configPath());
 
-#ifdef YT_USE_SCRIPT
+#ifdef YT_USE_YTSIG
 	QString ytcode_name = "yt.js";
 	QString ytcode_file = configPath() +"/"+ ytcode_name;
 	if (QFile::exists(smplayerConfigPath())) ytcode_file = smplayerConfigPath() +"/"+ ytcode_name;
