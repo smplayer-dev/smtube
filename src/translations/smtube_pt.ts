@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -79,7 +77,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="109"/>
         <source>Home</source>
-        <translation>Página web</translation>
+        <translation>Página inicial</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="112"/>
@@ -191,7 +189,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="445"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
-        <translation>Devido a alterações ao YouTube, o SMTube já não funciona.</translation>
+        <translation>Devido às alterações ao YouTube, o SMTube antigo já não funciona.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="446"/>
@@ -318,7 +316,7 @@
     <message>
         <location filename="../configdialog.ui" line="161"/>
         <source>A&amp;dd predefined players</source>
-        <translation>A&amp;dicionar reprodutores personaliados</translation>
+        <translation>A&amp;dicionar reprodutores personalizados</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="89"/>
@@ -418,7 +416,7 @@
     <message>
         <location filename="../playerdialog.cpp" line="27"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Nenhum</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
