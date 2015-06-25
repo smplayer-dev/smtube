@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="nn_NO">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nn_NO" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -89,12 +87,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="120"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Avslutt</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="123"/>
         <source>&amp;Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Navigasjon</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="132"/>
@@ -176,7 +174,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="418"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
-        <translation>Vil du oppdatere YouTub-kodeken? Dette kan retta eit problem.</translation>
+        <translation>Vil du oppdatera YouTub-kodeken? Dette kan retta eit problem.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="426"/>
@@ -229,7 +227,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Lastar ned </translation>
+        <translation>Lastar ned …</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
@@ -255,7 +253,7 @@
         <location filename="../codedownloader.cpp" line="133"/>
         <location filename="../codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>feil</translation>
+        <translation>Feil</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="133"/>
@@ -265,7 +263,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Det oppstod ein feil under nedlastinga av:&lt;br&gt;%1</translation>
+        <translation>Det oppstod ein feil under nedlastinga av fila:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -344,12 +342,12 @@
     <message>
         <location filename="../mywebview.cpp" line="51"/>
         <source>Open link in new window</source>
-        <translation type="unfinished"></translation>
+        <translation>Opna lenkje i nytt vindauge</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="74"/>
         <source>Open audio with</source>
-        <translation type="unfinished"></translation>
+        <translation>Opna lyd med</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="90"/>
@@ -360,7 +358,7 @@
     <message>
         <location filename="../mywebview.cpp" line="122"/>
         <source>Open audio with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Opna lyd med %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
@@ -370,7 +368,7 @@
     <message>
         <location filename="../mywebview.cpp" line="47"/>
         <source>Save link...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lagra lenkje …</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="49"/>
@@ -413,27 +411,27 @@
     <message>
         <location filename="../playerdialog.ui" line="80"/>
         <source>Add to &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Legg til i &amp;meny</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="27"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
         <source>Video</source>
-        <translation type="unfinished"></translation>
+        <translation>Video</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="29"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Lyd</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="30"/>
         <source>Video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Video og lyd</translation>
     </message>
 </context>
 <context>

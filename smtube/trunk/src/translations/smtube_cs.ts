@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="cs">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -89,12 +87,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="120"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zavřít</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="123"/>
         <source>&amp;Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Navigace</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="132"/>
@@ -344,12 +342,12 @@
     <message>
         <location filename="../mywebview.cpp" line="51"/>
         <source>Open link in new window</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít odkaz v tomto okně</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="74"/>
         <source>Open audio with</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít zvuk v</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="90"/>
@@ -360,7 +358,7 @@
     <message>
         <location filename="../mywebview.cpp" line="122"/>
         <source>Open audio with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít zvuk v %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
@@ -370,7 +368,7 @@
     <message>
         <location filename="../mywebview.cpp" line="47"/>
         <source>Save link...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložit odkaz...</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="49"/>
@@ -413,27 +411,27 @@
     <message>
         <location filename="../playerdialog.ui" line="80"/>
         <source>Add to &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat do menu</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="27"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Žádné</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
         <source>Video</source>
-        <translation type="unfinished"></translation>
+        <translation>Video</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="29"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="30"/>
         <source>Video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Video a zvuk</translation>
     </message>
 </context>
 <context>

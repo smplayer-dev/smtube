@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_CN">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -89,12 +87,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="120"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>退出(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="123"/>
         <source>&amp;Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>导航(&amp;N)</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="132"/>
@@ -344,12 +342,12 @@
     <message>
         <location filename="../mywebview.cpp" line="51"/>
         <source>Open link in new window</source>
-        <translation type="unfinished"></translation>
+        <translation>在新窗口中打开链接</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="74"/>
         <source>Open audio with</source>
-        <translation type="unfinished"></translation>
+        <translation>使用外部程序打开音频</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="90"/>
@@ -360,7 +358,7 @@
     <message>
         <location filename="../mywebview.cpp" line="122"/>
         <source>Open audio with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>使用 %1 打开音频</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
@@ -370,7 +368,7 @@
     <message>
         <location filename="../mywebview.cpp" line="47"/>
         <source>Save link...</source>
-        <translation type="unfinished"></translation>
+        <translation>保存链接...</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="49"/>
@@ -413,27 +411,27 @@
     <message>
         <location filename="../playerdialog.ui" line="80"/>
         <source>Add to &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>添加到菜单(&amp;m)</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="27"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>无</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
         <source>Video</source>
-        <translation type="unfinished"></translation>
+        <translation>视频</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="29"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>音频</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="30"/>
         <source>Video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>视频及音频</translation>
     </message>
 </context>
 <context>
