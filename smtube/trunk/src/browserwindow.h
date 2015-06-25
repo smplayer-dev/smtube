@@ -69,7 +69,7 @@ protected slots:
 	void openWith(const QString & player, const QUrl & url);
 
 	void openYTUrl(QString title, QString extension, const QString & url);
-	void openYTUrl(const QString & url);
+	void openYTUrl(const QString & url, int itag);
 
 	void openAudioWith(const QString & player, const QUrl & url);
 	void openYTAudioUrl(const QMap<int, QString>&);
