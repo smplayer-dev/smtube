@@ -17,7 +17,7 @@ isEqual(QT_MAJOR_VERSION, 5) {
 HEADERS = mywebview.h \
           mywebpage.h \
           mycookiejar.h \
-          ytsig.h \
+          loadpage.h \
           retrieveyoutubeurl.h \
           supportedurls.h \
           version.h \
@@ -31,7 +31,7 @@ HEADERS = mywebview.h \
 SOURCES = mywebview.cpp \
           mywebpage.cpp \
           mycookiejar.cpp \
-          ytsig.cpp \
+          loadpage.cpp \
           retrieveyoutubeurl.cpp \
           supportedurls.cpp \
           version.cpp \
@@ -46,6 +46,45 @@ SOURCES = mywebview.cpp \
 FORMS = playerdialog.ui configdialog.ui about.ui
 
 RESOURCES = icons.qrc
+
+contains( DEFINES, YT_USE_SCRIPT ) {
+	DEFINES += YT_USE_SIG
+	DEFINES += YT_USE_YTSIG
+	QT += script
+	HEADERS += codedownloader.h
+	SOURCES += codedownloader.cpp
+}
+
+contains( DEFINES, YT_USE_SIG ) {
+	HEADERS += sig.h
+	SOURCES += sig.cpp
+}
+
+contains( DEFINES, YT_USE_YTSIG ) {
+	HEADERS += ytsig.h
+	SOURCES += ytsig.cpp
+}
+
+contains(DEFINES, USE_PLAYERS) {
+	HEADERS += players.h
+	SOURCES += players.cpp
+} else {
+	HEADERS += hcplayer.h
+}
+
+unix {
+	UI_DIR = .ui
+	MOC_DIR = .moc
+	OBJECTS_DIR = .obj
+	DEFINES += TRANSLATION_PATH=$(TRANSLATION_PATH)
+}
+
+win32 {
+	RC_FILE = smtube.rc
+	CONFIG(debug, debug|release) {
+		CONFIG += console
+	}
+}
 
 TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_en.ts \
@@ -72,30 +111,3 @@ TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_zh_CN.ts \
                translations/smtube_uk.ts \
                translations/smtube_sq.ts
-
-contains( DEFINES, YT_USE_SCRIPT ) {
-	QT += script
-	HEADERS += codedownloader.h
-	SOURCES += codedownloader.cpp
-}
-
-contains(DEFINES, USE_PLAYERS) {
-	HEADERS += players.h
-	SOURCES += players.cpp
-} else {
-	HEADERS += hcplayer.h
-}
-
-unix {
-	UI_DIR = .ui
-	MOC_DIR = .moc
-	OBJECTS_DIR = .obj
-	DEFINES += TRANSLATION_PATH=$(TRANSLATION_PATH)
-}
-
-win32 {
-	RC_FILE = smtube.rc
-	CONFIG(debug, debug|release) {
-		CONFIG += console
-	}
-}

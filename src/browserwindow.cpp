@@ -41,8 +41,11 @@
 #include "about.h"
 #include "version.h"
 
-#ifdef YT_USE_SCRIPT
+#ifdef YT_USE_YTSIG
 #include "ytsig.h"
+#endif
+
+#ifdef YT_USE_SCRIPT
 #include "codedownloader.h"
 #endif
 
@@ -68,7 +71,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	settings = new QSettings(config_path + "/smtube2.ini", QSettings::IniFormat, this);
 
 	ryu = new RetrieveYoutubeUrl(this);
-	connect(ryu, SIGNAL(gotPreferredUrl(const QString &)), this, SLOT(openYTUrl(const QString &)));
+	connect(ryu, SIGNAL(gotPreferredUrl(const QString &, int)), this, SLOT(openYTUrl(const QString &, int)));
 	connect(ryu, SIGNAL(signatureNotFound(const QString &)), this, SLOT(showErrorSignatureNotFound(const QString &)));
 	connect(ryu, SIGNAL(noSslSupport()), this, SLOT(showErrorNoSslSupport()));
 	connect(ryu, SIGNAL(gotEmptyList()), this, SLOT(showErrorEmptyList()));
@@ -79,6 +82,11 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	connect(ryua, SIGNAL(noSslSupport()), this, SLOT(showErrorNoSslSupport()));
 	connect(ryua, SIGNAL(gotEmptyList()), this, SLOT(showErrorEmptyList()));
 
+	#ifdef YT_USE_SIG
+	QSettings * sigset = new QSettings(config_path + "/sig.ini", QSettings::IniFormat, this);
+	ryu->setSettings(sigset);
+	ryua->setSettings(sigset);
+	#endif
 
 	QNetworkProxyFactory::setUseSystemConfiguration(true);
 
@@ -302,7 +310,7 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 		#ifdef USE_PLAYERS
 		current_player = player_id;
 		#endif
-		#ifdef YT_USE_SCRIPT
+		#ifdef YT_USE_YTSIG
 		YTSig::setScriptFile(script_file);
 		#endif
 		ryu->fetchPage(url.toString());
@@ -364,8 +372,8 @@ void BrowserWindow::openYTUrl(QString title, QString extension, const QString & 
 	QProcess::startDetached(command);
 }
 
-void BrowserWindow::openYTUrl(const QString & url) {
-	openYTUrl(ryu->urlTitle(), ryu->extensionForItag(ryu->itagFromPreferredQuality()), url);
+void BrowserWindow::openYTUrl(const QString & url, int itag) {
+	openYTUrl(ryu->urlTitle(), ryu->extensionForItag(itag), url);
 }
 
 void BrowserWindow::openAudioWith(const QString & player, const QUrl & url) {
@@ -381,7 +389,7 @@ void BrowserWindow::openAudioWith(const QString & player, const QUrl & url) {
 		#ifdef USE_PLAYERS
 		current_player = p;
 		#endif
-		#ifdef YT_USE_SCRIPT
+		#ifdef YT_USE_YTSIG
 		YTSig::setScriptFile(script_file);
 		#endif
 		ryua->fetchPage(url.toString());
@@ -390,12 +398,14 @@ void BrowserWindow::openAudioWith(const QString & player, const QUrl & url) {
 
 void BrowserWindow::openYTAudioUrl(const QMap<int, QString>& url_map) {
 	qDebug() << "BrowserWindow::openYTAudioUrl";
-	QString url = ryua->findBestAudio(url_map);
+	QString url;
+	int itag = ryua->findBestAudio(url_map);
+	if (itag != -1) url = url_map[itag];
 
 	//qDebug() << "BrowserWindow::openYTAudioUrl: url:" << url;
 
 	if (!url.isEmpty()) {
-		openYTUrl(ryua->urlTitle(), ".m4a", url); // FIXME: pass the actual extension
+		openYTUrl(ryua->urlTitle(), ryu->extensionForItag(itag), url);
 	}
 }
 
