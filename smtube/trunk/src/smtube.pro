@@ -51,8 +51,6 @@ contains( DEFINES, YT_USE_SCRIPT ) {
 	DEFINES += YT_USE_SIG
 	DEFINES += YT_USE_YTSIG
 	QT += script
-	HEADERS += codedownloader.h
-	SOURCES += codedownloader.cpp
 }
 
 contains( DEFINES, YT_USE_SIG ) {
@@ -61,8 +59,8 @@ contains( DEFINES, YT_USE_SIG ) {
 }
 
 contains( DEFINES, YT_USE_YTSIG ) {
-	HEADERS += ytsig.h
-	SOURCES += ytsig.cpp
+	HEADERS += ytsig.h codedownloader.h
+	SOURCES += ytsig.cpp codedownloader.cpp
 }
 
 contains(DEFINES, USE_PLAYERS) {

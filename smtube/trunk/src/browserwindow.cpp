@@ -43,9 +43,6 @@
 
 #ifdef YT_USE_YTSIG
 #include "ytsig.h"
-#endif
-
-#ifdef YT_USE_SCRIPT
 #include "codedownloader.h"
 #endif
 
@@ -60,7 +57,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 #ifdef USE_PLAYERS
 	, current_player(-1)
 #endif
-#ifdef YT_USE_SCRIPT
+#ifdef YT_USE_YTSIG
 	, codedownloader(0)
 #endif
 {
@@ -157,7 +154,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 
 	QMenu * helpMenu = menuBar()->addMenu(tr("&Help"));
 
-#ifdef YT_USE_SCRIPT
+#ifdef YT_USE_YTSIG
 	QAction * updateCodeAct = new QAction(tr("&Update the YouTube code"), this);
 	connect(updateCodeAct, SIGNAL(triggered()), this, SLOT(updateYTCode()));
 	helpMenu->addAction(updateCodeAct);
@@ -428,7 +425,7 @@ void BrowserWindow::showErrorSignatureNotFound(const QString & title) {
 	QString t = title;
 	t.replace(" - YouTube", "");
 
-	#ifdef YT_USE_SCRIPT
+	#ifdef YT_USE_YTSIG
 	int ret = QMessageBox::question(this, tr("Problems with YouTube"),
 				tr("Unfortunately due to changes in YouTube, the video '%1' can't be played.").arg(t) + "<br><br>" +
 				tr("Do you want to update the YouTube code? This may fix the problem."),
@@ -443,7 +440,7 @@ void BrowserWindow::showErrorSignatureNotFound(const QString & title) {
 	#endif
 }
 
-#ifdef YT_USE_SCRIPT
+#ifdef YT_USE_YTSIG
 void BrowserWindow::updateYTCode() {
 	qDebug() << "BrowserWindow::updateYTCode";
 
@@ -461,7 +458,7 @@ void BrowserWindow::showAboutRelease() {
 		"<p>"+ tr("Due to changes in YouTube, the old SMTube doesn't work anymore.") + "<p>"+
 		tr("This is a new version of SMTube, written from scratch.") +" "+
 		tr("Some functionality is not available yet.")
-#ifdef YT_USE_SCRIPT
+#ifdef YT_USE_YTSIG
 		+ "<p><b>"+ tr("Important:") + "</b><br>"+
 		tr("If the VEVO videos fail to play, please use the option %1 in the Help menu.")
 			.arg("<i><b>" + tr("Update the YouTube code") + "</b></i>")

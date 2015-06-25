@@ -44,7 +44,7 @@ public:
 	BrowserWindow(const QString & config_dir, QWidget * parent = 0, Qt::WindowFlags flags = 0);
 	~BrowserWindow();
 
-#ifdef YT_USE_SCRIPT
+#ifdef YT_USE_YTSIG
 	void setScriptFile(const QString & file) { script_file = file; };
 #endif
 
@@ -82,7 +82,7 @@ protected slots:
 	void showErrorNoSslSupport();
 	void showErrorEmptyList();
 
-#ifdef YT_USE_SCRIPT
+#ifdef YT_USE_YTSIG
 	void updateYTCode();
 #endif
 
@@ -108,7 +108,7 @@ private:
 	int current_player;
 #endif
 
-#ifdef YT_USE_SCRIPT
+#ifdef YT_USE_YTSIG
 	QString script_file;
 	CodeDownloader * codedownloader;
 #endif
