@@ -83,6 +83,8 @@ public:
 	static int findPreferredUrl(const UrlMap & url_map, Quality q); // Returns the itag
 	static QString extensionForItag(int itag);
 
+	void close() { /* FIXME: do something */ };
+
 signals:
 	void gotUrls(const QMap<int, QString>&);
 	//void gotPreferredUrl(const QString &);
@@ -114,7 +116,7 @@ protected:
 #endif
 
 	QString getVideoID(QString video_url);
-	UrlMap extractURLs(QString fmtArray, bool allow_https = true, bool * sigfailed = 0);
+	UrlMap extractURLs(QString fmtArray, bool allow_https, bool use_player);
 
 	void finish(const UrlMap & url_map);
 
@@ -151,6 +153,8 @@ private:
 	QString video_id;
 
 	QString latest_preferred_url;
+
+	bool failed_to_decrypt_signature;
 };
 
 #endif
