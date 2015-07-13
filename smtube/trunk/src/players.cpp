@@ -174,6 +174,7 @@ void Players::save(QSettings * set) {
 		set->setValue("arguments", list[n].arguments());
 		set->setValue("directplay", list[n].directPlay());
 		set->setValue("supported_media", list[n].supportedMedia());
+		set->setValue("quality", list[n].preferredQuality());
 		set->endGroup();
 	}
 
@@ -197,7 +198,8 @@ void Players::load(QSettings * set) {
 			QString arguments = set->value("arguments", "").toString();
 			bool directplay = set->value("directplay", false).toBool();
 			int supported_media = set->value("supported_media", Player::VideoAudio).toInt();
-			list.push_back( Player(name, binary, arguments, directplay, (Player::Media) supported_media) );
+			int quality = set->value("quality", -1).toInt();
+			list.push_back( Player(name, binary, arguments, directplay, (Player::Media) supported_media, quality) );
 			set->endGroup();
 		}
 	}

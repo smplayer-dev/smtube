@@ -30,12 +30,13 @@ class Player
 public:
 	enum Media { None = 0, Video = 1, Audio = 2, VideoAudio = 3 };
 
-	Player(QString name, QString binary, QString arguments, bool directPlay, Media media) {
+	Player(QString name, QString binary, QString arguments, bool directPlay, Media media, int preferred_quality = -1) {
 		player_name = name;
 		player_bin = binary;
 		args = arguments;
 		direct_play = directPlay;
 		supported_media = media;
+		quality = preferred_quality;
 	}
 
 	void setName(QString name) { player_name = name; }
@@ -43,12 +44,14 @@ public:
 	void setArguments(QString arguments) { args = arguments; }
 	void setDirectPlay(bool b) { direct_play = b; }
 	void setSupportedMedia(Media m) { supported_media = m; }
+	void setPreferredQuality(int q) { quality = q; }
 
 	QString name() { return player_name; }
 	QString binary() { return player_bin; }
 	QString arguments() { return args; };
 	bool directPlay() { return direct_play; }
 	Media supportedMedia() { return supported_media; }
+	int preferredQuality() { return quality; }
 
 	QString executable(bool * found = 0);
 
@@ -62,6 +65,7 @@ protected:
 	QString player_name, player_bin, args;
 	bool direct_play;
 	Media supported_media;
+	int quality;
 };
 
 
