@@ -44,6 +44,9 @@ public:
 	bool directPlay();
 	int media();
 	int quality();
+
+protected slots:
+	void directPlayChanged(bool);
 };
 
 #endif

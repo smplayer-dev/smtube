@@ -41,6 +41,8 @@ PlayerDialog::PlayerDialog(QWidget * parent, Qt::WindowFlags f)
 	quality_combo->addItem( "720p (webm)", RetrieveYoutubeUrl::WEBM_720p );
 	quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
 	quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
+
+	connect(directplay_check, SIGNAL(toggled(bool)), this, SLOT(directPlayChanged(bool)));
 }
 
 PlayerDialog::~PlayerDialog() {
@@ -98,6 +100,11 @@ int PlayerDialog::media() {
 int PlayerDialog::quality() {
 	int i = quality_combo->currentIndex();
 	return quality_combo->itemData(i).toInt();
+}
+
+void PlayerDialog::directPlayChanged(bool b) {
+	quality_label->setEnabled(!b);
+	quality_combo->setEnabled(!b);
 }
 
 #include "moc_playerdialog.cpp"
