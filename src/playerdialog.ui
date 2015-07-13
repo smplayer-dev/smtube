@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>542</width>
-    <height>222</height>
+    <height>311</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -73,11 +73,41 @@
     </widget>
    </item>
    <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QLabel" name="quality_label">
+       <property name="text">
+        <string>Preferred &amp;quality:</string>
+       </property>
+       <property name="buddy">
+        <cstring>quality_combo</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="quality_combo"/>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
     <layout class="QHBoxLayout" name="horizontalLayout_4">
      <item>
       <widget class="QLabel" name="label_4">
        <property name="text">
-        <string>Add to &amp;menu</string>
+        <string>Add to &amp;menu:</string>
        </property>
        <property name="buddy">
         <cstring>media_combo</cstring>
@@ -133,6 +163,7 @@
   <tabstop>binary_edit</tabstop>
   <tabstop>parms_edit</tabstop>
   <tabstop>directplay_check</tabstop>
+  <tabstop>quality_combo</tabstop>
   <tabstop>media_combo</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
@@ -145,8 +176,8 @@
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>248</x>
-     <y>254</y>
+     <x>257</x>
+     <y>301</y>
     </hint>
     <hint type="destinationlabel">
      <x>157</x>
@@ -161,8 +192,8 @@
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>316</x>
-     <y>260</y>
+     <x>325</x>
+     <y>301</y>
     </hint>
     <hint type="destinationlabel">
      <x>286</x>

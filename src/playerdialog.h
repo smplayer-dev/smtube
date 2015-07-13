@@ -36,12 +36,14 @@ public:
 	void setParameters(const QString & parms);
 	void setDirectPlay(bool b);
 	void setMedia(int m);
+	void setQuality(int q);
 
 	QString name();
 	QString binary();
 	QString parameters();
 	bool directPlay();
 	int media();
+	int quality();
 };
 
 #endif
