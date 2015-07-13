@@ -29,6 +29,7 @@
 #define COL_PARMS 2
 #define COL_DIRECTPLAY 3
 #define COL_MEDIA 4
+#define COL_QUALITY 5
 
 ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
     : QDialog(parent, f) 
@@ -78,6 +79,7 @@ void ConfigDialog::setPlayers(QList<Player> list) {
 		i->setData(Qt::UserRole + COL_PARMS, list[n].arguments());
 		i->setData(Qt::UserRole + COL_DIRECTPLAY, list[n].directPlay());
 		i->setData(Qt::UserRole + COL_MEDIA, list[n].supportedMedia());
+		i->setData(Qt::UserRole + COL_QUALITY, list[n].preferredQuality());
 
 		table->addItem(i);
 	}
@@ -95,9 +97,10 @@ QList<Player> ConfigDialog::players() {
 		QString params = i->data(Qt::UserRole + COL_PARMS).toString();
 		bool direct_play = i->data(Qt::UserRole + COL_DIRECTPLAY).toBool();
 		int supported_media = i->data(Qt::UserRole + COL_MEDIA).toInt();
+		int quality = i->data(Qt::UserRole + COL_QUALITY).toInt();
 
 		if (!name.isEmpty() && !binary.isEmpty()) {
-			list << Player(name, binary, params, direct_play, (Player::Media) supported_media);
+			list << Player(name, binary, params, direct_play, (Player::Media) supported_media, quality);
 		}
 	}
 
@@ -119,6 +122,7 @@ void ConfigDialog::editCurrentItem() {
 	QString parms = i->data(Qt::UserRole + COL_PARMS).toString();
 	bool direct_play = i->data(Qt::UserRole + COL_DIRECTPLAY).toBool();
 	int supported_media = i->data(Qt::UserRole + COL_MEDIA).toInt();
+	int quality = i->data(Qt::UserRole + COL_QUALITY).toInt();
 
 	PlayerDialog d(this);
 	d.setName(name);
@@ -126,6 +130,7 @@ void ConfigDialog::editCurrentItem() {
 	d.setParameters(parms);
 	d.setDirectPlay(direct_play);
 	d.setMedia(supported_media);
+	d.setQuality(quality);
 
 	if (d.exec() == QDialog::Accepted) {
 		i->setText(d.name());
@@ -134,6 +139,7 @@ void ConfigDialog::editCurrentItem() {
 		i->setData(Qt::UserRole + COL_PARMS, d.parameters());
 		i->setData(Qt::UserRole + COL_DIRECTPLAY, d.directPlay());
 		i->setData(Qt::UserRole + COL_MEDIA, d.media());
+		i->setData(Qt::UserRole + COL_QUALITY, d.quality());
 	}
 }
 
@@ -159,6 +165,7 @@ void ConfigDialog::on_add_button_clicked() {
 	i->setData(Qt::UserRole + COL_PARMS, "%u");
 	i->setData(Qt::UserRole + COL_DIRECTPLAY, false);
 	i->setData(Qt::UserRole + COL_MEDIA, Player::VideoAudio);
+	i->setData(Qt::UserRole + COL_QUALITY, -1);
 
 	table->insertItem(row, i);
 	table->setCurrentRow(row);
@@ -202,6 +209,7 @@ void ConfigDialog::on_addplayers_button_clicked() {
 			i->setData(Qt::UserRole + COL_PARMS, default_players[n].arguments());
 			i->setData(Qt::UserRole + COL_DIRECTPLAY, default_players[n].directPlay());
 			i->setData(Qt::UserRole + COL_MEDIA, default_players[n].supportedMedia());
+			i->setData(Qt::UserRole + COL_QUALITY, default_players[n].preferredQuality());
 			table->addItem(i);
 		}
 	}
