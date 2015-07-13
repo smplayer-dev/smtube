@@ -290,11 +290,16 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 	QString player_name = players.item(player_id).name();
 	QString arguments = players.item(player_id).arguments();
 	bool direct_play = players.item(player_id).directPlay();
+	int quality = preferred_quality;
+	if (players.item(player_id).preferredQuality() != -1) {
+		quality = players.item(player_id).preferredQuality();
+	}
 #else
 	QString binary = HCPLAYER_EXECUTABLE;
 	QString player_name = HCPLAYER_NAME;
 	QString arguments = HCPLAYER_ARGUMENTS;
 	bool direct_play = HCPLAYER_DIRECTPLAY;
+	int quality = preferred_quality;
 #endif
 
 	if (direct_play) {
@@ -311,7 +316,7 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 		#ifdef YT_USE_YTSIG
 		YTSig::setScriptFile(script_file);
 		#endif
-		ryu->setPreferredQuality((RetrieveYoutubeUrl::Quality) preferred_quality);
+		ryu->setPreferredQuality((RetrieveYoutubeUrl::Quality) quality);
 		ryu->fetchPage(url.toString());
 	}
 }
