@@ -54,6 +54,7 @@
 
 BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::WindowFlags flags)
 	: QMainWindow(parent, flags)
+	, preferred_quality(RetrieveYoutubeUrl::MP4_360p)
 #ifdef USE_PLAYERS
 	, current_player(-1)
 #endif
@@ -310,6 +311,7 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 		#ifdef YT_USE_YTSIG
 		YTSig::setScriptFile(script_file);
 		#endif
+		ryu->setPreferredQuality((RetrieveYoutubeUrl::Quality) preferred_quality);
 		ryu->fetchPage(url.toString());
 	}
 }
@@ -474,14 +476,14 @@ void BrowserWindow::showAbout() {
 void BrowserWindow::showConfigDialog() {
 	ConfigDialog d(this);
 
-	d.setPlaybackQuality(ryu->preferredQuality());
+	d.setPlaybackQuality(preferred_quality);
 	#ifdef USE_PLAYERS
 	d.setPlayers(players.allPlayers());
 	d.setDefaultPlayers(players.defaultPlayers());
 	#endif
 
 	if (d.exec() == QDialog::Accepted) {
-		ryu->setPreferredQuality((RetrieveYoutubeUrl::Quality) d.playbackQuality());
+		preferred_quality = d.playbackQuality();
 		#ifdef USE_PLAYERS
 		players.setAllPlayers(d.players());
 		view->setPlayers(players.availablePlayers());
@@ -503,7 +505,7 @@ void BrowserWindow::saveConfig() {
 	settings->endGroup();
 
 	settings->beginGroup("General");
-	settings->setValue("playback_quality", ryu->preferredQuality());
+	settings->setValue("playback_quality", preferred_quality);
 	settings->setValue("user_agent", ryu->userAgent());
 	settings->setValue("use_https_main", ryu->useHttpsMain());
 	settings->setValue("use_https_vi", ryu->useHttpsVi());
@@ -537,8 +539,7 @@ void BrowserWindow::loadConfig() {
 	settings->endGroup();
 
 	settings->beginGroup("General");
-	int quality = settings->value("playback_quality", RetrieveYoutubeUrl::MP4_360p).toInt();
-	ryu->setPreferredQuality((RetrieveYoutubeUrl::Quality) quality);
+	preferred_quality = settings->value("playback_quality", RetrieveYoutubeUrl::MP4_360p).toInt();
 	ryu->setUserAgent(settings->value("user_agent", "").toString());
 	ryu->setUseHttpsMain(settings->value("use_https_main", false).toBool());
 	ryu->setUseHttpsVi(settings->value("use_https_vi", false).toBool());

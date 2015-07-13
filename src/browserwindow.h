@@ -103,6 +103,8 @@ private:
 
 	QSettings * settings;
 
+	int preferred_quality;
+
 #ifdef USE_PLAYERS
 	Players players;
 	int current_player;
