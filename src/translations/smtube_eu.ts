@@ -413,16 +413,12 @@
     <message>
         <location filename="../playerdialog.ui" line="80"/>
         <source>Preferred &amp;quality:</source>
-        <translation type="unfinished">Hobetsitako &amp;ontasuna:</translation>
+        <translation>Hobetsitako &amp;ontasuna:</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="110"/>
         <source>Add to &amp;menu:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add to &amp;menu</source>
-        <translation type="obsolete">Gehitu &amp;menura</translation>
+        <translation>Gehitu &amp;menura:</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
@@ -447,7 +443,7 @@
     <message>
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Berezkoa</translation>
     </message>
 </context>
 <context>

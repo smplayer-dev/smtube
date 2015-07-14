@@ -421,10 +421,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Add to &amp;menu</source>
-        <translation type="obsolete">メニューに追加(&amp;M)</translation>
-    </message>
-    <message>
         <location filename="../playerdialog.cpp" line="28"/>
         <source>None</source>
         <translation>なし</translation>
