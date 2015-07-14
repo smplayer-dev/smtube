@@ -77,149 +77,149 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="109"/>
+        <location filename="../browserwindow.cpp" line="116"/>
         <source>Home</source>
         <translation>Почетна</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="112"/>
+        <location filename="../browserwindow.cpp" line="119"/>
         <source>Navigation</source>
         <translation>Навигација</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="120"/>
+        <location filename="../browserwindow.cpp" line="127"/>
         <source>&amp;Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="123"/>
+        <location filename="../browserwindow.cpp" line="130"/>
         <source>&amp;Navigation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="132"/>
+        <location filename="../browserwindow.cpp" line="139"/>
         <source>&amp;View</source>
         <translation>&amp;Приказ</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="133"/>
+        <location filename="../browserwindow.cpp" line="140"/>
         <source>Toolbar</source>
         <translation>Трака алатки</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="137"/>
+        <location filename="../browserwindow.cpp" line="144"/>
         <source>Statusbar</source>
         <translation>Трака стања</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="141"/>
+        <location filename="../browserwindow.cpp" line="148"/>
         <source>&amp;Settings</source>
         <translation>По&amp;ставке</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="149"/>
+        <location filename="../browserwindow.cpp" line="156"/>
         <source>&amp;Help</source>
         <translation>&amp;Помоћ</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="159"/>
         <source>&amp;Update the YouTube code</source>
         <translation>&amp;Ажурирајте Јутјуб код</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="157"/>
+        <location filename="../browserwindow.cpp" line="164"/>
         <source>About this &amp;release</source>
         <translation>О овом &amp;издању</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="161"/>
+        <location filename="../browserwindow.cpp" line="168"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;О СМТјубу</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="398"/>
+        <location filename="../browserwindow.cpp" line="418"/>
         <source>Connection failed</source>
         <translation>Неуспело повезивање</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="399"/>
+        <location filename="../browserwindow.cpp" line="419"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Видео захтева отварање ХТТПС везе.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="400"/>
+        <location filename="../browserwindow.cpp" line="420"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>Нажалост, ОпенССЛ компонента, која је неопходна, није доступна на вашем систему.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="405"/>
+        <location filename="../browserwindow.cpp" line="425"/>
         <source>No video found</source>
         <translation>Нема видеа</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="406"/>
+        <location filename="../browserwindow.cpp" line="426"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Није било могуће наћи УРЛ за овај видео.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="416"/>
-        <location filename="../browserwindow.cpp" line="424"/>
+        <location filename="../browserwindow.cpp" line="436"/>
+        <location filename="../browserwindow.cpp" line="444"/>
         <source>Problems with YouTube</source>
         <translation>Проблеми са Јутјубом</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="417"/>
-        <location filename="../browserwindow.cpp" line="425"/>
+        <location filename="../browserwindow.cpp" line="437"/>
+        <location filename="../browserwindow.cpp" line="445"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Нажалост, због промена на Јутјубу, видео „%1“ не може бити репродукован.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="418"/>
+        <location filename="../browserwindow.cpp" line="438"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>Да ли желите да ажурирате Јутјуб код? Ово може решити проблем.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="426"/>
+        <location filename="../browserwindow.cpp" line="446"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Можда ажурирање овог програма реши проблем.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="444"/>
+        <location filename="../browserwindow.cpp" line="464"/>
         <source>About this release</source>
         <translation>О овом издању</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="445"/>
+        <location filename="../browserwindow.cpp" line="465"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>Због промена на Јутјубу, стари СМТјуб више не ради.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="446"/>
+        <location filename="../browserwindow.cpp" line="466"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>Ово је нова верзија СМТјуба, написана испочетка.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="447"/>
+        <location filename="../browserwindow.cpp" line="467"/>
         <source>Some functionality is not available yet.</source>
         <translation>Неке могућности још нису доступне.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="449"/>
+        <location filename="../browserwindow.cpp" line="469"/>
         <source>Important:</source>
         <translation>Важно:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="450"/>
+        <location filename="../browserwindow.cpp" line="470"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>Ако VEVO видео не ради, користите %1 опцију у менију Помоћ.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="451"/>
+        <location filename="../browserwindow.cpp" line="471"/>
         <source>Update the YouTube code</source>
         <translation>Ажурирај Јутјуб код</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="232"/>
+        <location filename="../browserwindow.cpp" line="239"/>
         <source>Loading... %1%</source>
         <translation>Учитавам... %1%</translation>
     </message>
@@ -337,48 +337,48 @@
 <context>
     <name>MyWebView</name>
     <message>
-        <location filename="../mywebview.cpp" line="35"/>
+        <location filename="../mywebview.cpp" line="36"/>
         <source>Open link in a web browser</source>
         <translation>Отворите везу у прегледачу</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="51"/>
+        <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in new window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="74"/>
+        <location filename="../mywebview.cpp" line="75"/>
         <source>Open audio with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="90"/>
-        <location filename="../mywebview.cpp" line="115"/>
+        <location filename="../mywebview.cpp" line="91"/>
+        <location filename="../mywebview.cpp" line="116"/>
         <source>Open with %1</source>
         <translation>Отворите помоћу %1</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="122"/>
+        <location filename="../mywebview.cpp" line="123"/>
         <source>Open audio with %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="48"/>
+        <location filename="../mywebview.cpp" line="49"/>
         <source>Copy link to clipboard</source>
         <translation>Копирај везу у клипборд</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="47"/>
+        <location filename="../mywebview.cpp" line="48"/>
         <source>Save link...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="49"/>
+        <location filename="../mywebview.cpp" line="50"/>
         <source>Open link in this window</source>
         <translation>Отвори везу у овом прозору</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="50"/>
+        <location filename="../mywebview.cpp" line="51"/>
         <source>Copy text to clipboard</source>
         <translation>Копирај текст у клипборд</translation>
     </message>
@@ -412,27 +412,37 @@
     </message>
     <message>
         <location filename="../playerdialog.ui" line="80"/>
-        <source>Add to &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <source>Preferred &amp;quality:</source>
+        <translation type="unfinished">Жељени &amp;квалитет:</translation>
     </message>
     <message>
-        <location filename="../playerdialog.cpp" line="27"/>
-        <source>None</source>
+        <location filename="../playerdialog.ui" line="110"/>
+        <source>Add to &amp;menu:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
-        <source>Video</source>
+        <source>None</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="29"/>
-        <source>Audio</source>
+        <source>Video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="30"/>
+        <source>Audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playerdialog.cpp" line="31"/>
         <source>Video and audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playerdialog.cpp" line="33"/>
+        <source>Default</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
