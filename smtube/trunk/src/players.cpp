@@ -110,6 +110,9 @@ Players::Players() {
 	/*
 	list.push_back( Player("VLC", "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe", "%u --meta-title=%t", false) );
 	*/
+	#ifdef YODOWNET_SUPPORT
+	list.push_back( Player("yoDownet", "yoDownet.exe", "%u -o %f", false, Player::VideoAudio) );
+	#endif
 #else
 	list.push_back( Player("SMPlayer", "smplayer", "%u", true, Player::Video) );
 	list.push_back( Player("SMPlayer (audio)", "smplayer", "%u -media-title %t", true, Player::Audio) );
@@ -124,6 +127,9 @@ Players::Players() {
 	/*
 	list.push_back( Player("uget", "uget-gtk", "--quiet --folder=/tmp --filename=%f %u", false) );
 	*/
+	#ifdef YODOWNET_SUPPORT
+	list.push_back( Player("yoDownet", "yoDownet", "%u -o %f", false, Player::VideoAudio) );
+	#endif
 #endif
 	default_list = list;
 	curr = 0;
