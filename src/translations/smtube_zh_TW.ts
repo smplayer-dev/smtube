@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_TW">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -413,12 +411,12 @@
     <message>
         <location filename="../playerdialog.ui" line="80"/>
         <source>Preferred &amp;quality:</source>
-        <translation type="unfinished">偏好的畫質(&amp;Q)：</translation>
+        <translation>偏好的畫質(&amp;Q)：</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="110"/>
         <source>Add to &amp;menu:</source>
-        <translation type="unfinished"></translation>
+        <translation>新增到選單(&amp;M)：</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
@@ -443,7 +441,7 @@
     <message>
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>預設</translation>
     </message>
 </context>
 <context>
