@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="nn_NO">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nn_NO" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -413,12 +411,12 @@
     <message>
         <location filename="../playerdialog.ui" line="80"/>
         <source>Preferred &amp;quality:</source>
-        <translation type="unfinished">Føretrekt &amp;kvalitet:</translation>
+        <translation>Føretrekt &amp;kvalitet:</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="110"/>
         <source>Add to &amp;menu:</source>
-        <translation type="unfinished"></translation>
+        <translation>Legg til i &amp;meny:</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
@@ -443,7 +441,7 @@
     <message>
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard</translation>
     </message>
 </context>
 <context>
