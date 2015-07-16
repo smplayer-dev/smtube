@@ -7,7 +7,8 @@ CONFIG += release
 
 DEFINES += USE_PLAYERS
 DEFINES += YT_USE_SCRIPT
-#DEFINES += YODOWNET_SUPPORT
+
+DEFINES += D_PLAYERS
 
 isEqual(QT_MAJOR_VERSION, 5) {
 	QT += webkitwidgets widgets gui

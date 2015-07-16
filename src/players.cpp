@@ -110,7 +110,7 @@ Players::Players() {
 	/*
 	list.push_back( Player("VLC", "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe", "%u --meta-title=%t", false) );
 	*/
-	#ifdef YODOWNET_SUPPORT
+	#ifdef D_PLAYERS
 	list.push_back( Player("yoDownet", "yoDownet.exe", "%u -o %f", false, Player::VideoAudio) );
 	#endif
 #else
@@ -124,10 +124,8 @@ Players::Players() {
 	list.push_back( Player("GNOME-MPlayer", "gnome-mplayer", "%u", false, Player::VideoAudio) );
 	list.push_back( Player("mpv", "mpv", "%u --title=%t", false, Player::Video) );
 	list.push_back( Player("mpv + youtube-dl", "mpv", "--ytdl --ytdl-format=best %u", true, Player::Video) );
-	/*
-	list.push_back( Player("uget", "uget-gtk", "--quiet --folder=/tmp --filename=%f %u", false) );
-	*/
-	#ifdef YODOWNET_SUPPORT
+	#ifdef D_PLAYERS
+	list.push_back( Player("uget", "uget-gtk", "--quiet --folder=/tmp --filename=%f %u", false, Player::VideoAudio) );
 	list.push_back( Player("yoDownet", "yoDownet", "%u -o %f", false, Player::VideoAudio) );
 	#endif
 #endif
