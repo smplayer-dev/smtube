@@ -349,7 +349,7 @@ void BrowserWindow::openYTUrl(QString title, QString extension, const QString & 
 	title = title.replace('"', "'");
 
 	QString filename = title;
-	filename = filename.replace(" - YouTube", "").replace(":", "");
+	filename = filename.replace(" - YouTube", "").replace(":", "").replace("|","");
 	filename += extension;
 
 	qDebug() << "BrowserWindow::openYTUrl: filename:" << filename;
