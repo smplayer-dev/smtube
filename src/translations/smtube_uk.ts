@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -89,12 +87,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="127"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Вихід</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="130"/>
         <source>&amp;Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Навігація</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="139"/>
@@ -344,12 +342,12 @@
     <message>
         <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in new window</source>
-        <translation type="unfinished"></translation>
+        <translation>Відкрити посилання у новому вікні</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="75"/>
         <source>Open audio with</source>
-        <translation type="unfinished"></translation>
+        <translation>Відтворити аудіо за допомогою</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="91"/>
@@ -360,7 +358,7 @@
     <message>
         <location filename="../mywebview.cpp" line="123"/>
         <source>Open audio with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Відтворити аудіо за допомогою %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="49"/>
@@ -370,7 +368,7 @@
     <message>
         <location filename="../mywebview.cpp" line="48"/>
         <source>Save link...</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберегти посилання...</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="50"/>
@@ -413,37 +411,37 @@
     <message>
         <location filename="../playerdialog.ui" line="80"/>
         <source>Preferred &amp;quality:</source>
-        <translation type="unfinished">Бажана &amp;якість:</translation>
+        <translation>Бажана &amp;якість:</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="110"/>
         <source>Add to &amp;menu:</source>
-        <translation type="unfinished"></translation>
+        <translation>Додати до &amp;меню</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Нічого</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="29"/>
         <source>Video</source>
-        <translation type="unfinished"></translation>
+        <translation>Зображення</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="30"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Звук</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="31"/>
         <source>Video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Зображення та звук</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Типовий</translation>
     </message>
 </context>
 <context>
