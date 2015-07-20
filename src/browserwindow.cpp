@@ -40,6 +40,7 @@
 #include "configdialog.h"
 #include "about.h"
 #include "version.h"
+#include "links.h"
 
 #ifdef YT_USE_YTSIG
 #include "ytsig.h"
@@ -456,7 +457,7 @@ void BrowserWindow::updateYTCode() {
 	}
 	codedownloader->saveAs(script_file);
 	codedownloader->show();
-	codedownloader->download(QUrl("http://updates.smplayer.info/yt.js"));
+	codedownloader->download(QUrl(URL_YT_CODE));
 }
 #endif
 

@@ -18,6 +18,7 @@
 
 #include "about.h"
 #include "version.h"
+#include "links.h"
 
 About::About(QWidget * parent, Qt::WindowFlags f)
 	: QDialog(parent, f)
@@ -41,7 +42,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		tr("Compiled with Qt %1 (using %2)").arg(QT_VERSION_STR).arg(qVersion()) + 
 		"<p>" +
 		tr("Visit our website for updates:")
-		+ "<br>"+ link("http://www.smtube.org")
+		+ "<br>"+ link(URL_HOMEPAGE)
 	);
 
 	license->setHtml(
@@ -86,7 +87,7 @@ QString About::getTranslators() {
 		 tr("Many people contributed with translations.") +" "+
 		 tr("You can also help to translate SMTube into your own language.") +"<p>"+
 		 tr("Visit %1 and join a translation team.").arg("<a href=\"http://www.transifex.com/projects/p/smplayer/\">http://www.transifex.com/projects/p/smplayer/</a>") +
-		"<p><a href=\"http://smplayer.sourceforge.net/translators.php\">" +
+		"<p><a href=\"" URL_TRANSLATORS "\">" +
 		 tr("Click here to know the translators from the transifex teams") +
 		"</a>");
 }

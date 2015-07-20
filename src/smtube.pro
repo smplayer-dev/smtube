@@ -16,7 +16,8 @@ isEqual(QT_MAJOR_VERSION, 5) {
 	QT += webkit
 }
 
-HEADERS = mywebview.h \
+HEADERS = links.h \
+          mywebview.h \
           mywebpage.h \
           mycookiejar.h \
           loadpage.h \
