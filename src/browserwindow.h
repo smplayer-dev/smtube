@@ -104,6 +104,7 @@ private:
 	QSettings * settings;
 
 	int preferred_quality;
+	bool use_cookies;
 
 #ifdef USE_PLAYERS
 	Players players;
