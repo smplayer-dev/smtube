@@ -56,6 +56,7 @@
 BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::WindowFlags flags)
 	: QMainWindow(parent, flags)
 	, preferred_quality(RetrieveYoutubeUrl::MP4_360p)
+	, use_cookies(true)
 #ifdef USE_PLAYERS
 	, current_player(-1)
 #endif
@@ -97,9 +98,6 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 
 	view->setPage(page);
 	view->page()->setLinkDelegationPolicy(QWebPage::DelegateAllLinks);
-
-	MyCookieJar * jar = new MyCookieJar(config_path + "/cookies.ini");
-	view->page()->networkAccessManager()->setCookieJar(jar);
 
 	connect(view, SIGNAL(loadFinished(bool)), SLOT(adjustLocation()));
 	connect(view, SIGNAL(titleChanged(QString)), SLOT(adjustTitle()));
@@ -177,6 +175,11 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	statusBar()->hide();
 
 	loadConfig();
+
+	if (use_cookies) {
+		MyCookieJar * jar = new MyCookieJar(config_path + "/cookies.ini");
+		view->page()->networkAccessManager()->setCookieJar(jar);
+	}
 }
 
 BrowserWindow::~BrowserWindow() {
@@ -524,6 +527,7 @@ void BrowserWindow::saveConfig() {
 	settings->setValue("java", ws->testAttribute(QWebSettings::JavaEnabled));
 	settings->setValue("images", ws->testAttribute(QWebSettings::AutoLoadImages));
 	settings->setValue("developer_extras", ws->testAttribute(QWebSettings::DeveloperExtrasEnabled));
+	settings->setValue("use_cookies", use_cookies);
 	settings->endGroup();
 
 #ifdef USE_PLAYERS
@@ -562,6 +566,7 @@ void BrowserWindow::loadConfig() {
 	ws->setAttribute(QWebSettings::AutoLoadImages, settings->value("images", true).toBool());
 	ws->setAttribute(QWebSettings::DeveloperExtrasEnabled, settings->value("developer_extras", false).toBool());
 	bool use_cache = settings->value("use_cache", true).toBool();
+	use_cookies = settings->value("use_cookies", use_cookies).toBool();
 	settings->endGroup();
 
 	if (use_cache) {
