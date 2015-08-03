@@ -20,7 +20,7 @@
 #define LINKS_H
 
 #define URL_HOMEPAGE "http://www.smtube.org"
-#define URL_SMPLAYER_HOMEPAGE "http://www.smplayer.es"
+#define URL_SMPLAYER_HOMEPAGE "http://www.smplayer.info"
 #define URL_TRANSLATORS URL_SMPLAYER_HOMEPAGE"/translators.php"
 #define URL_YT_CODE "http://updates.smplayer.info/yt.js"
 
