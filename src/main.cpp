@@ -68,11 +68,15 @@ QString translationsPath() {
 #endif
 
 	QString path = "translations";
-#if !defined(Q_OS_WIN)
-#ifdef TRANSLATION_PATH
+#ifdef Q_OS_WIN
+	if (!QDir().exists(path)) {
+		path = qApp->applicationDirPath() + "/translations";
+	}
+#else
+	#ifdef TRANSLATION_PATH
 	QString s = QString(TRANSLATION_PATH);
 	if (!s.isEmpty()) path = s;
-#endif
+	#endif
 #endif
 	qDebug() << "Translations path:" << path;
 	return path;
