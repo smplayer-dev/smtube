@@ -1,3 +1,10 @@
+smtube (15.8.0) precise; urgency=low
+
+  * Improve support for VEVO videos.
+  * Possibility to play the audio only.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 20 Aug 2015 00:52:45 +0200
+
 smtube (15.5.17) precise; urgency=low
 
   * Fixed some bugs.
