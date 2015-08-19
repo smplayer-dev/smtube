@@ -1,0 +1,5 @@
+Version 15.8
+
+ * Improve support for VEVO videos.
+ * Possibility to play the audio only.
+
