@@ -111,4 +111,5 @@ TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_ms.ts \
                translations/smtube_zh_CN.ts \
                translations/smtube_uk.ts \
-               translations/smtube_sq.ts
+               translations/smtube_sq.ts \
+               translations/smtube_tr.ts
