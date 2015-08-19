@@ -1,0 +1,32 @@
+Version 15.8:
+
+(2015-08-20)
+ * Add the Turkish and Hungarian translations.
+
+(2015-08-03)
+ * New option for the config file: use_cookies. If set to false
+   then the cookies won't be loaded or saved.
+
+(2015-07-14)
+ * Add a combobox in PlayerDialog for the quality.
+
+(2015-06-25)
+ * New and experimental code to get the youtube URLs.
+
+(2015-06-15)
+ * Add menu Navigate.
+ * Add the load home action to the navigate menu.
+
+(2015-06-05)
+ * Add player 'smplayer (audio)'.
+
+(2015-06-01)
+ * Option to select the menu where a player should be.
+ * Use .m4a for extension for audio.
+
+(2015-05-31)
+ * Possibility to play only the audio.
+
+(2015-05-19)
+ * Add a button in the settings dialog to add the predefined players to
+   the list of players.
