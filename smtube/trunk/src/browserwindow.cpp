@@ -565,10 +565,13 @@ void BrowserWindow::loadConfig() {
 	ws->setAttribute(QWebSettings::JavaEnabled, settings->value("java", false).toBool());
 	ws->setAttribute(QWebSettings::AutoLoadImages, settings->value("images", true).toBool());
 	ws->setAttribute(QWebSettings::DeveloperExtrasEnabled, settings->value("developer_extras", false).toBool());
+	#ifndef PORTABLE_APP
 	bool use_cache = settings->value("use_cache", true).toBool();
+	#endif
 	use_cookies = settings->value("use_cookies", use_cookies).toBool();
 	settings->endGroup();
 
+	#ifndef PORTABLE_APP
 	if (use_cache) {
 		#if QT_VERSION >= 0x050000
 		QString cache_path = QStandardPaths::writableLocation(QStandardPaths::CacheLocation);
@@ -578,6 +581,7 @@ void BrowserWindow::loadConfig() {
 		qDebug() << "BrowserWindow::loadConfig: cache enabled. Location:" << cache_path;
 		QWebSettings::enablePersistentStorage(cache_path);
 	}
+	#endif
 
 	SupportedUrls::load();
 
