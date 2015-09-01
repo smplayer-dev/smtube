@@ -13,6 +13,7 @@ KDE_ICONS=$(KDE_PREFIX)/share/icons/hicolor/
 KDE_APPLNK=$(KDE_PREFIX)/share/applications/
 
 QMAKE=qmake
+MAKE=make
 LRELEASE=lrelease
 
 DEFS=DATA_PATH=\\\"$(DATA_PATH)\\\" \
@@ -21,11 +22,11 @@ DEFS=DATA_PATH=\\\"$(DATA_PATH)\\\" \
 
 src/smtube:
 #	./get_svn_revision.sh
-	+cd src && $(QMAKE) $(QMAKE_OPTS) && $(DEFS) make
+	+cd src && $(QMAKE) $(QMAKE_OPTS) && $(DEFS) $(MAKE) 
 	cd src && $(LRELEASE) smtube.pro
 
 clean:
-	if [ -f src/Makefile ]; then cd src && make distclean; fi
+	if [ -f src/Makefile ]; then cd src && $(MAKE) distclean; fi
 	-rm src/translations/smtube_*.qm
 
 install: src/smtube
