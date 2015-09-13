@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -214,7 +216,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="471"/>
         <source>Update the YouTube code</source>
-        <translation>&amp;Оновити код YouTube</translation>
+        <translation>Оновити код YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="239"/>
@@ -416,7 +418,7 @@
     <message>
         <location filename="../playerdialog.ui" line="110"/>
         <source>Add to &amp;menu:</source>
-        <translation>Додати до &amp;меню</translation>
+        <translation>Додати до &amp;меню:</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
