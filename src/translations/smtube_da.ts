@@ -189,7 +189,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="465"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
-        <translation>SMTube virker ikke længere, på grund af ændringer på YouTube.</translation>
+        <translation>Den gamle SMTube virker ikke længere, på grund af ændringer på YouTube.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="466"/>
