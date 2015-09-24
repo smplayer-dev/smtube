@@ -28,6 +28,7 @@ HEADERS = links.h \
           filechooser.h \
           playerdialog.h \
           configdialog.h \
+          desktopinfo.h \
           browserwindow.h \
           about.h
 
@@ -42,6 +43,7 @@ SOURCES = mywebview.cpp \
           filechooser.cpp \
           playerdialog.cpp \
           configdialog.cpp \
+          desktopinfo.cpp \
           browserwindow.cpp \
           about.cpp \
           main.cpp
