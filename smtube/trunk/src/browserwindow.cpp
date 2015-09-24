@@ -41,6 +41,7 @@
 #include "about.h"
 #include "version.h"
 #include "links.h"
+#include "desktopinfo.h"
 
 #ifdef YT_USE_YTSIG
 #include "ytsig.h"
@@ -542,6 +543,11 @@ void BrowserWindow::loadConfig() {
 	resize(settings->value("size", QSize(650, 715)).toSize());
 	move(settings->value("pos", pos()).toPoint());
 	settings->endGroup();
+
+	if (!DesktopInfo::isInsideScreen(this)) {
+		move(0,0);
+		qWarning("BrowserWindow::loadConfig: window is outside of the screen, moved to 0x0");
+	}
 
 	settings->beginGroup("view");
 	toggleToolbarAct->setChecked(settings->value("toolbar", false).toBool());
