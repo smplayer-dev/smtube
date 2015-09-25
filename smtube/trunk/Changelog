@@ -1,3 +1,20 @@
+Version 15.9:
+
+(2015-09-24)
+ * Check if the window is outside of the screen. In that case move it 
+   to 0x0.
+
+(2015-09-08)
+ * Fix the 'can't find URL' error when using Qt 5.
+
+(2015-09-01)
+ * Apply patch smtube-gmake.diff
+   (https://sourceforge.net/p/smplayer/bugs/701/)
+
+(2015-08-28)
+ * Don't use cache with PORTABLE_APP
+
+
 Version 15.8:
 
 (2015-08-20)
