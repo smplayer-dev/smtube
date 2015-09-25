@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ko">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ko" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -89,12 +87,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="127"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>종료(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="130"/>
         <source>&amp;Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>네비게이션(&amp;N)</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="139"/>
@@ -344,12 +342,12 @@
     <message>
         <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in new window</source>
-        <translation type="unfinished"></translation>
+        <translation>새 창에서 링크 열기</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="75"/>
         <source>Open audio with</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오를 다음으로 열기:</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="91"/>
@@ -360,7 +358,7 @@
     <message>
         <location filename="../mywebview.cpp" line="123"/>
         <source>Open audio with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오를 %로 열기</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="49"/>
@@ -370,7 +368,7 @@
     <message>
         <location filename="../mywebview.cpp" line="48"/>
         <source>Save link...</source>
-        <translation type="unfinished"></translation>
+        <translation>링크 저장하기...</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="50"/>
@@ -413,37 +411,37 @@
     <message>
         <location filename="../playerdialog.ui" line="80"/>
         <source>Preferred &amp;quality:</source>
-        <translation type="unfinished">선호 품질:</translation>
+        <translation>선호 품질:</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="110"/>
         <source>Add to &amp;menu:</source>
-        <translation type="unfinished"></translation>
+        <translation>메뉴에 추가하기:</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>없음</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="29"/>
         <source>Video</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="30"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="31"/>
         <source>Video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오와 오디오</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>기본</translation>
     </message>
 </context>
 <context>
