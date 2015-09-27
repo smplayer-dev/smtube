@@ -1,3 +1,9 @@
+smtube (15.9.0) precise; urgency=low
+
+  * Fix the 'can't find URL' error when using Qt 5.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 27 Sep 2015 23:21:37 +0200
+
 smtube (15.8.0) precise; urgency=low
 
   * Improve support for VEVO videos.
