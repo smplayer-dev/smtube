@@ -1,10 +1,75 @@
 [Desktop Entry]
 Exec=smtube
 Comment=Browse and search from YouTube
-Comment[es]=Permite buscar vídeos de YouTube
 GenericName=Youtube Browser
-GenericName[es]=Buscar vídeos en YouTube
 Icon=smtube
 Name=YouTube Browser for SMPlayer
 Type=Application
 Categories=Qt;KDE;AudioVideo;Player;Video;
+
+
+# Translations
+Comment[gl]=Navegar e buscar en YouTube
+GenericName[gl]=Navegador de YouTube
+Name[gl]=Navegador de YouTube para SMPlayer
+Icon[gl]=smtube
+
+Comment[ms_MY]=Layar dan gelintar Youtube
+GenericName[ms_MY]=Pelayar Youtube
+Name[ms_MY]=Pelayar YouTube untuk SMPlayer
+Icon[ms_MY]=smtube
+
+Comment[pt]=Explorar e pesquisar vídeos no YouTube
+GenericName[pt]=Explorador YouTube
+Name[pt]=Explorador YouTube para o SMPlayer
+Icon[pt]=smtube
+
+Comment[pt_BR]=Navegar e procurar no YouTube
+GenericName[pt_BR]=Navegador do YouTube
+Name[pt_BR]=Navegador do YouTube para o SMPlayer
+Icon[pt_BR]=smtube
+
+Comment[ru]=Просмотр и поиск по YouTube
+GenericName[ru]=Браузер YouTube
+Name[ru]=Браузер YouTube для SMPlayer
+Icon[ru]=smtube
+
+Comment[it]=Naviga e ricerca su YouTube
+GenericName[it]=Navigatore YouTube
+Name[it]=Navigatore YouTube per SMPlayer
+Icon[it]=smtube
+
+Comment[ja]=YouTube を閲覧し検索します
+GenericName[ja]=YouTube ブラウザー
+Name[ja]=SMPlayer の YouTube ブラウザー
+Icon[ja]=smtube
+
+Comment[da]=Gennemse og søg fra YouTube
+GenericName[da]=YouTube-browser
+Name[da]=YouTube-browser til SMPlayer
+Icon[da]=smtube
+
+Comment[de]=YouTube durchsuchen
+GenericName[de]=Youtube-Browser
+Name[de]=YouTube-Browser für SMPlayer
+Icon[de]=smtube
+
+Comment[es]=Permite buscar vídeos de YouTube
+GenericName[es]=Buscar vídeos en YouTube
+Name[es]=El buscador de vídeos de YouTube de SMPlayer
+Icon[es]=smtube
+
+Comment[uk]=Перегляд і пошук на YouTube
+GenericName[uk]=Переглядач YouTube
+Name[uk]=YouTube переглядач для SMPlayer
+Icon[uk]=smtube
+
+Comment[ko]=유투브 검색하기
+GenericName[ko]=유투브 브라우저
+Name[ko]=SMPlayer 유투브 브라우저
+Icon[ko]=smtube
+
+Comment[zh_TW]=在 YouTube 上瀏覽並搜尋
+GenericName[zh_TW]=Youtube 瀏覽器
+Name[zh_TW]=為 SMPlayer 所設計的 YouTube 瀏覽器 
+Icon[zh_TW]=smtube
