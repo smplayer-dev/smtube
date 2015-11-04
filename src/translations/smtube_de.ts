@@ -4,7 +4,7 @@
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About...</source>
-        <translation>Über…</translation>
+        <translation>Über …</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
@@ -368,12 +368,12 @@
     <message>
         <location filename="../mywebview.cpp" line="48"/>
         <source>Save link...</source>
-        <translation>Link speichern...</translation>
+        <translation>Verweis speichern …</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="50"/>
         <source>Open link in this window</source>
-        <translation>Link in diesem Fenster öffnen</translation>
+        <translation>Verweis in diesem Fenster öffnen</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="51"/>
