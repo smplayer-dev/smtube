@@ -115,4 +115,5 @@ TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_uk.ts \
                translations/smtube_sq.ts \
                translations/smtube_tr.ts \
-               translations/smtube_hu.ts
+               translations/smtube_hu.ts \
+               translations/smtube_he_IL.ts
