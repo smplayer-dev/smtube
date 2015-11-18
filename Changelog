@@ -1,3 +1,16 @@
+Version 15.11:
+
+(2015-11-17)
+ * Add support for YouTube live streams.
+ * Add the Hebrew translation.
+
+(2015-11-10)
+ * Fix the signature code.
+
+(2015-11-04)
+ * Open m3u8 URLs.
+
+
 Version 15.9:
 
 (2015-09-24)
