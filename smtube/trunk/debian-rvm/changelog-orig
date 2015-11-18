@@ -1,3 +1,10 @@
+smtube (15.11.0) precise; urgency=low
+
+  * Fix for VEVO videos.
+  * Add support for YouTube live streams.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 18 Nov 2015 23:43:18 +0100
+
 smtube (15.9.0) precise; urgency=low
 
   * Fix the 'can't find URL' error when using Qt 5.
