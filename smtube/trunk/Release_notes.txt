@@ -1,10 +1,10 @@
-Version 15.9
+Version 15.11
+ * Fix for VEVO videos.
+ * Add support for YouTube live streams.
 
+Version 15.9
  * Fix the 'can't find URL' error when using Qt 5.
 
-
 Version 15.8
-
  * Improve support for VEVO videos.
  * Possibility to play the audio only.
-
