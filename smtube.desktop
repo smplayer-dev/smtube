@@ -1,75 +1,111 @@
 [Desktop Entry]
 Exec=smtube
-Comment=Browse and search from YouTube
-GenericName=Youtube Browser
+Comment=Browse and search videos from YouTube
+GenericName=YouTube Browser for SMPlayer
 Icon=smtube
-Name=YouTube Browser for SMPlayer
+Name=SMTube
 Type=Application
 Categories=Qt;KDE;AudioVideo;Player;Video;
 
 
 # Translations
-Comment[gl]=Navegar e buscar en YouTube
-GenericName[gl]=Navegador de YouTube
-Name[gl]=Navegador de YouTube para SMPlayer
-Icon[gl]=smtube
+Comment[am]=ከ ዩቲዩብ መቃኛ እና መፈጊያ
+GenericName[am]=ከ ዩቲዩብ መቃኛ ለ  SMP ማጫወቻ
+Name[am]=SMTube
 
-Comment[ms_MY]=Layar dan gelintar Youtube
-GenericName[ms_MY]=Pelayar Youtube
-Name[ms_MY]=Pelayar YouTube untuk SMPlayer
-Icon[ms_MY]=smtube
+Comment[bg]=Прелистване и търсене в YouTube
+GenericName[bg]=YouTube браузър за SMPlayer
+Name[bg]=SMTube
 
-Comment[pt]=Explorar e pesquisar vídeos no YouTube
-GenericName[pt]=Explorador YouTube
-Name[pt]=Explorador YouTube para o SMPlayer
-Icon[pt]=smtube
-
-Comment[pt_BR]=Navegar e procurar no YouTube
-GenericName[pt_BR]=Navegador do YouTube
-Name[pt_BR]=Navegador do YouTube para o SMPlayer
-Icon[pt_BR]=smtube
-
-Comment[ru]=Просмотр и поиск по YouTube
-GenericName[ru]=Браузер YouTube
-Name[ru]=Браузер YouTube для SMPlayer
-Icon[ru]=smtube
-
-Comment[it]=Naviga e ricerca su YouTube
-GenericName[it]=Navigatore YouTube
-Name[it]=Navigatore YouTube per SMPlayer
-Icon[it]=smtube
-
-Comment[ja]=YouTube を閲覧し検索します
-GenericName[ja]=YouTube ブラウザー
-Name[ja]=SMPlayer の YouTube ブラウザー
-Icon[ja]=smtube
+Comment[cs]=Procházet a hledat na YouTube
+GenericName[cs]=Prohlížeč YouTube pro SMPlayer
+Name[cs]=SMTube
 
 Comment[da]=Gennemse og søg fra YouTube
-GenericName[da]=YouTube-browser
-Name[da]=YouTube-browser til SMPlayer
-Icon[da]=smtube
+GenericName[da]=YouTube-browser til SMPlayer
+Name[da]=SMTube
 
 Comment[de]=YouTube durchsuchen
-GenericName[de]=Youtube-Browser
-Name[de]=YouTube-Browser für SMPlayer
-Icon[de]=smtube
+GenericName[de]=YouTube-Browser für SMPlayer
+Name[de]=SMTube
+
+Comment[el]=Περιήγηση και αναζήτηση στο YouTube
+GenericName[el]=Περιηγητής του YouTube για το SMPlayer
+Name[el]=SMTube
 
 Comment[es]=Permite buscar vídeos de YouTube
-GenericName[es]=Buscar vídeos en YouTube
-Name[es]=El buscador de vídeos de YouTube de SMPlayer
-Icon[es]=smtube
+GenericName[es]=Buscador de vídeos de YouTube de SMPlayer
+Name[es]=SMTube
 
-Comment[uk]=Перегляд і пошук на YouTube
-GenericName[uk]=Переглядач YouTube
-Name[uk]=YouTube переглядач для SMPlayer
-Icon[uk]=smtube
+Comment[eu]=Nabigatu eta bilatu YouTuben
+GenericName[eu]=YouTube Nabigatzailea SMPlayer-erako
+Name[eu]=SMTube
+
+Comment[fa]=مرور و جست و جو در یوتیوب
+GenericName[fa]=مرورگر یوتیوب برای SMPlayer
+Name[fa]=SMTube
+
+Comment[fr]=Naviguer et chercher sur YouTube
+GenericName[fr]=Navigateur YouTube pour SMPlayer
+Name[fr]=SMTube
+
+Comment[gl]=Navegar e buscar en YouTube
+GenericName[gl]=Navegador de YouTube para SMPlayer
+Name[gl]=SMTube
+
+Comment[he]=עיין וחפש מתוך YouTube
+GenericName[he]=מעלעל YouTube עבור SMPlayer
+Name[he]=SMTube
+
+Comment[hr]=Pregledavajte i pretražujte YouTube
+GenericName[hr]=YouTube preglednik za SMPlayer
+Name[hr]=SMTube
+
+Comment[it]=Naviga e ricerca su YouTube
+GenericName[it]=Navigatore YouTube per SMPlayer
+Name[it]=SMTube
+
+Comment[ja]=YouTube を閲覧し検索します
+GenericName[ja]=SMPlayer の YouTube ブラウザー
+Name[ja]=SMTube
 
 Comment[ko]=유투브 검색하기
-GenericName[ko]=유투브 브라우저
-Name[ko]=SMPlayer 유투브 브라우저
-Icon[ko]=smtube
+GenericName[ko]=SMPlayer 유투브 브라우저
+Name[ko]=SMTube
+
+Comment[pl]=Przeglądanie i przeszukiwanie YouTube
+GenericName[pl]=Przeglądarka YouTube dla SMPlayer
+Name[pl]=SMTube
+
+Comment[pt]=Explorar e pesquisar vídeos no YouTube
+GenericName[pt]=Explorador YouTube para o SMPlayer
+Name[pt]=SMTube
+
+Comment[pt_BR]=Navegar e procurar no YouTube
+GenericName[pt_BR]=Navegador do YouTube para o SMPlayer
+Name[pt_BR]=SMTube
+
+Comment[ru]=Просмотр и поиск по YouTube
+GenericName[ru]=Браузер YouTube для SMPlayer
+Name[ru]=SMTube
+
+Comment[sv]=Bläddra och sök från YouTube
+GenericName[sv]=YouTube Bläddrare för SMplayer
+Name[sv]=SMTube
+
+Comment[uk]=Перегляд і пошук на YouTube
+GenericName[uk]=YouTube переглядач для SMPlayer
+Name[uk]=SMTube
+
+Comment[zh_CN]=浏览 YouTube 或者搜索
+GenericName[zh_CN]=SMPlayer - YouTube 浏览器
+Name[zh_CN]=SMTube
 
 Comment[zh_TW]=在 YouTube 上瀏覽並搜尋
-GenericName[zh_TW]=Youtube 瀏覽器
-Name[zh_TW]=為 SMPlayer 所設計的 YouTube 瀏覽器 
-Icon[zh_TW]=smtube
+GenericName[zh_TW]=為 SMPlayer 所設計的 YouTube 瀏覽器 
+Name[zh_TW]=SMTube
+
+Comment[ms_MY]=Layar dan gelintar Youtube
+GenericName[ms_MY]=Pelayar YouTube untuk SMPlayer
+Name[ms_MY]=SMTube
+
