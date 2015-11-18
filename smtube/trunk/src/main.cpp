@@ -17,6 +17,7 @@
 */
 
 #include "browserwindow.h"
+#include "version.h"
 #include <QApplication>
 #include <QDir>
 #include <QTranslator>
@@ -95,6 +96,8 @@ int main(int argc, char * argv[]) {
 	a.setApplicationName("smtube");
 
 #if QT_VERSION >= 0x040400
+	a.setApplicationVersion(smtubeVersion());
+
 	// Enable icons in menus
 	QCoreApplication::setAttribute(Qt::AA_DontShowIconsInMenus, false);
 #endif
