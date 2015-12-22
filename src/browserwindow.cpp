@@ -161,9 +161,11 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	helpMenu->addAction(updateCodeAct);
 #endif
 
+#ifdef SHOW_RELEASE_DIALOG
 	QAction * aboutReleaseAct = new QAction(tr("About this &release"), this);
 	connect(aboutReleaseAct, SIGNAL(triggered()), this, SLOT(showAboutRelease()));
 	helpMenu->addAction(aboutReleaseAct);
+#endif
 
 	QAction * aboutAct = new QAction(tr("&About SMTube"), this);
 	connect(aboutAct, SIGNAL(triggered()), this, SLOT(showAbout()));
@@ -465,6 +467,7 @@ void BrowserWindow::updateYTCode() {
 }
 #endif
 
+#ifdef SHOW_RELEASE_DIALOG
 void BrowserWindow::showAboutRelease() {
 	QMessageBox::about(this, tr("About this release"),
 		"<p>"+ tr("Due to changes in YouTube, the old SMTube doesn't work anymore.") + "<p>"+
@@ -477,6 +480,7 @@ void BrowserWindow::showAboutRelease() {
 #endif
 	);
 }
+#endif
 
 void BrowserWindow::showAbout() {
 	About d(this);
@@ -560,8 +564,10 @@ void BrowserWindow::loadConfig() {
 	ryu->setUseHttpsMain(settings->value("use_https_main", false).toBool());
 	ryu->setUseHttpsVi(settings->value("use_https_vi", false).toBool());
 
+#ifdef SHOW_RELEASE_DIALOG
 	bool shown_notes = settings->value("shown_notes", false).toBool();
 	settings->setValue("shown_notes", true);
+#endif
 	settings->endGroup();
 
 	settings->beginGroup("browser");
@@ -598,9 +604,11 @@ void BrowserWindow::loadConfig() {
 	view->setPlayer(HCPLAYER_NAME);
 #endif
 
+#ifdef SHOW_RELEASE_DIALOG
 	if (!shown_notes) {
 		QTimer::singleShot(3000, this, SLOT(showAboutRelease()));
 	}
+#endif
 }
 
 #include "moc_browserwindow.cpp"
