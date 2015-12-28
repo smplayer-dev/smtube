@@ -2,6 +2,7 @@ cd src
 call mingw32-make distclean
 
 cd ..
+del setup\qt_files.nsh
 del src\translations\smtube_*.qm
 del src\object_script.smtube.Release
 del src\object_script.smtube.Debug
