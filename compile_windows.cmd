@@ -91,6 +91,11 @@ if [%gcc_target%]==[x86_64-w64-mingw32] (
   set X86_64=no
 )
 
+:: Qt locations from QMAKE
+for /f "tokens=*" %%i in ('qmake -query QT_INSTALL_PREFIX') do set QT_DIR=%%i
+for /f "tokens=*" %%i in ('qmake -query QT_VERSION') do set QT_VER=%%i
+set QT_DIR=%QT_DIR:/=\%
+
 if [%runsvnup%]==[yes] (
   svn up
   echo.
@@ -99,6 +104,27 @@ if [%runsvnup%]==[yes] (
 set SMTUBE_DIR=%start_dir%
 :: Does string have a trailing slash? if so remove it 
 if %SMTUBE_DIR:~-1%==\ set SMTUBE_DIR=%SMTUBE_DIR:~0,-1%
+
+if %QT_VER% lss 5.0.0 (
+
+  echo File "%QT_DIR%\bin\QtWebKit4.dll">"%SMTUBE_DIR%\setup\qt_files.nsh"
+
+) else if %QT_VER% geq 5.0.0 (
+
+  echo File "%QT_DIR%\bin\Qt5WebKit.dll">"%SMTUBE_DIR%\setup\qt_files.nsh"
+  echo File "%QT_DIR%\bin\Qt5Sql.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  echo File "%QT_DIR%\bin\Qt5Qml.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  echo File "%QT_DIR%\bin\Qt5Quick.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  echo File "%QT_DIR%\bin\Qt5Positioning.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  echo File "%QT_DIR%\bin\Qt5Multimedia.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  echo File "%QT_DIR%\bin\Qt5Sensors.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  echo File "%QT_DIR%\bin\Qt5WebChannel.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  echo File "%QT_DIR%\bin\Qt5WebKitWidgets.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  echo File "%QT_DIR%\bin\Qt5OpenGL.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  echo File "%QT_DIR%\bin\Qt5PrintSupport.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  echo File "%QT_DIR%\bin\Qt5MultimediaWidgets.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+
+)
 
 :compile
 
