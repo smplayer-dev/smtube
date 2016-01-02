@@ -1,3 +1,6 @@
+Version 16.1
+ * Fix for VEVO videos.
+
 Version 15.11
  * Fix for VEVO videos.
  * Add support for YouTube live streams.
