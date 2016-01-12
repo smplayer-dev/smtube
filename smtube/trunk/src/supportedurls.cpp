@@ -40,5 +40,5 @@ void SupportedUrls::load() {
 
 	list << QRegExp("^(https?\\:\\/\\/)?(www\\.)?dailymotion\\.com\\/video\\/.+$");
 	list << QRegExp("^(https?\\:\\/\\/)?(www\\.)?vimeo\\.com\\/(channels\\/staffpicks\\/)?\\d+$");
-	list << QRegExp("^(https?\\:\\/\\/).*m3u8\\??");
+	list << QRegExp("^(https?\\:\\/\\/).*m3u8?\\??");
 }
