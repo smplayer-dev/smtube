@@ -29,7 +29,7 @@ int SupportedUrls::site(const QString & url) {
 
 	for (int n = 0; n < list.count(); n++) {
 		if (list[n].indexIn(url) > -1) {
-			return Other;
+			return StreamingSite;
 		}
 	}
 
