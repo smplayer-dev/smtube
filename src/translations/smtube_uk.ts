@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -144,7 +142,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="419"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation>Запитуване Вами видиво потребує HTTPS-з’єднання.</translation>
+        <translation>Запитуване Вами відео потребує HTTPS-з’єднання.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="420"/>
@@ -154,12 +152,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="425"/>
         <source>No video found</source>
-        <translation>Видиво не знайдено</translation>
+        <translation>Відео не знайдено</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="426"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation>Неможливо знайти посилання для цього видива.</translation>
+        <translation>Неможливо знайти посилання для цього відео.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="436"/>
@@ -171,7 +169,7 @@
         <location filename="../browserwindow.cpp" line="437"/>
         <location filename="../browserwindow.cpp" line="445"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation>Нажаль, з-за змін на YouTube видиво &apos;%1&apos; не може бути відтворено.</translation>
+        <translation>На жаль, через зміни на YouTube відео &apos;%1&apos; не може бути відтворено.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="438"/>
@@ -211,7 +209,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="470"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
-        <translation>Якщо VEVO видиво не бажає відтворюватися, будь ласка, використовуйте пункт %1 у меню Довідки.</translation>
+        <translation>Якщо VEVO відео не бажає відтворюватися, будь ласка, використовуйте пункт %1 у меню Довідки.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="471"/>
@@ -408,7 +406,7 @@
     <message>
         <location filename="../playerdialog.ui" line="71"/>
         <source>This player supports &amp;video sites</source>
-        <translation>Цей програвач підтримує &amp;видиво-сайти</translation>
+        <translation>Цей програвач підтримує &amp;відео-сайти</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="80"/>
@@ -451,7 +449,7 @@
     <message>
         <location filename="../players.cpp" line="101"/>
         <source>Video sites</source>
-        <translation>Видиво сайти</translation>
+        <translation>Відео сайти</translation>
     </message>
     <message>
         <location filename="../players.cpp" line="101"/>

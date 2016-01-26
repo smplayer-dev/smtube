@@ -227,7 +227,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>A transferir...</translation>
+        <translation>A descarregar...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
@@ -263,7 +263,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Ocorreu um erro ao transferir o ficheiro:&lt;br&gt;%1</translation>
+        <translation>Ocorreu um erro ao descarregar o ficheiro:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
