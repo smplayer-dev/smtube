@@ -263,14 +263,32 @@ void BrowserWindow::processLink(const QUrl & url ) {
 	int player_id = 0;
 	QList<Player> pl = players.availablePlayers();
 	if (pl.count() > 0) {
-		if (site_type == SupportedUrls::Youtube) can_play_this = true;
+		if (site_type == SupportedUrls::Youtube) {
+			can_play_this = true;
+		}
 		else
-		if (site_type == SupportedUrls::Other && pl[player_id].directPlay()) can_play_this = true;
+		if (site_type == SupportedUrls::Other && pl[player_id].directPlay()) {
+			can_play_this = true;
+		}
+		else
+		if (site_type == SupportedUrls::DirectStream && pl[player_id].directPlay()) {
+			/* TODO: do something different */
+			can_play_this = true;
+		}
 	}
 	#else
-	if (site_type == SupportedUrls::Youtube) can_play_this = true;
+	if (site_type == SupportedUrls::Youtube) {
+		can_play_this = true;
+	}
 	else
-	if (site_type == SupportedUrls::Other && HCPLAYER_DIRECTPLAY) can_play_this = true;
+	if (site_type == SupportedUrls::Other && HCPLAYER_DIRECTPLAY) {
+		can_play_this = true;
+	}
+	else
+	if (site_type == SupportedUrls::DirectStream && HCPLAYER_DIRECTPLAY) {
+		/* TODO: do something different */
+		can_play_this = true;
+	}
 	#endif
 
 	if (!can_play_this) {
