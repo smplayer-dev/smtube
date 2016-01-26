@@ -267,7 +267,7 @@ void BrowserWindow::processLink(const QUrl & url ) {
 			can_play_this = true;
 		}
 		else
-		if (site_type == SupportedUrls::Other && pl[player_id].directPlay()) {
+		if (site_type == SupportedUrls::StreamingSite && pl[player_id].directPlay()) {
 			can_play_this = true;
 		}
 		else
@@ -281,7 +281,7 @@ void BrowserWindow::processLink(const QUrl & url ) {
 		can_play_this = true;
 	}
 	else
-	if (site_type == SupportedUrls::Other && HCPLAYER_DIRECTPLAY) {
+	if (site_type == SupportedUrls::StreamingSite && HCPLAYER_DIRECTPLAY) {
 		can_play_this = true;
 	}
 	else

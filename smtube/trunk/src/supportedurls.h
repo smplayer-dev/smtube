@@ -24,7 +24,7 @@
 
 class SupportedUrls {
 public:
-	enum SiteID { Youtube = 1, Other = 2, DirectStream = 3, Unsupported = 0 };
+	enum SiteID { Youtube = 1, StreamingSite = 2, DirectStream = 3, Unsupported = 0 };
 
 	static int site(const QString & url);
 	static void load();
