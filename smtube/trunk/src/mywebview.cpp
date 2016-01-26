@@ -79,9 +79,18 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 	for (int n = 0; n < player_list.count(); n++) {
 		bool add_this_player = false;
 
-		if (site_id == SupportedUrls::Youtube) add_this_player = true;
+		if (site_id == SupportedUrls::Youtube) {
+			add_this_player = true;
+		}
 		else
-		if (site_id == SupportedUrls::Other && player_list[n].directPlay()) add_this_player = true;
+		if (site_id == SupportedUrls::Other && player_list[n].directPlay()) {
+			add_this_player = true;
+		}
+		else
+		if (site_id == SupportedUrls::DirectStream && player_list[n].directPlay()) {
+			/* TODO: do something different */
+			add_this_player = true;
+		}
 
 		if (add_this_player) {
 			Player::Media media = player_list[n].supportedMedia();

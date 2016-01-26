@@ -19,6 +19,7 @@
 #include "supportedurls.h"
 
 QList<QRegExp> SupportedUrls::list;
+QList<QRegExp> SupportedUrls::ds_list;
 QRegExp SupportedUrls::ytrx;
 
 int SupportedUrls::site(const QString & url) {
@@ -32,6 +33,12 @@ int SupportedUrls::site(const QString & url) {
 		}
 	}
 
+	for (int n = 0; n < ds_list.count(); n++) {
+		if (ds_list[n].indexIn(url) > -1) {
+			return DirectStream;
+		}
+	}
+
 	return SupportedUrls::Unsupported;
 }
 
@@ -40,5 +47,6 @@ void SupportedUrls::load() {
 
 	list << QRegExp("^(https?\\:\\/\\/)?(www\\.)?dailymotion\\.com\\/video\\/.+$");
 	list << QRegExp("^(https?\\:\\/\\/)?(www\\.)?vimeo\\.com\\/(channels\\/staffpicks\\/)?\\d+$");
-	list << QRegExp("^(https?\\:\\/\\/).*m3u8?\\??");
+
+	ds_list << QRegExp("^(https?\\:\\/\\/).*m3u8?\\??");
 }
