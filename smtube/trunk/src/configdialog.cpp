@@ -28,8 +28,9 @@
 #define COL_BINARY 1
 #define COL_PARMS 2
 #define COL_STREAMINGSITES 3
-#define COL_MEDIA 4
-#define COL_QUALITY 5
+#define COL_ONLINETV 4
+#define COL_MEDIA 5
+#define COL_QUALITY 6
 
 ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
     : QDialog(parent, f) 
@@ -78,6 +79,7 @@ void ConfigDialog::setPlayers(QList<Player> list) {
 		i->setData(Qt::UserRole + COL_BINARY, list[n].binary());
 		i->setData(Qt::UserRole + COL_PARMS, list[n].arguments());
 		i->setData(Qt::UserRole + COL_STREAMINGSITES, list[n].supportStreamingSites());
+		i->setData(Qt::UserRole + COL_ONLINETV, list[n].supportOnlineTV());
 		i->setData(Qt::UserRole + COL_MEDIA, list[n].supportedMedia());
 		i->setData(Qt::UserRole + COL_QUALITY, list[n].preferredQuality());
 
@@ -96,11 +98,12 @@ QList<Player> ConfigDialog::players() {
 		QString binary = i->data(Qt::UserRole + COL_BINARY).toString();
 		QString params = i->data(Qt::UserRole + COL_PARMS).toString();
 		bool support_streaming_sites = i->data(Qt::UserRole + COL_STREAMINGSITES).toBool();
+		bool support_online_tv = i->data(Qt::UserRole + COL_ONLINETV).toBool();
 		int supported_media = i->data(Qt::UserRole + COL_MEDIA).toInt();
 		int quality = i->data(Qt::UserRole + COL_QUALITY).toInt();
 
 		if (!name.isEmpty() && !binary.isEmpty()) {
-			list << Player(name, binary, params, support_streaming_sites, false, (Player::Media) supported_media, quality);
+			list << Player(name, binary, params, support_streaming_sites, support_online_tv, (Player::Media) supported_media, quality);
 		}
 	}
 
@@ -121,6 +124,7 @@ void ConfigDialog::editCurrentItem() {
 	QString binary = i->data(Qt::UserRole + COL_BINARY).toString();
 	QString parms = i->data(Qt::UserRole + COL_PARMS).toString();
 	bool support_streaming_sites = i->data(Qt::UserRole + COL_STREAMINGSITES).toBool();
+	bool support_online_tv = i->data(Qt::UserRole + COL_ONLINETV).toBool();
 	int supported_media = i->data(Qt::UserRole + COL_MEDIA).toInt();
 	int quality = i->data(Qt::UserRole + COL_QUALITY).toInt();
 
@@ -129,6 +133,7 @@ void ConfigDialog::editCurrentItem() {
 	d.setBinary(binary);
 	d.setParameters(parms);
 	d.setSupportStreamingSites(support_streaming_sites);
+	d.setSupportOnlineTV(support_online_tv);
 	d.setMedia(supported_media);
 	d.setQuality(quality);
 
@@ -138,6 +143,7 @@ void ConfigDialog::editCurrentItem() {
 		i->setData(Qt::UserRole + COL_BINARY, d.binary());
 		i->setData(Qt::UserRole + COL_PARMS, d.parameters());
 		i->setData(Qt::UserRole + COL_STREAMINGSITES, d.supportStreamingSites());
+		i->setData(Qt::UserRole + COL_ONLINETV, d.supportOnlineTV());
 		i->setData(Qt::UserRole + COL_MEDIA, d.media());
 		i->setData(Qt::UserRole + COL_QUALITY, d.quality());
 	}
@@ -164,6 +170,7 @@ void ConfigDialog::on_add_button_clicked() {
 	i->setData(Qt::UserRole + COL_BINARY, "");
 	i->setData(Qt::UserRole + COL_PARMS, "%u");
 	i->setData(Qt::UserRole + COL_STREAMINGSITES, false);
+	i->setData(Qt::UserRole + COL_ONLINETV, false);
 	i->setData(Qt::UserRole + COL_MEDIA, Player::VideoAudio);
 	i->setData(Qt::UserRole + COL_QUALITY, -1);
 
@@ -208,6 +215,7 @@ void ConfigDialog::on_addplayers_button_clicked() {
 			i->setData(Qt::UserRole + COL_BINARY, default_players[n].binary());
 			i->setData(Qt::UserRole + COL_PARMS, default_players[n].arguments());
 			i->setData(Qt::UserRole + COL_STREAMINGSITES, default_players[n].supportStreamingSites());
+			i->setData(Qt::UserRole + COL_ONLINETV, default_players[n].supportOnlineTV());
 			i->setData(Qt::UserRole + COL_MEDIA, default_players[n].supportedMedia());
 			i->setData(Qt::UserRole + COL_QUALITY, default_players[n].preferredQuality());
 			table->addItem(i);

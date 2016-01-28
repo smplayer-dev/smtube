@@ -73,6 +73,13 @@
     </widget>
    </item>
    <item>
+    <widget class="QCheckBox" name="onlinetv_check">
+     <property name="text">
+      <string>This player can play &amp;online TV</string>
+     </property>
+    </widget>
+   </item>
+   <item>
     <layout class="QHBoxLayout" name="horizontalLayout_5">
      <item>
       <widget class="QLabel" name="quality_label">
@@ -163,6 +170,7 @@
   <tabstop>binary_edit</tabstop>
   <tabstop>parms_edit</tabstop>
   <tabstop>streamingsites_check</tabstop>
+  <tabstop>onlinetv_check</tabstop>
   <tabstop>quality_combo</tabstop>
   <tabstop>media_combo</tabstop>
   <tabstop>buttonBox</tabstop>
