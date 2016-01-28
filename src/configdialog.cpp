@@ -100,7 +100,7 @@ QList<Player> ConfigDialog::players() {
 		int quality = i->data(Qt::UserRole + COL_QUALITY).toInt();
 
 		if (!name.isEmpty() && !binary.isEmpty()) {
-			list << Player(name, binary, params, support_streaming_sites, (Player::Media) supported_media, quality);
+			list << Player(name, binary, params, support_streaming_sites, false, (Player::Media) supported_media, quality);
 		}
 	}
 

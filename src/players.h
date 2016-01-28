@@ -30,11 +30,15 @@ class Player
 public:
 	enum Media { None = 0, Video = 1, Audio = 2, VideoAudio = 3 };
 
-	Player(QString name, QString binary, QString arguments, bool support_for_streaming_sites, Media media, int preferred_quality = -1) {
+	Player(QString name, QString binary, QString arguments,
+			bool support_for_streaming_sites, bool support_for_online_tv,
+			Media media, int preferred_quality = -1)
+	{
 		player_name = name;
 		player_bin = binary;
 		args = arguments;
 		support_streaming_sites = support_for_streaming_sites;
+		support_online_tv = support_for_online_tv,
 		supported_media = media;
 		quality = preferred_quality;
 	}
@@ -43,6 +47,7 @@ public:
 	void setBinary(QString binary) { player_bin = binary; }
 	void setArguments(QString arguments) { args = arguments; }
 	void setSupportStreamingSites(bool b) { support_streaming_sites = b; }
+	void setSupportOnlineTV(bool b) { support_online_tv = b; }
 	void setSupportedMedia(Media m) { supported_media = m; }
 	void setPreferredQuality(int q) { quality = q; }
 
@@ -50,6 +55,7 @@ public:
 	QString binary() { return player_bin; }
 	QString arguments() { return args; };
 	bool supportStreamingSites() { return support_streaming_sites; }
+	bool supportOnlineTV() { return support_online_tv; }
 	Media supportedMedia() { return supported_media; }
 	int preferredQuality() { return quality; }
 
@@ -62,6 +68,7 @@ protected:
 
 	QString player_name, player_bin, args;
 	bool support_streaming_sites;
+	bool support_online_tv;
 	Media supported_media;
 	int quality;
 };
