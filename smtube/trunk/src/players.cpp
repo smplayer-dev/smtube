@@ -97,10 +97,6 @@ QString Player::executable(bool * found) {
 	return player_bin;
 }
 
-QString Player::directPlayToString(bool b) {
-	return (b ? QObject::tr("Video sites") : QObject::tr("Normal streams"));
-}
-
 
 Players::Players() {
 #ifdef Q_OS_WIN
@@ -176,7 +172,7 @@ void Players::save(QSettings * set) {
 		set->setValue("name", list[n].name());
 		set->setValue("binary", list[n].binary());
 		set->setValue("arguments", list[n].arguments());
-		set->setValue("directplay", list[n].directPlay());
+		set->setValue("directplay", list[n].supportStreamingSites());
 		set->setValue("supported_media", list[n].supportedMedia());
 		set->setValue("quality", list[n].preferredQuality());
 		set->endGroup();
@@ -200,10 +196,10 @@ void Players::load(QSettings * set) {
 			QString name = set->value("name", "").toString();
 			QString binary = set->value("binary", "").toString();
 			QString arguments = set->value("arguments", "").toString();
-			bool directplay = set->value("directplay", false).toBool();
+			bool support_streaming_sites = set->value("directplay", false).toBool();
 			int supported_media = set->value("supported_media", Player::VideoAudio).toInt();
 			int quality = set->value("quality", -1).toInt();
-			list.push_back( Player(name, binary, arguments, directplay, (Player::Media) supported_media, quality) );
+			list.push_back( Player(name, binary, arguments, support_streaming_sites, (Player::Media) supported_media, quality) );
 			set->endGroup();
 		}
 	}

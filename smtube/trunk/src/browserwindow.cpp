@@ -267,11 +267,11 @@ void BrowserWindow::processLink(const QUrl & url ) {
 			can_play_this = true;
 		}
 		else
-		if (site_type == SupportedUrls::StreamingSite && pl[player_id].directPlay()) {
+		if (site_type == SupportedUrls::StreamingSite && pl[player_id].supportStreamingSites()) {
 			can_play_this = true;
 		}
 		else
-		if (site_type == SupportedUrls::DirectStream && pl[player_id].directPlay()) {
+		if (site_type == SupportedUrls::DirectStream && pl[player_id].supportStreamingSites()) {
 			/* TODO: do something different */
 			can_play_this = true;
 		}
@@ -281,11 +281,11 @@ void BrowserWindow::processLink(const QUrl & url ) {
 		can_play_this = true;
 	}
 	else
-	if (site_type == SupportedUrls::StreamingSite && HCPLAYER_DIRECTPLAY) {
+	if (site_type == SupportedUrls::StreamingSite && HCPLAYER_STREAMINGSITES) {
 		can_play_this = true;
 	}
 	else
-	if (site_type == SupportedUrls::DirectStream && HCPLAYER_DIRECTPLAY) {
+	if (site_type == SupportedUrls::DirectStream && HCPLAYER_STREAMINGSITES) {
 		/* TODO: do something different */
 		can_play_this = true;
 	}
@@ -314,7 +314,7 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 	QString binary = players.item(player_id).executable();
 	QString player_name = players.item(player_id).name();
 	QString arguments = players.item(player_id).arguments();
-	bool direct_play = players.item(player_id).directPlay();
+	bool support_streaming_sites = players.item(player_id).supportStreamingSites();
 	int quality = preferred_quality;
 	if (players.item(player_id).preferredQuality() != -1) {
 		quality = players.item(player_id).preferredQuality();
@@ -323,11 +323,11 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 	QString binary = HCPLAYER_EXECUTABLE;
 	QString player_name = HCPLAYER_NAME;
 	QString arguments = HCPLAYER_ARGUMENTS;
-	bool direct_play = HCPLAYER_DIRECTPLAY;
+	bool support_streaming_sites = HCPLAYER_STREAMINGSITES;
 	int quality = preferred_quality;
 #endif
 
-	if (direct_play) {
+	if (support_streaming_sites) {
 		qDebug() << "BrowserWindow::openWith: ready to play with" << player_name;
 		if (binary.contains(" ")) binary = "\""+ binary +"\"";
 		QString command = binary +" "+ QString(arguments).replace("%u", "\""+ url.toString() +"\"");
