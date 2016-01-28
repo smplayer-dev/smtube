@@ -35,6 +35,7 @@ public:
 	void setBinary(const QString & binary);
 	void setParameters(const QString & parms);
 	void setSupportStreamingSites(bool b);
+	void setSupportOnlineTV(bool b);
 	void setMedia(int m);
 	void setQuality(int q);
 
@@ -42,6 +43,7 @@ public:
 	QString binary();
 	QString parameters();
 	bool supportStreamingSites();
+	bool supportOnlineTV();
 	int media();
 	int quality();
 

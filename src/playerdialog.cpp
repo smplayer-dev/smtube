@@ -64,6 +64,10 @@ void PlayerDialog::setSupportStreamingSites(bool b) {
 	streamingsites_check->setChecked(b);
 }
 
+void PlayerDialog::setSupportOnlineTV(bool b) {
+	onlinetv_check->setChecked(b);
+}
+
 void PlayerDialog::setMedia(int m) {
 	int i = media_combo->findData(m);
 	if (i == -1) i = 0;
@@ -90,6 +94,10 @@ QString PlayerDialog::parameters() {
 
 bool PlayerDialog::supportStreamingSites() {
 	return streamingsites_check->isChecked();
+}
+
+bool PlayerDialog::supportOnlineTV() {
+	return onlinetv_check->isChecked();
 }
 
 int PlayerDialog::media() {
