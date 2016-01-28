@@ -100,29 +100,29 @@ QString Player::executable(bool * found) {
 
 Players::Players() {
 #ifdef Q_OS_WIN
-	list.push_back( Player("SMPlayer", "smplayer.exe", "%u", true, Player::Video) );
-	list.push_back( Player("SMPlayer (audio)", "smplayer.exe", "%u -media-title %t", true, Player::Audio) );
-	list.push_back( Player("SMPlayer (add to playlist)", "smplayer.exe", "-add-to-playlist %u", true, Player::VideoAudio) );
+	list.push_back( Player("SMPlayer", "smplayer.exe", "%u", true, true, Player::Video) );
+	list.push_back( Player("SMPlayer (audio)", "smplayer.exe", "%u -media-title %t", true, false, Player::Audio) );
+	list.push_back( Player("SMPlayer (add to playlist)", "smplayer.exe", "-add-to-playlist %u", true, true, Player::VideoAudio) );
 	/*
 	list.push_back( Player("VLC", "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe", "%u --meta-title=%t", false) );
 	*/
 	#ifdef D_PLAYERS
-	list.push_back( Player("yoDownet", "yoDownet.exe", "%u -o %f", false, Player::VideoAudio) );
+	list.push_back( Player("yoDownet", "yoDownet.exe", "%u -o %f", false, false, Player::VideoAudio) );
 	#endif
 #else
-	list.push_back( Player("SMPlayer", "smplayer", "%u", true, Player::Video) );
-	list.push_back( Player("SMPlayer (audio)", "smplayer", "%u -media-title %t", true, Player::Audio) );
-	list.push_back( Player("SMPlayer (add to playlist)", "smplayer", "-add-to-playlist %u", true, Player::VideoAudio) );
-	list.push_back( Player("MPlayer", "mplayer", "%u -title %t", false, Player::Video) );
-	list.push_back( Player("VLC", "vlc", "%u --meta-title=%t", false, Player::VideoAudio) );
-	list.push_back( Player("Dragon Player", "dragon", "%u", false, Player::VideoAudio) );
-	list.push_back( Player("Totem", "totem", "%u", false, Player::VideoAudio) );
-	list.push_back( Player("GNOME-MPlayer", "gnome-mplayer", "%u", false, Player::VideoAudio) );
-	list.push_back( Player("mpv", "mpv", "%u --title=%t", false, Player::Video) );
-	list.push_back( Player("mpv + youtube-dl", "mpv", "--ytdl --ytdl-format=best %u", true, Player::Video) );
+	list.push_back( Player("SMPlayer", "smplayer", "%u", true, true, Player::Video) );
+	list.push_back( Player("SMPlayer (audio)", "smplayer", "%u -media-title %t", true, false, Player::Audio) );
+	list.push_back( Player("SMPlayer (add to playlist)", "smplayer", "-add-to-playlist %u", true, true, Player::VideoAudio) );
+	list.push_back( Player("MPlayer", "mplayer", "%u -title %t", false, false, Player::Video) );
+	list.push_back( Player("VLC", "vlc", "%u --meta-title=%t", false, true, Player::VideoAudio) );
+	list.push_back( Player("Dragon Player", "dragon", "%u", false, false, Player::VideoAudio) );
+	list.push_back( Player("Totem", "totem", "%u", false, false, Player::VideoAudio) );
+	list.push_back( Player("GNOME-MPlayer", "gnome-mplayer", "%u", false, false, Player::VideoAudio) );
+	list.push_back( Player("mpv", "mpv", "%u --title=%t", false, true, Player::Video) );
+	list.push_back( Player("mpv + youtube-dl", "mpv", "--ytdl --ytdl-format=best %u", true, true, Player::Video) );
 	#ifdef D_PLAYERS
-	list.push_back( Player("uget", "uget-gtk", "--quiet --folder=/tmp --filename=%f %u", false, Player::VideoAudio) );
-	list.push_back( Player("yoDownet", "yoDownet", "%u -o %f", false, Player::VideoAudio) );
+	list.push_back( Player("uget", "uget-gtk", "--quiet --folder=/tmp --filename=%f %u", false, false, Player::VideoAudio) );
+	list.push_back( Player("yoDownet", "yoDownet", "%u -o %f", false, false, Player::VideoAudio) );
 	#endif
 #endif
 	default_list = list;
@@ -173,6 +173,7 @@ void Players::save(QSettings * set) {
 		set->setValue("binary", list[n].binary());
 		set->setValue("arguments", list[n].arguments());
 		set->setValue("directplay", list[n].supportStreamingSites());
+		set->setValue("online_tv", list[n].supportOnlineTV());
 		set->setValue("supported_media", list[n].supportedMedia());
 		set->setValue("quality", list[n].preferredQuality());
 		set->endGroup();
@@ -198,8 +199,23 @@ void Players::load(QSettings * set) {
 			QString arguments = set->value("arguments", "").toString();
 			bool support_streaming_sites = set->value("directplay", false).toBool();
 			int supported_media = set->value("supported_media", Player::VideoAudio).toInt();
+
+			QVariant var = set->value("online_tv");
+			bool support_online_tv = false;
+			if (var.isValid()) {
+				support_online_tv = var.toBool();
+			}
+			else
+			if (supported_media != Player::Audio) {
+				#ifdef Q_OS_WIN
+				if (binary == "smplayer.exe") support_online_tv = true;
+				#else
+				if (binary == "smplayer" || binary == "vlc" || binary == "mpv") support_online_tv = true;
+				#endif
+			}
+
 			int quality = set->value("quality", -1).toInt();
-			list.push_back( Player(name, binary, arguments, support_streaming_sites, (Player::Media) supported_media, quality) );
+			list.push_back( Player(name, binary, arguments, support_streaming_sites, support_online_tv, (Player::Media) supported_media, quality) );
 			set->endGroup();
 		}
 	}

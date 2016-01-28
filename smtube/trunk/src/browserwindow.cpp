@@ -271,8 +271,7 @@ void BrowserWindow::processLink(const QUrl & url ) {
 			can_play_this = true;
 		}
 		else
-		if (site_type == SupportedUrls::DirectStream && pl[player_id].supportStreamingSites()) {
-			/* TODO: do something different */
+		if (site_type == SupportedUrls::DirectStream && pl[player_id].supportOnlineTV()) {
 			can_play_this = true;
 		}
 	}
@@ -285,8 +284,7 @@ void BrowserWindow::processLink(const QUrl & url ) {
 		can_play_this = true;
 	}
 	else
-	if (site_type == SupportedUrls::DirectStream && HCPLAYER_STREAMINGSITES) {
-		/* TODO: do something different */
+	if (site_type == SupportedUrls::DirectStream && HCPLAYER_ONLINE_TV) {
 		can_play_this = true;
 	}
 	#endif
@@ -315,6 +313,7 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 	QString player_name = players.item(player_id).name();
 	QString arguments = players.item(player_id).arguments();
 	bool support_streaming_sites = players.item(player_id).supportStreamingSites();
+	bool support_online_tv = players.item(player_id).supportOnlineTV();
 	int quality = preferred_quality;
 	if (players.item(player_id).preferredQuality() != -1) {
 		quality = players.item(player_id).preferredQuality();
@@ -327,7 +326,11 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 	int quality = preferred_quality;
 #endif
 
-	if (support_streaming_sites) {
+	int site_type = SupportedUrls::site(url.toString());
+	bool direct_play = true;
+	if (site_type == SupportedUrls::Youtube && !support_streaming_sites) direct_play = false;
+
+	if (direct_play) {
 		qDebug() << "BrowserWindow::openWith: ready to play with" << player_name;
 		if (binary.contains(" ")) binary = "\""+ binary +"\"";
 		QString command = binary +" "+ QString(arguments).replace("%u", "\""+ url.toString() +"\"");
