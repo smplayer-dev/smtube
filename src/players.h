@@ -30,11 +30,11 @@ class Player
 public:
 	enum Media { None = 0, Video = 1, Audio = 2, VideoAudio = 3 };
 
-	Player(QString name, QString binary, QString arguments, bool directPlay, Media media, int preferred_quality = -1) {
+	Player(QString name, QString binary, QString arguments, bool support_for_streaming_sites, Media media, int preferred_quality = -1) {
 		player_name = name;
 		player_bin = binary;
 		args = arguments;
-		direct_play = directPlay;
+		support_streaming_sites = support_for_streaming_sites;
 		supported_media = media;
 		quality = preferred_quality;
 	}
@@ -42,20 +42,18 @@ public:
 	void setName(QString name) { player_name = name; }
 	void setBinary(QString binary) { player_bin = binary; }
 	void setArguments(QString arguments) { args = arguments; }
-	void setDirectPlay(bool b) { direct_play = b; }
+	void setSupportStreamingSites(bool b) { support_streaming_sites = b; }
 	void setSupportedMedia(Media m) { supported_media = m; }
 	void setPreferredQuality(int q) { quality = q; }
 
 	QString name() { return player_name; }
 	QString binary() { return player_bin; }
 	QString arguments() { return args; };
-	bool directPlay() { return direct_play; }
+	bool supportStreamingSites() { return support_streaming_sites; }
 	Media supportedMedia() { return supported_media; }
 	int preferredQuality() { return quality; }
 
 	QString executable(bool * found = 0);
-
-	static QString directPlayToString(bool b);
 
 protected:
 #ifdef Q_OS_LINUX
@@ -63,7 +61,7 @@ protected:
 #endif
 
 	QString player_name, player_bin, args;
-	bool direct_play;
+	bool support_streaming_sites;
 	Media supported_media;
 	int quality;
 };

@@ -66,7 +66,7 @@
     </layout>
    </item>
    <item>
-    <widget class="QCheckBox" name="directplay_check">
+    <widget class="QCheckBox" name="streamingsites_check">
      <property name="text">
       <string>This player supports &amp;video sites</string>
      </property>
@@ -162,7 +162,7 @@
   <tabstop>name_edit</tabstop>
   <tabstop>binary_edit</tabstop>
   <tabstop>parms_edit</tabstop>
-  <tabstop>directplay_check</tabstop>
+  <tabstop>streamingsites_check</tabstop>
   <tabstop>quality_combo</tabstop>
   <tabstop>media_combo</tabstop>
   <tabstop>buttonBox</tabstop>

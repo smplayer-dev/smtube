@@ -34,19 +34,19 @@ public:
 	void setName(const QString & name);
 	void setBinary(const QString & binary);
 	void setParameters(const QString & parms);
-	void setDirectPlay(bool b);
+	void setSupportStreamingSites(bool b);
 	void setMedia(int m);
 	void setQuality(int q);
 
 	QString name();
 	QString binary();
 	QString parameters();
-	bool directPlay();
+	bool supportStreamingSites();
 	int media();
 	int quality();
 
 protected slots:
-	void directPlayChanged(bool);
+	void streamingSitesChanged(bool);
 };
 
 #endif

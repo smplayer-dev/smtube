@@ -83,11 +83,11 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 			add_this_player = true;
 		}
 		else
-		if (site_id == SupportedUrls::StreamingSite && player_list[n].directPlay()) {
+		if (site_id == SupportedUrls::StreamingSite && player_list[n].supportStreamingSites()) {
 			add_this_player = true;
 		}
 		else
-		if (site_id == SupportedUrls::DirectStream && player_list[n].directPlay()) {
+		if (site_id == SupportedUrls::DirectStream && player_list[n].supportStreamingSites()) {
 			/* TODO: do something different */
 			add_this_player = true;
 		}

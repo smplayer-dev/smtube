@@ -42,7 +42,7 @@ PlayerDialog::PlayerDialog(QWidget * parent, Qt::WindowFlags f)
 	quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
 	quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
 
-	connect(directplay_check, SIGNAL(toggled(bool)), this, SLOT(directPlayChanged(bool)));
+	connect(streamingsites_check, SIGNAL(toggled(bool)), this, SLOT(streamingSitesChanged(bool)));
 }
 
 PlayerDialog::~PlayerDialog() {
@@ -60,8 +60,8 @@ void PlayerDialog::setParameters(const QString & parms) {
 	parms_edit->setText(parms);
 }
 
-void PlayerDialog::setDirectPlay(bool b) {
-	directplay_check->setChecked(b);
+void PlayerDialog::setSupportStreamingSites(bool b) {
+	streamingsites_check->setChecked(b);
 }
 
 void PlayerDialog::setMedia(int m) {
@@ -88,8 +88,8 @@ QString PlayerDialog::parameters() {
 	return parms_edit->text();
 }
 
-bool PlayerDialog::directPlay() {
-	return directplay_check->isChecked();
+bool PlayerDialog::supportStreamingSites() {
+	return streamingsites_check->isChecked();
 }
 
 int PlayerDialog::media() {
@@ -102,7 +102,7 @@ int PlayerDialog::quality() {
 	return quality_combo->itemData(i).toInt();
 }
 
-void PlayerDialog::directPlayChanged(bool b) {
+void PlayerDialog::streamingSitesChanged(bool b) {
 	quality_label->setEnabled(!b);
 	quality_combo->setEnabled(!b);
 }

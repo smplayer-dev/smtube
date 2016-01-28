@@ -24,7 +24,7 @@
 #define HCPLAYER_NAME "SMPlayer"
 #define HCPLAYER_EXECUTABLE qApp->applicationDirPath() + "/smplayer.exe"
 #define HCPLAYER_ARGUMENTS "%u"
-#define HCPLAYER_DIRECTPLAY true
+#define HCPLAYER_STREAMINGSITES true
 
 #else
 
@@ -33,14 +33,14 @@
 #define HCPLAYER_NAME "MPlayer"
 #define HCPLAYER_EXECUTABLE "Amiga/PlayVideo.rexx"
 #define HCPLAYER_ARGUMENTS "%u"
-#define HCPLAYER_DIRECTPLAY false
+#define HCPLAYER_STREAMINGSITES false
 
 #else
 
 #define HCPLAYER_NAME "SMPlayer"
 #define HCPLAYER_EXECUTABLE "smplayer"
 #define HCPLAYER_ARGUMENTS "%u"
-#define HCPLAYER_DIRECTPLAY true
+#define HCPLAYER_STREAMINGSITES true
 
 #endif
 
@@ -48,7 +48,7 @@
 #define HCPLAYER_NAME "MPlayer"
 #define HCPLAYER_EXECUTABLE "mplayer"
 #define HCPLAYER_ARGUMENTS "%u -title %t"
-#define HCPLAYER_DIRECTPLAY false
+#define HCPLAYER_STREAMINGSITES false
 */
 
 #endif
