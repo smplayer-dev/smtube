@@ -29,6 +29,7 @@
 #include <QMessageBox>
 #include <QTimer>
 #include <QDesktopServices>
+#include <QWebFrame>
 
 #include "mywebview.h"
 #include "mywebpage.h"
@@ -248,6 +249,21 @@ void BrowserWindow::setProgress(int p) {
 
 void BrowserWindow::finishLoading(bool) {
 	statusBar()->clearMessage();
+
+	QString code;
+	/*
+	code = "$('a').each( function () { $(this).css('background-color', 'yellow') } )";
+	view->page()->mainFrame()->evaluateJavaScript(code);
+	*/
+
+	code =	"var url = document.getElementById('video_thumbnail').href;"
+			"var div = document.getElementById('published');"
+			"div.cells[0].colSpan = 5;"
+			"div.innerHTML = div.innerHTML + "
+			"'<td><a target=\"_blank\" href=\"http://9xbuddy.com/download?url=' + url + "
+			"'\"><span class=\"glyphicon glyphicon-download\"></span></a></td>';";
+
+	view->page()->mainFrame()->evaluateJavaScript(code);
 }
 
 void BrowserWindow::processLink(const QUrl & url ) {
