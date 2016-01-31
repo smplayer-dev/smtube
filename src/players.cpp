@@ -208,7 +208,7 @@ void Players::load(QSettings * set) {
 			else
 			if (supported_media != Player::Audio) {
 				#ifdef Q_OS_WIN
-				if (binary == "smplayer.exe") support_online_tv = true;
+				if (binary.contains("smplayer.exe")) support_online_tv = true;
 				#else
 				if (binary == "smplayer" || binary == "vlc" || binary == "mpv") support_online_tv = true;
 				#endif
