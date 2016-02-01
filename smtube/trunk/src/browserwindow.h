@@ -115,6 +115,11 @@ private:
 	int current_player;
 #endif
 
+#ifdef D_BUTTON
+	bool add_download_button;
+	QString external_download_url;
+#endif
+
 #ifdef YT_USE_YTSIG
 	QString script_file;
 	CodeDownloader * codedownloader;
