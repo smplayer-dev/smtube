@@ -256,14 +256,23 @@ void BrowserWindow::finishLoading(bool) {
 	view->page()->mainFrame()->evaluateJavaScript(code);
 	*/
 
-	code =	"var url = document.getElementById('video_thumbnail').href;"
-			"var div = document.getElementById('published');"
-			"div.cells[0].colSpan = 5;"
-			"div.innerHTML = div.innerHTML + "
-			"'<td><a target=\"_blank\" href=\"http://9xbuddy.com/download?url=' + url + "
-			"'\"><span class=\"glyphicon glyphicon-download\"></span></a></td>';";
+	if (view->url().toString().contains("/info.php?")) {
+		QString external_url = "http://9xbuddy.com/download?url=%URL%";
+		//QString external_url = "http://www.dlvyoutube.com/%URL%";
 
-	view->page()->mainFrame()->evaluateJavaScript(code);
+		code =	"var video_url = document.getElementById('video_thumbnail').href;"
+				"if (video_url) {"
+					"var div = document.getElementById('published');"
+					"var link = '" + external_url +"';"
+					"link = link.replace('%URL%', video_url);"
+					"div.cells[0].colSpan = 5;"
+					"div.innerHTML = div.innerHTML + "
+					"'<td><a target=\"_blank\" href=\"' + link + '\">"
+					"<span class=\"glyphicon glyphicon-download\"></span></a></td>';"
+				"}";
+
+		view->page()->mainFrame()->evaluateJavaScript(code);
+	}
 }
 
 void BrowserWindow::processLink(const QUrl & url ) {
