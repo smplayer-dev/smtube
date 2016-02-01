@@ -269,8 +269,10 @@ void BrowserWindow::finishLoading(bool) {
 					"link = link.replace('%YT_URL%', video_url);"
 					"div.cells[0].colSpan = 5;"
 					"div.innerHTML = div.innerHTML + "
-					"'<td><a target=\"_blank\" href=\"' + link + '\">"
-					"<span class=\"glyphicon glyphicon-download\"></span></a></td>';"
+					"'<td><a target=\"_blank\" class=\"btn btn-primary btn-xs\" "
+					"title=\"" + tr("Download video using and external service") +"\" "
+					"href=\"' + link + '\">"
+					"<span class=\"glyphicon glyphicon-download\"></span> " + tr("Download") +"</a></td>';"
 				"}";
 
 		view->page()->mainFrame()->evaluateJavaScript(code);
