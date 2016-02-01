@@ -545,11 +545,21 @@ void BrowserWindow::showConfigDialog() {
 	d.setDefaultPlayers(players.defaultPlayers());
 	#endif
 
+	#ifdef D_BUTTON
+	d.setAddDownloadButton(add_download_button);
+	d.setExternalDownloadUrl(external_download_url);
+	#endif
+
 	if (d.exec() == QDialog::Accepted) {
 		preferred_quality = d.playbackQuality();
 		#ifdef USE_PLAYERS
 		players.setAllPlayers(d.players());
 		view->setPlayers(players.availablePlayers());
+		#endif
+
+		#ifdef D_BUTTON
+		add_download_button = d.addDownloadButton();
+		external_download_url = d.externalDownloadUrl();
 		#endif
 	}
 }

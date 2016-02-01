@@ -38,6 +38,14 @@ public:
 	void setPlaybackQuality(int quality);
 	int playbackQuality();
 
+#ifdef D_BUTTON
+	void setAddDownloadButton(bool b);
+	bool addDownloadButton();
+
+	void setExternalDownloadUrl(const QString &);
+	QString externalDownloadUrl();
+#endif
+
 #ifdef USE_PLAYERS
 	void setPlayers(QList<Player> list);
 	QList<Player> players();

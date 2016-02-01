@@ -54,6 +54,15 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	playback_quality_combo->addItem( "720p (webm)", RetrieveYoutubeUrl::WEBM_720p );
 	playback_quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
 	playback_quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
+
+#ifdef D_BUTTON
+	external_download_combo->addItem("http://9xbuddy.com/download?url=%YT_URL%");
+	external_download_combo->addItem("http://www.dlvyoutube.com/%YT_URL%");
+	external_download_combo->addItem("http://www.savefrom.net/#url=%YT_URL%");
+#else
+	download_group->hide();
+	adjustSize();
+#endif
 }
 
 ConfigDialog::~ConfigDialog() {
@@ -67,6 +76,31 @@ int ConfigDialog::playbackQuality() {
 	int index = playback_quality_combo->currentIndex();
 	return playback_quality_combo->itemData(index).toInt();
 }
+
+#ifdef D_BUTTON
+void ConfigDialog::setAddDownloadButton(bool b) {
+	add_download_check->setChecked(b);
+}
+
+bool ConfigDialog::addDownloadButton() {
+	return add_download_check->isChecked();
+}
+
+void ConfigDialog::setExternalDownloadUrl(const QString & url) {
+	int pos = external_download_combo->findText(url);
+	if (pos == -1) {
+		external_download_combo->addItem(url);
+		external_download_combo->setCurrentIndex(external_download_combo->count()-1);
+	} else {
+		external_download_combo->setCurrentIndex(pos);
+	}
+	/* external_download_combo->setEditText(url); */
+}
+
+QString ConfigDialog::externalDownloadUrl() {
+	return external_download_combo->currentText();
+}
+#endif
 
 #ifdef USE_PLAYERS
 void ConfigDialog::setPlayers(QList<Player> list) {
