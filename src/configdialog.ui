@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>609</width>
-    <height>432</height>
+    <width>656</width>
+    <height>521</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -181,6 +181,32 @@
         </widget>
        </item>
        <item>
+        <widget class="QGroupBox" name="download_group">
+         <property name="title">
+          <string>Download</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QCheckBox" name="add_download_check">
+            <property name="text">
+             <string>Download videos using an &amp;external service</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="external_download_combo">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="editable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <spacer name="verticalSpacer_3">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -219,6 +245,8 @@
   <tabstop>delete_button</tabstop>
   <tabstop>edit_button</tabstop>
   <tabstop>addplayers_button</tabstop>
+  <tabstop>add_download_check</tabstop>
+  <tabstop>external_download_combo</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
  <resources>
@@ -254,6 +282,22 @@
     <hint type="destinationlabel">
      <x>286</x>
      <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>add_download_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>external_download_combo</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>331</x>
+     <y>405</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>331</x>
+     <y>436</y>
     </hint>
    </hints>
   </connection>
