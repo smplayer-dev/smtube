@@ -62,6 +62,9 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 #ifdef USE_PLAYERS
 	, current_player(-1)
 #endif
+#ifdef D_BUTTON
+	, add_download_button(false)
+#endif
 #ifdef YT_USE_YTSIG
 	, codedownloader(0)
 #endif
@@ -250,21 +253,20 @@ void BrowserWindow::setProgress(int p) {
 void BrowserWindow::finishLoading(bool) {
 	statusBar()->clearMessage();
 
+#ifdef D_BUTTON
 	QString code;
-	/*
-	code = "$('a').each( function () { $(this).css('background-color', 'yellow') } )";
-	view->page()->mainFrame()->evaluateJavaScript(code);
-	*/
+	QString url = view->url().toString();
 
-	if (view->url().toString().contains("/info.php?")) {
-		QString external_url = "http://9xbuddy.com/download?url=%URL%";
-		//QString external_url = "http://www.dlvyoutube.com/%URL%";
+	qDebug() << "BrowserWindow::finishLoading: url:" << url;
+	qDebug() << "BrowserWindow::finishLoading: add_download_button:" << add_download_button;
+	qDebug() << "BrowserWindow::finishLoading: external_download_url:" << external_download_url;
 
+	if (add_download_button && external_download_url.contains("%YT_URL%") && url.contains("/info.php?")) {
 		code =	"var video_url = document.getElementById('video_thumbnail').href;"
 				"if (video_url) {"
 					"var div = document.getElementById('published');"
-					"var link = '" + external_url +"';"
-					"link = link.replace('%URL%', video_url);"
+					"var link = '" + external_download_url +"';"
+					"link = link.replace('%YT_URL%', video_url);"
 					"div.cells[0].colSpan = 5;"
 					"div.innerHTML = div.innerHTML + "
 					"'<td><a target=\"_blank\" href=\"' + link + '\">"
@@ -273,6 +275,7 @@ void BrowserWindow::finishLoading(bool) {
 
 		view->page()->mainFrame()->evaluateJavaScript(code);
 	}
+#endif
 }
 
 void BrowserWindow::processLink(const QUrl & url ) {
@@ -569,6 +572,12 @@ void BrowserWindow::saveConfig() {
 	settings->setValue("user_agent", ryu->userAgent());
 	settings->setValue("use_https_main", ryu->useHttpsMain());
 	settings->setValue("use_https_vi", ryu->useHttpsVi());
+
+#ifdef D_BUTTON
+	settings->setValue("add_download_button", add_download_button);
+	settings->setValue("external_download_url", external_download_url);
+#endif
+
 	settings->endGroup();
 
 	settings->beginGroup("browser");
@@ -609,6 +618,18 @@ void BrowserWindow::loadConfig() {
 	ryu->setUserAgent(settings->value("user_agent", "").toString());
 	ryu->setUseHttpsMain(settings->value("use_https_main", false).toBool());
 	ryu->setUseHttpsVi(settings->value("use_https_vi", false).toBool());
+
+#ifdef D_BUTTON
+	add_download_button = settings->value("add_download_button", false).toBool();
+
+	QString default_url = "http://9xbuddy.com/download?url=%YT_URL%";
+	/* Alternatives: 
+		"http://www.dlvyoutube.com/%YT_URL%";
+		"http://www.savefrom.net/#url=%YT_URL%";
+	*/
+
+	external_download_url = settings->value("external_download_url", default_url).toString();
+#endif
 
 #ifdef SHOW_RELEASE_DIALOG
 	bool shown_notes = settings->value("shown_notes", false).toBool();
