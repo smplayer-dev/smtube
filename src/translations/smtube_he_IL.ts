@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="he" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="he">
 <context>
     <name>About</name>
     <message>
@@ -22,202 +24,212 @@
         <translation>&amp;רשיון</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="33"/>
+        <location filename="../about.cpp" line="34"/>
         <source>YouTube%1 Browser for SMPlayer</source>
         <translation>מעלעל YouTube%1 עבור SMPlayer</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="36"/>
+        <location filename="../about.cpp" line="37"/>
         <source>Version: %1</source>
         <translation>גרסא: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="38"/>
+        <location filename="../about.cpp" line="39"/>
         <source>Portable Edition</source>
         <translation>מהדורה ניידת</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="41"/>
+        <location filename="../about.cpp" line="42"/>
         <source>Compiled with Qt %1 (using %2)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="43"/>
+        <location filename="../about.cpp" line="44"/>
         <source>Visit our website for updates:</source>
         <translation>בקרו את האתר רשת שלנו לצורך עדכונים:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="86"/>
+        <location filename="../about.cpp" line="87"/>
         <source>Many people contributed with translations.</source>
         <translation>אנשים רבים תרמו בעזרת תרגומים.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="87"/>
+        <location filename="../about.cpp" line="88"/>
         <source>You can also help to translate SMTube into your own language.</source>
         <translation>גם אצם יכולים לתרגם את SMTube לשפה שלכם.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="88"/>
+        <location filename="../about.cpp" line="89"/>
         <source>Visit %1 and join a translation team.</source>
         <translation>בקרו באתר %1 והצטרפו לקבוצת תרגום.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="90"/>
+        <location filename="../about.cpp" line="91"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation>לחצו כאן כדי להכיר את המתרגמים מתוך קבוצות transifex</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="116"/>
+        <location filename="../about.cpp" line="117"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="116"/>
+        <location filename="../browserwindow.cpp" line="120"/>
         <source>Home</source>
         <translation>בית</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="119"/>
+        <location filename="../browserwindow.cpp" line="123"/>
         <source>Navigation</source>
         <translation>ניווט</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="127"/>
+        <location filename="../browserwindow.cpp" line="131"/>
         <source>&amp;Quit</source>
         <translation>י&amp;ציאה</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="130"/>
+        <location filename="../browserwindow.cpp" line="134"/>
         <source>&amp;Navigation</source>
         <translation>&amp;ניווט</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="139"/>
+        <location filename="../browserwindow.cpp" line="143"/>
         <source>&amp;View</source>
         <translation>&amp;תצוגה</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="140"/>
+        <location filename="../browserwindow.cpp" line="144"/>
         <source>Toolbar</source>
         <translation>סרגל כלים</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="144"/>
+        <location filename="../browserwindow.cpp" line="148"/>
         <source>Statusbar</source>
         <translation>שורת מצב</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="152"/>
         <source>&amp;Settings</source>
         <translation>&amp;הגדרות</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="156"/>
+        <location filename="../browserwindow.cpp" line="160"/>
         <source>&amp;Help</source>
         <translation>&amp;עזרה</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="159"/>
+        <location filename="../browserwindow.cpp" line="163"/>
         <source>&amp;Update the YouTube code</source>
         <translation>&amp;עדכן קוד YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="164"/>
+        <location filename="../browserwindow.cpp" line="169"/>
         <source>About this &amp;release</source>
         <translation>אודות &amp;שחרור זה</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="168"/>
+        <location filename="../browserwindow.cpp" line="174"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;אודות SMTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="418"/>
+        <location filename="../browserwindow.cpp" line="273"/>
+        <source>Download video using and external service</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="275"/>
+        <source>Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="476"/>
         <source>Connection failed</source>
         <translation>חיבור נכשל</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="419"/>
+        <location filename="../browserwindow.cpp" line="477"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>הוידאו אשר ביקשת צריך לפתוח חיבור HTTPS.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="420"/>
+        <location filename="../browserwindow.cpp" line="478"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>למרבה הצער, מרכיב OpenSSL, דרוש לזאת, אינו זמין בתוך המערכת שלך.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="425"/>
+        <location filename="../browserwindow.cpp" line="483"/>
         <source>No video found</source>
         <translation>לא נמצא וידאו</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="426"/>
+        <location filename="../browserwindow.cpp" line="484"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>לא התאפשרה מציאת URL לוידאו זה.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="436"/>
-        <location filename="../browserwindow.cpp" line="444"/>
+        <location filename="../browserwindow.cpp" line="494"/>
+        <location filename="../browserwindow.cpp" line="502"/>
         <source>Problems with YouTube</source>
         <translation>בעיות עם YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="437"/>
-        <location filename="../browserwindow.cpp" line="445"/>
+        <location filename="../browserwindow.cpp" line="495"/>
+        <location filename="../browserwindow.cpp" line="503"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>למרבה הצער, בשל שינויים בתוך YouTube, הוידאו &apos;%1&apos; לא ניתן לניגון.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="438"/>
+        <location filename="../browserwindow.cpp" line="496"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>האם ברצונך לעדכן קוד YouTube? זה עשוי לתקן את הבעיה.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="446"/>
+        <location filename="../browserwindow.cpp" line="504"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>אולי עדכון יישום זה יכול לתקן את הבעיה.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="464"/>
+        <location filename="../browserwindow.cpp" line="523"/>
         <source>About this release</source>
         <translation>אודות שחרור זה</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="465"/>
+        <location filename="../browserwindow.cpp" line="524"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>בשל שינויים בתוך YouTube, ‏SMTube לא עובד עוד.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="466"/>
+        <location filename="../browserwindow.cpp" line="525"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>זוהי גרסא חדשה של SMTube, נכתבה מהבסיס.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="467"/>
+        <location filename="../browserwindow.cpp" line="526"/>
         <source>Some functionality is not available yet.</source>
         <translation>תפקודיות מסוימת אינה זמינה עדיין.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="469"/>
+        <location filename="../browserwindow.cpp" line="528"/>
         <source>Important:</source>
         <translation>חשוב:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="470"/>
+        <location filename="../browserwindow.cpp" line="529"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>אם סרטוני VEVO נכשליים להתנגן, אנא השתמש באפשרות %1 בתוך התפריט עזרה.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="471"/>
+        <location filename="../browserwindow.cpp" line="530"/>
         <source>Update the YouTube code</source>
         <translation>עדכן קוד YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="239"/>
+        <location filename="../browserwindow.cpp" line="250"/>
         <source>Loading... %1%</source>
         <translation>כעת טוען... %1%</translation>
     </message>
@@ -319,6 +331,16 @@
         <translation>הוס&amp;ף נגנים מוגדרים מראש</translation>
     </message>
     <message>
+        <location filename="../configdialog.ui" line="186"/>
+        <source>Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="192"/>
+        <source>Download videos using an &amp;external service</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../configdialog.ui" line="89"/>
         <source>Down</source>
         <translation>מטה</translation>
@@ -350,13 +372,13 @@
         <translation>פתח אודיו בעזרת</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="91"/>
-        <location filename="../mywebview.cpp" line="116"/>
+        <location filename="../mywebview.cpp" line="99"/>
+        <location filename="../mywebview.cpp" line="124"/>
         <source>Open with %1</source>
         <translation>פתח בעזרת %1</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="123"/>
+        <location filename="../mywebview.cpp" line="131"/>
         <source>Open audio with %1</source>
         <translation>פתח אודיו בעזרת %1</translation>
     </message>
@@ -396,7 +418,7 @@
     <message>
         <location filename="../playerdialog.ui" line="39"/>
         <source>&amp;Executable:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="56"/>
@@ -409,19 +431,24 @@
         <translation>נגן זה &amp;תומך אתרי וידאו</translation>
     </message>
     <message>
-        <location filename="../playerdialog.ui" line="80"/>
+        <location filename="../playerdialog.ui" line="78"/>
+        <source>This player can play &amp;online TV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playerdialog.ui" line="87"/>
         <source>Preferred &amp;quality:</source>
         <translation>איכות &amp;מועדפת:</translation>
     </message>
     <message>
-        <location filename="../playerdialog.ui" line="110"/>
+        <location filename="../playerdialog.ui" line="117"/>
         <source>Add to &amp;menu:</source>
         <translation>הוסף ל&amp;תפריט:</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="29"/>
@@ -447,14 +474,12 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../players.cpp" line="101"/>
         <source>Video sites</source>
-        <translation>אתרי וידאו</translation>
+        <translation type="obsolete">אתרי וידאו</translation>
     </message>
     <message>
-        <location filename="../players.cpp" line="101"/>
         <source>Normal streams</source>
-        <translation>זרמים רגילים</translation>
+        <translation type="obsolete">זרמים רגילים</translation>
     </message>
 </context>
 </TS>
