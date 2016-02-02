@@ -270,7 +270,7 @@ void BrowserWindow::finishLoading(bool) {
 					"div.cells[0].colSpan = 5;"
 					"div.innerHTML = div.innerHTML + "
 					"'<td><a target=\"_blank\" class=\"btn btn-primary btn-xs\" "
-					"title=\"" + tr("Download video using and external service") +"\" "
+					"title=\"" + tr("Download video using an external service") +"\" "
 					"href=\"' + link + '\">"
 					"<span class=\"glyphicon glyphicon-download\"></span> " + tr("Download") +"</a></td>';"
 				"}";
