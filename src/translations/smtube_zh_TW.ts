@@ -137,94 +137,98 @@
         <translation>關於 SMTube(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="273"/>
         <source>Download video using and external service</source>
+        <translation type="obsolete">使用外部服務下載影片</translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="273"/>
+        <source>Download video using an external service</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="275"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>下載</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="476"/>
+        <location filename="../browserwindow.cpp" line="460"/>
         <source>Connection failed</source>
         <translation>連線失敗</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="477"/>
+        <location filename="../browserwindow.cpp" line="461"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>您所要求的影片需要開啟 HTTPS 連線。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="478"/>
+        <location filename="../browserwindow.cpp" line="462"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>不幸的是，必須的 OpenSSL 組件並未在您的系統上提供。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="483"/>
+        <location filename="../browserwindow.cpp" line="467"/>
         <source>No video found</source>
         <translation>找不到視訊</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="484"/>
+        <location filename="../browserwindow.cpp" line="468"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>找不對這個影片的 URL。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="494"/>
-        <location filename="../browserwindow.cpp" line="502"/>
+        <location filename="../browserwindow.cpp" line="478"/>
+        <location filename="../browserwindow.cpp" line="486"/>
         <source>Problems with YouTube</source>
         <translation>YouTube 的問題</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="495"/>
-        <location filename="../browserwindow.cpp" line="503"/>
+        <location filename="../browserwindow.cpp" line="479"/>
+        <location filename="../browserwindow.cpp" line="487"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>不幸的是，因為 YouTube 的變更，影片「%1」無法播放。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="496"/>
+        <location filename="../browserwindow.cpp" line="480"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>您想要更新 YouTube 代碼嗎？這也許可以修復這個問題。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="504"/>
+        <location filename="../browserwindow.cpp" line="488"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>也許更新這個應用程式是可以修復這個問題。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="523"/>
+        <location filename="../browserwindow.cpp" line="507"/>
         <source>About this release</source>
         <translation>關於這個版本</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="524"/>
+        <location filename="../browserwindow.cpp" line="508"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>因為 YouTube 的變更，舊版的 SMTube 完全無法運作。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="525"/>
+        <location filename="../browserwindow.cpp" line="509"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>這是一個重新編寫的新版 SMTube。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="526"/>
+        <location filename="../browserwindow.cpp" line="510"/>
         <source>Some functionality is not available yet.</source>
         <translation>部份功能尚未提供。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="528"/>
+        <location filename="../browserwindow.cpp" line="512"/>
         <source>Important:</source>
         <translation>重要：</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="529"/>
+        <location filename="../browserwindow.cpp" line="513"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>如果 VEVO 的影片播放失敗，請在說明選單中使用 %1 選項。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="530"/>
+        <location filename="../browserwindow.cpp" line="514"/>
         <source>Update the YouTube code</source>
         <translation>更新 YouTube 代碼</translation>
     </message>
@@ -333,12 +337,12 @@
     <message>
         <location filename="../configdialog.ui" line="186"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>下載</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="192"/>
         <source>Download videos using an &amp;external service</source>
-        <translation type="unfinished"></translation>
+        <translation>使用外部服務下載影片 (&amp;E)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="89"/>
@@ -433,7 +437,7 @@
     <message>
         <location filename="../playerdialog.ui" line="78"/>
         <source>This player can play &amp;online TV</source>
-        <translation type="unfinished"></translation>
+        <translation>這個播放器可以播放線上電視 (&amp;O)</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="87"/>
@@ -469,17 +473,6 @@
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>預設</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>Video sites</source>
-        <translation type="obsolete">影片頁面</translation>
-    </message>
-    <message>
-        <source>Normal streams</source>
-        <translation type="obsolete">普通串流</translation>
     </message>
 </context>
 </TS>

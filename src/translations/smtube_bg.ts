@@ -138,7 +138,7 @@
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="273"/>
-        <source>Download video using and external service</source>
+        <source>Download video using an external service</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -147,84 +147,84 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="476"/>
+        <location filename="../browserwindow.cpp" line="460"/>
         <source>Connection failed</source>
         <translation>Неуспешно свързване</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="477"/>
+        <location filename="../browserwindow.cpp" line="461"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Поръчаното от Вас видео, изисква отваряне на HTTPS връзка.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="478"/>
+        <location filename="../browserwindow.cpp" line="462"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>За съжаление изискваният за това OpenSSL компонент не е наличен на Вашата система.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="483"/>
+        <location filename="../browserwindow.cpp" line="467"/>
         <source>No video found</source>
         <translation>Няма намерено видео</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="484"/>
+        <location filename="../browserwindow.cpp" line="468"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Не беше успешно намирането на Интернет адреса за това видео.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="494"/>
-        <location filename="../browserwindow.cpp" line="502"/>
+        <location filename="../browserwindow.cpp" line="478"/>
+        <location filename="../browserwindow.cpp" line="486"/>
         <source>Problems with YouTube</source>
         <translation>Проблеми с YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="495"/>
-        <location filename="../browserwindow.cpp" line="503"/>
+        <location filename="../browserwindow.cpp" line="479"/>
+        <location filename="../browserwindow.cpp" line="487"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>За съжаление поради промени в YouTube, видеото &apos;%1&apos; не може да бъде възпроизведено.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="496"/>
+        <location filename="../browserwindow.cpp" line="480"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>Желаете ли да обновите кода за YouTube? Това може да поправи проблема.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="504"/>
+        <location filename="../browserwindow.cpp" line="488"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Може би обновяването на приложението би поправило проблема.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="523"/>
+        <location filename="../browserwindow.cpp" line="507"/>
         <source>About this release</source>
         <translation>Относно тази компилация</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="524"/>
+        <location filename="../browserwindow.cpp" line="508"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>Поради промени в YouTube, старият SMTube вече не работи.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="525"/>
+        <location filename="../browserwindow.cpp" line="509"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>Това е нова версия на SMTube, написана от нулата.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="526"/>
+        <location filename="../browserwindow.cpp" line="510"/>
         <source>Some functionality is not available yet.</source>
         <translation>Някои функционалности все още не са налични.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="528"/>
+        <location filename="../browserwindow.cpp" line="512"/>
         <source>Important:</source>
         <translation>Важно:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="529"/>
+        <location filename="../browserwindow.cpp" line="513"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>Ако видеата от VEVO не се възпроизвеждат, моля използвайте опцията %1 от помощното меню.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="530"/>
+        <location filename="../browserwindow.cpp" line="514"/>
         <source>Update the YouTube code</source>
         <translation>Обновяване на кода за YouTube</translation>
     </message>
@@ -469,17 +469,6 @@
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>Стандартно</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>Video sites</source>
-        <translation type="obsolete">Сайтове за видео</translation>
-    </message>
-    <message>
-        <source>Normal streams</source>
-        <translation type="obsolete">Нормални потоци</translation>
     </message>
 </context>
 </TS>
