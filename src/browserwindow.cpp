@@ -293,28 +293,12 @@ void BrowserWindow::processLink(const QUrl & url ) {
 	int player_id = 0;
 	QList<Player> pl = players.availablePlayers();
 	if (pl.count() > 0) {
-		if (site_type == SupportedUrls::Youtube) {
-			can_play_this = true;
-		}
-		else
-		if (site_type == SupportedUrls::StreamingSite && pl[player_id].supportStreamingSites()) {
-			can_play_this = true;
-		}
-		else
-		if (site_type == SupportedUrls::DirectStream && pl[player_id].supportOnlineTV()) {
+		if (site_type != SupportedUrls::Unsupported) {
 			can_play_this = true;
 		}
 	}
 	#else
-	if (site_type == SupportedUrls::Youtube) {
-		can_play_this = true;
-	}
-	else
-	if (site_type == SupportedUrls::StreamingSite && HCPLAYER_STREAMINGSITES) {
-		can_play_this = true;
-	}
-	else
-	if (site_type == SupportedUrls::DirectStream && HCPLAYER_ONLINE_TV) {
+	if (site_type != SupportedUrls::Unsupported) {
 		can_play_this = true;
 	}
 	#endif
