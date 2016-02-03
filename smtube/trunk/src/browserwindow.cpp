@@ -230,6 +230,9 @@ void BrowserWindow::changeLocation() {
 	QString text = location->text();
 	qDebug() << "BrowserWindow::changeLocation:" << text;
 
+#if 1
+	view->load(QUrl::fromUserInput(text));
+#else
 	QRegExp rx("((https?:)?//)?(([\\d\\w]|%[a-fA-f\\d]{2,2})+(:([\\d\\w]|%[a-fA-f\\d]{2,2})+)?@)?([\\d\\w][-\\d\\w]{0,253}[\\d\\w]\\.)+[\\w]{2,63}(:[\\d]+)?(/([-+_~.\\d\\w]|%[a-fA-f\\d]{2,2})*)*(\\?(&?([-+_~.\\d\\w]|%[a-fA-f\\d]{2,2})=?)*)?(#([-+_~.\\d\\w]|%[a-fA-f\\d]{2,2})*)?");
 	bool valid = (rx.indexIn(text) > -1);
 	qDebug() << "BrowserWindow::changeLocation: url valid:" << valid;
@@ -239,6 +242,7 @@ void BrowserWindow::changeLocation() {
 	} else {
 		view->load(QUrl::fromUserInput(text));
 	}
+#endif
 	view->setFocus();
 }
 
