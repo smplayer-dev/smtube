@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="gl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -137,13 +135,9 @@
         <translation>&amp;Sobre SMTube</translation>
     </message>
     <message>
-        <source>Download video using and external service</source>
-        <translation type="obsolete">Descargar o vídeo por medio dun servizo externo</translation>
-    </message>
-    <message>
         <location filename="../browserwindow.cpp" line="273"/>
         <source>Download video using an external service</source>
-        <translation type="unfinished"></translation>
+        <translation>Descargar o vídeo por medio dun servizo externo</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="275"/>

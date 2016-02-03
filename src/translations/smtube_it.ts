@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="it">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -137,13 +135,9 @@
         <translation>Informazioni su &amp;SMTube...</translation>
     </message>
     <message>
-        <source>Download video using and external service</source>
-        <translation type="obsolete">Scarica video tramite servizio esterno</translation>
-    </message>
-    <message>
         <location filename="../browserwindow.cpp" line="273"/>
         <source>Download video using an external service</source>
-        <translation type="unfinished"></translation>
+        <translation>Scarica video tramite servizio esterno</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="275"/>
@@ -215,7 +209,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="510"/>
         <source>Some functionality is not available yet.</source>
-        <translation>e diverse funzionalità non sono ancora state implementate.</translation>
+        <translation>perciò alcune funzionalità devono ancora essere implementate.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="512"/>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="fr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -139,12 +137,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="273"/>
         <source>Download video using an external service</source>
-        <translation type="unfinished"></translation>
+        <translation>Télécharger la vidéo à l&apos;aide d&apos;un service externe</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="275"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Télécharger</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="460"/>
@@ -333,12 +331,12 @@
     <message>
         <location filename="../configdialog.ui" line="186"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Télécharger</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="192"/>
         <source>Download videos using an &amp;external service</source>
-        <translation type="unfinished"></translation>
+        <translation>Télécharger la vidéo à l&apos;aide d&apos;un service &amp;externe</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="89"/>
@@ -433,7 +431,7 @@
     <message>
         <location filename="../playerdialog.ui" line="78"/>
         <source>This player can play &amp;online TV</source>
-        <translation type="unfinished"></translation>
+        <translation>Ce lecteur supporte les TV &amp;en ligne</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="87"/>
