@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -137,13 +135,9 @@
         <translation>SMTube のバージョン情報(&amp;A)</translation>
     </message>
     <message>
-        <source>Download video using and external service</source>
-        <translation type="obsolete">外部サービスを使用して動画をダウンロード</translation>
-    </message>
-    <message>
         <location filename="../browserwindow.cpp" line="273"/>
         <source>Download video using an external service</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="275"/>

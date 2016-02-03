@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="sq_AL">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="sq_AL" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -56,17 +54,17 @@
     <message>
         <location filename="../about.cpp" line="88"/>
         <source>You can also help to translate SMTube into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="89"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="91"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
@@ -79,27 +77,27 @@
     <message>
         <location filename="../browserwindow.cpp" line="120"/>
         <source>Home</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="123"/>
         <source>Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="131"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="134"/>
         <source>&amp;Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="143"/>
         <source>&amp;View</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="144"/>
@@ -114,7 +112,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="152"/>
         <source>&amp;Settings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="160"/>
@@ -129,7 +127,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="169"/>
         <source>About this &amp;release</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="174"/>
@@ -139,12 +137,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="273"/>
         <source>Download video using an external service</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="275"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="460"/>
@@ -154,12 +152,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="461"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="462"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="467"/>
@@ -169,7 +167,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="468"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="478"/>
@@ -181,12 +179,12 @@
         <location filename="../browserwindow.cpp" line="479"/>
         <location filename="../browserwindow.cpp" line="487"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="480"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="488"/>
@@ -196,32 +194,32 @@
     <message>
         <location filename="../browserwindow.cpp" line="507"/>
         <source>About this release</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="508"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="509"/>
         <source>This is a new version of SMTube, written from scratch.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="510"/>
         <source>Some functionality is not available yet.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="512"/>
         <source>Important:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="513"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="514"/>
@@ -249,7 +247,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="127"/>
@@ -275,7 +273,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -283,7 +281,7 @@
     <message>
         <location filename="../configdialog.ui" line="14"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.ui" line="24"/>
@@ -308,7 +306,7 @@
     <message>
         <location filename="../configdialog.ui" line="36"/>
         <source>Preferred &amp;quality:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.ui" line="65"/>
@@ -328,22 +326,22 @@
     <message>
         <location filename="../configdialog.ui" line="161"/>
         <source>A&amp;dd predefined players</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.ui" line="186"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.ui" line="192"/>
         <source>Download videos using an &amp;external service</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.ui" line="89"/>
         <source>Down</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -351,7 +349,7 @@
     <message>
         <location filename="../filechooser.cpp" line="56"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -359,48 +357,48 @@
     <message>
         <location filename="../mywebview.cpp" line="36"/>
         <source>Open link in a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in new window</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="75"/>
         <source>Open audio with</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="99"/>
         <location filename="../mywebview.cpp" line="124"/>
         <source>Open with %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="131"/>
         <source>Open audio with %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="49"/>
         <source>Copy link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
         <source>Save link...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="50"/>
         <source>Open link in this window</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="51"/>
         <source>Copy text to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -408,7 +406,7 @@
     <message>
         <location filename="../playerdialog.ui" line="14"/>
         <source>Edit Player</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="22"/>
@@ -418,7 +416,7 @@
     <message>
         <location filename="../playerdialog.ui" line="39"/>
         <source>&amp;Executable:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="56"/>
@@ -428,47 +426,47 @@
     <message>
         <location filename="../playerdialog.ui" line="71"/>
         <source>This player supports &amp;video sites</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="78"/>
         <source>This player can play &amp;online TV</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="87"/>
         <source>Preferred &amp;quality:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="117"/>
         <source>Add to &amp;menu:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="29"/>
         <source>Video</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="30"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="31"/>
         <source>Video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>
