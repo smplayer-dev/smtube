@@ -265,12 +265,16 @@ void BrowserWindow::finishLoading(bool) {
 	qDebug() << "BrowserWindow::finishLoading: add_download_button:" << add_download_button;
 	qDebug() << "BrowserWindow::finishLoading: external_download_url:" << external_download_url;
 
-	if (add_download_button && external_download_url.contains("%YT_URL%") && url.contains("/info.php?")) {
+	if (add_download_button && url.contains("/info.php?") &&
+		(external_download_url.contains("%YT_URL%") || external_download_url.contains("%YT_ID%")))
+	{
 		code =	"var video_url = document.getElementById('video_thumbnail').href;"
 				"if (video_url) {"
+					"var video_id = document.getElementById('video_thumbnail').dataset.id;"
 					"var div = document.getElementById('published');"
 					"var link = '" + external_download_url +"';"
 					"link = link.replace('%YT_URL%', video_url);"
+					"if (video_id) link = link.replace('%YT_ID%', video_id);"
 					"div.cells[0].colSpan = 5;"
 					"div.innerHTML = div.innerHTML + "
 					"'<td><a target=\"_blank\" class=\"btn btn-primary btn-xs\" "
