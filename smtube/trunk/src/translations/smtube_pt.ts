@@ -137,7 +137,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="273"/>
         <source>Download video using an external service</source>
-        <translation type="unfinished"/>
+        <translation>Descarregar vídeos utilizando um serviço externo</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="275"/>
