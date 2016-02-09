@@ -64,9 +64,17 @@ ${!defineifexist} USE_MOREINFO MoreInfo.dll
   Name "SMTube ${SMTUBE_VERSION}"
   BrandingText "SMTube for Windows v${SMTUBE_VERSION}"
 !ifdef WIN64
-    OutFile "output\smtube-${SMTUBE_VERSION}-x64.exe"
+  !ifdef QT5
+  OutFile "output\Qt5\smtube-${SMTUBE_VERSION}-x64-qt5.exe"
+  !else
+  OutFile "output\smtube-${SMTUBE_VERSION}-x64.exe"
+  !endif
 !else
-    OutFile "output\smtube-${SMTUBE_VERSION}-win32.exe"
+  !ifdef QT5
+  OutFile "output\Qt5\smtube-${SMTUBE_VERSION}-win32-qt5.exe"
+  !else
+  OutFile "output\smtube-${SMTUBE_VERSION}-win32.exe"
+  !endif
 !endif
 
   ;Version tab properties
