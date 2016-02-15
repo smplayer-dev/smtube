@@ -357,12 +357,12 @@
     <message>
         <location filename="../mywebview.cpp" line="36"/>
         <source>Open link in a web browser</source>
-        <translation>Link in einem Browser öffnen</translation>
+        <translation>Verweis in einem Browser öffnen</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in new window</source>
-        <translation>Link in neuem Fenster öffnen</translation>
+        <translation>Verweis in neuem Fenster öffnen</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="75"/>
@@ -383,7 +383,7 @@
     <message>
         <location filename="../mywebview.cpp" line="49"/>
         <source>Copy link to clipboard</source>
-        <translation>Link in die Zwischenablage kopieren</translation>
+        <translation>Verweis in die Zwischenablage kopieren</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>

@@ -137,7 +137,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="273"/>
         <source>Download video using an external service</source>
-        <translation>Descarregar vídeos utilizando um serviço externo</translation>
+        <translation>Descarregar vídeo utilizando um serviço externo</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="275"/>
@@ -336,7 +336,7 @@
     <message>
         <location filename="../configdialog.ui" line="192"/>
         <source>Download videos using an &amp;external service</source>
-        <translation>Descarregar vídeos através de um serviço &amp;externo</translation>
+        <translation>Descarregar vídeos utilizando um serviço &amp;externo</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="89"/>
