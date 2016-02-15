@@ -137,12 +137,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="273"/>
         <source>Download video using an external service</source>
-        <translation type="unfinished"/>
+        <translation>Videoyu harici servisleri kullanarak indir</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="275"/>
         <source>Download</source>
-        <translation type="unfinished"/>
+        <translation>İndir</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="460"/>
@@ -331,7 +331,7 @@
     <message>
         <location filename="../configdialog.ui" line="186"/>
         <source>Download</source>
-        <translation type="unfinished"/>
+        <translation>İndir</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="192"/>

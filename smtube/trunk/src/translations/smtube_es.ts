@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -135,10 +133,6 @@
         <location filename="../browserwindow.cpp" line="174"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;Acerca de SMTube</translation>
-    </message>
-    <message>
-        <source>Download video using and external service</source>
-        <translation type="obsolete">Descargar el vídeo usando un servicio externo</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="273"/>
@@ -450,10 +444,6 @@
         <translation>Añadir al &amp;menú:</translation>
     </message>
     <message>
-        <source>Add to &amp;menu</source>
-        <translation type="obsolete">Añadir al &amp;menú</translation>
-    </message>
-    <message>
         <location filename="../playerdialog.cpp" line="28"/>
         <source>None</source>
         <translation>Ninguno</translation>
@@ -477,17 +467,6 @@
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>Predeterminada</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>Video sites</source>
-        <translation type="obsolete">Webs de vídeos</translation>
-    </message>
-    <message>
-        <source>Normal streams</source>
-        <translation type="obsolete">Datos normales</translation>
     </message>
 </context>
 </TS>

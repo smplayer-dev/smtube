@@ -137,12 +137,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="273"/>
         <source>Download video using an external service</source>
-        <translation type="unfinished"/>
+        <translation>Muat turun video menggunakan perkhidmatan luar</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="275"/>
         <source>Download</source>
-        <translation type="unfinished"/>
+        <translation>Muat turun</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="460"/>
@@ -331,12 +331,12 @@
     <message>
         <location filename="../configdialog.ui" line="186"/>
         <source>Download</source>
-        <translation type="unfinished"/>
+        <translation>Muat turun</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="192"/>
         <source>Download videos using an &amp;external service</source>
-        <translation type="unfinished"/>
+        <translation>Muat turun video menggunakan perkhidmatan &amp;luar</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="89"/>
@@ -431,7 +431,7 @@
     <message>
         <location filename="../playerdialog.ui" line="78"/>
         <source>This player can play &amp;online TV</source>
-        <translation type="unfinished"/>
+        <translation>Pemain ini boleh memainkan TV &amp;atas talian</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="87"/>
