@@ -128,6 +128,14 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	toolbar->addAction(view->pageAction(QWebPage::Stop));
 	toolbar->addWidget(location);
 
+	QAction * incFontAct = new QAction(tr("Zoom +"), this);
+	incFontAct->setShortcut(QKeySequence::ZoomIn);
+	connect(incFontAct, SIGNAL(triggered()), this, SLOT(incZoom()));
+
+	QAction * decFontAct = new QAction(tr("Zoom -"), this);
+	decFontAct->setShortcut(QKeySequence::ZoomOut);
+	connect(decFontAct, SIGNAL(triggered()), this, SLOT(decZoom()));
+
 	QAction * quitAct = new QAction(tr("&Quit"), this);
 	connect(quitAct, SIGNAL(triggered()), this, SLOT(close()));
 
@@ -137,6 +145,9 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	browseMenu->addAction(view->pageAction(QWebPage::Forward));
 	browseMenu->addAction(view->pageAction(QWebPage::Reload));
 	browseMenu->addAction(view->pageAction(QWebPage::Stop));
+	browseMenu->addSeparator();
+	browseMenu->addAction(incFontAct);
+	browseMenu->addAction(decFontAct);
 	browseMenu->addSeparator();
 	browseMenu->addAction(quitAct);
 
@@ -203,6 +214,16 @@ void BrowserWindow::viewStatusbar(bool b) {
 	qDebug() << "BrowserWindow::viewStatusbar:" << b;
 	statusBar()->setVisible(b);
 //	toggleStatusbarAct->setChecked(b);
+}
+
+void BrowserWindow::incZoom() {
+	qreal z = view->page()->mainFrame()->zoomFactor();
+	view->page()->mainFrame()->setZoomFactor(z + 0.1);
+}
+
+void BrowserWindow::decZoom() {
+	qreal z = view->page()->mainFrame()->zoomFactor();
+	view->page()->mainFrame()->setZoomFactor(z - 0.1);
 }
 
 void BrowserWindow::loadUrl(const QUrl & url) {
@@ -564,6 +585,7 @@ void BrowserWindow::saveConfig() {
 	settings->beginGroup("window");
 	settings->setValue("size", size());
 	settings->setValue("pos", pos());
+	settings->setValue("font", qApp->font().toString());
 	settings->endGroup();
 
 	settings->beginGroup("view");
@@ -592,6 +614,8 @@ void BrowserWindow::saveConfig() {
 	settings->setValue("images", ws->testAttribute(QWebSettings::AutoLoadImages));
 	settings->setValue("developer_extras", ws->testAttribute(QWebSettings::DeveloperExtrasEnabled));
 	settings->setValue("use_cookies", use_cookies);
+	settings->setValue("minimum_font_size", ws->fontSize(QWebSettings::MinimumFontSize));
+	settings->setValue("zoom", view->page()->mainFrame()->zoomFactor());
 	settings->endGroup();
 
 #ifdef USE_PLAYERS
@@ -605,6 +629,10 @@ void BrowserWindow::loadConfig() {
 	settings->beginGroup("window");
 	resize(settings->value("size", QSize(650, 715)).toSize());
 	move(settings->value("pos", pos()).toPoint());
+	QFont f;
+	QString current_font = qApp->font().toString();
+	f.fromString(settings->value("font", current_font).toString());
+	qApp->setFont(f);
 	settings->endGroup();
 
 	if (!DesktopInfo::isInsideScreen(this)) {
@@ -652,6 +680,14 @@ void BrowserWindow::loadConfig() {
 	bool use_cache = settings->value("use_cache", true).toBool();
 	#endif
 	use_cookies = settings->value("use_cookies", use_cookies).toBool();
+
+	int current_font_size = ws->fontSize(QWebSettings::MinimumFontSize);
+	int minimum_font_size = settings->value("minimum_font_size", current_font_size).toInt();
+	ws->setFontSize(QWebSettings::MinimumFontSize, minimum_font_size);
+
+	qreal zoom = settings->value("zoom", 1).toReal();
+	view->page()->mainFrame()->setZoomFactor(zoom);
+
 	settings->endGroup();
 
 	#ifndef PORTABLE_APP
