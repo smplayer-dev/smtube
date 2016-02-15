@@ -65,6 +65,9 @@ protected slots:
 	void viewToolbar(bool);
 	void viewStatusbar(bool);
 
+	void incZoom();
+	void decZoom();
+
 	void processLink(const QUrl & url );
 
 	void openWith(int player_id, const QUrl & url);
