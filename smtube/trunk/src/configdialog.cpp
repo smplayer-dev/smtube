@@ -41,7 +41,7 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	connect(edit_button, SIGNAL(clicked()), this, SLOT(editCurrentItem()));
 	connect(table, SIGNAL(itemActivated(QListWidgetItem *)), this, SLOT(editCurrentItem()));
 #else
-	players_group->hide();
+	tabs->setTabEnabled(1, false);
 #endif
 
 	playback_quality_combo->addItem( "240p (flv)", RetrieveYoutubeUrl::FLV_240p );
@@ -64,7 +64,7 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	//external_download_combo->addItem("http://www.telechargerunevideo.com/en/?v=%YT_ID%");
 #else
 	download_group->hide();
-	adjustSize();
+	//adjustSize();
 #endif
 }
 
