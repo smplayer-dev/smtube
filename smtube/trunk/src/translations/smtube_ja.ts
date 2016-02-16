@@ -89,12 +89,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="131"/>
         <source>Zoom +</source>
-        <translation type="unfinished"></translation>
+        <translation>拡大</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="135"/>
         <source>Zoom -</source>
-        <translation type="unfinished"></translation>
+        <translation>縮小</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="139"/>
@@ -303,7 +303,7 @@
     <message>
         <location filename="../configdialog.ui" line="108"/>
         <source>&amp;Players</source>
-        <translation type="unfinished"></translation>
+        <translation>プレーヤー(&amp;P)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="156"/>
@@ -326,10 +326,6 @@
         <translation>優先する品質(&amp;Q):</translation>
     </message>
     <message>
-        <source>Players</source>
-        <translation type="obsolete">プレーヤー</translation>
-    </message>
-    <message>
         <location filename="../configdialog.ui" line="167"/>
         <source>Delete</source>
         <translation>削除</translation>
@@ -343,6 +339,21 @@
         <location filename="../configdialog.ui" line="204"/>
         <source>A&amp;dd predefined players</source>
         <translation>定義済みプレーヤーの追加(&amp;D)</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="240"/>
+        <source>&amp;Interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="254"/>
+        <source>Font:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="268"/>
+        <source>C&amp;hange...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="68"/>

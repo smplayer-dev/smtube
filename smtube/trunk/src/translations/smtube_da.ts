@@ -89,12 +89,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="131"/>
         <source>Zoom +</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom +</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="135"/>
         <source>Zoom -</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom -</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="139"/>
@@ -303,7 +303,7 @@
     <message>
         <location filename="../configdialog.ui" line="108"/>
         <source>&amp;Players</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Afspillere</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="156"/>
@@ -326,10 +326,6 @@
         <translation>Fortrukket &amp;kvalitet:</translation>
     </message>
     <message>
-        <source>Players</source>
-        <translation type="obsolete">Afspillere</translation>
-    </message>
-    <message>
         <location filename="../configdialog.ui" line="167"/>
         <source>Delete</source>
         <translation>Slet</translation>
@@ -343,6 +339,21 @@
         <location filename="../configdialog.ui" line="204"/>
         <source>A&amp;dd predefined players</source>
         <translation>&amp;Tilføj forudvalgte afspillere</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="240"/>
+        <source>&amp;Interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="254"/>
+        <source>Font:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="268"/>
+        <source>C&amp;hange...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="68"/>
