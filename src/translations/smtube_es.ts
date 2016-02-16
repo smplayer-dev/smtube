@@ -311,6 +311,25 @@
         <translation>Añadir</translation>
     </message>
     <message>
+        <location filename="../configdialog.ui" line="240"/>
+        <source>&amp;Interface</source>
+        <translation>&amp;Interfaz</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="254"/>
+        <source>Font:</source>
+        <translation>Tipo de letra:</translation>
+    </message>
+    <message>
+        <source>Default font:</source>
+        <translation type="obsolete">Tipo de letra:</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="268"/>
+        <source>C&amp;hange...</source>
+        <translation>Ca&amp;mbiar...</translation>
+    </message>
+    <message>
         <location filename="../configdialog.ui" line="121"/>
         <source>Up</source>
         <translation>Subir</translation>

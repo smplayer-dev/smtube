@@ -326,10 +326,6 @@
         <translation>Bevorzugte &amp;Qualität:</translation>
     </message>
     <message>
-        <source>Players</source>
-        <translation type="obsolete">Abspieler</translation>
-    </message>
-    <message>
         <location filename="../configdialog.ui" line="167"/>
         <source>Delete</source>
         <translation>Löschen</translation>
@@ -343,6 +339,21 @@
         <location filename="../configdialog.ui" line="204"/>
         <source>A&amp;dd predefined players</source>
         <translation>&amp;Vordefinierte Abspieler hinzufügen</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="240"/>
+        <source>&amp;Interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="254"/>
+        <source>Font:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="268"/>
+        <source>C&amp;hange...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="68"/>
