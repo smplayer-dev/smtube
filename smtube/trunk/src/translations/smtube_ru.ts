@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="ru">
 <context>
     <name>About</name>
     <message>
@@ -86,148 +88,158 @@
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="131"/>
+        <source>Zoom +</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="135"/>
+        <source>Zoom -</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="139"/>
         <source>&amp;Quit</source>
         <translation>В&amp;ыход</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="134"/>
+        <location filename="../browserwindow.cpp" line="142"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Навигация</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="143"/>
+        <location filename="../browserwindow.cpp" line="154"/>
         <source>&amp;View</source>
         <translation>&amp;Обзор</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="144"/>
+        <location filename="../browserwindow.cpp" line="155"/>
         <source>Toolbar</source>
         <translation>Панель инструментов</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="159"/>
         <source>Statusbar</source>
         <translation>Панель состояния</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="163"/>
         <source>&amp;Settings</source>
         <translation>&amp;Настройки</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="160"/>
+        <location filename="../browserwindow.cpp" line="171"/>
         <source>&amp;Help</source>
         <translation>Сп&amp;равка</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="163"/>
+        <location filename="../browserwindow.cpp" line="174"/>
         <source>&amp;Update the YouTube code</source>
         <translation>&amp;Обновить код YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="169"/>
+        <location filename="../browserwindow.cpp" line="180"/>
         <source>About this &amp;release</source>
         <translation>О данном &amp;выпуске</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="174"/>
+        <location filename="../browserwindow.cpp" line="185"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;О SMTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="273"/>
+        <location filename="../browserwindow.cpp" line="302"/>
         <source>Download video using an external service</source>
         <translation>Загрузить видео, используя внешний сервис</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="275"/>
+        <location filename="../browserwindow.cpp" line="304"/>
         <source>Download</source>
         <translation>Загрузить</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="460"/>
+        <location filename="../browserwindow.cpp" line="489"/>
         <source>Connection failed</source>
         <translation>Соединение прервано</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="461"/>
+        <location filename="../browserwindow.cpp" line="490"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Запрашиваемое вами видео требует HTTPS-соединения.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="462"/>
+        <location filename="../browserwindow.cpp" line="491"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>К сожалению, необходимый для этого компонент OpenSSL не доступен в вашей системе.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="467"/>
+        <location filename="../browserwindow.cpp" line="496"/>
         <source>No video found</source>
         <translation>Видео не найдено</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="468"/>
+        <location filename="../browserwindow.cpp" line="497"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Невозможно найти ссылку для данного видео.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="478"/>
-        <location filename="../browserwindow.cpp" line="486"/>
+        <location filename="../browserwindow.cpp" line="507"/>
+        <location filename="../browserwindow.cpp" line="515"/>
         <source>Problems with YouTube</source>
         <translation>Проблемы с YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="479"/>
-        <location filename="../browserwindow.cpp" line="487"/>
+        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="516"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>К сожалению, из-за изменений на YouTube видео &apos;%1&apos; не может быть проиграно.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="480"/>
+        <location filename="../browserwindow.cpp" line="509"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>Хотите обновить код YouTube? Это может решить проблему.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="488"/>
+        <location filename="../browserwindow.cpp" line="517"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Возможно обновление данного приложения позволит решить проблему.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="507"/>
+        <location filename="../browserwindow.cpp" line="536"/>
         <source>About this release</source>
         <translation>О данном выпуске</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="537"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>Старый SMTube больше не работает из-за изменений на YouTube.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="538"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>Это новая версия SMTube, написанная с нуля.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="510"/>
+        <location filename="../browserwindow.cpp" line="539"/>
         <source>Some functionality is not available yet.</source>
         <translation>Некоторые функции пока не доступны.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="512"/>
+        <location filename="../browserwindow.cpp" line="541"/>
         <source>Important:</source>
         <translation>Важно:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="513"/>
+        <location filename="../browserwindow.cpp" line="542"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>Если VEVO видео не хочет проигрываться, пожалуйста,  используйте пункт %1 в меню Справки.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="514"/>
+        <location filename="../browserwindow.cpp" line="543"/>
         <source>Update the YouTube code</source>
         <translation>Обновить код YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="250"/>
+        <location filename="../browserwindow.cpp" line="275"/>
         <source>Loading... %1%</source>
         <translation>Загрузка... %1%</translation>
     </message>
@@ -284,62 +296,66 @@
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="24"/>
+        <location filename="../configdialog.ui" line="27"/>
         <source>&amp;General</source>
         <translation>%Основные</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="113"/>
+        <location filename="../configdialog.ui" line="108"/>
+        <source>&amp;Players</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="156"/>
         <source>Add</source>
         <translation>Добавить</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="78"/>
+        <location filename="../configdialog.ui" line="121"/>
         <source>Up</source>
         <translation>Выше</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="30"/>
+        <location filename="../configdialog.ui" line="33"/>
         <source>Playback</source>
         <translation>Воспроизведение</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="36"/>
+        <location filename="../configdialog.ui" line="39"/>
         <source>Preferred &amp;quality:</source>
         <translation>Предпочительное &amp;качество:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="65"/>
         <source>Players</source>
-        <translation>Плееры</translation>
+        <translation type="obsolete">Плееры</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="124"/>
+        <location filename="../configdialog.ui" line="167"/>
         <source>Delete</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="148"/>
+        <location filename="../configdialog.ui" line="191"/>
         <source>Edit</source>
         <translation>Правка</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="161"/>
+        <location filename="../configdialog.ui" line="204"/>
         <source>A&amp;dd predefined players</source>
         <translation>&amp;Добавить преднастроенные плееры</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="186"/>
+        <location filename="../configdialog.ui" line="68"/>
         <source>Download</source>
         <translation>Загрузить</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="192"/>
+        <location filename="../configdialog.ui" line="74"/>
         <source>Download videos using an &amp;external service</source>
         <translation>Загрузить видео, используя &amp;внешний сервис</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="89"/>
+        <location filename="../configdialog.ui" line="132"/>
         <source>Down</source>
         <translation>Вниз</translation>
     </message>
