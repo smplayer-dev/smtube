@@ -251,7 +251,7 @@
          <item>
           <widget class="QLabel" name="label_2">
            <property name="text">
-            <string>Default font:</string>
+            <string>Font:</string>
            </property>
           </widget>
          </item>
