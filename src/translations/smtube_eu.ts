@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="eu" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="eu">
 <context>
     <name>About</name>
     <message>
@@ -86,148 +88,158 @@
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="131"/>
+        <source>Zoom +</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="135"/>
+        <source>Zoom -</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="139"/>
         <source>&amp;Quit</source>
         <translation>&amp;Utzi</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="134"/>
+        <location filename="../browserwindow.cpp" line="142"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Nabigazioa</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="143"/>
+        <location filename="../browserwindow.cpp" line="154"/>
         <source>&amp;View</source>
         <translation>&amp;Ikusi</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="144"/>
+        <location filename="../browserwindow.cpp" line="155"/>
         <source>Toolbar</source>
         <translation>Tresnabarra</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="159"/>
         <source>Statusbar</source>
         <translation>Egoerabarra</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="163"/>
         <source>&amp;Settings</source>
         <translation>&amp;Ezarpenak</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="160"/>
+        <location filename="../browserwindow.cpp" line="171"/>
         <source>&amp;Help</source>
         <translation>&amp;Laguntza</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="163"/>
+        <location filename="../browserwindow.cpp" line="174"/>
         <source>&amp;Update the YouTube code</source>
         <translation>&amp;Eguneratu YouTube kodea</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="169"/>
+        <location filename="../browserwindow.cpp" line="180"/>
         <source>About this &amp;release</source>
         <translation>A&amp;rgitalpen honi buruz</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="174"/>
+        <location filename="../browserwindow.cpp" line="185"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;SMTube-ri buruz</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="273"/>
+        <location filename="../browserwindow.cpp" line="302"/>
         <source>Download video using an external service</source>
         <translation>Jeitsi bideoa kanpoko zerbitzu bat erabiliz</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="275"/>
+        <location filename="../browserwindow.cpp" line="304"/>
         <source>Download</source>
         <translation>Jeitsi</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="460"/>
+        <location filename="../browserwindow.cpp" line="489"/>
         <source>Connection failed</source>
         <translation>Elkarketa hutsegitea</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="461"/>
+        <location filename="../browserwindow.cpp" line="490"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Eskatu duzun bideoak HTTPS elkarketa bat irekitzea behar du.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="462"/>
+        <location filename="../browserwindow.cpp" line="491"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>Zorigaitzez OpenSSL osagaia, horretarako beharrezkoa dena, ez dago eskuragarri zure sisteman.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="467"/>
+        <location filename="../browserwindow.cpp" line="496"/>
         <source>No video found</source>
         <translation>Ez da bideorik aurkitu</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="468"/>
+        <location filename="../browserwindow.cpp" line="497"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Ezinezkoa da bideo honen URL-a aurkitzea.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="478"/>
-        <location filename="../browserwindow.cpp" line="486"/>
+        <location filename="../browserwindow.cpp" line="507"/>
+        <location filename="../browserwindow.cpp" line="515"/>
         <source>Problems with YouTube</source>
         <translation>Arazoak YouTube-rekin</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="479"/>
-        <location filename="../browserwindow.cpp" line="487"/>
+        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="516"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Zorigaitzez YouTubeko aldaketen ondorioz, &apos;%1&apos; bideoa ezin da irakurri.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="480"/>
+        <location filename="../browserwindow.cpp" line="509"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>Nahi duzu YouTube kodea eguneratzea? Honek arazoa konpondu dezake.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="488"/>
+        <location filename="../browserwindow.cpp" line="517"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Badaiteke aplikazio hau eguneratuz arazoa zuzentzea.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="507"/>
+        <location filename="../browserwindow.cpp" line="536"/>
         <source>About this release</source>
         <translation>Argitalpen honi buruz</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="537"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>YouTubeko aldaketen ondorioz, SMTube zaharrak ez du lanik egiten.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="538"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>Hau SMTube bertsio berri bat da, hasieratik idatzia.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="510"/>
+        <location filename="../browserwindow.cpp" line="539"/>
         <source>Some functionality is not available yet.</source>
         <translation>Zenbait eginkizun ez daude eskuragarri oraindik.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="512"/>
+        <location filename="../browserwindow.cpp" line="541"/>
         <source>Important:</source>
         <translation>Garrantzitsua:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="513"/>
+        <location filename="../browserwindow.cpp" line="542"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>VEVO bideoek huts egiten badute irakurtzean, mesedez erabili &apos;%1&apos; aukera Laguntza menuan.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="514"/>
+        <location filename="../browserwindow.cpp" line="543"/>
         <source>Update the YouTube code</source>
         <translation>Eguneratu YouTube kodea</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="250"/>
+        <location filename="../browserwindow.cpp" line="275"/>
         <source>Loading... %1%</source>
         <translation>Gertatzen... %1%</translation>
     </message>
@@ -284,62 +296,66 @@
         <translation>Ezarpenak</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="24"/>
+        <location filename="../configdialog.ui" line="27"/>
         <source>&amp;General</source>
         <translation>&amp;Orokorra</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="113"/>
+        <location filename="../configdialog.ui" line="108"/>
+        <source>&amp;Players</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="156"/>
         <source>Add</source>
         <translation>Gehitu</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="78"/>
+        <location filename="../configdialog.ui" line="121"/>
         <source>Up</source>
         <translation>Gora</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="30"/>
+        <location filename="../configdialog.ui" line="33"/>
         <source>Playback</source>
         <translation>Irakurketa</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="36"/>
+        <location filename="../configdialog.ui" line="39"/>
         <source>Preferred &amp;quality:</source>
         <translation>Hobetsitako &amp;ontasuna:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="65"/>
         <source>Players</source>
-        <translation>Irakurgailuak</translation>
+        <translation type="obsolete">Irakurgailuak</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="124"/>
+        <location filename="../configdialog.ui" line="167"/>
         <source>Delete</source>
         <translation>Ezabatu</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="148"/>
+        <location filename="../configdialog.ui" line="191"/>
         <source>Edit</source>
         <translation>Editatu</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="161"/>
+        <location filename="../configdialog.ui" line="204"/>
         <source>A&amp;dd predefined players</source>
         <translation>&amp;Gehitu aurrezehaztutako irakurgailuak</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="186"/>
+        <location filename="../configdialog.ui" line="68"/>
         <source>Download</source>
         <translation>Jeitsi</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="192"/>
+        <location filename="../configdialog.ui" line="74"/>
         <source>Download videos using an &amp;external service</source>
         <translation>Jeitsi bideoak &amp;kanpoko zerbitzu bat erabiliz</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="89"/>
+        <location filename="../configdialog.ui" line="132"/>
         <source>Down</source>
         <translation>Behera</translation>
     </message>
