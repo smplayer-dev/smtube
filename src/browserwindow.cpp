@@ -565,6 +565,8 @@ void BrowserWindow::showConfigDialog() {
 	d.setExternalDownloadUrl(external_download_url);
 	#endif
 
+	d.setDefaultFont(qApp->font());
+
 	if (d.exec() == QDialog::Accepted) {
 		preferred_quality = d.playbackQuality();
 		#ifdef USE_PLAYERS
@@ -576,6 +578,9 @@ void BrowserWindow::showConfigDialog() {
 		add_download_button = d.addDownloadButton();
 		external_download_url = d.externalDownloadUrl();
 		#endif
+
+		QFont new_font = d.defaultFont();
+		if (qApp->font() != new_font) qApp->setFont(new_font);
 	}
 }
 

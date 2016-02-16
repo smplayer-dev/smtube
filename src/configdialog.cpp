@@ -19,6 +19,7 @@
 #include "configdialog.h"
 #include <QItemDelegate>
 #include <QComboBox>
+#include <QFontDialog>
 #include <QDebug>
 #include "filechooser.h"
 #include "retrieveyoutubeurl.h"
@@ -259,6 +260,31 @@ void ConfigDialog::on_addplayers_button_clicked() {
 		}
 	}
 	addplayers_button->setEnabled(false);
+}
+
+void ConfigDialog::setDefaultFont(const QFont & f) {
+	default_font_edit->setText(f.toString());
+}
+
+QFont ConfigDialog::defaultFont() {
+	QFont f;
+	f.fromString(default_font_edit->text());
+	return f;
+}
+
+void ConfigDialog::on_change_font_button_clicked() {
+	QFont f = qApp->font();
+
+	if (!default_font_edit->text().isEmpty()) {
+		f.fromString(default_font_edit->text());
+	}
+
+	bool ok;
+	f = QFontDialog::getFont( &ok, f, this);
+
+	if (ok) {
+		default_font_edit->setText( f.toString() );
+	}
 }
 
 void ConfigDialog::updateAddPlayersButton() {

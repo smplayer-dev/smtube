@@ -22,6 +22,7 @@
 #include "ui_configdialog.h"
 
 #include <QDialog>
+#include <QFont>
 
 #ifdef USE_PLAYERS
 #include "players.h"
@@ -46,6 +47,9 @@ public:
 	QString externalDownloadUrl();
 #endif
 
+	void setDefaultFont(const QFont & f);
+	QFont defaultFont();
+
 #ifdef USE_PLAYERS
 	void setPlayers(QList<Player> list);
 	QList<Player> players();
@@ -65,6 +69,9 @@ protected slots:
 protected:
 	QList<Player> default_players;
 #endif
+
+protected slots:
+	void on_change_font_button_clicked();
 };
 
 #endif
