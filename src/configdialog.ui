@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>656</width>
-    <height>521</height>
+    <width>627</width>
+    <height>373</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,6 +16,9 @@
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QTabWidget" name="tabs">
+     <property name="tabPosition">
+      <enum>QTabWidget::North</enum>
+     </property>
      <property name="currentIndex">
       <number>0</number>
      </property>
@@ -55,127 +58,6 @@
              </size>
             </property>
            </spacer>
-          </item>
-         </layout>
-        </widget>
-       </item>
-       <item>
-        <widget class="QGroupBox" name="players_group">
-         <property name="title">
-          <string>Players</string>
-         </property>
-         <layout class="QVBoxLayout" name="verticalLayout_4">
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_3">
-            <item>
-             <widget class="QListWidget" name="table"/>
-            </item>
-            <item>
-             <layout class="QVBoxLayout" name="verticalLayout_2">
-              <item>
-               <widget class="QPushButton" name="up_button">
-                <property name="toolTip">
-                 <string>Up</string>
-                </property>
-                <property name="icon">
-                 <iconset resource="icons.qrc">
-                  <normaloff>:/icons/arrow-up.png</normaloff>:/icons/arrow-up.png</iconset>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="down_button">
-                <property name="toolTip">
-                 <string>Down</string>
-                </property>
-                <property name="icon">
-                 <iconset resource="icons.qrc">
-                  <normaloff>:/icons/arrow-down.png</normaloff>:/icons/arrow-down.png</iconset>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <spacer name="verticalSpacer_2">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>18</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item>
-               <widget class="QPushButton" name="add_button">
-                <property name="toolTip">
-                 <string>Add</string>
-                </property>
-                <property name="icon">
-                 <iconset resource="icons.qrc">
-                  <normaloff>:/icons/list-add.png</normaloff>:/icons/list-add.png</iconset>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="delete_button">
-                <property name="toolTip">
-                 <string>Delete</string>
-                </property>
-                <property name="icon">
-                 <iconset resource="icons.qrc">
-                  <normaloff>:/icons/list-remove.png</normaloff>:/icons/list-remove.png</iconset>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <spacer name="verticalSpacer">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>17</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item>
-               <widget class="QPushButton" name="edit_button">
-                <property name="text">
-                 <string>Edit</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
-           </layout>
-          </item>
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_2">
-            <item>
-             <widget class="QPushButton" name="addplayers_button">
-              <property name="text">
-               <string>A&amp;dd predefined players</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <spacer name="horizontalSpacer">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>348</width>
-                <height>17</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-           </layout>
           </item>
          </layout>
         </widget>
@@ -221,6 +103,138 @@
        </item>
       </layout>
      </widget>
+     <widget class="QWidget" name="players_tab">
+      <attribute name="title">
+       <string>&amp;Players</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QListWidget" name="table"/>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QPushButton" name="up_button">
+             <property name="toolTip">
+              <string>Up</string>
+             </property>
+             <property name="icon">
+              <iconset resource="icons.qrc">
+               <normaloff>:/icons/arrow-up.png</normaloff>:/icons/arrow-up.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="down_button">
+             <property name="toolTip">
+              <string>Down</string>
+             </property>
+             <property name="icon">
+              <iconset resource="icons.qrc">
+               <normaloff>:/icons/arrow-down.png</normaloff>:/icons/arrow-down.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>18</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="add_button">
+             <property name="toolTip">
+              <string>Add</string>
+             </property>
+             <property name="icon">
+              <iconset resource="icons.qrc">
+               <normaloff>:/icons/list-add.png</normaloff>:/icons/list-add.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="delete_button">
+             <property name="toolTip">
+              <string>Delete</string>
+             </property>
+             <property name="icon">
+              <iconset resource="icons.qrc">
+               <normaloff>:/icons/list-remove.png</normaloff>:/icons/list-remove.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>17</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="edit_button">
+             <property name="text">
+              <string>Edit</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="addplayers_button">
+           <property name="text">
+            <string>A&amp;dd predefined players</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>348</width>
+             <height>17</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>29</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
     </widget>
    </item>
    <item>
@@ -238,6 +252,9 @@
  <tabstops>
   <tabstop>tabs</tabstop>
   <tabstop>playback_quality_combo</tabstop>
+  <tabstop>add_download_check</tabstop>
+  <tabstop>external_download_combo</tabstop>
+  <tabstop>buttonBox</tabstop>
   <tabstop>table</tabstop>
   <tabstop>up_button</tabstop>
   <tabstop>down_button</tabstop>
@@ -245,9 +262,6 @@
   <tabstop>delete_button</tabstop>
   <tabstop>edit_button</tabstop>
   <tabstop>addplayers_button</tabstop>
-  <tabstop>add_download_check</tabstop>
-  <tabstop>external_download_combo</tabstop>
-  <tabstop>buttonBox</tabstop>
  </tabstops>
  <resources>
   <include location="icons.qrc"/>
