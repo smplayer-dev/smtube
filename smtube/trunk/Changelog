@@ -1,3 +1,22 @@
+Version 16.x:
+
+(2016-02-17)
+* Add an option in the settings dialog to select the application font.
+
+(2016-02-15)
+ * Add options to zoom in and out.
+
+(2016-02-03)
+ * Disable search using the location field.
+
+(2016-02-01)
+ * Add an option in the config dialog to use an external service (website)
+   to download videos.
+
+(2016-01-29)
+ * Add option "This player can play online TV" in the player dialog.
+
+
 Version 16.1:
 
 (2015-12-18)
