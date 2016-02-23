@@ -659,12 +659,7 @@ void BrowserWindow::loadConfig() {
 #ifdef D_BUTTON
 	add_download_button = settings->value("add_download_button", false).toBool();
 
-	QString default_url = "http://9xbuddy.com/download?url=%YT_URL%";
-	/* Alternatives: 
-		"http://www.dlvyoutube.com/%YT_URL%";
-		"http://www.savefrom.net/#url=%YT_URL%";
-	*/
-
+	QString default_url = "http://www.dlvyoutube.com/%YT_URL%";
 	external_download_url = settings->value("external_download_url", default_url).toString();
 #endif
 
