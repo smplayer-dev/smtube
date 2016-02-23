@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -311,25 +309,6 @@
         <translation>Añadir</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="240"/>
-        <source>&amp;Interface</source>
-        <translation>&amp;Interfaz</translation>
-    </message>
-    <message>
-        <location filename="../configdialog.ui" line="254"/>
-        <source>Font:</source>
-        <translation>Tipo de letra:</translation>
-    </message>
-    <message>
-        <source>Default font:</source>
-        <translation type="obsolete">Tipo de letra:</translation>
-    </message>
-    <message>
-        <location filename="../configdialog.ui" line="268"/>
-        <source>C&amp;hange...</source>
-        <translation>Ca&amp;mbiar...</translation>
-    </message>
-    <message>
         <location filename="../configdialog.ui" line="121"/>
         <source>Up</source>
         <translation>Subir</translation>
@@ -345,10 +324,6 @@
         <translation>Calidad &amp;preferida:</translation>
     </message>
     <message>
-        <source>Players</source>
-        <translation type="obsolete">Reproductores</translation>
-    </message>
-    <message>
         <location filename="../configdialog.ui" line="167"/>
         <source>Delete</source>
         <translation>Borrar</translation>
@@ -362,6 +337,21 @@
         <location filename="../configdialog.ui" line="204"/>
         <source>A&amp;dd predefined players</source>
         <translation>Añadir &amp;reproductores predeterminados</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="240"/>
+        <source>&amp;Interface</source>
+        <translation>&amp;Interfaz</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="254"/>
+        <source>Font:</source>
+        <translation>Tipo de letra:</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="268"/>
+        <source>C&amp;hange...</source>
+        <translation>Ca&amp;mbiar...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="68"/>

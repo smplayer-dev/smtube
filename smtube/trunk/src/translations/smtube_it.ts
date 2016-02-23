@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="it">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -343,17 +341,17 @@
     <message>
         <location filename="../configdialog.ui" line="240"/>
         <source>&amp;Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Interfaccia</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="254"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Font:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="268"/>
         <source>C&amp;hange...</source>
-        <translation type="unfinished"></translation>
+        <translation>M&amp;odifica...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="68"/>

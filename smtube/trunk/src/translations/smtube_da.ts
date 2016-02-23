@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="da">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -56,12 +54,12 @@
     <message>
         <location filename="../about.cpp" line="88"/>
         <source>You can also help to translate SMTube into your own language.</source>
-        <translation>Du kan også hjælper med at oversætte SMTube til dit sprog</translation>
+        <translation>Du kan også hjælpe med at oversætte SMTube til dit eget sprog.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="89"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>Besøg %1 og meld dig til et oversætterhold.</translation>
+        <translation>Besøg %1 og meld dig til et oversættelsesteam.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="91"/>
@@ -134,7 +132,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="174"/>
         <source>&amp;Update the YouTube code</source>
-        <translation>&amp;Opdatér YouTube-koden</translation>
+        <translation>Opdatér &amp;YouTube-koden</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="180"/>
@@ -196,7 +194,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="509"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
-        <translation>Vil du opdatere YouTube-koden? Det vil muligvis rette problemet.</translation>
+        <translation>Vil du opdatere YouTube-koden? Det vil måske rette problemet.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="517"/>
@@ -323,7 +321,7 @@
     <message>
         <location filename="../configdialog.ui" line="39"/>
         <source>Preferred &amp;quality:</source>
-        <translation>Fortrukket &amp;kvalitet:</translation>
+        <translation>Foretrukket &amp;kvalitet:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="167"/>
@@ -343,17 +341,17 @@
     <message>
         <location filename="../configdialog.ui" line="240"/>
         <source>&amp;Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Grænseflade</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="254"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Skifttype:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="268"/>
         <source>C&amp;hange...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vælg...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="68"/>
@@ -473,7 +471,7 @@
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
         <source>None</source>
-        <translation>Intet</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="29"/>
