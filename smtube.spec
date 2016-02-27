@@ -12,12 +12,9 @@ Source0:        http://downloads.sourceforge.net/smtube/smtube-%{version}.tar.bz
 BuildRequires:  libqt4-devel
 BuildRequires:  libQtWebKit-devel
 BuildRequires:  hicolor-icon-theme
-BuildRequires:  kde4-filesystem
-Requires:       kde4-filesystem
 %else
 BuildRequires:  qt4-devel
 BuildRequires:  qtwebkit-devel
-Requires:       kde-filesystem
 %endif
 BuildRequires:  desktop-file-utils
 BuildRequires:  gcc-c++
