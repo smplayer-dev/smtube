@@ -38,26 +38,20 @@ and play YouTube videos.
 iconv -f Latin1 -t UTF-8 -o Changelog.utf8 Changelog 
 mv Changelog.utf8 Changelog
 
-# fix path of docs
-%if 0%{?suse_version}
-sed -i 's|DOC_PATH=$(PREFIX)/share/doc/smtube|DOC_PATH=$(PREFIX)/share/doc/packages/smtube|' Makefile
-#%else
-#sed -i 's|DOC_PATH=$(PREFIX)/share/doc/packages/smtube|DOC_PATH=$(PREFIX)/share/doc/smtube|' Makefile
-%endif
-
 %build
 make \
 %if !0%{?suse_version}
 	QMAKE=%{_qt4_qmake} \
 	LRELEASE=%{_bindir}/lrelease-qt4 \
 %endif
-	PREFIX=%{_prefix}
+	PREFIX=%{_prefix} \
+	DOC_PATH="\\\"%{_docdir}/%{name}/\\\""
 
 #touch src/smtube
 #touch src/translations/smtube_es.qm
 
 %install
-make PREFIX=%{_prefix} DESTDIR=%{buildroot}/ install
+make PREFIX=%{_prefix} DESTDIR=%{buildroot}/ DOC_PATH=%{_docdir}/%{name}/ install
 
 %post
 touch --no-create %{_datadir}/icons/hicolor
