@@ -189,7 +189,7 @@
         <location filename="../browserwindow.cpp" line="508"/>
         <location filename="../browserwindow.cpp" line="516"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation>Videoen &apos;%1&apos; kan desværre ikke afspilles, på grund af ændringer på YouTube.</translation>
+        <translation>Videoen &quot;%1&quot; kan desværre ikke afspilles, på grund af ændringer på YouTube.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="509"/>
@@ -336,7 +336,7 @@
     <message>
         <location filename="../configdialog.ui" line="204"/>
         <source>A&amp;dd predefined players</source>
-        <translation>&amp;Tilføj forudvalgte afspillere</translation>
+        <translation>&amp;Tilføj foruddefinerede afspillere</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="240"/>
