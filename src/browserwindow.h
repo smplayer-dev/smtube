@@ -97,6 +97,10 @@ protected:
 	void saveConfig();
 	void loadConfig();
 
+#ifdef STYLE_SWITCHING
+	void setStyle(QString style);
+#endif
+
 private:
 	MyWebView *view;
 
@@ -126,6 +130,10 @@ private:
 #ifdef YT_USE_YTSIG
 	QString script_file;
 	CodeDownloader * codedownloader;
+#endif
+
+#ifdef STYLE_SWITCHING
+	QString default_style;
 #endif
 
 	QString home_page;

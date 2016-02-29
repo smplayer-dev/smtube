@@ -20,6 +20,7 @@
 #include <QItemDelegate>
 #include <QComboBox>
 #include <QFontDialog>
+#include <QStyleFactory>
 #include <QDebug>
 #include "filechooser.h"
 #include "retrieveyoutubeurl.h"
@@ -66,6 +67,14 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 #else
 	download_group->hide();
 	//adjustSize();
+#endif
+
+#ifdef STYLE_SWITCHING
+	style_combo->addItem( tr("Default") );
+	style_combo->addItems( QStyleFactory::keys() );
+#else
+	style_label->hide();
+	style_combo->hide();
 #endif
 }
 
@@ -271,6 +280,27 @@ QFont ConfigDialog::defaultFont() {
 	f.fromString(default_font_edit->text());
 	return f;
 }
+
+#ifdef STYLE_SWITCHING
+void ConfigDialog::setStyle(const QString & style) {
+	qDebug() << "ConfigDialog::setStyle:" << style;
+
+	if (style.isEmpty()) {
+		style_combo->setCurrentIndex(0);
+	} else {
+		int i = style_combo->findText(style, Qt::MatchFixedString);
+		if (i < 0) i = 0;
+		style_combo->setCurrentIndex(i);
+	}
+}
+
+QString ConfigDialog::style() {
+	if (style_combo->currentIndex() == 0)
+		return "";
+	else 
+		return style_combo->currentText().toLower();
+}
+#endif
 
 void ConfigDialog::on_change_font_button_clicked() {
 	QFont f = qApp->font();

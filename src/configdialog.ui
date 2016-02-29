@@ -241,6 +241,36 @@
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_4">
        <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="style_label">
+           <property name="text">
+            <string>&amp;Style:</string>
+           </property>
+           <property name="buddy">
+            <cstring>style_combo</cstring>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="style_combo"/>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
         <layout class="QHBoxLayout" name="_2">
          <property name="spacing">
           <number>6</number>
@@ -313,6 +343,7 @@
   <tabstop>delete_button</tabstop>
   <tabstop>edit_button</tabstop>
   <tabstop>addplayers_button</tabstop>
+  <tabstop>style_combo</tabstop>
   <tabstop>default_font_edit</tabstop>
   <tabstop>change_font_button</tabstop>
  </tabstops>

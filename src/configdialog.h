@@ -50,6 +50,11 @@ public:
 	void setDefaultFont(const QFont & f);
 	QFont defaultFont();
 
+#ifdef STYLE_SWITCHING
+	void setStyle(const QString & style);
+	QString style();
+#endif
+
 #ifdef USE_PLAYERS
 	void setPlayers(QList<Player> list);
 	QList<Player> players();
