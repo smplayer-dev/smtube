@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ko" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="ko">
 <context>
     <name>About</name>
     <message>
@@ -145,99 +147,99 @@
         <translation>SMTube 정보</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="302"/>
+        <location filename="../browserwindow.cpp" line="306"/>
         <source>Download video using an external service</source>
         <translation>외부 서비스를 이용해 비디오 다운로드하기</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="304"/>
+        <location filename="../browserwindow.cpp" line="308"/>
         <source>Download</source>
         <translation>다운로드</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="489"/>
+        <location filename="../browserwindow.cpp" line="493"/>
         <source>Connection failed</source>
         <translation>연결에 실패했습니다</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="490"/>
+        <location filename="../browserwindow.cpp" line="494"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>요청한 비디오는 HTTPS 연결이 필요합니다</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="491"/>
+        <location filename="../browserwindow.cpp" line="495"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>유감스럽게도 필요한 OpenSSL 컴포넌트가 시스템에 없습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="496"/>
+        <location filename="../browserwindow.cpp" line="500"/>
         <source>No video found</source>
         <translation>비디오를 찾을 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="497"/>
+        <location filename="../browserwindow.cpp" line="501"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>이 비디오의 URL을 찾지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="507"/>
-        <location filename="../browserwindow.cpp" line="515"/>
+        <location filename="../browserwindow.cpp" line="511"/>
+        <location filename="../browserwindow.cpp" line="519"/>
         <source>Problems with YouTube</source>
         <translation>유투브 문제</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
-        <location filename="../browserwindow.cpp" line="516"/>
+        <location filename="../browserwindow.cpp" line="512"/>
+        <location filename="../browserwindow.cpp" line="520"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>불행히도 유투브의 변경 때문에 &apos;%1&apos; 비디오를 재생할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="513"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>유투브 코드를 업데이트할까요? 문제를 해결할 수도 있습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="517"/>
+        <location filename="../browserwindow.cpp" line="521"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>이 프로그램을 업데이트해서 문제를 해결할 수 있을 것입니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="536"/>
+        <location filename="../browserwindow.cpp" line="540"/>
         <source>About this release</source>
         <translation>이 버전 정보</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="537"/>
+        <location filename="../browserwindow.cpp" line="541"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>유투브의 변경 때문에 이전의 SMTube는 더 이상 동작하지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="538"/>
+        <location filename="../browserwindow.cpp" line="542"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>이것은 처음부터 새로 만든 새로운 버전의 SMTube입니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="539"/>
+        <location filename="../browserwindow.cpp" line="543"/>
         <source>Some functionality is not available yet.</source>
         <translation>몇몇 기능은 아직 사용할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="541"/>
+        <location filename="../browserwindow.cpp" line="545"/>
         <source>Important:</source>
         <translation>중요:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="542"/>
+        <location filename="../browserwindow.cpp" line="546"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>VEVO 비디오 재생에 실패하면 도움말 메뉴의 %1 옵션을 사용하세요.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="543"/>
+        <location filename="../browserwindow.cpp" line="547"/>
         <source>Update the YouTube code</source>
         <translation>유투브 코드를 업데이트하기</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="275"/>
+        <location filename="../browserwindow.cpp" line="279"/>
         <source>Loading... %1%</source>
         <translation>불러오는 중... %1%</translation>
     </message>
@@ -344,12 +346,17 @@
         <translation>인터페이스(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="254"/>
+        <location filename="../configdialog.ui" line="248"/>
+        <source>&amp;Style:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="284"/>
         <source>Font:</source>
         <translation>글꼴:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="268"/>
+        <location filename="../configdialog.ui" line="298"/>
         <source>C&amp;hange...</source>
         <translation>변경(&amp;H)...</translation>
     </message>
@@ -367,6 +374,11 @@
         <location filename="../configdialog.ui" line="132"/>
         <source>Down</source>
         <translation>아래로</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="73"/>
+        <source>Default</source>
+        <translation type="unfinished">기본</translation>
     </message>
 </context>
 <context>

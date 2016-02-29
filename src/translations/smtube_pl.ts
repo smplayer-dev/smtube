@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="pl">
 <context>
     <name>About</name>
     <message>
@@ -145,99 +147,99 @@
         <translation>&amp;O SMTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="302"/>
+        <location filename="../browserwindow.cpp" line="306"/>
         <source>Download video using an external service</source>
         <translation>Pobierz film za pomocą usługi zewnętrznej</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="304"/>
+        <location filename="../browserwindow.cpp" line="308"/>
         <source>Download</source>
         <translation>Pobierz</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="489"/>
+        <location filename="../browserwindow.cpp" line="493"/>
         <source>Connection failed</source>
         <translation>Połączenie nie powiodło się</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="490"/>
+        <location filename="../browserwindow.cpp" line="494"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Wideo, które chcesz obejrzeć potrzebuje nawiązania połączenia HTTPS.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="491"/>
+        <location filename="../browserwindow.cpp" line="495"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>Niestety potrzebny do tego komponent OpenSSL, nie jest dostępny w twoim systemie.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="496"/>
+        <location filename="../browserwindow.cpp" line="500"/>
         <source>No video found</source>
         <translation>Nie znaleziono żadnego wideo</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="497"/>
+        <location filename="../browserwindow.cpp" line="501"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Nie było możliwe znalezienie URL dla tego wideo.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="507"/>
-        <location filename="../browserwindow.cpp" line="515"/>
+        <location filename="../browserwindow.cpp" line="511"/>
+        <location filename="../browserwindow.cpp" line="519"/>
         <source>Problems with YouTube</source>
         <translation>Problemy z YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
-        <location filename="../browserwindow.cpp" line="516"/>
+        <location filename="../browserwindow.cpp" line="512"/>
+        <location filename="../browserwindow.cpp" line="520"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Niestety z powodu zmian w YouTube, wideo &apos;%1&apos; nie może zostać odtworzone.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="513"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>Czy chcesz uaktualnić kod YouTube? To może naprawić ten problem.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="517"/>
+        <location filename="../browserwindow.cpp" line="521"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Być może aktualizacja tego programu rozwiąże problem.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="536"/>
+        <location filename="../browserwindow.cpp" line="540"/>
         <source>About this release</source>
         <translation>O tym wydaniu</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="537"/>
+        <location filename="../browserwindow.cpp" line="541"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>Z powodu zmian na YouTube, stara wersja SMTube już nie działa.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="538"/>
+        <location filename="../browserwindow.cpp" line="542"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>To jest nowa wersja SMTube, napisana od zera.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="539"/>
+        <location filename="../browserwindow.cpp" line="543"/>
         <source>Some functionality is not available yet.</source>
         <translation>Niektóre funkcjonalności nie są jeszcze dostępne.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="541"/>
+        <location filename="../browserwindow.cpp" line="545"/>
         <source>Important:</source>
         <translation>Ważne:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="542"/>
+        <location filename="../browserwindow.cpp" line="546"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>Jeśli wideo z VEVO nie odtwarza się, należy użyć opcji %1 w menu Pomoc.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="543"/>
+        <location filename="../browserwindow.cpp" line="547"/>
         <source>Update the YouTube code</source>
         <translation>Zaktualizuj kod YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="275"/>
+        <location filename="../browserwindow.cpp" line="279"/>
         <source>Loading... %1%</source>
         <translation>Ładowanie... %1%</translation>
     </message>
@@ -344,12 +346,17 @@
         <translation>&amp;Interfejs</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="254"/>
+        <location filename="../configdialog.ui" line="248"/>
+        <source>&amp;Style:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="284"/>
         <source>Font:</source>
         <translation>Czcionka:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="268"/>
+        <location filename="../configdialog.ui" line="298"/>
         <source>C&amp;hange...</source>
         <translation>Zmień... (&amp;h)</translation>
     </message>
@@ -367,6 +374,11 @@
         <location filename="../configdialog.ui" line="132"/>
         <source>Down</source>
         <translation>W dół</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="73"/>
+        <source>Default</source>
+        <translation type="unfinished">Domyślnie</translation>
     </message>
 </context>
 <context>
