@@ -87,12 +87,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="131"/>
         <source>Zoom +</source>
-        <translation type="unfinished"/>
+        <translation>Збільшення +</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="135"/>
         <source>Zoom -</source>
-        <translation type="unfinished"/>
+        <translation>Збільшення –</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="139"/>
@@ -301,7 +301,7 @@
     <message>
         <location filename="../configdialog.ui" line="108"/>
         <source>&amp;Players</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Програвачі</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="156"/>
@@ -341,17 +341,17 @@
     <message>
         <location filename="../configdialog.ui" line="240"/>
         <source>&amp;Interface</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Зовнішній вигляд</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="254"/>
         <source>Font:</source>
-        <translation type="unfinished"/>
+        <translation>Шрифт:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="268"/>
         <source>C&amp;hange...</source>
-        <translation type="unfinished"/>
+        <translation>Змі&amp;нити...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="68"/>
