@@ -1,5 +1,8 @@
 Version 16.x:
 
+(2016-02-28)
+ * Add an option to select the application style.
+
 (2016-02-17)
 * Add an option in the settings dialog to select the application font.
 

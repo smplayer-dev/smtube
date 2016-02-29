@@ -192,6 +192,10 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	toolbar->hide();
 	statusBar()->hide();
 
+#ifdef STYLE_SWITCHING
+	default_style = qApp->style()->objectName();
+#endif
+
 	loadConfig();
 
 	if (use_cookies) {
@@ -567,6 +571,10 @@ void BrowserWindow::showConfigDialog() {
 
 	d.setDefaultFont(qApp->font());
 
+#ifdef STYLE_SWITCHING
+	d.setStyle(qApp->style()->objectName());
+#endif
+
 	if (d.exec() == QDialog::Accepted) {
 		preferred_quality = d.playbackQuality();
 		#ifdef USE_PLAYERS
@@ -581,6 +589,10 @@ void BrowserWindow::showConfigDialog() {
 
 		QFont new_font = d.defaultFont();
 		if (qApp->font() != new_font) qApp->setFont(new_font);
+
+		#ifdef STYLE_SWITCHING
+		setStyle(d.style());
+		#endif
 	}
 }
 
@@ -591,6 +603,9 @@ void BrowserWindow::saveConfig() {
 	settings->setValue("size", size());
 	settings->setValue("pos", pos());
 	settings->setValue("font", qApp->font().toString());
+#ifdef STYLE_SWITCHING
+	settings->setValue("style", qApp->style()->objectName());
+#endif
 	settings->endGroup();
 
 	settings->beginGroup("view");
@@ -638,6 +653,11 @@ void BrowserWindow::loadConfig() {
 	QString current_font = qApp->font().toString();
 	f.fromString(settings->value("font", current_font).toString());
 	qApp->setFont(f);
+
+#ifdef STYLE_SWITCHING
+	setStyle(settings->value("style", "").toString());
+#endif
+
 	settings->endGroup();
 
 	if (!DesktopInfo::isInsideScreen(this)) {
@@ -717,5 +737,18 @@ void BrowserWindow::loadConfig() {
 	}
 #endif
 }
+
+#ifdef STYLE_SWITCHING
+void BrowserWindow::setStyle(QString style) {
+	if (style.isEmpty()) style = default_style;
+	QString current_style = qApp->style()->objectName();
+	if (!style.isEmpty() && style != current_style) {
+		qDebug() << "BrowserWindow::setStyle:" << style;
+		//qApp->setStyleSheet("");
+		qApp->setStyle(style);
+		qApp->setPalette(qApp->style()->standardPalette());
+	}
+}
+#endif
 
 #include "moc_browserwindow.cpp"
