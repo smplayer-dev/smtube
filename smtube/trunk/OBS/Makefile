@@ -2,7 +2,7 @@
 # deb packages at build.opensuse.org
 
 PACKAGE = smtube
-VERSION = 16.1.0
+VERSION = 16.3.0
 DEPENDS = debhelper (>= 5.0.0), libqt4-dev, libqtwebkit-dev
 
 DSC_FILE = $(PACKAGE).dsc

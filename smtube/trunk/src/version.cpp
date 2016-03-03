@@ -18,9 +18,9 @@
 
 #include "version.h"
 
-#define USE_SVN_VERSIONS 1
+#define USE_SVN_VERSIONS 0
 
-#define VERSION "16.1.0"
+#define VERSION "16.3.0"
 
 #if USE_SVN_VERSIONS
 #include "svn_revision.h"

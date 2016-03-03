@@ -1,3 +1,12 @@
+smtube (16.3.0) precise; urgency=low
+
+  * Possibility to use an external service (website) to download videos.
+  * Options to zoom in and out.
+  * New options in the settings dialog to change the font and style of the 
+    application.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 03 Mar 2016 02:24:12 +0100
+
 smtube (16.1.0) precise; urgency=low
 
   * Fix for VEVO videos.
