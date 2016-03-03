@@ -348,7 +348,7 @@
     <message>
         <location filename="../configdialog.ui" line="248"/>
         <source>&amp;Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>스타일(&amp;S):</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="284"/>
@@ -378,7 +378,7 @@
     <message>
         <location filename="../configdialog.cpp" line="73"/>
         <source>Default</source>
-        <translation type="unfinished">기본</translation>
+        <translation>기본값</translation>
     </message>
 </context>
 <context>

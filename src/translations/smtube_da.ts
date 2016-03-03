@@ -378,7 +378,7 @@
     <message>
         <location filename="../configdialog.cpp" line="73"/>
         <source>Default</source>
-        <translation type="unfinished">Standard</translation>
+        <translation>Standard</translation>
     </message>
 </context>
 <context>

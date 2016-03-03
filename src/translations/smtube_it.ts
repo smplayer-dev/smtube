@@ -348,7 +348,7 @@
     <message>
         <location filename="../configdialog.ui" line="248"/>
         <source>&amp;Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Stile:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="284"/>
@@ -378,7 +378,7 @@
     <message>
         <location filename="../configdialog.cpp" line="73"/>
         <source>Default</source>
-        <translation type="unfinished">Predefinita</translation>
+        <translation>Predefinito</translation>
     </message>
 </context>
 <context>
