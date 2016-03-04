@@ -290,6 +290,9 @@ void BrowserWindow::finishLoading(bool) {
 	qDebug() << "BrowserWindow::finishLoading: add_download_button:" << add_download_button;
 	qDebug() << "BrowserWindow::finishLoading: external_download_url:" << external_download_url;
 
+	QString title_txt = tr("Download video using an external service").replace("'", "\\'");
+	QString download_txt = tr("Download").replace("'", "\\'");
+
 	if (add_download_button && url.contains("/info.php?") &&
 		(external_download_url.contains("%YT_URL%") || external_download_url.contains("%YT_ID%")))
 	{
@@ -303,9 +306,9 @@ void BrowserWindow::finishLoading(bool) {
 					"div.cells[0].colSpan = 5;"
 					"div.innerHTML = div.innerHTML + "
 					"'<td><a target=\"_blank\" class=\"btn btn-primary btn-xs\" "
-					"title=\"" + tr("Download video using an external service") +"\" "
+					"title=\"" + title_txt +"\" "
 					"href=\"' + link + '\">"
-					"<span class=\"glyphicon glyphicon-download\"></span> " + tr("Download") +"</a></td>';"
+					"<span class=\"glyphicon glyphicon-download\"></span> " + download_txt +"</a></td>';"
 				"}";
 
 		view->page()->mainFrame()->evaluateJavaScript(code);
