@@ -140,8 +140,8 @@ ${!defineifexist} USE_MOREINFO MoreInfo.dll
   !define MUI_DIRECTORYPAGE_TEXT_TOP "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
 
   ;Finish page
-  !define MUI_FINISHPAGE_LINK "http://smplayer.sourceforge.net"
-  !define MUI_FINISHPAGE_LINK_LOCATION "http://smplayer.sourceforge.net"
+  !define MUI_FINISHPAGE_LINK "http://www.smplayer.info"
+  !define MUI_FINISHPAGE_LINK_LOCATION "http://www.smplayer.info"
   !define MUI_FINISHPAGE_NOREBOOTSUPPORT
   !define MUI_FINISHPAGE_RUN $INSTDIR\smtube.exe
   !define MUI_FINISHPAGE_RUN_NOTCHECKED
