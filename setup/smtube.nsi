@@ -57,6 +57,12 @@ ${!defineifexist} USE_MOREINFO MoreInfo.dll
   !define SMTUBE_PE_EXE "smtube-portable.exe"
 !endif
 
+!ifdef QT5
+  !define SMTUBE_QT_VER "Qt5"
+!else
+  !define SMTUBE_QT_VER "Qt4"
+!endif
+
 ;--------------------------------
 ;General
 
@@ -131,7 +137,7 @@ ${!defineifexist} USE_MOREINFO MoreInfo.dll
   !define MUI_COMPONENTSPAGE_SMALLDESC
 
   ;Directory page
-  !define MUI_DIRECTORYPAGE_TEXT_TOP "$(^DirText)$\r$\n$\r$\nSMTube must be installed to the same directory as SMPlayer."
+  !define MUI_DIRECTORYPAGE_TEXT_TOP "$(^DirText)$\r$\n$\r$\nSMTube requires a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
 
   ;Finish page
   !define MUI_FINISHPAGE_LINK "http://smplayer.sourceforge.net"
@@ -388,6 +394,14 @@ Function .onVerifyInstDir
 
   IfFileExists "$INSTDIR\smplayer.exe" +2
     Abort
+
+!ifdef QT5
+  IfFileExists "$INSTDIR\Qt5Core.dll" +2
+    Abort
+!else
+  IfFileExists "$INSTDIR\QtCore4.dll" +2
+    Abort
+!endif
 
 FunctionEnd
 
