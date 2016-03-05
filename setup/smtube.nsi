@@ -137,7 +137,7 @@ ${!defineifexist} USE_MOREINFO MoreInfo.dll
   !define MUI_COMPONENTSPAGE_SMALLDESC
 
   ;Directory page
-  !define MUI_DIRECTORYPAGE_TEXT_TOP "$(^DirText)$\r$\n$\r$\nSMTube requires a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+  !define MUI_DIRECTORYPAGE_TEXT_TOP "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
 
   ;Finish page
   !define MUI_FINISHPAGE_LINK "http://smplayer.sourceforge.net"
