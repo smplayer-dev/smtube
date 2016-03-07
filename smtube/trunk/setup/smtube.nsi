@@ -457,6 +457,8 @@ FunctionEnd
 
 Function GetFileVerFirstNamedLangEntryOnWindowsNT
 
+  ; Written by Anders (anders_k)
+  ; http://forums.winamp.com/archive/index.php/t-271175.html
   System::Store S
   pop $3
   pop $4
