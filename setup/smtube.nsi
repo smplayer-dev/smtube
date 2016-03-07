@@ -116,6 +116,8 @@ ${!defineifexist} USE_MOREINFO MoreInfo.dll
   Var SMPlayer_FileDescription
   Var SMPlayer_ProductName
 
+  Var SkippedChecks
+
 ;--------------------------------
 ;Interface Settings
 
@@ -287,6 +289,10 @@ Section "SMTube (required)" SecSMTube
 
   SectionIn RO
 
+  ${If} $SkippedChecks == 1
+    DetailPrint "Architecture and Qt version checks bypassed by command-line."
+  ${EndIf}
+
   SetOutPath "$INSTDIR"
   ${If} $InstType_Is_Portable == 1
     DetailPrint "Found portable version of SMPlayer."
@@ -369,6 +375,12 @@ FunctionEnd
 !define StrContains '!insertmacro "_StrContainsConstructor"'
 
 ;--------------------------------
+;Required functions
+
+!insertmacro GetParameters
+!insertmacro GetOptions
+
+;--------------------------------
 ;Installer functions
 
 Function .onInit
@@ -391,6 +403,14 @@ Function .onVerifyInstDir
   IfFileExists "$INSTDIR\smplayer.exe" +2
     Abort
 
+  ${GetParameters} $R0
+
+  ${GetOptions} $R0 "/SKIPCHECKS" $R1
+  ${Unless} ${Errors}
+    StrCpy $SkippedChecks 1
+    Goto skipchecks
+  ${EndUnless}
+
 !ifdef QT5
   IfFileExists "$INSTDIR\Qt5Core.dll" +2
     Abort
@@ -412,6 +432,8 @@ Function .onVerifyInstDir
   ${StrContains} $0 "(${SMTUBE_INST_ARCH})" "$SMPlayer_ProductName"
   StrCmp $0 "" 0 +2
     Abort
+
+  skipchecks:
 
 FunctionEnd
 
