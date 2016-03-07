@@ -113,10 +113,8 @@ ${!defineifexist} USE_MOREINFO MoreInfo.dll
 !endif
   Var SMPlayer_StartMenuFolder
 
-!ifdef USE_MOREINFO
   Var SMPlayer_FileDescription
   Var SMPlayer_ProductName
-!endif
 
 ;--------------------------------
 ;Interface Settings
@@ -329,7 +327,6 @@ SectionEnd
 ; Written by kenglish_hi
 ; Adapted from StrReplace written by dandaman32
 
-!ifdef USE_MOREINFO
 Var STR_HAYSTACK
 Var STR_NEEDLE
 Var STR_CONTAINS_VAR_1
@@ -370,7 +367,6 @@ FunctionEnd
 !macroend
  
 !define StrContains '!insertmacro "_StrContainsConstructor"'
-!endif
 
 ;--------------------------------
 ;Installer functions
@@ -413,6 +409,17 @@ Function PageComponentsLeave
 
   MoreInfo::GetFileDescription "$INSTDIR\smplayer.exe"
   Pop $SMPlayer_FileDescription
+!else
+  Push ProductName
+  Push "$INSTDIR\smplayer.exe"
+  Call GetFileVerFirstNamedLangEntryOnWindowsNT
+  Pop $SMPlayer_ProductName
+
+  Push FileDescription
+  Push "$INSTDIR\smplayer.exe"
+  Call GetFileVerFirstNamedLangEntryOnWindowsNT
+  Pop $SMPlayer_FileDescription
+!endif
 
   ${StrContains} $0 "(${SMTUBE_INST_ARCH})" "$SMPlayer_ProductName"
   StrCmp $0 "" 0 +3
@@ -424,14 +431,19 @@ Function PageComponentsLeave
     StrCpy $InstType_Is_Portable 0
     Goto +2
   StrCpy $InstType_Is_Portable 1
-!else
- ; Simple way to figure out portable/non-portable w/o MoreInfo
+
+  ; For troubleshooting
+  ; MessageBox MB_OK "$SMPlayer_ProductName"
+  ; MessageBox MB_OK "$SMPlayer_FileDescription - Portable? $InstType_Is_Portable"
+
+/*
+  ; Simple way to figure out portable/non-portable w/o MoreInfo
   ${If} ${FileExists} "$INSTDIR\smplayer_orig.ini"
     StrCpy $InstType_Is_Portable 1
   ${Else}
     StrCpy $InstType_Is_Portable 0
   ${EndIf}
-!endif
+*/
 
 FunctionEnd
 
@@ -440,5 +452,39 @@ Function PageStartMenuPre
   ${If} $InstType_Is_Portable == 1
     Abort
   ${EndIf}
+
+FunctionEnd
+
+Function GetFileVerFirstNamedLangEntryOnWindowsNT
+
+  System::Store S
+  pop $3
+  pop $4
+  push "" ;failed ret
+
+  System::Call 'version::GetFileVersionInfoSizeW(w"$3",i.r2)i.r0'
+
+  ${If} $0 <> 0
+    System::Alloc $0
+    System::Call 'version::GetFileVersionInfoW(w"$3",ir2,ir0,isr1)i.r0 ? e'
+    pop $2
+    ${If} $0 <> 0
+    ${AndIf} $2 = 0 ;a user comment on MSDN said you should check GLE to avoid crash
+      System::Call 'version::VerQueryValueW(i r1,w "\VarFileInfo\Translation",*i0r2,*i0)i.r0'
+      ${If} $0 <> 0
+        System::Call '*$2(&i2.r2,&i2.r3)'
+        IntFmt $2 %04x $2
+        IntFmt $3 %04x $3
+        System::Call 'version::VerQueryValueW(i r1,w "\StringFileInfo\$2$3\$4",*i0r2,*i0r3)i.r0'
+        ${If} $0 <> 0
+        pop $0
+        System::Call *$2(&w$3.s)
+        ${EndIf}
+      ${EndIf}
+    ${EndIf}
+    System::Free $1
+  ${EndIf}
+
+  System::Store L
 
 FunctionEnd
