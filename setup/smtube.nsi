@@ -399,32 +399,33 @@ Function .onVerifyInstDir
     Abort
 !endif
 
-FunctionEnd
-
-Function PageComponentsLeave
-
 !ifdef USE_MOREINFO
   MoreInfo::GetProductName "$INSTDIR\smplayer.exe"
   Pop $SMPlayer_ProductName
-
-  MoreInfo::GetFileDescription "$INSTDIR\smplayer.exe"
-  Pop $SMPlayer_FileDescription
 !else
   Push ProductName
   Push "$INSTDIR\smplayer.exe"
   Call GetFileVerFirstNamedLangEntryOnWindowsNT
   Pop $SMPlayer_ProductName
+!endif
 
+  ${StrContains} $0 "(${SMTUBE_INST_ARCH})" "$SMPlayer_ProductName"
+  StrCmp $0 "" 0 +2
+    Abort
+
+FunctionEnd
+
+Function PageComponentsLeave
+
+!ifdef USE_MOREINFO
+  MoreInfo::GetFileDescription "$INSTDIR\smplayer.exe"
+  Pop $SMPlayer_FileDescription
+!else
   Push FileDescription
   Push "$INSTDIR\smplayer.exe"
   Call GetFileVerFirstNamedLangEntryOnWindowsNT
   Pop $SMPlayer_FileDescription
 !endif
-
-  ${StrContains} $0 "(${SMTUBE_INST_ARCH})" "$SMPlayer_ProductName"
-  StrCmp $0 "" 0 +3
-    MessageBox MB_YESNO|MB_ICONEXCLAMATION "This version of SMTube requires a ${SMTUBE_INST_ARCH} installation of SMPlayer.$\r$\n$\r$\nContinue anyway?" /SD IDNO IDYES +2
-    Abort
 
   ${StrContains} $1 "Portable" "$SMPlayer_FileDescription"
   StrCmp $1 "" 0 +3
