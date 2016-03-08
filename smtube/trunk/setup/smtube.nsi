@@ -386,8 +386,21 @@ Function .onInit
   StrCpy $INSTDIR $SMPlayer_Path
 !endif
 
+  ;Check for admin on < Vista
+  UserInfo::GetAccountType
+  Pop $R0
+  ${If} $R0 != "admin"
+    MessageBox MB_OK|MB_ICONSTOP $(Installer_No_Admin)
+    Abort
+  ${EndIf}
+
+  ;Setup language selection
+  !insertmacro MUI_LANGDLL_DISPLAY
+
   ;Gets start menu folder name
   !insertmacro MUI_STARTMENU_GETFOLDER "SMP_SMenu" $SMPlayer_StartMenuFolder
+
+  SetShellVarContext all
 
 FunctionEnd
 
