@@ -114,6 +114,10 @@
   !define MUI_UNWELCOMEFINISHPAGE_BITMAP "smtube-orange-wizard-un.bmp"
   !define MUI_ABORTWARNING
 
+  ;Welcome page
+  !define MUI_WELCOMEPAGE_TITLE $(WelcomePage_Title)
+  !define MUI_WELCOMEPAGE_TEXT $(WelcomePage_Text)
+
   ;License page
   !define MUI_LICENSEPAGE_RADIOBUTTONS
 
@@ -121,7 +125,7 @@
   !define MUI_COMPONENTSPAGE_SMALLDESC
 
   ;Directory page
-  !define MUI_DIRECTORYPAGE_TEXT_TOP "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+  !define MUI_DIRECTORYPAGE_TEXT_TOP $(DirectoryPage_Text)
 
   ;Finish page
   !define MUI_FINISHPAGE_LINK "http://www.smplayer.info"
@@ -219,9 +223,8 @@
   !insertmacro MUI_LANGUAGE "Ukrainian"
 
 ;Custom translations for setup
-/*
+
   !insertmacro LANGFILE_INCLUDE "translations\english.nsh"
-  /*
   !insertmacro LANGFILE_INCLUDE "translations\albanian.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\arabic.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\basque.nsh"
@@ -253,7 +256,7 @@
   !insertmacro LANGFILE_INCLUDE "translations\thai.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\tradchinese.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\ukrainian.nsh"
-*/
+
 ;--------------------------------
 ;Reserve Files
 
@@ -269,21 +272,21 @@
 
 ;--------------------------------
 ;Main SMTube files
-Section "SMTube (required)" SecSMTube
+Section $(Section_SMTube) SecSMTube
 
   SectionIn RO
 
   ${If} $SkippedChecks == 1
-    DetailPrint "Architecture and Qt version checks bypassed by command-line."
+    DetailPrint $(Info_QtArch_Bypassed)
   ${EndIf}
 
   ${If} $OverrideAsPortable == 1
-    DetailPrint "Portable check overriden by command-line, forcing portable."
+    DetailPrint $(Info_Portable_Bypassed)
   ${EndIf}
 
   SetOutPath "$INSTDIR"
   ${If} $InstType_Is_Portable == 1
-    DetailPrint "Found portable version of SMPlayer."
+    DetailPrint $(Info_Portable_Detected)
     File /oname=smtube.exe "portable\${SMTUBE_PE_EXE}"
   ${Else}
     File "..\src\release\smtube.exe"
@@ -375,7 +378,7 @@ Function .onInit
 
 !ifdef WIN64
   ${IfNot} ${RunningX64}
-    MessageBox MB_OK|MB_ICONSTOP "A 64-bit Windows operating system is required to install this software."
+    MessageBox MB_OK|MB_ICONSTOP $(Win64_Required)
     Abort
   ${EndIf}
 
