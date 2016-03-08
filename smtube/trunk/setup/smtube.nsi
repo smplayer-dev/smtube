@@ -374,6 +374,11 @@ FunctionEnd
 Function .onInit
 
 !ifdef WIN64
+  ${IfNot} ${RunningX64}
+    MessageBox MB_OK|MB_ICONSTOP "A 64-bit Windows operating system is required to install this software."
+    Abort
+  ${EndIf}
+
   SetRegView 64
 
   ;Workaround for InstallDirRegKey on 64-bit
