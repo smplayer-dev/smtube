@@ -100,6 +100,8 @@
 
   Var SkippedChecks
 
+  Var OverrideAsPortable
+
 ;--------------------------------
 ;Interface Settings
 
@@ -275,6 +277,10 @@ Section "SMTube (required)" SecSMTube
     DetailPrint "Architecture and Qt version checks bypassed by command-line."
   ${EndIf}
 
+  ${If} $OverrideAsPortable == 1
+    DetailPrint "Portable check overriden by command-line, forcing portable."
+  ${EndIf}
+
   SetOutPath "$INSTDIR"
   ${If} $InstType_Is_Portable == 1
     DetailPrint "Found portable version of SMPlayer."
@@ -431,15 +437,23 @@ Function PageComponentsLeave
   Pop $SMPlayer_FileDescription
 !endif
 
-  ${StrContains} $1 "Portable" "$SMPlayer_FileDescription"
-  StrCmp $1 "" 0 +3
-    StrCpy $InstType_Is_Portable 0
-    Goto +2
-  StrCpy $InstType_Is_Portable 1
+  ${GetParameters} $R0
+
+  ${GetOptionsS} $R0 "/P" $R1
+  ${Unless} ${Errors}
+    StrCpy $InstType_Is_Portable 1
+    StrCpy $OverrideAsPortable 1
+  ${Else}
+    ${StrContains} $1 "Portable" "$SMPlayer_FileDescription"
+    StrCmp $1 "" 0 +3
+      StrCpy $InstType_Is_Portable 0
+      Goto +2
+    StrCpy $InstType_Is_Portable 1
+  ${EndUnless}
 
   ; For troubleshooting
   ; MessageBox MB_OK "$SMPlayer_ProductName"
-  ; MessageBox MB_OK "$SMPlayer_FileDescription - Portable? $InstType_Is_Portable"
+  ; MessageBox MB_OK "$SMPlayer_FileDescription - Portable? - $InstType_Is_Portable - Override: $OverrideAsPortable"
 
 /*
   ; Simple way to figure out portable/non-portable w/o MoreInfo
@@ -484,8 +498,8 @@ Function GetFileVerFirstNamedLangEntryOnWindowsNT
         IntFmt $3 %04x $3
         System::Call 'version::VerQueryValueW(i r1,w "\StringFileInfo\$2$3\$4",*i0r2,*i0r3)i.r0'
         ${If} $0 <> 0
-        pop $0
-        System::Call *$2(&w$3.s)
+          pop $0
+          System::Call *$2(&w$3.s)
         ${EndIf}
       ${EndIf}
     ${EndIf}
