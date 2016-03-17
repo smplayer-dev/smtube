@@ -409,9 +409,6 @@ FunctionEnd
 
 Function .onVerifyInstDir
 
-  IfFileExists "$INSTDIR\smplayer.exe" +2
-    Abort
-
   ${GetParameters} $R0
 
   ${GetOptions} $R0 "/SKIPCHECKS" $R1
@@ -419,6 +416,9 @@ Function .onVerifyInstDir
     StrCpy $SkippedChecks 1
     Goto skipchecks
   ${EndUnless}
+
+  IfFileExists "$INSTDIR\smplayer.exe" +2
+    Abort
 
 !ifdef QT5
   IfFileExists "$INSTDIR\Qt5Core.dll" +2
