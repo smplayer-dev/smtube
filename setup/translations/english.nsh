@@ -20,8 +20,9 @@ ${LangFileString} Section_SMTube "SMTube (required)"
 
 ; Directory Page
 ${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+${LangFileString} DirectoryIsNotWritable "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.$\r$\n$\r$\nProceed with installation?"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "Architecture and Qt version checks bypassed by command-line."
+${LangFileString} Info_QtArch_Bypassed "SMPlayer, architecture and Qt version check bypassed by command-line."
 ${LangFileString} Info_Portable_Bypassed "Portable check overriden by command-line, forcing portable."
 ${LangFileString} Info_Portable_Detected "Found portable version of SMPlayer."

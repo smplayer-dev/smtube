@@ -447,7 +447,7 @@ Function PageComponentsLeave
 
   IfErrors NotWritable Writable
   NotWritable:
-    MessageBox MB_YESNO|MB_ICONEXCLAMATION|MB_DEFBUTTON2 "The chosen installation directory is not writable and may require administrator privileges.$\r$\n$\r$\nProceed with installation?" /SD IDNO IDYES +2
+    MessageBox MB_YESNO|MB_ICONEXCLAMATION|MB_DEFBUTTON2 $(DirectoryIsNotWritable) /SD IDNO IDYES +2
     Abort
   Writable:
     FileClose $0
