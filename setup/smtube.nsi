@@ -403,7 +403,7 @@ Function .onVerifyInstDir
 
   ${GetParameters} $R0
 
-  ${GetOptions} $R0 "/SKIPCHECKS" $R1
+  ${GetOptionsS} $R0 "/SC" $R1
   ${Unless} ${Errors}
     StrCpy $SkippedChecks 1
     Goto skipchecks
