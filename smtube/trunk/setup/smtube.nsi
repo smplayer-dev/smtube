@@ -81,7 +81,7 @@
   InstallDirRegKey HKLM "${SMPLAYER_REG_KEY}" "Path"
 
   ;Vista+ XML manifest, does not affect older OSes
-  RequestExecutionLevel admin
+  RequestExecutionLevel highest
 
   ShowInstDetails show
   ShowUnInstDetails show
@@ -389,14 +389,6 @@ Function .onInit
   StrCpy $INSTDIR $SMPlayer_Path
 !endif
 
-  ;Check for admin on < Vista
-  UserInfo::GetAccountType
-  Pop $R0
-  ${If} $R0 != "admin"
-    MessageBox MB_OK|MB_ICONSTOP $(Installer_No_Admin)
-    Abort
-  ${EndIf}
-
   ;Setup language selection
   !insertmacro MUI_LANGDLL_DISPLAY
 
@@ -447,6 +439,19 @@ Function .onVerifyInstDir
 FunctionEnd
 
 Function PageComponentsLeave
+
+  ClearErrors
+
+  FileOpen $0 "$INSTDIR\write_test" "w"
+  FileWriteByte $0 "0"
+
+  IfErrors NotWritable Writable
+  NotWritable:
+    MessageBox MB_YESNO|MB_ICONEXCLAMATION|MB_DEFBUTTON2 "The chosen installation directory is not writable and may require administrator privileges.$\r$\n$\r$\nProceed with installation?" /SD IDNO IDYES +2
+    Abort
+  Writable:
+    FileClose $0
+    Delete "$INSTDIR\write_test"
 
 !ifdef USE_MOREINFO
   MoreInfo::GetFileDescription "$INSTDIR\smplayer.exe"
