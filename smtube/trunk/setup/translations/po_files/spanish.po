@@ -1,3 +1,65 @@
+# Info_Portable_Detected
+msgid "Found portable version of SMPlayer."
+msgstr "Se ha encontrado una versión portable de SMPlayer."
+
+# Info_Portable_Bypassed
+msgid "Portable check overriden by command-line, forcing portable."
+msgstr ""
+"La comprobación de versión portable ha sido anulada por la línea de "
+"comandos, forzando portable."
+
+# Info_QtArch_Bypassed
+msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
+msgstr ""
+"SMPlayer, la comprobación de arquitectura y versión de Qt han sido anulados "
+"por la línea de comandos."
+
+# DirectoryIsNotWritable
+msgid ""
+"The chosen installation directory is not writable and may require restarting "
+"the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed with "
+"installation?"
+msgstr ""
+"La carpeta seleccionada para la instalación no tiene permisos de escritura "
+"y puede requerir reiniciar el instalador con permisos de administrador."
+"[:r:][:n:][:r:][:n:]¿Seguir con la instalación?"
+
+# DirectoryPage_Text
+msgid ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
+"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+msgstr ""
+"$(^DirText)[:r:][:n:][:r:][:n:]Se debe instalar SMTube en una carpeta "
+"que contenga una instalación de SMPlayer de ${SMTUBE_INST_ARCH} y ${SMTUBE_QT_VER}."
+
+# Section_SMTube
+msgid "SMTube (required)"
+msgstr "SMTube (requerido)"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
+"n:]It is recommended that you close all instances of SMTube before starting "
+"setup. This will make it possible to update relevant program files without "
+"having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr ""
+"A continuación se procederá a la instalación de $(^NameDA).[:r:][:n:][:r:][:"
+"n:]Se recomienda cerrar todos los procesos de SMTube antes de comenzar con "
+"la instalación. De esta manera será posible actualizar los ficheros del "
+"programa sin tener que reiniciar el ordenador.[:r:][:n:][:r:][:n:]$_CLICK"
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "Instalación de $(^NameDA)"
+
+# Win64_Required
+msgid "A 64-bit Windows operating system is required to install this software."
+msgstr "Se necesita un Windows de 64 bits para instalar este programa."
+
+# Installer_No_Admin
+msgid "You must be logged in as an administrator when installing this program."
+msgstr "Debes tener permisos de administrador para instalar este programa."
+
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
@@ -8,44 +70,3 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-# Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr ""
-
-# Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr ""
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr ""
-
-# WelcomePage_Text
-msgid "Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
-
-# Section_SMTube
-msgid "SMTube (required)"
-msgstr ""
-
-# DirectoryPage_Text
-msgid "$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-msgstr ""
-
-# DirectoryIsNotWritable
-msgid "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed with installation?"
-msgstr ""
-
-# Info_QtArch_Bypassed
-msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
-msgstr ""
-
-# Info_Portable_Bypassed
-msgid "Portable check overriden by command-line, forcing portable."
-msgstr ""
-
-# Info_Portable_Detected
-msgid "Found portable version of SMPlayer."
-msgstr ""
-
