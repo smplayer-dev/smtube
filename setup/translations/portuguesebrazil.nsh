@@ -7,22 +7,22 @@
 !insertmacro LANGFILE "PortugueseBR" "Português (Brasil)"
 
 ; Startup
-${LangFileString} Installer_No_Admin "You must be logged in as an administrator when installing this program."
+${LangFileString} Installer_No_Admin "Você precisa estar logado como administrador quando instalar esse programa."
 
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
+${LangFileString} Win64_Required "Um sistema operacional Windows 64-bit é necessário para instalar esse software."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Title "$(^NameDA) Configuração"
+${LangFileString} WelcomePage_Text "A configuração lhe guiará através da instalação do $(^NameDA).$\r$\n$\r$\nÉ recomendado fechar todas as instâncias do SMTube antes de iniciar a configuração. Isso tornará possível atualizar arquivos importantes do programa sem ter que reiniciar seu computador.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} Section_SMTube "SMTube (required)"
+${LangFileString} Section_SMTube "SMTube (necessário)"
 
 ; Directory Page
-${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-${LangFileString} DirectoryIsNotWritable "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.$\r$\n$\r$\nProceed with installation?"
+${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nO SMTube deve ser instalado em uma pasta contendo uma ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} instalação do SMPlayer."
+${LangFileString} DirectoryIsNotWritable "A pasta de instalação escolhida não pode ser alterada e requer que você reinicie o instalador como administrador do sistema.$\r$\n$\r$\nContinuar com a instalação?"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "SMPlayer, architecture and Qt version check bypassed by command-line."
-${LangFileString} Info_Portable_Bypassed "Portable check overriden by command-line, forcing portable."
-${LangFileString} Info_Portable_Detected "Found portable version of SMPlayer."
+${LangFileString} Info_QtArch_Bypassed "Verificação da versão do Qt, arquitetura e SMPlayer contornada pela linha de comando."
+${LangFileString} Info_Portable_Bypassed "Verificação portátil invalidada pela linha de comando, forçando portátil."
+${LangFileString} Info_Portable_Detected "Encontrada versão portátil do SMPlayer."
