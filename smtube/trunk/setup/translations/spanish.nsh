@@ -19,8 +19,8 @@ ${LangFileString} WelcomePage_Text "A continuación se procederá a la instalaci
 ${LangFileString} Section_SMTube "SMTube (requerido)"
 
 ; Directory Page
-${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSe debe instalar SMTube en una carpeta que contenga una instalación de SMPlayer de ${SMTUBE_INST_ARCH} y ${SMTUBE_QT_VER}."
-${LangFileString} DirectoryIsNotWritable "La carpeta seleccionada para la instalación no tiene permisos de escritura y puede requerir reiniciar el instalador con permisos de administrador.$\r$\n$\r$\n¿Seguir con la instalación?"
+${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSe debe instalar SMTube en un directorio que contenga una instalación de SMPlayer de ${SMTUBE_INST_ARCH} y ${SMTUBE_QT_VER}."
+${LangFileString} DirectoryIsNotWritable "El directorio seleccionado para la instalación no tiene permisos de escritura y puede requerir reiniciar el instalador con permisos de administrador.$\r$\n$\r$\n¿Seguir con la instalación?"
 
 ; Misc
 ${LangFileString} Info_QtArch_Bypassed "SMPlayer, la comprobación de arquitectura y versión de Qt han sido anulados por la línea de comandos."

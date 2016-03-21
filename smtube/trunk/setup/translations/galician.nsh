@@ -7,22 +7,22 @@
 !insertmacro LANGFILE "Galician" "Galego"
 
 ; Startup
-${LangFileString} Installer_No_Admin "You must be logged in as an administrator when installing this program."
+${LangFileString} Installer_No_Admin "Debe acceder como administrador para instalar este programa."
 
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
+${LangFileString} Win64_Required "Precísase un sistema operativo Windows de 64-bits para instalar esta aplicación."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Title "Configurar $(^NameDA) "
+${LangFileString} WelcomePage_Text "O instalador guiarate na instalación de $(^NameDA).$\r$\n$\r$\n Recoméndase que se pechen todas as instancias de SMTube antes de comezar coa instalación. Así pódese actualizar os ficheiros da aplicación que son de relevancia sen logo precisar de reiniciar o ordenador.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} Section_SMTube "SMTube (required)"
+${LangFileString} Section_SMTube "SMTube (requirido)"
 
 ; Directory Page
-${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube debe instalarse nun cartafol que conteña unha instalación ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} do SMPlayer."
 ${LangFileString} DirectoryIsNotWritable "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.$\r$\n$\r$\nProceed with installation?"
 
 ; Misc
 ${LangFileString} Info_QtArch_Bypassed "SMPlayer, architecture and Qt version check bypassed by command-line."
 ${LangFileString} Info_Portable_Bypassed "Portable check overriden by command-line, forcing portable."
-${LangFileString} Info_Portable_Detected "Found portable version of SMPlayer."
+${LangFileString} Info_Portable_Detected "Atopouse unha versión portátil do SMPlayer."
