@@ -1,45 +1,65 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
+# Translators:
+# Ettore Atalan <atalanttore@googlemail.com>, 2016
+# Tobias Bannert <tobannert@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: SMPlayer\n"
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2016-03-21 16:52+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
+"Language-Team: German (http://www.transifex.com/rvm/smplayer/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr ""
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "Sie müssen als Systemverwalter angemeldet sein, um das Programm zu installieren."
 
 # Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr ""
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "Ein 64-bit-Windows-Betriebssystem wird benötigt, um das Programm zu installieren."
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
-msgstr ""
+msgstr "$(^NameDA)-Einrichtung"
 
 # WelcomePage_Text
-msgid "Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMTube before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
 msgstr ""
 
 # Section_SMTube
 msgid "SMTube (required)"
-msgstr ""
+msgstr "SMTube (erforderlich)"
 
 # DirectoryPage_Text
-msgid "$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-msgstr ""
+msgid ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
+"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+msgstr "$(^DirText)[:r:][:n:][:r:][:n:]SMTube muss in ein Verzeichniss installiert werden, das eine ${SMTUBE_INST_ARCH}-${SMTUBE_QT_VER}-Installation vom SMPlayer enthält."
 
 # DirectoryIsNotWritable
-msgid "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed with installation?"
-msgstr ""
+msgid ""
+"The chosen installation directory is not writable and may require restarting"
+" the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
+"with installation?"
+msgstr "Das ausgewählte Installationsverzeichnis ist nicht beschreibbar und benötigt den Neustart des Installationsprogramms mit Systemverwaltungsrechten.[:r:][:n:][:r:][:n:]Mit der Installation fortfahren?"
 
 # Info_QtArch_Bypassed
 msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
-msgstr ""
+msgstr "SMPlayer-, Architektur- und Qt-Versionsprüfung durch Befehlszeile umgangen."
 
 # Info_Portable_Bypassed
 msgid "Portable check overriden by command-line, forcing portable."
@@ -47,5 +67,4 @@ msgstr ""
 
 # Info_Portable_Detected
 msgid "Found portable version of SMPlayer."
-msgstr ""
-
+msgstr "Portable Version vom SMPlayer gefunden."

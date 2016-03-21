@@ -20,7 +20,7 @@ msgid ""
 "the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed with "
 "installation?"
 msgstr ""
-"La carpeta seleccionada para la instalación no tiene permisos de escritura "
+"El directorio seleccionado para la instalación no tiene permisos de escritura "
 "y puede requerir reiniciar el instalador con permisos de administrador."
 "[:r:][:n:][:r:][:n:]¿Seguir con la instalación?"
 
@@ -29,7 +29,7 @@ msgid ""
 "$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
 "containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
 msgstr ""
-"$(^DirText)[:r:][:n:][:r:][:n:]Se debe instalar SMTube en una carpeta "
+"$(^DirText)[:r:][:n:][:r:][:n:]Se debe instalar SMTube en un directorio "
 "que contenga una instalación de SMPlayer de ${SMTUBE_INST_ARCH} y ${SMTUBE_QT_VER}."
 
 # Section_SMTube
