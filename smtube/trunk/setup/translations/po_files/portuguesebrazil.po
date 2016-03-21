@@ -1,51 +1,69 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
+# Translators:
+# carlo giusepe tadei valente sasaki <carlo.gt.valente@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: SMPlayer\n"
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2016-03-21 00:31+0000\n"
+"Last-Translator: carlo giusepe tadei valente sasaki <carlo.gt.valente@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/rvm/smplayer/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 # Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr ""
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "Você precisa estar logado como administrador quando instalar esse programa."
 
 # Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr ""
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "Um sistema operacional Windows 64-bit é necessário para instalar esse software."
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
-msgstr ""
+msgstr "$(^NameDA) Configuração"
 
 # WelcomePage_Text
-msgid "Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMTube before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "A configuração lhe guiará através da instalação do $(^NameDA).[:r:][:n:][:r:][:n:]É recomendado fechar todas as instâncias do SMTube antes de iniciar a configuração. Isso tornará possível atualizar arquivos importantes do programa sem ter que reiniciar seu computador.[:r:][:n:][:r:][:n:]$_CLICK"
 
 # Section_SMTube
 msgid "SMTube (required)"
-msgstr ""
+msgstr "SMTube (necessário)"
 
 # DirectoryPage_Text
-msgid "$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-msgstr ""
+msgid ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
+"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+msgstr "$(^DirText)[:r:][:n:][:r:][:n:]O SMTube deve ser instalado em uma pasta contendo uma ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} instalação do SMPlayer."
 
 # DirectoryIsNotWritable
-msgid "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed with installation?"
-msgstr ""
+msgid ""
+"The chosen installation directory is not writable and may require restarting"
+" the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
+"with installation?"
+msgstr "A pasta de instalação escolhida não pode ser alterada e requer que você reinicie o instalador como administrador do sistema.[:r:][:n:][:r:][:n:]Continuar com a instalação?"
 
 # Info_QtArch_Bypassed
 msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
-msgstr ""
+msgstr "Verificação da versão do Qt, arquitetura e SMPlayer contornada pela linha de comando."
 
 # Info_Portable_Bypassed
 msgid "Portable check overriden by command-line, forcing portable."
-msgstr ""
+msgstr "Verificação portátil invalidada pela linha de comando, forçando portátil."
 
 # Info_Portable_Detected
 msgid "Found portable version of SMPlayer."
-msgstr ""
-
+msgstr "Encontrada versão portátil do SMPlayer."
