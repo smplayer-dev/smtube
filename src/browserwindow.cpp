@@ -51,6 +51,7 @@
 
 #if QT_VERSION >= 0x050000
 #include <QStandardPaths>
+#include "myscroller.h"
 #else
 #include <QDesktopServices>
 #endif
@@ -103,6 +104,10 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 
 	view->setPage(page);
 	view->page()->setLinkDelegationPolicy(QWebPage::DelegateAllLinks);
+
+#if QT_VERSION >= 0x050000
+	//MyScroller::setScroller(view);
+#endif
 
 	connect(view, SIGNAL(loadFinished(bool)), SLOT(adjustLocation()));
 	connect(view, SIGNAL(titleChanged(QString)), SLOT(adjustTitle()));

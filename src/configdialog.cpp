@@ -26,6 +26,10 @@
 #include "retrieveyoutubeurl.h"
 #include "playerdialog.h"
 
+#if QT_VERSION >= 0x050000
+#include "myscroller.h"
+#endif
+
 #define COL_NAME 0
 #define COL_BINARY 1
 #define COL_PARMS 2
@@ -42,6 +46,10 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 #ifdef USE_PLAYERS
 	connect(edit_button, SIGNAL(clicked()), this, SLOT(editCurrentItem()));
 	connect(table, SIGNAL(itemActivated(QListWidgetItem *)), this, SLOT(editCurrentItem()));
+
+	#if QT_VERSION >= 0x050000
+	MyScroller::setScroller(table);
+	#endif
 #else
 	tabs->setTabEnabled(1, false);
 #endif

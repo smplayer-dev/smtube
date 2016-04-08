@@ -28,6 +28,7 @@ HEADERS = links.h \
           version.h \
           lineedit_with_icon.h \
           filechooser.h \
+          myscroller.h \
           playerdialog.h \
           configdialog.h \
           desktopinfo.h \
@@ -43,6 +44,7 @@ SOURCES = mywebview.cpp \
           version.cpp \
           lineedit_with_icon.cpp \
           filechooser.cpp \
+          myscroller.cpp \
           playerdialog.cpp \
           configdialog.cpp \
           desktopinfo.cpp \
