@@ -92,6 +92,12 @@ QString qtTranslationsPath() {
 }
 
 int main(int argc, char * argv[]) {
+#if QT_VERSION >= 0x050400 && QT_VERSION < 0x050600
+	qputenv("QT_DEVICE_PIXEL_RATIO", QByteArray("auto"));
+#elif QT_VERSION >= 0x050600
+	QApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+#endif
+
 	QApplication a(argc, argv);
 	a.setApplicationName("smtube");
 
