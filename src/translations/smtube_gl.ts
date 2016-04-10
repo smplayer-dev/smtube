@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="gl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -463,7 +461,7 @@
     <message>
         <location filename="../playerdialog.ui" line="71"/>
         <source>This player supports &amp;video sites</source>
-        <translation>Este reprodutor é compatíbel con servizos de &amp;vídeo</translation>
+        <translation>Este reprodutor é compatíbel con webs de &amp;vídeo</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="78"/>
