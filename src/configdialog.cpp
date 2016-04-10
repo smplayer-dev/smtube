@@ -66,7 +66,7 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	playback_quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
 
 #ifdef D_BUTTON
-	external_download_combo->addItem("http://www.dlvyoutube.com/%YT_URL%");
+	external_download_combo->addItem("http://www.dlyoutube.com/watch?v=%YT_ID%");
 	external_download_combo->addItem("http://9xbuddy.com/download?url=%YT_URL%");
 	external_download_combo->addItem("http://www.savefrom.net/#url=%YT_URL%");
 	external_download_combo->addItem("http://keepvid.com/?url=%YT_URL%");
