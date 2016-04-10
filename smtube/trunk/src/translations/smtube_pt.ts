@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -328,7 +326,7 @@
     <message>
         <location filename="../configdialog.ui" line="167"/>
         <source>Delete</source>
-        <translation>Eliminar</translation>
+        <translation>Apagar</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="191"/>
@@ -463,7 +461,7 @@
     <message>
         <location filename="../playerdialog.ui" line="71"/>
         <source>This player supports &amp;video sites</source>
-        <translation>Este reprodutor tem suporte a sítios de &amp;vídeos</translation>
+        <translation>Este reprodutor tem suporte a sites de &amp;vídeos</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="78"/>
