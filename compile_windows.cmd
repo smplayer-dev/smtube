@@ -123,9 +123,9 @@ if %QT_VER% lss 5.0.0 (
   echo File "%QT_DIR%\bin\Qt5OpenGL.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
   echo File "%QT_DIR%\bin\Qt5PrintSupport.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
   echo File "%QT_DIR%\bin\Qt5MultimediaWidgets.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
-  echo File "%QT_DIR%\bin\icuin54.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
-  echo File "%QT_DIR%\bin\icuuc54.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
-  echo File "%QT_DIR%\bin\icudt54.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  rem echo File "%QT_DIR%\bin\icuin54.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  rem echo File "%QT_DIR%\bin\icuuc54.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  rem echo File "%QT_DIR%\bin\icudt54.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
 )
 
 :compile
