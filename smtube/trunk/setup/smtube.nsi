@@ -61,17 +61,17 @@
   Name "SMTube ${SMTUBE_VERSION}"
   BrandingText "SMTube for Windows v${SMTUBE_VERSION}"
 !ifdef WIN64
-  !ifdef QT5
-  OutFile "output\Qt5\smtube-${SMTUBE_VERSION}-x64-qt5.exe"
-  !else
+  ;!ifdef QT5
+  ;OutFile "output\Qt5\smtube-${SMTUBE_VERSION}-x64-qt5.exe"
+  ;!else
   OutFile "output\smtube-${SMTUBE_VERSION}-x64.exe"
-  !endif
+  ;!endif
 !else
-  !ifdef QT5
-  OutFile "output\Qt5\smtube-${SMTUBE_VERSION}-win32-qt5.exe"
-  !else
+  ;!ifdef QT5
+  ;OutFile "output\Qt5\smtube-${SMTUBE_VERSION}-win32-qt5.exe"
+  ;!else
   OutFile "output\smtube-${SMTUBE_VERSION}-win32.exe"
-  !endif
+  ;!endif
 !endif
 
   ;Version tab properties
