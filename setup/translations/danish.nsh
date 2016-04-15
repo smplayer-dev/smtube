@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Danish" "Dansk"
+!else
+!insertmacro LANGFILE "Danish" = "Dansk" =
+!endif
 
 ; Startup
 ${LangFileString} Installer_No_Admin "You must be logged in as an administrator when installing this program."

@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "PortugueseBR" "Português (Brasil)"
+!else
+!insertmacro LANGFILE "PortugueseBR" "Brazilian Portuguese" "Português Brasileiro" "Portugues Brasileiro"
+!endif
 
 ; Startup
 ${LangFileString} Installer_No_Admin "Você precisa estar logado como administrador quando instalar esse programa."
