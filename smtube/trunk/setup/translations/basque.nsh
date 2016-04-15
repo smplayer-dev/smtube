@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Basque" "Euskara"
+!else
+!insertmacro LANGFILE "Basque" = "Euskera" =
+!endif
 
 ; Startup
 ${LangFileString} Installer_No_Admin "Administratzaile bezala saioa hasita egon behar duzu programa hau ezartzerakoan."

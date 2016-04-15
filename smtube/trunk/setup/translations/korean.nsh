@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Korean" "한국어"
+!else
+!insertmacro LANGFILE "Korean" = "한국어" "Hangugeo"
+!endif
 
 ; Startup
 ${LangFileString} Installer_No_Admin "이 프로그램을 설치하려면 관리자 권한이 필요합니다."
