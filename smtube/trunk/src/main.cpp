@@ -145,6 +145,12 @@ int main(int argc, char * argv[]) {
 
 	a.installTranslator(&app_trans);
 	a.installTranslator(&qt_trans);
+	
+	#if QT_VERSION >= 0x050000
+	QTranslator qtbase_trans;
+	qtbase_trans.load("qtbase_" + locale, qtTranslationsPath());
+	a.installTranslator(&qtbase_trans);
+	#endif
 
 	if (!QFile::exists(configPath())) {
 		qDebug() << "Creating" << configPath();
