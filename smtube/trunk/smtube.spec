@@ -9,9 +9,21 @@ URL:            http://www.smtube.org
 Source0:        http://downloads.sourceforge.net/smtube/smtube-%{version}.tar.bz2
 
 %if 0%{?suse_version}
-BuildRequires:  libqt4-devel
-BuildRequires:  libQtWebKit-devel
+#BuildRequires:  libqt4-devel
+#BuildRequires:  libQtWebKit-devel
 BuildRequires:  hicolor-icon-theme
+BuildRequires:  libqt5-qttools-devel
+BuildRequires:  pkgconfig(Qt5Concurrent)
+BuildRequires:  pkgconfig(Qt5Core)
+BuildRequires:  pkgconfig(Qt5DBus)
+BuildRequires:  pkgconfig(Qt5Gui)
+BuildRequires:  pkgconfig(Qt5Network)
+BuildRequires:  pkgconfig(Qt5PrintSupport)
+BuildRequires:  pkgconfig(Qt5Script)
+BuildRequires:  pkgconfig(Qt5Sql)
+BuildRequires:  pkgconfig(Qt5WebKitWidgets)
+BuildRequires:  pkgconfig(Qt5Widgets)
+BuildRequires:  pkgconfig(Qt5Xml)
 %else
 BuildRequires:  qt4-devel
 BuildRequires:  qtwebkit-devel
@@ -37,7 +49,10 @@ mv Changelog.utf8 Changelog
 
 %build
 make \
-%if !0%{?suse_version}
+%if 0%{?suse_version}
+	QMAKE=%{_libqt5_bindir}/qmake \
+	LRELEASE=%{_libqt5_bindir}/lrelease \
+%else
 	QMAKE=%{_qt4_qmake} \
 	LRELEASE=%{_bindir}/lrelease-qt4 \
 %endif
