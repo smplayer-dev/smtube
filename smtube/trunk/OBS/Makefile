@@ -3,7 +3,7 @@
 
 PACKAGE = smtube
 VERSION = 16.3.0
-DEPENDS =  debhelper (>= 5.0.0), qtbase5-dev (>= 5.4) | libqt4-dev, qt5-qmake (>= 5.4) | libqt4-dev, qtscript5-dev (>= 5.4) | libqt4-dev, qttools5-dev-tools (>= 5.4) | libqt4-dev, qt5-default (>= 5.4) | libqt4-dev, libqt5webkit5-dev (>= 5.4) | libqtwebkit-dev
+DEPENDS = debhelper (>= 5.0.0), qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, qt5-default, libqt5webkit5-dev
 
 DSC_FILE = $(PACKAGE).dsc
 DEBIAN_FILE = debian.tar.gz
