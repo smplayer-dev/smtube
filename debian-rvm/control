@@ -2,16 +2,10 @@ Source: smtube
 Section: graphics
 Priority: extra
 Maintainer: Ricardo Villalba <rvm@users.sourceforge.net>
-Build-Depends:
- debhelper (>= 5.0.0),
- qtbase5-dev (>= 5.4) | libqt4-dev,
- qt5-qmake (>= 5.4) | libqt4-dev,
- qtscript5-dev (>= 5.4) | libqt4-dev,
- qttools5-dev-tools (>= 5.4) | libqt4-dev,
- qt5-default (>= 5.4) | libqt4-dev,
- libqt5webkit5-dev (>= 5.4) | libqtwebkit-dev
 Standards-Version: 3.9.2
 Homepage: http://smtube.sourceforge.net/
+#Build-Depends: debhelper (>= 5.0.0), libqt4-dev, libqtwebkit-dev
+Build-Depends: debhelper (>= 5.0.0), qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, qt5-default, libqt5webkit5-dev
 
 Package: smtube
 Architecture: any
