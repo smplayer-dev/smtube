@@ -111,7 +111,11 @@ int main(int argc, char * argv[]) {
 	a.setApplicationVersion(smtubeVersion());
 
 	// Enable icons in menus
-	QCoreApplication::setAttribute(Qt::AA_DontShowIconsInMenus, false);
+	a.setAttribute(Qt::AA_DontShowIconsInMenus, false);
+#endif
+
+#ifdef HDPI_SUPPORT
+	delete hdpi;
 #endif
 
 	QUrl url;
@@ -185,10 +189,5 @@ int main(int argc, char * argv[]) {
 	int r = a.exec();
 
 	delete w;
-
-#ifdef HDPI_SUPPORT
-	delete hdpi;
-#endif
-
 	return r;
 }
