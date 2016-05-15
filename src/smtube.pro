@@ -12,6 +12,11 @@ DEFINES += STYLE_SWITCHING
 
 DEFINES += D_PLAYERS
 
+# If Qt >= 5.4
+greaterThan(QT_MAJOR_VERSION, 4):greaterThan(QT_MINOR_VERSION, 3) {
+	DEFINES += HDPI_SUPPORT
+}
+
 isEqual(QT_MAJOR_VERSION, 5) {
 	QT += webkitwidgets widgets gui
 } else {
@@ -77,6 +82,11 @@ contains(DEFINES, USE_PLAYERS) {
 	SOURCES += players.cpp
 } else {
 	HEADERS += hcplayer.h
+}
+
+contains( DEFINES, HDPI_SUPPORT ) {
+	HEADERS += hdpisupport.h
+	SOURCES += hdpisupport.cpp
 }
 
 unix {
