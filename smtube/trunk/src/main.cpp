@@ -24,6 +24,10 @@
 #include <QLibraryInfo>
 #include <QDebug>
 
+#ifdef HDPI_SUPPORT
+#include "hdpisupport.h"
+#endif
+
 QString configPath() {
 #ifdef PORTABLE_APP
 	return qApp->applicationDirPath();
@@ -42,7 +46,7 @@ QString configPath() {
 #endif // PORTABLE_APP
 }
 
-#ifdef YT_USE_YTSIG
+#if defined(YT_USE_YTSIG) || defined(HDPI_SUPPORT)
 QString smplayerConfigPath() {
 #ifdef PORTABLE_APP
 	return qApp->applicationDirPath();
@@ -92,13 +96,12 @@ QString qtTranslationsPath() {
 }
 
 int main(int argc, char * argv[]) {
-#if QT_VERSION >= 0x050400 && QT_VERSION < 0x050600
-	if (qgetenv("QT_DEVICE_PIXEL_RATIO").isEmpty()) {
-		qputenv("QT_DEVICE_PIXEL_RATIO", QByteArray("auto"));
+#ifdef HDPI_SUPPORT
+	QString hdpi_config = configPath();
+	if (QFile::exists(smplayerConfigPath() + "/hdpi.ini")) {
+		hdpi_config = smplayerConfigPath();
 	}
-
-#elif QT_VERSION >= 0x050600
-	QApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+	HDPISupport * hdpi = new HDPISupport(hdpi_config);
 #endif
 
 	QApplication a(argc, argv);
@@ -182,5 +185,10 @@ int main(int argc, char * argv[]) {
 	int r = a.exec();
 
 	delete w;
+
+#ifdef HDPI_SUPPORT
+	delete hdpi;
+#endif
+
 	return r;
 }
