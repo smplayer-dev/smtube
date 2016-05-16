@@ -46,7 +46,7 @@ QString configPath() {
 #endif // PORTABLE_APP
 }
 
-#if defined(YT_USE_YTSIG) || defined(HDPI_SUPPORT)
+#ifdef YT_USE_YTSIG
 QString smplayerConfigPath() {
 #ifdef PORTABLE_APP
 	return qApp->applicationDirPath();
@@ -97,11 +97,7 @@ QString qtTranslationsPath() {
 
 int main(int argc, char * argv[]) {
 #ifdef HDPI_SUPPORT
-	QString hdpi_config = configPath();
-	if (QFile::exists(smplayerConfigPath() + "/hdpi.ini")) {
-		hdpi_config = smplayerConfigPath();
-	}
-	HDPISupport * hdpi = new HDPISupport(hdpi_config);
+	HDPISupport * hdpi = new HDPISupport();
 #endif
 
 	QApplication a(argc, argv);
