@@ -48,11 +48,7 @@
   !define SMTUBE_PE_EXE "smtube-portable.exe"
 !endif
 
-!ifdef QT5
-  !define SMTUBE_QT_VER "Qt5"
-!else
-  !define SMTUBE_QT_VER "Qt4"
-!endif
+  !define SMTUBE_QT_VER "Qt 5.6.1"
 
 ;--------------------------------
 ;General
@@ -61,17 +57,9 @@
   Name "SMTube ${SMTUBE_VERSION}"
   BrandingText "SMTube for Windows v${SMTUBE_VERSION}"
 !ifdef WIN64
-  ;!ifdef QT5
-  ;OutFile "output\Qt5\smtube-${SMTUBE_VERSION}-x64-qt5.exe"
-  ;!else
   OutFile "output\smtube-${SMTUBE_VERSION}-x64.exe"
-  ;!endif
 !else
-  ;!ifdef QT5
-  ;OutFile "output\Qt5\smtube-${SMTUBE_VERSION}-win32-qt5.exe"
-  ;!else
   OutFile "output\smtube-${SMTUBE_VERSION}-win32.exe"
-  ;!endif
 !endif
 
   ;Version tab properties
@@ -420,13 +408,8 @@ Function .onVerifyInstDir
   IfFileExists "$INSTDIR\smplayer.exe" +2
     Abort
 
-!ifdef QT5
   IfFileExists "$INSTDIR\Qt5Core.dll" +2
     Abort
-!else
-  IfFileExists "$INSTDIR\QtCore4.dll" +2
-    Abort
-!endif
 
 !ifdef USE_MOREINFO
   MoreInfo::GetProductName "$INSTDIR\smplayer.exe"
@@ -486,8 +469,7 @@ Function PageComponentsLeave
   ${EndUnless}
 
   ; For troubleshooting
-  ; MessageBox MB_OK "$SMPlayer_ProductName"
-  ; MessageBox MB_OK "$SMPlayer_FileDescription - Portable? - $InstType_Is_Portable - Override: $OverrideAsPortable"
+  ; MessageBox MB_OK "ProductName: $SMPlayer_ProductName / FileDescription: $SMPlayer_FileDescription$\r$\n$\r$\nPortable: $InstType_Is_Portable / Override: $OverrideAsPortable"
 
 /*
   ; Simple way to figure out portable/non-portable w/o MoreInfo

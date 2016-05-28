@@ -135,9 +135,7 @@ goto end
 echo --- SMTube NSIS Package [32-bit] ---
 echo.
 
-findstr /c:"Qt5WebKit" %TOP_LEVEL_DIR%\qt_files.nsh 2>&1 >nul && (set DEF_QT5=/DQT5) || (set DEF_QT5=)
-
-%MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% %DEF_QT5% %TOP_LEVEL_DIR%\smtube.nsi
+%MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% %TOP_LEVEL_DIR%\smtube.nsi
 
 goto end
 
@@ -145,9 +143,7 @@ goto end
 echo --- SMTube NSIS Package [64-bit] ---
 echo.
 
-findstr /c:"Qt5WebKit" %TOP_LEVEL_DIR%\qt_files.nsh 2>&1 >nul && (set DEF_QT5=/DQT5) || (set DEF_QT5=)
-
-%MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% %DEF_QT5% /DWIN64 %TOP_LEVEL_DIR%\smtube.nsi
+%MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smtube.nsi
 
 goto end
 
