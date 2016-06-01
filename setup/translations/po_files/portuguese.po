@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-03-21 00:15+0000\n"
+"PO-Revision-Date: 2016-03-21 23:20+0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/rvm/smplayer/language/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Tem que iniciar sessão como administrador para poder instalar esta apli
 # Win64_Required
 msgid ""
 "A 64-bit Windows operating system is required to install this software."
-msgstr "Para poder instalar esta aplicação, tem que possuir um sistema de 64 bits."
+msgstr "Para instalar esta aplicação, tem que possuir um sistema de 64 bits."
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
@@ -47,23 +47,23 @@ msgstr "SMTube (obrigatório)"
 msgid ""
 "$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
 "containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-msgstr ""
+msgstr "$(^DirText)[:r:][:n:][:r:][:n:]O SMTube deve ser instalado num diretório que contenha uma instalação  ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} do SMPlayer."
 
 # DirectoryIsNotWritable
 msgid ""
 "The chosen installation directory is not writable and may require restarting"
 " the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
 "with installation?"
-msgstr "Não tem permissões para escrever o diretório escolhido e pode ser necessário executar a instalação com poderes de administrador.[:r:][:n:][:r:][:n:]Continuar com a instalação?"
+msgstr "Não tem permissões para escrever no diretório escolhido e pode ser necessário executar a instalação como administrador.[:r:][:n:][:r:][:n:]Continuar com a instalação?"
 
 # Info_QtArch_Bypassed
 msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
-msgstr ""
+msgstr "SMPlayer, arquitetura e versão Qt ignorada pela linha de comandos."
 
 # Info_Portable_Bypassed
 msgid "Portable check overriden by command-line, forcing portable."
-msgstr ""
+msgstr "Verificação substituída pela linha de comandos, a forçar versão portátil."
 
 # Info_Portable_Detected
 msgid "Found portable version of SMPlayer."
-msgstr ""
+msgstr "Encontrada uma versão portátil do SMPlayer."
