@@ -17,7 +17,7 @@ ${LangFileString} Win64_Required "Ein 64-bit-Windows-Betriebssystem wird benöti
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "$(^NameDA)-Einrichtung"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Text "Der Einrichtungsassistent wird Sie durch die Installation von $(^NameDA) begleiten.$\r$\n$\r$\nEs wird empfohlen, alle Instanzen von SMTube vor dem Beginn der Installation zu schließen. Dadurch wird es möglich, entsprechende Programmdateien, ohne einen Neustart des Rechners zu aktualisieren.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} Section_SMTube "SMTube (erforderlich)"
@@ -28,5 +28,5 @@ ${LangFileString} DirectoryIsNotWritable "Das ausgewählte Installationsverzeich
 
 ; Misc
 ${LangFileString} Info_QtArch_Bypassed "SMPlayer-, Architektur- und Qt-Versionsprüfung durch Befehlszeile umgangen."
-${LangFileString} Info_Portable_Bypassed "Portable check overriden by command-line, forcing portable."
+${LangFileString} Info_Portable_Bypassed "Portable Kontrolle durch Befehlszeile außer Kraft gesetzt, Typ portabel wird erzwungen."
 ${LangFileString} Info_Portable_Detected "Portable Version vom SMPlayer gefunden."

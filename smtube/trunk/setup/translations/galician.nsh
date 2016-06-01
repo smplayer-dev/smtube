@@ -24,9 +24,9 @@ ${LangFileString} Section_SMTube "SMTube (requirido)"
 
 ; Directory Page
 ${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube debe instalarse nun cartafol que conteña unha instalación ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} do SMPlayer."
-${LangFileString} DirectoryIsNotWritable "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.$\r$\n$\r$\nProceed with installation?"
+${LangFileString} DirectoryIsNotWritable "O cartafol da instalación seleccionada non é escribíbel e pode necesitar o reinicio do instalador con privilexios de administrador.$\r$\n$\r$\nDesexa continuar coa instalación?"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "SMPlayer, architecture and Qt version check bypassed by command-line."
-${LangFileString} Info_Portable_Bypassed "Portable check overriden by command-line, forcing portable."
+${LangFileString} Info_QtArch_Bypassed "SMPlayer, a comprobación da arquitectura e versión Qt foron anuladas por liña de ordes."
+${LangFileString} Info_Portable_Bypassed "A comprobación da versión portátil foi anulada por liña de ordes, forzando portátil."
 ${LangFileString} Info_Portable_Detected "Atopouse unha versión portátil do SMPlayer."
