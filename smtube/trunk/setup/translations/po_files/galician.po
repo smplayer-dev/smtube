@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-03-21 21:43+0000\n"
+"PO-Revision-Date: 2016-03-22 05:11+0000\n"
 "Last-Translator: antiparvos <marcoslansgarza@gmail.com>\n"
 "Language-Team: Galician (http://www.transifex.com/rvm/smplayer/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -54,15 +54,15 @@ msgid ""
 "The chosen installation directory is not writable and may require restarting"
 " the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
 "with installation?"
-msgstr ""
+msgstr "O cartafol da instalación seleccionada non é escribíbel e pode necesitar o reinicio do instalador con privilexios de administrador.[:r:][:n:][:r:][:n:]Desexa continuar coa instalación?"
 
 # Info_QtArch_Bypassed
 msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
-msgstr ""
+msgstr "SMPlayer, a comprobación da arquitectura e versión Qt foron anuladas por liña de ordes."
 
 # Info_Portable_Bypassed
 msgid "Portable check overriden by command-line, forcing portable."
-msgstr ""
+msgstr "A comprobación da versión portátil foi anulada por liña de ordes, forzando portátil."
 
 # Info_Portable_Detected
 msgid "Found portable version of SMPlayer."
