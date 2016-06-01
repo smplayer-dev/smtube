@@ -11,22 +11,22 @@
 !endif
 
 ; Startup
-${LangFileString} Installer_No_Admin "You must be logged in as an administrator when installing this program."
+${LangFileString} Installer_No_Admin "Do instalacji tego programu wymagane są uprawnienia administratora."
 
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
+${LangFileString} Win64_Required "Do zainstalowania tego programu wymagany jest system operacyjny Windows w wersji 64-bitowej."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Title "Instalator $(^NameDA)"
+${LangFileString} WelcomePage_Text "Instalator poprowadzi Cię przez proces instalacji $(^NameDA).$\r$\n$\r$\nZalecane jest zamknięcie wszystkich instancji SMTube przed rozpoczęciem instalacji. Dzięki temu możliwe będzie zaktualizowanie odpowiednich plików programu, bez konieczności ponownego uruchamiania komputera.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} Section_SMTube "SMTube (required)"
+${LangFileString} Section_SMTube "SMPlayer (wymagany)"
 
 ; Directory Page
-${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-${LangFileString} DirectoryIsNotWritable "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.$\r$\n$\r$\nProceed with installation?"
+${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube musi być zainstalowany do katalogu zawierającego ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} instalację of SMPlayer."
+${LangFileString} DirectoryIsNotWritable "Wybrany katalog instalacyjny nie ma prawa zapisu i może wymagać ponownego uruchomienia instalatora z uprawnieniami administratora.$\r$\n$\r$\nKontynuować instalację?"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "SMPlayer, architecture and Qt version check bypassed by command-line."
-${LangFileString} Info_Portable_Bypassed "Portable check overriden by command-line, forcing portable."
-${LangFileString} Info_Portable_Detected "Found portable version of SMPlayer."
+${LangFileString} Info_QtArch_Bypassed "SMPlayer, architektura i kontrola wersji Qt ominięte przez wiersz poleceń."
+${LangFileString} Info_Portable_Bypassed "Kontrola przenośna nadpisywana przez wiersz poleceń, wymuszając tryb przenośny."
+${LangFileString} Info_Portable_Detected "Znaleziono przenośną wersję SMPlayer."

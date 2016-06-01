@@ -11,22 +11,22 @@
 !endif
 
 ; Startup
-${LangFileString} Installer_No_Admin "You must be logged in as an administrator when installing this program."
+${LangFileString} Installer_No_Admin "Morate biti prijavljeni kao administrator kada instaliravate ovaj program."
 
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
+${LangFileString} Win64_Required "64-bitni Windows operativni sustav je potreban za instalaciju ovog softvera."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Title "$(^NameDA) program instalacije"
+${LangFileString} WelcomePage_Text "Program instalacije će vas voditi kroz instalaciju $(^NameDA).$\r$\n$\r$\nPreporučljivo je da zatvorite sve primjerke SMTuba prije pokretanja instalacije. To će omogućiti ažuriranje bitnih datoteka programa bez potrebe za ponovnim pokretanjem vašeg računala.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} Section_SMTube "SMTube (required)"
+${LangFileString} Section_SMTube "SMTube (potrebno)"
 
 ; Directory Page
-${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-${LangFileString} DirectoryIsNotWritable "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.$\r$\n$\r$\nProceed with installation?"
+${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube mora biti instaliran u direktorij koji sadrži ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} instalaciju SMPlayera."
+${LangFileString} DirectoryIsNotWritable "Odabrani direktorij instalacije nema dozvolu zapisivanja i zahtjeva ponovno pokretanje instalacijskog programa s administratorskim ovlastima.$\r$\n$\r$\nNastavi s instalacijom?"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "SMPlayer, architecture and Qt version check bypassed by command-line."
-${LangFileString} Info_Portable_Bypassed "Portable check overriden by command-line, forcing portable."
-${LangFileString} Info_Portable_Detected "Found portable version of SMPlayer."
+${LangFileString} Info_QtArch_Bypassed "Provjera SMPlayer arhitekture i Qt inačice zaobiđena je u naredbenom redku."
+${LangFileString} Info_Portable_Bypassed "Provjera je li aplikacija samostojeća zaobiđena je u naredbenom redku, prisilno je samostojeća."
+${LangFileString} Info_Portable_Detected "Dostupna je samostojeća inačica SMPlayera."
