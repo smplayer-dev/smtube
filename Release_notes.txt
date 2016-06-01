@@ -1,3 +1,7 @@
+Version 16.6
+ * Add support for high DPI screens.
+ * Build by default with Qt 5.
+
 Version 16.3
  * Possibility to use an external service (website) to download
    videos.

@@ -1,3 +1,15 @@
+Version 16.6:
+
+(2016-05-09)
+ * Build by default with Qt 5.
+
+(2016-04-08)
+ * Enable high DPI scaling.
+
+(2016-03-04)
+ * Replace ' with \' in the translation texts for the javascript code.
+
+
 Version 16.3:
 
 (2016-02-28)
