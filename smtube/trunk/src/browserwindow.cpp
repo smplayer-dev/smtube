@@ -754,7 +754,9 @@ void BrowserWindow::setStyle(QString style) {
 		qDebug() << "BrowserWindow::setStyle:" << style;
 		//qApp->setStyleSheet("");
 		qApp->setStyle(style);
+		#ifdef Q_OS_WIN
 		qApp->setPalette(qApp->style()->standardPalette());
+		#endif
 	}
 }
 #endif
