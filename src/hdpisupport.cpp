@@ -22,6 +22,8 @@
 
 #if QT_VERSION >= 0x050000
 #include <QStandardPaths>
+#else
+#include <QDesktopServices>
 #endif
 
 //#define DEBUG
@@ -40,7 +42,11 @@ HDPISupport * HDPISupport::instance() {
 }
 
 HDPISupport::HDPISupport(const QString & config_path)
+#ifdef Q_OS_WIN
 	: enabled(true)
+#else
+	: enabled(false)
+#endif
 	, auto_scale(true)
 	, scale_factor(1)
 	, pixel_ratio(2)
@@ -51,12 +57,13 @@ HDPISupport::HDPISupport(const QString & config_path)
 	set = 0;
 	if (!config_path.isEmpty()) {
 		setConfigPath(config_path);
-	}
-	#if QT_VERSION >= 0x050000
-	else {
+	} else {
+		#if QT_VERSION >= 0x050000
 		setConfigPath(QStandardPaths::writableLocation(QStandardPaths::ConfigLocation));
+		#else
+		setConfigPath(QDesktopServices::storageLocation(QDesktopServices::TempLocation));
+		#endif
 	}
-	#endif
 #else
 	apply();
 #endif
