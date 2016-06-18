@@ -4,7 +4,7 @@
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About...</source>
-        <translation>Om …</translation>
+        <translation>Om…</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
@@ -112,12 +112,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="155"/>
         <source>Toolbar</source>
-        <translation>Verktylinje</translation>
+        <translation>Verktyline</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="159"/>
         <source>Statusbar</source>
-        <translation>Statuslinje</translation>
+        <translation>Statusline</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="163"/>

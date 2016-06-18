@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -11,7 +9,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>&amp;Info</source>
-        <translation>&amp;Info</translation>
+        <translation>&amp;Informacje</translation>
     </message>
     <message>
         <location filename="../about.ui" line="89"/>
@@ -36,7 +34,7 @@
     <message>
         <location filename="../about.cpp" line="39"/>
         <source>Portable Edition</source>
-        <translation>Edycja portable</translation>
+        <translation>Wydanie przenośne</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>

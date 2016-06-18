@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_CN">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -89,12 +87,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="131"/>
         <source>Zoom +</source>
-        <translation type="unfinished"></translation>
+        <translation>放大</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="135"/>
         <source>Zoom -</source>
-        <translation type="unfinished"></translation>
+        <translation>缩小</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="139"/>
@@ -149,12 +147,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="306"/>
         <source>Download video using an external service</source>
-        <translation type="unfinished"></translation>
+        <translation>使用外置服务下载视频</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="308"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>下载</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="493"/>
@@ -303,7 +301,7 @@
     <message>
         <location filename="../configdialog.ui" line="108"/>
         <source>&amp;Players</source>
-        <translation type="unfinished"></translation>
+        <translation>播放器(&amp;P)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="156"/>
@@ -343,32 +341,32 @@
     <message>
         <location filename="../configdialog.ui" line="240"/>
         <source>&amp;Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>界面(&amp;I)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="248"/>
         <source>&amp;Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>样式(&amp;S):</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="284"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>字体:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="298"/>
         <source>C&amp;hange...</source>
-        <translation type="unfinished"></translation>
+        <translation>更改(&amp;h)...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="68"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>下载</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="74"/>
         <source>Download videos using an &amp;external service</source>
-        <translation type="unfinished"></translation>
+        <translation>使用外置服务下载视频(&amp;e)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="132"/>
@@ -378,7 +376,7 @@
     <message>
         <location filename="../configdialog.cpp" line="73"/>
         <source>Default</source>
-        <translation type="unfinished">默认</translation>
+        <translation>默认</translation>
     </message>
 </context>
 <context>
@@ -468,7 +466,7 @@
     <message>
         <location filename="../playerdialog.ui" line="78"/>
         <source>This player can play &amp;online TV</source>
-        <translation type="unfinished"></translation>
+        <translation>此播放器可以播放在线电视 (&amp;o)</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="87"/>
