@@ -39,7 +39,7 @@
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Compiled with Qt %1 (using %2)</source>
-        <translation>Compileret ved brug af Qt %1 (med %2)</translation>
+        <translation>Kompileret ved brug af Qt %1 (med %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="44"/>
@@ -64,7 +64,7 @@
     <message>
         <location filename="../about.cpp" line="91"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation>Klik her for at se oversætterne fra Transfex teams</translation>
+        <translation>Klik her for at se oversætterne fra Transifex teams</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
@@ -82,7 +82,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="123"/>
         <source>Navigation</source>
-        <translation>Nagivation</translation>
+        <translation>Navigation</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="131"/>
@@ -346,12 +346,12 @@
     <message>
         <location filename="../configdialog.ui" line="248"/>
         <source>&amp;Style:</source>
-        <translation>&amp;Typografi:</translation>
+        <translation>&amp;Stil:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="284"/>
         <source>Font:</source>
-        <translation>Skifttype:</translation>
+        <translation>Skrifttype:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="298"/>
@@ -418,7 +418,7 @@
     <message>
         <location filename="../mywebview.cpp" line="49"/>
         <source>Copy link to clipboard</source>
-        <translation>Kopier til udklipsholder</translation>
+        <translation>Kopiér link til udklipsholder</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
@@ -433,7 +433,7 @@
     <message>
         <location filename="../mywebview.cpp" line="51"/>
         <source>Copy text to clipboard</source>
-        <translation>Kopier tekst til udklipsholder</translation>
+        <translation>Kopiér tekst til udklipsholder</translation>
     </message>
 </context>
 <context>

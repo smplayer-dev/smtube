@@ -311,7 +311,7 @@
     <message>
         <location filename="../configdialog.ui" line="121"/>
         <source>Up</source>
-        <translation>Acima</translation>
+        <translation>Cima</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="33"/>
@@ -371,7 +371,7 @@
     <message>
         <location filename="../configdialog.ui" line="132"/>
         <source>Down</source>
-        <translation>Abaixo</translation>
+        <translation>Baixo</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="73"/>

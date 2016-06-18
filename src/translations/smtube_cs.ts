@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="cs">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -89,12 +87,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="131"/>
         <source>Zoom +</source>
-        <translation type="unfinished"></translation>
+        <translation>Přiblížit +</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="135"/>
         <source>Zoom -</source>
-        <translation type="unfinished"></translation>
+        <translation>Oddálit -</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="139"/>
@@ -149,12 +147,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="306"/>
         <source>Download video using an external service</source>
-        <translation type="unfinished"></translation>
+        <translation>Stáhnout video pomocí externí služby</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="308"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Stáhnout</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="493"/>
@@ -303,7 +301,7 @@
     <message>
         <location filename="../configdialog.ui" line="108"/>
         <source>&amp;Players</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Přehrávače</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="156"/>
@@ -343,32 +341,32 @@
     <message>
         <location filename="../configdialog.ui" line="240"/>
         <source>&amp;Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rozhraní</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="248"/>
         <source>&amp;Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Styl:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="284"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Font:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="298"/>
         <source>C&amp;hange...</source>
-        <translation type="unfinished"></translation>
+        <translation>Z&amp;měnit...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="68"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Stáhnout</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="74"/>
         <source>Download videos using an &amp;external service</source>
-        <translation type="unfinished"></translation>
+        <translation>Stáhnout video pomocí &amp;externí služby</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="132"/>
@@ -378,7 +376,7 @@
     <message>
         <location filename="../configdialog.cpp" line="73"/>
         <source>Default</source>
-        <translation type="unfinished">Výchozí</translation>
+        <translation>Výchozí</translation>
     </message>
 </context>
 <context>
@@ -468,7 +466,7 @@
     <message>
         <location filename="../playerdialog.ui" line="78"/>
         <source>This player can play &amp;online TV</source>
-        <translation type="unfinished"></translation>
+        <translation>Tento přehrávač může zobrazovat &amp;online TV</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="87"/>
