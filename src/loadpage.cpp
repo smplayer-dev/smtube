@@ -22,6 +22,14 @@
 #include <QNetworkRequest>
 #include <QDebug>
 
+#ifdef Q_OS_AMIGA
+ #define NO_SSL_CERTIFICATE
+#endif
+
+#ifdef NO_SSL_CERTIFICATE
+#include <QtNetwork/QSslConfiguration>
+#endif
+
 QString LoadPage::default_user_agent;
 
 LoadPage::LoadPage(QNetworkAccessManager * man, QObject* parent)
@@ -38,6 +46,23 @@ void LoadPage::fetchPage(const QString & url) {
 	qDebug() << "LoadPage::fetchPage: user agent:" << userAgent();
 
 	QNetworkRequest req(url);
+
+#ifdef NO_SSL_CERTIFICATE
+	// zzd10h
+	// remove certificates verification to avoid "SSL Handshake failed"
+	// http://forum.smplayer.info/viewtopic.php?f=2&t=8466
+
+	QNetworkRequest request;
+	QSslConfiguration conf = request.sslConfiguration();
+	conf.setPeerVerifyMode(QSslSocket::VerifyNone);
+	#if QT_VERSION >= 0x050000
+	conf.setProtocol(QSsl::TlsV1_0);
+	#else
+	conf.setProtocol(QSsl::TlsV1);
+	#endif
+	req.setSslConfiguration(conf);
+#endif
+
 	req.setRawHeader("User-Agent", userAgent().toLatin1());
 	req.setRawHeader("Accept-Language", "en-us,en;q=0.5");
 	reply = manager->get(req);
