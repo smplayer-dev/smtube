@@ -1,3 +1,6 @@
+Version 16.7
+ * Fix for VEVO videos.
+
 Version 16.6
  * Add support for high DPI screens.
  * Build by default with Qt 5.
