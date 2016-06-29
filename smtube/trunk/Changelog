@@ -1,3 +1,15 @@
+Version 16.7:
+
+(2016-06-23)
+ * Fix youtube
+
+(2016-06-19)
+ * Load the hdpi config from the smplayer config dir
+
+(2016-06-18)
+ * Change the palette only on Windows.
+
+
 Version 16.6:
 
 (2016-05-09)
