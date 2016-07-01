@@ -1,3 +1,9 @@
+smtube (16.7.2) precise; urgency=low
+
+  * Fix for VEVO videos.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 02 Jul 2016 00:09:35 +0200
+
 smtube (16.7.0) precise; urgency=low
 
   * Fix for VEVO videos.
