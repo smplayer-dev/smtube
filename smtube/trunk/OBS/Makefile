@@ -3,7 +3,8 @@
 
 PACKAGE = smtube
 VERSION = 16.7.2
-DEPENDS = debhelper (>= 5.0.0), qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, qt5-default, libqt5webkit5-dev
+#DEPENDS = debhelper (>= 5.0.0), qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, qt5-default, libqt5webkit5-dev
+DEPENDS = debhelper (>= 5.0.0), libqt4-dev, libqtwebkit-dev
 
 DSC_FILE = $(PACKAGE).dsc
 DEBIAN_FILE = debian.tar.gz
