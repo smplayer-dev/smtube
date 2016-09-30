@@ -239,7 +239,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="279"/>
         <source>Loading... %1%</source>
-        <translation>Lastar … %1%</translation>
+        <translation>Lastar… %1%</translation>
     </message>
 </context>
 <context>
@@ -247,7 +247,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Lastar ned …</translation>
+        <translation>Lastar ned…</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
@@ -423,7 +423,7 @@
     <message>
         <location filename="../mywebview.cpp" line="48"/>
         <source>Save link...</source>
-        <translation>Lagra lenkje …</translation>
+        <translation>Lagra lenkje…</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="50"/>
