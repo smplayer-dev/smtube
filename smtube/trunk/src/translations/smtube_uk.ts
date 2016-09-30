@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -11,7 +9,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>&amp;Info</source>
-        <translation>&amp;Відомості</translation>
+        <translation>&amp;Відомости</translation>
     </message>
     <message>
         <location filename="../about.ui" line="89"/>
@@ -114,7 +112,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="155"/>
         <source>Toolbar</source>
-        <translation>Панель інструментів</translation>
+        <translation>Панель знарядь</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="159"/>
@@ -169,7 +167,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="495"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation>Нажаль, потрібний для цього компонент OpenSSL не доступний в Вашій системі.</translation>
+        <translation>Нажаль, потрібна для цього компонента OpenSSL не доступна у Вашій системі.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="500"/>
