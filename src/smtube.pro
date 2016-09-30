@@ -23,6 +23,10 @@ isEqual(QT_MAJOR_VERSION, 5) {
 	QT += webkit
 }
 
+contains( DEFINES, PORTABLE_APP ) {
+	DEFINES -= HDPI_SUPPORT
+}
+
 HEADERS = links.h \
           mywebview.h \
           mywebpage.h \
