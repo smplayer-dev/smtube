@@ -1,3 +1,6 @@
+Version 17.1
+ * Fix for VEVO videos.
+
 Version 16.7
  * Fix for VEVO videos.
 
