@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="zh_CN">
 <context>
     <name>About</name>
     <message>
@@ -75,169 +77,169 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="120"/>
+        <location filename="../browserwindow.cpp" line="125"/>
         <source>Home</source>
         <translation>主页</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="123"/>
+        <location filename="../browserwindow.cpp" line="128"/>
         <source>Navigation</source>
         <translation>导航</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="131"/>
+        <location filename="../browserwindow.cpp" line="136"/>
         <source>Zoom +</source>
         <translation>放大</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="135"/>
+        <location filename="../browserwindow.cpp" line="140"/>
         <source>Zoom -</source>
         <translation>缩小</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="139"/>
+        <location filename="../browserwindow.cpp" line="144"/>
         <source>&amp;Quit</source>
         <translation>退出(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="142"/>
+        <location filename="../browserwindow.cpp" line="147"/>
         <source>&amp;Navigation</source>
         <translation>导航(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="154"/>
+        <location filename="../browserwindow.cpp" line="159"/>
         <source>&amp;View</source>
         <translation>&amp;视图</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="155"/>
+        <location filename="../browserwindow.cpp" line="160"/>
         <source>Toolbar</source>
         <translation>工具栏</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="159"/>
+        <location filename="../browserwindow.cpp" line="164"/>
         <source>Statusbar</source>
         <translation>状态条</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="163"/>
+        <location filename="../browserwindow.cpp" line="168"/>
         <source>&amp;Settings</source>
         <translation>设置(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="171"/>
+        <location filename="../browserwindow.cpp" line="176"/>
         <source>&amp;Help</source>
         <translation>帮助(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="174"/>
+        <location filename="../browserwindow.cpp" line="179"/>
         <source>&amp;Update the YouTube code</source>
         <translation>更新 YouTube 代码(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="180"/>
+        <location filename="../browserwindow.cpp" line="185"/>
         <source>About this &amp;release</source>
         <translation>关于此更新(&amp;r)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="185"/>
+        <location filename="../browserwindow.cpp" line="190"/>
         <source>&amp;About SMTube</source>
         <translation>关于 SMTube (&amp;A)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="306"/>
+        <location filename="../browserwindow.cpp" line="298"/>
         <source>Download video using an external service</source>
         <translation>使用外置服务下载视频</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="308"/>
+        <location filename="../browserwindow.cpp" line="299"/>
         <source>Download</source>
         <translation>下载</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="493"/>
+        <location filename="../browserwindow.cpp" line="501"/>
         <source>Connection failed</source>
         <translation>连接失败</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="494"/>
+        <location filename="../browserwindow.cpp" line="502"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>您请求的视频需要 HTTPS 连接。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="495"/>
+        <location filename="../browserwindow.cpp" line="503"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>很不幸，此功能依赖于openssl组件，而您的系统中未安装。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="500"/>
+        <location filename="../browserwindow.cpp" line="508"/>
         <source>No video found</source>
         <translation>未找到视频</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="501"/>
+        <location filename="../browserwindow.cpp" line="509"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>不过也不是没有办法获取此视频的URL。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="511"/>
         <location filename="../browserwindow.cpp" line="519"/>
+        <location filename="../browserwindow.cpp" line="527"/>
         <source>Problems with YouTube</source>
         <translation>YouTube 问题</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="512"/>
         <location filename="../browserwindow.cpp" line="520"/>
+        <location filename="../browserwindow.cpp" line="528"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>很不幸，由于 YouTube 的变动，无法播放 &apos;%1&apos;。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="513"/>
+        <location filename="../browserwindow.cpp" line="521"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>你想更新 YouTube 代码吗？此操作或许能解决问题。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="521"/>
+        <location filename="../browserwindow.cpp" line="529"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>或许更新此程序能解决此问题。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="540"/>
+        <location filename="../browserwindow.cpp" line="548"/>
         <source>About this release</source>
         <translation>关于此更新</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="541"/>
+        <location filename="../browserwindow.cpp" line="549"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>由于 YouTube 的变动，原来的 SMTube 无法正常工作。 </translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="542"/>
+        <location filename="../browserwindow.cpp" line="550"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>这是个全新的 SMTube，完全从头重写代码。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="543"/>
+        <location filename="../browserwindow.cpp" line="551"/>
         <source>Some functionality is not available yet.</source>
         <translation>有些功能尚不完善。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="545"/>
+        <location filename="../browserwindow.cpp" line="553"/>
         <source>Important:</source>
         <translation>重要：</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="546"/>
+        <location filename="../browserwindow.cpp" line="554"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>如果播放 VEVO 视频失败，请使用帮助菜单中的 %1.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="547"/>
+        <location filename="../browserwindow.cpp" line="555"/>
         <source>Update the YouTube code</source>
         <translation>更新 YouTube 代码</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="279"/>
+        <location filename="../browserwindow.cpp" line="284"/>
         <source>Loading... %1%</source>
         <translation>加载... %1%</translation>
     </message>
@@ -374,7 +376,7 @@
         <translation>向下</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="73"/>
+        <location filename="../configdialog.cpp" line="81"/>
         <source>Default</source>
         <translation>默认</translation>
     </message>
