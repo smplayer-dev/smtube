@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Imre Kristoffer Eilertsen <imreeil42@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2016-11-09 15:56+0000\n"
+"Last-Translator: Imre Kristoffer Eilertsen <imreeil42@gmail.com>\n"
+"Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/rvm/smplayer/language/nb_NO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Installer_No_Admin
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "Du må være logget inn som administrator når du installerer dette programmet."
+
+# Win64_Required
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "Et 64-bits Windows-operativsystem er påkrevd for å installere denne programvaren."
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA)-oppsett"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMTube before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "Oppsettet vil lede deg gjennom installasjonen av $(^NameDA).[:r:][:n:][:r:][:n:]Det er anbefalt at du lukker all SMTube-prosesser før du begynner oppsettet. Dette vil gjøre det mulig å oppdatere relevante programfiler uten at du behøver å starte maskinen din på nytt.[:r:][:n:][:r:][:n:]$_CLICK"
+
+# Section_SMTube
+msgid "SMTube (required)"
+msgstr "SMTube (påkrevd)"
+
+# DirectoryPage_Text
+msgid ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
+"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+msgstr "$(^DirText)[:r:][:n:][:r:][:n:]SMTube må installeres i en filplassering som inneholder en ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installasjon av SMPlayer."
+
+# DirectoryIsNotWritable
+msgid ""
+"The chosen installation directory is not writable and may require restarting"
+" the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
+"with installation?"
+msgstr "Den ønskede installasjonsplasseringen kan ikke skrives til, og kan kreve en omstart av veiviseren med administratorrettigheter.[:r:][:n:][:r:][:n:]Vil du fortsette med installeringen?"
+
+# Info_QtArch_Bypassed
+msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
+msgstr "Letinger etter SMPlayer, arkitektur og Qt-versjoner ble hoppet over gjennom kommandolinjen."
+
+# Info_Portable_Bypassed
+msgid "Portable check overriden by command-line, forcing portable."
+msgstr "Flyttbarhetssjekk ble deaktivert gjennom kommandolinjen, fremtvinger flyttbarhet."
+
+# Info_Portable_Detected
+msgid "Found portable version of SMPlayer."
+msgstr "Fant flyttbar versjon av SMPlayer."
