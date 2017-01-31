@@ -1,69 +1,79 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# gojko <m.gojko71@gmail.com>, 2016
-msgid ""
-msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-04-28 10:43+0000\n"
-"Last-Translator: gojko <m.gojko71@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/rvm/smplayer/language/hu/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-# Installer_No_Admin
-msgid ""
-"You must be logged in as an administrator when installing this program."
-msgstr "A program telepítéséhez rendszergazdaként kell bejelentkeznie."
-
-# Win64_Required
-msgid ""
-"A 64-bit Windows operating system is required to install this software."
-msgstr "A szoftver telepítéséhez 64-bites Windows operációs rendszerre van szükség."
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "$(^NameDA) Telepítő"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of "
-"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
-"instances of SMTube before starting setup. This will make it possible to "
-"update relevant program files without having to reboot your "
-"computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr "A Telepítő végig fogja vezeti az $(^NameDA) telpítési folyamatán.[:r:][:n:][:r:][:n:]Javasoljuk, hogy a telepítés megkezdése előtt zárja be az SMTube minden megnyitott példányát. Ez lehetővé teszi az adott program fájlok frissítését anélkül, hogy a számítógépét újra kellene indítania.[:r:][:n:][:r:][:n:]$_CLICK"
-
-# Section_SMTube
-msgid "SMTube (required)"
-msgstr "SMTube (nélkülözhetetlen)"
-
-# DirectoryPage_Text
-msgid ""
-"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
-"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-msgstr "$(^DirText)[:r:][:n:][:r:][:n:]SMTube telepítéséhez szükség van egy ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} telepítésű SMPlayer mappára."
-
-# DirectoryIsNotWritable
-msgid ""
-"The chosen installation directory is not writable and may require restarting"
-" the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
-"with installation?"
-msgstr "A választott telepítési könyvtár nem írható. Újra kell indítani a telepítőt rendszergazdai jogosultsággal.[:r:][:n:][:r:][:n:]Folytatja a telepítést?"
-
-# Info_QtArch_Bypassed
-msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
-msgstr " Parancssorból megkerülheti az SMPlayer, architektúra és Qt verzió ellenőrzést."
+# Info_Portable_Detected
+msgid "Found portable version of SMPlayer."
+msgstr "Az SMPlayer hordozható változatát találtam."
 
 # Info_Portable_Bypassed
 msgid "Portable check overriden by command-line, forcing portable."
 msgstr "Parancssorból felülbírálható a hordozható változat ellenőrzése."
 
-# Info_Portable_Detected
-msgid "Found portable version of SMPlayer."
-msgstr "Az SMPlayer hordozható változatát találtam."
+# Info_QtArch_Bypassed
+msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
+msgstr ""
+" Parancssorból megkerülheti az SMPlayer, architektúra és Qt verzió "
+"ellenőrzést."
+
+# DirectoryIsNotWritable
+msgid ""
+"The chosen installation directory is not writable and may require restarting "
+"the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed with "
+"installation?"
+msgstr ""
+"A választott telepítési könyvtár nem írható. Újra kell indítani a telepítőt "
+"rendszergazdai jogosultsággal.[:r:][:n:][:r:][:n:]Folytatja a telepítést?"
+
+# DirectoryPage_Text
+msgid ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
+"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+msgstr ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube telepítéséhez szükség van egy "
+"${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} telepítésű SMPlayer mappára."
+
+# Section_SMTube
+msgid "SMTube (required)"
+msgstr "SMTube (nélkülözhetetlen)"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
+"n:]It is recommended that you close all instances of SMTube before starting "
+"setup. This will make it possible to update relevant program files without "
+"having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr ""
+"A Telepítő végig fogja vezeti az $(^NameDA) telpítési folyamatán.[:r:][:n:][:"
+"r:][:n:]Javasoljuk, hogy a telepítés megkezdése előtt zárja be az SMTube "
+"minden megnyitott példányát. Ez lehetővé teszi az adott program fájlok "
+"frissítését anélkül, hogy a számítógépét újra kellene indítania.[:r:][:n:][:"
+"r:][:n:]$_CLICK"
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) Telepítő"
+
+# Win64_Required
+msgid "A 64-bit Windows operating system is required to install this software."
+msgstr ""
+"A szoftver telepítéséhez 64-bites Windows operációs rendszerre van szükség."
+
+# Installer_No_Admin
+msgid "You must be logged in as an administrator when installing this program."
+msgstr "A program telepítéséhez rendszergazdaként kell bejelentkeznie."
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# gojko <m.gojko71@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2016-11-09 15:56+0000\n"
+"Last-Translator: gojko <m.gojko71@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/rvm/smplayer/language/"
+"hu/)\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
