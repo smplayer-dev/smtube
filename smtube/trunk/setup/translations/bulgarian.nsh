@@ -11,22 +11,22 @@
 !endif
 
 ; Startup
-${LangFileString} Installer_No_Admin "You must be logged in as an administrator when installing this program."
+${LangFileString} Installer_No_Admin "Трябва да сте вписан като администратор, при инсталирането на тази програма."
 
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
+${LangFileString} Win64_Required "Изисква се 64-битов Windows за инсталирането на тази програма."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Title "$(^NameDA) Съветник"
+${LangFileString} WelcomePage_Text "Съветника ще Ви преведе през инсталацията на $(^NameDA).$\r$\n$\r$\nПрепоръчително е да затворите всички работещи истанции на SMTube преди инсталиране. Това ще позволи обновяването на значими за програмата файлове, без необходимостта от рестартиране на Вашия компютър.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} Section_SMTube "SMTube (required)"
+${LangFileString} Section_SMTube "SMTube (изисква се)"
 
 ; Directory Page
-${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-${LangFileString} DirectoryIsNotWritable "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.$\r$\n$\r$\nProceed with installation?"
+${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube трябва да бъде инсталиран в папка, съдържаща ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} инсталация на SMPlayer."
+${LangFileString} DirectoryIsNotWritable "Не е позволен записа в избраната папка и може да е необходим рестарт на инсталатора с администраторски права.$\r$\n$\r$\nПродължавате ли с инсталацията?"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "SMPlayer, architecture and Qt version check bypassed by command-line."
-${LangFileString} Info_Portable_Bypassed "Portable check overriden by command-line, forcing portable."
-${LangFileString} Info_Portable_Detected "Found portable version of SMPlayer."
+${LangFileString} Info_QtArch_Bypassed "SMPlayer, архитектурата и версията на Qt са прехвърлени от командния ред."
+${LangFileString} Info_Portable_Bypassed "Проверката за преносимост е презаписана от командния ред, принуждаване на преносимост."
+${LangFileString} Info_Portable_Detected "Открита е преносима версия на SMPlayer."

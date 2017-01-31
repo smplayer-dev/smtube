@@ -13,11 +13,11 @@
 ; Startup
 ${LangFileString} Installer_No_Admin "Bu programı yüklerken yönetici olarak oturum açmanız gerekir."
 
-${LangFileString} Win64_Required "Bu yazılım kurulumu için 64-bit Windows işletim sistemi gerekli."
+${LangFileString} Win64_Required "Bu yazılımın kurulumu için 64-bit Windows işletim sistemi gerekli."
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "$(^NameDA) Kurulum"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Text "Kurulum $(^NameDA) 'ın kurulumunda size rehberlik edecek.$\r$\n$\r$\nKurulum başlamadan önce SMTube'un tüm benzerlerini kapatmanız önerilir. Bu bilgisayarınızı yeniden başlatmak zorunda kalmadan ilgili program dosyalarını güncellemek mümkün olacaktır.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} Section_SMTube " SMTube (gerekli)"
@@ -27,6 +27,6 @@ ${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube must be inst
 ${LangFileString} DirectoryIsNotWritable "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.$\r$\n$\r$\nProceed with installation?"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "SMPlayer, architecture and Qt version check bypassed by command-line."
-${LangFileString} Info_Portable_Bypassed "Portable check overriden by command-line, forcing portable."
+${LangFileString} Info_QtArch_Bypassed "SMPlayer, mimari ve Qt sürüm kontrolü komut satırı ile atlanabilir."
+${LangFileString} Info_Portable_Bypassed "Kurulumsuz kontrol komut satırından iptal edilmiş,kurulumsuzu zorla."
 ${LangFileString} Info_Portable_Detected "Taşınabilir SMPlayer sürümü bulundu."

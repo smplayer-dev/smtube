@@ -11,22 +11,22 @@
 !endif
 
 ; Startup
-${LangFileString} Installer_No_Admin "You must be logged in as an administrator when installing this program."
+${LangFileString} Installer_No_Admin "Θα πρέπει να συνδεθείτε ως διαχειριστής κατά την εγκατάσταση του προγράμματος."
 
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
+${LangFileString} Win64_Required "Απαιτείται ένα λειτουργικό σύστημα Windows 64 bit ούτως ώστε να εγκαταστήσετε αυτό το λογισμικό."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Title "$(^NameDA) Εγκατάσταση"
+${LangFileString} WelcomePage_Text "Το πρόγραμμα εγκατάστασης θα σας καθοδηγήσει κατά την εγκατάσταση του $(^NameDA).$\r$\n$\r$\nΣυνιστάται να κλείσετε όλα τα παράθυρα του SMTube πριν την εκκίνηση της εγκατάστασης. Αυτό θα σας επιτρέψει να ενημερώσετε τα σχετικά αρχεία του προγράμματος χωρίς την ανάγκη να επανεκκινήσετε τον υπολογιστή.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} Section_SMTube "SMTube (required)"
+${LangFileString} Section_SMTube "SMTube (απαιτείται)"
 
 ; Directory Page
-${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-${LangFileString} DirectoryIsNotWritable "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.$\r$\n$\r$\nProceed with installation?"
+${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nΤο SMTube πρέπει να εγκατασταθεί σε έναν κατάλογο που περιέχει μια ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} εγκατάσταση του SMPlayer."
+${LangFileString} DirectoryIsNotWritable "Ο επιλεγμένος κατάλογος εγκατάστασης δεν είναι εγγράψιμος και ίσως χρειάζεται να επανεκκινήσετε το πρόγραμμα εγκατάστασης με προνόμια διαχειριστή.$\r$\n$\r$\nΝα συνεχίσει η εγκατάσταση;"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "SMPlayer, architecture and Qt version check bypassed by command-line."
-${LangFileString} Info_Portable_Bypassed "Portable check overriden by command-line, forcing portable."
-${LangFileString} Info_Portable_Detected "Found portable version of SMPlayer."
+${LangFileString} Info_QtArch_Bypassed "Το SMPlayer, ο έλεγχος της αρχιτεκτονικής και της έκδοσης της Qt παρακάμφθηκαν από την γραμμή εντολών."
+${LangFileString} Info_Portable_Bypassed "Ο έλεγχος της φορητής έκδοσης παρακάμφθηκε από την γραμμή εντολών, εξαναγκασμός της φορητής έκδοσης."
+${LangFileString} Info_Portable_Detected "Βρέθηκε μια φορητή έκδοση του SMPlayer."

@@ -27,6 +27,6 @@ ${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube skal være i
 ${LangFileString} DirectoryIsNotWritable "Den valgte installationsmappe er skrivebeskyttet og det kan være at installationen skal startes igen med administratorrettigheder.$\r$\n$\r$\nFortsæt med installationen?"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "SMPlayer-, arkitektur- og Qt-versionstjek forbigået af kommandolinje."
-${LangFileString} Info_Portable_Bypassed "Partabletjek forbigået af kommandolinje, gennemtvinger portable."
+${LangFileString} Info_QtArch_Bypassed "SMPlayer-, arkitektur- og Qt versionstjek forbigået af kommandolinje."
+${LangFileString} Info_Portable_Bypassed "Portabletjek tilsidesat af kommandolinje, gennemtvinger portable."
 ${LangFileString} Info_Portable_Detected "Fandt portable version af SMPlayer."

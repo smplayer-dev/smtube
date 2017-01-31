@@ -11,22 +11,22 @@
 !endif
 
 ; Startup
-${LangFileString} Installer_No_Admin "You must be logged in as an administrator when installing this program."
+${LangFileString} Installer_No_Admin "Heu d'iniciar la sessió com a administrador quan instal·leu aquest programa."
 
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
+${LangFileString} Win64_Required "Es requereix un sistema operatiu Windows de 64 bits per instal·lar aquest programari."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Title "Preparació $(^NameDA)"
+${LangFileString} WelcomePage_Text "La preparació us guiarà a través de la instal·lació de $(^NameDA).$\r$\n$\r$\nEs recomana que tanqueu totes les instàncies de SMTube abans de començar la preparació. Això farà que sigui possible l'actualització dels de programa pertinents sense haver de reiniciar el vostre ordinador.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} Section_SMTube "SMTube (required)"
+${LangFileString} Section_SMTube "SMTube (requerit)"
 
 ; Directory Page
-${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-${LangFileString} DirectoryIsNotWritable "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.$\r$\n$\r$\nProceed with installation?"
+${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube ha de ser instal·lat en un directori que contingui una instal·lació ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} de SMPlayer."
+${LangFileString} DirectoryIsNotWritable "El directori d'instal·lació escollit no és modificable i pot requerir reiniciar el programa d'instal·lació amb privilegis d'administrador.$\r$\n$\r$\nVoleu continuar amb la instal·lació?"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "SMPlayer, architecture and Qt version check bypassed by command-line."
-${LangFileString} Info_Portable_Bypassed "Portable check overriden by command-line, forcing portable."
-${LangFileString} Info_Portable_Detected "Found portable version of SMPlayer."
+${LangFileString} Info_QtArch_Bypassed "La comprovació de SMPlayer, de l'arquitectura i de la versió de Qt passades amb la línia d'ordres."
+${LangFileString} Info_Portable_Bypassed "La comprovació de la portabilitat ha estat anul·lada per la línia d'ordres, es força la portabilitat."
+${LangFileString} Info_Portable_Detected "S'ha trobat una versió portable de SMPlayer."

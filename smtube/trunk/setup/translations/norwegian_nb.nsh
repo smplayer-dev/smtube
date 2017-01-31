@@ -11,22 +11,22 @@
 !endif
 
 ; Startup
-${LangFileString} Installer_No_Admin "You must be logged in as an administrator when installing this program."
+${LangFileString} Installer_No_Admin "Du må være logget inn som administrator når du installerer dette programmet."
 
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
+${LangFileString} Win64_Required "Et 64-bits Windows-operativsystem er påkrevd for å installere denne programvaren."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Title "$(^NameDA)-oppsett"
+${LangFileString} WelcomePage_Text "Oppsettet vil lede deg gjennom installasjonen av $(^NameDA).$\r$\n$\r$\nDet er anbefalt at du lukker all SMTube-prosesser før du begynner oppsettet. Dette vil gjøre det mulig å oppdatere relevante programfiler uten at du behøver å starte maskinen din på nytt.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} Section_SMTube "SMTube (required)"
+${LangFileString} Section_SMTube "SMTube (påkrevd)"
 
 ; Directory Page
-${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-${LangFileString} DirectoryIsNotWritable "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.$\r$\n$\r$\nProceed with installation?"
+${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube må installeres i en filplassering som inneholder en ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installasjon av SMPlayer."
+${LangFileString} DirectoryIsNotWritable "Den ønskede installasjonsplasseringen kan ikke skrives til, og kan kreve en omstart av veiviseren med administratorrettigheter.$\r$\n$\r$\nVil du fortsette med installeringen?"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "SMPlayer, architecture and Qt version check bypassed by command-line."
-${LangFileString} Info_Portable_Bypassed "Portable check overriden by command-line, forcing portable."
-${LangFileString} Info_Portable_Detected "Found portable version of SMPlayer."
+${LangFileString} Info_QtArch_Bypassed "Letinger etter SMPlayer, arkitektur og Qt-versjoner ble hoppet over gjennom kommandolinjen."
+${LangFileString} Info_Portable_Bypassed "Flyttbarhetssjekk ble deaktivert gjennom kommandolinjen, fremtvinger flyttbarhet."
+${LangFileString} Info_Portable_Detected "Fant flyttbar versjon av SMPlayer."
