@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Dimitrios Glentadakis <dglent@free.fr>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2016-11-09 15:56+0000\n"
+"Last-Translator: Dimitrios Glentadakis <dglent@free.fr>\n"
+"Language-Team: Greek (http://www.transifex.com/rvm/smplayer/language/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Installer_No_Admin
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "Θα πρέπει να συνδεθείτε ως διαχειριστής κατά την εγκατάσταση του προγράμματος."
+
+# Win64_Required
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "Απαιτείται ένα λειτουργικό σύστημα Windows 64 bit ούτως ώστε να εγκαταστήσετε αυτό το λογισμικό."
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) Εγκατάσταση"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMTube before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "Το πρόγραμμα εγκατάστασης θα σας καθοδηγήσει κατά την εγκατάσταση του $(^NameDA).[:r:][:n:][:r:][:n:]Συνιστάται να κλείσετε όλα τα παράθυρα του SMTube πριν την εκκίνηση της εγκατάστασης. Αυτό θα σας επιτρέψει να ενημερώσετε τα σχετικά αρχεία του προγράμματος χωρίς την ανάγκη να επανεκκινήσετε τον υπολογιστή.[:r:][:n:][:r:][:n:]$_CLICK"
+
+# Section_SMTube
+msgid "SMTube (required)"
+msgstr "SMTube (απαιτείται)"
+
+# DirectoryPage_Text
+msgid ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
+"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+msgstr "$(^DirText)[:r:][:n:][:r:][:n:]Το SMTube πρέπει να εγκατασταθεί σε έναν κατάλογο που περιέχει μια ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} εγκατάσταση του SMPlayer."
+
+# DirectoryIsNotWritable
+msgid ""
+"The chosen installation directory is not writable and may require restarting"
+" the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
+"with installation?"
+msgstr "Ο επιλεγμένος κατάλογος εγκατάστασης δεν είναι εγγράψιμος και ίσως χρειάζεται να επανεκκινήσετε το πρόγραμμα εγκατάστασης με προνόμια διαχειριστή.[:r:][:n:][:r:][:n:]Να συνεχίσει η εγκατάσταση;"
+
+# Info_QtArch_Bypassed
+msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
+msgstr "Το SMPlayer, ο έλεγχος της αρχιτεκτονικής και της έκδοσης της Qt παρακάμφθηκαν από την γραμμή εντολών."
+
+# Info_Portable_Bypassed
+msgid "Portable check overriden by command-line, forcing portable."
+msgstr "Ο έλεγχος της φορητής έκδοσης παρακάμφθηκε από την γραμμή εντολών, εξαναγκασμός της φορητής έκδοσης."
+
+# Info_Portable_Detected
+msgid "Found portable version of SMPlayer."
+msgstr "Βρέθηκε μια φορητή έκδοση του SMPlayer."
