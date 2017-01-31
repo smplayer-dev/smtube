@@ -1,69 +1,84 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# nardog <hysknrs@hotmail.co.jp>, 2016
-msgid ""
+# Info_Portable_Detected
+msgid "Found portable version of SMPlayer."
+msgstr "SMPlayer のポータブル バージョンを見つけました。"
+
+# Info_Portable_Bypassed
+msgid "Portable check overriden by command-line, forcing portable."
 msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-03-21 03:59+0000\n"
-"Last-Translator: nardog <hysknrs@hotmail.co.jp>\n"
-"Language-Team: Japanese (http://www.transifex.com/rvm/smplayer/language/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"ポータブル チェックがコマンドラインによって上書きされました、ポータブルを強制"
+"します。"
 
-# Installer_No_Admin
+# Info_QtArch_Bypassed
+msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
+msgstr ""
+"SMPlayer、アーキテクチャおよび Qt のバージョン チェックがコマンドラインによっ"
+"てバイパスされました。"
+
+# DirectoryIsNotWritable
 msgid ""
-"You must be logged in as an administrator when installing this program."
-msgstr "このプログラムをインストールするときは管理者としてログインする必要があります。"
-
-# Win64_Required
-msgid ""
-"A 64-bit Windows operating system is required to install this software."
-msgstr "このソフトウェアをインストールするには 64 ビットの Windows オペレーティング システムが必要です。"
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "$(^NameDA) のセットアップ"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of "
-"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
-"instances of SMTube before starting setup. This will make it possible to "
-"update relevant program files without having to reboot your "
-"computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr "セットアップは $(^NameDA) のインストールをご案内します。[:r:][:n:][:r:][:n:]セットアップの開始前にすべての SMTube のインスタンスを閉じることが推奨されます。これによりお使いのコンピューターを再起動する必要なく関連するプログラム ファイルを更新することが可能になります。[:r:][:n:][:r:][:n:]$_CLICK"
-
-# Section_SMTube
-msgid "SMTube (required)"
-msgstr "SMTube (必須)"
+"The chosen installation directory is not writable and may require restarting "
+"the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed with "
+"installation?"
+msgstr ""
+"選択されたインストール ディレクトリは書き込み可能ではなく管理者特権でインス"
+"トールを再起動することが必要となる可能性があります。[:r:][:n:][:r:][:n:]イン"
+"ストールを続行しますか?"
 
 # DirectoryPage_Text
 msgid ""
 "$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
 "containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-msgstr "$(^DirText)[:r:][:n:][:r:][:n:]SMTube は SMPlayer の ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} を含むディレクトリにインストールされなければなりません。"
+msgstr ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube は SMPlayer の ${SMTUBE_INST_ARCH} "
+"${SMTUBE_QT_VER} を含むディレクトリにインストールされなければなりません。"
 
-# DirectoryIsNotWritable
+# Section_SMTube
+msgid "SMTube (required)"
+msgstr "SMTube (必須)"
+
+# WelcomePage_Text
 msgid ""
-"The chosen installation directory is not writable and may require restarting"
-" the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
-"with installation?"
-msgstr "選択されたインストール ディレクトリは書き込み可能ではなく管理者特権でインストールを再起動することが必要となる可能性があります。[:r:][:n:][:r:][:n:]インストールを続行しますか?"
+"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
+"n:]It is recommended that you close all instances of SMTube before starting "
+"setup. This will make it possible to update relevant program files without "
+"having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr ""
+"セットアップは $(^NameDA) のインストールをご案内します。[:r:][:n:][:r:][:n:]"
+"セットアップの開始前にすべての SMTube のインスタンスを閉じることが推奨されま"
+"す。これによりお使いのコンピューターを再起動する必要なく関連するプログラム "
+"ファイルを更新することが可能になります。[:r:][:n:][:r:][:n:]$_CLICK"
 
-# Info_QtArch_Bypassed
-msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
-msgstr "SMPlayer、アーキテクチャおよび Qt のバージョン チェックがコマンドラインによってバイパスされました。"
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) のセットアップ"
 
-# Info_Portable_Bypassed
-msgid "Portable check overriden by command-line, forcing portable."
-msgstr "ポータブル チェックがコマンドラインによって上書きされました、ポータブルを強制します。"
+# Win64_Required
+msgid "A 64-bit Windows operating system is required to install this software."
+msgstr ""
+"このソフトウェアをインストールするには 64 ビットの Windows オペレーティング "
+"システムが必要です。"
 
-# Info_Portable_Detected
-msgid "Found portable version of SMPlayer."
-msgstr "SMPlayer のポータブル バージョンを見つけました。"
+# Installer_No_Admin
+msgid "You must be logged in as an administrator when installing this program."
+msgstr ""
+"このプログラムをインストールするときは管理者としてログインする必要がありま"
+"す。"
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# nardog <hysknrs@hotmail.co.jp>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2016-11-09 15:56+0000\n"
+"Last-Translator: nardog <hysknrs@hotmail.co.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/rvm/smplayer/language/"
+"ja/)\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"

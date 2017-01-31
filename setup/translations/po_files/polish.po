@@ -1,69 +1,82 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# M T <michtrz@gmail.com>, 2016
-msgid ""
+# Info_Portable_Detected
+msgid "Found portable version of SMPlayer."
+msgstr "Znaleziono przenośną wersję SMPlayer."
+
+# Info_Portable_Bypassed
+msgid "Portable check overriden by command-line, forcing portable."
 msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-03-27 21:33+0000\n"
-"Last-Translator: M T <michtrz@gmail.com>\n"
-"Language-Team: Polish (http://www.transifex.com/rvm/smplayer/language/pl/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Kontrola przenośna nadpisywana przez wiersz poleceń, wymuszając tryb "
+"przenośny."
 
-# Installer_No_Admin
+# Info_QtArch_Bypassed
+msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
+msgstr ""
+"SMPlayer, architektura i kontrola wersji Qt ominięte przez wiersz poleceń."
+
+# DirectoryIsNotWritable
 msgid ""
-"You must be logged in as an administrator when installing this program."
-msgstr "Do instalacji tego programu wymagane są uprawnienia administratora."
-
-# Win64_Required
-msgid ""
-"A 64-bit Windows operating system is required to install this software."
-msgstr "Do zainstalowania tego programu wymagany jest system operacyjny Windows w wersji 64-bitowej."
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "Instalator $(^NameDA)"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of "
-"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
-"instances of SMTube before starting setup. This will make it possible to "
-"update relevant program files without having to reboot your "
-"computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr "Instalator poprowadzi Cię przez proces instalacji $(^NameDA).[:r:][:n:][:r:][:n:]Zalecane jest zamknięcie wszystkich instancji SMTube przed rozpoczęciem instalacji. Dzięki temu możliwe będzie zaktualizowanie odpowiednich plików programu, bez konieczności ponownego uruchamiania komputera.[:r:][:n:][:r:][:n:]$_CLICK"
-
-# Section_SMTube
-msgid "SMTube (required)"
-msgstr "SMPlayer (wymagany)"
+"The chosen installation directory is not writable and may require restarting "
+"the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed with "
+"installation?"
+msgstr ""
+"Wybrany katalog instalacyjny nie ma prawa zapisu i może wymagać ponownego "
+"uruchomienia instalatora z uprawnieniami administratora.[:r:][:n:][:r:][:n:]"
+"Kontynuować instalację?"
 
 # DirectoryPage_Text
 msgid ""
 "$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
 "containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-msgstr "$(^DirText)[:r:][:n:][:r:][:n:]SMTube musi być zainstalowany do katalogu zawierającego ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} instalację of SMPlayer."
+msgstr ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube musi być zainstalowany do katalogu "
+"zawierającego ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} instalację of SMPlayer."
 
-# DirectoryIsNotWritable
+# Section_SMTube
+msgid "SMTube (required)"
+msgstr "SMPlayer (wymagany)"
+
+# WelcomePage_Text
 msgid ""
-"The chosen installation directory is not writable and may require restarting"
-" the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
-"with installation?"
-msgstr "Wybrany katalog instalacyjny nie ma prawa zapisu i może wymagać ponownego uruchomienia instalatora z uprawnieniami administratora.[:r:][:n:][:r:][:n:]Kontynuować instalację?"
+"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
+"n:]It is recommended that you close all instances of SMTube before starting "
+"setup. This will make it possible to update relevant program files without "
+"having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr ""
+"Instalator poprowadzi Cię przez proces instalacji $(^NameDA).[:r:][:n:][:r:]"
+"[:n:]Zalecane jest zamknięcie wszystkich instancji SMTube przed rozpoczęciem "
+"instalacji. Dzięki temu możliwe będzie zaktualizowanie odpowiednich plików "
+"programu, bez konieczności ponownego uruchamiania komputera.[:r:][:n:][:r:][:"
+"n:]$_CLICK"
 
-# Info_QtArch_Bypassed
-msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
-msgstr "SMPlayer, architektura i kontrola wersji Qt ominięte przez wiersz poleceń."
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "Instalator $(^NameDA)"
 
-# Info_Portable_Bypassed
-msgid "Portable check overriden by command-line, forcing portable."
-msgstr "Kontrola przenośna nadpisywana przez wiersz poleceń, wymuszając tryb przenośny."
+# Win64_Required
+msgid "A 64-bit Windows operating system is required to install this software."
+msgstr ""
+"Do zainstalowania tego programu wymagany jest system operacyjny Windows w "
+"wersji 64-bitowej."
 
-# Info_Portable_Detected
-msgid "Found portable version of SMPlayer."
-msgstr "Znaleziono przenośną wersję SMPlayer."
+# Installer_No_Admin
+msgid "You must be logged in as an administrator when installing this program."
+msgstr "Do instalacji tego programu wymagane są uprawnienia administratora."
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# M T <michtrz@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2016-11-09 15:56+0000\n"
+"Last-Translator: M T <michtrz@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/rvm/smplayer/language/pl/)\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"

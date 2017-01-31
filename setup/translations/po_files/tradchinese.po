@@ -1,69 +1,74 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# Jeff Huang <s8321414@gmail.com>, 2016
-msgid ""
-msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-03-21 10:14+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/rvm/smplayer/language/zh_TW/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: zh_TW\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-
-# Installer_No_Admin
-msgid ""
-"You must be logged in as an administrator when installing this program."
-msgstr "安裝此程式時，您必須先登入為管理員。"
-
-# Win64_Required
-msgid ""
-"A 64-bit Windows operating system is required to install this software."
-msgstr "要安裝此軟體，系統必須是 64 位元的 Windows。"
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "$(^NameDA) 安裝"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of "
-"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
-"instances of SMTube before starting setup. This will make it possible to "
-"update relevant program files without having to reboot your "
-"computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr "安裝程式將會引導您完成安裝 $(^NameDA)。 [:r:][:n:][:r:][:n:]建議您在開始安裝前，先關閉所有的 SMTube 執行實體。這將使它能夠更新相關的程式檔案，而無需重新啟動您的電腦。 [:r:][:n:][:r:][:n:]$_CLICK"
-
-# Section_SMTube
-msgid "SMTube (required)"
-msgstr "SMTube (必要的)"
-
-# DirectoryPage_Text
-msgid ""
-"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
-"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-msgstr "$(^DirText)[:r:][:n:][:r:][:n:]SMTube 必須安裝至包含 ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} SMPlayer 的目錄。"
-
-# DirectoryIsNotWritable
-msgid ""
-"The chosen installation directory is not writable and may require restarting"
-" the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
-"with installation?"
-msgstr "選定的安裝目錄無法寫入，可能需要以管理員權限重新啟動安裝程式。[:r:][:n:][:r:][:n:]繼續安裝？"
-
-# Info_QtArch_Bypassed
-msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
-msgstr "SMPlayer，架構與 Qt 版本檢查由命令列繞過。"
+# Info_Portable_Detected
+msgid "Found portable version of SMPlayer."
+msgstr "找到可攜版的 SMPlayer。"
 
 # Info_Portable_Bypassed
 msgid "Portable check overriden by command-line, forcing portable."
 msgstr "由命令列覆寫可攜性檢查，強制可攜性。"
 
-# Info_Portable_Detected
-msgid "Found portable version of SMPlayer."
-msgstr "找到可攜版的 SMPlayer。"
+# Info_QtArch_Bypassed
+msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
+msgstr "SMPlayer，架構與 Qt 版本檢查由命令列繞過。"
+
+# DirectoryIsNotWritable
+msgid ""
+"The chosen installation directory is not writable and may require restarting "
+"the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed with "
+"installation?"
+msgstr ""
+"選定的安裝目錄無法寫入，可能需要以管理員權限重新啟動安裝程式。[:r:][:n:][:r:]"
+"[:n:]繼續安裝？"
+
+# DirectoryPage_Text
+msgid ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
+"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+msgstr ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube 必須安裝至包含 ${SMTUBE_INST_ARCH} "
+"${SMTUBE_QT_VER} SMPlayer 的目錄。"
+
+# Section_SMTube
+msgid "SMTube (required)"
+msgstr "SMTube (必要的)"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
+"n:]It is recommended that you close all instances of SMTube before starting "
+"setup. This will make it possible to update relevant program files without "
+"having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr ""
+"安裝程式將會引導您完成安裝 $(^NameDA)。 [:r:][:n:][:r:][:n:]建議您在開始安裝"
+"前，先關閉所有的 SMTube 執行實體。這將使它能夠更新相關的程式檔案，而無需重新"
+"啟動您的電腦。 [:r:][:n:][:r:][:n:]$_CLICK"
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) 安裝"
+
+# Win64_Required
+msgid "A 64-bit Windows operating system is required to install this software."
+msgstr "要安裝此軟體，系統必須是 64 位元的 Windows。"
+
+# Installer_No_Admin
+msgid "You must be logged in as an administrator when installing this program."
+msgstr "安裝此程式時，您必須先登入為管理員。"
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Jeff Huang <s8321414@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2016-11-09 15:56+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/rvm/smplayer/"
+"language/zh_TW/)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
