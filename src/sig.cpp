@@ -1,5 +1,5 @@
 /*  smplayer, GUI front-end for mplayer.
-    Copyright (C) 2006-2016 Ricardo Villalba <rvm@users.sourceforge.net>
+    Copyright (C) 2006-2017 Ricardo Villalba <rvm@users.sourceforge.net>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -51,9 +51,11 @@ QString Sig::findFunctions(const QString & text) {
 	qDebug() << "Sig::findFunctions: sts:" << sts;
 
 	QString sig_name;
-	QRegExp rx_sig("\\.sig\\|\\|([a-zA-Z0-9\\$]+)\\(");
+	//QRegExp rx_sig("\\.sig\\|\\|([a-zA-Z0-9\\$]+)\\(");
+	QRegExp rx_sig("([\"\'])signature\\1\\s*,\\s*([a-zA-Z0-9$]+)\\(");
 	if (rx_sig.indexIn(text) != -1) {
-		sig_name = rx_sig.cap(1);
+		//sig_name = rx_sig.cap(1);
+		sig_name = rx_sig.cap(2);
 	}
 	qDebug() << "Sig::findFunctions: sig_name:" << sig_name;
 
