@@ -1,4 +1,4 @@
-all: malay.po french.po hungarian.po basque.po danish.po simpchinese.po finnish.po norwegian.po hebrew.po russian.po croatian.po portuguese.po czech.po arabic.po thai.po portuguesebrazil.po albanian.po dutch.po galician.po ukrainian.po serbian.po bulgarian.po slovak.po spanish.po indonesian.po italian.po tradchinese.po korean.po japanese.po german.po catalan.po slovenian.po polish.po turkish.po 
+all: malay.po french.po hungarian.po basque.po danish.po simpchinese.po finnish.po norwegian_nn.po hebrew.po russian.po croatian.po portuguese.po czech.po arabic.po thai.po portuguesebrazil.po albanian.po dutch.po galician.po ukrainian.po serbian.po bulgarian.po slovak.po spanish.po indonesian.po italian.po tradchinese.po korean.po japanese.po german.po catalan.po slovenian.po polish.po turkish.po 
 
 malay.po: english.pot
 	msgmerge -F -U -N --backup=numbered malay.po english.pot
@@ -21,8 +21,8 @@ simpchinese.po: english.pot
 finnish.po: english.pot
 	msgmerge -F -U -N --backup=numbered finnish.po english.pot
 
-norwegian.po: english.pot
-	msgmerge -F -U -N --backup=numbered norwegian.po english.pot
+norwegian_nn.po: english.pot
+	msgmerge -F -U -N --backup=numbered norwegian_nn.po english.pot
 
 hebrew.po: english.pot
 	msgmerge -F -U -N --backup=numbered hebrew.po english.pot
