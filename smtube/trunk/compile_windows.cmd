@@ -105,6 +105,22 @@ set SMTUBE_DIR=%start_dir%
 :: Does string have a trailing slash? if so remove it 
 if %SMTUBE_DIR:~-1%==\ set SMTUBE_DIR=%SMTUBE_DIR:~0,-1%
 
+for /f "tokens=1 delims=." %%l in ("%QT_VER%")  do set QT_VER_MAJOR=%%l
+for /f "tokens=2 delims=." %%m in ("%QT_VER%")  do set QT_VER_MINOR=%%m
+for /f "tokens=3 delims=." %%n in ("%QT_VER%")  do set QT_VER_BUILD=%%n
+
+REM Begin generate qt_env.nsh
+echo !define SMTUBE_QT_VER "%QT_VER%">"%SMTUBE_DIR%\setup\qt_env.nsh"
+echo !define QT_VER_COMMON_NAME "Qt %QT_VER_MAJOR%.%QT_VER_MINOR%">>"%SMTUBE_DIR%\setup\qt_env.nsh"
+echo !define QT_VER_MAJOR "%QT_VER_MAJOR%">>"%SMTUBE_DIR%\setup\qt_env.nsh"
+echo !define QT_VER_MINOR "%QT_VER_MINOR%">>"%SMTUBE_DIR%\setup\qt_env.nsh"
+echo !define QT_VER_BUILD "%QT_VER_BUILD%">>"%SMTUBE_DIR%\setup\qt_env.nsh"
+if %QT_VER_MAJOR% equ 4 (
+  echo !define COMPILED_WITH_QT4>>"%SMTUBE_DIR%\setup\qt_env.nsh"
+)
+REM End generate qt_env.nsh
+
+REM Begin generate qt_files.nsh
 if %QT_VER% lss 5.0.0 (
 
   echo File "%QT_DIR%\bin\QtWebKit4.dll">"%SMTUBE_DIR%\setup\qt_files.nsh"
@@ -127,6 +143,7 @@ if %QT_VER% lss 5.0.0 (
   echo File "%QT_DIR%\bin\icuuc*.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
   echo File "%QT_DIR%\bin\icudt*.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
 )
+REM End generate qt_env.nsh
 
 :compile
 
