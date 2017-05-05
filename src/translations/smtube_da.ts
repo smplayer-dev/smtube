@@ -254,7 +254,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Forbinder til %1</translation>
+        <translation>Opretter forbindelse til %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="126"/>

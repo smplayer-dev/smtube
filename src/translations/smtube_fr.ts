@@ -6,7 +6,7 @@
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About...</source>
-        <translation>A propos...</translation>
+        <translation>À propos...</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
@@ -31,7 +31,7 @@
     <message>
         <location filename="../about.cpp" line="37"/>
         <source>Version: %1</source>
-        <translation>Version: %1</translation>
+        <translation>Version : %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="39"/>
@@ -46,7 +46,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>Visit our website for updates:</source>
-        <translation>Visitez notre site web pour les mises à  jour:</translation>
+        <translation>Visitez notre site web pour les mises à jour :</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="87"/>
@@ -139,12 +139,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="185"/>
         <source>About this &amp;release</source>
-        <translation>&amp;A propos de cette &amp;version</translation>
+        <translation>À propos de cette &amp;version</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="190"/>
         <source>&amp;About SMTube</source>
-        <translation>&amp;A propos de SMTube</translation>
+        <translation>&amp;À propos de SMTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="298"/>
@@ -206,7 +206,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="548"/>
         <source>About this release</source>
-        <translation>A propos de cette version</translation>
+        <translation>À propos de cette version</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="549"/>
@@ -226,7 +226,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="553"/>
         <source>Important:</source>
-        <translation>Important:</translation>
+        <translation>Important :</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="554"/>
@@ -264,7 +264,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Version installée: %1</translation>
+        <translation>Version installée : %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="128"/>
@@ -323,7 +323,7 @@
     <message>
         <location filename="../configdialog.ui" line="39"/>
         <source>Preferred &amp;quality:</source>
-        <translation>&amp;Qualité préférée:</translation>
+        <translation>&amp;Qualité préférée :</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="167"/>
@@ -348,12 +348,12 @@
     <message>
         <location filename="../configdialog.ui" line="248"/>
         <source>&amp;Style:</source>
-        <translation>&amp;Style:</translation>
+        <translation>&amp;Style :</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="284"/>
         <source>Font:</source>
-        <translation>Police:</translation>
+        <translation>Police :</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="298"/>
@@ -448,17 +448,17 @@
     <message>
         <location filename="../playerdialog.ui" line="22"/>
         <source>&amp;Name:</source>
-        <translation>&amp;Nom:</translation>
+        <translation>&amp;Nom :</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="39"/>
         <source>&amp;Executable:</source>
-        <translation>&amp;Exécutable:</translation>
+        <translation>&amp;Exécutable :</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="56"/>
         <source>&amp;Parameters:</source>
-        <translation>&amp;Paramètres:</translation>
+        <translation>&amp;Paramètres :</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="71"/>
@@ -473,12 +473,12 @@
     <message>
         <location filename="../playerdialog.ui" line="87"/>
         <source>Preferred &amp;quality:</source>
-        <translation>&amp;Qualité préférée:</translation>
+        <translation>&amp;Qualité préférée :</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="117"/>
         <source>Add to &amp;menu:</source>
-        <translation>Ajouter dans le &amp;menu:</translation>
+        <translation>Ajouter dans le &amp;menu :</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
