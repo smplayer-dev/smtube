@@ -1,5 +1,5 @@
 Name:           smtube
-Version:        17.1.0
+Version:        17.5.0
 Release:        1%{?dist}
 Summary:        YouTube browser for SMPlayer
 
