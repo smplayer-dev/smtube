@@ -20,13 +20,13 @@ ${LangFileString} WelcomePage_Title "Instalator $(^NameDA)"
 ${LangFileString} WelcomePage_Text "Instalator poprowadzi Cię przez proces instalacji $(^NameDA).$\r$\n$\r$\nZalecane jest zamknięcie wszystkich instancji SMTube przed rozpoczęciem instalacji. Dzięki temu możliwe będzie zaktualizowanie odpowiednich plików programu, bez konieczności ponownego uruchamiania komputera.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} Section_SMTube "SMPlayer (wymagany)"
+${LangFileString} Section_SMTube "SMTube (wymagany)"
 
 ; Directory Page
-${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube musi być zainstalowany do katalogu zawierającego ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} instalację of SMPlayer."
+${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube musi być zainstalowany do katalogu zawierającego ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} instalację SMPlayer."
 ${LangFileString} DirectoryIsNotWritable "Wybrany katalog instalacyjny nie ma prawa zapisu i może wymagać ponownego uruchomienia instalatora z uprawnieniami administratora.$\r$\n$\r$\nKontynuować instalację?"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "SMPlayer, architektura i kontrola wersji Qt ominięte przez wiersz poleceń."
+${LangFileString} Info_QtArch_Bypassed "SMPlayer, architektura i kontrola wersji Qt pominięte przez wiersz poleceń."
 ${LangFileString} Info_Portable_Bypassed "Kontrola przenośna nadpisywana przez wiersz poleceń, wymuszając tryb przenośny."
 ${LangFileString} Info_Portable_Detected "Znaleziono przenośną wersję SMPlayer."
