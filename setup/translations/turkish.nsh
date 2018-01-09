@@ -24,7 +24,7 @@ ${LangFileString} Section_SMTube " SMTube (gerekli)"
 
 ; Directory Page
 ${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-${LangFileString} DirectoryIsNotWritable "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.$\r$\n$\r$\nProceed with installation?"
+${LangFileString} DirectoryIsNotWritable "Seçilen kurulrm dizini yazılabilir değil ve kurucuyu yönetici yetkisiyle tekrar başlatmanız gerekiyor. $\r$\n$\r$\nKurulum devam etsin mi?"
 
 ; Misc
 ${LangFileString} Info_QtArch_Bypassed "SMPlayer, mimari ve Qt sürüm kontrolü komut satırı ile atlanabilir."
