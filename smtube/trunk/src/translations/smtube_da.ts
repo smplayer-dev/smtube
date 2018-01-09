@@ -134,7 +134,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="179"/>
         <source>&amp;Update the YouTube code</source>
-        <translation>Opdatér &amp;YouTube-koden</translation>
+        <translation>Opdater &amp;YouTube-koden</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="185"/>
@@ -236,7 +236,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="555"/>
         <source>Update the YouTube code</source>
-        <translation>Opdatér YouTube-koden</translation>
+        <translation>Opdater YouTube-koden</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="284"/>
@@ -333,7 +333,7 @@
     <message>
         <location filename="../configdialog.ui" line="191"/>
         <source>Edit</source>
-        <translation>Redigér</translation>
+        <translation>Rediger</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="204"/>
@@ -443,7 +443,7 @@
     <message>
         <location filename="../playerdialog.ui" line="14"/>
         <source>Edit Player</source>
-        <translation>Redigér afspiller</translation>
+        <translation>Rediger afspiller</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="22"/>
