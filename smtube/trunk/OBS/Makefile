@@ -2,7 +2,7 @@
 # deb packages at build.opensuse.org
 
 PACKAGE = smtube
-VERSION = 17.5.0
+VERSION = 18.1.0
 #DEPENDS = debhelper (>= 5.0.0), qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, qt5-default, libqt5webkit5-dev
 DEPENDS = debhelper (>= 5.0.0), libqt4-dev, libqtwebkit-dev
 

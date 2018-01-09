@@ -1,3 +1,10 @@
+smtube (18.1.0) precise; urgency=low
+
+  * Fix Youtube.
+  * Add the Catalan translation.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 09 Jan 2018 23:01:18 +0100
+
 smtube (17.5.0) precise; urgency=low
 
   * Fix for VEVO videos.
