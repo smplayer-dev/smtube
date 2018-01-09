@@ -1,5 +1,6 @@
 Version 18.1
  * Fix Youtube.
+ * Add the Catalan translation.
 
 Version 17.5
  * Fix for VEVO videos.
