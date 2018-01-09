@@ -89,22 +89,22 @@
     <message>
         <location filename="../browserwindow.cpp" line="136"/>
         <source>Zoom +</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom +</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="140"/>
         <source>Zoom -</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom -</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="144"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Quit</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="147"/>
         <source>&amp;Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Navigation</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="159"/>
@@ -149,12 +149,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="298"/>
         <source>Download video using an external service</source>
-        <translation type="unfinished"></translation>
+        <translation>Download video using an external service</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="299"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Download</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="501"/>
@@ -304,7 +304,7 @@ This may fix the problem.</translation>
     <message>
         <location filename="../configdialog.ui" line="108"/>
         <source>&amp;Players</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Players</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="156"/>
@@ -344,32 +344,32 @@ This may fix the problem.</translation>
     <message>
         <location filename="../configdialog.ui" line="240"/>
         <source>&amp;Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Interface</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="248"/>
         <source>&amp;Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Style:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="284"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Font:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="298"/>
         <source>C&amp;hange...</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;hange...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="68"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Download</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="74"/>
         <source>Download videos using an &amp;external service</source>
-        <translation type="unfinished"></translation>
+        <translation>Download videos using an &amp;external service</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="132"/>
@@ -379,7 +379,7 @@ This may fix the problem.</translation>
     <message>
         <location filename="../configdialog.cpp" line="81"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Default</translation>
     </message>
 </context>
 <context>
@@ -400,12 +400,12 @@ This may fix the problem.</translation>
     <message>
         <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in new window</source>
-        <translation type="unfinished"></translation>
+        <translation>Open link in new window</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="75"/>
         <source>Open audio with</source>
-        <translation type="unfinished"></translation>
+        <translation>Open audio with</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="99"/>
@@ -416,7 +416,7 @@ This may fix the problem.</translation>
     <message>
         <location filename="../mywebview.cpp" line="131"/>
         <source>Open audio with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Open audio with %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="49"/>
@@ -426,7 +426,7 @@ This may fix the problem.</translation>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
         <source>Save link...</source>
-        <translation type="unfinished"></translation>
+        <translation>Save link...</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="50"/>
@@ -469,42 +469,42 @@ This may fix the problem.</translation>
     <message>
         <location filename="../playerdialog.ui" line="78"/>
         <source>This player can play &amp;online TV</source>
-        <translation type="unfinished"></translation>
+        <translation>This player can play &amp;online TV</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="87"/>
         <source>Preferred &amp;quality:</source>
-        <translation type="unfinished">Preferred &amp;quality:</translation>
+        <translation>Preferred &amp;quality:</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="117"/>
         <source>Add to &amp;menu:</source>
-        <translation type="unfinished"></translation>
+        <translation>Add to &amp;menu:</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>None</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="29"/>
         <source>Video</source>
-        <translation type="unfinished"></translation>
+        <translation>Video</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="30"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="31"/>
         <source>Video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Video and audio</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Default</translation>
     </message>
 </context>
 </TS>
