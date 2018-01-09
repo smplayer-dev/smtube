@@ -136,5 +136,6 @@ TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_hu.ts \
                translations/smtube_he_IL.ts \
                translations/smtube_el.ts \
-               translations/smtube_nb_NO.ts
+               translations/smtube_nb_NO.ts \
+               translations/smtube_ca.ts
 
