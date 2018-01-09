@@ -1,82 +1,69 @@
-# Info_Portable_Detected
-msgid "Found portable version of SMPlayer."
-msgstr "Dostupna je samostojeća inačica SMPlayera."
-
-# Info_Portable_Bypassed
-msgid "Portable check overriden by command-line, forcing portable."
-msgstr ""
-"Provjera je li aplikacija samostojeća zaobiđena je u naredbenom redku, "
-"prisilno je samostojeća."
-
-# Info_QtArch_Bypassed
-msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
-msgstr ""
-"Provjera SMPlayer arhitekture i Qt inačice zaobiđena je u naredbenom redku."
-
-# DirectoryIsNotWritable
-msgid ""
-"The chosen installation directory is not writable and may require restarting "
-"the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed with "
-"installation?"
-msgstr ""
-"Odabrani direktorij instalacije nema dozvolu zapisivanja i zahtjeva ponovno "
-"pokretanje instalacijskog programa s administratorskim ovlastima.[:r:][:n:][:"
-"r:][:n:]Nastavi s instalacijom?"
-
-# DirectoryPage_Text
-msgid ""
-"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
-"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-msgstr ""
-"$(^DirText)[:r:][:n:][:r:][:n:]SMTube mora biti instaliran u direktorij koji "
-"sadrži ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} instalaciju SMPlayera."
-
-# Section_SMTube
-msgid "SMTube (required)"
-msgstr "SMTube (potrebno)"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
-"n:]It is recommended that you close all instances of SMTube before starting "
-"setup. This will make it possible to update relevant program files without "
-"having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
-"Program instalacije će vas voditi kroz instalaciju $(^NameDA).[:r:][:n:][:r:]"
-"[:n:]Preporučljivo je da zatvorite sve primjerke SMTuba prije pokretanja "
-"instalacije. To će omogućiti ažuriranje bitnih datoteka programa bez potrebe "
-"za ponovnim pokretanjem vašeg računala.[:r:][:n:][:r:][:n:]$_CLICK"
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "$(^NameDA) program instalacije"
-
-# Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr ""
-"64-bitni Windows operativni sustav je potreban za instalaciju ovog softvera."
-
-# Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr ""
-"Morate biti prijavljeni kao administrator kada instaliravate ovaj program."
-
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # gogo <trebelnik2@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-09 15:56+0000\n"
+"PO-Revision-Date: 2017-09-23 22:21+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
-"Language-Team: Croatian (http://www.transifex.com/rvm/smplayer/language/"
-"hr/)\n"
-"Language: hr\n"
+"Language-Team: Croatian (http://www.transifex.com/rvm/smplayer/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+# Installer_No_Admin
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "Morate biti prijavljeni kao administrator kada instaliravate ovaj program."
+
+# Win64_Required
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "64-bitni Windows operativni sustav je potreban za instalaciju ovog softvera."
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) program instalacije"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMTube before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "Program instalacije će vas voditi kroz instalaciju $(^NameDA).[:r:][:n:][:r:][:n:]Preporučljivo je da zatvorite sve primjerke SMTuba prije pokretanja instalacije. To će omogućiti ažuriranje bitnih datoteka programa bez potrebe za ponovnim pokretanjem vašeg računala.[:r:][:n:][:r:][:n:]$_CLICK"
+
+# Section_SMTube
+msgid "SMTube (required)"
+msgstr "SMTube (potrebno)"
+
+# DirectoryPage_Text
+msgid ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
+"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+msgstr "$(^DirText)[:r:][:n:][:r:][:n:]SMTube mora biti instaliran u direktorij koji sadrži ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} instalaciju SMPlayera."
+
+# DirectoryIsNotWritable
+msgid ""
+"The chosen installation directory is not writable and may require restarting"
+" the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
+"with installation?"
+msgstr "Odabrani direktorij instalacije nema dozvolu zapisivanja i zahtjeva ponovno pokretanje instalacijskog programa s administratorskim ovlastima.[:r:][:n:][:r:][:n:]Nastavi s instalacijom?"
+
+# Info_QtArch_Bypassed
+msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
+msgstr "Provjera SMPlayer arhitekture i Qt inačice zaobiđena je u naredbenom redku."
+
+# Info_Portable_Bypassed
+msgid "Portable check overriden by command-line, forcing portable."
+msgstr "Provjera je li aplikacija samostojeća zaobiđena je u naredbenom redku, prisilno je samostojeća."
+
+# Info_Portable_Detected
+msgid "Found portable version of SMPlayer."
+msgstr "Dostupna je samostojeća inačica SMPlayera."

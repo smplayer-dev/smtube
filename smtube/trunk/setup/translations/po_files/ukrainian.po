@@ -1,80 +1,69 @@
-# Info_Portable_Detected
-msgid "Found portable version of SMPlayer."
-msgstr "Знайдена портативна версія SMPlayer."
-
-# Info_Portable_Bypassed
-msgid "Portable check overriden by command-line, forcing portable."
-msgstr ""
-"Перевірка на портативність перевизначена командним рядком, примушуючи до "
-"портативності."
-
-# Info_QtArch_Bypassed
-msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
-msgstr ""
-"SMPlayer, перевірка архітектури та Qt версії обійдені командним рядком."
-
-# DirectoryIsNotWritable
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Микола Ткач <znadibnyk@gmail.com>, 2016
 msgid ""
-"The chosen installation directory is not writable and may require restarting "
-"the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed with "
-"installation?"
 msgstr ""
-"Обрана директорія для встановлення недоступна для запису, й може знадобитися "
-"перезапуск встановлювача з правами адміністратора.[:r:][:n:][:r:][:n:]"
-"Продовжити встановлення?"
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2017-09-22 21:36+0000\n"
+"Last-Translator: Микола Ткач <znadibnyk@gmail.com>\n"
+"Language-Team: Ukrainian (http://www.transifex.com/rvm/smplayer/language/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-# DirectoryPage_Text
+# Installer_No_Admin
 msgid ""
-"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
-"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-msgstr ""
-"$(^DirText)[:r:][:n:][:r:][:n:]SMTube має бути встановлений у директорію, що "
-"містить ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} встановлення SMPlayer'а."
+"You must be logged in as an administrator when installing this program."
+msgstr "Для встановлення проґрами необхідно увійти в систему як адміністратор."
 
-# Section_SMTube
-msgid "SMTube (required)"
-msgstr "SMTube (необхідний)"
-
-# WelcomePage_Text
+# Win64_Required
 msgid ""
-"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
-"n:]It is recommended that you close all instances of SMTube before starting "
-"setup. This will make it possible to update relevant program files without "
-"having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
-"Майстер встановлення допоможе встановити $(^NameDA).[:r:][:n:][:r:][:n:]"
-"Перед початком встановлення радиться закрити усі працюючі копії SMTube. Це "
-"дозволить оновити супутні проґрамні файли без перезавантаження комп’ютера.[:"
-"r:][:n:][:r:][:n:]$_CLICK"
+"A 64-bit Windows operating system is required to install this software."
+msgstr "Для встановлення цього ПЗ потрібна 64-бітова ОС Windows."
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
 msgstr "Встановлення $(^NameDA) "
 
-# Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr "Для встановлення цього ПЗ потрібна 64-бітова ОС Windows."
-
-# Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr "Для встановлення проґрами необхідно увійти в систему як адміністратор."
-
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# Микола Ткач <znadobar@gmail.com>, 2016
+# WelcomePage_Text
 msgid ""
-msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-09 15:56+0000\n"
-"Last-Translator: Микола Ткач <znadobar@gmail.com>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/rvm/smplayer/language/"
-"uk/)\n"
-"Language: uk\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMTube before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "Майстер встановлення допоможе встановити $(^NameDA).[:r:][:n:][:r:][:n:]Перед початком встановлення радиться закрити усі працюючі копії SMTube. Це дозволить оновити супутні проґрамні файли без перезавантаження комп’ютера.[:r:][:n:][:r:][:n:]$_CLICK"
+
+# Section_SMTube
+msgid "SMTube (required)"
+msgstr "SMTube (необхідний)"
+
+# DirectoryPage_Text
+msgid ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
+"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+msgstr "$(^DirText)[:r:][:n:][:r:][:n:]SMTube має бути встановлений у директорію, що містить ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} встановлення SMPlayer'а."
+
+# DirectoryIsNotWritable
+msgid ""
+"The chosen installation directory is not writable and may require restarting"
+" the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
+"with installation?"
+msgstr "Обрана директорія для встановлення недоступна для запису, й може знадобитися перезапуск встановлювача з правами адміністратора.[:r:][:n:][:r:][:n:]Продовжити встановлення?"
+
+# Info_QtArch_Bypassed
+msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
+msgstr "SMPlayer, перевірка архітектури та Qt версії обійдені командним рядком."
+
+# Info_Portable_Bypassed
+msgid "Portable check overriden by command-line, forcing portable."
+msgstr "Перевірка на портативність перевизначена командним рядком, примушуючи до портативності."
+
+# Info_Portable_Detected
+msgid "Found portable version of SMPlayer."
+msgstr "Знайдена портативна версія SMPlayer."

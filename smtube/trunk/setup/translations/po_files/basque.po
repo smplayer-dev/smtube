@@ -1,79 +1,69 @@
-# Info_Portable_Detected
-msgid "Found portable version of SMPlayer."
-msgstr "SMPlayer bertsio eramangarri bat aurkitu da."
-
-# Info_Portable_Bypassed
-msgid "Portable check overriden by command-line, forcing portable."
-msgstr ""
-"Eramangari egiaztapena agindu-lerroak ezeztatuta, eramangarria behartzen."
-
-# Info_QtArch_Bypassed
-msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
-msgstr ""
-"SMPlayer, arkitektura eta Qt bertsio egiaztapena igarota agindu-lerrotik."
-
-# DirectoryIsNotWritable
-msgid ""
-"The chosen installation directory is not writable and may require restarting "
-"the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed with "
-"installation?"
-msgstr ""
-"Hautaturiko ezarpen zuzenbidea ez da idazgarria eta ezartzailea administrari "
-"eskubideekin berrabiaraztea behar izan dezake.[:r:][:n:][:r:][:n:]Jarraitu "
-"ezarpenarekin?"
-
-# DirectoryPage_Text
-msgid ""
-"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
-"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-msgstr ""
-"$(^DirText)[:r:][:n:][:r:][:n:]SMTube ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} "
-"SMPlayer ezarpena duen zuzenbide batean ezarri behar da."
-
-# Section_SMTube
-msgid "SMTube (required)"
-msgstr "SMTube (beharrezkoa)"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
-"n:]It is recommended that you close all instances of SMTube before starting "
-"setup. This will make it possible to update relevant program files without "
-"having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
-"Ezartzaileak $(^NameDA)-ren ezarpenean zehar gidatuko zaitu.[:r:][:n:][:r:][:"
-"n:]Gomendagarria da SMPlayer eskabide guztiak istea ezarpena hasi aurretik. "
-"Honek zure ordenagailua berrabiarazi gabe programa agiri garrantzitsuak "
-"eguneratu ahal izatea egiten du.[:r:][:n:][:r:][:n:]$_CLICK"
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "$(^NameDA) Ezarpena"
-
-# Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr "64-biteko Windows sistema eragile bat behar da software hau ezartzeko."
-
-# Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr ""
-"Administratzaile bezala saioa hasita egon behar duzu programa hau "
-"ezartzerakoan."
-
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Xabier Aramendi <azpidatziak@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-09 15:56+0000\n"
+"PO-Revision-Date: 2017-09-23 22:21+0000\n"
 "Last-Translator: Xabier Aramendi <azpidatziak@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/rvm/smplayer/language/eu/)\n"
-"Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Installer_No_Admin
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "Administratzaile bezala saioa hasita egon behar duzu programa hau ezartzerakoan."
+
+# Win64_Required
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "64-biteko Windows sistema eragile bat behar da software hau ezartzeko."
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) Ezarpena"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMTube before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "Ezartzaileak $(^NameDA)-ren ezarpenean zehar gidatuko zaitu.[:r:][:n:][:r:][:n:]Gomendagarria da SMPlayer eskabide guztiak istea ezarpena hasi aurretik. Honek zure ordenagailua berrabiarazi gabe programa agiri garrantzitsuak eguneratu ahal izatea egiten du.[:r:][:n:][:r:][:n:]$_CLICK"
+
+# Section_SMTube
+msgid "SMTube (required)"
+msgstr "SMTube (beharrezkoa)"
+
+# DirectoryPage_Text
+msgid ""
+"$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
+"containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+msgstr "$(^DirText)[:r:][:n:][:r:][:n:]SMTube ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} SMPlayer ezarpena duen zuzenbide batean ezarri behar da."
+
+# DirectoryIsNotWritable
+msgid ""
+"The chosen installation directory is not writable and may require restarting"
+" the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
+"with installation?"
+msgstr "Hautaturiko ezarpen zuzenbidea ez da idazgarria eta ezartzailea administrari eskubideekin berrabiaraztea behar izan dezake.[:r:][:n:][:r:][:n:]Jarraitu ezarpenarekin?"
+
+# Info_QtArch_Bypassed
+msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
+msgstr "SMPlayer, arkitektura eta Qt bertsio egiaztapena igarota agindu-lerrotik."
+
+# Info_Portable_Bypassed
+msgid "Portable check overriden by command-line, forcing portable."
+msgstr "Eramangari egiaztapena agindu-lerroak ezeztatuta, eramangarria behartzen."
+
+# Info_Portable_Detected
+msgid "Found portable version of SMPlayer."
+msgstr "SMPlayer bertsio eramangarri bat aurkitu da."
