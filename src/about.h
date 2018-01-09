@@ -1,5 +1,5 @@
 /*  smtube, a small youtube browser.
-    Copyright (C) 2012-2017 Ricardo Villalba <rvm@users.sourceforge.net>
+    Copyright (C) 2012-2018 Ricardo Villalba <rvm@users.sourceforge.net>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
