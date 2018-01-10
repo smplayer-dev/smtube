@@ -36,6 +36,8 @@ Requires:       smplayer
 This is a YouTube browser for SMPlayer. You can browse, search
 and play YouTube videos.
 
+%global debug_package %{nil}
+
 %prep
 %setup -q
 
