@@ -593,6 +593,7 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 			}
 			q->removeAllQueryItems("fallback_host");
 			q->removeAllQueryItems("type");
+			q->removeAllQueryItems("xtags");
 
 			if (!q->hasQueryItem("ratebypass")) q->addQueryItem("ratebypass", "yes");
 
