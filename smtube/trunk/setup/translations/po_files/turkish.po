@@ -4,12 +4,12 @@
 # 
 # Translators:
 # Emre FIRAT <emrefirat93@gmail.com>, 2016
-# mahmut özcan <mahmutozcan65@yahoo.com>, 2016-2017
+# mahmut özcan <mahmutozcan65@yahoo.com>, 2016-2018
 # Mehmet, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2017-12-13 02:26+0000\n"
+"PO-Revision-Date: 2018-03-10 12:28+0000\n"
 "Last-Translator: mahmut özcan <mahmutozcan65@yahoo.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/rvm/smplayer/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr " SMTube (gerekli)"
 msgid ""
 "$(^DirText)[:r:][:n:][:r:][:n:]SMTube must be installed to a directory "
 "containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-msgstr ""
+msgstr "$(^DirText)[:r:][:n:][:r:][:n:]SMTube, bir smplayer ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} kurulumunu içeren bir dizine kurulmalıdır."
 
 # DirectoryIsNotWritable
 msgid ""
