@@ -23,7 +23,7 @@ ${LangFileString} WelcomePage_Text "Kurulum $(^NameDA) 'ın kurulumunda size reh
 ${LangFileString} Section_SMTube " SMTube (gerekli)"
 
 ; Directory Page
-${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
+${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube, bir smplayer ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} kurulumunu içeren bir dizine kurulmalıdır."
 ${LangFileString} DirectoryIsNotWritable "Seçilen kurulrm dizini yazılabilir değil ve kurucuyu yönetici yetkisiyle tekrar başlatmanız gerekiyor. $\r$\n$\r$\nKurulum devam etsin mi?"
 
 ; Misc
