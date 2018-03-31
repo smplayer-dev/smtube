@@ -1,3 +1,6 @@
+Version 18.3
+ * Fix the option "open audio with".
+
 Version 18.1
  * Fix Youtube.
  * Add the Catalan translation.
