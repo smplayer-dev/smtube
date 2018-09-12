@@ -1,3 +1,9 @@
+smtube (18.9.0) precise; urgency=low
+
+  * Fix Youtube.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 12 Sep 2018 21:37:21 +0200
+
 smtube (18.3.0) precise; urgency=low
 
   * Fix the option "open audio with".
