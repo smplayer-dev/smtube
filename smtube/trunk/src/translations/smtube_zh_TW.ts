@@ -376,7 +376,7 @@
         <translation>向下</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="81"/>
+        <location filename="../configdialog.cpp" line="79"/>
         <source>Default</source>
         <translation>預設值</translation>
     </message>

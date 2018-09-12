@@ -376,7 +376,7 @@
         <translation>Доле</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="81"/>
+        <location filename="../configdialog.cpp" line="79"/>
         <source>Default</source>
         <translation>Подразумевано</translation>
     </message>

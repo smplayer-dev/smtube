@@ -376,9 +376,9 @@
         <translation>Herunter</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="81"/>
+        <location filename="../configdialog.cpp" line="79"/>
         <source>Default</source>
-        <translation>Standard</translation>
+        <translation>Vorgabe</translation>
     </message>
 </context>
 <context>
@@ -503,7 +503,7 @@
     <message>
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation>Standard</translation>
+        <translation>Vorgabe</translation>
     </message>
 </context>
 </TS>
