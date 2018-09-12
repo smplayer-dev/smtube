@@ -1,3 +1,6 @@
+Version 18.9
+ * Fix Youtube.
+
 Version 18.3
  * Fix the option "open audio with".
 
