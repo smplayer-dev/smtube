@@ -376,7 +376,7 @@
         <translation>Sposta in basso</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="81"/>
+        <location filename="../configdialog.cpp" line="79"/>
         <source>Default</source>
         <translation>Predefinito</translation>
     </message>

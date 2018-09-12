@@ -46,7 +46,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>Visit our website for updates:</source>
-        <translation>Visite o nosso sítio web para obter atualizações:</translation>
+        <translation>Aceda ao nosso site para obter atualizações:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="87"/>
@@ -376,7 +376,7 @@
         <translation>Baixo</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="81"/>
+        <location filename="../configdialog.cpp" line="79"/>
         <source>Default</source>
         <translation>Padrão</translation>
     </message>

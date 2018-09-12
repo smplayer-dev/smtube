@@ -377,7 +377,7 @@ This may fix the problem.</translation>
         <translation>Down</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="81"/>
+        <location filename="../configdialog.cpp" line="79"/>
         <source>Default</source>
         <translation>Default</translation>
     </message>
