@@ -1,7 +1,7 @@
 #! /bin/sh
  
-ln -s debian-rvm debian
-cp debian-rvm/changelog-orig debian-rvm/changelog
+ln -s debian-orig debian
+cp debian-orig/changelog-orig debian-orig/changelog
 
 ./get_svn_revision.sh
 #dch -v 18.3.0-`cat svn_revision` "New version"
