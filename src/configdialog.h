@@ -36,8 +36,8 @@ public:
 	ConfigDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
 	~ConfigDialog();
 
-	void setPlaybackQuality(int quality);
-	int playbackQuality();
+	void setPlaybackResolution(int resolution);
+	int playbackResolution();
 
 #ifdef D_BUTTON
 	void setAddDownloadButton(bool b);

@@ -114,7 +114,7 @@ private:
 
 	QSettings * settings;
 
-	int preferred_quality;
+	int preferred_resolution;
 	bool use_cookies;
 
 #ifdef USE_PLAYERS

@@ -54,16 +54,11 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	tabs->setTabEnabled(1, false);
 #endif
 
-	playback_quality_combo->addItem( "240p (flv)", RetrieveYoutubeUrl::FLV_240p );
-	playback_quality_combo->addItem( "360p (flv)", RetrieveYoutubeUrl::FLV_360p );
-	playback_quality_combo->addItem( "360p (mp4)", RetrieveYoutubeUrl::MP4_360p );
-	playback_quality_combo->addItem( "360p (webm)", RetrieveYoutubeUrl::WEBM_360p );
-	playback_quality_combo->addItem( "480p (flv)", RetrieveYoutubeUrl::FLV_480p );
-	playback_quality_combo->addItem( "480p (webm)", RetrieveYoutubeUrl::WEBM_480p );
-	playback_quality_combo->addItem( "720p (mp4)", RetrieveYoutubeUrl::MP4_720p );
-	playback_quality_combo->addItem( "720p (webm)", RetrieveYoutubeUrl::WEBM_720p );
-	playback_quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
-	playback_quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
+	playback_quality_combo->addItem( "240p", RetrieveYoutubeUrl::R240p );
+	playback_quality_combo->addItem( "360p", RetrieveYoutubeUrl::R360p );
+	playback_quality_combo->addItem( "480p", RetrieveYoutubeUrl::R480p );
+	playback_quality_combo->addItem( "720p", RetrieveYoutubeUrl::R720p );
+	playback_quality_combo->addItem( "1080p", RetrieveYoutubeUrl::R1080p );
 
 #ifdef D_BUTTON
 	external_download_combo->addItem("http://9xbuddy.com/download?url=%YT_URL%");
@@ -87,11 +82,11 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 ConfigDialog::~ConfigDialog() {
 }
 
-void ConfigDialog::setPlaybackQuality(int quality) {
-	playback_quality_combo->setCurrentIndex(playback_quality_combo->findData(quality));
+void ConfigDialog::setPlaybackResolution(int resolution) {
+	playback_quality_combo->setCurrentIndex(playback_quality_combo->findData(resolution));
 }
 
-int ConfigDialog::playbackQuality() {
+int ConfigDialog::playbackResolution() {
 	int index = playback_quality_combo->currentIndex();
 	return playback_quality_combo->itemData(index).toInt();
 }
@@ -134,7 +129,7 @@ void ConfigDialog::setPlayers(QList<Player> list) {
 		i->setData(Qt::UserRole + COL_STREAMINGSITES, list[n].supportStreamingSites());
 		i->setData(Qt::UserRole + COL_ONLINETV, list[n].supportOnlineTV());
 		i->setData(Qt::UserRole + COL_MEDIA, list[n].supportedMedia());
-		i->setData(Qt::UserRole + COL_QUALITY, list[n].preferredQuality());
+		i->setData(Qt::UserRole + COL_QUALITY, list[n].preferredResolution());
 
 		table->addItem(i);
 	}
@@ -188,7 +183,7 @@ void ConfigDialog::editCurrentItem() {
 	d.setSupportStreamingSites(support_streaming_sites);
 	d.setSupportOnlineTV(support_online_tv);
 	d.setMedia(supported_media);
-	d.setQuality(quality);
+	d.setResolution(quality);
 
 	if (d.exec() == QDialog::Accepted) {
 		i->setText(d.name());
@@ -198,7 +193,7 @@ void ConfigDialog::editCurrentItem() {
 		i->setData(Qt::UserRole + COL_STREAMINGSITES, d.supportStreamingSites());
 		i->setData(Qt::UserRole + COL_ONLINETV, d.supportOnlineTV());
 		i->setData(Qt::UserRole + COL_MEDIA, d.media());
-		i->setData(Qt::UserRole + COL_QUALITY, d.quality());
+		i->setData(Qt::UserRole + COL_QUALITY, d.resolution());
 	}
 }
 
@@ -270,7 +265,7 @@ void ConfigDialog::on_addplayers_button_clicked() {
 			i->setData(Qt::UserRole + COL_STREAMINGSITES, default_players[n].supportStreamingSites());
 			i->setData(Qt::UserRole + COL_ONLINETV, default_players[n].supportOnlineTV());
 			i->setData(Qt::UserRole + COL_MEDIA, default_players[n].supportedMedia());
-			i->setData(Qt::UserRole + COL_QUALITY, default_players[n].preferredQuality());
+			i->setData(Qt::UserRole + COL_QUALITY, default_players[n].preferredResolution());
 			table->addItem(i);
 		}
 	}

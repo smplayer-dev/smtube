@@ -37,7 +37,7 @@ public:
 	void setSupportStreamingSites(bool b);
 	void setSupportOnlineTV(bool b);
 	void setMedia(int m);
-	void setQuality(int q);
+	void setResolution(int r);
 
 	QString name();
 	QString binary();
@@ -45,7 +45,7 @@ public:
 	bool supportStreamingSites();
 	bool supportOnlineTV();
 	int media();
-	int quality();
+	int resolution();
 
 protected slots:
 	void streamingSitesChanged(bool);

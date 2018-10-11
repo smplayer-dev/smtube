@@ -175,7 +175,7 @@ void Players::save(QSettings * set) {
 		set->setValue("directplay", list[n].supportStreamingSites());
 		set->setValue("online_tv", list[n].supportOnlineTV());
 		set->setValue("supported_media", list[n].supportedMedia());
-		set->setValue("quality", list[n].preferredQuality());
+		set->setValue("resolution", list[n].preferredResolution());
 		set->endGroup();
 	}
 
@@ -214,8 +214,8 @@ void Players::load(QSettings * set) {
 				#endif
 			}
 
-			int quality = set->value("quality", -1).toInt();
-			list.push_back( Player(name, binary, arguments, support_streaming_sites, support_online_tv, (Player::Media) supported_media, quality) );
+			int resolution = set->value("resolution", -1).toInt();
+			list.push_back( Player(name, binary, arguments, support_streaming_sites, support_online_tv, (Player::Media) supported_media, resolution) );
 			set->endGroup();
 		}
 	}

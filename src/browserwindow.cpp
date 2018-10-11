@@ -58,7 +58,7 @@
 
 BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::WindowFlags flags)
 	: QMainWindow(parent, flags)
-	, preferred_quality(RetrieveYoutubeUrl::MP4_360p)
+	, preferred_resolution(RetrieveYoutubeUrl::R360p)
 	, use_cookies(true)
 #ifdef USE_PLAYERS
 	, current_player(-1)
@@ -83,6 +83,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	connect(ryu, SIGNAL(gotEmptyList()), this, SLOT(showErrorEmptyList()));
 
 	ryua = new RetrieveYoutubeUrl(this);
+	ryua->setUseDASH(true);
 	connect(ryua, SIGNAL(gotUrls(const QMap<int, QString>&)), this, SLOT(openYTAudioUrl(const QMap<int, QString>&)));
 	connect(ryua, SIGNAL(signatureNotFound(const QString &)), this, SLOT(showErrorSignatureNotFound(const QString &)));
 	connect(ryua, SIGNAL(noSslSupport()), this, SLOT(showErrorNoSslSupport()));
@@ -369,16 +370,16 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 	QString arguments = players.item(player_id).arguments();
 	bool support_streaming_sites = players.item(player_id).supportStreamingSites();
 	bool support_online_tv = players.item(player_id).supportOnlineTV();
-	int quality = preferred_quality;
-	if (players.item(player_id).preferredQuality() != -1) {
-		quality = players.item(player_id).preferredQuality();
+	int resolution = preferred_resolution;
+	if (players.item(player_id).preferredResolution() != -1) {
+		resolution = players.item(player_id).preferredResolution();
 	}
 #else
 	QString binary = HCPLAYER_EXECUTABLE;
 	QString player_name = HCPLAYER_NAME;
 	QString arguments = HCPLAYER_ARGUMENTS;
 	bool support_streaming_sites = HCPLAYER_STREAMINGSITES;
-	int quality = preferred_quality;
+	int resolution = preferred_resolution;
 #endif
 
 	int site_type = SupportedUrls::site(url.toString());
@@ -399,7 +400,7 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 		#ifdef YT_USE_YTSIG
 		YTSig::setScriptFile(script_file);
 		#endif
-		ryu->setPreferredQuality((RetrieveYoutubeUrl::Quality) quality);
+		ryu->setPreferredResolution((RetrieveYoutubeUrl::Resolution) resolution);
 		ryu->fetchPage(url.toString());
 	}
 }
@@ -485,11 +486,15 @@ void BrowserWindow::openAudioWith(const QString & player, const QUrl & url) {
 
 void BrowserWindow::openYTAudioUrl(const QMap<int, QString>& url_map) {
 	qDebug() << "BrowserWindow::openYTAudioUrl";
+	/*
 	QString url;
 	int itag = ryua->findBestAudio(url_map);
 	if (itag != -1) url = url_map[itag];
+	*/
+	int itag = ryua->selectedQuality();
+	QString url = ryua->selectedAudioUrl();
 
-	//qDebug() << "BrowserWindow::openYTAudioUrl: url:" << url;
+	qDebug() << "BrowserWindow::openYTAudioUrl: url:" << url << "itag:" << itag;
 
 	if (!url.isEmpty()) {
 		openYTUrl(ryua->urlTitle(), ryu->extensionForItag(itag), url);
@@ -566,7 +571,7 @@ void BrowserWindow::showAbout() {
 void BrowserWindow::showConfigDialog() {
 	ConfigDialog d(this);
 
-	d.setPlaybackQuality(preferred_quality);
+	d.setPlaybackResolution(preferred_resolution);
 	#ifdef USE_PLAYERS
 	d.setPlayers(players.allPlayers());
 	d.setDefaultPlayers(players.defaultPlayers());
@@ -584,7 +589,7 @@ void BrowserWindow::showConfigDialog() {
 #endif
 
 	if (d.exec() == QDialog::Accepted) {
-		preferred_quality = d.playbackQuality();
+		preferred_resolution = d.playbackResolution();
 		#ifdef USE_PLAYERS
 		players.setAllPlayers(d.players());
 		view->setPlayers(players.availablePlayers());
@@ -622,7 +627,7 @@ void BrowserWindow::saveConfig() {
 	settings->endGroup();
 
 	settings->beginGroup("General");
-	settings->setValue("playback_quality", preferred_quality);
+	settings->setValue("playback_resolution", preferred_resolution);
 	settings->setValue("user_agent", ryu->userAgent());
 	settings->setValue("use_https_main", ryu->useHttpsMain());
 	settings->setValue("use_https_vi", ryu->useHttpsVi());
@@ -679,7 +684,7 @@ void BrowserWindow::loadConfig() {
 	settings->endGroup();
 
 	settings->beginGroup("General");
-	preferred_quality = settings->value("playback_quality", RetrieveYoutubeUrl::MP4_360p).toInt();
+	preferred_resolution = settings->value("playback_resolution", RetrieveYoutubeUrl::R360p).toInt();
 	ryu->setUserAgent(settings->value("user_agent", "").toString());
 	ryu->setUseHttpsMain(settings->value("use_https_main", false).toBool());
 	ryu->setUseHttpsVi(settings->value("use_https_vi", false).toBool());

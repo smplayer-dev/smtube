@@ -31,16 +31,11 @@ PlayerDialog::PlayerDialog(QWidget * parent, Qt::WindowFlags f)
 	media_combo->addItem( tr("Video and audio"), Player::VideoAudio );
 
 	quality_combo->addItem( tr("Default"), -1 );
-	quality_combo->addItem( "240p (flv)", RetrieveYoutubeUrl::FLV_240p );
-	quality_combo->addItem( "360p (flv)", RetrieveYoutubeUrl::FLV_360p );
-	quality_combo->addItem( "360p (mp4)", RetrieveYoutubeUrl::MP4_360p );
-	quality_combo->addItem( "360p (webm)", RetrieveYoutubeUrl::WEBM_360p );
-	quality_combo->addItem( "480p (flv)", RetrieveYoutubeUrl::FLV_480p );
-	quality_combo->addItem( "480p (webm)", RetrieveYoutubeUrl::WEBM_480p );
-	quality_combo->addItem( "720p (mp4)", RetrieveYoutubeUrl::MP4_720p );
-	quality_combo->addItem( "720p (webm)", RetrieveYoutubeUrl::WEBM_720p );
-	quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
-	quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
+	quality_combo->addItem( "240p", RetrieveYoutubeUrl::R240p );
+	quality_combo->addItem( "360p", RetrieveYoutubeUrl::R360p );
+	quality_combo->addItem( "480p", RetrieveYoutubeUrl::R480p );
+	quality_combo->addItem( "720p", RetrieveYoutubeUrl::R720p );
+	quality_combo->addItem( "1080p", RetrieveYoutubeUrl::R1080p );
 
 	connect(streamingsites_check, SIGNAL(toggled(bool)), this, SLOT(streamingSitesChanged(bool)));
 }
@@ -74,8 +69,8 @@ void PlayerDialog::setMedia(int m) {
 	media_combo->setCurrentIndex(i);
 }
 
-void PlayerDialog::setQuality(int q) {
-	int i = quality_combo->findData(q);
+void PlayerDialog::setResolution(int r) {
+	int i = quality_combo->findData(r);
 	if (i == -1) i = 0;
 	quality_combo->setCurrentIndex(i);
 }
@@ -105,7 +100,7 @@ int PlayerDialog::media() {
 	return media_combo->itemData(i).toInt();
 }
 
-int PlayerDialog::quality() {
+int PlayerDialog::resolution() {
 	int i = quality_combo->currentIndex();
 	return quality_combo->itemData(i).toInt();
 }
