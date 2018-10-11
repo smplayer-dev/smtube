@@ -6,7 +6,7 @@ CONFIG += release
 #CONFIG += debug
 
 DEFINES += USE_PLAYERS
-DEFINES += YT_USE_SCRIPT
+DEFINES += YT_USE_SIG
 DEFINES += D_BUTTON
 DEFINES += STYLE_SWITCHING
 
@@ -65,20 +65,10 @@ FORMS = playerdialog.ui configdialog.ui about.ui
 
 RESOURCES = icons.qrc
 
-contains( DEFINES, YT_USE_SCRIPT ) {
-	DEFINES += YT_USE_SIG
-	#DEFINES += YT_USE_YTSIG
-	QT += script
-}
-
 contains( DEFINES, YT_USE_SIG ) {
 	HEADERS += sig.h
 	SOURCES += sig.cpp
-}
-
-contains( DEFINES, YT_USE_YTSIG ) {
-	HEADERS += ytsig.h codedownloader.h
-	SOURCES += ytsig.cpp codedownloader.cpp
+	QT += script # optional
 }
 
 contains(DEFINES, USE_PLAYERS) {
