@@ -19,11 +19,63 @@
 #include "sig.h"
 #include <QRegExp>
 #include <QStringList>
-#include <QtScript>
 #include <QSettings>
 #include <QDebug>
 
+#ifdef SIG_USE_JSCODE
+#include <QtScript>
+#endif
+
 //#define ULTRAVERBOSE
+
+QString Sig::playerURL(const QString & player_name) {
+#ifdef SIG_FROM_SMPLAYER_SITE
+	QString p = player_name.toUtf8().toBase64();
+	return QString("http://updates.smplayer.info/ytsig/?e=%1&c=1").arg(p);
+#else
+	return QString("http://s.ytimg.com/yts/jsbin/%1/base.js").arg(player_name);
+#endif
+}
+
+#ifdef SIG_FROM_SMPLAYER_SITE
+QString Sig::findFunctions(const QString & text) {
+	qDebug() << "Sig::findFunctions:" << text;
+
+	sts = "";
+	function_name = "";
+	decrypt_function = "";
+
+	QRegExp rx;
+	rx.setMinimal(true);
+
+	rx.setPattern("sts:(\\d+)\n");
+	if (rx.indexIn(text) != -1) {
+		sts = rx.cap(1);
+	}
+	qDebug() << "Sig::findFunctions: sts:" << sts;
+
+	rx.setPattern("function_name:(.*)\n");
+	if (rx.indexIn(text) != -1) {
+		function_name = rx.cap(1);
+	}
+	qDebug() << "Sig::findFunctions: function_name:" << function_name;
+
+	rx.setPattern("function:(.*)\n");
+	if (rx.indexIn(text) != -1) {
+		decrypt_function = rx.cap(1);
+	}
+	qDebug() << "Sig::findFunctions: decrypt_function:" << decrypt_function;
+
+	rx.setPattern("code:(.*)\n");
+	if (rx.indexIn(text) != -1) {
+		decrypt_code = rx.cap(1).trimmed();
+	}
+	qDebug() << "Sig::findFunctions: decrypt_code:" << decrypt_code;
+
+	return decrypt_function;
+}
+
+#else
 
 QString Sig::findText(const QString & text, const QString & begin, const QString & end) {
 	QString res;
@@ -128,10 +180,28 @@ QString Sig::findFunctions(const QString & text) {
 	decrypt_function = res;
 	return res;
 }
+#endif
 
-QString Sig::aclara(const QString & text) {
-	int dot = text.indexOf('.');
-	qDebug("Sig::aclara: length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
+QString Sig::aclara(const QString & signature) {
+#if defined(SIG_USE_JSCODE) && defined(SIG_USE_NO_JSCODE)
+	if (!decrypt_code.isEmpty()) {
+		return aclaraNoJS(signature);
+	} else {
+		return aclaraJS(signature);
+	}
+#else
+#ifdef SIG_USE_JSCODE
+	return aclaraJS(signature);
+#else
+	return aclaraNoJS(signature);
+#endif
+#endif
+}
+
+#ifdef SIG_USE_JSCODE
+QString Sig::aclaraJS(const QString & signature) {
+	int dot = signature.indexOf('.');
+	qDebug("Sig::aclaraJS: length: %d (%d.%d)", signature.size(), dot, signature.size()-dot-1);
 
 	QString res;
 
@@ -141,19 +211,89 @@ QString Sig::aclara(const QString & text) {
 		engine.evaluate(decrypt_function);
 
 		QScriptValueList args;
-		args << text;
+		args << signature;
 		QScriptValue aclarar = engine.globalObject().property(fname);
 		res = aclarar.call(QScriptValue(), args).toString();
 	}
 
+	#ifdef ULTRAVERBOSE
+	qDebug() << "Sig::aclara: orig:" << signature;
 	qDebug() << "Sig::aclara: res:" << res;
+	#endif
 
 	if (res.isEmpty()) {
-		qDebug() << "Sig::aclara: signature length not supported:" << text.size() << ":" << text;
+		qDebug() << "Sig::aclara: signature length not supported:" << signature.size() << ":" << signature;
 	}
 
 	return res;
 }
+#endif
+
+#ifdef SIG_USE_NO_JSCODE
+QString Sig::reverseString(const QString & orig) {
+	QString r;
+	for (int n = orig.size()-1; n >= 0; n--) {
+		r.append(orig.at(n));
+	}
+	return r;
+}
+
+QString Sig::aclaraNoJS(const QString & signature) {
+	int dot = signature.indexOf('.');
+	qDebug("Sig::aclaraNoJS: length: %d (%d.%d)", signature.size(), dot, signature.size()-dot-1);
+
+	QString s = signature;
+
+	if (decrypt_code.isEmpty()) {
+		qDebug() << "Sig::aclara: decrypt_code not found";
+		return "";
+	}
+
+	QStringList commands = decrypt_code.split(";", QString::SkipEmptyParts);
+	foreach(QString command, commands) {
+		#ifdef ULTRAVERBOSE
+		qDebug() << "Sig::aclara: command:" << command;
+		#endif
+		QRegExp rx("(\\w+)\\((\\d+)\\)");
+		if (rx.indexIn(command) != -1) {
+			QString c = rx.cap(1);
+			int v = rx.cap(2).toInt();
+			//qDebug() << "c:" << c << "v:" << v;
+			if (c == "slice") {
+				s = s.mid(v);
+			}
+			else
+			if (c == "swap") {
+				int p = v % s.length();
+				QChar c = s[0];
+				s[0] = s[p];
+				s[p] = c;
+			}
+			else
+			if (c == "reverse") {
+				s = reverseString(s);
+			}
+			else {
+				qDebug() << "Sig::aclara: unknown command:" << command;
+			}
+		} else {
+			// Error
+			qDebug() << "Sig::aclara: failed to parse command:" << command;
+		}
+	}
+
+	#ifdef ULTRAVERBOSE
+	qDebug() << "Sig::aclara: orig:" << signature;
+	qDebug() << "Sig::aclara: res:" << s;
+	#endif
+
+	if (s.isEmpty()) {
+		qDebug() << "Sig::aclara: signature length not supported:" << signature.size() << ":" << signature;
+	}
+
+	return s;
+}
+#endif
 
 void Sig::save(QSettings * set) {
 	qDebug() << "Sig::save";
@@ -163,6 +303,7 @@ void Sig::save(QSettings * set) {
 	set->setValue("sts", sts);
 	set->setValue("function_name", function_name);
 	set->setValue("function", decrypt_function);
+	set->setValue("code", decrypt_code);
 	set->endGroup();
 }
 
@@ -174,5 +315,6 @@ void Sig::load(QSettings * set) {
 	sts = set->value("sts", "").toString();
 	function_name = set->value("function_name", "").toString();
 	decrypt_function = set->value("function", "").toString();
+	decrypt_code = set->value("code", "").toString();
 	set->endGroup();
 }

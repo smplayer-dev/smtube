@@ -33,21 +33,36 @@
 #include <QUrlQuery>
 #endif
 
+#define DEBUG_OUTPUT_PAGE
+#ifdef DEBUG_OUTPUT_PAGE
+#include <QFile>
+ #if QT_VERSION >= 0x050000
+ #include <QStandardPaths>
+ #else
+ #include <QDesktopServices>
+ #endif
+#endif
+
 
 RetrieveYoutubeUrl::RetrieveYoutubeUrl(QObject* parent)
 	: QObject(parent)
 #ifdef YT_USE_SIG
 	, set(0)
 #endif
-	, preferred_quality(MP4_360p)
+	, preferred_resolution(R720p)
 	, use_https_main(false)
 	, use_https_vi(false)
+#ifdef YT_DASH_SUPPORT
+	, use_dash(false)
+#endif
 {
+	clearData();
 	manager = new QNetworkAccessManager(this);
 
 	dl_video_page = new LoadPage(manager, this);
 	connect(dl_video_page, SIGNAL(pageLoaded(QByteArray)), this, SLOT(videoPageLoaded(QByteArray)));
 	connect(dl_video_page, SIGNAL(errorOcurred(int, QString)), this, SIGNAL(errorOcurred(int, QString)));
+	/* connect(dl_video_page, SIGNAL(response303(QString)), this, SLOT(receivedResponse303(QString))); */
 
 #ifdef YT_GET_VIDEOINFO
 	dl_video_info_page = new LoadPage(manager, this);
@@ -69,6 +84,21 @@ RetrieveYoutubeUrl::RetrieveYoutubeUrl(QObject* parent)
 }
 
 RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
+}
+
+void RetrieveYoutubeUrl::clearData() {
+	selected_url = "";
+	selected_quality = None;
+
+#ifdef YT_DASH_SUPPORT
+	selected_audio_url = "";
+	selected_audio_quality = None;
+#endif
+
+	yt_url = "";
+	url_title = "";
+
+	urlmap.clear();
 }
 
 #ifdef YT_USE_SIG
@@ -153,6 +183,8 @@ QString RetrieveYoutubeUrl::getVideoID(QString video_url) {
 }
 
 void RetrieveYoutubeUrl::fetchPage(const QString & url) {
+	clearData();
+
 	yt_url = url;
 	fetchVideoPage(url);
 	//fetchVideoInfoPage(url);
@@ -172,14 +204,20 @@ void RetrieveYoutubeUrl::fetchVideoPage(const QString & url) {
 	emit connecting(QUrl(url).host());
 };
 
+/*
+void RetrieveYoutubeUrl::receivedResponse303(QString url) {
+	qDebug() << "RetrieveYoutubeUrl::receivedResponse303:" << url;
+	fetchPage(url);
+}
+*/
+
 #ifdef YT_GET_VIDEOINFO
 void RetrieveYoutubeUrl::fetchVideoInfoPage(const QString & url) {
-	video_id = getVideoID(url);
+	QString video_id = getVideoID(url);
 
 	QString scheme = use_https_vi ? "https" : "http";
-	QString u = QString("%2://www.youtube.com/get_video_info?video_id=%1&el=vevo&ps=default&eurl=&gl=US&hl=en").arg(video_id).arg(scheme);
-
-	qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: url:" << url.left(20);
+	QString u = QString("%2://www.youtube.com/get_video_info?video_id=%1&disable_polymer=true&eurl=https://youtube.googleapis.com/v/%1&gl=US&hl=en").arg(video_id).arg(scheme);
+	qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: url:" << url;
 
 	if (u.toLower().startsWith("https") && !QSslSocket::supportsSsl()) {
 		qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: no support for ssl";
@@ -187,19 +225,10 @@ void RetrieveYoutubeUrl::fetchVideoInfoPage(const QString & url) {
 		return;
 	}
 
-	#if defined(YT_USE_YTSIG) && !defined(YT_USE_SIG)
-	YTSig::check(u);
-	#endif
-
 	#ifdef YT_USE_SIG
 	if (!sig.sts.isEmpty()) {
-		u = u + "&amp;sts=" + sig.sts;
+		u += "&sts=" + sig.sts;
 	}
-	#ifdef YT_USE_YTSIG
-	else {
-		YTSig::check(u);
-	}
-	#endif
 	#endif
 
 	dl_video_info_page->fetchPage(u);
@@ -213,16 +242,11 @@ void RetrieveYoutubeUrl::fetchPlayerPage(const QString & player_name) {
 	qDebug() << "RetrieveYoutubeUrl::fetchPlayerPage:" << player_name;
 
 	if (!player_name.isEmpty()) {
-		QString url;
-		/*
-		if (player_name.startsWith("new-")) {
-			url = QString("http://s.ytimg.com/yts/jsbin/html5player-%1/html5player-new.js").arg(player_name);
-		} else {
-			url = QString("http://s.ytimg.com/yts/jsbin/html5player-%1/html5player.js").arg(player_name);
-		}
-		*/
-		url = QString("http://s.ytimg.com/yts/jsbin/player-%1/base.js").arg(player_name);
+		QString url = Sig::playerURL(player_name);
 		qDebug() << "RetrieveYoutubeUrl::fetchPlayerPage: url:" << url;
+		#ifdef SIG_FROM_SMPLAYER_SITE
+		if (dl_player_page->userAgent().isEmpty()) dl_player_page->setUserAgent("SMPlayer");
+		#endif
 		dl_player_page->fetchPage(url);
 	}
 }
@@ -252,12 +276,32 @@ void RetrieveYoutubeUrl::videoPageLoaded(QByteArray page) {
 	#ifdef YT_USE_SIG
 	QString html5_player;
 	#endif
-	QRegExp rxplayer("jsbin\\/player-([\\d\\w-]+)\\/([a-z]{2}_[A-Z]{2})\\/base\\.js");
+
+	QRegExp rxplayer("jsbin\\/player(.*)\\/base\\.js");
+	rxplayer.setMinimal(true);
 	if (rxplayer.indexIn(replyString) != -1) {
 		QString player = rxplayer.cap(1);
-		QString locale = rxplayer.cap(2);
-		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: html5player:" << player << "locale:" << locale;
-		html5_player = player +"/"+ locale;
+		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: html5player:" << player;
+		#ifdef YT_USE_SIG
+		html5_player = "player" + player;
+		#endif
+	} else {
+		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: player not found!";
+		//qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: page:" << page;
+		#ifdef DEBUG_OUTPUT_PAGE
+		#if QT_VERSION >= 0x050000
+		QString tmp_path = QStandardPaths::standardLocations(QStandardPaths::TempLocation)[0];
+		#else
+		QString tmp_path = QDesktopServices::storageLocation(QDesktopServices::TempLocation);
+		#endif
+		QString output = tmp_path + "/smplayer_yt_page.html";
+		QFile f(output);
+		if (f.open(QIODevice::ReadWrite)) {
+			f.write(page);
+			f.close();
+			qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: page saved to" << output;
+		}
+		#endif
 	}
 
 	video_page = replyString;
@@ -392,7 +436,7 @@ void RetrieveYoutubeUrl::streamPageLoaded(QByteArray page) {
 
 	QRegExp rx("#EXT-X-STREAM-INF:.*RESOLUTION=\\d+x(\\d+)");
 
-	QMap<int, QString> url_map;
+	UrlMap url_map;
 	int best_resolution = 0;
 	int res_height = 0;
 
@@ -417,51 +461,52 @@ void RetrieveYoutubeUrl::streamPageLoaded(QByteArray page) {
 
 	qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: best_resolution:" << best_resolution;
 
-	// Try to find a URL with the user's preferred quality
-	qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: preferred_quality:" << preferred_quality;
+	// Try to find a URL with the user's preferred resolution
+	qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: preferred_resolution:" << preferred_resolution;
 
-	int selected_quality = 0;
-	int q = preferred_quality;
+	int chosen_quality = 0;
+	int r = preferred_resolution;
 
-	if (q == WEBM_1080p || q == MP4_1080p) {
+	if (r == R1080p) {
 		if (url_map.contains(1080)) {
-			selected_quality = 1080;
-		} else q = MP4_720p;
+			chosen_quality = 1080;
+		} else r = R720p;
 	}
 
-	if (q == WEBM_720p || q == MP4_720p) {
+	if (r == R720p) {
 		if (url_map.contains(720)) {
-			selected_quality = 720;
-		} else q = WEBM_480p;
+			chosen_quality = 720;
+		} else r = R480p;
 	}
 
-	if (q == WEBM_480p || q == FLV_480p) {
+	if (r == R480p) {
 		if (url_map.contains(480)) {
-			selected_quality = 480;
-		} else q = MP4_360p;
+			chosen_quality = 480;
+		} else r = R360p;
 	}
 
-	if (q == WEBM_360p || q == FLV_360p || q == MP4_360p) {
+	if (r == R360p) {
 		if (url_map.contains(360)) {
-			selected_quality = 360;
-		} else q = FLV_240p;
+			chosen_quality = 360;
+		} else r = R240p;
 	}
 
-	if (q == FLV_240p) {
+	if (r == R240p) {
 		if (url_map.contains(240)) {
-			selected_quality = 240;
+			chosen_quality = 240;
 		}
 	}
 
-	qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: selected_quality:" << selected_quality;
+	qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: chosen_quality:" << chosen_quality;
 
-	if (selected_quality == 0) selected_quality = best_resolution;
+	if (chosen_quality == 0) chosen_quality = best_resolution;
 
-	if (url_map.contains(selected_quality)) {
-		QString p_url = url_map.value(selected_quality);
-		qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: p_url:" << p_url;
-		emit gotPreferredUrl(p_url, 0);
-		latest_preferred_url = p_url;
+	setUrlMap(url_map);
+
+	if (url_map.contains(chosen_quality)) {
+		selected_url = url_map.value(chosen_quality);
+		qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: selected_url:" << selected_url;
+		emit gotPreferredUrl(selected_url, 0);
 	} else {
 		 emit gotEmptyList();
 	}
@@ -471,59 +516,47 @@ void RetrieveYoutubeUrl::streamPageLoaded(QByteArray page) {
 void RetrieveYoutubeUrl::finish(const UrlMap & url_map) {
 	qDebug() << "RetrieveYoutubeUrl::finish";
 
-	int itag = findPreferredUrl(url_map, preferred_quality);
+	setUrlMap(url_map);
 
-	QString p_url;
-	if (itag != -1) p_url = url_map[itag];
-	qDebug() << "RetrieveYoutubeUrl::finish: p_url:" << p_url;
+	#ifdef YT_DASH_SUPPORT
+	selected_quality = findPreferredResolution(url_map, preferred_resolution, use_dash);
+	#else
+	selected_quality = findPreferredResolution(url_map, preferred_resolution);
+	#endif
 
-	latest_preferred_url = p_url;
+	selected_url = "";
+	if (selected_quality != None) selected_url = url_map[selected_quality];
+	qDebug() << "RetrieveYoutubeUrl::finish: selected_url:" << selected_url;
 
-	#if 0 && defined(YT_DASH_SUPPORT)
-	// Test findBestAudio
-	{
-		int itag = findBestAudio(url_map);
-		QString audio_url;
-		if (itag != -1) audio_url = url_map[itag];
-		qDebug() << "RetrieveYoutubeUrl::finish: audio itag:" << itag;
-		qDebug() << "RetrieveYoutubeUrl::finish: audio url:" << audio_url;
+	#ifdef YT_DASH_SUPPORT
+	selected_audio_quality = findBestAudio(url_map);
+	selected_audio_url = "";
+	if (use_dash) {
+		if (selected_audio_quality != None) selected_audio_url = url_map[selected_audio_quality];
+		qDebug() << "RetrieveYoutubeUrl::finish: audio itag:" << selected_audio_quality;
+		qDebug() << "RetrieveYoutubeUrl::finish: audio url:" << selected_audio_url;
 	}
 	#endif
 
-	if (!p_url.isNull()) {
+	if (selected_quality != None) {
 		emit gotUrls(url_map);
 		//emit gotPreferredUrl(p_url);
-		emit gotPreferredUrl(p_url, itag);
+		emit gotPreferredUrl(selected_url, selected_quality);
 	} else {
 		 emit gotEmptyList();
 	}
 }
 
-#ifdef YT_USE_SCRIPT
+#ifdef YT_USE_SIG
 QString RetrieveYoutubeUrl::aclara(const QString & text, const QString & player) {
-	QString res;
+	Q_UNUSED(player);
 
-	#if defined(YT_USE_YTSIG) && !defined(YT_USE_SIG)
-	if (!player.isNull()) {
-		res = YTSig::aclara(text, player);
-	} else {
-		res = YTSig::aclara(text, "", "aclara_f");
-	}
-	#endif
+	QString res;
 
 	#ifdef YT_USE_SIG
 	if (!sig.decrypt_function.isEmpty()) {
 		res = sig.aclara(text);
 	}
-	#ifdef YT_USE_YTSIG
-	else {
-		if (!player.isNull()) {
-			res = YTSig::aclara(text, player);
-		} else {
-			res = YTSig::aclara(text, "", "aclara_f");
-		}
-	}
-	#endif
 	#endif
 
 	return res;
@@ -574,19 +607,15 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 			}
 			else
 			if (q->hasQueryItem("s")) {
-				#ifdef YT_USE_SCRIPT
 				#ifdef YT_USE_SIG
 				QString player = sig.html5_player;
-				#else
-				QString player = html5_player;
-				#endif
 				QString signature = aclara(q->queryItemValue("s"), use_player ? player : QString::null);
 				if (!signature.isEmpty()) {
 					q->addQueryItem("signature", signature);
 				} else {
 					failed_to_decrypt_signature = true;
 				}
-				#else // YT_USE_SCRIPT
+				#else
 				failed_to_decrypt_signature = true;
 				#endif
 				q->removeQueryItem("s");
@@ -632,83 +661,101 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 	return url_map;
 }
 
-int RetrieveYoutubeUrl::findPreferredUrl(const UrlMap & url_map, Quality q) {
-	// Choose a url according to preferred quality
-	QString p_url;
-	//Quality q = preferred_quality;
+RetrieveYoutubeUrl::Quality RetrieveYoutubeUrl::findResolution(const UrlMap & url_map, QList<Quality> l) {
+	foreach(Quality q, l) {
+		QString url = url_map.value(q, QString()); \
+		if (!url.isNull()) return q;
+	}
+	return None;
+}
 
-	int chosen_quality = -1;
+RetrieveYoutubeUrl::Quality RetrieveYoutubeUrl::findPreferredResolution(const UrlMap & url_map, Resolution res, bool use_dash) {
+	Quality chosen_quality = None;
 
-	#define SETPURL(QUALITY) { \
-			p_url= url_map.value(QUALITY, QString()); \
-			if (!p_url.isNull()) chosen_quality = QUALITY; \
-		}
+	QList<Quality> l2160p, l1440p, l1080p, l720p, l480p, l360p, l240p;
 
-
-	if (q==MP4_1080p) {
-		SETPURL(MP4_1080p)
-		if (p_url.isNull()) SETPURL(WEBM_1080p)
-		if (p_url.isNull()) q = MP4_720p;
+	if (!use_dash) {
+		l1080p << MP4_1080p << WEBM_1080p;
+		l720p << MP4_720p << WEBM_720p;
+		l480p << MP4_480p << MP4_480p2 << WEBM_480p << FLV_480p;
+		l360p << MP4_360p << WEBM_360p << FLV_360p;
+		l240p << FLV_240p << FLV_270p;
 	}
 
-	if (q==WEBM_1080p) {
-		SETPURL(WEBM_1080p)
-		if (p_url.isNull()) SETPURL(MP4_1080p)
-		if (p_url.isNull()) q = WEBM_720p;
+#ifdef YT_DASH_SUPPORT
+	else {
+		#if 0
+		l240p << DASH_VIDEO_WEBM_240p60hdr;
+		l360p << DASH_VIDEO_WEBM_360p60hdr;
+		l480p << DASH_VIDEO_WEBM_480p60hdr;
+		l720p << DASH_VIDEO_WEBM_720p60hdr;
+		l1080p << DASH_VIDEO_WEBM_1080p60hdr;
+		l1440p << DASH_VIDEO_WEBM_1440p60hdr;
+		l2160p << DASH_VIDEO_WEBM_2160p60hdr;
+		#endif
+
+		#if 0
+		l720p << DASH_VIDEO_720p60 << DASH_VIDEO_WEBM_720p60;
+		l1080p << DASH_VIDEO_1080p60 << DASH_VIDEO_WEBM_1080p60;
+		l1440p << DASH_VIDEO_WEBM_1440p60;
+		l2160p << DASH_VIDEO_WEBM_2160p60;
+		#endif
+
+		l2160p << DASH_VIDEO_2160p << DASH_VIDEO_2160p2 << DASH_VIDEO_WEBM_2160p << DASH_VIDEO_WEBM_2160p2;
+		l1440p << DASH_VIDEO_1440p << DASH_VIDEO_WEBM_1440p;
+		l1080p << DASH_VIDEO_1080p << DASH_VIDEO_WEBM_1080p << DASH_VIDEO_WEBM_1080p2;
+		l720p << DASH_VIDEO_720p << DASH_VIDEO_WEBM_720p << DASH_VIDEO_WEBM_720p2;
+		l480p << DASH_VIDEO_480p << DASH_VIDEO_480p2 << DASH_VIDEO_WEBM_480p << DASH_VIDEO_WEBM_480p2 
+              << DASH_VIDEO_WEBM_480p3 << DASH_VIDEO_WEBM_480p4 << DASH_VIDEO_WEBM_480p5 << DASH_VIDEO_WEBM_480p6;
+		l360p << DASH_VIDEO_360p << DASH_VIDEO_WEBM_360p << DASH_VIDEO_WEBM_360p2;
+		l240p << DASH_VIDEO_240p << DASH_VIDEO_WEBM_240p;
+	}
+#endif
+
+	if (res == R2160p) {
+		chosen_quality = findResolution(url_map, l2160p);
+		if (chosen_quality == None) res = R1440p;
 	}
 
-	if (q==MP4_720p) {
-		SETPURL(MP4_720p)
-		if (p_url.isNull()) SETPURL(WEBM_720p)
-		if (p_url.isNull()) SETPURL(WEBM_480p)
-		if (p_url.isNull()) q = MP4_360p;
+	if (res == R1440p) {
+		chosen_quality = findResolution(url_map, l1440p);
+		if (chosen_quality == None) res = R1080p;
 	}
 
-	if (q==WEBM_720p) {
-		SETPURL(WEBM_720p)
-		if (p_url.isNull()) SETPURL(MP4_720p)
-		if (p_url.isNull()) q = WEBM_480p;
+	if (res == R1080p) {
+		chosen_quality = findResolution(url_map, l1080p);
+		if (chosen_quality == None) res = R720p;
 	}
 
-	if (q==WEBM_480p) {
-		SETPURL(WEBM_480p)
-		if (p_url.isNull()) q = WEBM_360p;
+	if (res == R720p) {
+		chosen_quality = findResolution(url_map, l720p);
+		if (chosen_quality == None) res = R480p;
 	}
 
-	if (q==MP4_360p) {
-		SETPURL(MP4_360p)
-		if (p_url.isNull()) SETPURL(WEBM_360p)
-		if (p_url.isNull()) q = FLV_360p;
+	if (res == R480p) {
+		chosen_quality = findResolution(url_map, l480p);
+		if (chosen_quality == None) res = R360p;
 	}
 
-	if (q==WEBM_360p) {
-		SETPURL(WEBM_360p)
-		if (p_url.isNull()) SETPURL(MP4_360p)
-		if (p_url.isNull()) q = FLV_360p;
+	if (res == R360p) {
+		chosen_quality = findResolution(url_map, l360p);
+		if (chosen_quality == None) res = R240p;
 	}
 
-	// FLV, low priority
-	if (q==FLV_480p) {
-		SETPURL(FLV_480p)
-		if (p_url.isNull()) q = FLV_360p;
-	}
-
-	if (q==FLV_360p) {
-		SETPURL(FLV_360p)
-		if (p_url.isNull()) q = FLV_240p;
-	}
-
-	if (q==FLV_240p) {
-		SETPURL(q)
+	if (res == R240p) {
+		chosen_quality = findResolution(url_map, l240p);
 	}
 
 	// If everything fails, take the first url in the map
-	if (p_url.isEmpty()) {
+	if (chosen_quality == None) {
 		QList<int> keys = url_map.keys();
-		if (!keys.isEmpty()) SETPURL(keys[0])
+		if (!keys.isEmpty()) {
+			QString url = url_map.value(keys[0], QString());
+			if (!url.isNull()) chosen_quality = (Quality) keys[0];
+		}
 	}
-	
-	qDebug("RetrieveYoutubeUrl::findPreferredUrl: chosen_quality: %d", chosen_quality);
+
+	qDebug() << "RetrieveYoutubeUrl::findResolution: chosen_quality:" << chosen_quality;
 	return chosen_quality;
 }
 
@@ -749,7 +796,7 @@ QString RetrieveYoutubeUrl::extensionForItag(int itag) {
 }
 
 #ifdef YT_DASH_SUPPORT
-int RetrieveYoutubeUrl::findBestAudio(const QMap<int, QString>& url_map) {
+RetrieveYoutubeUrl::Quality RetrieveYoutubeUrl::findBestAudio(const QMap<int, QString>& url_map) {
 	QString url;
 
 	#define CHECKAQ(QUALITY) { \
@@ -763,7 +810,7 @@ int RetrieveYoutubeUrl::findBestAudio(const QMap<int, QString>& url_map) {
 	CHECKAQ(DASH_AUDIO_WEBM_128);
 	CHECKAQ(DASH_AUDIO_MP4_48);
 
-	return -1;
+	return None;
 }
 #endif
 
