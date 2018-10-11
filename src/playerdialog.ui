@@ -82,17 +82,17 @@
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout_5">
      <item>
-      <widget class="QLabel" name="quality_label">
+      <widget class="QLabel" name="resolution_label">
        <property name="text">
         <string>Preferred &amp;quality:</string>
        </property>
        <property name="buddy">
-        <cstring>quality_combo</cstring>
+        <cstring>resolution_combo</cstring>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QComboBox" name="quality_combo"/>
+      <widget class="QComboBox" name="resolution_combo"/>
      </item>
      <item>
       <spacer name="horizontalSpacer_2">
@@ -171,7 +171,7 @@
   <tabstop>parms_edit</tabstop>
   <tabstop>streamingsites_check</tabstop>
   <tabstop>onlinetv_check</tabstop>
-  <tabstop>quality_combo</tabstop>
+  <tabstop>resolution_combo</tabstop>
   <tabstop>media_combo</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>

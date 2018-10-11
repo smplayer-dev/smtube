@@ -30,12 +30,12 @@ PlayerDialog::PlayerDialog(QWidget * parent, Qt::WindowFlags f)
 	media_combo->addItem( tr("Audio"), Player::Audio );
 	media_combo->addItem( tr("Video and audio"), Player::VideoAudio );
 
-	quality_combo->addItem( tr("Default"), -1 );
-	quality_combo->addItem( "240p", RetrieveYoutubeUrl::R240p );
-	quality_combo->addItem( "360p", RetrieveYoutubeUrl::R360p );
-	quality_combo->addItem( "480p", RetrieveYoutubeUrl::R480p );
-	quality_combo->addItem( "720p", RetrieveYoutubeUrl::R720p );
-	quality_combo->addItem( "1080p", RetrieveYoutubeUrl::R1080p );
+	resolution_combo->addItem( tr("Default"), -1 );
+	resolution_combo->addItem( "240p", RetrieveYoutubeUrl::R240p );
+	resolution_combo->addItem( "360p", RetrieveYoutubeUrl::R360p );
+	resolution_combo->addItem( "480p", RetrieveYoutubeUrl::R480p );
+	resolution_combo->addItem( "720p", RetrieveYoutubeUrl::R720p );
+	resolution_combo->addItem( "1080p", RetrieveYoutubeUrl::R1080p );
 
 	connect(streamingsites_check, SIGNAL(toggled(bool)), this, SLOT(streamingSitesChanged(bool)));
 }
@@ -70,9 +70,9 @@ void PlayerDialog::setMedia(int m) {
 }
 
 void PlayerDialog::setResolution(int r) {
-	int i = quality_combo->findData(r);
+	int i = resolution_combo->findData(r);
 	if (i == -1) i = 0;
-	quality_combo->setCurrentIndex(i);
+	resolution_combo->setCurrentIndex(i);
 }
 
 QString PlayerDialog::name() {
@@ -101,13 +101,13 @@ int PlayerDialog::media() {
 }
 
 int PlayerDialog::resolution() {
-	int i = quality_combo->currentIndex();
-	return quality_combo->itemData(i).toInt();
+	int i = resolution_combo->currentIndex();
+	return resolution_combo->itemData(i).toInt();
 }
 
 void PlayerDialog::streamingSitesChanged(bool b) {
-	quality_label->setEnabled(!b);
-	quality_combo->setEnabled(!b);
+	resolution_label->setEnabled(!b);
+	resolution_combo->setEnabled(!b);
 }
 
 #include "moc_playerdialog.cpp"

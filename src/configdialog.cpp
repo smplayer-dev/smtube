@@ -54,11 +54,11 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	tabs->setTabEnabled(1, false);
 #endif
 
-	playback_quality_combo->addItem( "240p", RetrieveYoutubeUrl::R240p );
-	playback_quality_combo->addItem( "360p", RetrieveYoutubeUrl::R360p );
-	playback_quality_combo->addItem( "480p", RetrieveYoutubeUrl::R480p );
-	playback_quality_combo->addItem( "720p", RetrieveYoutubeUrl::R720p );
-	playback_quality_combo->addItem( "1080p", RetrieveYoutubeUrl::R1080p );
+	playback_resolution_combo->addItem( "240p", RetrieveYoutubeUrl::R240p );
+	playback_resolution_combo->addItem( "360p", RetrieveYoutubeUrl::R360p );
+	playback_resolution_combo->addItem( "480p", RetrieveYoutubeUrl::R480p );
+	playback_resolution_combo->addItem( "720p", RetrieveYoutubeUrl::R720p );
+	playback_resolution_combo->addItem( "1080p", RetrieveYoutubeUrl::R1080p );
 
 #ifdef D_BUTTON
 	external_download_combo->addItem("http://9xbuddy.com/download?url=%YT_URL%");
@@ -83,12 +83,12 @@ ConfigDialog::~ConfigDialog() {
 }
 
 void ConfigDialog::setPlaybackResolution(int resolution) {
-	playback_quality_combo->setCurrentIndex(playback_quality_combo->findData(resolution));
+	playback_resolution_combo->setCurrentIndex(playback_resolution_combo->findData(resolution));
 }
 
 int ConfigDialog::playbackResolution() {
-	int index = playback_quality_combo->currentIndex();
-	return playback_quality_combo->itemData(index).toInt();
+	int index = playback_resolution_combo->currentIndex();
+	return playback_resolution_combo->itemData(index).toInt();
 }
 
 #ifdef D_BUTTON
