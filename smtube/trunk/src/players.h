@@ -32,7 +32,7 @@ public:
 
 	Player(QString name, QString binary, QString arguments,
 			bool support_for_streaming_sites, bool support_for_online_tv,
-			Media media, int preferred_quality = -1)
+			Media media, int preferred_resolution = -1)
 	{
 		player_name = name;
 		player_bin = binary;
@@ -40,7 +40,7 @@ public:
 		support_streaming_sites = support_for_streaming_sites;
 		support_online_tv = support_for_online_tv,
 		supported_media = media;
-		quality = preferred_quality;
+		resolution = preferred_resolution;
 	}
 
 	void setName(QString name) { player_name = name; }
@@ -49,7 +49,7 @@ public:
 	void setSupportStreamingSites(bool b) { support_streaming_sites = b; }
 	void setSupportOnlineTV(bool b) { support_online_tv = b; }
 	void setSupportedMedia(Media m) { supported_media = m; }
-	void setPreferredQuality(int q) { quality = q; }
+	void setPreferredResolution(int r) { resolution = r; }
 
 	QString name() { return player_name; }
 	QString binary() { return player_bin; }
@@ -57,7 +57,7 @@ public:
 	bool supportStreamingSites() { return support_streaming_sites; }
 	bool supportOnlineTV() { return support_online_tv; }
 	Media supportedMedia() { return supported_media; }
-	int preferredQuality() { return quality; }
+	int preferredResolution() { return resolution; }
 
 	QString executable(bool * found = 0);
 
@@ -70,7 +70,7 @@ protected:
 	bool support_streaming_sites;
 	bool support_online_tv;
 	Media supported_media;
-	int quality;
+	int resolution;
 };
 
 
