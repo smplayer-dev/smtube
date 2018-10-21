@@ -133,6 +133,12 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 	context_menu->addAction(audioAct);
 #endif
 
+	QAction * playWithBrowserAct = new QAction(this);
+	connect(playWithBrowserAct, SIGNAL(triggered()), this, SLOT(openWithBrowserTriggered()));
+	playWithBrowserAct->setText(tr("Play video with a web browser"));
+	playWithBrowserAct->setData(url.toString());
+	context_menu->addAction(playWithBrowserAct);
+
 	context_menu->addSeparator();
 
 	QAction *copy_link = pageAction(QWebPage::CopyLinkToClipboard);
@@ -158,6 +164,15 @@ void MyWebView::openWithTriggered() {
 			qDebug() << "MyWebView::openWithTriggered: player:" << player;
 			emit requestedOpenWith(player, url);
 		}
+	}
+}
+
+void MyWebView::openWithBrowserTriggered() {
+	qDebug() << "MyWebView::openWithBrowserTriggered";
+	QAction * a = qobject_cast<QAction *>(sender());
+	if (a) {
+		QString url = a->data().toString();
+		emit requestedOpenWithBrowser(url);
 	}
 }
 

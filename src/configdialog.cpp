@@ -272,6 +272,22 @@ void ConfigDialog::on_addplayers_button_clicked() {
 	addplayers_button->setEnabled(false);
 }
 
+
+void ConfigDialog::updateAddPlayersButton() {
+	bool available_player = false;
+
+	for (int n = 0; n < default_players.count(); n++) {
+		QString name = default_players[n].name();
+		QList<QListWidgetItem *> items = table->findItems(name, Qt::MatchExactly);
+		if (items.isEmpty()) {
+			available_player = true;
+		}
+	}
+
+	addplayers_button->setEnabled(available_player);
+}
+#endif
+
 void ConfigDialog::setDefaultFont(const QFont & f) {
 	default_font_edit->setText(f.toString());
 }
@@ -317,20 +333,5 @@ void ConfigDialog::on_change_font_button_clicked() {
 		default_font_edit->setText( f.toString() );
 	}
 }
-
-void ConfigDialog::updateAddPlayersButton() {
-	bool available_player = false;
-
-	for (int n = 0; n < default_players.count(); n++) {
-		QString name = default_players[n].name();
-		QList<QListWidgetItem *> items = table->findItems(name, Qt::MatchExactly);
-		if (items.isEmpty()) {
-			available_player = true;
-		}
-	}
-
-	addplayers_button->setEnabled(available_player);
-}
-#endif
 
 #include "moc_configdialog.cpp"

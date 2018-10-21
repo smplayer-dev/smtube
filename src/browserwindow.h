@@ -72,6 +72,7 @@ protected slots:
 
 	void openWith(int player_id, const QUrl & url);
 	void openWith(const QString & player, const QUrl & url);
+	void openWithBrowser(const QUrl & url);
 
 	void openYTUrl(QString title, QString extension, const QString & url);
 	void openYTUrl(const QString & url, int itag);
@@ -102,6 +103,8 @@ protected:
 #endif
 
 private:
+	enum OpenType { ExternalPlayer = 1, WebBrowser = 2 };
+
 	MyWebView *view;
 
 	QToolBar *toolbar;
@@ -121,6 +124,8 @@ private:
 	Players players;
 	int current_player;
 #endif
+
+	OpenType open_with;
 
 #ifdef D_BUTTON
 	bool add_download_button;
