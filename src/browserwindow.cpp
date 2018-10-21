@@ -492,6 +492,7 @@ void BrowserWindow::openAudioWith(const QString & player, const QUrl & url) {
 #endif
 
 	if (p != -1) {
+		open_with = ExternalPlayer;
 		#ifdef USE_PLAYERS
 		current_player = p;
 		#endif
@@ -503,12 +504,9 @@ void BrowserWindow::openAudioWith(const QString & player, const QUrl & url) {
 }
 
 void BrowserWindow::openYTAudioUrl(const QMap<int, QString>& url_map) {
+	Q_UNUSED(url_map);
 	qDebug() << "BrowserWindow::openYTAudioUrl";
-	/*
-	QString url;
-	int itag = ryua->findBestAudio(url_map);
-	if (itag != -1) url = url_map[itag];
-	*/
+
 	int itag = ryua->selectedQuality();
 	QString url = ryua->selectedAudioUrl();
 
