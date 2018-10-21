@@ -24,6 +24,7 @@
 #include <QSettings>
 #include <QDebug>
 
+//#define D_PLAYERS
 //#define DEBUG_FIND_EX
 
 #ifdef Q_OS_LINUX
