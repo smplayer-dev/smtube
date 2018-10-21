@@ -60,10 +60,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	: QMainWindow(parent, flags)
 	, preferred_resolution(RetrieveYoutubeUrl::R360p)
 	, use_cookies(true)
-#ifdef USE_PLAYERS
-	, current_player(-1)
-#endif
-	, open_with(ExternalPlayer)
+	, current_player(Undefined)
 #ifdef D_BUTTON
 	, add_download_button(false)
 #endif
@@ -396,9 +393,10 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 		QProcess::startDetached(command);
 	} else {
 		qDebug() << "BrowserWindow::openWith:" << player_name << "can't play this URL";
-		open_with = ExternalPlayer;
 		#ifdef USE_PLAYERS
 		current_player = player_id;
+		#else
+		current_player = Undefined;
 		#endif
 		#ifdef YT_USE_YTSIG
 		YTSig::setScriptFile(script_file);
@@ -425,7 +423,7 @@ void BrowserWindow::openWith(const QString & player, const QUrl & url) {
 
 void BrowserWindow::openWithBrowser(const QUrl & url) {
 	qDebug() << "BrowserWindow::openWithBrowser: url:" << url.toString();
-	open_with = WebBrowser;
+	current_player = WebBrowser;
 	#ifdef YT_USE_YTSIG
 	YTSig::setScriptFile(script_file);
 	#endif
@@ -436,7 +434,7 @@ void BrowserWindow::openWithBrowser(const QUrl & url) {
 void BrowserWindow::openYTUrl(QString title, QString extension, const QString & url) {
 	qDebug() << "BrowserWindow::openYTUrl:" << url;
 
-	if (open_with == WebBrowser) {
+	if (current_player == WebBrowser) {
 		QDesktopServices::openUrl(url);
 		return;
 	}
@@ -492,9 +490,10 @@ void BrowserWindow::openAudioWith(const QString & player, const QUrl & url) {
 #endif
 
 	if (p != -1) {
-		open_with = ExternalPlayer;
 		#ifdef USE_PLAYERS
 		current_player = p;
+		#else
+		current_player = Undefined;
 		#endif
 		#ifdef YT_USE_YTSIG
 		YTSig::setScriptFile(script_file);
