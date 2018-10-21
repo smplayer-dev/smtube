@@ -360,6 +360,26 @@ void BrowserWindow::processLink(const QUrl & url ) {
 	}
 }
 
+void BrowserWindow::fetchVideoUrl(RetrieveYoutubeUrl * ry, const QUrl & url, int player_id) {
+	current_player = player_id;
+	int resolution = preferred_resolution;
+
+	#ifdef USE_PLAYERS
+	if (player_id > -1) {
+		if (players.item(player_id).preferredResolution() != -1) {
+			resolution = players.item(player_id).preferredResolution();
+		}
+	}
+	#endif
+
+	#ifdef YT_USE_YTSIG
+	YTSig::setScriptFile(script_file);
+	#endif
+
+	ry->setPreferredResolution((RetrieveYoutubeUrl::Resolution) resolution);
+	ry->fetchPage(url.toString());
+}
+
 void BrowserWindow::openWith(int player_id, const QUrl & url) {
 	qDebug() << "BrowserWindow::openWith: player_id:" << player_id << "url:" << url.toString();
 
@@ -368,17 +388,12 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 	QString player_name = players.item(player_id).name();
 	QString arguments = players.item(player_id).arguments();
 	bool support_streaming_sites = players.item(player_id).supportStreamingSites();
-	bool support_online_tv = players.item(player_id).supportOnlineTV();
-	int resolution = preferred_resolution;
-	if (players.item(player_id).preferredResolution() != -1) {
-		resolution = players.item(player_id).preferredResolution();
-	}
+	/* bool support_online_tv = players.item(player_id).supportOnlineTV(); */
 #else
 	QString binary = HCPLAYER_EXECUTABLE;
 	QString player_name = HCPLAYER_NAME;
 	QString arguments = HCPLAYER_ARGUMENTS;
 	bool support_streaming_sites = HCPLAYER_STREAMINGSITES;
-	int resolution = preferred_resolution;
 #endif
 
 	int site_type = SupportedUrls::site(url.toString());
@@ -394,15 +409,10 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 	} else {
 		qDebug() << "BrowserWindow::openWith:" << player_name << "can't play this URL";
 		#ifdef USE_PLAYERS
-		current_player = player_id;
+		fetchVideoUrl(ryu, url, player_id);
 		#else
-		current_player = Undefined;
+		fetchVideoUrl(ryu, url);
 		#endif
-		#ifdef YT_USE_YTSIG
-		YTSig::setScriptFile(script_file);
-		#endif
-		ryu->setPreferredResolution((RetrieveYoutubeUrl::Resolution) resolution);
-		ryu->fetchPage(url.toString());
 	}
 }
 
@@ -423,12 +433,7 @@ void BrowserWindow::openWith(const QString & player, const QUrl & url) {
 
 void BrowserWindow::openWithBrowser(const QUrl & url) {
 	qDebug() << "BrowserWindow::openWithBrowser: url:" << url.toString();
-	current_player = WebBrowser;
-	#ifdef YT_USE_YTSIG
-	YTSig::setScriptFile(script_file);
-	#endif
-	ryu->setPreferredResolution((RetrieveYoutubeUrl::Resolution) preferred_resolution);
-	ryu->fetchPage(url.toString());
+	fetchVideoUrl(ryu, url, WebBrowser);
 }
 
 void BrowserWindow::openYTUrl(QString title, QString extension, const QString & url) {
@@ -491,14 +496,10 @@ void BrowserWindow::openAudioWith(const QString & player, const QUrl & url) {
 
 	if (p != -1) {
 		#ifdef USE_PLAYERS
-		current_player = p;
+		fetchVideoUrl(ryua, url, p);
 		#else
-		current_player = Undefined;
+		fetchVideoUrl(ryua, url);
 		#endif
-		#ifdef YT_USE_YTSIG
-		YTSig::setScriptFile(script_file);
-		#endif
-		ryua->fetchPage(url.toString());
 	}
 }
 
