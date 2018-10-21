@@ -103,7 +103,7 @@ protected:
 #endif
 
 private:
-	enum OpenType { ExternalPlayer = 1, WebBrowser = 2 };
+	enum PlayerId { Undefined = -1, WebBrowser = -2 };
 
 	MyWebView *view;
 
@@ -122,10 +122,8 @@ private:
 
 #ifdef USE_PLAYERS
 	Players players;
-	int current_player;
 #endif
-
-	OpenType open_with;
+	int current_player;
 
 #ifdef D_BUTTON
 	bool add_download_button;
