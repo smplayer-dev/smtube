@@ -48,11 +48,13 @@ public:
 signals:
 	void requestedOpenWith(const QString &, const QUrl &);
 	void requestedOpenAudioWith(const QString &, const QUrl &);
+	void requestedOpenWithBrowser(const QUrl &);
 
 protected slots:
 	void openLinkInExternalBrowser();
 	void openWithTriggered();
 	void openAudioWithTriggered();
+	void openWithBrowserTriggered();
 
 protected:
 	void createContextMenu(int site_id, const QUrl & url);
