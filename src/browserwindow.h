@@ -102,7 +102,7 @@ protected:
 	void setStyle(QString style);
 #endif
 
-	void fetchVideoUrl(RetrieveYoutubeUrl * ry, const QUrl & url, int player_id = -1);
+	void fetchVideoUrl(RetrieveYoutubeUrl * ry, const QUrl & url, int player_id = Undefined);
 
 private:
 	enum PlayerId { Undefined = -1, WebBrowser = -2 };
