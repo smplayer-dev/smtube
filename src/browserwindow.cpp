@@ -439,11 +439,6 @@ void BrowserWindow::openWithBrowser(const QUrl & url) {
 void BrowserWindow::openYTUrl(QString title, QString extension, const QString & url) {
 	qDebug() << "BrowserWindow::openYTUrl:" << url;
 
-	if (current_player == WebBrowser) {
-		QDesktopServices::openUrl(url);
-		return;
-	}
-
 #ifdef USE_PLAYERS
 	if (current_player == -1) {
 		qDebug() << "BrowserWindow::openYTUrl: invalid player";
@@ -458,6 +453,17 @@ void BrowserWindow::openYTUrl(QString title, QString extension, const QString & 
 	filename += extension;
 
 	qDebug() << "BrowserWindow::openYTUrl: filename:" << filename;
+
+	if (current_player == WebBrowser) {
+		QString u = url;
+		#if 0
+		u = "http://www.tonvid.com/video.php?u=" + url.toUtf8().toBase64().toPercentEncoding() +
+            "&t=" + title.toUtf8().toBase64().toPercentEncoding() +
+            "&f=" + filename.toUtf8().toBase64().toPercentEncoding();
+		#endif
+		QDesktopServices::openUrl(u);
+		return;
+	}
 
 #ifdef USE_PLAYERS
 	QString binary = players.item(current_player).executable();
