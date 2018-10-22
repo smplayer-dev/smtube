@@ -30,10 +30,11 @@ MyWebView::MyWebView(QWidget * parent)
 	:QWebView(parent)
 	,context_menu(0)
 #ifdef USE_PLAYERS
+	,video_menu(0)
 	,audio_menu(0)
 #endif
 {
-	openLinkInExternalBrowserAct = new QAction(tr("Open link in a web browser"), this);
+	openLinkInExternalBrowserAct = new QAction(tr("Open in &YouTube"), this);
 	connect(openLinkInExternalBrowserAct, SIGNAL(triggered()), this, SLOT(openLinkInExternalBrowser()));
 }
 
@@ -71,8 +72,13 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 	context_menu->clear();
 
 #ifdef USE_PLAYERS
+	if (video_menu == 0) {
+		video_menu = new QMenu(tr("&Play with"), this);
+	}
+	video_menu->clear();
+
 	if (audio_menu == 0) {
-		audio_menu = new QMenu(tr("Open audio with"), this);
+		audio_menu = new QMenu(tr("Play &audio with"), this);
 	}
 	audio_menu->clear();
 
@@ -96,9 +102,9 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 			if (media == Player::Video || media == Player::VideoAudio) {
 				QAction * videoAct = new QAction(this);
 				connect(videoAct, SIGNAL(triggered()), this, SLOT(openWithTriggered()));
-				videoAct->setText(tr("Open with %1").arg(player_list[n].name()));
+				videoAct->setText(player_list[n].name());
 				videoAct->setData(QStringList() << player_list[n].name() << url.toString());
-				context_menu->addAction(videoAct);
+				video_menu->addAction(videoAct);
 			}
 
 			// Audio
@@ -114,6 +120,10 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 		}
 	}
 
+	if (!video_menu->isEmpty()) {
+		context_menu->addMenu(video_menu);
+	}
+
 	if (!audio_menu->isEmpty()) {
 		context_menu->addMenu(audio_menu);
 	}
@@ -121,21 +131,21 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 #else
 	QAction * videoAct = new QAction(this);
 	connect(videoAct, SIGNAL(triggered()), this, SLOT(openWithTriggered()));
-	videoAct->setText(tr("Open with %1").arg(player_name));
+	videoAct->setText(tr("Play with %1").arg(player_name));
 	videoAct->setData(QStringList() << player_name << url.toString());
 	context_menu->addAction(videoAct);
 
 	// Audio
 	QAction * audioAct = new QAction(this);
 	connect(audioAct, SIGNAL(triggered()), this, SLOT(openAudioWithTriggered()));
-	audioAct->setText(tr("Open audio with %1").arg(player_name));
+	audioAct->setText(tr("Play audio with %1").arg(player_name));
 	audioAct->setData(QStringList() << player_name << url.toString());
 	context_menu->addAction(audioAct);
 #endif
 
 	QAction * playWithBrowserAct = new QAction(this);
 	connect(playWithBrowserAct, SIGNAL(triggered()), this, SLOT(openWithBrowserTriggered()));
-	playWithBrowserAct->setText(tr("Play video with a web browser"));
+	playWithBrowserAct->setText(tr("Play video with a &web browser"));
 	playWithBrowserAct->setData(url.toString());
 	context_menu->addAction(playWithBrowserAct);
 
