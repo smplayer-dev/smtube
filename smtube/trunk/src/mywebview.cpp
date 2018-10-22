@@ -45,12 +45,15 @@ void MyWebView::contextMenuEvent(QContextMenuEvent* event) {
 	qDebug() << "MyWebView::contextMenuEvent: url:" << url.toString();
 
 	// Translate and adjust some actions
+	pageAction(QWebPage::DownloadLinkToDisk)->setText(tr("&Save link..."));
 	pageAction(QWebPage::DownloadLinkToDisk)->setEnabled(false);
-	pageAction(QWebPage::DownloadLinkToDisk)->setText(tr("Save link..."));
-	pageAction(QWebPage::CopyLinkToClipboard)->setText(tr("Copy link to clipboard"));
+	pageAction(QWebPage::DownloadLinkToDisk)->setVisible(false);
+	pageAction(QWebPage::CopyLinkToClipboard)->setText(tr("Copy &link to clipboard"));
 	pageAction(QWebPage::OpenLink)->setText(tr("Open link in this window"));
-	pageAction(QWebPage::Copy)->setText(tr("Copy text to clipboard"));
-	pageAction(QWebPage::OpenLinkInNewWindow)->setText(tr("Open link in new window"));
+	pageAction(QWebPage::OpenLink)->setVisible(false);
+	pageAction(QWebPage::Copy)->setText(tr("&Copy text to clipboard"));
+	pageAction(QWebPage::OpenLinkInNewWindow)->setText(tr("Open link in &new window"));
+	pageAction(QWebPage::OpenLinkInNewWindow)->setVisible(false);
 
 	if (url.isEmpty()) {
 		QWebView::contextMenuEvent(event);
