@@ -69,6 +69,7 @@ private:
 
 #ifdef USE_PLAYERS
 	QList<Player> player_list;
+	QMenu * video_menu;
 	QMenu * audio_menu;
 #else
 	QString player_name;
