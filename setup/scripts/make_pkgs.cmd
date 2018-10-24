@@ -32,7 +32,7 @@ if exist "nsis_path" (
 )
 
 if not defined MAKENSIS_EXE_PATH (
-  for %%x in ("%PROGRAMFILES(X86)%\NSIS\Unicode\makensis.exe" "%PROGRAMFILES%\NSIS\Unicode\makensis.exe") do if exist %%x set MAKENSIS_EXE_PATH=%%x
+  for %%x in ("%PROGRAMFILES(X86)%\NSIS\Bin\makensis.exe" "%PROGRAMFILES%\NSIS\Bin\makensis.exe") do if exist %%x set MAKENSIS_EXE_PATH=%%x
 )
 
 if not defined MAKENSIS_EXE_PATH (
