@@ -157,84 +157,84 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="501"/>
+        <location filename="../browserwindow.cpp" line="527"/>
         <source>Connection failed</source>
         <translation>Lidhja deshtoj</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="502"/>
+        <location filename="../browserwindow.cpp" line="528"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="503"/>
+        <location filename="../browserwindow.cpp" line="529"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="534"/>
         <source>No video found</source>
         <translation>Nuk u gjet asnje video</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="535"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="519"/>
-        <location filename="../browserwindow.cpp" line="527"/>
+        <location filename="../browserwindow.cpp" line="545"/>
+        <location filename="../browserwindow.cpp" line="553"/>
         <source>Problems with YouTube</source>
         <translation>Probleme me Youtube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="520"/>
-        <location filename="../browserwindow.cpp" line="528"/>
+        <location filename="../browserwindow.cpp" line="546"/>
+        <location filename="../browserwindow.cpp" line="554"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="521"/>
+        <location filename="../browserwindow.cpp" line="547"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="529"/>
+        <location filename="../browserwindow.cpp" line="555"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Ndoshta duke bërë update-in e aplikacionit mund të zgjidhi problemin.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="548"/>
+        <location filename="../browserwindow.cpp" line="574"/>
         <source>About this release</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="549"/>
+        <location filename="../browserwindow.cpp" line="575"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="550"/>
+        <location filename="../browserwindow.cpp" line="576"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="551"/>
+        <location filename="../browserwindow.cpp" line="577"/>
         <source>Some functionality is not available yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="553"/>
+        <location filename="../browserwindow.cpp" line="579"/>
         <source>Important:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="554"/>
+        <location filename="../browserwindow.cpp" line="580"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="555"/>
+        <location filename="../browserwindow.cpp" line="581"/>
         <source>Update the YouTube code</source>
         <translation>Azhorno codin e &amp;Youtube</translation>
     </message>
@@ -247,45 +247,28 @@
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Duke shkarkuar...</translation>
+        <translation type="obsolete">Duke shkarkuar...</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Duke u lidhur me %1</translation>
+        <translation type="obsolete">Duke u lidhur me %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="126"/>
-        <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Versioni i instaluar: %1</translation>
+        <translation type="obsolete">Versioni i instaluar: %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Sukses</translation>
+        <translation type="obsolete">Sukses</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="133"/>
-        <location filename="../codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Gabim</translation>
+        <translation type="obsolete">Gabim</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Nje gabim ndodhi gjat shkruajtjes se %1</translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="138"/>
-        <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Nje gabim ndodhi gjat shkruajtjes se %1</translation>
     </message>
 </context>
 <context>
@@ -376,7 +359,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="79"/>
+        <location filename="../configdialog.cpp" line="74"/>
         <source>Default</source>
         <translation type="unfinished"></translation>
     </message>
@@ -392,49 +375,58 @@
 <context>
     <name>MyWebView</name>
     <message>
-        <location filename="../mywebview.cpp" line="36"/>
-        <source>Open link in a web browser</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mywebview.cpp" line="52"/>
-        <source>Open link in new window</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mywebview.cpp" line="75"/>
-        <source>Open audio with</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mywebview.cpp" line="99"/>
-        <location filename="../mywebview.cpp" line="124"/>
-        <source>Open with %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mywebview.cpp" line="131"/>
-        <source>Open audio with %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mywebview.cpp" line="49"/>
-        <source>Copy link to clipboard</source>
+        <location filename="../mywebview.cpp" line="37"/>
+        <source>Open in &amp;YouTube</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
-        <source>Save link...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mywebview.cpp" line="50"/>
-        <source>Open link in this window</source>
+        <source>&amp;Save link...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="51"/>
-        <source>Copy text to clipboard</source>
+        <source>Copy &amp;link to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="52"/>
+        <source>Open link in this window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="54"/>
+        <source>&amp;Copy text to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="55"/>
+        <source>Open link in &amp;new window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="79"/>
+        <source>&amp;Play with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="84"/>
+        <source>Play &amp;audio with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="137"/>
+        <source>&amp;Play with %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="144"/>
+        <source>Play &amp;audio with %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="151"/>
+        <source>Play video with a &amp;web browser</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

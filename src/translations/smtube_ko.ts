@@ -157,84 +157,84 @@
         <translation>다운로드</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="501"/>
+        <location filename="../browserwindow.cpp" line="527"/>
         <source>Connection failed</source>
         <translation>연결에 실패했습니다</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="502"/>
+        <location filename="../browserwindow.cpp" line="528"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>요청한 비디오는 HTTPS 연결이 필요합니다</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="503"/>
+        <location filename="../browserwindow.cpp" line="529"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>유감스럽게도 필요한 OpenSSL 컴포넌트가 시스템에 없습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="534"/>
         <source>No video found</source>
         <translation>비디오를 찾을 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="535"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>이 비디오의 URL을 찾지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="519"/>
-        <location filename="../browserwindow.cpp" line="527"/>
+        <location filename="../browserwindow.cpp" line="545"/>
+        <location filename="../browserwindow.cpp" line="553"/>
         <source>Problems with YouTube</source>
         <translation>유투브 문제</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="520"/>
-        <location filename="../browserwindow.cpp" line="528"/>
+        <location filename="../browserwindow.cpp" line="546"/>
+        <location filename="../browserwindow.cpp" line="554"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>불행히도 유투브의 변경 때문에 &apos;%1&apos; 비디오를 재생할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="521"/>
+        <location filename="../browserwindow.cpp" line="547"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>유투브 코드를 업데이트할까요? 문제를 해결할 수도 있습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="529"/>
+        <location filename="../browserwindow.cpp" line="555"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>이 프로그램을 업데이트해서 문제를 해결할 수 있을 것입니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="548"/>
+        <location filename="../browserwindow.cpp" line="574"/>
         <source>About this release</source>
         <translation>이 버전 정보</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="549"/>
+        <location filename="../browserwindow.cpp" line="575"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>유투브의 변경 때문에 이전의 SMTube는 더 이상 동작하지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="550"/>
+        <location filename="../browserwindow.cpp" line="576"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>이것은 처음부터 새로 만든 새로운 버전의 SMTube입니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="551"/>
+        <location filename="../browserwindow.cpp" line="577"/>
         <source>Some functionality is not available yet.</source>
         <translation>몇몇 기능은 아직 사용할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="553"/>
+        <location filename="../browserwindow.cpp" line="579"/>
         <source>Important:</source>
         <translation>중요:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="554"/>
+        <location filename="../browserwindow.cpp" line="580"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>VEVO 비디오 재생에 실패하면 도움말 메뉴의 %1 옵션을 사용하세요.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="555"/>
+        <location filename="../browserwindow.cpp" line="581"/>
         <source>Update the YouTube code</source>
         <translation>유투브 코드를 업데이트하기</translation>
     </message>
@@ -247,45 +247,36 @@
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>다운로드 중...</translation>
+        <translation type="obsolete">다운로드 중...</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>%1 에 연결 중</translation>
+        <translation type="obsolete">%1 에 연결 중</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>유투브 코드를 성공적으로 업데이트했습니다.</translation>
+        <translation type="obsolete">유투브 코드를 성공적으로 업데이트했습니다.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>설치된 버전: %1</translation>
+        <translation type="obsolete">설치된 버전: %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>성공</translation>
+        <translation type="obsolete">성공</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="133"/>
-        <location filename="../codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>오류</translation>
+        <translation type="obsolete">오류</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>%1 를 쓰는 도중에 오류가 발생했습니다</translation>
+        <translation type="obsolete">%1 를 쓰는 도중에 오류가 발생했습니다</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>다음 파일 다운로드 중에 오류가 발생했습니다:&lt;br&gt;%1</translation>
+        <translation type="obsolete">다음 파일 다운로드 중에 오류가 발생했습니다:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -376,7 +367,7 @@
         <translation>아래로</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="79"/>
+        <location filename="../configdialog.cpp" line="74"/>
         <source>Default</source>
         <translation>기본값</translation>
     </message>
@@ -392,50 +383,91 @@
 <context>
     <name>MyWebView</name>
     <message>
-        <location filename="../mywebview.cpp" line="36"/>
         <source>Open link in a web browser</source>
-        <translation>웹 브라우저에서 링크를 여세요</translation>
+        <translation type="obsolete">웹 브라우저에서 링크를 여세요</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in new window</source>
-        <translation>새 창에서 링크 열기</translation>
+        <translation type="obsolete">새 창에서 링크 열기</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="75"/>
         <source>Open audio with</source>
-        <translation>오디오를 다음으로 열기:</translation>
+        <translation type="obsolete">오디오를 다음으로 열기:</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="99"/>
-        <location filename="../mywebview.cpp" line="124"/>
         <source>Open with %1</source>
-        <translation>%1로 열기</translation>
+        <translation type="obsolete">%1로 열기</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="131"/>
         <source>Open audio with %1</source>
-        <translation>오디오를 %로 열기</translation>
+        <translation type="obsolete">오디오를 %로 열기</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="49"/>
         <source>Copy link to clipboard</source>
-        <translation>클립보드에 링크 복사하기</translation>
+        <translation type="obsolete">클립보드에 링크 복사하기</translation>
+    </message>
+    <message>
+        <source>Save link...</source>
+        <translation type="obsolete">링크 저장하기...</translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="37"/>
+        <source>Open in &amp;YouTube</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
-        <source>Save link...</source>
-        <translation>링크 저장하기...</translation>
+        <source>&amp;Save link...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="50"/>
+        <location filename="../mywebview.cpp" line="51"/>
+        <source>Copy &amp;link to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in this window</source>
         <translation>이 창에서 링크 열기</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="51"/>
+        <location filename="../mywebview.cpp" line="54"/>
+        <source>&amp;Copy text to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="55"/>
+        <source>Open link in &amp;new window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="79"/>
+        <source>&amp;Play with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="84"/>
+        <source>Play &amp;audio with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="137"/>
+        <source>&amp;Play with %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="144"/>
+        <source>Play &amp;audio with %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="151"/>
+        <source>Play video with a &amp;web browser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Copy text to clipboard</source>
-        <translation>클립보드에 텍스트 복사하기</translation>
+        <translation type="obsolete">클립보드에 텍스트 복사하기</translation>
     </message>
 </context>
 <context>

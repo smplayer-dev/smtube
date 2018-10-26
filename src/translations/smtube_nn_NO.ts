@@ -157,84 +157,84 @@
         <translation>Last ned</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="501"/>
+        <location filename="../browserwindow.cpp" line="527"/>
         <source>Connection failed</source>
         <translation>Mislukka tilkopling</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="502"/>
+        <location filename="../browserwindow.cpp" line="528"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Videoen du spør etter må opna ei HTTPS-tilkopling</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="503"/>
+        <location filename="../browserwindow.cpp" line="529"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>OpenSSL-komponenten du ba om er diverre ikkje tilgjengeleg for ditt system.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="534"/>
         <source>No video found</source>
         <translation>Fann ingen video</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="535"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Ein kunne ikkje finna URL-en for denne videoen.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="519"/>
-        <location filename="../browserwindow.cpp" line="527"/>
+        <location filename="../browserwindow.cpp" line="545"/>
+        <location filename="../browserwindow.cpp" line="553"/>
         <source>Problems with YouTube</source>
         <translation>Problem med YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="520"/>
-        <location filename="../browserwindow.cpp" line="528"/>
+        <location filename="../browserwindow.cpp" line="546"/>
+        <location filename="../browserwindow.cpp" line="554"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>På grunn av endringar i YouTube, kan diverre ikkje videoen &apos;%1&apos; spelast.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="521"/>
+        <location filename="../browserwindow.cpp" line="547"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>Vil du oppdatera YouTub-kodeken? Dette kan retta eit problem.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="529"/>
+        <location filename="../browserwindow.cpp" line="555"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Kanskje oppdatering av denne appen kan fiksa problemet.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="548"/>
+        <location filename="../browserwindow.cpp" line="574"/>
         <source>About this release</source>
         <translation>Om denne utgjevinga</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="549"/>
+        <location filename="../browserwindow.cpp" line="575"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>På grunn av endringar i YouTube, vil gammal SMTube ikkje lenger fungera.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="550"/>
+        <location filename="../browserwindow.cpp" line="576"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>Dette er ein ny versjon av SMTube, skriven frå botnen av.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="551"/>
+        <location filename="../browserwindow.cpp" line="577"/>
         <source>Some functionality is not available yet.</source>
         <translation>Nokre funksjonar er ikkje tilgjengelege enno.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="553"/>
+        <location filename="../browserwindow.cpp" line="579"/>
         <source>Important:</source>
         <translation>Viktig:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="554"/>
+        <location filename="../browserwindow.cpp" line="580"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>Om VEVO-videoar ikkje spelar av, ver snill og bruk valet %1 i Hjelp-menyen.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="555"/>
+        <location filename="../browserwindow.cpp" line="581"/>
         <source>Update the YouTube code</source>
         <translation>Oppdater YouTube-koden</translation>
     </message>
@@ -247,45 +247,36 @@
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Lastar ned…</translation>
+        <translation type="obsolete">Lastar ned…</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Koplar til %1</translation>
+        <translation type="obsolete">Koplar til %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Youtube-koden er vellukka oppdatert.</translation>
+        <translation type="obsolete">Youtube-koden er vellukka oppdatert.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Installert versjon: %1</translation>
+        <translation type="obsolete">Installert versjon: %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Vellukka</translation>
+        <translation type="obsolete">Vellukka</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="133"/>
-        <location filename="../codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Feil</translation>
+        <translation type="obsolete">Feil</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Det oppstod ein feil ved skriving av %1</translation>
+        <translation type="obsolete">Det oppstod ein feil ved skriving av %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Det oppstod ein feil under nedlastinga av fila:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Det oppstod ein feil under nedlastinga av fila:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -376,7 +367,7 @@
         <translation>Ned</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="79"/>
+        <location filename="../configdialog.cpp" line="74"/>
         <source>Default</source>
         <translation>Standard</translation>
     </message>
@@ -392,50 +383,91 @@
 <context>
     <name>MyWebView</name>
     <message>
-        <location filename="../mywebview.cpp" line="36"/>
         <source>Open link in a web browser</source>
-        <translation>Opna lenka i nettlesaren</translation>
+        <translation type="obsolete">Opna lenka i nettlesaren</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in new window</source>
-        <translation>Opna lenkje i nytt vindauge</translation>
+        <translation type="obsolete">Opna lenkje i nytt vindauge</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="75"/>
         <source>Open audio with</source>
-        <translation>Opna lyd med</translation>
+        <translation type="obsolete">Opna lyd med</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="99"/>
-        <location filename="../mywebview.cpp" line="124"/>
         <source>Open with %1</source>
-        <translation>Opna med %1</translation>
+        <translation type="obsolete">Opna med %1</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="131"/>
         <source>Open audio with %1</source>
-        <translation>Opna lyd med %1</translation>
+        <translation type="obsolete">Opna lyd med %1</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="49"/>
         <source>Copy link to clipboard</source>
-        <translation>Kopier til utklippstavla</translation>
+        <translation type="obsolete">Kopier til utklippstavla</translation>
+    </message>
+    <message>
+        <source>Save link...</source>
+        <translation type="obsolete">Lagra lenkje…</translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="37"/>
+        <source>Open in &amp;YouTube</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
-        <source>Save link...</source>
-        <translation>Lagra lenkje…</translation>
+        <source>&amp;Save link...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="50"/>
+        <location filename="../mywebview.cpp" line="51"/>
+        <source>Copy &amp;link to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in this window</source>
         <translation>Opna lenkja i dette vindauget</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="51"/>
+        <location filename="../mywebview.cpp" line="54"/>
+        <source>&amp;Copy text to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="55"/>
+        <source>Open link in &amp;new window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="79"/>
+        <source>&amp;Play with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="84"/>
+        <source>Play &amp;audio with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="137"/>
+        <source>&amp;Play with %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="144"/>
+        <source>Play &amp;audio with %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="151"/>
+        <source>Play video with a &amp;web browser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Copy text to clipboard</source>
-        <translation>Kopier tekst til utklippstavle</translation>
+        <translation type="obsolete">Kopier tekst til utklippstavle</translation>
     </message>
 </context>
 <context>

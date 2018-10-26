@@ -157,84 +157,84 @@
         <translation>Jeitsi</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="501"/>
+        <location filename="../browserwindow.cpp" line="527"/>
         <source>Connection failed</source>
         <translation>Elkarketa hutsegitea</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="502"/>
+        <location filename="../browserwindow.cpp" line="528"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Eskatu duzun bideoak HTTPS elkarketa bat irekitzea behar du.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="503"/>
+        <location filename="../browserwindow.cpp" line="529"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>Zorigaitzez OpenSSL osagaia, horretarako beharrezkoa dena, ez dago eskuragarri zure sisteman.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="534"/>
         <source>No video found</source>
         <translation>Ez da bideorik aurkitu</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="535"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Ezinezkoa da bideo honen URL-a aurkitzea.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="519"/>
-        <location filename="../browserwindow.cpp" line="527"/>
+        <location filename="../browserwindow.cpp" line="545"/>
+        <location filename="../browserwindow.cpp" line="553"/>
         <source>Problems with YouTube</source>
         <translation>Arazoak YouTube-rekin</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="520"/>
-        <location filename="../browserwindow.cpp" line="528"/>
+        <location filename="../browserwindow.cpp" line="546"/>
+        <location filename="../browserwindow.cpp" line="554"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Zorigaitzez YouTubeko aldaketen ondorioz, &apos;%1&apos; bideoa ezin da irakurri.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="521"/>
+        <location filename="../browserwindow.cpp" line="547"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>Nahi duzu YouTube kodea eguneratzea? Honek arazoa konpondu dezake.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="529"/>
+        <location filename="../browserwindow.cpp" line="555"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Badaiteke aplikazio hau eguneratuz arazoa zuzentzea.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="548"/>
+        <location filename="../browserwindow.cpp" line="574"/>
         <source>About this release</source>
         <translation>Argitalpen honi buruz</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="549"/>
+        <location filename="../browserwindow.cpp" line="575"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>YouTubeko aldaketen ondorioz, SMTube zaharrak ez du lanik egiten.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="550"/>
+        <location filename="../browserwindow.cpp" line="576"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>Hau SMTube bertsio berri bat da, hasieratik idatzia.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="551"/>
+        <location filename="../browserwindow.cpp" line="577"/>
         <source>Some functionality is not available yet.</source>
         <translation>Zenbait eginkizun ez daude eskuragarri oraindik.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="553"/>
+        <location filename="../browserwindow.cpp" line="579"/>
         <source>Important:</source>
         <translation>Garrantzitsua:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="554"/>
+        <location filename="../browserwindow.cpp" line="580"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>VEVO bideoek huts egiten badute irakurtzean, mesedez erabili &apos;%1&apos; aukera Laguntza menuan.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="555"/>
+        <location filename="../browserwindow.cpp" line="581"/>
         <source>Update the YouTube code</source>
         <translation>Eguneratu YouTube kodea</translation>
     </message>
@@ -247,45 +247,36 @@
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Jeisten...</translation>
+        <translation type="obsolete">Jeisten...</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>%1-ra elkartzen</translation>
+        <translation type="obsolete">%1-ra elkartzen</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Youtube kodea ongi eguneratu da.</translation>
+        <translation type="obsolete">Youtube kodea ongi eguneratu da.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Ezarritako bertsioa: %1</translation>
+        <translation type="obsolete">Ezarritako bertsioa: %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Ongi</translation>
+        <translation type="obsolete">Ongi</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="133"/>
-        <location filename="../codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Akatsa</translation>
+        <translation type="obsolete">Akatsa</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Akats bat gertatu da %1 idazterakoan</translation>
+        <translation type="obsolete">Akats bat gertatu da %1 idazterakoan</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Akats bat gertatu da agiria jeisterakoan:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Akats bat gertatu da agiria jeisterakoan:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -376,7 +367,7 @@
         <translation>Behera</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="79"/>
+        <location filename="../configdialog.cpp" line="74"/>
         <source>Default</source>
         <translation>Berezkoa</translation>
     </message>
@@ -392,50 +383,91 @@
 <context>
     <name>MyWebView</name>
     <message>
-        <location filename="../mywebview.cpp" line="36"/>
         <source>Open link in a web browser</source>
-        <translation>Ireki lotura web nabigatzailean</translation>
+        <translation type="obsolete">Ireki lotura web nabigatzailean</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in new window</source>
-        <translation>Ireki lotura leiho berrian</translation>
+        <translation type="obsolete">Ireki lotura leiho berrian</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="75"/>
         <source>Open audio with</source>
-        <translation>Ireki audioa honekin:</translation>
+        <translation type="obsolete">Ireki audioa honekin:</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="99"/>
-        <location filename="../mywebview.cpp" line="124"/>
         <source>Open with %1</source>
-        <translation>Ireki %1-rekin</translation>
+        <translation type="obsolete">Ireki %1-rekin</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="131"/>
         <source>Open audio with %1</source>
-        <translation>Ireki audioa %1-rekin</translation>
+        <translation type="obsolete">Ireki audioa %1-rekin</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="49"/>
         <source>Copy link to clipboard</source>
-        <translation>Kopiatu lotura gakora</translation>
+        <translation type="obsolete">Kopiatu lotura gakora</translation>
+    </message>
+    <message>
+        <source>Save link...</source>
+        <translation type="obsolete">Gorde lotura...</translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="37"/>
+        <source>Open in &amp;YouTube</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
-        <source>Save link...</source>
-        <translation>Gorde lotura...</translation>
+        <source>&amp;Save link...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="50"/>
+        <location filename="../mywebview.cpp" line="51"/>
+        <source>Copy &amp;link to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in this window</source>
         <translation>Ireki lotura leiho honetan</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="51"/>
+        <location filename="../mywebview.cpp" line="54"/>
+        <source>&amp;Copy text to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="55"/>
+        <source>Open link in &amp;new window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="79"/>
+        <source>&amp;Play with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="84"/>
+        <source>Play &amp;audio with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="137"/>
+        <source>&amp;Play with %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="144"/>
+        <source>Play &amp;audio with %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="151"/>
+        <source>Play video with a &amp;web browser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Copy text to clipboard</source>
-        <translation>Kopiatu idazkia gakora</translation>
+        <translation type="obsolete">Kopiatu idazkia gakora</translation>
     </message>
 </context>
 <context>
