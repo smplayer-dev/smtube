@@ -134,14 +134,14 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 #else
 	QAction * videoAct = new QAction(this);
 	connect(videoAct, SIGNAL(triggered()), this, SLOT(openWithTriggered()));
-	videoAct->setText(tr("Play with %1").arg(player_name));
+	videoAct->setText(tr("&Play with %1").arg(player_name));
 	videoAct->setData(QStringList() << player_name << url.toString());
 	context_menu->addAction(videoAct);
 
 	// Audio
 	QAction * audioAct = new QAction(this);
 	connect(audioAct, SIGNAL(triggered()), this, SLOT(openAudioWithTriggered()));
-	audioAct->setText(tr("Play audio with %1").arg(player_name));
+	audioAct->setText(tr("Play &audio with %1").arg(player_name));
 	audioAct->setData(QStringList() << player_name << url.toString());
 	context_menu->addAction(audioAct);
 #endif
