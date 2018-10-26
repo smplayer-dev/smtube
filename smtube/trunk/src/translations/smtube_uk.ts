@@ -157,84 +157,84 @@
         <translation>Завантажити</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="501"/>
+        <location filename="../browserwindow.cpp" line="527"/>
         <source>Connection failed</source>
         <translation>З’єднання перервано</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="502"/>
+        <location filename="../browserwindow.cpp" line="528"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Запитуване Вами відео потребує HTTPS-з’єднання.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="503"/>
+        <location filename="../browserwindow.cpp" line="529"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>Нажаль, потрібна для цього компонента OpenSSL не доступна у Вашій системі.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="534"/>
         <source>No video found</source>
         <translation>Відео не знайдено</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="535"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Неможливо знайти посилання для цього відео.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="519"/>
-        <location filename="../browserwindow.cpp" line="527"/>
+        <location filename="../browserwindow.cpp" line="545"/>
+        <location filename="../browserwindow.cpp" line="553"/>
         <source>Problems with YouTube</source>
         <translation>Проблеми з YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="520"/>
-        <location filename="../browserwindow.cpp" line="528"/>
+        <location filename="../browserwindow.cpp" line="546"/>
+        <location filename="../browserwindow.cpp" line="554"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>На жаль, через зміни на YouTube відео &apos;%1&apos; не може бути відтворено.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="521"/>
+        <location filename="../browserwindow.cpp" line="547"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
         <translation>Бажаєте оновити код YouTube? Це може вирішити проблему.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="529"/>
+        <location filename="../browserwindow.cpp" line="555"/>
         <source>Maybe updating this application could fix the problem.</source>
         <translation>Можливо оновлення цього застосунку дозволить вирішити проблему.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="548"/>
+        <location filename="../browserwindow.cpp" line="574"/>
         <source>About this release</source>
         <translation>По цей випуск</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="549"/>
+        <location filename="../browserwindow.cpp" line="575"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
         <translation>Старий SMTube більше не працює з-за змін на YouTube.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="550"/>
+        <location filename="../browserwindow.cpp" line="576"/>
         <source>This is a new version of SMTube, written from scratch.</source>
         <translation>Це нова версія SMTube, написана з нуля.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="551"/>
+        <location filename="../browserwindow.cpp" line="577"/>
         <source>Some functionality is not available yet.</source>
         <translation>Деякі функції покищо не доступні.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="553"/>
+        <location filename="../browserwindow.cpp" line="579"/>
         <source>Important:</source>
         <translation>Важливо:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="554"/>
+        <location filename="../browserwindow.cpp" line="580"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
         <translation>Якщо VEVO відео не бажає відтворюватися, будь ласка, використовуйте пункт %1 у меню Довідки.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="555"/>
+        <location filename="../browserwindow.cpp" line="581"/>
         <source>Update the YouTube code</source>
         <translation>Оновити код YouTube</translation>
     </message>
@@ -247,45 +247,36 @@
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Завантажується...</translation>
+        <translation type="obsolete">Завантажується...</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>З&apos;єднання з %1</translation>
+        <translation type="obsolete">З&apos;єднання з %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Код YouTube був успішно оновлений.</translation>
+        <translation type="obsolete">Код YouTube був успішно оновлений.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Встановлена версія: %1</translation>
+        <translation type="obsolete">Встановлена версія: %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Успіх</translation>
+        <translation type="obsolete">Успіх</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="133"/>
-        <location filename="../codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Помилка</translation>
+        <translation type="obsolete">Помилка</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Виникла помилка при запису %1</translation>
+        <translation type="obsolete">Виникла помилка при запису %1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Виникла помилка при завантаженні файлу:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Виникла помилка при завантаженні файлу:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -376,7 +367,7 @@
         <translation>Нижче</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="79"/>
+        <location filename="../configdialog.cpp" line="74"/>
         <source>Default</source>
         <translation>Типово</translation>
     </message>
@@ -392,50 +383,91 @@
 <context>
     <name>MyWebView</name>
     <message>
-        <location filename="../mywebview.cpp" line="36"/>
         <source>Open link in a web browser</source>
-        <translation>Відкрити посилання у оглядачі тенет</translation>
+        <translation type="obsolete">Відкрити посилання у оглядачі тенет</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in new window</source>
-        <translation>Відкрити посилання у новому вікні</translation>
+        <translation type="obsolete">Відкрити посилання у новому вікні</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="75"/>
         <source>Open audio with</source>
-        <translation>Відтворити аудіо за допомогою</translation>
+        <translation type="obsolete">Відтворити аудіо за допомогою</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="99"/>
-        <location filename="../mywebview.cpp" line="124"/>
         <source>Open with %1</source>
-        <translation>Відкрити з %1</translation>
+        <translation type="obsolete">Відкрити з %1</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="131"/>
         <source>Open audio with %1</source>
-        <translation>Відтворити аудіо за допомогою %1</translation>
+        <translation type="obsolete">Відтворити аудіо за допомогою %1</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="49"/>
         <source>Copy link to clipboard</source>
-        <translation>Скопіювати посилання у буфер обміну</translation>
+        <translation type="obsolete">Скопіювати посилання у буфер обміну</translation>
+    </message>
+    <message>
+        <source>Save link...</source>
+        <translation type="obsolete">Зберегти посилання...</translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="37"/>
+        <source>Open in &amp;YouTube</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
-        <source>Save link...</source>
-        <translation>Зберегти посилання...</translation>
+        <source>&amp;Save link...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="50"/>
+        <location filename="../mywebview.cpp" line="51"/>
+        <source>Copy &amp;link to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="52"/>
         <source>Open link in this window</source>
         <translation>Відкрити посилання у цьому вікні</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="51"/>
+        <location filename="../mywebview.cpp" line="54"/>
+        <source>&amp;Copy text to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="55"/>
+        <source>Open link in &amp;new window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="79"/>
+        <source>&amp;Play with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="84"/>
+        <source>Play &amp;audio with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="137"/>
+        <source>&amp;Play with %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="144"/>
+        <source>Play &amp;audio with %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mywebview.cpp" line="151"/>
+        <source>Play video with a &amp;web browser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Copy text to clipboard</source>
-        <translation>Скопіювати текст у буфер обміну</translation>
+        <translation type="obsolete">Скопіювати текст у буфер обміну</translation>
     </message>
 </context>
 <context>
