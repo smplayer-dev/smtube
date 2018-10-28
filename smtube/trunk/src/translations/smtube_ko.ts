@@ -245,41 +245,6 @@
     </message>
 </context>
 <context>
-    <name>CodeDownloader</name>
-    <message>
-        <source>Downloading...</source>
-        <translation type="obsolete">다운로드 중...</translation>
-    </message>
-    <message>
-        <source>Connecting to %1</source>
-        <translation type="obsolete">%1 에 연결 중</translation>
-    </message>
-    <message>
-        <source>The Youtube code has been updated successfully.</source>
-        <translation type="obsolete">유투브 코드를 성공적으로 업데이트했습니다.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">설치된 버전: %1</translation>
-    </message>
-    <message>
-        <source>Success</source>
-        <translation type="obsolete">성공</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="obsolete">오류</translation>
-    </message>
-    <message>
-        <source>An error happened writing %1</source>
-        <translation type="obsolete">%1 를 쓰는 도중에 오류가 발생했습니다</translation>
-    </message>
-    <message>
-        <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="obsolete">다음 파일 다운로드 중에 오류가 발생했습니다:&lt;br&gt;%1</translation>
-    </message>
-</context>
-<context>
     <name>ConfigDialog</name>
     <message>
         <location filename="../configdialog.ui" line="14"/>
@@ -383,34 +348,6 @@
 <context>
     <name>MyWebView</name>
     <message>
-        <source>Open link in a web browser</source>
-        <translation type="obsolete">웹 브라우저에서 링크를 여세요</translation>
-    </message>
-    <message>
-        <source>Open link in new window</source>
-        <translation type="obsolete">새 창에서 링크 열기</translation>
-    </message>
-    <message>
-        <source>Open audio with</source>
-        <translation type="obsolete">오디오를 다음으로 열기:</translation>
-    </message>
-    <message>
-        <source>Open with %1</source>
-        <translation type="obsolete">%1로 열기</translation>
-    </message>
-    <message>
-        <source>Open audio with %1</source>
-        <translation type="obsolete">오디오를 %로 열기</translation>
-    </message>
-    <message>
-        <source>Copy link to clipboard</source>
-        <translation type="obsolete">클립보드에 링크 복사하기</translation>
-    </message>
-    <message>
-        <source>Save link...</source>
-        <translation type="obsolete">링크 저장하기...</translation>
-    </message>
-    <message>
         <location filename="../mywebview.cpp" line="37"/>
         <source>Open in &amp;YouTube</source>
         <translation type="unfinished"></translation>
@@ -464,10 +401,6 @@
         <location filename="../mywebview.cpp" line="151"/>
         <source>Play video with a &amp;web browser</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copy text to clipboard</source>
-        <translation type="obsolete">클립보드에 텍스트 복사하기</translation>
     </message>
 </context>
 <context>

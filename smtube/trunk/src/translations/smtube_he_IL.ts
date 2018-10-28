@@ -245,41 +245,6 @@
     </message>
 </context>
 <context>
-    <name>CodeDownloader</name>
-    <message>
-        <source>Downloading...</source>
-        <translation type="obsolete">כעת מוריד...</translation>
-    </message>
-    <message>
-        <source>Connecting to %1</source>
-        <translation type="obsolete">כעת מתחבר אל %1</translation>
-    </message>
-    <message>
-        <source>The Youtube code has been updated successfully.</source>
-        <translation type="obsolete">קוד Youtube התעדכן בהצלחה.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">גרסא מותקנת: %1</translation>
-    </message>
-    <message>
-        <source>Success</source>
-        <translation type="obsolete">הצלחה</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="obsolete">שגיאה</translation>
-    </message>
-    <message>
-        <source>An error happened writing %1</source>
-        <translation type="obsolete">התרחשה שגיאה בכתיבת %1</translation>
-    </message>
-    <message>
-        <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="obsolete">התרחשה שגיאה במהלך הורדת הקובץ:&lt;br&gt;%1</translation>
-    </message>
-</context>
-<context>
     <name>ConfigDialog</name>
     <message>
         <location filename="../configdialog.ui" line="14"/>
@@ -383,34 +348,6 @@
 <context>
     <name>MyWebView</name>
     <message>
-        <source>Open link in a web browser</source>
-        <translation type="obsolete">פתח קישור בתוך דפדפן רשת</translation>
-    </message>
-    <message>
-        <source>Open link in new window</source>
-        <translation type="obsolete">פתח קישור בתוך חלון חדש</translation>
-    </message>
-    <message>
-        <source>Open audio with</source>
-        <translation type="obsolete">פתח אודיו בעזרת</translation>
-    </message>
-    <message>
-        <source>Open with %1</source>
-        <translation type="obsolete">פתח בעזרת %1</translation>
-    </message>
-    <message>
-        <source>Open audio with %1</source>
-        <translation type="obsolete">פתח אודיו בעזרת %1</translation>
-    </message>
-    <message>
-        <source>Copy link to clipboard</source>
-        <translation type="obsolete">העתק קישור ללוח גזירה</translation>
-    </message>
-    <message>
-        <source>Save link...</source>
-        <translation type="obsolete">שמור קישור...</translation>
-    </message>
-    <message>
         <location filename="../mywebview.cpp" line="37"/>
         <source>Open in &amp;YouTube</source>
         <translation type="unfinished"></translation>
@@ -464,10 +401,6 @@
         <location filename="../mywebview.cpp" line="151"/>
         <source>Play video with a &amp;web browser</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copy text to clipboard</source>
-        <translation type="obsolete">העתק טקסט ללוח גזירה</translation>
     </message>
 </context>
 <context>
