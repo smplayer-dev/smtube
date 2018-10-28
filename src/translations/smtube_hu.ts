@@ -245,41 +245,6 @@
     </message>
 </context>
 <context>
-    <name>CodeDownloader</name>
-    <message>
-        <source>Downloading...</source>
-        <translation type="obsolete">Letöltés...</translation>
-    </message>
-    <message>
-        <source>Connecting to %1</source>
-        <translation type="obsolete">Kapcsolódás %1-hoz</translation>
-    </message>
-    <message>
-        <source>The Youtube code has been updated successfully.</source>
-        <translation type="obsolete">A Youtube kód sikeresen frissítve.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Telepített verzió: %1</translation>
-    </message>
-    <message>
-        <source>Success</source>
-        <translation type="obsolete">Sikerült</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="obsolete">Hiba</translation>
-    </message>
-    <message>
-        <source>An error happened writing %1</source>
-        <translation type="obsolete">Hiba történt írás közben: %1</translation>
-    </message>
-    <message>
-        <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="obsolete">Hiba történt a fájl letöltése közben:&lt;br&gt;%1</translation>
-    </message>
-</context>
-<context>
     <name>ConfigDialog</name>
     <message>
         <location filename="../configdialog.ui" line="14"/>
@@ -383,34 +348,6 @@
 <context>
     <name>MyWebView</name>
     <message>
-        <source>Open link in a web browser</source>
-        <translation type="obsolete">Hivatkozás megnyitása webböngészőben</translation>
-    </message>
-    <message>
-        <source>Open link in new window</source>
-        <translation type="obsolete">Hivatkozás megnyitása új ablakban</translation>
-    </message>
-    <message>
-        <source>Open audio with</source>
-        <translation type="obsolete">Hang megnyitása ezzel:</translation>
-    </message>
-    <message>
-        <source>Open with %1</source>
-        <translation type="obsolete">Megnyitás ezzel: %1</translation>
-    </message>
-    <message>
-        <source>Open audio with %1</source>
-        <translation type="obsolete">Hang megnyitása ezzel: %1</translation>
-    </message>
-    <message>
-        <source>Copy link to clipboard</source>
-        <translation type="obsolete">Hivatkozás másolása vágólapra</translation>
-    </message>
-    <message>
-        <source>Save link...</source>
-        <translation type="obsolete">Hivatkozás mentése...</translation>
-    </message>
-    <message>
         <location filename="../mywebview.cpp" line="37"/>
         <source>Open in &amp;YouTube</source>
         <translation type="unfinished"></translation>
@@ -464,10 +401,6 @@
         <location filename="../mywebview.cpp" line="151"/>
         <source>Play video with a &amp;web browser</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copy text to clipboard</source>
-        <translation type="obsolete">Szöveg másolása vágólapra</translation>
     </message>
 </context>
 <context>

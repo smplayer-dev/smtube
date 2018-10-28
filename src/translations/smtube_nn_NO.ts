@@ -245,41 +245,6 @@
     </message>
 </context>
 <context>
-    <name>CodeDownloader</name>
-    <message>
-        <source>Downloading...</source>
-        <translation type="obsolete">Lastar ned…</translation>
-    </message>
-    <message>
-        <source>Connecting to %1</source>
-        <translation type="obsolete">Koplar til %1</translation>
-    </message>
-    <message>
-        <source>The Youtube code has been updated successfully.</source>
-        <translation type="obsolete">Youtube-koden er vellukka oppdatert.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Installert versjon: %1</translation>
-    </message>
-    <message>
-        <source>Success</source>
-        <translation type="obsolete">Vellukka</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="obsolete">Feil</translation>
-    </message>
-    <message>
-        <source>An error happened writing %1</source>
-        <translation type="obsolete">Det oppstod ein feil ved skriving av %1</translation>
-    </message>
-    <message>
-        <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="obsolete">Det oppstod ein feil under nedlastinga av fila:&lt;br&gt;%1</translation>
-    </message>
-</context>
-<context>
     <name>ConfigDialog</name>
     <message>
         <location filename="../configdialog.ui" line="14"/>
@@ -383,34 +348,6 @@
 <context>
     <name>MyWebView</name>
     <message>
-        <source>Open link in a web browser</source>
-        <translation type="obsolete">Opna lenka i nettlesaren</translation>
-    </message>
-    <message>
-        <source>Open link in new window</source>
-        <translation type="obsolete">Opna lenkje i nytt vindauge</translation>
-    </message>
-    <message>
-        <source>Open audio with</source>
-        <translation type="obsolete">Opna lyd med</translation>
-    </message>
-    <message>
-        <source>Open with %1</source>
-        <translation type="obsolete">Opna med %1</translation>
-    </message>
-    <message>
-        <source>Open audio with %1</source>
-        <translation type="obsolete">Opna lyd med %1</translation>
-    </message>
-    <message>
-        <source>Copy link to clipboard</source>
-        <translation type="obsolete">Kopier til utklippstavla</translation>
-    </message>
-    <message>
-        <source>Save link...</source>
-        <translation type="obsolete">Lagra lenkje…</translation>
-    </message>
-    <message>
         <location filename="../mywebview.cpp" line="37"/>
         <source>Open in &amp;YouTube</source>
         <translation type="unfinished"></translation>
@@ -464,10 +401,6 @@
         <location filename="../mywebview.cpp" line="151"/>
         <source>Play video with a &amp;web browser</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copy text to clipboard</source>
-        <translation type="obsolete">Kopier tekst til utklippstavle</translation>
     </message>
 </context>
 <context>

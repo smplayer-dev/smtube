@@ -245,41 +245,6 @@
     </message>
 </context>
 <context>
-    <name>CodeDownloader</name>
-    <message>
-        <source>Downloading...</source>
-        <translation type="obsolete">Downloader...</translation>
-    </message>
-    <message>
-        <source>Connecting to %1</source>
-        <translation type="obsolete">Opretter forbindelse til %1</translation>
-    </message>
-    <message>
-        <source>The Youtube code has been updated successfully.</source>
-        <translation type="obsolete">YouTube-koden er blevet opdateret.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Installerede version: %1</translation>
-    </message>
-    <message>
-        <source>Success</source>
-        <translation type="obsolete">Succes</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="obsolete">Fejl</translation>
-    </message>
-    <message>
-        <source>An error happened writing %1</source>
-        <translation type="obsolete">Der opstod en fejl ved skrivning af %1</translation>
-    </message>
-    <message>
-        <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="obsolete">Der opstod en fejl ved download af filen:&lt;br&gt;%1</translation>
-    </message>
-</context>
-<context>
     <name>ConfigDialog</name>
     <message>
         <location filename="../configdialog.ui" line="14"/>
@@ -383,47 +348,19 @@
 <context>
     <name>MyWebView</name>
     <message>
-        <source>Open link in a web browser</source>
-        <translation type="obsolete">Åbn link i en webbrowser</translation>
-    </message>
-    <message>
-        <source>Open link in new window</source>
-        <translation type="obsolete">Åbn link i nyt vindue</translation>
-    </message>
-    <message>
-        <source>Open audio with</source>
-        <translation type="obsolete">Åbn lyd med</translation>
-    </message>
-    <message>
-        <source>Open with %1</source>
-        <translation type="obsolete">Åbn med %1</translation>
-    </message>
-    <message>
-        <source>Open audio with %1</source>
-        <translation type="obsolete">Åbn lyd med %1</translation>
-    </message>
-    <message>
-        <source>Copy link to clipboard</source>
-        <translation type="obsolete">Kopiér link til udklipsholder</translation>
-    </message>
-    <message>
-        <source>Save link...</source>
-        <translation type="obsolete">Gem link...</translation>
-    </message>
-    <message>
         <location filename="../mywebview.cpp" line="37"/>
         <source>Open in &amp;YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>Åbn i &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
         <source>&amp;Save link...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gem link...</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="51"/>
         <source>Copy &amp;link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiér &amp;link til udklipsholder</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="52"/>
@@ -433,41 +370,37 @@
     <message>
         <location filename="../mywebview.cpp" line="54"/>
         <source>&amp;Copy text to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopiér tekst til udklipsholder</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="55"/>
         <source>Open link in &amp;new window</source>
-        <translation type="unfinished"></translation>
+        <translation>Åbn link i &amp;nyt vindue</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="79"/>
         <source>&amp;Play with</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Afspil med</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="84"/>
         <source>Play &amp;audio with</source>
-        <translation type="unfinished"></translation>
+        <translation>Afspil &amp;lyd med</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="137"/>
         <source>&amp;Play with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Afspil med %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="144"/>
         <source>Play &amp;audio with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Afspil &amp;lyd med %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="151"/>
         <source>Play video with a &amp;web browser</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copy text to clipboard</source>
-        <translation type="obsolete">Kopiér tekst til udklipsholder</translation>
+        <translation>Afspil video med en &amp;webbrowser</translation>
     </message>
 </context>
 <context>

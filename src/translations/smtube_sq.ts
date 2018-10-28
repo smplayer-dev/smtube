@@ -245,33 +245,6 @@
     </message>
 </context>
 <context>
-    <name>CodeDownloader</name>
-    <message>
-        <source>Downloading...</source>
-        <translation type="obsolete">Duke shkarkuar...</translation>
-    </message>
-    <message>
-        <source>Connecting to %1</source>
-        <translation type="obsolete">Duke u lidhur me %1</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Versioni i instaluar: %1</translation>
-    </message>
-    <message>
-        <source>Success</source>
-        <translation type="obsolete">Sukses</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="obsolete">Gabim</translation>
-    </message>
-    <message>
-        <source>An error happened writing %1</source>
-        <translation type="obsolete">Nje gabim ndodhi gjat shkruajtjes se %1</translation>
-    </message>
-</context>
-<context>
     <name>ConfigDialog</name>
     <message>
         <location filename="../configdialog.ui" line="14"/>

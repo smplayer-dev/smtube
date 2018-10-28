@@ -245,41 +245,6 @@
     </message>
 </context>
 <context>
-    <name>CodeDownloader</name>
-    <message>
-        <source>Downloading...</source>
-        <translation type="obsolete">S&apos;està baixant...</translation>
-    </message>
-    <message>
-        <source>Connecting to %1</source>
-        <translation type="obsolete">S&apos;està connectant a %1</translation>
-    </message>
-    <message>
-        <source>The Youtube code has been updated successfully.</source>
-        <translation type="obsolete">El codi de Youtube ha estat actualitzat correctament.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Versió instal·lada: %1</translation>
-    </message>
-    <message>
-        <source>Success</source>
-        <translation type="obsolete">Reeixit</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="obsolete">Error</translation>
-    </message>
-    <message>
-        <source>An error happened writing %1</source>
-        <translation type="obsolete">S&apos;ha produït un error en escriure %1</translation>
-    </message>
-    <message>
-        <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="obsolete">S&apos;ha produït un error mentre s&apos;estava baixant el fitxer:&lt;br&gt;%1</translation>
-    </message>
-</context>
-<context>
     <name>ConfigDialog</name>
     <message>
         <location filename="../configdialog.ui" line="14"/>
@@ -383,47 +348,19 @@
 <context>
     <name>MyWebView</name>
     <message>
-        <source>Open link in a web browser</source>
-        <translation type="obsolete">Obre l&apos;enllaç en un navegador web</translation>
-    </message>
-    <message>
-        <source>Open link in new window</source>
-        <translation type="obsolete">Obre l&apos;enllaç en una finestra nova</translation>
-    </message>
-    <message>
-        <source>Open audio with</source>
-        <translation type="obsolete">Obre l&apos;àudio amb</translation>
-    </message>
-    <message>
-        <source>Open with %1</source>
-        <translation type="obsolete">Obre amb %1</translation>
-    </message>
-    <message>
-        <source>Open audio with %1</source>
-        <translation type="obsolete">Obre l&apos;àudio amb %1</translation>
-    </message>
-    <message>
-        <source>Copy link to clipboard</source>
-        <translation type="obsolete">Copia l&apos;enllaç al porta-retalls</translation>
-    </message>
-    <message>
-        <source>Save link...</source>
-        <translation type="obsolete">Desa l&apos;enllaç...</translation>
-    </message>
-    <message>
         <location filename="../mywebview.cpp" line="37"/>
         <source>Open in &amp;YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre a &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
         <source>&amp;Save link...</source>
-        <translation type="unfinished"></translation>
+        <translation>De&amp;sa l&apos;enllaç...</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="51"/>
         <source>Copy &amp;link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia l&apos;en&amp;llaç al porta-retalls</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="52"/>
@@ -433,41 +370,37 @@
     <message>
         <location filename="../mywebview.cpp" line="54"/>
         <source>&amp;Copy text to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Copia el text al porta-retalls</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="55"/>
         <source>Open link in &amp;new window</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre l&apos;enllaç en una finestra &amp;nova</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="79"/>
         <source>&amp;Play with</source>
-        <translation type="unfinished"></translation>
+        <translation>Re&amp;produeix amb</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="84"/>
         <source>Play &amp;audio with</source>
-        <translation type="unfinished"></translation>
+        <translation>Reprodueix l&apos;àudio amb</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="137"/>
         <source>&amp;Play with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Re&amp;produeix amb %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="144"/>
         <source>Play &amp;audio with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Reprodueix l&apos;àudio &amp;amb %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="151"/>
         <source>Play video with a &amp;web browser</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copy text to clipboard</source>
-        <translation type="obsolete">Copia el text al porta-retalls</translation>
+        <translation>Reprodueix el vídeo amb un navegador &amp;web</translation>
     </message>
 </context>
 <context>
