@@ -1,3 +1,7 @@
+Version 18.10
+ * New option in the context menu to play the video with a web browser.
+   The web browser may allow you to download the video.
+
 Version 18.9
  * Fix Youtube.
 
