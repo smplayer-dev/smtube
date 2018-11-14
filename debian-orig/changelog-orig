@@ -1,3 +1,9 @@
+smtube (18.11.0) precise; urgency=low
+
+  * New option in the context menu to play the video with a web browser.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 15 Nov 2018 00:06:43 +0100
+
 smtube (18.9.0) precise; urgency=low
 
   * Fix Youtube.
