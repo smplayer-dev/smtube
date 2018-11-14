@@ -1,9 +1,3 @@
-smtube (18.11.0-SVN-r9164) precise; urgency=low
-
-  * New version
-
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 15 Nov 2018 00:09:08 +0100
-
 smtube (18.11.0) precise; urgency=low
 
   * New option in the context menu to play the video with a web browser.
