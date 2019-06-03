@@ -651,7 +651,7 @@ void BrowserWindow::saveConfig() {
 	settings->setValue("playback_resolution", preferred_resolution);
 	settings->setValue("user_agent", ryu->userAgent());
 	settings->setValue("use_https_main", ryu->useHttpsMain());
-	settings->setValue("use_https_vi", ryu->useHttpsVi());
+	//settings->setValue("use_https_vi", ryu->useHttpsVi());
 
 #ifdef D_BUTTON
 	settings->setValue("add_download_button", add_download_button);
@@ -708,7 +708,7 @@ void BrowserWindow::loadConfig() {
 	preferred_resolution = settings->value("playback_resolution", RetrieveYoutubeUrl::R360p).toInt();
 	ryu->setUserAgent(settings->value("user_agent", "").toString());
 	ryu->setUseHttpsMain(settings->value("use_https_main", false).toBool());
-	ryu->setUseHttpsVi(settings->value("use_https_vi", false).toBool());
+	//ryu->setUseHttpsVi(settings->value("use_https_vi", false).toBool());
 
 #ifdef D_BUTTON
 	add_download_button = settings->value("add_download_button", false).toBool();

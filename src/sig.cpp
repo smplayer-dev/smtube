@@ -33,7 +33,7 @@ QString Sig::playerURL(const QString & player_name) {
 	QString p = player_name.toUtf8().toBase64();
 	return QString("http://updates.smplayer.info/ytsig/?e=%1&c=1").arg(p);
 #else
-	return QString("http://s.ytimg.com/yts/jsbin/%1/base.js").arg(player_name);
+	return QString("http://www.youtube.com/yts/jsbin/%1/base.js").arg(player_name);
 #endif
 }
 
@@ -103,13 +103,10 @@ QString Sig::findFunctions(const QString & text) {
 	qDebug() << "Sig::findFunctions: sts:" << sts;
 
 	QString sig_name;
-	//QRegExp rx_sig("\\.sig\\|\\|([a-zA-Z0-9\\$]+)\\(");
-	//QRegExp rx_sig("([\"\'])signature\\1\\s*,\\s*([a-zA-Z0-9$]+)\\(");
-	QRegExp rx_sig("yt\\.akamaized\\.net\\/\\).*\\.set\\(.*,([a-zA-Z0-9$]+)\\(");
+	QRegExp rx_sig("akamaized\\.net.*encodeURIComponent\\((.*)\\(");
 	rx_sig.setMinimal(true);
 	if (rx_sig.indexIn(text) != -1) {
 		sig_name = rx_sig.cap(1);
-		//sig_name = rx_sig.cap(2);
 	}
 	qDebug() << "Sig::findFunctions: sig_name:" << sig_name;
 
@@ -201,7 +198,11 @@ QString Sig::aclara(const QString & signature) {
 #ifdef SIG_USE_JSCODE
 QString Sig::aclaraJS(const QString & signature) {
 	int dot = signature.indexOf('.');
-	qDebug("Sig::aclaraJS: length: %d (%d.%d)", signature.size(), dot, signature.size()-dot-1);
+	if (dot != -1) {
+		qDebug("Sig::aclaraJS: length: %d (%d.%d)", signature.size(), dot, signature.size()-dot-1);
+	} else {
+		qDebug("Sig::aclaraJS: length: %d", signature.size());
+	}
 
 	QString res;
 
@@ -240,7 +241,11 @@ QString Sig::reverseString(const QString & orig) {
 
 QString Sig::aclaraNoJS(const QString & signature) {
 	int dot = signature.indexOf('.');
-	qDebug("Sig::aclaraNoJS: length: %d (%d.%d)", signature.size(), dot, signature.size()-dot-1);
+	if (dot != -1) {
+		qDebug("Sig::aclaraNoJS: length: %d (%d.%d)", signature.size(), dot, signature.size()-dot-1);
+	} else {
+		qDebug("Sig::aclaraNoJS: length: %d", signature.size());
+	}
 
 	QString s = signature;
 
