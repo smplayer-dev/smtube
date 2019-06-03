@@ -51,9 +51,9 @@ RetrieveYoutubeUrl::RetrieveYoutubeUrl(QObject* parent)
 #endif
 	, preferred_resolution(R720p)
 	, use_https_main(false)
-	, use_https_vi(false)
 #ifdef YT_DASH_SUPPORT
 	, use_dash(false)
+	, use_60fps(false)
 #endif
 {
 	clearData();
@@ -215,9 +215,8 @@ void RetrieveYoutubeUrl::receivedResponse303(QString url) {
 void RetrieveYoutubeUrl::fetchVideoInfoPage(const QString & url) {
 	QString video_id = getVideoID(url);
 
-	QString scheme = use_https_vi ? "https" : "http";
-	QString u = QString("%2://www.youtube.com/get_video_info?video_id=%1&disable_polymer=true&eurl=https://youtube.googleapis.com/v/%1&gl=US&hl=en").arg(video_id).arg(scheme);
-	qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: url:" << url;
+	QString u = QString("https://www.youtube.com/get_video_info?video_id=%1&disable_polymer=true&eurl=https://youtube.googleapis.com/v/%1&gl=US&hl=en").arg(video_id);
+	qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: url:" << u;
 
 	if (u.toLower().startsWith("https") && !QSslSocket::supportsSsl()) {
 		qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: no support for ssl";
@@ -330,6 +329,18 @@ void RetrieveYoutubeUrl::processVideoPage() {
 
 		if (!hlsvp.isEmpty()) {
 			fetchStreamPage(hlsvp);
+			return;
+		}
+	}
+
+	QRegExp manifest_rx("\\\\\"hlsManifestUrl\\\\\":\\\\\"(.*)\\\\\"");
+	manifest_rx.setMinimal(true);
+	if (manifest_rx.indexIn(replyString) != -1) {
+		QString manifest_url = QUrl::fromPercentEncoding(manifest_rx.cap(1).toLatin1()).replace("\\/", "/");
+		qDebug() << "RetrieveYoutubeUrl::processVideoPage:" << manifest_url;
+
+		if (!manifest_url.isEmpty()) {
+			fetchStreamPage(manifest_url);
 			return;
 		}
 	}
@@ -519,7 +530,7 @@ void RetrieveYoutubeUrl::finish(const UrlMap & url_map) {
 	setUrlMap(url_map);
 
 	#ifdef YT_DASH_SUPPORT
-	selected_quality = findPreferredResolution(url_map, preferred_resolution, use_dash);
+	selected_quality = findPreferredResolution(url_map, preferred_resolution, use_dash, use_60fps);
 	#else
 	selected_quality = findPreferredResolution(url_map, preferred_resolution);
 	#endif
@@ -563,6 +574,20 @@ QString RetrieveYoutubeUrl::aclara(const QString & text, const QString & player)
 }
 #endif
 
+OptMap RetrieveYoutubeUrl::extractOptions(const QByteArray & urldata) {
+	OptMap data;
+	QList<QByteArray> l = urldata.split('&');
+	foreach(QByteArray o, l) {
+		QList<QByteArray> p = o.split('=');
+		if (p.count() > 1) {
+			QString tag = QUrl::fromPercentEncoding(p[0]);
+			QString value = QUrl::fromPercentEncoding(p[1]);
+			data[tag] = value;
+		}
+	}
+	return data;
+}
+
 UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool use_player) {
 	UrlMap url_map;
 
@@ -578,40 +603,37 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 	//qDebug() << "RetrieveYoutubeUrl::extractURLs: codeList.count:" << codeList.count();
 
 	foreach(QByteArray code, codeList) {
-		code = QUrl::fromPercentEncoding(code).toLatin1();
 		//qDebug() << "RetrieveYoutubeUrl::extractURLs: code:" << code;
+		OptMap opt_map = extractOptions(code);
+		//qDebug() << "RetrieveYoutubeUrl::extractURLs: opt_map:" << opt_map;
 
-		QUrl line;
-		#if QT_VERSION >= 0x050000
-		q->setQuery(code);
-		#else
-		QUrl * q = &line;
-		q->setEncodedQuery(code);
-		#endif
+		if (opt_map.contains("url")) {
+			QUrl url(opt_map["url"]);
+			//qDebug() << "RetrieveYoutubeUrl::extractURLs: url:" << url;
 
-		if (q->hasQueryItem("url")) {
-			QUrl url( q->queryItemValue("url") );
-			line.setScheme(url.scheme());
-			line.setHost(url.host());
-			line.setPath(url.path());
-			q->removeQueryItem("url");
 			#if QT_VERSION >= 0x050000
-			q->setQuery( q->query(QUrl::FullyDecoded) + "&" + url.query(QUrl::FullyDecoded) );
+			q->setQuery(url.query(QUrl::FullyDecoded));
 			#else
-			q->setEncodedQuery( q->encodedQuery() + "&" + url.encodedQuery() );
+			QUrl * q = &url;
 			#endif
 
-			if (q->hasQueryItem("sig")) {
-				q->addQueryItem("signature", q->queryItemValue("sig"));
-				q->removeQueryItem("sig");
+			QString signature_name = "signature";
+			if (opt_map.contains("sp")) {
+				signature_name = opt_map["sp"];
+				//qDebug() << "RetrieveYoutubeUrl::extractURLs: signature field:" << signature_name;
+			}
+
+			if (opt_map.contains("sig")) {
+				q->addQueryItem(signature_name, opt_map["sig"]);
 			}
 			else
-			if (q->hasQueryItem("s")) {
+			if (opt_map.contains("s")) {
 				#ifdef YT_USE_SIG
 				QString player = sig.html5_player;
-				QString signature = aclara(q->queryItemValue("s"), use_player ? player : QString::null);
+				QString enc_sig = opt_map["s"];
+				QString signature = aclara(enc_sig, use_player ? player : QString::null);
 				if (!signature.isEmpty()) {
-					q->addQueryItem("signature", signature);
+					q->addQueryItem(signature_name, signature);
 				} else {
 					failed_to_decrypt_signature = true;
 				}
@@ -626,7 +648,14 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 
 			if (!q->hasQueryItem("ratebypass")) q->addQueryItem("ratebypass", "yes");
 
-			if ((q->hasQueryItem("itag")) && (q->hasQueryItem("signature"))) {
+			if (opt_map.contains("clen")) {
+				if (opt_map["clen"] == "0") {
+					qDebug() << "RetrieveYoutubeUrl::extractURLs: discarted url with empty clen";
+					continue;
+				}
+			}
+
+			if ((q->hasQueryItem("itag")) /*&& (q->hasQueryItem(signature_name))*/) {
 				QString itag = q->queryItemValue("itag");
 
 				// Remove duplicated queries
@@ -637,6 +666,7 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 					q->addQueryItem(item.first, item.second);
 				}
 
+				QUrl line = url;
 				#if QT_VERSION >= 0x050000
 				line.setQuery(q->query(QUrl::FullyDecoded));
 				#endif
@@ -669,7 +699,7 @@ RetrieveYoutubeUrl::Quality RetrieveYoutubeUrl::findResolution(const UrlMap & ur
 	return None;
 }
 
-RetrieveYoutubeUrl::Quality RetrieveYoutubeUrl::findPreferredResolution(const UrlMap & url_map, Resolution res, bool use_dash) {
+RetrieveYoutubeUrl::Quality RetrieveYoutubeUrl::findPreferredResolution(const UrlMap & url_map, Resolution res, bool use_dash, bool use_60fps) {
 	Quality chosen_quality = None;
 
 	QList<Quality> l2160p, l1440p, l1080p, l720p, l480p, l360p, l240p;
@@ -694,12 +724,12 @@ RetrieveYoutubeUrl::Quality RetrieveYoutubeUrl::findPreferredResolution(const Ur
 		l2160p << DASH_VIDEO_WEBM_2160p60hdr;
 		#endif
 
-		#if 0
-		l720p << DASH_VIDEO_720p60 << DASH_VIDEO_WEBM_720p60;
-		l1080p << DASH_VIDEO_1080p60 << DASH_VIDEO_WEBM_1080p60;
-		l1440p << DASH_VIDEO_WEBM_1440p60;
-		l2160p << DASH_VIDEO_WEBM_2160p60;
-		#endif
+		if (use_60fps) {
+			l720p << DASH_VIDEO_720p60 << DASH_VIDEO_WEBM_720p60;
+			l1080p << DASH_VIDEO_1080p60 << DASH_VIDEO_WEBM_1080p60;
+			l1440p << DASH_VIDEO_WEBM_1440p60;
+			l2160p << DASH_VIDEO_WEBM_2160p60;
+		}
 
 		l2160p << DASH_VIDEO_2160p << DASH_VIDEO_2160p2 << DASH_VIDEO_WEBM_2160p << DASH_VIDEO_WEBM_2160p2;
 		l1440p << DASH_VIDEO_1440p << DASH_VIDEO_WEBM_1440p;

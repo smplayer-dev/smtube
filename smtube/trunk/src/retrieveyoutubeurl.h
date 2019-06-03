@@ -38,6 +38,7 @@ class QSettings;
 #endif
 
 typedef QMap<int,QString> UrlMap;
+typedef QMap<QString,QString> OptMap;
 
 class RetrieveYoutubeUrl : public QObject
 {
@@ -125,6 +126,9 @@ public:
 	void setUseDASH(bool b) { use_dash = b; }
 	bool useDASH() { return use_dash; }
 
+	void enable60fps(bool b) { use_60fps = b; }
+	bool is60fpsEnabled() { return use_60fps; }
+
 	QString selectedAudioUrl() { return selected_audio_url; }
 	Quality selectedAudioQuality() { return selected_audio_quality; }
 	#endif
@@ -135,9 +139,7 @@ public:
 	QString fullUrl(const QString & url);
 
 	void setUseHttpsMain(bool b) { use_https_main = b; };
-	void setUseHttpsVi(bool b) { use_https_vi = b; };
 	bool useHttpsMain() { return use_https_main; };
-	bool useHttpsVi() { return use_https_vi; };
 
 	static QString extensionForItag(int itag);
 
@@ -183,6 +185,7 @@ protected:
 	void setUrlMap(const UrlMap & map) { urlmap = map; }
 
 	QString getVideoID(QString video_url);
+	OptMap extractOptions(const QByteArray & urldata);
 	UrlMap extractURLs(QString fmtArray, bool allow_https, bool use_player);
 
 	void finish(const UrlMap & url_map);
@@ -192,7 +195,7 @@ protected:
 	#endif
 
 	static Quality findResolution(const UrlMap & url_map, QList<Quality> l);
-	static Quality findPreferredResolution(const UrlMap & url_map, Resolution res, bool use_dash = false);
+	static Quality findPreferredResolution(const UrlMap & url_map, Resolution res, bool use_dash = false, bool use_60fps = false);
 	#ifdef YT_DASH_SUPPORT
 	static Quality findBestAudio(const QMap<int, QString>& url_map);
 	#endif
@@ -220,7 +223,6 @@ private:
 	Resolution preferred_resolution;
 
 	bool use_https_main;
-	bool use_https_vi;
 
 	QString yt_url;
 	QString url_title;
@@ -232,6 +234,7 @@ private:
 	QString selected_audio_url;
 	Quality selected_audio_quality;
 	bool use_dash;
+	bool use_60fps;
 	#endif
 
 	UrlMap urlmap;
