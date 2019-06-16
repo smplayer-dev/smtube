@@ -355,12 +355,12 @@
     <message>
         <location filename="../mywebview.cpp" line="48"/>
         <source>&amp;Save link...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bağlantıyı kaydet...</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="51"/>
         <source>Copy &amp;link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bağlantıyı panoya kopyala</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="52"/>
