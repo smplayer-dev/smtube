@@ -241,7 +241,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="284"/>
         <source>Loading... %1%</source>
-        <translation>Indlæser... %1%</translation>
+        <translation>Indlæser ... %1%</translation>
     </message>
 </context>
 <context>
@@ -314,7 +314,7 @@
     <message>
         <location filename="../configdialog.ui" line="298"/>
         <source>C&amp;hange...</source>
-        <translation>&amp;Vælg...</translation>
+        <translation>&amp;Vælg ...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="68"/>
@@ -355,7 +355,7 @@
     <message>
         <location filename="../mywebview.cpp" line="48"/>
         <source>&amp;Save link...</source>
-        <translation>&amp;Gem link...</translation>
+        <translation>&amp;Gem link ...</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="51"/>

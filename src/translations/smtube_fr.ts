@@ -31,7 +31,7 @@
     <message>
         <location filename="../about.cpp" line="37"/>
         <source>Version: %1</source>
-        <translation>Version : %1</translation>
+        <translation>Version : %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="39"/>
@@ -46,7 +46,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>Visit our website for updates:</source>
-        <translation>Visitez notre site web pour les mises à jour :</translation>
+        <translation>Visitez notre site web pour les mises à jour :</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="87"/>
@@ -196,7 +196,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="547"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
-        <translation>Voulez-vous mettre à jour le code Youtube ? Cela pourrait résoudre le problème.</translation>
+        <translation>Voulez-vous mettre à jour le code Youtube ? Cela pourrait résoudre le problème.</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="555"/>
@@ -226,7 +226,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="579"/>
         <source>Important:</source>
-        <translation>Important :</translation>
+        <translation>Important :</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="580"/>
@@ -279,7 +279,7 @@
     <message>
         <location filename="../configdialog.ui" line="39"/>
         <source>Preferred &amp;quality:</source>
-        <translation>&amp;Qualité préférée :</translation>
+        <translation>&amp;Qualité préférée :</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="167"/>
@@ -304,12 +304,12 @@
     <message>
         <location filename="../configdialog.ui" line="248"/>
         <source>&amp;Style:</source>
-        <translation>&amp;Style :</translation>
+        <translation>&amp;Style :</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="284"/>
         <source>Font:</source>
-        <translation>Police :</translation>
+        <translation>Police :</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="298"/>
@@ -350,17 +350,17 @@
     <message>
         <location filename="../mywebview.cpp" line="37"/>
         <source>Open in &amp;YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>Ouvrir dans &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
         <source>&amp;Save link...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Enregistrer le lien...</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="51"/>
         <source>Copy &amp;link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copier le &amp;lien dans le presse-papier</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="52"/>
@@ -370,37 +370,37 @@
     <message>
         <location filename="../mywebview.cpp" line="54"/>
         <source>&amp;Copy text to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Copier le texte dans le presse-papier</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="55"/>
         <source>Open link in &amp;new window</source>
-        <translation type="unfinished"></translation>
+        <translation>Ouvrir le lien dans une &amp;nouvelle fenêtre</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="79"/>
         <source>&amp;Play with</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lire avec</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="84"/>
         <source>Play &amp;audio with</source>
-        <translation type="unfinished"></translation>
+        <translation>Lire l&apos;&amp;audio avec</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="137"/>
         <source>&amp;Play with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lire avec %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="144"/>
         <source>Play &amp;audio with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Lire l&apos;&amp;audio avec %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="151"/>
         <source>Play video with a &amp;web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Lire la vidéo avec un &amp;navigateur</translation>
     </message>
 </context>
 <context>
@@ -413,17 +413,17 @@
     <message>
         <location filename="../playerdialog.ui" line="22"/>
         <source>&amp;Name:</source>
-        <translation>&amp;Nom :</translation>
+        <translation>&amp;Nom :</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="39"/>
         <source>&amp;Executable:</source>
-        <translation>&amp;Exécutable :</translation>
+        <translation>&amp;Exécutable :</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="56"/>
         <source>&amp;Parameters:</source>
-        <translation>&amp;Paramètres :</translation>
+        <translation>&amp;Paramètres :</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="71"/>
@@ -438,12 +438,12 @@
     <message>
         <location filename="../playerdialog.ui" line="87"/>
         <source>Preferred &amp;quality:</source>
-        <translation>&amp;Qualité préférée :</translation>
+        <translation>&amp;Qualité préférée :</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="117"/>
         <source>Add to &amp;menu:</source>
-        <translation>Ajouter dans le &amp;menu :</translation>
+        <translation>Ajouter dans le &amp;menu :</translation>
     </message>
     <message>
         <location filename="../playerdialog.cpp" line="28"/>

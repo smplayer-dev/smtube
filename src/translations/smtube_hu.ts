@@ -294,7 +294,7 @@
     <message>
         <location filename="../configdialog.ui" line="204"/>
         <source>A&amp;dd predefined players</source>
-        <translation>Előre meghatározott lejátszók &amp;hozzáadása</translation>
+        <translation>Lejátszók &amp;hozzáadása</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="240"/>
@@ -350,17 +350,17 @@
     <message>
         <location filename="../mywebview.cpp" line="37"/>
         <source>Open in &amp;YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>Megnyitás a &amp;Youtube weboldalán</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
         <source>&amp;Save link...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hivatkozás mentése...</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="51"/>
         <source>Copy &amp;link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Hivatkozás vágólapra másolása</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="52"/>
@@ -370,37 +370,37 @@
     <message>
         <location filename="../mywebview.cpp" line="54"/>
         <source>&amp;Copy text to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Szöveg vágólapra másolása</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="55"/>
         <source>Open link in &amp;new window</source>
-        <translation type="unfinished"></translation>
+        <translation>Hivatkozás megnyitása új ablakban</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="79"/>
         <source>&amp;Play with</source>
-        <translation type="unfinished"></translation>
+        <translation>Lejátszás</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="84"/>
         <source>Play &amp;audio with</source>
-        <translation type="unfinished"></translation>
+        <translation>Hang lejátszása</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="137"/>
         <source>&amp;Play with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Lejátszás ezzel: %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="144"/>
         <source>Play &amp;audio with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hang lejátszása ezzel: %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="151"/>
         <source>Play video with a &amp;web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Videó lejátszása webböngészővel</translation>
     </message>
 </context>
 <context>
