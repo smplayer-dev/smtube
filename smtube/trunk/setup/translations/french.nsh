@@ -24,7 +24,7 @@ ${LangFileString} Section_SMTube "SMTube (requis)"
 
 ; Directory Page
 ${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube doit être installé dans un répertoire contentant une installation ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} de SMPlayer."
-${LangFileString} DirectoryIsNotWritable "Le répertoire choisi pour l'installation n'est pas accessible en écriture et pourrait nécessiter le redémarrage du programme d'installation avec les privilèges d'administrateur.$\r$\n$\r$\nContinuer l'installation ?"
+${LangFileString} DirectoryIsNotWritable "Le répertoire choisi pour l'installation n'est pas accessible en écriture et pourrait nécessiter le redémarrage du programme d'installation avec les privilèges d'administrateur.$\r$\n$\r$\nContinuer l'installation ?"
 
 ; Misc
 ${LangFileString} Info_QtArch_Bypassed "Vérification de SMPlayer, l'architecture et la version de Qt contournée par la ligne de commande."
