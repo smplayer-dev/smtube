@@ -1,3 +1,9 @@
+smtube (19.6.0) precise; urgency=low
+
+  * The YouTube code has been fixed.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 16 Jun 2019 21:23:48 +0200
+
 smtube (18.11.0) precise; urgency=low
 
   * New option in the context menu to play the video with a web browser.
