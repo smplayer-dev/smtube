@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# groucho <grouchomarx.fr@gmail.com>, 2016
+# groucho <grouchomarx.fr@gmail.com>, 2016,2019
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2017-09-22 21:36+0000\n"
+"PO-Revision-Date: 2019-06-12 11:24+0000\n"
 "Last-Translator: groucho <grouchomarx.fr@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/rvm/smplayer/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -54,7 +54,7 @@ msgid ""
 "The chosen installation directory is not writable and may require restarting"
 " the installer with administrator privileges.[:r:][:n:][:r:][:n:]Proceed "
 "with installation?"
-msgstr "Le répertoire choisi pour l'installation n'est pas accessible en écriture et pourrait nécessiter le redémarrage du programme d'installation avec les privilèges d'administrateur.[:r:][:n:][:r:][:n:]Continuer l'installation ?"
+msgstr "Le répertoire choisi pour l'installation n'est pas accessible en écriture et pourrait nécessiter le redémarrage du programme d'installation avec les privilèges d'administrateur.[:r:][:n:][:r:][:n:]Continuer l'installation ?"
 
 # Info_QtArch_Bypassed
 msgid "SMPlayer, architecture and Qt version check bypassed by command-line."
