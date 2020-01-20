@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="tr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -31,12 +29,12 @@
     <message>
         <location filename="../about.cpp" line="37"/>
         <source>Version: %1</source>
-        <translation>Versiyon: %1</translation>
+        <translation>Sürüm: %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="39"/>
         <source>Portable Edition</source>
-        <translation>Katılımsız Sürüm</translation>
+        <translation>Taşınabilir Sürüm</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
@@ -114,7 +112,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="160"/>
         <source>Toolbar</source>
-        <translation>Araç kutusu</translation>
+        <translation>Araç çubuğu</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="164"/>
@@ -350,7 +348,7 @@
     <message>
         <location filename="../mywebview.cpp" line="37"/>
         <source>Open in &amp;YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;YouTube&apos;da Aç</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
@@ -370,37 +368,37 @@
     <message>
         <location filename="../mywebview.cpp" line="54"/>
         <source>&amp;Copy text to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Metni panoya &amp;kopyala</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="55"/>
         <source>Open link in &amp;new window</source>
-        <translation type="unfinished"></translation>
+        <translation>Bağlantıyı &amp;yeni pencerede aç</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="79"/>
         <source>&amp;Play with</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Birlikte yürüt</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="84"/>
         <source>Play &amp;audio with</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="137"/>
         <source>&amp;Play with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ile oynat</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="144"/>
         <source>Play &amp;audio with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ile &amp;ses çalma</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="151"/>
         <source>Play video with a &amp;web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tarayıcı ile video oynatma</translation>
     </message>
 </context>
 <context>
@@ -418,12 +416,12 @@
     <message>
         <location filename="../playerdialog.ui" line="39"/>
         <source>&amp;Executable:</source>
-        <translation>%Çalıştırılabilir:</translation>
+        <translation>&amp;Çalıştırılabilir:</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="56"/>
         <source>&amp;Parameters:</source>
-        <translation>&amp;Parametre:</translation>
+        <translation>&amp;Parametreler:</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="71"/>
