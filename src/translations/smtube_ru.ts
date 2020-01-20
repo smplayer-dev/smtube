@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ru">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -11,7 +9,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>&amp;Info</source>
-        <translation>&amp;Сведения</translation>
+        <translation>&amp;Информация</translation>
     </message>
     <message>
         <location filename="../about.ui" line="89"/>
@@ -51,7 +49,7 @@
     <message>
         <location filename="../about.cpp" line="87"/>
         <source>Many people contributed with translations.</source>
-        <translation>Множество людей помогло с переводом.</translation>
+        <translation>Множество людей работало над локализациями.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="88"/>
@@ -61,7 +59,7 @@
     <message>
         <location filename="../about.cpp" line="89"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>Посетите %1 и присоединитесь к команде перевода.</translation>
+        <translation>Посетите %1 и присоединяйтесь к команде переводчиков.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="91"/>
@@ -89,12 +87,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="136"/>
         <source>Zoom +</source>
-        <translation>Увеличение +</translation>
+        <translation>Масштаб +</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="140"/>
         <source>Zoom -</source>
-        <translation>Увеличение –</translation>
+        <translation>Масштаб –</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="144"/>
@@ -109,7 +107,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="159"/>
         <source>&amp;View</source>
-        <translation>&amp;Обзор</translation>
+        <translation>&amp;Вид</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="160"/>
@@ -144,7 +142,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="190"/>
         <source>&amp;About SMTube</source>
-        <translation>&amp;О SMTube</translation>
+        <translation>&amp;Об SMTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="298"/>
@@ -254,7 +252,7 @@
     <message>
         <location filename="../configdialog.ui" line="27"/>
         <source>&amp;General</source>
-        <translation>%Основные</translation>
+        <translation>&amp;Основные</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="108"/>
@@ -279,7 +277,7 @@
     <message>
         <location filename="../configdialog.ui" line="39"/>
         <source>Preferred &amp;quality:</source>
-        <translation>Предпочительное &amp;качество:</translation>
+        <translation>Предпочтительное &amp;качество:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="167"/>
@@ -438,7 +436,7 @@
     <message>
         <location filename="../playerdialog.ui" line="87"/>
         <source>Preferred &amp;quality:</source>
-        <translation>Предпочительное &amp;качество:</translation>
+        <translation>Предпочтительное &amp;качество:</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="117"/>
