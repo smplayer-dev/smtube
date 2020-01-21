@@ -1,3 +1,9 @@
+smtube (20.1.0) precise; urgency=low
+
+  * The YouTube code has been fixed.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 21 Jan 2020 20:29:44 +0100
+
 smtube (19.6.0) precise; urgency=low
 
   * The YouTube code has been fixed.
