@@ -96,6 +96,7 @@ win32 {
 }
 
 TRANSLATIONS = translations/smtube_es.ts \
+               translations/smtube_es_ES.ts \
                translations/smtube_en.ts \
                translations/smtube_de.ts \
                translations/smtube_fr.ts \
