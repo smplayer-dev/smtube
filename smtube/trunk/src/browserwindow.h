@@ -28,8 +28,6 @@
 #include "hcplayer.h"
 #endif
 
-//#define SHOW_RELEASE_DIALOG
-
 class QToolBar;
 class MyWebView;
 class QLineEdit;
@@ -76,9 +74,6 @@ protected slots:
 	void openAudioWith(const QString & player, const QUrl & url);
 	void openYTAudioUrl(const QString & url, int itag);
 
-#ifdef SHOW_RELEASE_DIALOG
-	void showAboutRelease();
-#endif
 	void showAbout();
 	void showConfigDialog();
 
