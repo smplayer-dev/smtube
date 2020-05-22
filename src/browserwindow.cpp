@@ -177,12 +177,6 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	helpMenu->addAction(updateCodeAct);
 #endif
 
-#ifdef SHOW_RELEASE_DIALOG
-	QAction * aboutReleaseAct = new QAction(tr("About this &release"), this);
-	connect(aboutReleaseAct, SIGNAL(triggered()), this, SLOT(showAboutRelease()));
-	helpMenu->addAction(aboutReleaseAct);
-#endif
-
 	QAction * aboutAct = new QAction(tr("&About SMTube"), this);
 	connect(aboutAct, SIGNAL(triggered()), this, SLOT(showAbout()));
 	helpMenu->addAction(aboutAct);
@@ -554,21 +548,6 @@ void BrowserWindow::updateYTCode() {
 }
 #endif
 
-#ifdef SHOW_RELEASE_DIALOG
-void BrowserWindow::showAboutRelease() {
-	QMessageBox::about(this, tr("About this release"),
-		"<p>"+ tr("Due to changes in YouTube, the old SMTube doesn't work anymore.") + "<p>"+
-		tr("This is a new version of SMTube, written from scratch.") +" "+
-		tr("Some functionality is not available yet.")
-#ifdef YT_USE_YTSIG
-		+ "<p><b>"+ tr("Important:") + "</b><br>"+
-		tr("If the VEVO videos fail to play, please use the option %1 in the Help menu.")
-			.arg("<i><b>" + tr("Update the YouTube code") + "</b></i>")
-#endif
-	);
-}
-#endif
-
 void BrowserWindow::showAbout() {
 	About d(this);
 	d.exec();
@@ -702,10 +681,6 @@ void BrowserWindow::loadConfig() {
 	external_download_url = settings->value("external_download_url", default_url).toString();
 #endif
 
-#ifdef SHOW_RELEASE_DIALOG
-	bool shown_notes = settings->value("shown_notes", false).toBool();
-	settings->setValue("shown_notes", true);
-#endif
 	settings->endGroup();
 
 	settings->beginGroup("browser");
@@ -748,12 +723,6 @@ void BrowserWindow::loadConfig() {
 	view->setPlayers(players.availablePlayers());
 #else
 	view->setPlayer(HCPLAYER_NAME);
-#endif
-
-#ifdef SHOW_RELEASE_DIALOG
-	if (!shown_notes) {
-		QTimer::singleShot(3000, this, SLOT(showAboutRelease()));
-	}
 #endif
 }
 
