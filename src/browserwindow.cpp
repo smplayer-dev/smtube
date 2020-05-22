@@ -44,8 +44,7 @@
 #include "links.h"
 #include "desktopinfo.h"
 
-#ifdef YT_USE_YTSIG
-#include "ytsig.h"
+#ifdef CODEDOWNLOADER
 #include "codedownloader.h"
 #endif
 
@@ -63,9 +62,6 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	, current_player(Undefined)
 #ifdef D_BUTTON
 	, add_download_button(false)
-#endif
-#ifdef YT_USE_YTSIG
-	, codedownloader(0)
 #endif
 {
 	setWindowTitle("SMTube");
@@ -175,8 +171,8 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 
 	QMenu * helpMenu = menuBar()->addMenu(tr("&Help"));
 
-#ifdef YT_USE_YTSIG
-	QAction * updateCodeAct = new QAction(tr("&Update the YouTube code"), this);
+#ifdef CODEDOWNLOADER
+	QAction * updateCodeAct = new QAction(tr("&Install / Update YouTube playback support"), this);
 	connect(updateCodeAct, SIGNAL(triggered()), this, SLOT(updateYTCode()));
 	helpMenu->addAction(updateCodeAct);
 #endif
@@ -372,10 +368,6 @@ void BrowserWindow::fetchVideoUrl(RetrieveYoutubeUrl * ry, const QUrl & url, int
 	}
 	#endif
 
-	#ifdef YT_USE_YTSIG
-	YTSig::setScriptFile(script_file);
-	#endif
-
 	ry->setPreferredResolution((RetrieveYoutubeUrl::Resolution) resolution);
 	ry->fetchPage(url.toString());
 }
@@ -555,16 +547,10 @@ void BrowserWindow::showErrorSignatureNotFound(const QString & title) {
 	#endif
 }
 
-#ifdef YT_USE_YTSIG
+#ifdef CODEDOWNLOADER
 void BrowserWindow::updateYTCode() {
 	qDebug() << "BrowserWindow::updateYTCode";
-
-	if (!codedownloader) {
-		codedownloader = new CodeDownloader(this);
-	}
-	codedownloader->saveAs(script_file);
-	codedownloader->show();
-	codedownloader->download(QUrl(URL_YT_CODE));
+	CodeDownloader::askAndDownload(this);
 }
 #endif
 
