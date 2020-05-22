@@ -78,7 +78,7 @@ protected slots:
 	void openYTUrl(const QString & url, int itag);
 
 	void openAudioWith(const QString & player, const QUrl & url);
-	void openYTAudioUrl(const QMap<int, QString>&);
+	void openYTAudioUrl(const QString & url, int itag);
 
 #ifdef SHOW_RELEASE_DIALOG
 	void showAboutRelease();

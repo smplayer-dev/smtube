@@ -82,7 +82,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 
 	ryua = new RetrieveYoutubeUrl(this);
 	ryua->setUseDASH(true);
-	connect(ryua, SIGNAL(gotUrls(const QMap<int, QString>&)), this, SLOT(openYTAudioUrl(const QMap<int, QString>&)));
+	connect(ryua, SIGNAL(gotPreferredUrl(const QString &, int)), this, SLOT(openYTAudioUrl(const QString &, int)));
 	connect(ryua, SIGNAL(signatureNotFound(const QString &)), this, SLOT(showErrorSignatureNotFound(const QString &)));
 	connect(ryua, SIGNAL(noSslSupport()), this, SLOT(showErrorNoSslSupport()));
 	connect(ryua, SIGNAL(gotEmptyList()), this, SLOT(showErrorEmptyList()));
@@ -508,11 +508,10 @@ void BrowserWindow::openAudioWith(const QString & player, const QUrl & url) {
 	}
 }
 
-void BrowserWindow::openYTAudioUrl(const QMap<int, QString>& url_map) {
-	Q_UNUSED(url_map);
+void BrowserWindow::openYTAudioUrl(const QString &, int) {
 	qDebug() << "BrowserWindow::openYTAudioUrl";
 
-	int itag = ryua->selectedQuality();
+	int itag = ryua->selectedAudioQuality();
 	QString url = ryua->selectedAudioUrl();
 
 	qDebug() << "BrowserWindow::openYTAudioUrl: url:" << url << "itag:" << itag;
