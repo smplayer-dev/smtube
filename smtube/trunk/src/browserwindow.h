@@ -82,6 +82,7 @@ protected slots:
 #ifdef CODEDOWNLOADER
 	void updateYTCode();
 #endif
+	void YTFailedToStart();
 
 protected:
 	void saveConfig();
