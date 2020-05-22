@@ -73,11 +73,13 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	ryu = new RetrieveYoutubeUrl(this);
 	connect(ryu, SIGNAL(gotPreferredUrl(const QString &, int)), this, SLOT(openYTUrl(const QString &, int)));
 	connect(ryu, SIGNAL(gotEmptyList()), this, SLOT(showErrorEmptyList()));
+	connect(ryu, SIGNAL(processFailedToStart()), this, SLOT(YTFailedToStart()));
 
 	ryua = new RetrieveYoutubeUrl(this);
 	ryua->setUseDASH(true);
 	connect(ryua, SIGNAL(gotPreferredUrl(const QString &, int)), this, SLOT(openYTAudioUrl(const QString &, int)));
 	connect(ryua, SIGNAL(gotEmptyList()), this, SLOT(showErrorEmptyList()));
+	connect(ryua, SIGNAL(processFailedToStart()), this, SLOT(YTFailedToStart()));
 
 	QNetworkProxyFactory::setUseSystemConfiguration(true);
 
@@ -509,6 +511,10 @@ void BrowserWindow::updateYTCode() {
 	CodeDownloader::askAndDownload(this);
 }
 #endif
+
+void BrowserWindow::YTFailedToStart() {
+	CodeDownloader::askAndDownload(this, true);
+}
 
 void BrowserWindow::showAbout() {
 	About d(this);
