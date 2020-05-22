@@ -77,8 +77,6 @@ protected slots:
 	void showAbout();
 	void showConfigDialog();
 
-	void showErrorSignatureNotFound(const QString &);
-	void showErrorNoSslSupport();
 	void showErrorEmptyList();
 
 #ifdef CODEDOWNLOADER
