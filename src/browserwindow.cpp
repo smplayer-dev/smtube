@@ -72,22 +72,12 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 
 	ryu = new RetrieveYoutubeUrl(this);
 	connect(ryu, SIGNAL(gotPreferredUrl(const QString &, int)), this, SLOT(openYTUrl(const QString &, int)));
-	connect(ryu, SIGNAL(signatureNotFound(const QString &)), this, SLOT(showErrorSignatureNotFound(const QString &)));
-	connect(ryu, SIGNAL(noSslSupport()), this, SLOT(showErrorNoSslSupport()));
 	connect(ryu, SIGNAL(gotEmptyList()), this, SLOT(showErrorEmptyList()));
 
 	ryua = new RetrieveYoutubeUrl(this);
 	ryua->setUseDASH(true);
 	connect(ryua, SIGNAL(gotPreferredUrl(const QString &, int)), this, SLOT(openYTAudioUrl(const QString &, int)));
-	connect(ryua, SIGNAL(signatureNotFound(const QString &)), this, SLOT(showErrorSignatureNotFound(const QString &)));
-	connect(ryua, SIGNAL(noSslSupport()), this, SLOT(showErrorNoSslSupport()));
 	connect(ryua, SIGNAL(gotEmptyList()), this, SLOT(showErrorEmptyList()));
-
-	#ifdef YT_USE_SIG
-	QSettings * sigset = new QSettings(config_path + "/sig.ini", QSettings::IniFormat, this);
-	ryu->setSettings(sigset);
-	ryua->setSettings(sigset);
-	#endif
 
 	QNetworkProxyFactory::setUseSystemConfiguration(true);
 
@@ -473,7 +463,7 @@ void BrowserWindow::openYTUrl(QString title, QString extension, const QString & 
 }
 
 void BrowserWindow::openYTUrl(const QString & url, int itag) {
-	openYTUrl(ryu->urlTitle(), ryu->extensionForItag(itag), url);
+	openYTUrl(ryu->videoTitle(), ryu->extensionForItag(itag), url);
 }
 
 void BrowserWindow::openAudioWith(const QString & player, const QUrl & url) {
@@ -503,42 +493,14 @@ void BrowserWindow::openYTAudioUrl(const QString &, int) {
 	qDebug() << "BrowserWindow::openYTAudioUrl: url:" << url << "itag:" << itag;
 
 	if (!url.isEmpty()) {
-		openYTUrl(ryua->urlTitle(), ryu->extensionForItag(itag), url);
+		openYTUrl(ryua->videoTitle(), ryu->extensionForItag(itag), url);
 	}
-}
-
-void BrowserWindow::showErrorNoSslSupport() {
-	qDebug() << "BrowserWindow::showErrorNoSslSupport";
-	QMessageBox::warning(this, tr("Connection failed"),
-		tr("The video you requested needs to open a HTTPS connection.") +"<br>"+
-		tr("Unfortunately the OpenSSL component, required for it, is not available in your system."));
 }
 
 void BrowserWindow::showErrorEmptyList() {
 	qDebug() << "showErrorEmptyList";
 	QMessageBox::warning(this, tr("No video found"),
 		tr("It wasn't possible to find the URL for this video."));
-}
-
-void BrowserWindow::showErrorSignatureNotFound(const QString & title) {
-	qDebug() << "YTDialog::showErrorSignatureNotFound:" << title;
-
-	QString t = title;
-	t.replace(" - YouTube", "");
-
-	#ifdef YT_USE_YTSIG
-	int ret = QMessageBox::question(this, tr("Problems with YouTube"),
-				tr("Unfortunately due to changes in YouTube, the video '%1' can't be played.").arg(t) + "<br><br>" +
-				tr("Do you want to update the YouTube code? This may fix the problem."),
-				QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
-	if (ret == QMessageBox::Yes) {
-		updateYTCode();
-	}
-	#else
-	QMessageBox::warning(this, tr("Problems with YouTube"),
-		tr("Unfortunately due to changes in YouTube, the video '%1' can't be played.").arg(t) + "<br><br>" +
-		tr("Maybe updating this application could fix the problem."));
-	#endif
 }
 
 #ifdef CODEDOWNLOADER
@@ -614,8 +576,6 @@ void BrowserWindow::saveConfig() {
 	settings->beginGroup("General");
 	settings->setValue("playback_resolution", preferred_resolution);
 	settings->setValue("user_agent", ryu->userAgent());
-	settings->setValue("use_https_main", ryu->useHttpsMain());
-	//settings->setValue("use_https_vi", ryu->useHttpsVi());
 
 #ifdef D_BUTTON
 	settings->setValue("add_download_button", add_download_button);
@@ -671,8 +631,6 @@ void BrowserWindow::loadConfig() {
 	settings->beginGroup("General");
 	preferred_resolution = settings->value("playback_resolution", RetrieveYoutubeUrl::R360p).toInt();
 	ryu->setUserAgent(settings->value("user_agent", "").toString());
-	ryu->setUseHttpsMain(settings->value("use_https_main", false).toBool());
-	//ryu->setUseHttpsVi(settings->value("use_https_vi", false).toBool());
 
 #ifdef D_BUTTON
 	add_download_button = settings->value("add_download_button", false).toBool();
