@@ -6,7 +6,6 @@ CONFIG += release
 #CONFIG += debug
 
 DEFINES += USE_PLAYERS
-DEFINES += YT_USE_SIG
 #DEFINES += D_BUTTON
 DEFINES += STYLE_SWITCHING
 
@@ -29,7 +28,6 @@ HEADERS = links.h \
           mywebview.h \
           mywebpage.h \
           mycookiejar.h \
-          loadpage.h \
           retrieveyoutubeurl.h \
           supportedurls.h \
           version.h \
@@ -45,7 +43,6 @@ HEADERS = links.h \
 SOURCES = mywebview.cpp \
           mywebpage.cpp \
           mycookiejar.cpp \
-          loadpage.cpp \
           retrieveyoutubeurl.cpp \
           supportedurls.cpp \
           version.cpp \
@@ -62,12 +59,6 @@ SOURCES = mywebview.cpp \
 FORMS = playerdialog.ui configdialog.ui about.ui
 
 RESOURCES = icons.qrc
-
-contains( DEFINES, YT_USE_SIG ) {
-	HEADERS += sig.h
-	SOURCES += sig.cpp
-	QT += script # optional
-}
 
 contains(DEFINES, USE_PLAYERS) {
 	HEADERS += players.h
