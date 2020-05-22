@@ -46,7 +46,7 @@ QString configPath() {
 #endif // PORTABLE_APP
 }
 
-#if defined(YT_USE_YTSIG) || defined(HDPI_SUPPORT)
+#ifdef HDPI_SUPPORT
 QString smplayerConfigPath() {
 #ifdef PORTABLE_APP
 	return qApp->applicationDirPath();
@@ -64,7 +64,7 @@ QString smplayerConfigPath() {
 #endif
 #endif // PORTABLE_APP
 }
-#endif // YT_USE_YTSIG
+#endif // HDPI_SUPPORT
 
 
 QString translationsPath() {
@@ -161,14 +161,6 @@ int main(int argc, char * argv[]) {
 	}
 
 	BrowserWindow * w = new BrowserWindow(configPath());
-
-#ifdef YT_USE_YTSIG
-	QString ytcode_name = "yt.js";
-	QString ytcode_file = configPath() +"/"+ ytcode_name;
-	if (QFile::exists(smplayerConfigPath())) ytcode_file = smplayerConfigPath() +"/"+ ytcode_name;
-	qDebug() << "ytcode_file:" << ytcode_file;
-	w->setScriptFile(ytcode_file);
-#endif
 
 	if (!search_term.isEmpty()) {
 		w->search(search_term);

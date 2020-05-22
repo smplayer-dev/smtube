@@ -1,5 +1,5 @@
 /*  smplayer, GUI front-end for mplayer.
-    Copyright (C) 2006-2013 Ricardo Villalba <rvm@users.sourceforge.net>
+    Copyright (C) 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -19,10 +19,17 @@
 #include "codedownloader.h"
 #include <QFile>
 #include <QMessageBox>
+#include <QDebug>
 
-CodeDownloader::CodeDownloader(QWidget *parent) : QProgressDialog(parent)
+#include <QDir>
+
+CodeDownloader * CodeDownloader::downloader = 0;
+
+CodeDownloader::CodeDownloader(QWidget * parent)
+	: QProgressDialog(parent)
+	, reply(0)
+	, parent_widget(parent)
 {
-	reply = 0;
 	manager = new QNetworkAccessManager(this);
 	connect(manager, SIGNAL(finished(QNetworkReply*)), this, SLOT(gotResponse(QNetworkReply*)));
 
@@ -30,11 +37,17 @@ CodeDownloader::CodeDownloader(QWidget *parent) : QProgressDialog(parent)
 	setRange(0,0);
 
 	connect(this, SIGNAL(canceled()), this, SLOT(cancelDownload()));
-	connect(this, SIGNAL(fileSaved(const QString &, const QString &)), this, SLOT(reportFileSaved(const QString &,const QString &)));
+	connect(this, SIGNAL(fileSaved(const QString &)), this, SLOT(reportFileSaved(const QString &)));
 	connect(this, SIGNAL(saveFailed(const QString &)), this, SLOT(reportSaveFailed(const QString &)));
 	connect(this, SIGNAL(errorOcurred(int,QString)), this, SLOT(reportError(int,QString)));
 
 	setWindowTitle(tr("Downloading..."));
+
+	#ifdef Q_OS_WIN
+	user_agent = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0";
+	#else
+	user_agent = "Mozilla/5.0 (X11; Linux i686; rv:62.0) Gecko/20100101 Firefox/62.0";
+	#endif
 }
 
 CodeDownloader::~CodeDownloader() {
@@ -44,18 +57,24 @@ CodeDownloader::~CodeDownloader() {
 void CodeDownloader::setProxy(QNetworkProxy proxy) {
 	manager->setProxy(proxy);
 
-	qDebug("CodeDownloader::setProxy: host: '%s' port: %d type: %d",
-           proxy.hostName().toUtf8().constData(), proxy.port(), proxy.type());
+	qDebug() << "CodeDownloader::setProxy: host:" << proxy.hostName() << "port:" << proxy.port() << "type:" << proxy.type();
 }
 
 void CodeDownloader::download(QUrl url) {
+	qDebug() << "CodeDownloader::download:" << url;
 	QNetworkRequest req(url);
-	req.setRawHeader("User-Agent", "SMPlayer");
+	if (!user_agent.isEmpty()) req.setRawHeader("User-Agent", user_agent);
 	reply = manager->get(req);
 	connect(reply, SIGNAL(downloadProgress(qint64, qint64)),
             this, SLOT(updateDataReadProgress(qint64, qint64)));
 
 	setLabelText(tr("Connecting to %1").arg(url.host()));
+
+	QRegExp rx("downloads\\/([\\d\\.]+)\\/youtube");
+	if (rx.indexIn(url.toString()) > -1) {
+		version = rx.cap(1);
+		qDebug() << "CodeDownloader::download: version:" << version;
+	}
 }
 
 void CodeDownloader::cancelDownload() {
@@ -71,7 +90,7 @@ void CodeDownloader::gotResponse(QNetworkReply* reply) {
 			case 302:
 			case 307:
 				QString r_url = reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl().toString();
-				qDebug("CodeDownloader::gotResponse: redirected: %s", r_url.toLatin1().constData());
+				qDebug() << "CodeDownloader::gotResponse: redirected:" << r_url;
 				download(r_url);
 				return;
 		}
@@ -93,7 +112,7 @@ void CodeDownloader::save(QByteArray bytes) {
 
 	QFile file(output_filename);
 	if (!file.open(QIODevice::WriteOnly))  {
-		qWarning("CodeDownloader::save: could not open %s for writing", output_filename.toUtf8().constData());
+		qWarning() << "CodeDownloader::save: could not open" << output_filename << "for writing";
 		emit saveFailed(output_filename);
 		return;
 	}
@@ -101,41 +120,109 @@ void CodeDownloader::save(QByteArray bytes) {
 	file.write(bytes);
 	file.close();
 
-	QString version;
-	QRegExp rx("Version: ([\\d,-]+)");
-	if (rx.indexIn(bytes)) {
-		version = rx.cap(1);
-		qDebug("CodeDownloader::save: version: %s", version.toLatin1().constData());
-	}
+#ifndef Q_OS_WIN
+	file.setPermissions(QFile::ReadOwner | QFile::WriteOwner | QFile::ExeOwner | QFile::ReadUser | QFile::WriteUser | QFile::ExeUser | QFile::ReadGroup | QFile::ExeGroup | QFile::ReadOther | QFile::ExeOther);
+#endif
 
-	emit fileSaved(output_filename, version);
+	emit fileSaved(output_filename);
 }
 
 void CodeDownloader::updateDataReadProgress(qint64 bytes_read, qint64 total_bytes) {
-#ifndef QT_NO_DEBUG_OUTPUT
-	qDebug() << "CodeDownloader::updateDataReadProgress: " << bytes_read << " " << total_bytes;
-#endif
+	//qDebug() << "CodeDownloader::updateDataReadProgress: " << bytes_read << " " << total_bytes;
 	if (total_bytes > -1) {
 		setMaximum(total_bytes);
 		setValue(bytes_read);
 	}
 }
 
-void CodeDownloader::reportFileSaved(const QString &, const QString & version) {
+void CodeDownloader::reportFileSaved(const QString &) {
 	hide();
-	QString t = tr("The Youtube code has been updated successfully.");
+	QString t = tr("The YouTube code has been installed successfully.");
 	if (!version.isEmpty()) t += "<br>"+ tr("Installed version: %1").arg(version);
-	QMessageBox::information(this, tr("Success"),t);
+	QMessageBox::information(parent_widget, tr("Success"),t);
 }
 
 void CodeDownloader::reportSaveFailed(const QString & file) {
 	hide();
-	QMessageBox::warning(this, tr("Error"), tr("An error happened writing %1").arg(file));
+	QMessageBox::warning(parent_widget, tr("Error"), tr("It's not possible to save %1.").arg(file));
 }
 
 void CodeDownloader::reportError(int, QString error_str) {
 	hide();
-	QMessageBox::warning(this, tr("Error"), tr("An error happened while downloading the file:<br>%1").arg(error_str));
+	QMessageBox::warning(parent_widget, tr("Error"), tr("An error happened while downloading the file:<br>%1").arg(error_str));
+}
+
+void CodeDownloader::askAndDownload(QWidget * parent, bool show_error_message) {
+#if defined(Q_OS_WIN) && !defined(PORTABLE_APP)
+	QString message;
+
+	if (show_error_message) {
+		message += "<b>" + tr("SMPlayer failed to communicate with youtube-dl. "
+                             "Either it's not installed or it doesn't work correctly.") +"</b><br><br>";
+	}
+
+	message +=  tr("In order to play YouTube videos, SMPlayer needs an external application called youtube-dl.") + "<br><br>"+
+				tr("This component needs to be updated frequently.") +" "+
+				tr("You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.");
+
+	QMessageBox::information(parent, tr("Install/Update YouTube support"),message);
+#else
+	#ifdef Q_OS_WIN
+	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
+	QString output_dir = "mpv/";
+	QString output = output_dir + "youtube-dl.exe";
+	#else
+	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl";
+
+	QString user_home = QDir::homePath();
+
+	//user_home = "/tmp";
+
+	QString output_dir = user_home + "/bin";
+	QString output_file = "youtube-dl";
+
+	QDir d;
+	if (!d.exists(output_dir)) {
+		if (!d.mkdir(output_dir)) {
+			qDebug() << "CodeDownloader::askAndDownload: fail to create" << output_dir;
+		}
+	}
+
+	QString output = output_dir + "/" + output_file;
+	#endif // Q_OS_WIN
+
+	qDebug() << "CodeDownloader::askAndDownload: url:" << url;
+	qDebug() << "CodeDownloader::askAndDownload: output" << output;
+
+	QString message;
+
+	if (show_error_message) {
+		message += "<b>" + tr("SMPlayer failed to communicate with youtube-dl. "
+                             "Either it's not installed or it doesn't work correctly.") +"</b><br><br>";
+	}
+
+	message +=  tr("In order to play YouTube videos, SMPlayer needs an external application called youtube-dl.") + "<br><br>"+
+				tr("SMPlayer can download and install this application for you.") +" "+
+				tr("It will be downloaded from the official website and installed in %1.").arg("<i>" + output_dir +"</i>") + "<br><br>"+
+				tr("Would you like to proceeed?");
+
+	int ret = 0;
+	if (show_error_message) {
+		ret = QMessageBox::warning(parent, tr("Install YouTube support?"),
+				message, QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+	} else {
+		ret = QMessageBox::question(parent, tr("Install YouTube support?"),
+				message, QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+	}
+
+	if (!downloader) downloader = new CodeDownloader(parent);
+
+	if (ret == QMessageBox::Yes) {
+		downloader->saveAs(output);
+		downloader->show();
+		downloader->download(url);
+	}
+#endif
 }
 
 #include "moc_codedownloader.cpp"

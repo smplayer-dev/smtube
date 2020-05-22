@@ -1,4 +1,3 @@
-
 TEMPLATE = app
 QT += network
 
@@ -8,6 +7,7 @@ CONFIG += release
 DEFINES += USE_PLAYERS
 #DEFINES += D_BUTTON
 DEFINES += STYLE_SWITCHING
+DEFINES += CODEDOWNLOADER
 
 # If Qt >= 5.4
 greaterThan(QT_MAJOR_VERSION, 4):greaterThan(QT_MINOR_VERSION, 3) {
@@ -70,6 +70,11 @@ contains(DEFINES, USE_PLAYERS) {
 contains( DEFINES, HDPI_SUPPORT ) {
 	HEADERS += hdpisupport.h
 	SOURCES += hdpisupport.cpp
+}
+
+contains( DEFINES, CODEDOWNLOADER ) {
+	HEADERS += codedownloader.h
+	SOURCES += codedownloader.cpp
 }
 
 unix {
