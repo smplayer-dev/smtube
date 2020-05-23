@@ -77,171 +77,250 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="125"/>
+        <location filename="../browserwindow.cpp" line="113"/>
         <source>Home</source>
         <translation>Почетна</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="128"/>
+        <location filename="../browserwindow.cpp" line="116"/>
         <source>Navigation</source>
         <translation>Навигација</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="136"/>
+        <location filename="../browserwindow.cpp" line="124"/>
         <source>Zoom +</source>
         <translation>Зум +</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="140"/>
+        <location filename="../browserwindow.cpp" line="128"/>
         <source>Zoom -</source>
         <translation>Зум -</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="144"/>
+        <location filename="../browserwindow.cpp" line="132"/>
         <source>&amp;Quit</source>
         <translation>&amp;Изађи</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="147"/>
+        <location filename="../browserwindow.cpp" line="135"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Навигација</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="159"/>
+        <location filename="../browserwindow.cpp" line="147"/>
         <source>&amp;View</source>
         <translation>&amp;Приказ</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="160"/>
+        <location filename="../browserwindow.cpp" line="148"/>
         <source>Toolbar</source>
         <translation>Трака алатки</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="164"/>
+        <location filename="../browserwindow.cpp" line="152"/>
         <source>Statusbar</source>
         <translation>Трака стања</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="168"/>
+        <location filename="../browserwindow.cpp" line="156"/>
         <source>&amp;Settings</source>
         <translation>По&amp;ставке</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="176"/>
+        <location filename="../browserwindow.cpp" line="164"/>
         <source>&amp;Help</source>
         <translation>&amp;Помоћ</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="179"/>
+        <location filename="../browserwindow.cpp" line="167"/>
+        <source>&amp;Install / Update YouTube playback support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&amp;Update the YouTube code</source>
-        <translation>&amp;Ажурирајте Јутјуб код</translation>
+        <translation type="obsolete">&amp;Ажурирајте Јутјуб код</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="185"/>
         <source>About this &amp;release</source>
-        <translation>О овом &amp;издању</translation>
+        <translation type="obsolete">О овом &amp;издању</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="190"/>
+        <location filename="../browserwindow.cpp" line="172"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;О СМТјубу</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="298"/>
+        <location filename="../browserwindow.cpp" line="280"/>
         <source>Download video using an external service</source>
         <translation>Преузми видео помоћу спољног сервиса</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="299"/>
+        <location filename="../browserwindow.cpp" line="281"/>
         <source>Download</source>
         <translation>Преузимање</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="527"/>
         <source>Connection failed</source>
-        <translation>Неуспело повезивање</translation>
+        <translation type="obsolete">Неуспело повезивање</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="528"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation>Видео захтева отварање ХТТПС везе.</translation>
+        <translation type="obsolete">Видео захтева отварање ХТТПС везе.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="529"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation>Нажалост, ОпенССЛ компонента, која је неопходна, није доступна на вашем систему.</translation>
+        <translation type="obsolete">Нажалост, ОпенССЛ компонента, која је неопходна, није доступна на вашем систему.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="534"/>
+        <location filename="../browserwindow.cpp" line="504"/>
         <source>No video found</source>
         <translation>Нема видеа</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="535"/>
+        <location filename="../browserwindow.cpp" line="505"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Није било могуће наћи УРЛ за овај видео.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="545"/>
-        <location filename="../browserwindow.cpp" line="553"/>
         <source>Problems with YouTube</source>
-        <translation>Проблеми са Јутјубом</translation>
+        <translation type="obsolete">Проблеми са Јутјубом</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="546"/>
-        <location filename="../browserwindow.cpp" line="554"/>
         <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation>Нажалост, због промена на Јутјубу, видео „%1“ не може бити репродукован.</translation>
+        <translation type="obsolete">Нажалост, због промена на Јутјубу, видео „%1“ не може бити репродукован.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="547"/>
         <source>Do you want to update the YouTube code? This may fix the problem.</source>
-        <translation>Да ли желите да ажурирате Јутјуб код? Ово може решити проблем.</translation>
+        <translation type="obsolete">Да ли желите да ажурирате Јутјуб код? Ово може решити проблем.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="555"/>
         <source>Maybe updating this application could fix the problem.</source>
-        <translation>Можда ажурирање овог програма реши проблем.</translation>
+        <translation type="obsolete">Можда ажурирање овог програма реши проблем.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="574"/>
         <source>About this release</source>
-        <translation>О овом издању</translation>
+        <translation type="obsolete">О овом издању</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="575"/>
         <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
-        <translation>Због промена на Јутјубу, стари СМТјуб више не ради.</translation>
+        <translation type="obsolete">Због промена на Јутјубу, стари СМТјуб више не ради.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="576"/>
         <source>This is a new version of SMTube, written from scratch.</source>
-        <translation>Ово је нова верзија СМТјуба, написана испочетка.</translation>
+        <translation type="obsolete">Ово је нова верзија СМТјуба, написана испочетка.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="577"/>
         <source>Some functionality is not available yet.</source>
-        <translation>Неке могућности још нису доступне.</translation>
+        <translation type="obsolete">Неке могућности још нису доступне.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="579"/>
         <source>Important:</source>
-        <translation>Важно:</translation>
+        <translation type="obsolete">Важно:</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="580"/>
         <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
-        <translation>Ако VEVO видео не ради, користите %1 опцију у менију Помоћ.</translation>
+        <translation type="obsolete">Ако VEVO видео не ради, користите %1 опцију у менију Помоћ.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="581"/>
         <source>Update the YouTube code</source>
-        <translation>Ажурирај Јутјуб код</translation>
+        <translation type="obsolete">Ажурирај Јутјуб код</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="284"/>
+        <location filename="../browserwindow.cpp" line="266"/>
         <source>Loading... %1%</source>
         <translation>Учитавам... %1%</translation>
+    </message>
+</context>
+<context>
+    <name>CodeDownloader</name>
+    <message>
+        <location filename="../codedownloader.cpp" line="47"/>
+        <source>Downloading...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="74"/>
+        <source>Connecting to %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="143"/>
+        <source>The YouTube code has been installed successfully.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="144"/>
+        <source>Installed version: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="145"/>
+        <source>Success</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="150"/>
+        <location filename="../codedownloader.cpp" line="155"/>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="150"/>
+        <source>It&apos;s not possible to save %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="155"/>
+        <source>An error happened while downloading the file:&lt;br&gt;%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="163"/>
+        <location filename="../codedownloader.cpp" line="203"/>
+        <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="167"/>
+        <location filename="../codedownloader.cpp" line="207"/>
+        <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="168"/>
+        <source>This component needs to be updated frequently.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="169"/>
+        <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="171"/>
+        <source>Install / Update YouTube support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="208"/>
+        <source>%1 can download and install this application for you.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="209"/>
+        <source>It will be downloaded from the official website and installed in %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="210"/>
+        <source>Would you like to proceeed?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="214"/>
+        <location filename="../codedownloader.cpp" line="217"/>
+        <source>Install YouTube support?</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
