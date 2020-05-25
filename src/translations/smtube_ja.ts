@@ -132,101 +132,42 @@
         <translation>ヘルプ(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="167"/>
-        <source>&amp;Install / Update YouTube playback support</source>
+        <location filename="../browserwindow.cpp" line="168"/>
+        <source>&amp;Update YouTube playback support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Update the YouTube code</source>
-        <translation type="obsolete">YouTube のコードの更新(&amp;U)</translation>
+        <location filename="../browserwindow.cpp" line="170"/>
+        <source>&amp;Install / Update YouTube playback support</source>
+        <translation>YouTube 再生サポートのインストール / 更新(&amp;I)</translation>
     </message>
     <message>
-        <source>About this &amp;release</source>
-        <translation type="obsolete">このリリースについて(&amp;R)</translation>
-    </message>
-    <message>
-        <location filename="../browserwindow.cpp" line="172"/>
+        <location filename="../browserwindow.cpp" line="176"/>
         <source>&amp;About SMTube</source>
         <translation>SMTube のバージョン情報(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="280"/>
+        <location filename="../browserwindow.cpp" line="284"/>
         <source>Download video using an external service</source>
-        <translation>外部サービスを使用して動画をダウンロード</translation>
+        <translation>外部サービスを使用して動画をダウンロードする</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="281"/>
+        <location filename="../browserwindow.cpp" line="285"/>
         <source>Download</source>
         <translation>ダウンロード</translation>
     </message>
     <message>
-        <source>Connection failed</source>
-        <translation type="obsolete">接続に失敗しました</translation>
-    </message>
-    <message>
-        <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="obsolete">要求した動画は HTTPS 接続を開く必要があります。</translation>
-    </message>
-    <message>
-        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="obsolete">残念ながらそれに必要な OpenSSL コンポーネントはお使いのシステムで利用できません。</translation>
-    </message>
-    <message>
-        <location filename="../browserwindow.cpp" line="504"/>
+        <location filename="../browserwindow.cpp" line="508"/>
         <source>No video found</source>
         <translation>動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="505"/>
+        <location filename="../browserwindow.cpp" line="509"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>この動画の URL を見つけることができませんでした。</translation>
     </message>
     <message>
-        <source>Problems with YouTube</source>
-        <translation type="obsolete">YouTube に関する問題</translation>
-    </message>
-    <message>
-        <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="obsolete">YouTube の変更のため、動画 &apos;%1&apos; は残念ながら再生できません。</translation>
-    </message>
-    <message>
-        <source>Do you want to update the YouTube code? This may fix the problem.</source>
-        <translation type="obsolete">YouTube のコードを更新しますか? これで問題を修正できる可能性があります。</translation>
-    </message>
-    <message>
-        <source>Maybe updating this application could fix the problem.</source>
-        <translation type="obsolete">このアプリケーションの更新により問題が修正されるかもしれません。</translation>
-    </message>
-    <message>
-        <source>About this release</source>
-        <translation type="obsolete">このリリースについて</translation>
-    </message>
-    <message>
-        <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
-        <translation type="obsolete">YouTube の変更のため、古い SMTube はもはや動作しません。</translation>
-    </message>
-    <message>
-        <source>This is a new version of SMTube, written from scratch.</source>
-        <translation type="obsolete">これは一から書き直された SMTube の新しいバージョンです。</translation>
-    </message>
-    <message>
-        <source>Some functionality is not available yet.</source>
-        <translation type="obsolete">一部の機能はまだ利用できません。</translation>
-    </message>
-    <message>
-        <source>Important:</source>
-        <translation type="obsolete">重要:</translation>
-    </message>
-    <message>
-        <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
-        <translation type="obsolete">VEVO の動画の再生が失敗する場合は、[ヘルプ] メニューのオプション [%1] を使用してください。</translation>
-    </message>
-    <message>
-        <source>Update the YouTube code</source>
-        <translation type="obsolete">YouTube のコードの更新</translation>
-    </message>
-    <message>
-        <location filename="../browserwindow.cpp" line="266"/>
+        <location filename="../browserwindow.cpp" line="270"/>
         <source>Loading... %1%</source>
         <translation>読み込み中... %1%</translation>
     </message>
@@ -234,93 +175,93 @@
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../codedownloader.cpp" line="47"/>
+        <location filename="../codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>ダウンロードしています...</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="74"/>
+        <location filename="../codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="143"/>
-        <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="144"/>
-        <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 へ接続しています</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="145"/>
+        <source>The YouTube code has been installed successfully.</source>
+        <translation>YouTube のコードは正常にインストールされました。</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="146"/>
+        <source>Installed version: %1</source>
+        <translation>インストールされたバージョン: %1</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>成功</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="150"/>
-        <location filename="../codedownloader.cpp" line="155"/>
+        <location filename="../codedownloader.cpp" line="152"/>
+        <location filename="../codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="150"/>
+        <location filename="../codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 を保存できません。</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="155"/>
+        <location filename="../codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルのダウンロード中にエラーが発生しました:&lt;br&gt;%1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="163"/>
-        <location filename="../codedownloader.cpp" line="203"/>
+        <location filename="../codedownloader.cpp" line="165"/>
+        <location filename="../codedownloader.cpp" line="205"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="167"/>
-        <location filename="../codedownloader.cpp" line="207"/>
-        <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="168"/>
-        <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 は youtube-dl との通信に失敗しました。インストールされていないか正しく動作しない可能性があります。</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
-        <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <location filename="../codedownloader.cpp" line="209"/>
+        <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
+        <translation>YouTube 動画を再生するのに、%1 は youtube-dl という外部アプリケーションを必要とします。</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="170"/>
+        <source>This component needs to be updated frequently.</source>
+        <translation>このコンポーネントは頻繁に更新される必要があります。</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="171"/>
+        <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
+        <translation>単純に SMPlayer を再インストールして更新できます。インストーラーは最新バージョンをダウンロードおよびインストールします。</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="173"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="208"/>
-        <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="209"/>
-        <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube サポートのインストール / 更新</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="210"/>
-        <source>Would you like to proceeed?</source>
-        <translation type="unfinished"></translation>
+        <source>%1 can download and install this application for you.</source>
+        <translation>%1 はこのアプリケーションをダウンロードおよびインストールします。</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="214"/>
-        <location filename="../codedownloader.cpp" line="217"/>
+        <location filename="../codedownloader.cpp" line="211"/>
+        <source>It will be downloaded from the official website and installed in %1.</source>
+        <translation>公式 Web サイトからダウンロードされ %1 にインストールされます。</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="212"/>
+        <source>Would you like to proceeed?</source>
+        <translation>続行しますか?</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="216"/>
+        <location filename="../codedownloader.cpp" line="219"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube サポートをインストールしますか?</translation>
     </message>
 </context>
 <context>
@@ -403,7 +344,7 @@
     <message>
         <location filename="../configdialog.ui" line="74"/>
         <source>Download videos using an &amp;external service</source>
-        <translation>外部サービスを使用して動画をダウンロード(&amp;E)</translation>
+        <translation>外部サービスを使用して動画をダウンロードする(&amp;E)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="132"/>
