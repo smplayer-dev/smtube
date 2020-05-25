@@ -4,7 +4,6 @@ QT += network
 CONFIG += release
 #CONFIG += debug
 
-DEFINES += USE_PLAYERS
 #DEFINES += D_BUTTON
 DEFINES += STYLE_SWITCHING
 DEFINES += CODEDOWNLOADER
@@ -18,6 +17,10 @@ isEqual(QT_MAJOR_VERSION, 5) {
 	QT += webkitwidgets widgets gui
 } else {
 	QT += webkit
+}
+
+unix {
+	DEFINES += USE_PLAYERS
 }
 
 contains( DEFINES, PORTABLE_APP ) {
