@@ -132,101 +132,42 @@
         <translation>&amp;Laguntza</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="167"/>
-        <source>&amp;Install / Update YouTube playback support</source>
+        <location filename="../browserwindow.cpp" line="168"/>
+        <source>&amp;Update YouTube playback support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Update the YouTube code</source>
-        <translation type="obsolete">&amp;Eguneratu YouTube kodea</translation>
+        <location filename="../browserwindow.cpp" line="170"/>
+        <source>&amp;Install / Update YouTube playback support</source>
+        <translation>Ezarri / Eguneratu &amp;YouTube irakurketa sostengua</translation>
     </message>
     <message>
-        <source>About this &amp;release</source>
-        <translation type="obsolete">A&amp;rgitalpen honi buruz</translation>
-    </message>
-    <message>
-        <location filename="../browserwindow.cpp" line="172"/>
+        <location filename="../browserwindow.cpp" line="176"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;SMTube-ri buruz</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="280"/>
+        <location filename="../browserwindow.cpp" line="284"/>
         <source>Download video using an external service</source>
         <translation>Jeitsi bideoa kanpoko zerbitzu bat erabiliz</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="281"/>
+        <location filename="../browserwindow.cpp" line="285"/>
         <source>Download</source>
         <translation>Jeitsi</translation>
     </message>
     <message>
-        <source>Connection failed</source>
-        <translation type="obsolete">Elkarketa hutsegitea</translation>
-    </message>
-    <message>
-        <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="obsolete">Eskatu duzun bideoak HTTPS elkarketa bat irekitzea behar du.</translation>
-    </message>
-    <message>
-        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Zorigaitzez OpenSSL osagaia, horretarako beharrezkoa dena, ez dago eskuragarri zure sisteman.</translation>
-    </message>
-    <message>
-        <location filename="../browserwindow.cpp" line="504"/>
+        <location filename="../browserwindow.cpp" line="508"/>
         <source>No video found</source>
         <translation>Ez da bideorik aurkitu</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="505"/>
+        <location filename="../browserwindow.cpp" line="509"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Ezinezkoa da bideo honen URL-a aurkitzea.</translation>
     </message>
     <message>
-        <source>Problems with YouTube</source>
-        <translation type="obsolete">Arazoak YouTube-rekin</translation>
-    </message>
-    <message>
-        <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="obsolete">Zorigaitzez YouTubeko aldaketen ondorioz, &apos;%1&apos; bideoa ezin da irakurri.</translation>
-    </message>
-    <message>
-        <source>Do you want to update the YouTube code? This may fix the problem.</source>
-        <translation type="obsolete">Nahi duzu YouTube kodea eguneratzea? Honek arazoa konpondu dezake.</translation>
-    </message>
-    <message>
-        <source>Maybe updating this application could fix the problem.</source>
-        <translation type="obsolete">Badaiteke aplikazio hau eguneratuz arazoa zuzentzea.</translation>
-    </message>
-    <message>
-        <source>About this release</source>
-        <translation type="obsolete">Argitalpen honi buruz</translation>
-    </message>
-    <message>
-        <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
-        <translation type="obsolete">YouTubeko aldaketen ondorioz, SMTube zaharrak ez du lanik egiten.</translation>
-    </message>
-    <message>
-        <source>This is a new version of SMTube, written from scratch.</source>
-        <translation type="obsolete">Hau SMTube bertsio berri bat da, hasieratik idatzia.</translation>
-    </message>
-    <message>
-        <source>Some functionality is not available yet.</source>
-        <translation type="obsolete">Zenbait eginkizun ez daude eskuragarri oraindik.</translation>
-    </message>
-    <message>
-        <source>Important:</source>
-        <translation type="obsolete">Garrantzitsua:</translation>
-    </message>
-    <message>
-        <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
-        <translation type="obsolete">VEVO bideoek huts egiten badute irakurtzean, mesedez erabili &apos;%1&apos; aukera Laguntza menuan.</translation>
-    </message>
-    <message>
-        <source>Update the YouTube code</source>
-        <translation type="obsolete">Eguneratu YouTube kodea</translation>
-    </message>
-    <message>
-        <location filename="../browserwindow.cpp" line="266"/>
+        <location filename="../browserwindow.cpp" line="270"/>
         <source>Loading... %1%</source>
         <translation>Gertatzen... %1%</translation>
     </message>
@@ -234,93 +175,93 @@
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../codedownloader.cpp" line="47"/>
+        <location filename="../codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeisten...</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="74"/>
+        <location filename="../codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="143"/>
-        <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="144"/>
-        <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1-ra elkarketatzen</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="145"/>
+        <source>The YouTube code has been installed successfully.</source>
+        <translation>Youtube kodea ongi ezarri da.</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="146"/>
+        <source>Installed version: %1</source>
+        <translation>Ezarritako bertsioa: %1</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongi</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="150"/>
-        <location filename="../codedownloader.cpp" line="155"/>
+        <location filename="../codedownloader.cpp" line="152"/>
+        <location filename="../codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Akatsa</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="150"/>
+        <location filename="../codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezinezkoa da %1 gordetzea.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="155"/>
+        <location filename="../codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Akats bat gertatu da agiria jeisterakoan:&lt;br&gt;%1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="163"/>
-        <location filename="../codedownloader.cpp" line="203"/>
+        <location filename="../codedownloader.cpp" line="165"/>
+        <location filename="../codedownloader.cpp" line="205"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="167"/>
-        <location filename="../codedownloader.cpp" line="207"/>
-        <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="168"/>
-        <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 huts egin du youtube-dl-rekin harremantzean. Edo ez dago ezarrita edo ez du zuzen lan egiten.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
-        <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <location filename="../codedownloader.cpp" line="209"/>
+        <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
+        <translation>YouTube bideoak ikusteko, %1-ek youtube-dl izeneko kanpoko aplikazio bat behar du.</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="170"/>
+        <source>This component needs to be updated frequently.</source>
+        <translation>Osagai hau maiz eguneratu behar da.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="171"/>
+        <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
+        <translation>SMPlayer berriro ezarriz eguneratu dezakezu. Ezartzaileak azken bertsioa jeitsi eta ezarriko du.</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="173"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="208"/>
-        <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="209"/>
-        <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezarri / Eguneratu YouTube sostengua</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="210"/>
-        <source>Would you like to proceeed?</source>
-        <translation type="unfinished"></translation>
+        <source>%1 can download and install this application for you.</source>
+        <translation>%1-ek ezin du aplikazio hau zure ordez jeitsi eta ezarri.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="214"/>
-        <location filename="../codedownloader.cpp" line="217"/>
+        <location filename="../codedownloader.cpp" line="211"/>
+        <source>It will be downloaded from the official website and installed in %1.</source>
+        <translation>Webgune ofizialetik jeitsiko da eta %1-n ezarri.</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="212"/>
+        <source>Would you like to proceeed?</source>
+        <translation>Jarraitzea nahi duzu?</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="216"/>
+        <location filename="../codedownloader.cpp" line="219"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezarri YouTube sostengua?</translation>
     </message>
 </context>
 <context>

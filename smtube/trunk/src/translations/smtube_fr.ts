@@ -132,101 +132,42 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="167"/>
-        <source>&amp;Install / Update YouTube playback support</source>
+        <location filename="../browserwindow.cpp" line="168"/>
+        <source>&amp;Update YouTube playback support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Update the YouTube code</source>
-        <translation type="obsolete">&amp;Mise à jour du code YouTube</translation>
+        <location filename="../browserwindow.cpp" line="170"/>
+        <source>&amp;Install / Update YouTube playback support</source>
+        <translation>&amp;Installer / Mettre à jour le support de YouTube</translation>
     </message>
     <message>
-        <source>About this &amp;release</source>
-        <translation type="obsolete">À propos de cette &amp;version</translation>
-    </message>
-    <message>
-        <location filename="../browserwindow.cpp" line="172"/>
+        <location filename="../browserwindow.cpp" line="176"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;À propos de SMTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="280"/>
+        <location filename="../browserwindow.cpp" line="284"/>
         <source>Download video using an external service</source>
         <translation>Télécharger la vidéo à l&apos;aide d&apos;un service externe</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="281"/>
+        <location filename="../browserwindow.cpp" line="285"/>
         <source>Download</source>
         <translation>Télécharger</translation>
     </message>
     <message>
-        <source>Connection failed</source>
-        <translation type="obsolete">Connexion échouée</translation>
-    </message>
-    <message>
-        <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="obsolete">La vidéo demandée nécessite d&apos;ouvrir une connexion HTTPS.</translation>
-    </message>
-    <message>
-        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Malheureusement, le composant OpenSSL requis n&apos;est pas disponible sur votre système.</translation>
-    </message>
-    <message>
-        <location filename="../browserwindow.cpp" line="504"/>
+        <location filename="../browserwindow.cpp" line="508"/>
         <source>No video found</source>
         <translation>Aucune vidéo trouvée</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="505"/>
+        <location filename="../browserwindow.cpp" line="509"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Impossible de trouver l&apos;URL pour cette vidéo.</translation>
     </message>
     <message>
-        <source>Problems with YouTube</source>
-        <translation type="obsolete">Problèmes avec YouTube</translation>
-    </message>
-    <message>
-        <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="obsolete">Malheureusement, à cause de changements dans Youtube, il est impossible de lire la vidéo &apos;%1&apos;.</translation>
-    </message>
-    <message>
-        <source>Do you want to update the YouTube code? This may fix the problem.</source>
-        <translation type="obsolete">Voulez-vous mettre à jour le code Youtube ? Cela pourrait résoudre le problème.</translation>
-    </message>
-    <message>
-        <source>Maybe updating this application could fix the problem.</source>
-        <translation type="obsolete">Une mise à jour de l&apos;application pourrait résoudre ce problème.</translation>
-    </message>
-    <message>
-        <source>About this release</source>
-        <translation type="obsolete">À propos de cette version</translation>
-    </message>
-    <message>
-        <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
-        <translation type="obsolete">A cause de changements dans YouTube, l&apos;ancien SMTube ne fonctionne plus.</translation>
-    </message>
-    <message>
-        <source>This is a new version of SMTube, written from scratch.</source>
-        <translation type="obsolete">Ceci est une nouvelle version de SMTube, réécrite totalement.</translation>
-    </message>
-    <message>
-        <source>Some functionality is not available yet.</source>
-        <translation type="obsolete">Quelques fonctionnalités ne sont toujours pas disponibles.</translation>
-    </message>
-    <message>
-        <source>Important:</source>
-        <translation type="obsolete">Important :</translation>
-    </message>
-    <message>
-        <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
-        <translation type="obsolete">Si les vidéos VEVO refusent de fonctionner, utilisez l&apos;option %1 dans le menu d&apos;Aide.</translation>
-    </message>
-    <message>
-        <source>Update the YouTube code</source>
-        <translation type="obsolete">Mettre à jour le code YouTube</translation>
-    </message>
-    <message>
-        <location filename="../browserwindow.cpp" line="266"/>
+        <location filename="../browserwindow.cpp" line="270"/>
         <source>Loading... %1%</source>
         <translation>Chargement... %1%</translation>
     </message>
@@ -234,93 +175,93 @@
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../codedownloader.cpp" line="47"/>
+        <location filename="../codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Téléchargement...</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="74"/>
+        <location filename="../codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="143"/>
-        <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="144"/>
-        <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Connexion à %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="145"/>
+        <source>The YouTube code has been installed successfully.</source>
+        <translation>Le code YouTube a été correctement installé.</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="146"/>
+        <source>Installed version: %1</source>
+        <translation>Version installée : %1</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Succès</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="150"/>
-        <location filename="../codedownloader.cpp" line="155"/>
+        <location filename="../codedownloader.cpp" line="152"/>
+        <location filename="../codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Erreur</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="150"/>
+        <location filename="../codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il est impossible d&apos;enregistrer %1.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="155"/>
+        <location filename="../codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Une erreur est survenue lors du téléchargement du fichier :&lt;br&gt;%1</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="163"/>
-        <location filename="../codedownloader.cpp" line="203"/>
+        <location filename="../codedownloader.cpp" line="165"/>
+        <location filename="../codedownloader.cpp" line="205"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="167"/>
-        <location filename="../codedownloader.cpp" line="207"/>
-        <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="168"/>
-        <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 n&apos;a pas réussi à communiquer avec youtube-dl. Soit ce dernier n&apos;est pas installé, soit il ne fonctionne pas correctement.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
-        <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <location filename="../codedownloader.cpp" line="209"/>
+        <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
+        <translation>Afin de lire les vidéos YouTube, %1 nécessite une application externe appelée youtube-dl.</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="170"/>
+        <source>This component needs to be updated frequently.</source>
+        <translation>Ce composant doit être régulièrement mis à jour.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="171"/>
+        <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
+        <translation>Vous pouvez le mettre à jour en réinstallant SMPlayer. L&apos;installateur téléchargera et installera la toute dernière version.</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="173"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="208"/>
-        <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../codedownloader.cpp" line="209"/>
-        <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Installer / Mettre à jour le support de YouTube</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="210"/>
-        <source>Would you like to proceeed?</source>
-        <translation type="unfinished"></translation>
+        <source>%1 can download and install this application for you.</source>
+        <translation>%1 peut télécharger et installer cette application pour vous.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="214"/>
-        <location filename="../codedownloader.cpp" line="217"/>
+        <location filename="../codedownloader.cpp" line="211"/>
+        <source>It will be downloaded from the official website and installed in %1.</source>
+        <translation>Il sera téléchargé depuis le site officiel et installé dans %1.</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="212"/>
+        <source>Would you like to proceeed?</source>
+        <translation>Souhaitez-vous continuer ?</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="216"/>
+        <location filename="../codedownloader.cpp" line="219"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>Installer le support de YouTube ?</translation>
     </message>
 </context>
 <context>
