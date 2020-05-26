@@ -606,6 +606,12 @@ void BrowserWindow::saveConfig() {
 	settings->setValue("zoom", view->page()->mainFrame()->zoomFactor());
 	settings->endGroup();
 
+	settings->beginGroup("youtube-dl");
+	settings->setValue("ytdl_bin", ryu->ytdlBin());
+	settings->setValue("override_format", ryu->userFormat());
+	settings->setValue("use_av1", ryu->isAv1Enabled());
+	settings->endGroup();
+
 #ifdef USE_PLAYERS
 	players.save(settings);
 #endif
@@ -670,6 +676,16 @@ void BrowserWindow::loadConfig() {
 	qreal zoom = settings->value("zoom", 1).toReal();
 	view->page()->mainFrame()->setZoomFactor(zoom);
 
+	settings->endGroup();
+
+	settings->beginGroup("youtube-dl");
+	QString ytdl_bin = settings->value("ytdl_bin", "").toString();
+	if (!ytdl_bin.isEmpty()) {
+		ryu->setYtdlBin(ytdl_bin);
+		ryua->setYtdlBin(ytdl_bin);
+	}
+	ryu->setUserFormat(settings->value("override_format", "").toString());
+	ryu->enableAv1(settings->value("use_av1", false).toBool());
 	settings->endGroup();
 
 	#ifndef PORTABLE_APP
