@@ -134,12 +134,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="168"/>
         <source>&amp;Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>At&amp;ualizar o suporte à reprodução do YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="170"/>
         <source>&amp;Install / Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Instalar / Atualizar o suporte à reprodução do YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="176"/>
@@ -177,91 +177,91 @@
     <message>
         <location filename="../codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Baixando...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Conectando-se a %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="145"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>O código do YouTube foi instalado com sucesso.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="146"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Versão instalada: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Sucesso</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <location filename="../codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Não é possível salvar %1.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocorreu um erro durante o download do arquivo:&lt;br&gt;%1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="165"/>
         <location filename="../codedownloader.cpp" line="205"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 não conseguiu se comunicar com o youtube-dl. Ele não está instalado ou não está funcionando corretamente.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
         <location filename="../codedownloader.cpp" line="209"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Para reproduzir vídeos do YouTube, %1 precisa de um programa externo chamado youtube-dl.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="170"/>
         <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esse componente precisa ser atualizado frequentemente.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="171"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <translation>Você pode atualizá-lo reinstalando o SMPlayer. O instalador baixará e instalará a última versão.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="173"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Instalar / Atualizar o suporte ao YouTube</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="210"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 pode baixar e instalar esse programa para você.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="211"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Será baixado do site oficial e instalado em %1.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="212"/>
         <source>Would you like to proceeed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Deseja prosseguir?</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="216"/>
         <location filename="../codedownloader.cpp" line="219"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>Instalar o suporte ao YouTube?</translation>
     </message>
 </context>
 <context>

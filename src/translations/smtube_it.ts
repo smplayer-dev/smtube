@@ -134,7 +134,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="168"/>
         <source>&amp;Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aggiorna supporto YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="170"/>
