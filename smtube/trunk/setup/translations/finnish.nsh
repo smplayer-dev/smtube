@@ -11,22 +11,22 @@
 !endif
 
 ; Startup
-${LangFileString} Installer_No_Admin "You must be logged in as an administrator when installing this program."
+${LangFileString} Installer_No_Admin "Sinun on oltava kirjautuneena järjestelmänvalvojana kun asennat tätä ohjelmaa."
 
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
+${LangFileString} Win64_Required "Tämän ohjelmiston asentaminen edellyttää 64-bittistä käyttöjärjestelmää."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMTube before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Title "$(^NameDA) Asennus"
+${LangFileString} WelcomePage_Text "Asennusohjelma opastaa sinua $(^NameDA).$\r$\n$\r$\nOn suositeltavaa sulkea kaikki SMTube-osat ennen asennuksen aloittamista. Tämä mahdollistaa ohjelmatiedostojen päivittämisen ilman, että tietokonetta tarvitsee käynnistää uudelleen.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} Section_SMTube "SMTube (required)"
+${LangFileString} Section_SMTube "SMTube (vaaditaan)"
 
 ; Directory Page
-${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube must be installed to a directory containing a ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} installation of SMPlayer."
-${LangFileString} DirectoryIsNotWritable "The chosen installation directory is not writable and may require restarting the installer with administrator privileges.$\r$\n$\r$\nProceed with installation?"
+${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube on asennettava hakemistoon, joka sisältää ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} SMPlayer-asennuksen."
+${LangFileString} DirectoryIsNotWritable "Valittuun asennushakemistoon ei voi kirjoittaa. Tämä voi merkitä asennuksen käynnistämistä uudelleen järjestelmänvalvojan oikeuksilla.$\r$\n$\r$\nJatka asennusta?"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "SMPlayer, architecture and Qt version check bypassed by command-line."
-${LangFileString} Info_Portable_Bypassed "Portable check overriden by command-line, forcing portable."
-${LangFileString} Info_Portable_Detected "Found portable version of SMPlayer."
+${LangFileString} Info_QtArch_Bypassed "SMPlayer-, arkkitehtuuri- ja Qt-version tarkistus ohitetaan komentorivillä."
+${LangFileString} Info_Portable_Bypassed "Kannettava tarkistus ohitetaan komentorivillä, pakottaen kannettavaksi."
+${LangFileString} Info_Portable_Detected "Löytyi kannettava versio SMPlayer-ohjelmasta."
