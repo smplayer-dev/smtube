@@ -61,13 +61,12 @@ public:
 	Site item(int i) { return list[i]; }
 	Site currentSite() { return list[curr]; }
 
-	QList<Site> availableSites();
 	int findName(QString name);
 
 	void save(QSettings * set);
 	void load(QSettings * set);
 
-	void setAllSites(QList<Player> sites);
+	void setAllSites(QList<Site> sites) { list = sites; }
 	QList<Site> allSites() { return list; }
 
 	QList<Site> defaultSites() { return default_list; }

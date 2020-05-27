@@ -7,6 +7,7 @@ CONFIG += release
 #DEFINES += D_BUTTON
 DEFINES += STYLE_SWITCHING
 DEFINES += CODEDOWNLOADER
+DEFINES += USE_SITES
 
 # If Qt >= 5.4
 greaterThan(QT_MAJOR_VERSION, 4):greaterThan(QT_MINOR_VERSION, 3) {
@@ -68,6 +69,11 @@ contains(DEFINES, USE_PLAYERS) {
 	SOURCES += players.cpp
 } else {
 	HEADERS += hcplayer.h
+}
+
+contains(DEFINES, USE_SITES) {
+	HEADERS += sites.h
+	SOURCES += sites.cpp
 }
 
 contains( DEFINES, HDPI_SUPPORT ) {
