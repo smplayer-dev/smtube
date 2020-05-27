@@ -67,10 +67,6 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	setWindowTitle("SMTube");
 	setWindowIcon(QPixmap(":/icons/smtube.png"));
 
-#ifndef USE_SITES
-	home_page = "http://www.tonvid.com/";
-#endif
-
 	settings = new QSettings(config_path + "/smtube2.ini", QSettings::IniFormat, this);
 
 	ryu = new RetrieveYoutubeUrl(this);
@@ -202,6 +198,14 @@ BrowserWindow::~BrowserWindow() {
 	saveConfig();
 }
 
+QString BrowserWindow::homePageUrl() {
+#ifdef USE_SITES
+	return sites.currentSite().homeUrl();
+#else
+	return "http://www.tonvid.com/";
+#endif
+}
+
 void BrowserWindow::viewToolbar(bool b) {
 	qDebug() << "BrowserWindow::viewToolbar:" << b;
 	toolbar->setVisible(b);
@@ -239,7 +243,7 @@ void BrowserWindow::search(const QString & term) {
 	QString q = sites.currentSite().searchUrl();
 	q.replace("SEARCHTERM", search_term);
 #else
-	QString q = home_page + "search.php?q=" + search_term;
+	QString q = homePageUrl() + "search.php?q=" + search_term;
 #endif
 	loadUrl(QUrl(q));
 }
@@ -542,6 +546,11 @@ void BrowserWindow::showConfigDialog() {
 	d.setDefaultPlayers(players.defaultPlayers());
 	#endif
 
+	#ifdef USE_SITES
+	d.setSites(sites.allSites());
+	d.setCurrentSite(sites.current());
+	#endif
+
 	#ifdef D_BUTTON
 	d.setAddDownloadButton(add_download_button);
 	d.setExternalDownloadUrl(external_download_url);
@@ -558,6 +567,13 @@ void BrowserWindow::showConfigDialog() {
 		#ifdef USE_PLAYERS
 		players.setAllPlayers(d.players());
 		view->setPlayers(players.availablePlayers());
+		#endif
+
+		#ifdef USE_SITES
+		int current_site = d.currentSite();
+		if (current_site != sites.current()) {
+			sites.setCurrent(current_site);
+		}
 		#endif
 
 		#ifdef D_BUTTON
@@ -723,7 +739,6 @@ void BrowserWindow::loadConfig() {
 
 #ifdef USE_SITES
 	sites.load(settings);
-	home_page = sites.currentSite().homeUrl();
 #endif
 }
 

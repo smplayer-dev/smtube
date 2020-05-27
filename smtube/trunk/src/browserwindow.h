@@ -50,7 +50,7 @@ public:
 
 public slots:
 	void loadUrl(const QUrl& url);
-	void loadHomePage() { loadUrl(QUrl(home_page)); };
+	void loadHomePage() { loadUrl(QUrl(homePageUrl())); };
 	void search(const QString & term);
 
 protected slots:
@@ -89,6 +89,8 @@ protected slots:
 	void YTFailedToStart();
 
 protected:
+	QString homePageUrl();
+
 	void saveConfig();
 	void loadConfig();
 
@@ -133,8 +135,6 @@ private:
 #ifdef STYLE_SWITCHING
 	QString default_style;
 #endif
-
-	QString home_page;
 };
 
 #endif
