@@ -41,6 +41,7 @@ void Sites::save(QSettings * set) {
 
 	set->beginGroup("sites");
 	set->setValue("count", list.count());
+	set->setValue("selected_site", curr);
 
 	for (int n = 0; n < list.count(); n++) {
 		QString section = QString("site_%1").arg(n);
@@ -73,6 +74,9 @@ void Sites::load(QSettings * set) {
 			list << Site(name, home_url, search_url);
 			set->endGroup();
 		}
+
+		curr = set->value("selected_site", 0).toInt();
+		if (curr >= list.count()) curr = 0;
 	}
 
 	set->endGroup();

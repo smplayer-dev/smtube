@@ -66,7 +66,10 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 {
 	setWindowTitle("SMTube");
 	setWindowIcon(QPixmap(":/icons/smtube.png"));
+
+#ifndef USE_SITES
 	home_page = "http://www.tonvid.com/";
+#endif
 
 	settings = new QSettings(config_path + "/smtube2.ini", QSettings::IniFormat, this);
 
@@ -232,7 +235,12 @@ void BrowserWindow::search(const QString & term) {
 		search_term = search_term.replace("https://", "");
 	}
 
+#ifdef USE_SITES
+	QString q = sites.currentSite().searchUrl();
+	q.replace("SEARCHTERM", search_term);
+#else
 	QString q = home_page + "search.php?q=" + search_term;
+#endif
 	loadUrl(QUrl(q));
 }
 
@@ -615,6 +623,10 @@ void BrowserWindow::saveConfig() {
 #ifdef USE_PLAYERS
 	players.save(settings);
 #endif
+
+#ifdef USE_SITES
+	sites.save(settings);
+#endif
 }
 
 void BrowserWindow::loadConfig() {
@@ -707,6 +719,11 @@ void BrowserWindow::loadConfig() {
 	view->setPlayers(players.availablePlayers());
 #else
 	view->setPlayer(HCPLAYER_NAME);
+#endif
+
+#ifdef USE_SITES
+	sites.load(settings);
+	home_page = sites.currentSite().homeUrl();
 #endif
 }
 
