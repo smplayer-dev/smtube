@@ -549,6 +549,7 @@ void BrowserWindow::showConfigDialog() {
 	#ifdef USE_SITES
 	d.setSites(sites.allSites());
 	d.setCurrentSite(sites.current());
+	bool needs_refresh = false;
 	#endif
 
 	#ifdef D_BUTTON
@@ -573,6 +574,7 @@ void BrowserWindow::showConfigDialog() {
 		int current_site = d.currentSite();
 		if (current_site != sites.current()) {
 			sites.setCurrent(current_site);
+			needs_refresh = true;
 		}
 		#endif
 
@@ -588,6 +590,10 @@ void BrowserWindow::showConfigDialog() {
 		setStyle(d.style());
 		#endif
 	}
+
+	#ifdef USE_SITES
+	if (needs_refresh) loadHomePage();
+	#endif
 }
 
 void BrowserWindow::saveConfig() {
