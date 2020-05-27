@@ -28,6 +28,10 @@
 #include "players.h"
 #endif
 
+#ifdef USE_SITES
+#include "sites.h"
+#endif
+
 class ConfigDialog : public QDialog, public Ui::ConfigDialog
 {
 	Q_OBJECT
@@ -53,6 +57,13 @@ public:
 #ifdef STYLE_SWITCHING
 	void setStyle(const QString & style);
 	QString style();
+#endif
+
+#ifdef USE_SITES
+	void setSites(QList<Site> list);
+
+	void setCurrentSite(int c);
+	int currentSite();
 #endif
 
 #ifdef USE_PLAYERS

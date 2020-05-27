@@ -77,6 +77,10 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	style_label->hide();
 	style_combo->hide();
 #endif
+
+#ifndef USE_SITES
+	sites_group->hide();
+#endif
 }
 
 ConfigDialog::~ConfigDialog() {
@@ -113,6 +117,24 @@ void ConfigDialog::setExternalDownloadUrl(const QString & url) {
 
 QString ConfigDialog::externalDownloadUrl() {
 	return external_download_combo->currentText();
+}
+#endif
+
+#ifdef USE_SITES
+void ConfigDialog::setSites(QList<Site> list) {
+	for (int n = 0; n < list.count(); n++) {
+		sites_combo->addItem(list[n].name());
+	}
+}
+
+void ConfigDialog::setCurrentSite(int c) {
+	int index = 0;
+	if (c < sites_combo->count()) index = c;
+	sites_combo->setCurrentIndex(index);
+}
+
+int ConfigDialog::currentSite() {
+	return sites_combo->currentIndex();
 }
 #endif
 

@@ -26,7 +26,7 @@
       <attribute name="title">
        <string>&amp;General</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_3">
+      <layout class="QVBoxLayout" name="verticalLayout_7">
        <item>
         <widget class="QGroupBox" name="playback_group">
          <property name="title">
@@ -84,6 +84,18 @@
              <bool>true</bool>
             </property>
            </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="sites_group">
+         <property name="title">
+          <string>Site</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QComboBox" name="sites_combo"/>
           </item>
          </layout>
         </widget>
@@ -335,6 +347,7 @@
   <tabstop>playback_resolution_combo</tabstop>
   <tabstop>add_download_check</tabstop>
   <tabstop>external_download_combo</tabstop>
+  <tabstop>sites_combo</tabstop>
   <tabstop>buttonBox</tabstop>
   <tabstop>table</tabstop>
   <tabstop>up_button</tabstop>
