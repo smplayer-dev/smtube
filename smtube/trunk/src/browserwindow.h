@@ -28,6 +28,10 @@
 #include "hcplayer.h"
 #endif
 
+#ifdef USE_SITES
+#include "sites.h"
+#endif
+
 class QToolBar;
 class MyWebView;
 class QLineEdit;
@@ -116,6 +120,10 @@ private:
 	Players players;
 #endif
 	int current_player;
+
+#ifdef USE_SITES
+	Sites sites;
+#endif
 
 #ifdef D_BUTTON
 	bool add_download_button;
