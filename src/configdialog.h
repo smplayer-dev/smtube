@@ -61,6 +61,7 @@ public:
 
 #ifdef USE_SITES
 	void setSites(QList<Site> list);
+	QList<Site> sites() { return site_list; }
 
 	void setCurrentSite(int c);
 	int currentSite();
@@ -92,6 +93,7 @@ protected slots:
 	void on_add_site_button_clicked();
 
 protected:
+	void refreshSitesCombo();
 	QList<Site> site_list;
 #endif
 

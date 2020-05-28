@@ -576,6 +576,7 @@ void BrowserWindow::showConfigDialog() {
 			sites.setCurrent(current_site);
 			needs_refresh = true;
 		}
+		sites.setAllSites(d.sites());
 		#endif
 
 		#ifdef D_BUTTON

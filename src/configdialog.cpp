@@ -127,9 +127,16 @@ QString ConfigDialog::externalDownloadUrl() {
 #ifdef USE_SITES
 void ConfigDialog::setSites(QList<Site> list) {
 	site_list = list;
-	for (int n = 0; n < list.count(); n++) {
-		sites_combo->addItem(list[n].name());
+	refreshSitesCombo();
+}
+
+void ConfigDialog::refreshSitesCombo() {
+	int i = sites_combo->currentIndex();
+	sites_combo->clear();
+	for (int n = 0; n < site_list.count(); n++) {
+		sites_combo->addItem(site_list[n].name());
 	}
+	sites_combo->setCurrentIndex(i);
 }
 
 void ConfigDialog::setCurrentSite(int c) {
@@ -150,11 +157,19 @@ void ConfigDialog::on_edit_site_button_clicked() {
 	d.setSite(site_list[i]);
 
 	if (d.exec() == QDialog::Accepted) {
+		site_list[i] = d.site();
+		refreshSitesCombo();
 	}
 }
 
 void ConfigDialog::on_add_site_button_clicked() {
 	qDebug("ConfigDialog::on_add_site_button_clicked");
+
+	SiteDialog d(this);
+	if (d.exec() == QDialog::Accepted) {
+		site_list << d.site();
+		refreshSitesCombo();
+	}
 }
 #endif
 
