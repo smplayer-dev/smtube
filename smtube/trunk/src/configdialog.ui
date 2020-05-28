@@ -138,6 +138,10 @@
               <property name="text">
                <string>A&amp;dd..</string>
               </property>
+              <property name="icon">
+               <iconset resource="icons.qrc">
+                <normaloff>:/icons/list-add.png</normaloff>:/icons/list-add.png</iconset>
+              </property>
              </widget>
             </item>
             <item>
