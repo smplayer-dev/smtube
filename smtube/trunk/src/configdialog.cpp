@@ -26,6 +26,10 @@
 #include "retrieveyoutubeurl.h"
 #include "playerdialog.h"
 
+#ifdef USE_SITES
+#include "sitedialog.h"
+#endif
+
 #if QT_VERSION >= 0x050000
 #include "myscroller.h"
 #endif
@@ -122,6 +126,7 @@ QString ConfigDialog::externalDownloadUrl() {
 
 #ifdef USE_SITES
 void ConfigDialog::setSites(QList<Site> list) {
+	site_list = list;
 	for (int n = 0; n < list.count(); n++) {
 		sites_combo->addItem(list[n].name());
 	}
@@ -135,6 +140,21 @@ void ConfigDialog::setCurrentSite(int c) {
 
 int ConfigDialog::currentSite() {
 	return sites_combo->currentIndex();
+}
+
+void ConfigDialog::on_edit_site_button_clicked() {
+	qDebug("ConfigDialog::on_edit_site_button_clicked");
+
+	int i = sites_combo->currentIndex();
+	SiteDialog d(this);
+	d.setSite(site_list[i]);
+
+	if (d.exec() == QDialog::Accepted) {
+	}
+}
+
+void ConfigDialog::on_add_site_button_clicked() {
+	qDebug("ConfigDialog::on_add_site_button_clicked");
 }
 #endif
 

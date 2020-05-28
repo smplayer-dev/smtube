@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>EditSiteDialog</class>
- <widget class="QDialog" name="EditSiteDialog">
+ <class>SiteDialog</class>
+ <widget class="QDialog" name="SiteDialog">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>648</width>
+    <height>150</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -36,7 +36,7 @@
      <item>
       <widget class="QLabel" name="label_2">
        <property name="text">
-        <string>&amp;Home page URL::</string>
+        <string>&amp;Home page URL:</string>
        </property>
        <property name="buddy">
         <cstring>home_edit</cstring>
@@ -66,19 +66,6 @@
     </layout>
    </item>
    <item>
-    <spacer name="verticalSpacer">
-     <property name="orientation">
-      <enum>Qt::Vertical</enum>
-     </property>
-     <property name="sizeHint" stdset="0">
-      <size>
-       <width>20</width>
-       <height>40</height>
-      </size>
-     </property>
-    </spacer>
-   </item>
-   <item>
     <widget class="QDialogButtonBox" name="buttonBox">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
@@ -101,7 +88,7 @@
   <connection>
    <sender>buttonBox</sender>
    <signal>accepted()</signal>
-   <receiver>EditSiteDialog</receiver>
+   <receiver>SiteDialog</receiver>
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -117,7 +104,7 @@
   <connection>
    <sender>buttonBox</sender>
    <signal>rejected()</signal>
-   <receiver>EditSiteDialog</receiver>
+   <receiver>SiteDialog</receiver>
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">
