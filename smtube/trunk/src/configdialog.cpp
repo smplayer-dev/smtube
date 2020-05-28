@@ -55,7 +55,8 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	MyScroller::setScroller(table);
 	#endif
 #else
-	tabs->setTabEnabled(1, false);
+	//tabs->setTabEnabled(1, false);
+	tabs->removeTab(1);
 #endif
 
 	playback_resolution_combo->addItem( "240p", RetrieveYoutubeUrl::R240p );
