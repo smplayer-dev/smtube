@@ -72,9 +72,9 @@ contains(DEFINES, USE_PLAYERS) {
 }
 
 contains(DEFINES, USE_SITES) {
-	HEADERS += sites.h
-	SOURCES += sites.cpp
-	FORMS += editsitedialog.ui
+	HEADERS += sites.h sitedialog.h
+	SOURCES += sites.cpp sitedialog.cpp
+	FORMS += sitedialog.ui
 }
 
 contains( DEFINES, HDPI_SUPPORT ) {

@@ -86,6 +86,15 @@ protected:
 	QList<Player> default_players;
 #endif
 
+#ifdef USE_SITES
+protected slots:
+	void on_edit_site_button_clicked();
+	void on_add_site_button_clicked();
+
+protected:
+	QList<Site> site_list;
+#endif
+
 protected slots:
 	void on_change_font_button_clicked();
 };
