@@ -124,7 +124,7 @@
           <item>
            <widget class="QPushButton" name="add_site_button">
             <property name="text">
-             <string>A&amp;dd..</string>
+             <string>A&amp;dd...</string>
             </property>
             <property name="icon">
              <iconset resource="icons.qrc">
