@@ -77,97 +77,97 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="113"/>
+        <location filename="../browserwindow.cpp" line="112"/>
         <source>Home</source>
         <translation>ホーム</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="116"/>
+        <location filename="../browserwindow.cpp" line="115"/>
         <source>Navigation</source>
         <translation>ナビゲーション</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="124"/>
+        <location filename="../browserwindow.cpp" line="123"/>
         <source>Zoom +</source>
         <translation>拡大</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="128"/>
+        <location filename="../browserwindow.cpp" line="127"/>
         <source>Zoom -</source>
         <translation>縮小</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="132"/>
+        <location filename="../browserwindow.cpp" line="131"/>
         <source>&amp;Quit</source>
         <translation>終了(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="135"/>
+        <location filename="../browserwindow.cpp" line="134"/>
         <source>&amp;Navigation</source>
         <translation>操作(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="147"/>
+        <location filename="../browserwindow.cpp" line="146"/>
         <source>&amp;View</source>
         <translation>表示(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="147"/>
         <source>Toolbar</source>
         <translation>ツール バー</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="151"/>
         <source>Statusbar</source>
         <translation>ステータス バー</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="156"/>
+        <location filename="../browserwindow.cpp" line="155"/>
         <source>&amp;Settings</source>
         <translation>設定(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="164"/>
+        <location filename="../browserwindow.cpp" line="163"/>
         <source>&amp;Help</source>
         <translation>ヘルプ(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="168"/>
+        <location filename="../browserwindow.cpp" line="167"/>
         <source>&amp;Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube 再生サポートの更新(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="170"/>
+        <location filename="../browserwindow.cpp" line="169"/>
         <source>&amp;Install / Update YouTube playback support</source>
         <translation>YouTube 再生サポートのインストール / 更新(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="176"/>
+        <location filename="../browserwindow.cpp" line="175"/>
         <source>&amp;About SMTube</source>
         <translation>SMTube のバージョン情報(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="284"/>
+        <location filename="../browserwindow.cpp" line="296"/>
         <source>Download video using an external service</source>
         <translation>外部サービスを使用して動画をダウンロードする</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="285"/>
+        <location filename="../browserwindow.cpp" line="297"/>
         <source>Download</source>
         <translation>ダウンロード</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="520"/>
         <source>No video found</source>
         <translation>動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="521"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>この動画の URL を見つけることができませんでした。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="270"/>
+        <location filename="../browserwindow.cpp" line="282"/>
         <source>Loading... %1%</source>
         <translation>読み込み中... %1%</translation>
     </message>
@@ -277,17 +277,22 @@
         <translation>全般(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="108"/>
+        <location filename="../configdialog.ui" line="127"/>
+        <source>A&amp;dd...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="166"/>
         <source>&amp;Players</source>
         <translation>プレーヤー(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="156"/>
+        <location filename="../configdialog.ui" line="214"/>
         <source>Add</source>
         <translation>追加</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="121"/>
+        <location filename="../configdialog.ui" line="179"/>
         <source>Up</source>
         <translation>上へ</translation>
     </message>
@@ -302,37 +307,57 @@
         <translation>優先する品質(&amp;Q):</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="167"/>
+        <location filename="../configdialog.ui" line="94"/>
+        <source>Sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="100"/>
+        <source>&amp;Site:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="120"/>
+        <source>Edi&amp;t...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="138"/>
+        <source>De&amp;lete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="225"/>
         <source>Delete</source>
         <translation>削除</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="191"/>
+        <location filename="../configdialog.ui" line="249"/>
         <source>Edit</source>
         <translation>編集</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="204"/>
+        <location filename="../configdialog.ui" line="262"/>
         <source>A&amp;dd predefined players</source>
         <translation>定義済みプレーヤーの追加(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="240"/>
+        <location filename="../configdialog.ui" line="298"/>
         <source>&amp;Interface</source>
         <translation>インターフェイス(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="248"/>
+        <location filename="../configdialog.ui" line="306"/>
         <source>&amp;Style:</source>
         <translation>スタイル(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="284"/>
+        <location filename="../configdialog.ui" line="342"/>
         <source>Font:</source>
         <translation>フォント:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="298"/>
+        <location filename="../configdialog.ui" line="356"/>
         <source>C&amp;hange...</source>
         <translation>変更(&amp;H)...</translation>
     </message>
@@ -347,12 +372,12 @@
         <translation>外部サービスを使用して動画をダウンロードする(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="132"/>
+        <location filename="../configdialog.ui" line="190"/>
         <source>Down</source>
         <translation>下へ</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="74"/>
+        <location filename="../configdialog.cpp" line="79"/>
         <source>Default</source>
         <translation>既定</translation>
     </message>
@@ -489,6 +514,29 @@
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>既定</translation>
+    </message>
+</context>
+<context>
+    <name>SiteDialog</name>
+    <message>
+        <location filename="../sitedialog.ui" line="14"/>
+        <source>Edit Site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="22"/>
+        <source>&amp;Name:</source>
+        <translation type="unfinished">名前(&amp;N):</translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="39"/>
+        <source>&amp;Home page URL:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="56"/>
+        <source>&amp;Search URL:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

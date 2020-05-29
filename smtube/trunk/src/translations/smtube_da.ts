@@ -77,97 +77,97 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="113"/>
+        <location filename="../browserwindow.cpp" line="112"/>
         <source>Home</source>
         <translation>Hjem</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="116"/>
+        <location filename="../browserwindow.cpp" line="115"/>
         <source>Navigation</source>
         <translation>Navigation</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="124"/>
+        <location filename="../browserwindow.cpp" line="123"/>
         <source>Zoom +</source>
         <translation>Zoom +</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="128"/>
+        <location filename="../browserwindow.cpp" line="127"/>
         <source>Zoom -</source>
         <translation>Zoom -</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="132"/>
+        <location filename="../browserwindow.cpp" line="131"/>
         <source>&amp;Quit</source>
         <translation>&amp;Afslut</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="135"/>
+        <location filename="../browserwindow.cpp" line="134"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navigation</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="147"/>
+        <location filename="../browserwindow.cpp" line="146"/>
         <source>&amp;View</source>
         <translation>&amp;Vis</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="147"/>
         <source>Toolbar</source>
         <translation>Værktøjslinje</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="151"/>
         <source>Statusbar</source>
         <translation>Statuslinje</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="156"/>
+        <location filename="../browserwindow.cpp" line="155"/>
         <source>&amp;Settings</source>
         <translation>&amp;Indstillinger</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="164"/>
+        <location filename="../browserwindow.cpp" line="163"/>
         <source>&amp;Help</source>
         <translation>&amp;Hjælp</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="168"/>
+        <location filename="../browserwindow.cpp" line="167"/>
         <source>&amp;Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opdater understøttelse af YouTube-afspilning</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="170"/>
+        <location filename="../browserwindow.cpp" line="169"/>
         <source>&amp;Install / Update YouTube playback support</source>
         <translation>&amp;Installer/opdater understøttelse af YouTube-afspilning</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="176"/>
+        <location filename="../browserwindow.cpp" line="175"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;Om SMTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="284"/>
+        <location filename="../browserwindow.cpp" line="296"/>
         <source>Download video using an external service</source>
         <translation>Download video ved brug af en ekstern tjeneste</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="285"/>
+        <location filename="../browserwindow.cpp" line="297"/>
         <source>Download</source>
         <translation>Download</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="520"/>
         <source>No video found</source>
         <translation>Der blev ikke fundet nogen video</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="521"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Det var ikke muligt at finde videoens URL.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="270"/>
+        <location filename="../browserwindow.cpp" line="282"/>
         <source>Loading... %1%</source>
         <translation>Indlæser ... %1%</translation>
     </message>
@@ -277,17 +277,22 @@
         <translation>&amp;Generelt</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="108"/>
+        <location filename="../configdialog.ui" line="127"/>
+        <source>A&amp;dd...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="166"/>
         <source>&amp;Players</source>
         <translation>&amp;Afspillere</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="156"/>
+        <location filename="../configdialog.ui" line="214"/>
         <source>Add</source>
         <translation>Tilføj</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="121"/>
+        <location filename="../configdialog.ui" line="179"/>
         <source>Up</source>
         <translation>Op</translation>
     </message>
@@ -302,37 +307,57 @@
         <translation>Foretrukket &amp;kvalitet:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="167"/>
+        <location filename="../configdialog.ui" line="94"/>
+        <source>Sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="100"/>
+        <source>&amp;Site:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="120"/>
+        <source>Edi&amp;t...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="138"/>
+        <source>De&amp;lete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="225"/>
         <source>Delete</source>
         <translation>Slet</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="191"/>
+        <location filename="../configdialog.ui" line="249"/>
         <source>Edit</source>
         <translation>Rediger</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="204"/>
+        <location filename="../configdialog.ui" line="262"/>
         <source>A&amp;dd predefined players</source>
         <translation>&amp;Tilføj foruddefinerede afspillere</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="240"/>
+        <location filename="../configdialog.ui" line="298"/>
         <source>&amp;Interface</source>
         <translation>&amp;Grænseflade</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="248"/>
+        <location filename="../configdialog.ui" line="306"/>
         <source>&amp;Style:</source>
         <translation>&amp;Stil:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="284"/>
+        <location filename="../configdialog.ui" line="342"/>
         <source>Font:</source>
         <translation>Skrifttype:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="298"/>
+        <location filename="../configdialog.ui" line="356"/>
         <source>C&amp;hange...</source>
         <translation>&amp;Vælg ...</translation>
     </message>
@@ -347,12 +372,12 @@
         <translation>Download video ved brug af en &amp;ekstern tjeneste</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="132"/>
+        <location filename="../configdialog.ui" line="190"/>
         <source>Down</source>
         <translation>Ned</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="74"/>
+        <location filename="../configdialog.cpp" line="79"/>
         <source>Default</source>
         <translation>Standard</translation>
     </message>
@@ -489,6 +514,29 @@
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>Standard</translation>
+    </message>
+</context>
+<context>
+    <name>SiteDialog</name>
+    <message>
+        <location filename="../sitedialog.ui" line="14"/>
+        <source>Edit Site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="22"/>
+        <source>&amp;Name:</source>
+        <translation type="unfinished">&amp;Navn:</translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="39"/>
+        <source>&amp;Home page URL:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="56"/>
+        <source>&amp;Search URL:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
