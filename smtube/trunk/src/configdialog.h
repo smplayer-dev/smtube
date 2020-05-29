@@ -91,6 +91,7 @@ protected:
 protected slots:
 	void on_edit_site_button_clicked();
 	void on_add_site_button_clicked();
+	void on_delete_site_button_clicked();
 
 protected:
 	void refreshSitesCombo();

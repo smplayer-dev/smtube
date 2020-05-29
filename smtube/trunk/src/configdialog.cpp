@@ -137,7 +137,11 @@ void ConfigDialog::refreshSitesCombo() {
 	for (int n = 0; n < site_list.count(); n++) {
 		sites_combo->addItem(site_list[n].name());
 	}
+
+	if (i > (sites_combo->count()-1)) i = sites_combo->count()-1;
 	sites_combo->setCurrentIndex(i);
+
+	delete_site_button->setEnabled(sites_combo->count() > 1);
 }
 
 void ConfigDialog::setCurrentSite(int c) {
@@ -169,6 +173,16 @@ void ConfigDialog::on_add_site_button_clicked() {
 	SiteDialog d(this);
 	if (d.exec() == QDialog::Accepted) {
 		site_list << d.site();
+		refreshSitesCombo();
+	}
+}
+
+void ConfigDialog::on_delete_site_button_clicked() {
+	qDebug("ConfigDialog::on_delete_site_button_clicked");
+
+	if (site_list.count() > 1) {
+		int i = sites_combo->currentIndex();
+		site_list.removeAt(i);
 		refreshSitesCombo();
 	}
 }
