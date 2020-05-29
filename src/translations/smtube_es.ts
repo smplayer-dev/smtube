@@ -77,67 +77,67 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="113"/>
+        <location filename="../browserwindow.cpp" line="112"/>
         <source>Home</source>
         <translation>Inicio</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="116"/>
+        <location filename="../browserwindow.cpp" line="115"/>
         <source>Navigation</source>
         <translation>Navegación</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="124"/>
+        <location filename="../browserwindow.cpp" line="123"/>
         <source>Zoom +</source>
         <translation>Ampliar</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="128"/>
+        <location filename="../browserwindow.cpp" line="127"/>
         <source>Zoom -</source>
         <translation>Reducir</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="132"/>
+        <location filename="../browserwindow.cpp" line="131"/>
         <source>&amp;Quit</source>
         <translation>&amp;Salir</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="135"/>
+        <location filename="../browserwindow.cpp" line="134"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navegación</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="147"/>
+        <location filename="../browserwindow.cpp" line="146"/>
         <source>&amp;View</source>
         <translation>&amp;Ver</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="147"/>
         <source>Toolbar</source>
         <translation>Barra de herramientas</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="151"/>
         <source>Statusbar</source>
         <translation>Barra de estado</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="156"/>
+        <location filename="../browserwindow.cpp" line="155"/>
         <source>&amp;Settings</source>
         <translation>&amp;Configuración</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="164"/>
+        <location filename="../browserwindow.cpp" line="163"/>
         <source>&amp;Help</source>
         <translation>&amp;Ayuda</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="168"/>
+        <location filename="../browserwindow.cpp" line="167"/>
         <source>&amp;Update YouTube playback support</source>
         <translation>Actualizar el código para reproducir vídeos de &amp;YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="170"/>
+        <location filename="../browserwindow.cpp" line="169"/>
         <source>&amp;Install / Update YouTube playback support</source>
         <translation>&amp;Instalar / Actualizar el código para reproducir vídeos de YouTube</translation>
     </message>
@@ -150,17 +150,17 @@
         <translation type="obsolete">Acerca de esta &amp;version</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="176"/>
+        <location filename="../browserwindow.cpp" line="175"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;Acerca de SMTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="284"/>
+        <location filename="../browserwindow.cpp" line="296"/>
         <source>Download video using an external service</source>
         <translation>Descargar el vídeo usando un servicio externo</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="285"/>
+        <location filename="../browserwindow.cpp" line="297"/>
         <source>Download</source>
         <translation>Descargar</translation>
     </message>
@@ -177,12 +177,12 @@
         <translation type="obsolete">Lamentablemente el componente OpenSSL, necesario para ello, no no está disponible en el sistema.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="520"/>
         <source>No video found</source>
         <translation>No se ha encontrado ningún vídeo</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="521"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>No ha sido posible encontrar el URL de este vídeo.</translation>
     </message>
@@ -231,7 +231,7 @@
         <translation type="obsolete">Actualizar el código de YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="270"/>
+        <location filename="../browserwindow.cpp" line="282"/>
         <source>Loading... %1%</source>
         <translation>Cargando... %1%</translation>
     </message>
@@ -341,17 +341,22 @@
         <translation>&amp;General</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="108"/>
+        <location filename="../configdialog.ui" line="127"/>
+        <source>A&amp;dd...</source>
+        <translation>Aña&amp;dir...</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="166"/>
         <source>&amp;Players</source>
         <translation>&amp;Reproductores</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="156"/>
+        <location filename="../configdialog.ui" line="214"/>
         <source>Add</source>
         <translation>Añadir</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="121"/>
+        <location filename="../configdialog.ui" line="179"/>
         <source>Up</source>
         <translation>Subir</translation>
     </message>
@@ -366,37 +371,61 @@
         <translation>Calidad &amp;preferida:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="167"/>
+        <location filename="../configdialog.ui" line="94"/>
+        <source>Sites</source>
+        <translation>Sitios Web</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="100"/>
+        <source>&amp;Site:</source>
+        <translation>&amp;Sitio:</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="120"/>
+        <source>Edi&amp;t...</source>
+        <translation>Edi&amp;tar...</translation>
+    </message>
+    <message>
+        <source>A&amp;dd..</source>
+        <translation type="obsolete">Aña&amp;dir...</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="138"/>
+        <source>De&amp;lete</source>
+        <translation>&amp;E&amp;liminar</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="225"/>
         <source>Delete</source>
         <translation>Eliminar</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="191"/>
+        <location filename="../configdialog.ui" line="249"/>
         <source>Edit</source>
         <translation>Editar</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="204"/>
+        <location filename="../configdialog.ui" line="262"/>
         <source>A&amp;dd predefined players</source>
         <translation>Añadir los &amp;reproductores predeterminados</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="240"/>
+        <location filename="../configdialog.ui" line="298"/>
         <source>&amp;Interface</source>
         <translation>&amp;Interfaz</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="248"/>
+        <location filename="../configdialog.ui" line="306"/>
         <source>&amp;Style:</source>
         <translation>&amp;Estilo:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="284"/>
+        <location filename="../configdialog.ui" line="342"/>
         <source>Font:</source>
         <translation>Tipo de letra:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="298"/>
+        <location filename="../configdialog.ui" line="356"/>
         <source>C&amp;hange...</source>
         <translation>Ca&amp;mbiar...</translation>
     </message>
@@ -411,12 +440,12 @@
         <translation>Descargar vídeos usando un servicio &amp;externo</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="132"/>
+        <location filename="../configdialog.ui" line="190"/>
         <source>Down</source>
         <translation>Bajar</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="74"/>
+        <location filename="../configdialog.cpp" line="79"/>
         <source>Default</source>
         <translation>Predeterminado</translation>
     </message>
@@ -553,6 +582,29 @@
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>Predeterminada</translation>
+    </message>
+</context>
+<context>
+    <name>SiteDialog</name>
+    <message>
+        <location filename="../sitedialog.ui" line="14"/>
+        <source>Edit Site</source>
+        <translation>Editar Sitio Web</translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="22"/>
+        <source>&amp;Name:</source>
+        <translation>&amp;Nombre:</translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="39"/>
+        <source>&amp;Home page URL:</source>
+        <translation>&amp;URL de la página principal:</translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="56"/>
+        <source>&amp;Search URL:</source>
+        <translation>URL de la página de &amp;búsqueda:</translation>
     </message>
 </context>
 </TS>

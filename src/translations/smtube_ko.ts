@@ -77,97 +77,97 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="113"/>
+        <location filename="../browserwindow.cpp" line="112"/>
         <source>Home</source>
         <translation>홈</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="116"/>
+        <location filename="../browserwindow.cpp" line="115"/>
         <source>Navigation</source>
         <translation>네비게이션</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="124"/>
+        <location filename="../browserwindow.cpp" line="123"/>
         <source>Zoom +</source>
         <translation>줌 +</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="128"/>
+        <location filename="../browserwindow.cpp" line="127"/>
         <source>Zoom -</source>
         <translation>줌 -</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="132"/>
+        <location filename="../browserwindow.cpp" line="131"/>
         <source>&amp;Quit</source>
         <translation>종료(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="135"/>
+        <location filename="../browserwindow.cpp" line="134"/>
         <source>&amp;Navigation</source>
         <translation>네비게이션(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="147"/>
+        <location filename="../browserwindow.cpp" line="146"/>
         <source>&amp;View</source>
         <translation>보기</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="147"/>
         <source>Toolbar</source>
         <translation>툴바</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="151"/>
         <source>Statusbar</source>
         <translation>상태바</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="156"/>
+        <location filename="../browserwindow.cpp" line="155"/>
         <source>&amp;Settings</source>
         <translation>설정</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="164"/>
+        <location filename="../browserwindow.cpp" line="163"/>
         <source>&amp;Help</source>
         <translation>도움말</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="168"/>
+        <location filename="../browserwindow.cpp" line="167"/>
         <source>&amp;Update YouTube playback support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="170"/>
+        <location filename="../browserwindow.cpp" line="169"/>
         <source>&amp;Install / Update YouTube playback support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="176"/>
+        <location filename="../browserwindow.cpp" line="175"/>
         <source>&amp;About SMTube</source>
         <translation>SMTube 정보</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="284"/>
+        <location filename="../browserwindow.cpp" line="296"/>
         <source>Download video using an external service</source>
         <translation>외부 서비스를 이용해 비디오 다운로드하기</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="285"/>
+        <location filename="../browserwindow.cpp" line="297"/>
         <source>Download</source>
         <translation>다운로드</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="520"/>
         <source>No video found</source>
         <translation>비디오를 찾을 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="521"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>이 비디오의 URL을 찾지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="270"/>
+        <location filename="../browserwindow.cpp" line="282"/>
         <source>Loading... %1%</source>
         <translation>불러오는 중... %1%</translation>
     </message>
@@ -277,17 +277,22 @@
         <translation>일반</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="108"/>
+        <location filename="../configdialog.ui" line="127"/>
+        <source>A&amp;dd...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="166"/>
         <source>&amp;Players</source>
         <translation>재생기(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="156"/>
+        <location filename="../configdialog.ui" line="214"/>
         <source>Add</source>
         <translation>추가</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="121"/>
+        <location filename="../configdialog.ui" line="179"/>
         <source>Up</source>
         <translation>위로</translation>
     </message>
@@ -302,37 +307,57 @@
         <translation>선호 품질:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="167"/>
+        <location filename="../configdialog.ui" line="94"/>
+        <source>Sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="100"/>
+        <source>&amp;Site:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="120"/>
+        <source>Edi&amp;t...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="138"/>
+        <source>De&amp;lete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="225"/>
         <source>Delete</source>
         <translation>삭제</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="191"/>
+        <location filename="../configdialog.ui" line="249"/>
         <source>Edit</source>
         <translation>편집</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="204"/>
+        <location filename="../configdialog.ui" line="262"/>
         <source>A&amp;dd predefined players</source>
         <translation>미리 정의한 재생기 추가하기</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="240"/>
+        <location filename="../configdialog.ui" line="298"/>
         <source>&amp;Interface</source>
         <translation>인터페이스(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="248"/>
+        <location filename="../configdialog.ui" line="306"/>
         <source>&amp;Style:</source>
         <translation>스타일(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="284"/>
+        <location filename="../configdialog.ui" line="342"/>
         <source>Font:</source>
         <translation>글꼴:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="298"/>
+        <location filename="../configdialog.ui" line="356"/>
         <source>C&amp;hange...</source>
         <translation>변경(&amp;H)...</translation>
     </message>
@@ -347,12 +372,12 @@
         <translation>외부 서비스를 이용해 비디오를 다운로드하기(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="132"/>
+        <location filename="../configdialog.ui" line="190"/>
         <source>Down</source>
         <translation>아래로</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="74"/>
+        <location filename="../configdialog.cpp" line="79"/>
         <source>Default</source>
         <translation>기본값</translation>
     </message>
@@ -489,6 +514,29 @@
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>기본</translation>
+    </message>
+</context>
+<context>
+    <name>SiteDialog</name>
+    <message>
+        <location filename="../sitedialog.ui" line="14"/>
+        <source>Edit Site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="22"/>
+        <source>&amp;Name:</source>
+        <translation type="unfinished">이름:</translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="39"/>
+        <source>&amp;Home page URL:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="56"/>
+        <source>&amp;Search URL:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

@@ -77,97 +77,97 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="113"/>
+        <location filename="../browserwindow.cpp" line="112"/>
         <source>Home</source>
         <translation>Домой</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="116"/>
+        <location filename="../browserwindow.cpp" line="115"/>
         <source>Navigation</source>
         <translation>Навигация</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="124"/>
+        <location filename="../browserwindow.cpp" line="123"/>
         <source>Zoom +</source>
         <translation>Масштаб +</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="128"/>
+        <location filename="../browserwindow.cpp" line="127"/>
         <source>Zoom -</source>
         <translation>Масштаб –</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="132"/>
+        <location filename="../browserwindow.cpp" line="131"/>
         <source>&amp;Quit</source>
         <translation>В&amp;ыход</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="135"/>
+        <location filename="../browserwindow.cpp" line="134"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Навигация</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="147"/>
+        <location filename="../browserwindow.cpp" line="146"/>
         <source>&amp;View</source>
         <translation>&amp;Вид</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="147"/>
         <source>Toolbar</source>
         <translation>Панель инструментов</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="151"/>
         <source>Statusbar</source>
         <translation>Панель состояния</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="156"/>
+        <location filename="../browserwindow.cpp" line="155"/>
         <source>&amp;Settings</source>
         <translation>&amp;Настройки</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="164"/>
+        <location filename="../browserwindow.cpp" line="163"/>
         <source>&amp;Help</source>
         <translation>Сп&amp;равка</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="168"/>
+        <location filename="../browserwindow.cpp" line="167"/>
         <source>&amp;Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Обновить поддержку воспроизведения YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="170"/>
+        <location filename="../browserwindow.cpp" line="169"/>
         <source>&amp;Install / Update YouTube playback support</source>
         <translation>&amp;Установить / обновить поддержку воспроизведения YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="176"/>
+        <location filename="../browserwindow.cpp" line="175"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;Об SMTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="284"/>
+        <location filename="../browserwindow.cpp" line="296"/>
         <source>Download video using an external service</source>
         <translation>Загрузить видео, используя внешний сервис</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="285"/>
+        <location filename="../browserwindow.cpp" line="297"/>
         <source>Download</source>
         <translation>Загрузить</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="508"/>
+        <location filename="../browserwindow.cpp" line="520"/>
         <source>No video found</source>
         <translation>Видео не найдено</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="509"/>
+        <location filename="../browserwindow.cpp" line="521"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Невозможно найти ссылку для данного видео.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="270"/>
+        <location filename="../browserwindow.cpp" line="282"/>
         <source>Loading... %1%</source>
         <translation>Загрузка... %1%</translation>
     </message>
@@ -219,49 +219,49 @@
         <location filename="../codedownloader.cpp" line="165"/>
         <location filename="../codedownloader.cpp" line="205"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 не смог связаться с youtube-dl. Он либо не установлен, либо не работает должным образом.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
         <location filename="../codedownloader.cpp" line="209"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Чтобы проигрывать видео с YouTube, %1 требуется внешнее приложение youtube-dl.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="170"/>
         <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>Этот компонент требует частых обновлений.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="171"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы можете обновить его с помощью переустановки SMPlayer. Установщик загрузит и установит самую последнюю версию.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="173"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Установить / обновить поддержку YouTube</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="210"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 может загрузить и установить это приложение для вас.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="211"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Оно загрузится с официального сайта и установится в %1.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="212"/>
         <source>Would you like to proceeed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Хотите продолжить?</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="216"/>
         <location filename="../codedownloader.cpp" line="219"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>Установить поддержку YouTube?</translation>
     </message>
 </context>
 <context>
@@ -277,17 +277,22 @@
         <translation>&amp;Основные</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="108"/>
+        <location filename="../configdialog.ui" line="127"/>
+        <source>A&amp;dd...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="166"/>
         <source>&amp;Players</source>
         <translation>&amp;Плееры</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="156"/>
+        <location filename="../configdialog.ui" line="214"/>
         <source>Add</source>
         <translation>Добавить</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="121"/>
+        <location filename="../configdialog.ui" line="179"/>
         <source>Up</source>
         <translation>Выше</translation>
     </message>
@@ -302,37 +307,57 @@
         <translation>Предпочтительное &amp;качество:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="167"/>
+        <location filename="../configdialog.ui" line="94"/>
+        <source>Sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="100"/>
+        <source>&amp;Site:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="120"/>
+        <source>Edi&amp;t...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="138"/>
+        <source>De&amp;lete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="225"/>
         <source>Delete</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="191"/>
+        <location filename="../configdialog.ui" line="249"/>
         <source>Edit</source>
         <translation>Правка</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="204"/>
+        <location filename="../configdialog.ui" line="262"/>
         <source>A&amp;dd predefined players</source>
         <translation>&amp;Добавить преднастроенные плееры</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="240"/>
+        <location filename="../configdialog.ui" line="298"/>
         <source>&amp;Interface</source>
         <translation>&amp;Внешний вид</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="248"/>
+        <location filename="../configdialog.ui" line="306"/>
         <source>&amp;Style:</source>
         <translation>&amp;Стиль:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="284"/>
+        <location filename="../configdialog.ui" line="342"/>
         <source>Font:</source>
         <translation>Шрифт:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="298"/>
+        <location filename="../configdialog.ui" line="356"/>
         <source>C&amp;hange...</source>
         <translation>Из&amp;менить...</translation>
     </message>
@@ -347,12 +372,12 @@
         <translation>Загрузить видео, используя &amp;внешний сервис</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="132"/>
+        <location filename="../configdialog.ui" line="190"/>
         <source>Down</source>
         <translation>Вниз</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="74"/>
+        <location filename="../configdialog.cpp" line="79"/>
         <source>Default</source>
         <translation>По умолчанию</translation>
     </message>
@@ -489,6 +514,29 @@
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>По умолчанию</translation>
+    </message>
+</context>
+<context>
+    <name>SiteDialog</name>
+    <message>
+        <location filename="../sitedialog.ui" line="14"/>
+        <source>Edit Site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="22"/>
+        <source>&amp;Name:</source>
+        <translation type="unfinished">&amp;Имя:</translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="39"/>
+        <source>&amp;Home page URL:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sitedialog.ui" line="56"/>
+        <source>&amp;Search URL:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
