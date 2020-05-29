@@ -101,29 +101,22 @@ QString Player::executable(bool * found) {
 
 Players::Players() {
 #ifdef Q_OS_WIN
-	list.push_back( Player("SMPlayer", "smplayer.exe", "%u", true, true, Player::Video) );
-	list.push_back( Player("SMPlayer (audio)", "smplayer.exe", "%u -media-title %t", true, false, Player::Audio) );
-	list.push_back( Player("SMPlayer (add to playlist)", "smplayer.exe", "-add-to-playlist %u", true, true, Player::VideoAudio) );
-	/*
-	list.push_back( Player("VLC", "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe", "%u --meta-title=%t", false) );
-	*/
-	#ifdef D_PLAYERS
-	//list.push_back( Player("yoDownet", "yoDownet.exe", "%u -o %f", false, false, Player::VideoAudio) );
-	#endif
+	list << Player("SMPlayer", "smplayer.exe", "%u", true, true, Player::Video)
+		 << Player("SMPlayer (audio)", "smplayer.exe", "%u -media-title %t", true, false, Player::Audio)
+		 << Player("SMPlayer (add to playlist)", "smplayer.exe", "-add-to-playlist %u", true, true, Player::VideoAudio);
 #else
-	list.push_back( Player("SMPlayer", "smplayer", "%u", true, true, Player::Video) );
-	list.push_back( Player("SMPlayer (audio)", "smplayer", "%u -media-title %t", true, false, Player::Audio) );
-	list.push_back( Player("SMPlayer (add to playlist)", "smplayer", "-add-to-playlist %u", true, true, Player::VideoAudio) );
-	list.push_back( Player("MPlayer", "mplayer", "%u -title %t", false, false, Player::Video) );
-	list.push_back( Player("VLC", "vlc", "%u --meta-title=%t", false, true, Player::VideoAudio) );
-	list.push_back( Player("Dragon Player", "dragon", "%u", false, false, Player::VideoAudio) );
-	list.push_back( Player("Totem", "totem", "%u", false, false, Player::VideoAudio) );
-	list.push_back( Player("GNOME-MPlayer", "gnome-mplayer", "%u", false, false, Player::VideoAudio) );
-	list.push_back( Player("mpv", "mpv", "%u --title=%t", false, true, Player::Video) );
-	list.push_back( Player("mpv + youtube-dl", "mpv", "--ytdl --ytdl-format=best %u", true, true, Player::Video) );
+	list << Player("SMPlayer", "smplayer", "%u", true, true, Player::Video)
+		 << Player("SMPlayer (audio)", "smplayer", "%u -media-title %t", true, false, Player::Audio)
+		 << Player("SMPlayer (add to playlist)", "smplayer", "-add-to-playlist %u", true, true, Player::VideoAudio)
+		 << Player("MPlayer", "mplayer", "%u -title %t", false, false, Player::Video)
+		 << Player("VLC", "vlc", "%u --meta-title=%t", false, true, Player::VideoAudio)
+		 << Player("Dragon Player", "dragon", "%u", false, false, Player::VideoAudio)
+		 << Player("Totem", "totem", "%u", false, false, Player::VideoAudio)
+		 << Player("GNOME-MPlayer", "gnome-mplayer", "%u", false, false, Player::VideoAudio)
+		 << Player("mpv", "mpv", "%u --title=%t", false, true, Player::Video)
+		 << Player("mpv + youtube-dl", "mpv", "--ytdl --ytdl-format=best %u", true, true, Player::Video);
 	#ifdef D_PLAYERS
-	list.push_back( Player("uget", "uget-gtk", "--quiet --folder=/tmp --filename=%f %u", false, false, Player::VideoAudio) );
-	//list.push_back( Player("yoDownet", "yoDownet", "%u -o %f", false, false, Player::VideoAudio) );
+	list << Player("uget", "uget-gtk", "--quiet --folder=/tmp --filename=%f %u", false, false, Player::VideoAudio);
 	#endif
 #endif
 	default_list = list;
