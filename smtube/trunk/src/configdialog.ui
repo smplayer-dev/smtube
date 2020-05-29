@@ -135,7 +135,7 @@
           <item>
            <widget class="QPushButton" name="delete_site_button">
             <property name="text">
-             <string>&amp;Delete</string>
+             <string>De&amp;lete</string>
             </property>
             <property name="icon">
              <iconset resource="icons.qrc">
