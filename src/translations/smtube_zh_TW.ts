@@ -279,7 +279,7 @@
     <message>
         <location filename="../configdialog.ui" line="127"/>
         <source>A&amp;dd...</source>
-        <translation type="unfinished"></translation>
+        <translation>新增……(&amp;D)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="166"/>
@@ -309,22 +309,22 @@
     <message>
         <location filename="../configdialog.ui" line="94"/>
         <source>Sites</source>
-        <translation type="unfinished"></translation>
+        <translation>網站</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="100"/>
         <source>&amp;Site:</source>
-        <translation type="unfinished"></translation>
+        <translation>網站：(&amp;S)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="120"/>
         <source>Edi&amp;t...</source>
-        <translation type="unfinished"></translation>
+        <translation>編輯……(&amp;T)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="138"/>
         <source>De&amp;lete</source>
-        <translation type="unfinished"></translation>
+        <translation>刪除(&amp;L)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="225"/>
@@ -521,22 +521,22 @@
     <message>
         <location filename="../sitedialog.ui" line="14"/>
         <source>Edit Site</source>
-        <translation type="unfinished"></translation>
+        <translation>編輯網站</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="22"/>
         <source>&amp;Name:</source>
-        <translation type="unfinished">名稱(&amp;N)：</translation>
+        <translation>名稱：(&amp;N)</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="39"/>
         <source>&amp;Home page URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>首頁 URL：(&amp;H)</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="56"/>
         <source>&amp;Search URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>搜尋 URL：(&amp;S)</translation>
     </message>
 </context>
 </TS>
