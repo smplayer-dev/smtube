@@ -134,12 +134,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="167"/>
         <source>&amp;Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ενημέρωση της υποστήριξης για το &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="169"/>
         <source>&amp;Install / Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Εγκατάσταση / Ενημέρωση της υποστήριξης για το &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="175"/>
@@ -177,91 +177,91 @@
     <message>
         <location filename="../codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Λήψη...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνδέεται στο %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="145"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ο κώδικας για το YouTube εγκαταστάθηκε επιτυχώς.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="146"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Εγκατεστημένη έκδοση: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιτυχία</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <location filename="../codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Σφάλμα</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αδύνατη η αποθήκευση του %1.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνέβη σφάλμα κατά την λήψη του αρχείου:&lt;br&gt;%1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="165"/>
         <location filename="../codedownloader.cpp" line="205"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το %1 απέτυχε να επικοινωνήσει με το youtube-dl. Είτε δεν είναι εγκατεστημένο, είτε δεν λειτουργεί σωστά.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
         <location filename="../codedownloader.cpp" line="209"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Για την αναπαραγωγή των βίντεο από το YouTube, το %1 χρειάζεται μια εξωτερική εφαρμογή το youtube-dl.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="170"/>
         <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτό το συστατικό απαιτεί συχνές ενημερώσεις.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="171"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <translation>Μπορείτε να το ενημερώσετε με επανεγκατάσταση του SMPlayer. Ο εγκαταστάτης θα τηλεφορτώσει την τελευταία έκδοση.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="173"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Εγκατάσταση / Ενημέρωση της υποστήριξης για το YouTube</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="210"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το %1 μπορεί να κάνει την λήψη και την εγκατάσταση της εφαρμογής αυτής.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="211"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Η λήψη θα γίνει από την επίσημη ιστοσελίδα και θα εγκατασταθεί στο %1.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="212"/>
         <source>Would you like to proceeed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Θέλετε να συνεχίσετε;</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="216"/>
         <location filename="../codedownloader.cpp" line="219"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>Να γίνει η εγκατάσταση της υποστήριξης για το YouTube;</translation>
     </message>
 </context>
 <context>
@@ -279,7 +279,7 @@
     <message>
         <location filename="../configdialog.ui" line="127"/>
         <source>A&amp;dd...</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσ&amp;θήκη...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="166"/>
@@ -309,22 +309,22 @@
     <message>
         <location filename="../configdialog.ui" line="94"/>
         <source>Sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Ιστοσελίδες</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="100"/>
         <source>&amp;Site:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ιστοσελίδα:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="120"/>
         <source>Edi&amp;t...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Επεξεργασία...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="138"/>
         <source>De&amp;lete</source>
-        <translation type="unfinished"></translation>
+        <translation>Διαγρα&amp;φή</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="225"/>
@@ -521,22 +521,22 @@
     <message>
         <location filename="../sitedialog.ui" line="14"/>
         <source>Edit Site</source>
-        <translation type="unfinished"></translation>
+        <translation>Επεξεργασία ιστοσελίδας</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="22"/>
         <source>&amp;Name:</source>
-        <translation type="unfinished">&amp;Όνομα:</translation>
+        <translation>&amp;Όνομα:</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="39"/>
         <source>&amp;Home page URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;URL αρχικής σελίδας:</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="56"/>
         <source>&amp;Search URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>URL ανα&amp;ζήτησης:</translation>
     </message>
 </context>
 </TS>

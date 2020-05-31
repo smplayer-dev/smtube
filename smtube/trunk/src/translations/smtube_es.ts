@@ -139,15 +139,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="169"/>
         <source>&amp;Install / Update YouTube playback support</source>
-        <translation>&amp;Instalar / Actualizar el código para reproducir vídeos de YouTube</translation>
-    </message>
-    <message>
-        <source>&amp;Update the YouTube code</source>
-        <translation type="obsolete">Actualizar el código de &amp;YouTube</translation>
-    </message>
-    <message>
-        <source>About this &amp;release</source>
-        <translation type="obsolete">Acerca de esta &amp;version</translation>
+        <translation>&amp;Instalar/actualizar el código para reproducir vídeos de YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="175"/>
@@ -165,18 +157,6 @@
         <translation>Descargar</translation>
     </message>
     <message>
-        <source>Connection failed</source>
-        <translation type="obsolete">Fallo en la conexión</translation>
-    </message>
-    <message>
-        <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="obsolete">El vídeo que ha solicitado necesita abrir una conexión HTTPS.</translation>
-    </message>
-    <message>
-        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Lamentablemente el componente OpenSSL, necesario para ello, no no está disponible en el sistema.</translation>
-    </message>
-    <message>
         <location filename="../browserwindow.cpp" line="520"/>
         <source>No video found</source>
         <translation>No se ha encontrado ningún vídeo</translation>
@@ -185,50 +165,6 @@
         <location filename="../browserwindow.cpp" line="521"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>No ha sido posible encontrar el URL de este vídeo.</translation>
-    </message>
-    <message>
-        <source>Problems with YouTube</source>
-        <translation type="obsolete">Problemas con YouTube</translation>
-    </message>
-    <message>
-        <source>Unfortunately due to changes in YouTube, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="obsolete">Lamentablemente debido a cambios en YouTube, no se puede reproducir el vídeo «%1».</translation>
-    </message>
-    <message>
-        <source>Do you want to update the YouTube code? This may fix the problem.</source>
-        <translation type="obsolete">¿Quiere actualizar el código de YouTube? Esto podría solucionar el problema.</translation>
-    </message>
-    <message>
-        <source>Maybe updating this application could fix the problem.</source>
-        <translation type="obsolete">Quizás el problema se podría solucionar actualizando esta aplicación.</translation>
-    </message>
-    <message>
-        <source>About this release</source>
-        <translation type="obsolete">Acerca de esta version</translation>
-    </message>
-    <message>
-        <source>Due to changes in YouTube, the old SMTube doesn&apos;t work anymore.</source>
-        <translation type="obsolete">Debido a cambios en YouTube, la versión anterior de SMTube ha dejado de funcionar.</translation>
-    </message>
-    <message>
-        <source>This is a new version of SMTube, written from scratch.</source>
-        <translation type="obsolete">Esta versión de SMTube es completamente nueva, escrita desde cero.</translation>
-    </message>
-    <message>
-        <source>Some functionality is not available yet.</source>
-        <translation type="obsolete">Algunas funciones no están disponibles todavía.</translation>
-    </message>
-    <message>
-        <source>Important:</source>
-        <translation type="obsolete">Importante:</translation>
-    </message>
-    <message>
-        <source>If the VEVO videos fail to play, please use the option %1 in the Help menu.</source>
-        <translation type="obsolete">Si los vídeos de VEVO no se reproducen, use la opción %1 del menú Ayuda.</translation>
-    </message>
-    <message>
-        <source>Update the YouTube code</source>
-        <translation type="obsolete">Actualizar el código de YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="282"/>
@@ -294,17 +230,17 @@
     <message>
         <location filename="../codedownloader.cpp" line="170"/>
         <source>This component needs to be updated frequently.</source>
-        <translation>Este componente hay que actualizarlo con frecuencia.</translation>
+        <translation>Hay que actualizar este componente con frecuencia.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="171"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation>Puedes actualizarlo reinstalando SMPlayer. El instalador descargará e instalará la última versión.</translation>
+        <translation>Puede actualizarlo reinstalando SMPlayer. El instalador descargará e instalará la última versión.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="173"/>
         <source>Install / Update YouTube support</source>
-        <translation>Instalar / Actualizar el soporte para YouTube</translation>
+        <translation>Instalar/actualizar la compatibilidad con YouTube</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="210"/>
@@ -319,13 +255,13 @@
     <message>
         <location filename="../codedownloader.cpp" line="212"/>
         <source>Would you like to proceeed?</source>
-        <translation>¿Quieres continuar?</translation>
+        <translation>¿Quiere continuar?</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="216"/>
         <location filename="../codedownloader.cpp" line="219"/>
         <source>Install YouTube support?</source>
-        <translation>¿Instalar el soporte para YouTube?</translation>
+        <translation>¿Instalar la compatibilidad con YouTube?</translation>
     </message>
 </context>
 <context>
@@ -373,7 +309,7 @@
     <message>
         <location filename="../configdialog.ui" line="94"/>
         <source>Sites</source>
-        <translation>Sitios Web</translation>
+        <translation>Sitios web</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="100"/>
@@ -384,10 +320,6 @@
         <location filename="../configdialog.ui" line="120"/>
         <source>Edi&amp;t...</source>
         <translation>Edi&amp;tar...</translation>
-    </message>
-    <message>
-        <source>A&amp;dd..</source>
-        <translation type="obsolete">Aña&amp;dir...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="138"/>
@@ -589,7 +521,7 @@
     <message>
         <location filename="../sitedialog.ui" line="14"/>
         <source>Edit Site</source>
-        <translation>Editar Sitio Web</translation>
+        <translation>Editar el sitio web</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="22"/>
