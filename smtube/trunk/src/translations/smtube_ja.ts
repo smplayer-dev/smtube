@@ -157,12 +157,12 @@
         <translation>ダウンロード</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="520"/>
+        <location filename="../browserwindow.cpp" line="524"/>
         <source>No video found</source>
         <translation>動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="521"/>
+        <location filename="../browserwindow.cpp" line="525"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>この動画の URL を見つけることができませんでした。</translation>
     </message>
@@ -217,49 +217,58 @@
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="165"/>
-        <location filename="../codedownloader.cpp" line="205"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
         <translation>%1 は youtube-dl との通信に失敗しました。インストールされていないか正しく動作しない可能性があります。</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
-        <location filename="../codedownloader.cpp" line="209"/>
+        <source>It wasn&apos;t possible to find the URL for this video.</source>
+        <translation type="unfinished">この動画の URL を見つけることができませんでした。</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="170"/>
+        <source>Maybe you need to update youtube-dl.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="175"/>
+        <location filename="../codedownloader.cpp" line="208"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
         <translation>YouTube 動画を再生するのに、%1 は youtube-dl という外部アプリケーションを必要とします。</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="170"/>
+        <location filename="../codedownloader.cpp" line="176"/>
         <source>This component needs to be updated frequently.</source>
         <translation>このコンポーネントは頻繁に更新される必要があります。</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="171"/>
+        <location filename="../codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
         <translation>単純に SMPlayer を再インストールして更新できます。インストーラーは最新バージョンをダウンロードおよびインストールします。</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="173"/>
+        <location filename="../codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
         <translation>YouTube サポートのインストール / 更新</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="210"/>
+        <location filename="../codedownloader.cpp" line="209"/>
         <source>%1 can download and install this application for you.</source>
         <translation>%1 はこのアプリケーションをダウンロードおよびインストールします。</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="211"/>
+        <location filename="../codedownloader.cpp" line="210"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
         <translation>公式 Web サイトからダウンロードされ %1 にインストールされます。</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="212"/>
+        <location filename="../codedownloader.cpp" line="211"/>
         <source>Would you like to proceeed?</source>
         <translation>続行しますか?</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="216"/>
-        <location filename="../codedownloader.cpp" line="219"/>
+        <location filename="../codedownloader.cpp" line="215"/>
+        <location filename="../codedownloader.cpp" line="218"/>
         <source>Install YouTube support?</source>
         <translation>YouTube サポートをインストールしますか?</translation>
     </message>
@@ -279,7 +288,7 @@
     <message>
         <location filename="../configdialog.ui" line="127"/>
         <source>A&amp;dd...</source>
-        <translation type="unfinished"></translation>
+        <translation>追加(&amp;D)...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="166"/>
@@ -309,22 +318,22 @@
     <message>
         <location filename="../configdialog.ui" line="94"/>
         <source>Sites</source>
-        <translation type="unfinished"></translation>
+        <translation>サイト</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="100"/>
         <source>&amp;Site:</source>
-        <translation type="unfinished"></translation>
+        <translation>サイト(&amp;S):</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="120"/>
         <source>Edi&amp;t...</source>
-        <translation type="unfinished"></translation>
+        <translation>編集(&amp;T)...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="138"/>
         <source>De&amp;lete</source>
-        <translation type="unfinished"></translation>
+        <translation>削除(&amp;L)</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="225"/>
@@ -521,22 +530,22 @@
     <message>
         <location filename="../sitedialog.ui" line="14"/>
         <source>Edit Site</source>
-        <translation type="unfinished"></translation>
+        <translation>サイトの編集</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="22"/>
         <source>&amp;Name:</source>
-        <translation type="unfinished">名前(&amp;N):</translation>
+        <translation>名前(&amp;N):</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="39"/>
         <source>&amp;Home page URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>ホーム ページの URL(&amp;H):</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="56"/>
         <source>&amp;Search URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>検索 URL(&amp;S):</translation>
     </message>
 </context>
 </TS>

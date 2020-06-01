@@ -134,7 +134,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="167"/>
         <source>&amp;Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>Eguneratu &amp;YouTube irakurketa sostengua</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="169"/>
@@ -157,12 +157,12 @@
         <translation>Jeitsi</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="520"/>
+        <location filename="../browserwindow.cpp" line="524"/>
         <source>No video found</source>
         <translation>Ez da bideorik aurkitu</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="521"/>
+        <location filename="../browserwindow.cpp" line="525"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Ezinezkoa da bideo honen URL-a aurkitzea.</translation>
     </message>
@@ -217,49 +217,58 @@
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="165"/>
-        <location filename="../codedownloader.cpp" line="205"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
         <translation>%1 huts egin du youtube-dl-rekin harremantzean. Edo ez dago ezarrita edo ez du zuzen lan egiten.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
-        <location filename="../codedownloader.cpp" line="209"/>
+        <source>It wasn&apos;t possible to find the URL for this video.</source>
+        <translation type="unfinished">Ezinezkoa da bideo honen URL-a aurkitzea.</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="170"/>
+        <source>Maybe you need to update youtube-dl.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="175"/>
+        <location filename="../codedownloader.cpp" line="208"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
         <translation>YouTube bideoak ikusteko, %1-ek youtube-dl izeneko kanpoko aplikazio bat behar du.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="170"/>
+        <location filename="../codedownloader.cpp" line="176"/>
         <source>This component needs to be updated frequently.</source>
         <translation>Osagai hau maiz eguneratu behar da.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="171"/>
+        <location filename="../codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
         <translation>SMPlayer berriro ezarriz eguneratu dezakezu. Ezartzaileak azken bertsioa jeitsi eta ezarriko du.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="173"/>
+        <location filename="../codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
         <translation>Ezarri / Eguneratu YouTube sostengua</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="210"/>
+        <location filename="../codedownloader.cpp" line="209"/>
         <source>%1 can download and install this application for you.</source>
         <translation>%1-ek ezin du aplikazio hau zure ordez jeitsi eta ezarri.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="211"/>
+        <location filename="../codedownloader.cpp" line="210"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
         <translation>Webgune ofizialetik jeitsiko da eta %1-n ezarri.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="212"/>
+        <location filename="../codedownloader.cpp" line="211"/>
         <source>Would you like to proceeed?</source>
         <translation>Jarraitzea nahi duzu?</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="216"/>
-        <location filename="../codedownloader.cpp" line="219"/>
+        <location filename="../codedownloader.cpp" line="215"/>
+        <location filename="../codedownloader.cpp" line="218"/>
         <source>Install YouTube support?</source>
         <translation>Ezarri YouTube sostengua?</translation>
     </message>
@@ -279,7 +288,7 @@
     <message>
         <location filename="../configdialog.ui" line="127"/>
         <source>A&amp;dd...</source>
-        <translation type="unfinished"></translation>
+        <translation>G&amp;ehitu...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="166"/>
@@ -309,22 +318,22 @@
     <message>
         <location filename="../configdialog.ui" line="94"/>
         <source>Sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Guneak</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="100"/>
         <source>&amp;Site:</source>
-        <translation type="unfinished"></translation>
+        <translation>G&amp;unea:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="120"/>
         <source>Edi&amp;t...</source>
-        <translation type="unfinished"></translation>
+        <translation>Edi&amp;tatu...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="138"/>
         <source>De&amp;lete</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;zabatu</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="225"/>
@@ -521,22 +530,22 @@
     <message>
         <location filename="../sitedialog.ui" line="14"/>
         <source>Edit Site</source>
-        <translation type="unfinished"></translation>
+        <translation>Editatu Gunea</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="22"/>
         <source>&amp;Name:</source>
-        <translation type="unfinished">&amp;Izena:</translation>
+        <translation>&amp;Izena:</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="39"/>
         <source>&amp;Home page URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>Et&amp;xeko orrialde URL-a:</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="56"/>
         <source>&amp;Search URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bilatu URL-a:</translation>
     </message>
 </context>
 </TS>
