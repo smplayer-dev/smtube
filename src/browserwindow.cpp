@@ -517,8 +517,13 @@ void BrowserWindow::openYTAudioUrl(const QString &, int) {
 
 void BrowserWindow::showErrorEmptyList() {
 	qDebug() << "showErrorEmptyList";
+
+#ifdef CODEDOWNLOADER
+	CodeDownloader::askAndDownload(this, CodeDownloader::UrlNotFound);
+#else
 	QMessageBox::warning(this, tr("No video found"),
 		tr("It wasn't possible to find the URL for this video."));
+#endif
 }
 
 #ifdef CODEDOWNLOADER
@@ -529,7 +534,7 @@ void BrowserWindow::updateYTCode() {
 #endif
 
 void BrowserWindow::YTFailedToStart() {
-	CodeDownloader::askAndDownload(this, true);
+	CodeDownloader::askAndDownload(this, CodeDownloader::FailedToRun);
 }
 
 void BrowserWindow::showAbout() {
