@@ -157,12 +157,12 @@
         <translation>Загрузить</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="520"/>
+        <location filename="../browserwindow.cpp" line="524"/>
         <source>No video found</source>
         <translation>Видео не найдено</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="521"/>
+        <location filename="../browserwindow.cpp" line="525"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Невозможно найти ссылку для данного видео.</translation>
     </message>
@@ -217,49 +217,58 @@
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="165"/>
-        <location filename="../codedownloader.cpp" line="205"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
         <translation>%1 не смог связаться с youtube-dl. Он либо не установлен, либо не работает должным образом.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
-        <location filename="../codedownloader.cpp" line="209"/>
+        <source>It wasn&apos;t possible to find the URL for this video.</source>
+        <translation type="unfinished">Невозможно найти ссылку для данного видео.</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="170"/>
+        <source>Maybe you need to update youtube-dl.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="175"/>
+        <location filename="../codedownloader.cpp" line="208"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
         <translation>Чтобы проигрывать видео с YouTube, %1 требуется внешнее приложение youtube-dl.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="170"/>
+        <location filename="../codedownloader.cpp" line="176"/>
         <source>This component needs to be updated frequently.</source>
         <translation>Этот компонент требует частых обновлений.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="171"/>
+        <location filename="../codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
         <translation>Вы можете обновить его с помощью переустановки SMPlayer. Установщик загрузит и установит самую последнюю версию.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="173"/>
+        <location filename="../codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
         <translation>Установить / обновить поддержку YouTube</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="210"/>
+        <location filename="../codedownloader.cpp" line="209"/>
         <source>%1 can download and install this application for you.</source>
         <translation>%1 может загрузить и установить это приложение для вас.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="211"/>
+        <location filename="../codedownloader.cpp" line="210"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
         <translation>Оно загрузится с официального сайта и установится в %1.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="212"/>
+        <location filename="../codedownloader.cpp" line="211"/>
         <source>Would you like to proceeed?</source>
         <translation>Хотите продолжить?</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="216"/>
-        <location filename="../codedownloader.cpp" line="219"/>
+        <location filename="../codedownloader.cpp" line="215"/>
+        <location filename="../codedownloader.cpp" line="218"/>
         <source>Install YouTube support?</source>
         <translation>Установить поддержку YouTube?</translation>
     </message>

@@ -157,12 +157,12 @@
         <translation>下載</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="520"/>
+        <location filename="../browserwindow.cpp" line="524"/>
         <source>No video found</source>
         <translation>找不到視訊</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="521"/>
+        <location filename="../browserwindow.cpp" line="525"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>找不對這個影片的 URL。</translation>
     </message>
@@ -217,49 +217,58 @@
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="165"/>
-        <location filename="../codedownloader.cpp" line="205"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
         <translation>%1 與 youtube-dl 溝通失敗。其不是未安裝就是無法正常運作。</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
-        <location filename="../codedownloader.cpp" line="209"/>
+        <source>It wasn&apos;t possible to find the URL for this video.</source>
+        <translation type="unfinished">找不對這個影片的 URL。</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="170"/>
+        <source>Maybe you need to update youtube-dl.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="175"/>
+        <location filename="../codedownloader.cpp" line="208"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
         <translation>為了播放 YouTube 影片，%1 需要稱為 youtube-dl 的外部應用程式。</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="170"/>
+        <location filename="../codedownloader.cpp" line="176"/>
         <source>This component needs to be updated frequently.</source>
         <translation>此元件必須經常更新。</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="171"/>
+        <location filename="../codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
         <translation>您可以透過重新安裝 SMPlayer 來更新它。安裝程式將會下載並安裝最新的版本。</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="173"/>
+        <location filename="../codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
         <translation>安裝／更新 YouTube 支援</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="210"/>
+        <location filename="../codedownloader.cpp" line="209"/>
         <source>%1 can download and install this application for you.</source>
         <translation>%1 可以為您下載並安裝此應用程式。</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="211"/>
+        <location filename="../codedownloader.cpp" line="210"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
         <translation>其將會從官方網頁下載並在 %1 中安裝。</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="212"/>
+        <location filename="../codedownloader.cpp" line="211"/>
         <source>Would you like to proceeed?</source>
         <translation>您想要繼續嗎？</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="216"/>
-        <location filename="../codedownloader.cpp" line="219"/>
+        <location filename="../codedownloader.cpp" line="215"/>
+        <location filename="../codedownloader.cpp" line="218"/>
         <source>Install YouTube support?</source>
         <translation>安裝 YouTube 支援？</translation>
     </message>
