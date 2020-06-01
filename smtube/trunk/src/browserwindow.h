@@ -135,6 +135,8 @@ private:
 #ifdef STYLE_SWITCHING
 	QString default_style;
 #endif
+
+	QString ytdl_bin;
 };
 
 #endif

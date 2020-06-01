@@ -638,7 +638,7 @@ void BrowserWindow::saveConfig() {
 	settings->endGroup();
 
 	settings->beginGroup("youtube-dl");
-	settings->setValue("ytdl_bin", ryu->ytdlBin());
+	settings->setValue("ytdl_bin", ytdl_bin);
 	settings->setValue("override_format", ryu->userFormat());
 	settings->setValue("use_av1", ryu->isAv1Enabled());
 	settings->endGroup();
@@ -714,11 +714,9 @@ void BrowserWindow::loadConfig() {
 	settings->endGroup();
 
 	settings->beginGroup("youtube-dl");
-	QString ytdl_bin = settings->value("ytdl_bin", "").toString();
-	if (!ytdl_bin.isEmpty()) {
-		ryu->setYtdlBin(ytdl_bin);
-		ryua->setYtdlBin(ytdl_bin);
-	}
+	ytdl_bin = settings->value("ytdl_bin", "").toString();
+	ryu->setYtdlBin(ytdl_bin);
+	ryua->setYtdlBin(ytdl_bin);
 	ryu->setUserFormat(settings->value("override_format", "").toString());
 	ryu->enableAv1(settings->value("use_av1", false).toBool());
 	settings->endGroup();
