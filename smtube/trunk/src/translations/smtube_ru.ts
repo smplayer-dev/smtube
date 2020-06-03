@@ -223,12 +223,12 @@
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished">Невозможно найти ссылку для данного видео.</translation>
+        <translation>Не удалось найти ссылку для данного видео.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Возможно вам стоит обновить youtube-dl.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="175"/>
