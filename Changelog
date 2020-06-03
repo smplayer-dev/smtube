@@ -1,3 +1,14 @@
+Version 20.6:
+
+(2020-05-27)
+ * New option in preferences to select the site to use as homepage.
+
+(2020-05-22)
+ * The internal youtube code has been removed and now smtube just
+   uses youtube-dl to get the video urls.
+ * New option in the help menu to help install youtube-dl.
+
+
 Version 20.1:
 
 (2020-01-20)
