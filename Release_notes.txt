@@ -1,3 +1,8 @@
+Version 20.6
+ * The internal YouTube code has been removed. Now SMTube uses
+   an external application to get the video URLs.
+ * Now it's possible to select the web site to use as homepage.
+
 Version 20.1
  * The YouTube code has been fixed.
 
