@@ -223,12 +223,12 @@
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation>No ha sido posible encontrar el URL de este vídeo.</translation>
+        <translation>No se ha podido encontrar el URL de este vídeo.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation>Quizás sea necesario actualizar youtube-dl.</translation>
+        <translation>Quizás haya que actualizar youtube-dl.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="175"/>
@@ -249,7 +249,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
-        <translation>Instalar/actualizar la compatibilidad con YouTube</translation>
+        <translation>Instalar/actualizar el código de YouTube</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="209"/>
@@ -270,7 +270,7 @@
         <location filename="../codedownloader.cpp" line="215"/>
         <location filename="../codedownloader.cpp" line="218"/>
         <source>Install YouTube support?</source>
-        <translation>¿Instalar la compatibilidad con YouTube?</translation>
+        <translation>¿Instalar el código de YouTube?</translation>
     </message>
 </context>
 <context>
@@ -333,7 +333,7 @@
     <message>
         <location filename="../configdialog.ui" line="138"/>
         <source>De&amp;lete</source>
-        <translation>&amp;E&amp;liminar</translation>
+        <translation>E&amp;liminar</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="225"/>
