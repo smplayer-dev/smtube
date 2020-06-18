@@ -134,12 +134,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="167"/>
         <source>&amp;Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;更新YouTube回放支持</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="169"/>
         <source>&amp;Install / Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;安装/更新YouTube回放支持</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="175"/>
@@ -177,38 +177,38 @@
     <message>
         <location filename="../codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>下载中...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>正在连接到 1%</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="145"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube代码已经安装成功</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="146"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>已安装版本: 1%</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>成功</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <location filename="../codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>错误</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法保存 1%。</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="157"/>
