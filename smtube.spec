@@ -1,5 +1,5 @@
 Name:           smtube
-Version:        20.1.0
+Version:        20.6.0
 Release:        1%{?dist}
 Summary:        YouTube browser for SMPlayer
 
