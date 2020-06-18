@@ -1,3 +1,11 @@
+smtube (20.6.0) precise; urgency=low
+
+  * The internal YouTube code has been removed. Now SMTube uses
+    an external application to get the video URLs.
+  * Now it's possible to select the web site to use as homepage.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 18 Jun 2020 16:45:01 +0200
+
 smtube (20.1.0) precise; urgency=low
 
   * The YouTube code has been fixed.
