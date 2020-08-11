@@ -134,12 +134,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="167"/>
         <source>&amp;Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zaktualizuj obsługę odtwarzania YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="169"/>
         <source>&amp;Install / Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>Za&amp;instaluj / zaktualizuj obsługę odtwarzania YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="175"/>
@@ -177,100 +177,104 @@
     <message>
         <location filename="../codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pobieranie...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Łączenie z %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="145"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kod YouTube został zainstalowany pomyślnie.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="146"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Zainstalowana wersja: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Sukces</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <location filename="../codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można zapisać %1.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Wystąpił błąd podczas pobierania pliku:&lt;br&gt;%1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 nie udało się nawiązać komunikacji z youtube-dl. Albo nie jest zainstalowany lub nie działa poprawnie.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished">Nie było możliwe znalezienie URL dla tego wideo.</translation>
+        <translation>Nie można znaleźć adresu URL tego filmu.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Być może musisz zaktualizować youtube-dl.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="175"/>
         <location filename="../codedownloader.cpp" line="208"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aby odtwarzać filmy z YouTube, %1 potrzebuje zewnętrznej aplikacji o nazwie youtube-dl.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="176"/>
         <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ten komponent musi być często aktualizowany.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <translation>Możesz go zaktualizować, instalując ponownie SMPlayera. Instalator pobierze i zainstaluje najnowszą wersję.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Zainstaluj / zaktualizuj obsługę YouTube</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="209"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 może pobrać i zainstalować tę aplikację dla Ciebie.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="210"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zostanie pobrana z oficjalnej strony i zainstalowana w %1.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="211"/>
-        <source>Would you like to proceeed?</source>
+        <source>Would you like to proceed?</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Would you like to proceeed?</source>
+        <translation type="obsolete">Czy chcesz kontynuować?</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="215"/>
         <location filename="../codedownloader.cpp" line="218"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>Zainstalować obsługę YouTube?</translation>
     </message>
 </context>
 <context>
@@ -288,7 +292,7 @@
     <message>
         <location filename="../configdialog.ui" line="127"/>
         <source>A&amp;dd...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dodaj...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="166"/>
@@ -318,22 +322,22 @@
     <message>
         <location filename="../configdialog.ui" line="94"/>
         <source>Sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Strony</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="100"/>
         <source>&amp;Site:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Strona:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="120"/>
         <source>Edi&amp;t...</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;dytuj...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="138"/>
         <source>De&amp;lete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Usuń</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="225"/>
@@ -530,22 +534,22 @@
     <message>
         <location filename="../sitedialog.ui" line="14"/>
         <source>Edit Site</source>
-        <translation type="unfinished"></translation>
+        <translation>Edytuj stronę</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="22"/>
         <source>&amp;Name:</source>
-        <translation type="unfinished">&amp;Nazwa:</translation>
+        <translation>&amp;Nazwa:</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="39"/>
         <source>&amp;Home page URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Adres URL strony głównej:</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="56"/>
         <source>&amp;Search URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Szukaj adres URL:</translation>
     </message>
 </context>
 </TS>
