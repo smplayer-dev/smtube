@@ -263,8 +263,12 @@
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="211"/>
+        <source>Would you like to proceed?</source>
+        <translation>¿Quieres continuar?</translation>
+    </message>
+    <message>
         <source>Would you like to proceeed?</source>
-        <translation>¿Quiere continuar?</translation>
+        <translation type="obsolete">¿Quiere continuar?</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="215"/>
