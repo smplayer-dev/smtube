@@ -142,6 +142,11 @@ if %QT_VER% lss 5.0.0 (
   echo File "%QT_DIR%\bin\icuin*.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
   echo File "%QT_DIR%\bin\icuuc*.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
   echo File "%QT_DIR%\bin\icudt*.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+
+  rem Qt 5.15.2
+  echo File "%QT_DIR%\bin\libxml2-2.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  echo File "%QT_DIR%\bin\libxslt-1.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
+  echo File "%QT_DIR%\bin\Qt5QmlModels.dll">>"%SMTUBE_DIR%\setup\qt_files.nsh"
 )
 REM End generate qt_env.nsh
 
