@@ -37,7 +37,7 @@ class ConfigDialog : public QDialog, public Ui::ConfigDialog
 	Q_OBJECT
 
 public:
-	ConfigDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	ConfigDialog( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~ConfigDialog();
 
 	void setPlaybackResolution(int resolution);

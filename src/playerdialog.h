@@ -28,7 +28,7 @@ class PlayerDialog : public QDialog, public Ui::PlayerDialog
 	Q_OBJECT
 
 public:
-	PlayerDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PlayerDialog( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PlayerDialog();
 
 	void setName(const QString & name);

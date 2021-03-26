@@ -29,7 +29,7 @@ class SiteDialog : public QDialog, public Ui::SiteDialog
 	Q_OBJECT
 
 public:
-	SiteDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	SiteDialog( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~SiteDialog();
 
 	void setSite(Site s);

@@ -45,7 +45,7 @@ class BrowserWindow : public QMainWindow
 	Q_OBJECT
 
 public:
-	BrowserWindow(const QString & config_dir, QWidget * parent = 0, Qt::WindowFlags flags = 0);
+	BrowserWindow(const QString & config_dir, QWidget * parent = 0, Qt::WindowFlags flags = QFlag(0));
 	~BrowserWindow();
 
 public slots:
