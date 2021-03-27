@@ -86,5 +86,5 @@ update-desktop-database &> /dev/null || :
 %{_docdir}/%{name}/
 
 %changelog
-* Thu Feb 26 2016 Ricardo Villalba <rvm@users.sourceforge.net> - 16.1.0
+* Thu Feb 26 2016 Ricardo Villalba <ricardo@smplayer.info> - 16.1.0
 - Initial Release

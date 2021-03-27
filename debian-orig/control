@@ -1,7 +1,7 @@
 Source: smtube
 Section: graphics
 Priority: extra
-Maintainer: Ricardo Villalba <rvm@users.sourceforge.net>
+Maintainer: Ricardo Villalba <ricardo@smplayer.info>
 Standards-Version: 3.9.7
 Homepage: http://smtube.sourceforge.net/
 Build-Depends: debhelper (>= 9), libqt4-dev, libqtwebkit-dev
