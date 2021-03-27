@@ -675,7 +675,7 @@ void BrowserWindow::loadConfig() {
 	settings->endGroup();
 
 	if (!DesktopInfo::isInsideScreen(this)) {
-		move(0,0);
+		move(DesktopInfo::topLeftPrimaryScreen());
 		qWarning("BrowserWindow::loadConfig: window is outside of the screen, moved to 0x0");
 	}
 
