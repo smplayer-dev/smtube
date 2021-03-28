@@ -21,7 +21,7 @@
 #include <QDesktopWidget>
 #include <QDebug>
 
-#if (QT_VERSION >= QT_VERSION_CHECK(5, 0, 0))
+#if QT_VERSION >= 0x050000
 #include <QScreen>
 #include <QWindow>
 
@@ -30,7 +30,7 @@ QScreen * DesktopInfo::find_screen(QWidget *w) {
 
 	while (w) {
 		QWindow * window = w->windowHandle();
-		if (window != 0) {
+		if (window) {
 			screen = window->screen();
 			break;
 		}
@@ -43,7 +43,7 @@ QScreen * DesktopInfo::find_screen(QWidget *w) {
 #endif
 
 QSize DesktopInfo::desktop_size(QWidget *w) {
-#if (QT_VERSION >= QT_VERSION_CHECK(5, 0, 0))
+#if QT_VERSION >= 0x050000
 	QScreen * screen = find_screen(w);
 	qDebug() << "DesktopInfo::desktop_size: size of screen:" << screen->size();
 	return screen->size();
@@ -69,15 +69,6 @@ double DesktopInfo::desktop_aspectRatio(QWidget *w) {
 }
 
 bool DesktopInfo::isInsideScreen(QWidget *w) {
-#if (QT_VERSION >= QT_VERSION_CHECK(5, 0, 0))
-	QRect r = find_screen(w)->geometry();
-#else
-	QDesktopWidget * dw = QApplication::desktop();
-	QRect r = dw->screenGeometry(w);
-#endif
-
-	qDebug() << "DesktopInfo::isInsideScreen: geometry of screen:" << r;
-
 	QPoint p = w->pos();
 
 	p.setX(p.x() + w->size().width() / 2);
@@ -85,11 +76,28 @@ bool DesktopInfo::isInsideScreen(QWidget *w) {
 
 	qDebug() << "DesktopInfo::isInsideScreen: center point of window:" << p;
 
-	return r.contains(p);
+	bool inside_screen = false;
+
+#if QT_VERSION >= 0x050000
+	foreach (QScreen * screen, qApp->screens()) {
+		QRect r = screen->geometry();
+		qDebug() << "DesktopInfo::isInsideScreen: screen:" << screen << r;
+		if (r.contains(p)) inside_screen = true;
+	}
+#else
+	QDesktopWidget * dw = QApplication::desktop();
+	for (int n = 0; n < dw->screenCount(); n++) {
+		QRect r =  dw->screenGeometry(n);
+		qDebug() << "DesktopInfo::isInsideScreen: screen:" << n+1 << r;
+		if (r.contains(p)) inside_screen = true;
+	}
+#endif
+
+	return inside_screen;
 }
 
 QPoint DesktopInfo::topLeftPrimaryScreen() {
-#if (QT_VERSION >= QT_VERSION_CHECK(5, 0, 0))
+#if QT_VERSION >= 0x050000
 	QRect r = qApp->primaryScreen()->geometry();
 #else
 	int screen = QApplication::desktop()->primaryScreen();
