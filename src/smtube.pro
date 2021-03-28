@@ -1,8 +1,8 @@
 TEMPLATE = app
 QT += network
 
-#CONFIG += release
-CONFIG += debug
+CONFIG += release
+#CONFIG += debug
 
 DEFINES += USE_PLAYERS
 #DEFINES += D_BUTTON

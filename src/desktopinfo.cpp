@@ -37,7 +37,7 @@ QScreen * DesktopInfo::find_screen(QWidget *w) {
 		w = w->parentWidget();
 	}
 
-	if (screen == 0) screen = qApp->primaryScreen();
+	if (screen == 0) screen = QApplication::primaryScreen();
 	return screen;
 }
 #endif
@@ -49,15 +49,15 @@ QSize DesktopInfo::desktop_size(QWidget *w) {
 	return screen->size();
 #else
 	QDesktopWidget * dw = QApplication::desktop();
-	qDebug("DesktopInfo::desktop_size: primary screen: %d", dw->primaryScreen());
+	qDebug() << "DesktopInfo::desktop_size: primary screen:" << dw->primaryScreen();
 
 	QSize s = dw->screen( dw->primaryScreen() )->size();
 
-	qDebug("DesktopInfo::desktop_size: size of primary screen: %d x %d", s.width(), s.height() );
+	qDebug() << "DesktopInfo::desktop_size: size of primary screen:" <<  s;
 	//return dw->screen( dw->primaryScreen() )->size();
 
 	QRect r = dw->screenGeometry(w);
-	qDebug("DesktopInfo::desktop_size: size of screen: %d x %d", r.width(), r.height() );
+	qDebug() << "DesktopInfo::desktop_size: size of screen:" << r;
 
 	return QSize(r.width(), r.height() );
 #endif
@@ -79,7 +79,7 @@ bool DesktopInfo::isInsideScreen(QWidget *w) {
 	bool inside_screen = false;
 
 #if QT_VERSION >= 0x050000
-	foreach (QScreen * screen, qApp->screens()) {
+	foreach (QScreen * screen, QApplication::screens()) {
 		QRect r = screen->geometry();
 		qDebug() << "DesktopInfo::isInsideScreen: screen:" << screen << r;
 		if (r.contains(p)) inside_screen = true;
@@ -98,7 +98,7 @@ bool DesktopInfo::isInsideScreen(QWidget *w) {
 
 QPoint DesktopInfo::topLeftPrimaryScreen() {
 #if QT_VERSION >= 0x050000
-	QRect r = qApp->primaryScreen()->geometry();
+	QRect r = QApplication::primaryScreen()->geometry();
 #else
 	int screen = QApplication::desktop()->primaryScreen();
 	QRect r = QApplication::desktop()->screenGeometry(screen);
