@@ -23,6 +23,7 @@
 #include <QDir>
 #include <QSettings>
 #include <QDebug>
+#include "qtcompat.h"
 
 //#define D_PLAYERS
 //#define DEBUG_FIND_EX
@@ -30,7 +31,7 @@
 #ifdef Q_OS_LINUX
 QString Player::findExecutable(const QString & name) {
 	QByteArray env = qgetenv("PATH");
-	QStringList search_paths = QString::fromLocal8Bit(env.constData()).split(':', QString::SkipEmptyParts);
+	QStringList search_paths = QString::fromLocal8Bit(env.constData()).split(':', QTC_SkipEmptyParts);
 	for (int n = 0; n < search_paths.count(); n++) {
 		QString candidate = search_paths[n] + "/" + name;
 		#ifdef DEBUG_FIND_EX
