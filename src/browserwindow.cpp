@@ -43,6 +43,7 @@
 #include "version.h"
 #include "links.h"
 #include "desktopinfo.h"
+#include "qtcompat.h"
 
 #ifdef CODEDOWNLOADER
 #include "codedownloader.h"
@@ -396,10 +397,14 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 
 	if (direct_play) {
 		qDebug() << "BrowserWindow::openWith: ready to play with" << player_name;
-		if (binary.contains(" ")) binary = "\""+ binary +"\"";
-		QString command = binary +" "+ QString(arguments).replace("%u", "\""+ url.toString() +"\"");
-		qDebug() << "BrowserWindow::openWith: command:" << command;
-		QProcess::startDetached(command);
+		QStringList arg_list = arguments.split(' ', QTC_SkipEmptyParts);
+		QString expanded_arguments;
+		for (int n = 0; n < arg_list.count(); n++) {
+			arg_list[n] = arg_list[n].replace("%u", url.toString());
+			expanded_arguments += " "+ arg_list[n];
+		}
+		qDebug() << "BrowserWindow::openWith: command:" << binary + expanded_arguments;
+		QProcess::startDetached(binary, arg_list);
 	} else {
 		qDebug() << "BrowserWindow::openWith:" << player_name << "can't play this URL";
 		#ifdef USE_PLAYERS
@@ -466,18 +471,19 @@ void BrowserWindow::openYTUrl(QString title, QString extension, const QString & 
 	QString arguments = HCPLAYER_ARGUMENTS;
 #endif
 
-	if (binary.contains(" ")) binary = "\""+ binary +"\"";
-
-	QString expanded_arguments = QString(arguments).replace("%u", "\""+ url +"\"");
-	if (!url.contains("%f") && !url.contains("%t")) {
-		expanded_arguments = expanded_arguments.replace("%f", "\"" + filename +"\"")
-                                               .replace("%t", "\"" + title +"\"");
+	QStringList arg_list = arguments.split(' ', QTC_SkipEmptyParts);
+	QString expanded_arguments;
+	for (int n = 0; n < arg_list.count(); n++) {
+		if (arg_list[n].contains("%u")) {
+			arg_list[n] = arg_list[n].replace("%u", url);
+		} else {
+			arg_list[n] = arg_list[n].replace("%f", filename).replace("%t", title);
+		}
+		expanded_arguments += " "+ arg_list[n];
 	}
 
-	QString command = binary + " " + expanded_arguments;
-	qDebug() << "BrowserWindow::openYTUrl: command:" << command;
-
-	QProcess::startDetached(command);
+	qDebug() << "BrowserWindow::openYTUrl: command:" << binary + expanded_arguments;
+	QProcess::startDetached(binary, arg_list);
 }
 
 void BrowserWindow::openYTUrl(const QString & url, int itag) {
