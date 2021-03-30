@@ -398,12 +398,10 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 	if (direct_play) {
 		qDebug() << "BrowserWindow::openWith: ready to play with" << player_name;
 		QStringList arg_list = arguments.split(' ', QTC_SkipEmptyParts);
-		QString expanded_arguments;
 		for (int n = 0; n < arg_list.count(); n++) {
 			arg_list[n] = arg_list[n].replace("%u", url.toString());
-			expanded_arguments += " "+ arg_list[n];
 		}
-		qDebug() << "BrowserWindow::openWith: command:" << binary + expanded_arguments;
+		qDebug() << "BrowserWindow::openWith: command:" << binary + " "+ arg_list.join(" ");
 		QProcess::startDetached(binary, arg_list);
 	} else {
 		qDebug() << "BrowserWindow::openWith:" << player_name << "can't play this URL";
@@ -472,17 +470,15 @@ void BrowserWindow::openYTUrl(QString title, QString extension, const QString & 
 #endif
 
 	QStringList arg_list = arguments.split(' ', QTC_SkipEmptyParts);
-	QString expanded_arguments;
 	for (int n = 0; n < arg_list.count(); n++) {
 		if (arg_list[n].contains("%u")) {
 			arg_list[n] = arg_list[n].replace("%u", url);
 		} else {
 			arg_list[n] = arg_list[n].replace("%f", filename).replace("%t", title);
 		}
-		expanded_arguments += " "+ arg_list[n];
 	}
 
-	qDebug() << "BrowserWindow::openYTUrl: command:" << binary + expanded_arguments;
+	qDebug() << "BrowserWindow::openYTUrl: command:" << binary + " "+ arg_list.join(" ");
 	QProcess::startDetached(binary, arg_list);
 }
 
