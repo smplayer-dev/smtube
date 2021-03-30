@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef QTCOMPACT_H_
-#define QTCOMPACT_H_
+#ifndef QTCOMPAT_H
+#define QTCOMPAT_H
 
 #include <QtGlobal>
 #if (QT_VERSION >= QT_VERSION_CHECK(5, 14, 0))
