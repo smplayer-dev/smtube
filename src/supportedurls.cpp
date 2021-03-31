@@ -20,11 +20,13 @@
 
 QList<QRegExp> SupportedUrls::list;
 QList<QRegExp> SupportedUrls::ds_list;
-QRegExp SupportedUrls::ytrx;
+QList<QRegExp> SupportedUrls::yt_list;
 
 int SupportedUrls::site(const QString & url) {
-	if (ytrx.indexIn(url) > -1) {
-		return Youtube;
+	for (int n = 0; n < yt_list.count(); n++) {
+		if (yt_list[n].indexIn(url) > -1) {
+			return Youtube;
+		}
 	}
 
 	for (int n = 0; n < list.count(); n++) {
@@ -43,7 +45,8 @@ int SupportedUrls::site(const QString & url) {
 }
 
 void SupportedUrls::load() {
-	ytrx = QRegExp("^(https?\\:\\/\\/)?(www\\.|m\\.)?youtube\\.com\\/watch\\?v=.+$");
+	yt_list << QRegExp("^(https?\\:\\/\\/)?(www\\.|m\\.)?youtube\\.com\\/watch\\?v=.+$");
+	yt_list << QRegExp("^http.*invidious.*\\/watch\\?v=.+$");
 
 	list << QRegExp("^(https?\\:\\/\\/)?(www\\.)?dailymotion\\.com\\/video\\/.+$");
 	list << QRegExp("^(https?\\:\\/\\/)?(www\\.)?vimeo\\.com\\/(channels\\/staffpicks\\/)?\\d+$");

@@ -32,7 +32,7 @@ public:
 private:
 	static QList<QRegExp> list;
 	static QList<QRegExp> ds_list;
-	static QRegExp ytrx;
+	static QList<QRegExp> yt_list;
 };
 
 #endif
