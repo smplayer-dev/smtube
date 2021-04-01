@@ -24,7 +24,12 @@ Sites::Sites() {
 	list.clear();
 	list << Site("Tonvid.com", "http://www.tonvid.com", "http://www.tonvid.com/search.php?q=SEARCHTERM");
 	list << Site("Youtube.com", "http://m.youtube.com", "http://m.youtube.com/results?search_query=SEARCHTERM");
-	list << Site("Invidious.site", "http://invidious.site", "http://invidious.site/search?q==SEARCHTERM");
+
+	QStringList sites_inv;
+	sites_inv << "invidious.site" << "yewtu.be" << "invidious.snopyta.org";
+	foreach (QString site, sites_inv) {
+		list << Site(site, "http://" + site, "http://" + site + "/search?q==SEARCHTERM");
+	}
 
 	default_list = list;
 	curr = 0;
