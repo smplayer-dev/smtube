@@ -17,6 +17,7 @@
 */
 
 #include "version.h"
+#include <QObject>
 
 #define USE_SVN_VERSIONS 1
 
@@ -44,15 +45,15 @@ char * ver = (char *)VERSTAG_AMIGA;
 QString smtubeVersion() {
 #if USE_SVN_VERSIONS
 #ifdef Q_OS_WIN
-    return QString(QString(VERSION) + "+" + QString(SVN_REVISION) + " " + QString(SMTWIN_ARCH));
+	return QObject::tr("%1 (revision %2) %3").arg(VERSION).arg(SVN_REVISION).arg(SMPWIN_ARCH);
 #else
-    return QString(QString(VERSION) + "+" + QString(SVN_REVISION));
+	return QObject::tr("%1 (revision %2)").arg(VERSION).arg(SVN_REVISION);
 #endif
 #else
 #ifdef Q_OS_WIN
-    return QString(QString(VERSION) + " " + QString(SMTWIN_ARCH));
+	return QString(QString(VERSION) + " " + QString(SMPWIN_ARCH));
 #else
-    return QString(VERSION);
+	return QString(VERSION);
 #endif
 #endif
 }
