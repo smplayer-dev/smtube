@@ -45,13 +45,13 @@ char * ver = (char *)VERSTAG_AMIGA;
 QString smtubeVersion() {
 #if USE_SVN_VERSIONS
 #ifdef Q_OS_WIN
-	return QObject::tr("%1 (revision %2) %3").arg(VERSION).arg(SVN_REVISION).arg(SMPWIN_ARCH);
+	return QObject::tr("%1 (revision %2) %3").arg(VERSION).arg(SVN_REVISION).arg(SMTWIN_ARCH);
 #else
 	return QObject::tr("%1 (revision %2)").arg(VERSION).arg(SVN_REVISION);
 #endif
 #else
 #ifdef Q_OS_WIN
-	return QString(QString(VERSION) + " " + QString(SMPWIN_ARCH));
+	return QString(QString(VERSION) + " " + QString(SMTWIN_ARCH));
 #else
 	return QString(VERSION);
 #endif
