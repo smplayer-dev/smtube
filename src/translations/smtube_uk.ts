@@ -6,12 +6,12 @@
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About...</source>
-        <translation>Про проґраму...</translation>
+        <translation>Про програму...</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
         <source>&amp;Info</source>
-        <translation>&amp;Відомости</translation>
+        <translation>&amp;Відомості</translation>
     </message>
     <message>
         <location filename="../about.ui" line="89"/>
@@ -41,7 +41,7 @@
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Compiled with Qt %1 (using %2)</source>
-        <translation>Зібрано на основі Qt %1 (з використанням %2)</translation>
+        <translation>Зібрано на підмурку Qt %1 (з використанням %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="44"/>
@@ -61,12 +61,12 @@
     <message>
         <location filename="../about.cpp" line="89"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>Відвідайте %1 і приєднайтеся до команди перекладачів.</translation>
+        <translation>Відвідайте %1 та долучіться до команди перекладачів.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="91"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation>Натисніть сюди, щоб ознайомитися з переліком перекладачів з команди Transifex</translation>
+        <translation>Натисніть сюди, щоб ознайомитись з переліком перекладачів із команди Transifex</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
@@ -77,97 +77,97 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="112"/>
+        <location filename="../browserwindow.cpp" line="113"/>
         <source>Home</source>
         <translation>Домівка</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="115"/>
+        <location filename="../browserwindow.cpp" line="116"/>
         <source>Navigation</source>
-        <translation>Навігація</translation>
+        <translation>Навіґація</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="123"/>
+        <location filename="../browserwindow.cpp" line="124"/>
         <source>Zoom +</source>
-        <translation>Збільшення +</translation>
+        <translation>Збільшити +</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="127"/>
+        <location filename="../browserwindow.cpp" line="128"/>
         <source>Zoom -</source>
-        <translation>Збільшення –</translation>
+        <translation>Зменшити –</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="131"/>
+        <location filename="../browserwindow.cpp" line="132"/>
         <source>&amp;Quit</source>
-        <translation>&amp;Вихід</translation>
+        <translation>&amp;Вийти</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="134"/>
+        <location filename="../browserwindow.cpp" line="135"/>
         <source>&amp;Navigation</source>
-        <translation>&amp;Навігація</translation>
+        <translation>&amp;Навіґація</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="146"/>
+        <location filename="../browserwindow.cpp" line="147"/>
         <source>&amp;View</source>
         <translation>&amp;Огляд</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="147"/>
+        <location filename="../browserwindow.cpp" line="148"/>
         <source>Toolbar</source>
         <translation>Панель знарядь</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="151"/>
+        <location filename="../browserwindow.cpp" line="152"/>
         <source>Statusbar</source>
         <translation>Панель стану</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="155"/>
+        <location filename="../browserwindow.cpp" line="156"/>
         <source>&amp;Settings</source>
         <translation>&amp;Налаштування</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="163"/>
+        <location filename="../browserwindow.cpp" line="164"/>
         <source>&amp;Help</source>
         <translation>&amp;Довідка</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="167"/>
+        <location filename="../browserwindow.cpp" line="168"/>
         <source>&amp;Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Оновити підтримку відтворення YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="169"/>
+        <location filename="../browserwindow.cpp" line="170"/>
         <source>&amp;Install / Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Встановити/Оновити підтримку відтворення YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="175"/>
+        <location filename="../browserwindow.cpp" line="176"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;Про SMTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="296"/>
+        <location filename="../browserwindow.cpp" line="297"/>
         <source>Download video using an external service</source>
         <translation>Завантажити з використанням сторонньої служби</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="297"/>
+        <location filename="../browserwindow.cpp" line="298"/>
         <source>Download</source>
         <translation>Завантажити</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="524"/>
+        <location filename="../browserwindow.cpp" line="526"/>
         <source>No video found</source>
         <translation>Відео не знайдено</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="525"/>
+        <location filename="../browserwindow.cpp" line="527"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Неможливо знайти посилання для цього відео.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="282"/>
+        <location filename="../browserwindow.cpp" line="283"/>
         <source>Loading... %1%</source>
         <translation>Завантаження... %1%</translation>
     </message>
@@ -177,100 +177,100 @@
     <message>
         <location filename="../codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантаження...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>З&apos;єднання з %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="145"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Код YouTube було з успіхом встановлено.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="146"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановлена версія: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Успіх</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <location filename="../codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Помилка</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не вдалося зберегти %1.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Виникла помилка при завантаженні файлу:&lt;br&gt;%1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 не зміг законтактувати з youtube-dl. Його або не встановлено, або він не працює належно.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished">Неможливо знайти посилання для цього відео.</translation>
+        <translation>Не вдалося знайти посилання на це відео.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Можливо Вам варто оновити youtube-dl.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="175"/>
         <location filename="../codedownloader.cpp" line="208"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Аби відтворювати відео з YouTube, %1 потрібен зовнішній застосунок youtube-dl.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="176"/>
         <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця річ потребує частих оновлень.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви можете оновити це за допомогою перевстановлення SMPlayer. Встановлювач завантажить й встановить найостаннішу версію.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити/Оновити підтримку YouTube</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="209"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 може завантажити та встановити цей додаток для Вас.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="210"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Він завантажиться з офіційного сайту та встановиться в %1.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="211"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Бажаєте продовжити?</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="215"/>
         <location filename="../codedownloader.cpp" line="218"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити підтримку YouTube?</translation>
     </message>
 </context>
 <context>
@@ -288,7 +288,7 @@
     <message>
         <location filename="../configdialog.ui" line="127"/>
         <source>A&amp;dd...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Додати…</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="166"/>
@@ -318,22 +318,22 @@
     <message>
         <location filename="../configdialog.ui" line="94"/>
         <source>Sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Сайти</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="100"/>
         <source>&amp;Site:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Сайт:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="120"/>
         <source>Edi&amp;t...</source>
-        <translation type="unfinished"></translation>
+        <translation>Змі&amp;ни...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="138"/>
         <source>De&amp;lete</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви&amp;лучити</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="225"/>
@@ -414,7 +414,7 @@
     <message>
         <location filename="../mywebview.cpp" line="51"/>
         <source>Copy &amp;link to clipboard</source>
-        <translation>С&amp;копіювати посилання до буферу обміну</translation>
+        <translation>С&amp;копіювати посилання до буфера обміну</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="52"/>
@@ -424,7 +424,7 @@
     <message>
         <location filename="../mywebview.cpp" line="54"/>
         <source>&amp;Copy text to clipboard</source>
-        <translation>Ск&amp;опіювати текст до буферу обміну</translation>
+        <translation>Ск&amp;опіювати текст до буфера обміну</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="55"/>
@@ -439,7 +439,7 @@
     <message>
         <location filename="../mywebview.cpp" line="84"/>
         <source>Play &amp;audio with</source>
-        <translation>Відтворити &amp;аудіо через</translation>
+        <translation>Відтворити &amp;звук через</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="137"/>
@@ -449,12 +449,12 @@
     <message>
         <location filename="../mywebview.cpp" line="144"/>
         <source>Play &amp;audio with %1</source>
-        <translation>Відтворити &amp;аудіо через %1</translation>
+        <translation>Відтворити &amp;звук через %1</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="151"/>
         <source>Play video with a &amp;web browser</source>
-        <translation>Відтворити відео через &amp;веб-оглядач</translation>
+        <translation>Відтворити відео через &amp;переглядач тенет</translation>
     </message>
 </context>
 <context>
@@ -482,12 +482,12 @@
     <message>
         <location filename="../playerdialog.ui" line="71"/>
         <source>This player supports &amp;video sites</source>
-        <translation>Цей програвач підтримує &amp;відео-сайти</translation>
+        <translation>Цей програвач підтримує &amp;відеосайти</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="78"/>
         <source>This player can play &amp;online TV</source>
-        <translation>Цей програвач може відтворювати &amp;онлайн телебачення</translation>
+        <translation>Цей програвач може відтворювати &amp;телебачення з Інтернет</translation>
     </message>
     <message>
         <location filename="../playerdialog.ui" line="87"/>
@@ -526,26 +526,39 @@
     </message>
 </context>
 <context>
+    <name>QObject</name>
+    <message>
+        <location filename="../version.cpp" line="48"/>
+        <source>%1 (revision %2) %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../version.cpp" line="50"/>
+        <source>%1 (revision %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SiteDialog</name>
     <message>
         <location filename="../sitedialog.ui" line="14"/>
         <source>Edit Site</source>
-        <translation type="unfinished"></translation>
+        <translation>Редагувати сайт</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="22"/>
         <source>&amp;Name:</source>
-        <translation type="unfinished">&amp;Ім’я:</translation>
+        <translation>&amp;Ім&apos;я:</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="39"/>
         <source>&amp;Home page URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Адреса домашньої сторінки:</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="56"/>
         <source>&amp;Search URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Пошукова адреса:</translation>
     </message>
 </context>
 </TS>

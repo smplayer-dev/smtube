@@ -77,97 +77,97 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="112"/>
+        <location filename="../browserwindow.cpp" line="113"/>
         <source>Home</source>
         <translation>Inici</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="115"/>
+        <location filename="../browserwindow.cpp" line="116"/>
         <source>Navigation</source>
         <translation>Navegació</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="123"/>
+        <location filename="../browserwindow.cpp" line="124"/>
         <source>Zoom +</source>
         <translation>+ zoom</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="127"/>
+        <location filename="../browserwindow.cpp" line="128"/>
         <source>Zoom -</source>
         <translation>- zoom</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="131"/>
+        <location filename="../browserwindow.cpp" line="132"/>
         <source>&amp;Quit</source>
         <translation>&amp;Surt</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="134"/>
+        <location filename="../browserwindow.cpp" line="135"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navegació</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="146"/>
+        <location filename="../browserwindow.cpp" line="147"/>
         <source>&amp;View</source>
         <translation>&amp;Visualitza</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="147"/>
+        <location filename="../browserwindow.cpp" line="148"/>
         <source>Toolbar</source>
         <translation>Barra d&apos;eines</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="151"/>
+        <location filename="../browserwindow.cpp" line="152"/>
         <source>Statusbar</source>
         <translation>Barra d&apos;estat</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="155"/>
+        <location filename="../browserwindow.cpp" line="156"/>
         <source>&amp;Settings</source>
         <translation>Ajust&amp;s</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="163"/>
+        <location filename="../browserwindow.cpp" line="164"/>
         <source>&amp;Help</source>
         <translation>&amp;Ajuda</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="167"/>
+        <location filename="../browserwindow.cpp" line="168"/>
         <source>&amp;Update YouTube playback support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="169"/>
+        <location filename="../browserwindow.cpp" line="170"/>
         <source>&amp;Install / Update YouTube playback support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="175"/>
+        <location filename="../browserwindow.cpp" line="176"/>
         <source>&amp;About SMTube</source>
         <translation>Qu&amp;ant a SMTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="296"/>
+        <location filename="../browserwindow.cpp" line="297"/>
         <source>Download video using an external service</source>
         <translation>Baixa el vídeo mitjançant un servei extern</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="297"/>
+        <location filename="../browserwindow.cpp" line="298"/>
         <source>Download</source>
         <translation>Baixa</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="524"/>
+        <location filename="../browserwindow.cpp" line="526"/>
         <source>No video found</source>
         <translation>No s&apos;ha trobat cap vídeo</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="525"/>
+        <location filename="../browserwindow.cpp" line="527"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>No ha estat possible trobar l&apos;URL per a aquest vídeo.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="282"/>
+        <location filename="../browserwindow.cpp" line="283"/>
         <source>Loading... %1%</source>
         <translation>S&apos;està carregant... %1%</translation>
     </message>
@@ -523,6 +523,19 @@
         <location filename="../playerdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>Predeterminat</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <location filename="../version.cpp" line="48"/>
+        <source>%1 (revision %2) %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../version.cpp" line="50"/>
+        <source>%1 (revision %2)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
