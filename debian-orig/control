@@ -10,6 +10,7 @@ Build-Depends: debhelper (>= 9), libqt4-dev, libqtwebkit-dev
 Package: smtube
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, smplayer (>= 0.7.0) | mplayer | mpv | vlc | dragonplayer | totem | gnome-mplayer
+Recommends: youtube-dl, python-is-python2 | python-is-python3
 Description: YouTube browser for SMPlayer
  This is a YouTube browser for SMPlayer. You can browse, search
  and play YouTube videos.
