@@ -58,7 +58,7 @@ jobs:
       - name: Create artifact
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ env.app-name }-${{ env.VERSION }}.deb
+          name: ${{ env.app-name }}-${{ env.VERSION }}.deb
           path: ./*.deb
 
       - name: Upload package to release
