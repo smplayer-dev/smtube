@@ -25,6 +25,6 @@ jobs:
 
       - name: Create package
         run: |
-            mv ${{ env.app-name }} ${{ env.app-name }}-$VERSION
-            tar -cvjf --exclude=.svn --exclude=.git --exclude=.github ${{ env.app-name }}-$VERSION/
+            mv ${{ env.app-name }} $PACKAGENAME
+            tar --exclude=.svn --exclude=.git --exclude=.github -cvjf $PACKAGENAME
             ls -l
