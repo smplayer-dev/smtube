@@ -14,5 +14,11 @@ jobs:
         with:
           path: ${{ env.app-name }}
 
-      - name: List
-        run: ls -l -R
+      - name: Get version
+        run: |
+            cd ${{ env.app-name }}
+            ./get_version.sh
+            VERSION=`cat version`
+            rm version svn_revision
+            echo "VERSION=$VERSION" >> $GITHUB_ENV
+            echo "Version: $VERSION"
