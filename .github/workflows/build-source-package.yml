@@ -21,4 +21,10 @@ jobs:
             VERSION=`cat version`
             rm version svn_revision
             echo "VERSION=$VERSION" >> $GITHUB_ENV
-            echo "Version: $VERSION"
+            echo "PACKAGENAME=${{ env.app-name }}-$VERSION" >> $GITHUB_ENV
+
+      - name: Create package
+        run: |
+            mv ${{ env.app-name }} ${{ env.app-name }}-$VERSION
+            tar -cvjf --exclude=.svn --exclude=.git --exclude=.github ${{ env.app-name }}-$VERSION/
+            ls -l
