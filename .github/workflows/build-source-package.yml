@@ -13,6 +13,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: ${{ env.app-name }}
+          fetch-depth: 0
 
       - name: Get version
         run: |
@@ -27,4 +28,9 @@ jobs:
         run: |
             mv ${{ env.app-name }} $PACKAGENAME
             tar --exclude=.svn --exclude=.git --exclude=.github -cvjf $PACKAGENAME.tar.bz2 $PACKAGENAME/
-            ls -l
+
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: $PACKAGENAME.tar.bz2
+          path: ./$PACKAGENAME.tar.bz2
