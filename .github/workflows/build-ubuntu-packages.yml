@@ -49,7 +49,7 @@ jobs:
             dch -v $VERSION "Development version"
             echo "VERSION=$VERSION" >> $GITHUB_ENV
 
-      - name: Compile smtube
+      - name: Compile ${{ env.app-name }}
         run: cd ${{ env.app-name }} && fakeroot debian/rules build
 
       - name: Build package
