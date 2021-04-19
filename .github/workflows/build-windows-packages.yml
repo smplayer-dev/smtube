@@ -20,7 +20,7 @@ jobs:
         run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
 
       - name: Install sources
-￼        run: .\download_smtube.cmd
+        run: .\download_smtube.cmd
 
       # Windows doesn't get the version from git yet
       #- name: Install sources (normal)
