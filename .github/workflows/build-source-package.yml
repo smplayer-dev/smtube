@@ -2,7 +2,10 @@ name: Create src package
 env:
   app-name: 'smtube'
   
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
 
 jobs:
   build:
@@ -34,3 +37,13 @@ jobs:
         with:
           name: ${{ env.PACKAGENAME }}.tar.bz2
           path: ./${{ env.PACKAGENAME }}.tar.bz2
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ${{ env.PACKAGENAME }}.tar.bz2
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true        
