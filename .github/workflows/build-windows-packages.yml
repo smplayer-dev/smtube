@@ -19,21 +19,20 @@ jobs:
       - name: Checkout
         run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
 
-      - name: Install sources
-        run: .\download_smtube.cmd
+      #- name: Install sources
+      #  run: .\download_smtube.cmd
 
-      # Windows doesn't get the version from git yet
-      #- name: Install sources (normal)
-      #  uses: actions/checkout@v2
-      #  with:
-      #    path: packages/smtube
-      #    fetch-depth: 0
+      - name: Install sources (normal)
+        uses: actions/checkout@v2
+        with:
+          path: packages/smtube
+          fetch-depth: 0
 
-      #- name: Install sources (portable)
-      #  uses: actions/checkout@v2
-      #  with:
-      #    path: packages/smtube-portable
-      #    fetch-depth: 0
+      - name: Install sources (portable)
+        uses: actions/checkout@v2
+        with:
+          path: packages/smtube-portable
+          fetch-depth: 0
 
       - name: Install Qt (32 bit)
         if: ${{ matrix.config.arch == 'win32' }}
