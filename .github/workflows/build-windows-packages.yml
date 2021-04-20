@@ -29,7 +29,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install sources (portable)
-        run: xcopy packages/smtube packages/smtube-portable\ /E
+        run: xcopy packages\smtube packages\smtube-portable\ /E
 
       - name: Install Qt (32 bit)
         if: ${{ matrix.config.arch == 'win32' }}
