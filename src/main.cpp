@@ -133,10 +133,6 @@ int main(int argc, char * argv[]) {
 	a.setAttribute(Qt::AA_DontShowIconsInMenus, false);
 #endif
 
-#ifdef HDPI_SUPPORT
-	delete hdpi;
-#endif
-
 	QUrl url;
 	QString search_term;
 	QString language;
