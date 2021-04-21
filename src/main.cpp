@@ -30,6 +30,7 @@
 
 #ifdef PORTABLE_APP
 #ifdef Q_OS_WIN
+#include <windows.h>
 QString applicationPath() {
 	wchar_t my_path[_MAX_PATH+1];
 	GetModuleFileName(NULL, my_path,_MAX_PATH);
