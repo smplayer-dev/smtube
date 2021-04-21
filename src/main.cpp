@@ -28,6 +28,25 @@
 #include "hdpisupport.h"
 #endif
 
+#ifdef PORTABLE_APP
+#ifdef Q_OS_WIN
+QString applicationPath() {
+	wchar_t my_path[_MAX_PATH+1];
+	GetModuleFileName(NULL, my_path,_MAX_PATH);
+	QString app_path = QString::fromWCharArray(my_path);
+	if (app_path.isEmpty()) return "";
+	QFileInfo fi(app_path);
+	return fi.absolutePath();
+}
+#else
+QString applicationPath() {
+	QString exe_file = QFile::symLinkTarget(QString("/proc/%1/exe").arg(QCoreApplication::applicationPid()));
+	return QFileInfo(exe_file).absolutePath();
+}
+#endif
+#endif // PORTABLE_APP
+
+
 QString configPath() {
 #ifdef PORTABLE_APP
 	return qApp->applicationDirPath();
@@ -49,7 +68,7 @@ QString configPath() {
 #ifdef HDPI_SUPPORT
 QString smplayerConfigPath() {
 #ifdef PORTABLE_APP
-	return qApp->applicationDirPath();
+	return applicationPath();
 #else
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
 	const char * XDG_CONFIG_HOME = getenv("XDG_CONFIG_HOME");
@@ -97,7 +116,11 @@ QString qtTranslationsPath() {
 
 int main(int argc, char * argv[]) {
 #ifdef HDPI_SUPPORT
-	HDPISupport * hdpi = new HDPISupport(smplayerConfigPath());
+	QString hdpi_config_path = smplayerConfigPath();
+	HDPISupport * hdpi = 0;
+	if (!hdpi_config_path.isEmpty()) {
+		hdpi = new HDPISupport(hdpi_config_path);
+	}
 #endif
 
 	QApplication a(argc, argv);
@@ -177,5 +200,10 @@ int main(int argc, char * argv[]) {
 	int r = a.exec();
 
 	delete w;
+
+#ifdef HDPI_SUPPORT
+	if (hdpi != 0) delete hdpi;
+#endif
+
 	return r;
 }
