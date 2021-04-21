@@ -1,4 +1,4 @@
-name: Build Windows Packages
+name: Build Windows Packages (2)
 
 on:
   workflow_dispatch:
@@ -60,6 +60,7 @@ jobs:
         run: |
             cd smtube-portable
             .\compile_windows_portable.cmd -portable -noupdate
+            cd ${{ github.workspace }}
             mkdir smtube\setup\portable
             copy /y smtube-portable\src\release\smtube.exe smtube\setup\portable\smtube-portable.exe
 
