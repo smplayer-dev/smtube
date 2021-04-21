@@ -62,7 +62,7 @@ jobs:
             .\compile_windows_portable.cmd -portable -noupdate
             cd ${{ github.workspace }}
             mkdir smtube\setup\portable
-            xcopy smtube-portable\src\release\smtube.exe smtube\setup\portable\smtube-portable.exe
+            echo F|xcopy /F smtube-portable\src\release\smtube.exe smtube\setup\portable\smtube-portable.exe
 
       - name: Build smtube (normal)
         run: |
