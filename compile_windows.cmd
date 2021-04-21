@@ -157,7 +157,7 @@ call getrev.cmd
 cd src
 lrelease smtube.pro
 qmake "DEFINES += %qmake_defs%"
-mingw32-make
+mingw32-make -j4
 
 :: Installation
 if not ERRORLEVEL 1 (
