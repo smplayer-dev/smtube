@@ -36,7 +36,7 @@ install: src/smtube
 	-install -d $(DESTDIR)$(TRANSLATION_PATH)
 	install -m 644 src/translations/*.qm $(DESTDIR)$(TRANSLATION_PATH)
 	-install -d $(DESTDIR)$(DOC_PATH)
-	install -m 644 Changelog *.txt $(DESTDIR)$(DOC_PATH)
+	install -m 644 Release_notes.md *.txt $(DESTDIR)$(DOC_PATH)
 
 	-install -d $(DESTDIR)$(KDE_ICONS)/256x256/apps/
 	-install -d $(DESTDIR)$(KDE_ICONS)/128x128/apps/
