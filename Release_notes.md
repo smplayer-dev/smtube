@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+ *  Possibility to use some invidious sites.
+### Windows
+ * Enable HDPI in the portable version.
+ * Using Qt 5.15.2.
+
 ## [20.6] - 2020-06-18
  * The internal YouTube code has been removed. Now SMTube uses
    an external application to get the video URLs.
