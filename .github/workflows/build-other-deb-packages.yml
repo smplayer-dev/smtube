@@ -64,7 +64,7 @@ jobs:
         run: |
             cd ${{ env.app-name }} && fakeroot debian/rules binary
             cd ..
-            PACKAGEFILENAME=`ls ${{ env.app-name }}*.deb`
+            PACKAGEFILENAME=`ls ${{ env.app-name }}_*.deb`
             echo $PACKAGEFILENAME
             echo "PACKAGEFILENAME=$PACKAGEFILENAME" >> $GITHUB_ENV
 
