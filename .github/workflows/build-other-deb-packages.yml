@@ -26,7 +26,7 @@ jobs:
       - name: Setup
         run: |
             apt-get -y update
-            apt-get -y install sudo subversion
+            apt-get -y install sudo subversion git
 
       - name: Install sources
         uses: actions/checkout@v2
