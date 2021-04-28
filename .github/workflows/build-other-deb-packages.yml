@@ -1,0 +1,85 @@
+name: Build other deb packages
+env:
+  app-name: 'smtube'
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { container: 'ubuntu:21.04', qt: 5 }
+          - { container: 'debian:10.9', qt: 5 }
+
+    runs-on: ubuntu-latest
+    container: ${{ matrix.config.container }}
+
+    steps:
+      - name: Setup environment
+        run: echo "DEBIAN_FRONTEND=noninteractive" >> $GITHUB_ENV
+
+      - name: Setup
+        run: |
+            apt-get -y update
+            apt-get -y install sudo subversion
+
+      - name: Install sources
+        uses: actions/checkout@v2
+        with:
+          path: ${{ env.app-name }}
+          fetch-depth: 0
+
+      - name: Install development packages
+        run: sudo apt-get -y install zlib1g-dev fakeroot build-essential devscripts debhelper g++
+
+      - name: Install Qt 4
+        run: sudo apt-get -y install libqt4-dev libqtwebkit-dev
+        if: ${{ matrix.config.qt == 4 }}
+
+      - name: Install Qt 5
+        run: |
+            sudo apt-get -y install qtbase5-dev qt5-qmake qtscript5-dev qttools5-dev-tools qtbase5-private-dev libqt5webkit5-dev
+            echo "QT_SELECT=qt5" >> $GITHUB_ENV
+        if: ${{ matrix.config.qt == 5 }}
+
+      - name: Prepare sources
+        run: |
+            cd ${{ env.app-name }}
+            ln -s debian-orig debian
+            cp debian-orig/changelog-orig debian-orig/changelog
+            ./get_version.sh
+            VERSION=`cat version`~`lsb_release -cs`
+            dch -v $VERSION "Development version"
+            echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Compile ${{ env.app-name }}
+        run: cd ${{ env.app-name }} && fakeroot debian/rules build
+
+      - name: Build package
+        run: |
+            cd ${{ env.app-name }} && fakeroot debian/rules binary
+            cd ..
+            PACKAGEFILENAME=`ls ${{ env.app-name }}*.deb`
+            echo $PACKAGEFILENAME
+            echo "PACKAGEFILENAME=$PACKAGEFILENAME" >> $GITHUB_ENV
+
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.PACKAGEFILENAME }}
+          path: ./*.deb
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./*.deb
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
