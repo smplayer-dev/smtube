@@ -1,4 +1,4 @@
-name: Build other deb packages
+name: Build deb packages
 env:
   app-name: 'smtube'
 
@@ -15,6 +15,7 @@ jobs:
         config:
           #- { container: 'ubuntu:21.04', qt: 5 }
           #- { container: 'debian:10.9', qt: 5 }
+          - { container: 'wachii/debian-qt:10.9', qt: 5 }
           - { container: 'wachii/ubuntu-qt:21.04', qt: 5 }
 
     runs-on: ubuntu-latest
@@ -56,6 +57,7 @@ jobs:
             cp debian-orig/changelog-orig debian-orig/changelog
             ./get_version.sh
             VERSION=`cat version`-1~`lsb_release -is`-`lsb_release -cs`
+            VERSION=`echo $VERSION | tr '[:upper:]' '[:lower:]'`
             dch -v $VERSION "Development version"
             echo "VERSION=$VERSION" >> $GITHUB_ENV
 
