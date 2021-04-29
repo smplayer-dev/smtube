@@ -13,21 +13,22 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - { container: 'ubuntu:21.04', qt: 5 }
-          - { container: 'debian:10.9', qt: 5 }
+          #- { container: 'ubuntu:21.04', qt: 5 }
+          #- { container: 'debian:10.9', qt: 5 }
+          - { container: 'wachii/ubuntu-qt:21.04', qt: 5 }
 
     runs-on: ubuntu-latest
     container: ${{ matrix.config.container }}
 
     steps:
-      - name: Setup environment
-        run: echo "DEBIAN_FRONTEND=noninteractive" >> $GITHUB_ENV
+      #- name: Setup environment
+      #  run: echo "DEBIAN_FRONTEND=noninteractive" >> $GITHUB_ENV
 
-      - name: Setup
-        run: |
-            apt-get -y update
-            apt-get -y install tzdata keyboard-configuration
-            apt-get -y install sudo subversion git
+      #- name: Setup
+      #  run: |
+      #      apt-get -y update
+      #      apt-get -y install tzdata keyboard-configuration
+      #      apt-get -y install sudo subversion git
 
       - name: Install sources
         uses: actions/checkout@v2
@@ -35,18 +36,18 @@ jobs:
           path: ${{ env.app-name }}
           fetch-depth: 0
 
-      - name: Install development packages
-        run: sudo apt-get -y install zlib1g-dev fakeroot build-essential devscripts debhelper g++
+      #- name: Install development packages
+      #  run: sudo apt-get -y install zlib1g-dev fakeroot build-essential devscripts debhelper g++
 
-      - name: Install Qt 4
-        run: sudo apt-get -y install libqt4-dev libqtwebkit-dev
-        if: ${{ matrix.config.qt == 4 }}
+      #- name: Install Qt 4
+      #  run: sudo apt-get -y install libqt4-dev libqtwebkit-dev
+      #  if: ${{ matrix.config.qt == 4 }}
 
-      - name: Install Qt 5
-        run: |
-            sudo apt-get -y install qtbase5-dev qt5-qmake qtscript5-dev qttools5-dev-tools qtbase5-private-dev libqt5webkit5-dev
-            echo "QT_SELECT=qt5" >> $GITHUB_ENV
-        if: ${{ matrix.config.qt == 5 }}
+      #- name: Install Qt 5
+      #  run: |
+      #      sudo apt-get -y install qtbase5-dev qt5-qmake qtscript5-dev qttools5-dev-tools qtbase5-private-dev libqt5webkit5-dev
+      #      echo "QT_SELECT=qt5" >> $GITHUB_ENV
+      #  if: ${{ matrix.config.qt == 5 }}
 
       - name: Prepare sources
         run: |
@@ -54,7 +55,7 @@ jobs:
             ln -s debian-orig debian
             cp debian-orig/changelog-orig debian-orig/changelog
             ./get_version.sh
-            VERSION=`cat version`~`lsb_release -cs`
+            VERSION=`cat version`-1~`lsb_release -is`-`lsb_release -cs`
             dch -v $VERSION "Development version"
             echo "VERSION=$VERSION" >> $GITHUB_ENV
 
