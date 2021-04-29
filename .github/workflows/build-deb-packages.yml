@@ -50,6 +50,10 @@ jobs:
       #      echo "QT_SELECT=qt5" >> $GITHUB_ENV
       #  if: ${{ matrix.config.qt == 5 }}
 
+      - name: Setup Qt 5
+        run: echo "QT_SELECT=qt5" >> $GITHUB_ENV
+        if: ${{ matrix.config.qt == 5 }}
+
       - name: Prepare sources
         run: |
             cd ${{ env.app-name }}
