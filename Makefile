@@ -21,7 +21,7 @@ DEFS=DATA_PATH=\\\"$(DATA_PATH)\\\" \
      DOC_PATH=\\\"$(DOC_PATH)\\\"
 
 src/smtube:
-#	./get_svn_revision.sh
+	./get_svn_revision.sh
 	+cd src && $(QMAKE) $(QMAKE_OPTS) && $(DEFS) $(MAKE) 
 	cd src && $(LRELEASE) smtube.pro
 
