@@ -26,7 +26,7 @@ jobs:
           fetch-depth: 0
 
       - name: Download themes
-        if: ${{ env.app-name }} == 'smplayer'
+        if: ${{ env.app-name == 'smplayer' }}
         run: |
             wget https://sourceforge.net/projects/smplayer/files/SMPlayer-themes/20.11.0/smplayer-themes-20.11.0.tar.bz2
             wget https://sourceforge.net/projects/smplayer/files/SMPlayer-skins/20.11.0/smplayer-skins-20.11.0.tar.bz2
