@@ -1,6 +1,7 @@
 name: Build rpm packages
 env:
   app-name: 'smtube'
+  arch: 'x86_64'
 
 on:
   workflow_dispatch:
@@ -47,11 +48,9 @@ jobs:
 
       - name: Build
         run: |
-            rpmbuild -tb ${{ env.app-name }}-$VERSION.tar.bz2
-            ls -lR ~/rpmbuild/RPMS
-            mkdir RPM
-            mv ~/rpmbuild/RPMS/x86_64/*.rpm RPM/
-            cd RPM
+            rpmbuild -tb ${{ env.app-name }}-$VERSION.tar.bz2 --define "_rpmdir $(pwd)/RPM"
+            ls -l RPM
+            cd RPM/${{ env.arch }}
             PACKAGEFILENAME=`ls ${{ env.app-name }}*.rpm`
             echo "PACKAGEFILENAME=$PACKAGEFILENAME" >> $GITHUB_ENV
 
@@ -59,14 +58,14 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ${{ env.PACKAGEFILENAME }}
-          path: RPM/*.rpm
+          path: RPM/${{ env.arch }}*.rpm
 
       - name: Upload package to release
         if: github.event_name == 'release'
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: RPM/*.rpm
+          file: RPM/${{ env.arch }}*.rpm
           tag: ${{ github.ref }}
           overwrite: true
           file_glob: true
