@@ -15,6 +15,7 @@ jobs:
       matrix:
         config:
           - { container: 'wachii/fedora-qt:35', qt: 5 }
+          - { container: 'wachii/opensuse-qt:15.3', qt: 5 }
 
     runs-on: ubuntu-latest
     container: ${{ matrix.config.container }}
