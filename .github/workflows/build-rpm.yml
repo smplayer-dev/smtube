@@ -49,7 +49,7 @@ jobs:
       - name: Build
         run: |
             rpmbuild -tb ${{ env.app-name }}-$VERSION.tar.bz2 --define "_rpmdir $(pwd)/RPM"
-            ls -l RPM
+            ls -l RPM/${{ env.arch }}
             cd RPM/${{ env.arch }}
             PACKAGEFILENAME=`ls ${{ env.app-name }}*.rpm`
             echo "PACKAGEFILENAME=$PACKAGEFILENAME" >> $GITHUB_ENV
