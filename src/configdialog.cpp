@@ -132,16 +132,14 @@ void ConfigDialog::setSites(QList<Site> list) {
 }
 
 void ConfigDialog::refreshSitesCombo() {
-	int i = sites_combo->currentIndex();
+	QString current = sites_combo->currentText();
 	sites_combo->clear();
 	for (int n = 0; n < site_list.count(); n++) {
 		if (site_list[n].isVisible()) {
 			sites_combo->addItem(site_list[n].name());
 		}
 	}
-
-	if (i > (sites_combo->count()-1)) i = sites_combo->count()-1;
-	sites_combo->setCurrentIndex(i);
+	setCurrentSite(current);
 
 	delete_site_button->setEnabled(sites_combo->count() > 1);
 }
@@ -153,20 +151,30 @@ void ConfigDialog::setCurrentSite(const QString & name) {
 }
 
 QString ConfigDialog::currentSite() {
-	//int i = sites_combo->currentIndex();
 	return sites_combo->currentText();
+}
+
+int ConfigDialog::find_site(const QString & name) {
+	for (int n = 0; n < site_list.count(); n++) {
+		if (site_list[n].name() == name) {
+			return n;
+		}
+	}
+	return -1;
 }
 
 void ConfigDialog::on_edit_site_button_clicked() {
 	qDebug("ConfigDialog::on_edit_site_button_clicked");
 
-	int i = sites_combo->currentIndex();
-	SiteDialog d(this);
-	d.setSite(site_list[i]);
+	int index = find_site(sites_combo->currentText());
+	if (index != -1) {
+		SiteDialog d(this);
+		d.setSite(site_list[index]);
 
-	if (d.exec() == QDialog::Accepted) {
-		site_list[i] = d.site();
-		refreshSitesCombo();
+		if (d.exec() == QDialog::Accepted) {
+			site_list[index] = d.site();
+			refreshSitesCombo();
+		}
 	}
 }
 
@@ -183,10 +191,9 @@ void ConfigDialog::on_add_site_button_clicked() {
 void ConfigDialog::on_delete_site_button_clicked() {
 	qDebug("ConfigDialog::on_delete_site_button_clicked");
 
-	if (site_list.count() > 1) {
-		int i = sites_combo->currentIndex();
-		//site_list.removeAt(i);
-		site_list[i].setVisible(false);
+	if (sites_combo->count() > 1) {
+		int index = find_site(sites_combo->currentText());
+		if (index != -1) site_list[index].setVisible(false);
 		refreshSitesCombo();
 	}
 }
