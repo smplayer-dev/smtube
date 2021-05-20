@@ -1,3 +1,7 @@
+%if 0%{?suse_version}
+ %define dist .opensuse
+%endif
+
 Name:           smtube
 Version:        20.6.0
 Release:        1%{?dist}
