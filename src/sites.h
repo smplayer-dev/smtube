@@ -28,23 +28,27 @@ class QSettings;
 class Site
 {
 public:
-	Site(const QString & name, const QString & home, const QString & search)
+	Site(const QString & name, const QString & home, const QString & search, bool is_visible = true)
 	{
 		site_name = name;
 		home_url = home;
 		search_url = search;
+		visible = is_visible;
 	}
 
 	void setName(const QString & name) { site_name = name; }
 	void setHomeUrl(const QString & url) { home_url = url; }
 	void setSearchUrl(const QString & url) { search_url = url; }
+	void setVisible(bool b) { visible = b; }
 
 	QString name() { return site_name; }
 	QString homeUrl() { return home_url; }
 	QString searchUrl() { return search_url; }
+	bool isVisible() { return visible; }
 
 protected:
 	QString site_name, home_url, search_url;
+	bool visible;
 };
 
 

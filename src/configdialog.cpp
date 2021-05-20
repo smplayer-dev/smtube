@@ -135,7 +135,9 @@ void ConfigDialog::refreshSitesCombo() {
 	int i = sites_combo->currentIndex();
 	sites_combo->clear();
 	for (int n = 0; n < site_list.count(); n++) {
-		sites_combo->addItem(site_list[n].name());
+		if (site_list[n].isVisible()) {
+			sites_combo->addItem(site_list[n].name());
+		}
 	}
 
 	if (i > (sites_combo->count()-1)) i = sites_combo->count()-1;
@@ -182,7 +184,8 @@ void ConfigDialog::on_delete_site_button_clicked() {
 
 	if (site_list.count() > 1) {
 		int i = sites_combo->currentIndex();
-		site_list.removeAt(i);
+		//site_list.removeAt(i);
+		site_list[i].setVisible(false);
 		refreshSitesCombo();
 	}
 }

@@ -55,6 +55,7 @@ void Sites::save(QSettings * set) {
 		set->setValue("name", list[n].name());
 		set->setValue("home_url", list[n].homeUrl());
 		set->setValue("search_url", list[n].searchUrl());
+		set->setValue("visible", list[n].isVisible());
 		set->endGroup();
 	}
 
@@ -76,8 +77,9 @@ void Sites::load(QSettings * set) {
 			QString name = set->value("name", "").toString();
 			QString home_url = set->value("home_url", "").toString();
 			QString search_url = set->value("search_url", "").toString();
+			bool visible = set->value("visible", true).toBool();
 
-			list << Site(name, home_url, search_url);
+			list << Site(name, home_url, search_url, visible);
 			set->endGroup();
 		}
 
@@ -86,4 +88,11 @@ void Sites::load(QSettings * set) {
 	}
 
 	set->endGroup();
+
+	// Merge with default sites
+	foreach(Site site, defaultSites()) {
+		if (findName(site.name()) == -1) {
+			list << site;
+		}
+	}
 }
