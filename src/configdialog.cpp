@@ -146,14 +146,15 @@ void ConfigDialog::refreshSitesCombo() {
 	delete_site_button->setEnabled(sites_combo->count() > 1);
 }
 
-void ConfigDialog::setCurrentSite(int c) {
-	int index = 0;
-	if (c < sites_combo->count()) index = c;
+void ConfigDialog::setCurrentSite(const QString & name) {
+	int index = sites_combo->findText(name);
+	if (index == -1) index = 0;
 	sites_combo->setCurrentIndex(index);
 }
 
-int ConfigDialog::currentSite() {
-	return sites_combo->currentIndex();
+QString ConfigDialog::currentSite() {
+	//int i = sites_combo->currentIndex();
+	return sites_combo->currentText();
 }
 
 void ConfigDialog::on_edit_site_button_clicked() {

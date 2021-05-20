@@ -555,7 +555,7 @@ void BrowserWindow::showConfigDialog() {
 
 	#ifdef USE_SITES
 	d.setSites(sites.allSites());
-	d.setCurrentSite(sites.current());
+	d.setCurrentSite(sites.selectedSite());
 	bool needs_refresh = false;
 	#endif
 
@@ -578,9 +578,9 @@ void BrowserWindow::showConfigDialog() {
 		#endif
 
 		#ifdef USE_SITES
-		int current_site = d.currentSite();
-		if (current_site != sites.current()) {
-			sites.setCurrent(current_site);
+		QString current_site = d.currentSite();
+		if (current_site != sites.selectedSite()) {
+			sites.setSelectedSite(current_site);
 			needs_refresh = true;
 		}
 		sites.setAllSites(d.sites());

@@ -63,8 +63,8 @@ public:
 	void setSites(QList<Site> list);
 	QList<Site> sites() { return site_list; }
 
-	void setCurrentSite(int c);
-	int currentSite();
+	void setCurrentSite(const QString & name);
+	QString currentSite();
 #endif
 
 #ifdef USE_PLAYERS

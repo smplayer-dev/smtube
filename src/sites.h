@@ -59,11 +59,11 @@ public:
 
 	int count() { return list.count(); }
 
-	void setCurrent( int c ) { curr = c; }
-	int current() { return curr; }
+	void setSelectedSite(const QString & name);
+	QString selectedSite();
 
 	Site item(int i) { return list[i]; }
-	Site currentSite() { return list[curr]; }
+	Site currentSite();
 
 	int findName(QString name);
 
@@ -79,7 +79,7 @@ protected:
 	QList<Site> list;
 	QList<Site> default_list;
 
-	int curr;
+	QString selected_site;
 };
 
 #endif

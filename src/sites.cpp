@@ -32,7 +32,24 @@ Sites::Sites() {
 	}
 
 	default_list = list;
-	curr = 0;
+}
+
+void Sites::setSelectedSite(const QString & name) {
+	int index = findName(name);
+	if (index == -1) index = 0;
+	selected_site = list[index].name();
+}
+
+QString Sites::selectedSite() {
+	int index = findName(selected_site);
+	if (index == -1) index = 0;
+	return list[index].name();
+}
+
+Site Sites::currentSite() {
+	int index = findName(selected_site);
+	if (index == -1) index = 0;
+	return list[index];
 }
 
 int Sites::findName(QString name) {
@@ -47,7 +64,7 @@ void Sites::save(QSettings * set) {
 
 	set->beginGroup("sites");
 	set->setValue("count", list.count());
-	set->setValue("selected_site", curr);
+	set->setValue("selected_site_name", selected_site);
 
 	for (int n = 0; n < list.count(); n++) {
 		QString section = QString("site_%1").arg(n);
@@ -83,8 +100,7 @@ void Sites::load(QSettings * set) {
 			set->endGroup();
 		}
 
-		curr = set->value("selected_site", 0).toInt();
-		if (curr >= list.count()) curr = 0;
+		selected_site = set->value("selected_site_name", "").toString();
 	}
 
 	set->endGroup();
