@@ -40,5 +40,16 @@ jobs:
             ./get_svn_revision.sh
             cd src
             qmake
-            make
-  
+            make -j4
+
+      - name: Create package
+        run: |
+            cd packages/smtube/src
+            macdeployqt smtube.app
+            tar -cvjf ../smtube.tar.bz2 smtube.app/
+            
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: smtube-${{env.VERSION}}
+          path: packages/smtube/smtube.tar.bz2
