@@ -99,6 +99,10 @@ win32 {
 	}
 }
 
+mac {
+	ICON = smtube.icns
+}
+
 TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_es_ES.ts \
                translations/smtube_en.ts \
