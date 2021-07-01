@@ -26,7 +26,7 @@ Sites::Sites() {
 	list << Site("Youtube.com", "http://m.youtube.com", "http://m.youtube.com/results?search_query=SEARCHTERM");
 
 	QStringList sites_inv;
-	sites_inv << "invidious.site" << "yewtu.be" << "invidious.snopyta.org";
+	sites_inv << "yewtu.be" << "invidious.snopyta.org";
 	foreach (QString site, sites_inv) {
 		list << Site(site, "http://" + site, "http://" + site + "/search?q==SEARCHTERM");
 	}
