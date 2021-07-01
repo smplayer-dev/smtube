@@ -73,9 +73,6 @@ public:
 
 	void setDefaultPlayers(QList<Player> players);
 
-protected:
-	int find_site(const QString & name);
-
 protected slots:
 	void on_up_button_clicked();
 	void on_down_button_clicked();
@@ -97,6 +94,7 @@ protected slots:
 	void on_delete_site_button_clicked();
 
 protected:
+	int find_site(const QString & name);
 	void refreshSitesCombo();
 	QList<Site> site_list;
 #endif
