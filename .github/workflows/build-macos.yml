@@ -23,22 +23,22 @@ jobs:
             VERSION=`cat version`-macos
             echo "VERSION=$VERSION" >> $GITHUB_ENV
 
-       - name: Install Qt
+      - name: Install Qt
         uses: jurplel/install-qt-action@v2
         with:
           version: '5.15.2'
           host: 'mac'
           
-       - name: Install QtWebkit
-         run: |
-             wget https://github.com/qtwebkit/qtwebkit/releases/download/qtwebkit-5.212.0-alpha4/qtwebkit-MacOS-MacOS_10_13-Clang-MacOS-MacOS_10_13-X86_64.7z -O qtwebkit.7z
-             7z x qtwebkit.7z -o$Qt5_Dir
+      - name: Install QtWebkit
+        run: |
+            wget https://github.com/qtwebkit/qtwebkit/releases/download/qtwebkit-5.212.0-alpha4/qtwebkit-MacOS-MacOS_10_13-Clang-MacOS-MacOS_10_13-X86_64.7z -O qtwebkit.7z
+            7z x qtwebkit.7z -o$Qt5_Dir
              
-       - name: Compile
-         run: |
-             cd packages/smtube
-             ./get_svn_revision.sh
-             cd src
-             qmake
-             make
+      - name: Compile
+        run: |
+            cd packages/smtube
+            ./get_svn_revision.sh
+            cd src
+            qmake
+            make
   
