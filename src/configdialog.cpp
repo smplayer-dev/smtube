@@ -86,6 +86,12 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 #ifndef USE_SITES
 	sites_group->hide();
 #endif
+
+#ifndef FONT_CHANGE
+	font_label->hide();
+	default_font_edit->hide();
+	change_font_button->hide();
+#endif
 }
 
 ConfigDialog::~ConfigDialog() {
@@ -371,6 +377,7 @@ void ConfigDialog::updateAddPlayersButton() {
 }
 #endif
 
+#ifdef FONT_CHANGE
 void ConfigDialog::setDefaultFont(const QFont & f) {
 	default_font_edit->setText(f.toString());
 }
@@ -380,6 +387,7 @@ QFont ConfigDialog::defaultFont() {
 	f.fromString(default_font_edit->text());
 	return f;
 }
+#endif
 
 #ifdef STYLE_SWITCHING
 void ConfigDialog::setStyle(const QString & style) {
@@ -402,6 +410,7 @@ QString ConfigDialog::style() {
 }
 #endif
 
+#ifdef FONT_CHANGE
 void ConfigDialog::on_change_font_button_clicked() {
 	QFont f = qApp->font();
 
@@ -416,5 +425,6 @@ void ConfigDialog::on_change_font_button_clicked() {
 		default_font_edit->setText( f.toString() );
 	}
 }
+#endif
 
 #include "moc_configdialog.cpp"

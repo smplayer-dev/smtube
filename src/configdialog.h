@@ -22,7 +22,10 @@
 #include "ui_configdialog.h"
 
 #include <QDialog>
+
+#ifdef FONT_CHANGE
 #include <QFont>
+#endif
 
 #ifdef USE_PLAYERS
 #include "players.h"
@@ -51,8 +54,10 @@ public:
 	QString externalDownloadUrl();
 #endif
 
+#ifdef FONT_CHANGE
 	void setDefaultFont(const QFont & f);
 	QFont defaultFont();
+#endif
 
 #ifdef STYLE_SWITCHING
 	void setStyle(const QString & style);
@@ -100,7 +105,9 @@ protected:
 #endif
 
 protected slots:
+#ifdef FONT_CHANGE
 	void on_change_font_button_clicked();
+#endif
 };
 
 #endif

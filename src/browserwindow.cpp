@@ -567,7 +567,9 @@ void BrowserWindow::showConfigDialog() {
 	d.setExternalDownloadUrl(external_download_url);
 	#endif
 
+	#ifdef FONT_CHANGE
 	d.setDefaultFont(qApp->font());
+	#endif
 
 #ifdef STYLE_SWITCHING
 	d.setStyle(qApp->style()->objectName());
@@ -594,8 +596,10 @@ void BrowserWindow::showConfigDialog() {
 		external_download_url = d.externalDownloadUrl();
 		#endif
 
+		#ifdef FONT_CHANGE
 		QFont new_font = d.defaultFont();
 		if (qApp->font() != new_font) qApp->setFont(new_font);
+		#endif
 
 		#ifdef STYLE_SWITCHING
 		setStyle(d.style());
