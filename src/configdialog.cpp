@@ -55,8 +55,7 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	MyScroller::setScroller(table);
 	#endif
 #else
-	//tabs->setTabEnabled(1, false);
-	tabs->removeTab(1);
+	tabs->removeTab(find_tab("players_tab"));
 #endif
 
 #ifdef SELECT_RESOLUTION
@@ -96,9 +95,22 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	default_font_edit->hide();
 	change_font_button->hide();
 #endif
+
+#if !defined(STYLE_SWITCHING) && !defined(STYLE_SWITCHING)
+	tabs->removeTab(find_tab("interface_tab"));
+#endif
 }
 
 ConfigDialog::~ConfigDialog() {
+}
+
+int ConfigDialog::find_tab(const QString & object_name) {
+	for (int n = 0; n < tabs->count(); n++) {
+		if (tabs->widget(n)->objectName() == object_name) {
+			return n;
+		}
+	}
+	return -1;
 }
 
 #ifdef SELECT_RESOLUTION

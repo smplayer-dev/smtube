@@ -106,10 +106,13 @@ protected:
 	QList<Site> site_list;
 #endif
 
-protected slots:
 #ifdef FONT_CHANGE
+protected slots:
 	void on_change_font_button_clicked();
 #endif
+
+protected:
+	int find_tab(const QString & object_name);
 };
 
 #endif
