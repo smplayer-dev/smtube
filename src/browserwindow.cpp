@@ -38,7 +38,6 @@
 #include "supportedurls.h"
 #include "retrieveyoutubeurl.h"
 
-#include "configdialog.h"
 #include "about.h"
 #include "version.h"
 #include "links.h"
@@ -47,6 +46,10 @@
 
 #ifdef CODEDOWNLOADER
 #include "codedownloader.h"
+#endif
+
+#ifdef USE_CONFIG_DIALOG
+#include "configdialog.h"
 #endif
 
 #if QT_VERSION >= 0x050000
@@ -153,13 +156,18 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	toggleStatusbarAct->setCheckable(true);
 	connect(toggleStatusbarAct, SIGNAL(toggled(bool)), this, SLOT(viewStatusbar(bool)));
 
+#ifdef USE_CONFIG_DIALOG
 	QAction * showConfigDialogAct = new QAction(tr("&Settings"), this);
 	connect(showConfigDialogAct, SIGNAL(triggered()), this, SLOT(showConfigDialog()));
+#endif
 
 	viewMenu->addAction(toggleToolbarAct);
 	viewMenu->addAction(toggleStatusbarAct);
+
+#ifdef USE_CONFIG_DIALOG
 	viewMenu->addSeparator();
 	viewMenu->addAction(showConfigDialogAct);
+#endif
 
 	QMenu * helpMenu = menuBar()->addMenu(tr("&Help"));
 
@@ -547,6 +555,7 @@ void BrowserWindow::showAbout() {
 	d.exec();
 }
 
+#ifdef USE_CONFIG_DIALOG
 void BrowserWindow::showConfigDialog() {
 	ConfigDialog d(this);
 
@@ -616,6 +625,7 @@ void BrowserWindow::showConfigDialog() {
 	if (needs_refresh) loadHomePage();
 	#endif
 }
+#endif
 
 void BrowserWindow::saveConfig() {
 	qDebug() << "BrowserWindow::saveConfig";

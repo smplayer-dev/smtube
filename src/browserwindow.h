@@ -79,7 +79,10 @@ protected slots:
 	void openYTAudioUrl(const QString & url, int itag);
 
 	void showAbout();
+
+#ifdef USE_CONFIG_DIALOG
 	void showConfigDialog();
+#endif
 
 	void showErrorEmptyList();
 

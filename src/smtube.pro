@@ -20,6 +20,10 @@ contains(DEFINES, USE_PLAYERS) {
 	DEFINES += SELECT_RESOLUTION
 }
 
+contains(DEFINES, USE_PLAYERS|D_BUTTON|STYLE_SWITCHING|USE_SITES|FONT_CHANGE) {
+	DEFINES += USE_CONFIG_DIALOG
+}
+
 # If Qt >= 5.4
 greaterThan(QT_MAJOR_VERSION, 4):greaterThan(QT_MINOR_VERSION, 3) {
 	DEFINES += HDPI_SUPPORT
@@ -41,8 +45,6 @@ HEADERS = links.h \
           lineedit_with_icon.h \
           filechooser.h \
           myscroller.h \
-          playerdialog.h \
-          configdialog.h \
           desktopinfo.h \
           browserwindow.h \
           about.h
@@ -56,14 +58,12 @@ SOURCES = mywebview.cpp \
           lineedit_with_icon.cpp \
           filechooser.cpp \
           myscroller.cpp \
-          playerdialog.cpp \
-          configdialog.cpp \
           desktopinfo.cpp \
           browserwindow.cpp \
           about.cpp \
           main.cpp
 
-FORMS = playerdialog.ui configdialog.ui about.ui
+FORMS = about.ui
 
 RESOURCES = icons.qrc
 
@@ -88,6 +88,18 @@ contains( DEFINES, HDPI_SUPPORT ) {
 contains( DEFINES, CODEDOWNLOADER ) {
 	HEADERS += codedownloader.h
 	SOURCES += codedownloader.cpp
+}
+
+contains(DEFINES, USE_CONFIG_DIALOG) {
+	HEADERS += configdialog.h
+	SOURCES += configdialog.cpp
+	FORMS += configdialog.ui
+
+	contains(DEFINES, USE_PLAYERS) {
+		HEADERS += playerdialog.h
+		SOURCES += playerdialog.cpp
+		FORMS += playerdialog.ui
+	}
 }
 
 unix {

@@ -96,7 +96,11 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	change_font_button->hide();
 #endif
 
-#if !defined(STYLE_SWITCHING) && !defined(STYLE_SWITCHING)
+#if !defined(SELECT_RESOLUTION) && !defined(D_BUTTON) && !defined(USE_SITES)
+	tabs->removeTab(find_tab("general_tab"));
+#endif
+
+#if !defined(STYLE_SWITCHING) && !defined(FONT_CHANGE)
 	tabs->removeTab(find_tab("interface_tab"));
 #endif
 }
