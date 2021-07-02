@@ -59,11 +59,15 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	tabs->removeTab(1);
 #endif
 
+#ifdef SELECT_RESOLUTION
 	playback_resolution_combo->addItem( "240p", RetrieveYoutubeUrl::R240p );
 	playback_resolution_combo->addItem( "360p", RetrieveYoutubeUrl::R360p );
 	playback_resolution_combo->addItem( "480p", RetrieveYoutubeUrl::R480p );
 	playback_resolution_combo->addItem( "720p", RetrieveYoutubeUrl::R720p );
 	playback_resolution_combo->addItem( "1080p", RetrieveYoutubeUrl::R1080p );
+#else
+	playback_group->hide();
+#endif
 
 #ifdef D_BUTTON
 	external_download_combo->addItem("http://9xbuddy.com/download?url=%YT_URL%");
@@ -97,6 +101,7 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 ConfigDialog::~ConfigDialog() {
 }
 
+#ifdef SELECT_RESOLUTION
 void ConfigDialog::setPlaybackResolution(int resolution) {
 	playback_resolution_combo->setCurrentIndex(playback_resolution_combo->findData(resolution));
 }
@@ -105,6 +110,7 @@ int ConfigDialog::playbackResolution() {
 	int index = playback_resolution_combo->currentIndex();
 	return playback_resolution_combo->itemData(index).toInt();
 }
+#endif
 
 #ifdef D_BUTTON
 void ConfigDialog::setAddDownloadButton(bool b) {

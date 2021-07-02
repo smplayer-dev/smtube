@@ -43,8 +43,10 @@ public:
 	ConfigDialog( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~ConfigDialog();
 
+#ifdef SELECT_RESOLUTION
 	void setPlaybackResolution(int resolution);
 	int playbackResolution();
+#endif
 
 #ifdef D_BUTTON
 	void setAddDownloadButton(bool b);

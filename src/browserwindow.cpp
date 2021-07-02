@@ -550,7 +550,10 @@ void BrowserWindow::showAbout() {
 void BrowserWindow::showConfigDialog() {
 	ConfigDialog d(this);
 
+	#ifdef SELECT_RESOLUTION
 	d.setPlaybackResolution(preferred_resolution);
+	#endif
+
 	#ifdef USE_PLAYERS
 	d.setPlayers(players.allPlayers());
 	d.setDefaultPlayers(players.defaultPlayers());
@@ -576,7 +579,10 @@ void BrowserWindow::showConfigDialog() {
 #endif
 
 	if (d.exec() == QDialog::Accepted) {
+		#ifdef SELECT_RESOLUTION
 		preferred_resolution = d.playbackResolution();
+		#endif
+
 		#ifdef USE_PLAYERS
 		players.setAllPlayers(d.players());
 		view->setPlayers(players.availablePlayers());
