@@ -536,7 +536,10 @@ void BrowserWindow::updateYTCode() {
 #endif
 
 void BrowserWindow::YTFailedToStart() {
+	qDebug("BrowserWindow::YTFailedToStart");
+#ifdef CODEDOWNLOADER
 	CodeDownloader::askAndDownload(this, CodeDownloader::FailedToRun);
+#endif
 }
 
 void BrowserWindow::showAbout() {
