@@ -138,19 +138,23 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 	videoAct->setData(QStringList() << player_name << url.toString());
 	context_menu->addAction(videoAct);
 
+	#ifdef USE_YT_DL
 	// Audio
 	QAction * audioAct = new QAction(this);
 	connect(audioAct, SIGNAL(triggered()), this, SLOT(openAudioWithTriggered()));
 	audioAct->setText(tr("Play &audio with %1").arg(player_name));
 	audioAct->setData(QStringList() << player_name << url.toString());
 	context_menu->addAction(audioAct);
+	#endif
 #endif
 
+#ifdef USE_YT_DL
 	QAction * playWithBrowserAct = new QAction(this);
 	connect(playWithBrowserAct, SIGNAL(triggered()), this, SLOT(openWithBrowserTriggered()));
 	playWithBrowserAct->setText(tr("Play video with a &web browser"));
 	playWithBrowserAct->setData(url.toString());
 	context_menu->addAction(playWithBrowserAct);
+#endif
 
 	context_menu->addSeparator();
 
@@ -180,6 +184,7 @@ void MyWebView::openWithTriggered() {
 	}
 }
 
+#ifdef USE_YT_DL
 void MyWebView::openWithBrowserTriggered() {
 	qDebug() << "MyWebView::openWithBrowserTriggered";
 	QAction * a = qobject_cast<QAction *>(sender());
@@ -202,6 +207,7 @@ void MyWebView::openAudioWithTriggered() {
 		}
 	}
 }
+#endif
 
 void MyWebView::openLinkInExternalBrowser() {
 	QString url = openLinkInExternalBrowserAct->data().toString();

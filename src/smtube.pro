@@ -10,10 +10,16 @@ DEFINES += STYLE_SWITCHING
 DEFINES += CODEDOWNLOADER
 DEFINES += USE_SITES
 DEFINES += FONT_CHANGE
+DEFINES += USE_YT_DL
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x050F00
 
 contains(DEFINES, NO_USE_PLAYERS) {
 	DEFINES -= USE_PLAYERS
+}
+
+!contains(DEFINES, USE_YT_DL) {
+	DEFINES -= USE_PLAYERS
+	DEFINES -= CODEDOWNLOADER
 }
 
 contains(DEFINES, USE_PLAYERS) {
@@ -39,7 +45,6 @@ HEADERS = links.h \
           mywebview.h \
           mywebpage.h \
           mycookiejar.h \
-          retrieveyoutubeurl.h \
           supportedurls.h \
           version.h \
           lineedit_with_icon.h \
@@ -52,7 +57,6 @@ HEADERS = links.h \
 SOURCES = mywebview.cpp \
           mywebpage.cpp \
           mycookiejar.cpp \
-          retrieveyoutubeurl.cpp \
           supportedurls.cpp \
           version.cpp \
           lineedit_with_icon.cpp \
@@ -100,6 +104,11 @@ contains(DEFINES, USE_CONFIG_DIALOG) {
 		SOURCES += playerdialog.cpp
 		FORMS += playerdialog.ui
 	}
+}
+
+contains(DEFINES, USE_YT_DL) {
+	HEADERS += retrieveyoutubeurl.h
+	SOURCES += retrieveyoutubeurl.cpp
 }
 
 unix {

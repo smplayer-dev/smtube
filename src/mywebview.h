@@ -47,14 +47,18 @@ public:
 
 signals:
 	void requestedOpenWith(const QString &, const QUrl &);
+#ifdef USE_YT_DL
 	void requestedOpenAudioWith(const QString &, const QUrl &);
 	void requestedOpenWithBrowser(const QUrl &);
+#endif
 
 protected slots:
 	void openLinkInExternalBrowser();
 	void openWithTriggered();
+#ifdef USE_YT_DL
 	void openAudioWithTriggered();
 	void openWithBrowserTriggered();
+#endif
 
 protected:
 	void createContextMenu(int site_id, const QUrl & url);

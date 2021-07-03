@@ -70,13 +70,19 @@ protected slots:
 
 	void openWith(int player_id, const QUrl & url);
 	void openWith(const QString & player, const QUrl & url);
+
+#ifdef USE_YT_DL
 	void openWithBrowser(const QUrl & url);
+#endif
 
 	void openYTUrl(QString title, QString extension, const QString & url);
+
+#ifdef USE_YT_DL
 	void openYTUrl(const QString & url, int itag);
 
 	void openAudioWith(const QString & player, const QUrl & url);
 	void openYTAudioUrl(const QString & url, int itag);
+#endif
 
 	void showAbout();
 
@@ -101,7 +107,9 @@ protected:
 	void setStyle(QString style);
 #endif
 
+#ifdef USE_YT_DL
 	void fetchVideoUrl(RetrieveYoutubeUrl * ry, const QUrl & url, int player_id = Undefined);
+#endif
 
 private:
 	enum PlayerId { Undefined = -1, WebBrowser = -2 };
@@ -110,15 +118,22 @@ private:
 
 	QToolBar *toolbar;
 	QLineEdit *location;
+
+#ifdef USE_YT_DL
 	RetrieveYoutubeUrl * ryu;
 	RetrieveYoutubeUrl * ryua;
+	QString ytdl_bin;
+#endif
+
+#ifdef SELECT_RESOLUTION
+	int preferred_resolution;
+#endif
 
 	QAction *toggleToolbarAct;
 	QAction *toggleStatusbarAct;
 
 	QSettings * settings;
 
-	int preferred_resolution;
 	bool use_cookies;
 
 #ifdef USE_PLAYERS
@@ -138,8 +153,6 @@ private:
 #ifdef STYLE_SWITCHING
 	QString default_style;
 #endif
-
-	QString ytdl_bin;
 };
 
 #endif

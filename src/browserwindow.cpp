@@ -36,13 +36,15 @@
 #include "mycookiejar.h"
 
 #include "supportedurls.h"
-#include "retrieveyoutubeurl.h"
-
 #include "about.h"
 #include "version.h"
 #include "links.h"
 #include "desktopinfo.h"
 #include "qtcompat.h"
+
+#ifdef USE_YT_DL
+#include "retrieveyoutubeurl.h"
+#endif
 
 #ifdef CODEDOWNLOADER
 #include "codedownloader.h"
@@ -61,7 +63,9 @@
 
 BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::WindowFlags flags)
 	: QMainWindow(parent, flags)
+#ifdef SELECT_RESOLUTION
 	, preferred_resolution(RetrieveYoutubeUrl::R360p)
+#endif
 	, use_cookies(true)
 	, current_player(Undefined)
 #ifdef D_BUTTON
@@ -73,6 +77,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 
 	settings = new QSettings(config_path + "/smtube2.ini", QSettings::IniFormat, this);
 
+#ifdef USE_YT_DL
 	ryu = new RetrieveYoutubeUrl(this);
 	connect(ryu, SIGNAL(gotPreferredUrl(const QString &, int)), this, SLOT(openYTUrl(const QString &, int)));
 	connect(ryu, SIGNAL(gotEmptyList()), this, SLOT(showErrorEmptyList()));
@@ -83,6 +88,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	connect(ryua, SIGNAL(gotPreferredUrl(const QString &, int)), this, SLOT(openYTAudioUrl(const QString &, int)));
 	connect(ryua, SIGNAL(gotEmptyList()), this, SLOT(showErrorEmptyList()));
 	connect(ryua, SIGNAL(processFailedToStart()), this, SLOT(YTFailedToStart()));
+#endif
 
 	QNetworkProxyFactory::setUseSystemConfiguration(true);
 
@@ -90,8 +96,10 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 
 	view = new MyWebView(this);
 	connect(view, SIGNAL(requestedOpenWith(const QString&, const QUrl&)), this, SLOT(openWith(const QString&, const QUrl&)));
+#ifdef USE_YT_DL
 	connect(view, SIGNAL(requestedOpenWithBrowser(const QUrl&)), this, SLOT(openWithBrowser(const QUrl&)));
 	connect(view, SIGNAL(requestedOpenAudioWith(const QString&, const QUrl&)), this, SLOT(openAudioWith(const QString&, const QUrl&)));
+#endif
 
 	view->setPage(page);
 	view->page()->setLinkDelegationPolicy(QWebPage::DelegateAllLinks);
@@ -367,6 +375,7 @@ void BrowserWindow::processLink(const QUrl & url ) {
 	}
 }
 
+#ifdef USE_YT_DL
 void BrowserWindow::fetchVideoUrl(RetrieveYoutubeUrl * ry, const QUrl & url, int player_id) {
 	current_player = player_id;
 	int resolution = preferred_resolution;
@@ -382,6 +391,7 @@ void BrowserWindow::fetchVideoUrl(RetrieveYoutubeUrl * ry, const QUrl & url, int
 	ry->setPreferredResolution((RetrieveYoutubeUrl::Resolution) resolution);
 	ry->fetchPage(url.toString());
 }
+#endif
 
 void BrowserWindow::openWith(int player_id, const QUrl & url) {
 	qDebug() << "BrowserWindow::openWith: player_id:" << player_id << "url:" << url.toString();
@@ -413,10 +423,12 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 		QProcess::startDetached(binary, arg_list);
 	} else {
 		qDebug() << "BrowserWindow::openWith:" << player_name << "can't play this URL";
+		#ifdef USE_YT_DL
 		#ifdef USE_PLAYERS
 		fetchVideoUrl(ryu, url, player_id);
 		#else
 		fetchVideoUrl(ryu, url);
+		#endif
 		#endif
 	}
 }
@@ -436,10 +448,12 @@ void BrowserWindow::openWith(const QString & player, const QUrl & url) {
 #endif
 }
 
+#ifdef USE_YT_DL
 void BrowserWindow::openWithBrowser(const QUrl & url) {
 	qDebug() << "BrowserWindow::openWithBrowser: url:" << url.toString();
 	fetchVideoUrl(ryu, url, WebBrowser);
 }
+#endif
 
 void BrowserWindow::openYTUrl(QString title, QString extension, const QString & url) {
 	qDebug() << "BrowserWindow::openYTUrl:" << url;
@@ -490,6 +504,7 @@ void BrowserWindow::openYTUrl(QString title, QString extension, const QString & 
 	QProcess::startDetached(binary, arg_list);
 }
 
+#ifdef USE_YT_DL
 void BrowserWindow::openYTUrl(const QString & url, int itag) {
 	openYTUrl(ryu->videoTitle(), ryu->extensionForItag(itag), url);
 }
@@ -524,6 +539,7 @@ void BrowserWindow::openYTAudioUrl(const QString &, int) {
 		openYTUrl(ryua->videoTitle(), ryu->extensionForItag(itag), url);
 	}
 }
+#endif
 
 void BrowserWindow::showErrorEmptyList() {
 	qDebug() << "showErrorEmptyList";
@@ -645,8 +661,12 @@ void BrowserWindow::saveConfig() {
 	settings->endGroup();
 
 	settings->beginGroup("General");
+#ifdef SELECT_RESOLUTION
 	settings->setValue("playback_resolution", preferred_resolution);
+#endif
+#ifdef USE_YT_DL
 	settings->setValue("user_agent", ryu->userAgent());
+#endif
 
 #ifdef D_BUTTON
 	settings->setValue("add_download_button", add_download_button);
@@ -667,11 +687,13 @@ void BrowserWindow::saveConfig() {
 	settings->setValue("zoom", view->page()->mainFrame()->zoomFactor());
 	settings->endGroup();
 
+#ifdef USE_YT_DL
 	settings->beginGroup("youtube-dl");
 	settings->setValue("ytdl_bin", ytdl_bin);
 	settings->setValue("override_format", ryu->userFormat());
 	settings->setValue("use_av1", ryu->isAv1Enabled());
 	settings->endGroup();
+#endif
 
 #ifdef USE_PLAYERS
 	players.save(settings);
@@ -710,8 +732,12 @@ void BrowserWindow::loadConfig() {
 	settings->endGroup();
 
 	settings->beginGroup("General");
+#ifdef SELECT_RESOLUTION
 	preferred_resolution = settings->value("playback_resolution", RetrieveYoutubeUrl::R360p).toInt();
+#endif
+#ifdef USE_YT_DL
 	ryu->setUserAgent(settings->value("user_agent", "").toString());
+#endif
 
 #ifdef D_BUTTON
 	add_download_button = settings->value("add_download_button", false).toBool();
@@ -743,6 +769,7 @@ void BrowserWindow::loadConfig() {
 
 	settings->endGroup();
 
+#ifdef USE_YT_DL
 	settings->beginGroup("youtube-dl");
 	ytdl_bin = settings->value("ytdl_bin", "").toString();
 	ryu->setYtdlBin(ytdl_bin);
@@ -750,6 +777,7 @@ void BrowserWindow::loadConfig() {
 	ryu->setUserFormat(settings->value("override_format", "").toString());
 	ryu->enableAv1(settings->value("use_av1", false).toBool());
 	settings->endGroup();
+#endif
 
 	#ifndef PORTABLE_APP
 	if (use_cache) {
