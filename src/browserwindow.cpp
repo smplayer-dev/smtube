@@ -79,6 +79,10 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	, add_download_button(false)
 #endif
 {
+#ifdef SMTUBE_LIB
+	Q_INIT_RESOURCE(smtube_icons);
+#endif
+
 	setWindowTitle("SMTube");
 	setWindowIcon(QPixmap(":/icons/smtube.png"));
 

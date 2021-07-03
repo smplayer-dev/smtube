@@ -73,7 +73,7 @@ SOURCES = mywebview.cpp \
           desktopinfo.cpp \
           browserwindow.cpp
 
-RESOURCES = icons.qrc
+RESOURCES = smtube_icons.qrc
 
 !contains(DEFINES, SMTUBE_LIB) {
 	SOURCES += main.cpp
