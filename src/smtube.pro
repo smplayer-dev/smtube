@@ -1,17 +1,24 @@
-TEMPLATE = app
-QT += network
-
 CONFIG += release
 #CONFIG += debug
 
-DEFINES += USE_PLAYERS
-#DEFINES += D_BUTTON
-DEFINES += STYLE_SWITCHING
-DEFINES += CODEDOWNLOADER
-DEFINES += USE_SITES
-DEFINES += FONT_CHANGE
-DEFINES += USE_YT_DL
-DEFINES += USE_QPROCESS
+QT += network
+
+#DEFINES += SMTUBE_LIB
+
+!contains(DEFINES, SMTUBE_LIB) {
+	TEMPLATE = app
+	DEFINES += USE_PLAYERS
+	#DEFINES += D_BUTTON
+	DEFINES += STYLE_SWITCHING
+	DEFINES += CODEDOWNLOADER
+	DEFINES += USE_SITES
+	DEFINES += FONT_CHANGE
+	DEFINES += USE_YT_DL
+	DEFINES += USE_QPROCESS
+} else {
+	TEMPLATE = lib
+	CONFIG += staticlib
+}
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x050F00
 
 contains(DEFINES, NO_USE_PLAYERS) {
@@ -65,12 +72,15 @@ SOURCES = mywebview.cpp \
           myscroller.cpp \
           desktopinfo.cpp \
           browserwindow.cpp \
-          about.cpp \
-          main.cpp
+          about.cpp
 
 FORMS = about.ui
 
 RESOURCES = icons.qrc
+
+!contains(DEFINES, SMTUBE_LIB) {
+	SOURCES += main.cpp
+}
 
 contains(DEFINES, USE_PLAYERS) {
 	HEADERS += players.h
