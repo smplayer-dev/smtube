@@ -56,7 +56,6 @@ HEADERS = links.h \
           mycookiejar.h \
           supportedurls.h \
           version.h \
-          desktopinfo.h \
           browserwindow.h
 
 SOURCES = mywebview.cpp \
@@ -64,13 +63,13 @@ SOURCES = mywebview.cpp \
           mycookiejar.cpp \
           supportedurls.cpp \
           version.cpp \
-          desktopinfo.cpp \
           browserwindow.cpp
 
 RESOURCES = smtube_icons.qrc
 
 !contains(DEFINES, SMTUBE_LIB) {
-	SOURCES += main.cpp
+	HEADERS += desktopinfo.h
+	SOURCES += desktopinfo.cpp main.cpp
 }
 
 contains(DEFINES, USE_PLAYERS) {

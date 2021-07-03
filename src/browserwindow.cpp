@@ -38,8 +38,11 @@
 #include "supportedurls.h"
 #include "version.h"
 #include "links.h"
-#include "desktopinfo.h"
 #include "qtcompat.h"
+
+#ifndef SMTUBE_LIB
+#include "desktopinfo.h"
+#endif
 
 #ifdef ABOUT_DIALOG
 #include "about.h"
@@ -675,7 +678,9 @@ void BrowserWindow::saveConfig() {
 
 	settings->beginGroup("window");
 	settings->setValue("size", size());
+#ifndef SMTUBE_LIB
 	settings->setValue("pos", pos());
+#endif
 	settings->setValue("font", qApp->font().toString());
 #ifdef STYLE_SWITCHING
 	settings->setValue("style", qApp->style()->objectName());
@@ -736,7 +741,9 @@ void BrowserWindow::loadConfig() {
 
 	settings->beginGroup("window");
 	resize(settings->value("size", QSize(650, 715)).toSize());
+#ifndef SMTUBE_LIB
 	move(settings->value("pos", pos()).toPoint());
+#endif
 	QFont f;
 	QString current_font = qApp->font().toString();
 	f.fromString(settings->value("font", current_font).toString());
@@ -748,10 +755,12 @@ void BrowserWindow::loadConfig() {
 
 	settings->endGroup();
 
+#ifndef SMTUBE_LIB
 	if (!DesktopInfo::isInsideScreen(this)) {
 		move(DesktopInfo::topLeftPrimaryScreen());
 		qWarning("BrowserWindow::loadConfig: window is outside of the screen, moved to 0x0");
 	}
+#endif
 
 	settings->beginGroup("view");
 	toggleToolbarAct->setChecked(settings->value("toolbar", false).toBool());
