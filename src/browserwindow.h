@@ -81,11 +81,8 @@ protected slots:
 
 #ifdef USE_YT_DL
 	void openWithBrowser(const QUrl & url);
-#endif
 
 	void openYTUrl(QString title, QString extension, const QString & url);
-
-#ifdef USE_YT_DL
 	void openYTUrl(const QString & url, int itag);
 
 	void openAudioWith(const QString & player, const QUrl & url);

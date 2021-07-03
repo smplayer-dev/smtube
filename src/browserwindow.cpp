@@ -464,7 +464,6 @@ void BrowserWindow::openWithBrowser(const QUrl & url) {
 	qDebug() << "BrowserWindow::openWithBrowser: url:" << url.toString();
 	fetchVideoUrl(ryu, url, WebBrowser);
 }
-#endif
 
 void BrowserWindow::openYTUrl(QString title, QString extension, const QString & url) {
 	qDebug() << "BrowserWindow::openYTUrl:" << url;
@@ -519,7 +518,6 @@ void BrowserWindow::openYTUrl(QString title, QString extension, const QString & 
 #endif
 }
 
-#ifdef USE_YT_DL
 void BrowserWindow::openYTUrl(const QString & url, int itag) {
 	openYTUrl(ryu->videoTitle(), ryu->extensionForItag(itag), url);
 }
