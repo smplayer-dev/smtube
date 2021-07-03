@@ -122,7 +122,7 @@ contains(DEFINES, USE_YT_DL) {
 contains(DEFINES, ABOUT_DIALOG) {
 	HEADERS += about.h
 	SOURCES += about.cpp
-	FORMS = about.ui
+	FORMS += about.ui
 }
 
 unix {
