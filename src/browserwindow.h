@@ -128,9 +128,6 @@ private:
 	RetrieveYoutubeUrl * ryu;
 	RetrieveYoutubeUrl * ryua;
 	QString ytdl_bin;
-#endif
-
-#ifdef SELECT_RESOLUTION
 	int preferred_resolution;
 #endif
 

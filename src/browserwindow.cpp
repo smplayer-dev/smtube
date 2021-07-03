@@ -66,7 +66,7 @@
 
 BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::WindowFlags flags)
 	: QMainWindow(parent, flags)
-#ifdef SELECT_RESOLUTION
+#ifdef USE_YT_DL
 	, preferred_resolution(RetrieveYoutubeUrl::R360p)
 #endif
 	, use_cookies(true)
