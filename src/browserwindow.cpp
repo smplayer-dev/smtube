@@ -63,7 +63,7 @@
 
 #if QT_VERSION >= 0x050000
 #include <QStandardPaths>
-#include "myscroller.h"
+//#include "myscroller.h"
 #else
 #include <QDesktopServices>
 #endif

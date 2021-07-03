@@ -56,9 +56,6 @@ HEADERS = links.h \
           mycookiejar.h \
           supportedurls.h \
           version.h \
-          lineedit_with_icon.h \
-          filechooser.h \
-          myscroller.h \
           desktopinfo.h \
           browserwindow.h
 
@@ -67,9 +64,6 @@ SOURCES = mywebview.cpp \
           mycookiejar.cpp \
           supportedurls.cpp \
           version.cpp \
-          lineedit_with_icon.cpp \
-          filechooser.cpp \
-          myscroller.cpp \
           desktopinfo.cpp \
           browserwindow.cpp
 
@@ -108,8 +102,8 @@ contains(DEFINES, USE_CONFIG_DIALOG) {
 	FORMS += configdialog.ui
 
 	contains(DEFINES, USE_PLAYERS) {
-		HEADERS += playerdialog.h
-		SOURCES += playerdialog.cpp
+		HEADERS += myscroller.h lineedit_with_icon.h filechooser.h playerdialog.h
+		SOURCES += myscroller.cpp lineedit_with_icon.cpp filechooser.cpp playerdialog.cpp
 		FORMS += playerdialog.ui
 	}
 }
