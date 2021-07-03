@@ -29,17 +29,21 @@
 #include <QTimer>
 #include <QDesktopServices>
 #include <QWebFrame>
+#include <QApplication>
 
 #include "mywebview.h"
 #include "mywebpage.h"
 #include "mycookiejar.h"
 
 #include "supportedurls.h"
-#include "about.h"
 #include "version.h"
 #include "links.h"
 #include "desktopinfo.h"
 #include "qtcompat.h"
+
+#ifdef ABOUT_DIALOG
+#include "about.h"
+#endif
 
 #ifdef USE_YT_DL
 #include "retrieveyoutubeurl.h"
@@ -580,8 +584,14 @@ void BrowserWindow::YTFailedToStart() {
 }
 
 void BrowserWindow::showAbout() {
+#ifdef ABOUT_DIALOG
 	About d(this);
 	d.exec();
+#else
+	QMessageBox::about(this, tr("About..."),
+		tr("YouTube%1 Browser for SMPlayer").arg(QChar(0x2122)) +
+           "<p>&copy; 2015-2021 Ricardo Villalba &lt;ricardo@smplayer.info&gt;");
+#endif
 }
 
 #ifdef USE_CONFIG_DIALOG

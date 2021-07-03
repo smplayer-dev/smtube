@@ -15,6 +15,7 @@ QT += network
 	DEFINES += FONT_CHANGE
 	DEFINES += USE_YT_DL
 	DEFINES += USE_QPROCESS
+	DEFINES += ABOUT_DIALOG
 } else {
 	TEMPLATE = lib
 	CONFIG += staticlib
@@ -59,8 +60,7 @@ HEADERS = links.h \
           filechooser.h \
           myscroller.h \
           desktopinfo.h \
-          browserwindow.h \
-          about.h
+          browserwindow.h
 
 SOURCES = mywebview.cpp \
           mywebpage.cpp \
@@ -71,10 +71,7 @@ SOURCES = mywebview.cpp \
           filechooser.cpp \
           myscroller.cpp \
           desktopinfo.cpp \
-          browserwindow.cpp \
-          about.cpp
-
-FORMS = about.ui
+          browserwindow.cpp
 
 RESOURCES = icons.qrc
 
@@ -120,6 +117,12 @@ contains(DEFINES, USE_CONFIG_DIALOG) {
 contains(DEFINES, USE_YT_DL) {
 	HEADERS += retrieveyoutubeurl.h
 	SOURCES += retrieveyoutubeurl.cpp
+}
+
+contains(DEFINES, ABOUT_DIALOG) {
+	HEADERS += about.h
+	SOURCES += about.cpp
+	FORMS = about.ui
 }
 
 unix {
