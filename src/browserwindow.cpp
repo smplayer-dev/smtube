@@ -24,7 +24,6 @@
 #include <QMenuBar>
 #include <QStatusBar>
 #include <QNetworkProxyFactory>
-#include <QProcess>
 #include <QSettings>
 #include <QMessageBox>
 #include <QTimer>
@@ -44,6 +43,10 @@
 
 #ifdef USE_YT_DL
 #include "retrieveyoutubeurl.h"
+#endif
+
+#ifdef USE_QPROCESS
+#include <QProcess>
 #endif
 
 #ifdef CODEDOWNLOADER
@@ -209,6 +212,10 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 		MyCookieJar * jar = new MyCookieJar(config_path + "/cookies.ini");
 		view->page()->networkAccessManager()->setCookieJar(jar);
 	}
+
+#ifndef USE_QPROCESS
+	connect(this, SIGNAL(requestOpenUrl(const QString &)), this, SLOT(testOpenUrl(const QString &)));
+#endif
 }
 
 BrowserWindow::~BrowserWindow() {
@@ -415,12 +422,16 @@ void BrowserWindow::openWith(int player_id, const QUrl & url) {
 
 	if (direct_play) {
 		qDebug() << "BrowserWindow::openWith: ready to play with" << player_name;
+		#ifdef USE_QPROCESS
 		QStringList arg_list = arguments.split(' ', QTC_SkipEmptyParts);
 		for (int n = 0; n < arg_list.count(); n++) {
 			arg_list[n] = arg_list[n].replace("%u", url.toString());
 		}
 		qDebug() << "BrowserWindow::openWith: command:" << binary + " "+ arg_list.join(" ");
 		QProcess::startDetached(binary, arg_list);
+		#else
+		emit requestOpenUrl(url.toString());
+		#endif
 	} else {
 		qDebug() << "BrowserWindow::openWith:" << player_name << "can't play this URL";
 		#ifdef USE_YT_DL
@@ -491,6 +502,7 @@ void BrowserWindow::openYTUrl(QString title, QString extension, const QString & 
 	QString arguments = HCPLAYER_ARGUMENTS;
 #endif
 
+#ifdef USE_QPROCESS
 	QStringList arg_list = arguments.split(' ', QTC_SkipEmptyParts);
 	for (int n = 0; n < arg_list.count(); n++) {
 		if (arg_list[n].contains("%u")) {
@@ -502,6 +514,9 @@ void BrowserWindow::openYTUrl(QString title, QString extension, const QString & 
 
 	qDebug() << "BrowserWindow::openYTUrl: command:" << binary + " "+ arg_list.join(" ");
 	QProcess::startDetached(binary, arg_list);
+#else
+	emit requestOpenUrl(url);
+#endif
 }
 
 #ifdef USE_YT_DL
@@ -817,6 +832,12 @@ void BrowserWindow::setStyle(QString style) {
 		qApp->setPalette(qApp->style()->standardPalette());
 		#endif
 	}
+}
+#endif
+
+#ifndef USE_QPROCESS
+void BrowserWindow::testOpenUrl(const QString & url) {
+	qDebug() << "BrowserWindow::testOpenUrl:" << url;
 }
 #endif
 

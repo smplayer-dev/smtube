@@ -53,6 +53,14 @@ public slots:
 	void loadHomePage() { loadUrl(QUrl(homePageUrl())); };
 	void search(const QString & term);
 
+#ifndef USE_QPROCESS
+signals:
+	void requestOpenUrl(const QString & url);
+
+protected slots:
+	void testOpenUrl(const QString & url);
+#endif
+
 protected slots:
 	void adjustLocation();
 	void changeLocation();
