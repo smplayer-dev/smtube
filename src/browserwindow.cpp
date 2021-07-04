@@ -36,7 +36,6 @@
 #include "mycookiejar.h"
 
 #include "supportedurls.h"
-#include "version.h"
 #include "links.h"
 #include "qtcompat.h"
 
