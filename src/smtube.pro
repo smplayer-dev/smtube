@@ -134,6 +134,9 @@ win32 {
 
 mac {
 	ICON = smtube.icns
+	translations.files += $$files(translations/*.qm)
+	translations.path = Contents/Resources/translations
+	QMAKE_BUNDLE_DATA += translations
 }
 
 TRANSLATIONS = translations/smtube_es.ts \
