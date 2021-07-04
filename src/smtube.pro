@@ -98,12 +98,11 @@ contains( DEFINES, CODEDOWNLOADER ) {
 contains(DEFINES, USE_CONFIG_DIALOG) {
 	HEADERS += configdialog.h
 	SOURCES += configdialog.cpp
-	FORMS += configdialog.ui
+	FORMS += configdialog.ui playerdialog.ui
 
 	contains(DEFINES, USE_PLAYERS) {
 		HEADERS += myscroller.h lineedit_with_icon.h filechooser.h playerdialog.h
 		SOURCES += myscroller.cpp lineedit_with_icon.cpp filechooser.cpp playerdialog.cpp
-		FORMS += playerdialog.ui
 	}
 }
 
