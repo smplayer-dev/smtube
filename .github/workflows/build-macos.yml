@@ -2,8 +2,8 @@ name: Build on Mac OS
 
 on: 
   workflow_dispatch:
-  release:
-    types: [published]
+  #release:
+  #  types: [published]
 
 jobs:
   build:
