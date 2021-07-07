@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [21.7]
  *  Possibility to use some invidious sites.
 ### Windows
  * Enable HDPI in the portable version.
