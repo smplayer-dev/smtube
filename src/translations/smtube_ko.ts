@@ -77,97 +77,107 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="113"/>
+        <location filename="../browserwindow.cpp" line="137"/>
         <source>Home</source>
         <translation>홈</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="116"/>
+        <location filename="../browserwindow.cpp" line="140"/>
         <source>Navigation</source>
         <translation>네비게이션</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="124"/>
+        <location filename="../browserwindow.cpp" line="148"/>
         <source>Zoom +</source>
         <translation>줌 +</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="128"/>
+        <location filename="../browserwindow.cpp" line="152"/>
         <source>Zoom -</source>
         <translation>줌 -</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="132"/>
+        <location filename="../browserwindow.cpp" line="156"/>
         <source>&amp;Quit</source>
         <translation>종료(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="135"/>
+        <location filename="../browserwindow.cpp" line="159"/>
         <source>&amp;Navigation</source>
         <translation>네비게이션(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="147"/>
+        <location filename="../browserwindow.cpp" line="171"/>
         <source>&amp;View</source>
         <translation>보기</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="172"/>
         <source>Toolbar</source>
         <translation>툴바</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="176"/>
         <source>Statusbar</source>
         <translation>상태바</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="156"/>
+        <location filename="../browserwindow.cpp" line="181"/>
         <source>&amp;Settings</source>
         <translation>설정</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="164"/>
+        <location filename="../browserwindow.cpp" line="193"/>
         <source>&amp;Help</source>
         <translation>도움말</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="168"/>
+        <location filename="../browserwindow.cpp" line="197"/>
         <source>&amp;Update YouTube playback support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="170"/>
+        <location filename="../browserwindow.cpp" line="199"/>
         <source>&amp;Install / Update YouTube playback support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="176"/>
+        <location filename="../browserwindow.cpp" line="205"/>
         <source>&amp;About SMTube</source>
         <translation>SMTube 정보</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="297"/>
+        <location filename="../browserwindow.cpp" line="330"/>
         <source>Download video using an external service</source>
         <translation>외부 서비스를 이용해 비디오 다운로드하기</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="298"/>
+        <location filename="../browserwindow.cpp" line="331"/>
         <source>Download</source>
         <translation>다운로드</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="526"/>
+        <location filename="../browserwindow.cpp" line="573"/>
         <source>No video found</source>
         <translation>비디오를 찾을 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="527"/>
+        <location filename="../browserwindow.cpp" line="574"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>이 비디오의 URL을 찾지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="283"/>
+        <location filename="../browserwindow.cpp" line="597"/>
+        <source>About...</source>
+        <translation type="unfinished">정보...</translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="598"/>
+        <source>YouTube%1 Browser for SMPlayer</source>
+        <translation type="unfinished">SMPlayer 유투브%1 브라우저</translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="316"/>
         <source>Loading... %1%</source>
         <translation>불러오는 중... %1%</translation>
     </message>
@@ -386,7 +396,7 @@
         <translation>아래로</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="79"/>
+        <location filename="../configdialog.cpp" line="82"/>
         <source>Default</source>
         <translation>기본값</translation>
     </message>
@@ -447,12 +457,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="144"/>
+        <location filename="../mywebview.cpp" line="145"/>
         <source>Play &amp;audio with %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="151"/>
+        <location filename="../mywebview.cpp" line="154"/>
         <source>Play video with a &amp;web browser</source>
         <translation type="unfinished"></translation>
     </message>

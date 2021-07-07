@@ -77,97 +77,107 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="113"/>
+        <location filename="../browserwindow.cpp" line="137"/>
         <source>Home</source>
         <translation>Início</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="116"/>
+        <location filename="../browserwindow.cpp" line="140"/>
         <source>Navigation</source>
         <translation>Navegação</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="124"/>
+        <location filename="../browserwindow.cpp" line="148"/>
         <source>Zoom +</source>
         <translation>Zoom +</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="128"/>
+        <location filename="../browserwindow.cpp" line="152"/>
         <source>Zoom -</source>
         <translation>Zoom -</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="132"/>
+        <location filename="../browserwindow.cpp" line="156"/>
         <source>&amp;Quit</source>
         <translation>&amp;Sair</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="135"/>
+        <location filename="../browserwindow.cpp" line="159"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navegação</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="147"/>
+        <location filename="../browserwindow.cpp" line="171"/>
         <source>&amp;View</source>
         <translation>&amp;Ver</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="172"/>
         <source>Toolbar</source>
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="176"/>
         <source>Statusbar</source>
         <translation>Barra de status</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="156"/>
+        <location filename="../browserwindow.cpp" line="181"/>
         <source>&amp;Settings</source>
         <translation>&amp;Configurações</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="164"/>
+        <location filename="../browserwindow.cpp" line="193"/>
         <source>&amp;Help</source>
         <translation>&amp;Ajuda</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="168"/>
+        <location filename="../browserwindow.cpp" line="197"/>
         <source>&amp;Update YouTube playback support</source>
         <translation>At&amp;ualizar o suporte à reprodução do YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="170"/>
+        <location filename="../browserwindow.cpp" line="199"/>
         <source>&amp;Install / Update YouTube playback support</source>
         <translation>&amp;Instalar / Atualizar o suporte à reprodução do YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="176"/>
+        <location filename="../browserwindow.cpp" line="205"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;Sobre o YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="297"/>
+        <location filename="../browserwindow.cpp" line="330"/>
         <source>Download video using an external service</source>
         <translation>Baixar vídeo usando um serviço externo</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="298"/>
+        <location filename="../browserwindow.cpp" line="331"/>
         <source>Download</source>
         <translation>Baixar</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="526"/>
+        <location filename="../browserwindow.cpp" line="573"/>
         <source>No video found</source>
         <translation>Nenhum vídeo encontrado</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="527"/>
+        <location filename="../browserwindow.cpp" line="574"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Não foi possível encontrar a URL desse vídeo.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="283"/>
+        <location filename="../browserwindow.cpp" line="597"/>
+        <source>About...</source>
+        <translation type="unfinished">Sobre...</translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="598"/>
+        <source>YouTube%1 Browser for SMPlayer</source>
+        <translation type="unfinished">Navegador do YouTube%1 para o SMPlayer</translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="316"/>
         <source>Loading... %1%</source>
         <translation>Carregando... %1%</translation>
     </message>
@@ -390,7 +400,7 @@
         <translation>Abaixo</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="79"/>
+        <location filename="../configdialog.cpp" line="82"/>
         <source>Default</source>
         <translation>Padrão</translation>
     </message>
@@ -451,12 +461,12 @@
         <translation>Re&amp;produzir com %1</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="144"/>
+        <location filename="../mywebview.cpp" line="145"/>
         <source>Play &amp;audio with %1</source>
         <translation>Reproduzir &amp;áudio com %1</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="151"/>
+        <location filename="../mywebview.cpp" line="154"/>
         <source>Play video with a &amp;web browser</source>
         <translation>Reproduzir vídeo com um navegador &amp;web</translation>
     </message>

@@ -77,97 +77,107 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="113"/>
+        <location filename="../browserwindow.cpp" line="137"/>
         <source>Home</source>
         <translation>Rumah</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="116"/>
+        <location filename="../browserwindow.cpp" line="140"/>
         <source>Navigation</source>
         <translation>Navigasi</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="124"/>
+        <location filename="../browserwindow.cpp" line="148"/>
         <source>Zoom +</source>
         <translation>Zum +</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="128"/>
+        <location filename="../browserwindow.cpp" line="152"/>
         <source>Zoom -</source>
         <translation>Zum -</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="132"/>
+        <location filename="../browserwindow.cpp" line="156"/>
         <source>&amp;Quit</source>
         <translation>&amp;Keluar</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="135"/>
+        <location filename="../browserwindow.cpp" line="159"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navigasi</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="147"/>
+        <location filename="../browserwindow.cpp" line="171"/>
         <source>&amp;View</source>
         <translation>&amp;Lihat</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="172"/>
         <source>Toolbar</source>
         <translation>Palang Alat</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="176"/>
         <source>Statusbar</source>
         <translation>Palang Status</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="156"/>
+        <location filename="../browserwindow.cpp" line="181"/>
         <source>&amp;Settings</source>
         <translation>&amp;Tetapan</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="164"/>
+        <location filename="../browserwindow.cpp" line="193"/>
         <source>&amp;Help</source>
         <translation>&amp;Bantuan</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="168"/>
+        <location filename="../browserwindow.cpp" line="197"/>
         <source>&amp;Update YouTube playback support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="170"/>
+        <location filename="../browserwindow.cpp" line="199"/>
         <source>&amp;Install / Update YouTube playback support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="176"/>
+        <location filename="../browserwindow.cpp" line="205"/>
         <source>&amp;About SMTube</source>
         <translation>Perih&amp;al SMTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="297"/>
+        <location filename="../browserwindow.cpp" line="330"/>
         <source>Download video using an external service</source>
         <translation>Muat turun video menggunakan perkhidmatan luar</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="298"/>
+        <location filename="../browserwindow.cpp" line="331"/>
         <source>Download</source>
         <translation>Muat turun</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="526"/>
+        <location filename="../browserwindow.cpp" line="573"/>
         <source>No video found</source>
         <translation>Tiada video ditemui</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="527"/>
+        <location filename="../browserwindow.cpp" line="574"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Adalah mustahil dapat mencari URL untuk video ini.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="283"/>
+        <location filename="../browserwindow.cpp" line="597"/>
+        <source>About...</source>
+        <translation type="unfinished">Perihal...</translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="598"/>
+        <source>YouTube%1 Browser for SMPlayer</source>
+        <translation type="unfinished">Pelayar YouTube%1 untuk SMPlayer</translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="316"/>
         <source>Loading... %1%</source>
         <translation>Memuatkan... %1%</translation>
     </message>
@@ -386,7 +396,7 @@
         <translation>Turun</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="79"/>
+        <location filename="../configdialog.cpp" line="82"/>
         <source>Default</source>
         <translation>Lalai</translation>
     </message>
@@ -447,12 +457,12 @@
         <translation>&amp;Main dengan %1</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="144"/>
+        <location filename="../mywebview.cpp" line="145"/>
         <source>Play &amp;audio with %1</source>
         <translation>Main &amp;audio dengan %1</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="151"/>
+        <location filename="../mywebview.cpp" line="154"/>
         <source>Play video with a &amp;web browser</source>
         <translation>Main video dengan pelayan sesa&amp;wang</translation>
     </message>

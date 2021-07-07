@@ -77,97 +77,107 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="113"/>
+        <location filename="../browserwindow.cpp" line="137"/>
         <source>Home</source>
         <translation>ホーム</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="116"/>
+        <location filename="../browserwindow.cpp" line="140"/>
         <source>Navigation</source>
         <translation>ナビゲーション</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="124"/>
+        <location filename="../browserwindow.cpp" line="148"/>
         <source>Zoom +</source>
         <translation>拡大</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="128"/>
+        <location filename="../browserwindow.cpp" line="152"/>
         <source>Zoom -</source>
         <translation>縮小</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="132"/>
+        <location filename="../browserwindow.cpp" line="156"/>
         <source>&amp;Quit</source>
         <translation>終了(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="135"/>
+        <location filename="../browserwindow.cpp" line="159"/>
         <source>&amp;Navigation</source>
         <translation>操作(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="147"/>
+        <location filename="../browserwindow.cpp" line="171"/>
         <source>&amp;View</source>
         <translation>表示(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="172"/>
         <source>Toolbar</source>
         <translation>ツール バー</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="176"/>
         <source>Statusbar</source>
         <translation>ステータス バー</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="156"/>
+        <location filename="../browserwindow.cpp" line="181"/>
         <source>&amp;Settings</source>
         <translation>設定(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="164"/>
+        <location filename="../browserwindow.cpp" line="193"/>
         <source>&amp;Help</source>
         <translation>ヘルプ(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="168"/>
+        <location filename="../browserwindow.cpp" line="197"/>
         <source>&amp;Update YouTube playback support</source>
         <translation>YouTube 再生サポートの更新(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="170"/>
+        <location filename="../browserwindow.cpp" line="199"/>
         <source>&amp;Install / Update YouTube playback support</source>
         <translation>YouTube 再生サポートのインストール / 更新(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="176"/>
+        <location filename="../browserwindow.cpp" line="205"/>
         <source>&amp;About SMTube</source>
         <translation>SMTube のバージョン情報(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="297"/>
+        <location filename="../browserwindow.cpp" line="330"/>
         <source>Download video using an external service</source>
         <translation>外部サービスを使用して動画をダウンロードする</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="298"/>
+        <location filename="../browserwindow.cpp" line="331"/>
         <source>Download</source>
         <translation>ダウンロード</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="526"/>
+        <location filename="../browserwindow.cpp" line="573"/>
         <source>No video found</source>
         <translation>動画が見つかりません</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="527"/>
+        <location filename="../browserwindow.cpp" line="574"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>この動画の URL を見つけることができませんでした。</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="283"/>
+        <location filename="../browserwindow.cpp" line="597"/>
+        <source>About...</source>
+        <translation type="unfinished">バージョン情報...</translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="598"/>
+        <source>YouTube%1 Browser for SMPlayer</source>
+        <translation type="unfinished">SMPlayer の YouTube%1 ブラウザー</translation>
+    </message>
+    <message>
+        <location filename="../browserwindow.cpp" line="316"/>
         <source>Loading... %1%</source>
         <translation>読み込み中... %1%</translation>
     </message>
@@ -390,7 +400,7 @@
         <translation>下へ</translation>
     </message>
     <message>
-        <location filename="../configdialog.cpp" line="79"/>
+        <location filename="../configdialog.cpp" line="82"/>
         <source>Default</source>
         <translation>既定</translation>
     </message>
@@ -451,12 +461,12 @@
         <translation>%1 で再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="144"/>
+        <location filename="../mywebview.cpp" line="145"/>
         <source>Play &amp;audio with %1</source>
         <translation>%1 でオーディオを再生(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../mywebview.cpp" line="151"/>
+        <location filename="../mywebview.cpp" line="154"/>
         <source>Play video with a &amp;web browser</source>
         <translation>Web ブラウザーでビデオを再生(&amp;W)</translation>
     </message>
