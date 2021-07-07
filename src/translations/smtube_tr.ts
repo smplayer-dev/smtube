@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="tr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -134,12 +132,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="168"/>
         <source>&amp;Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube oynatma desteğini &amp;güncelleyin</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="170"/>
         <source>&amp;Install / Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube oynatma desteğini &amp;Yükleyin / Güncelleyin</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="176"/>
@@ -177,100 +175,100 @@
     <message>
         <location filename="../codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>İndiriyor...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ile bağlantı kuruluyor</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="145"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube kodu başarıyla yüklendi.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="146"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurulu sürüm: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Başarılı</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <location filename="../codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Hata</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kaydetmek olanaksız.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosya indirilirken bir hata oluştu:&lt;br&gt;%1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 youtube-dl ile iletişim kuramadı. Ya kurulu değil ya da düzgün çalışmıyor.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished">Video bağlantısı bulunamadı</translation>
+        <translation>Bu videonun URL&apos;sini bulmak mümkün değil.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Belki youtube-dl&apos;yi güncellemeniz gerekir.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="175"/>
         <location filename="../codedownloader.cpp" line="208"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube videolarını oynatmak için %1&apos;in youtube-dl adlı harici bir uygulamaya ihtiyacı var.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="176"/>
         <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu bileşenin sık sık güncellenmesi gerekiyor.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <translation>Yalnızca SMPlayer&apos;ı yeniden yükleyerek güncelleyebilirsiniz. Yükleyici en son sürümü indirip kuracaktır.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube desteğini yükle / güncelle</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="209"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 bu uygulamayı sizin için indirip kurabilir.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="210"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Resmi web sitesinden indirilecek ve %1&apos;e yüklenecektir.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="211"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Devam etmek istiyor musunuz?</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="215"/>
         <location filename="../codedownloader.cpp" line="218"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube desteği yüklensin mi?</translation>
     </message>
 </context>
 <context>
@@ -288,7 +286,7 @@
     <message>
         <location filename="../configdialog.ui" line="127"/>
         <source>A&amp;dd...</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;kle...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="166"/>
@@ -318,22 +316,22 @@
     <message>
         <location filename="../configdialog.ui" line="94"/>
         <source>Sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Siteler</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="100"/>
         <source>&amp;Site:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Site:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="120"/>
         <source>Edi&amp;t...</source>
-        <translation type="unfinished"></translation>
+        <translation>Düzenl&amp;e...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="138"/>
         <source>De&amp;lete</source>
-        <translation type="unfinished"></translation>
+        <translation>Si&amp;l...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="225"/>
@@ -439,7 +437,7 @@
     <message>
         <location filename="../mywebview.cpp" line="84"/>
         <source>Play &amp;audio with</source>
-        <translation type="unfinished"></translation>
+        <translation>Şununla &amp;ses çalın</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="137"/>
@@ -530,12 +528,12 @@
     <message>
         <location filename="../version.cpp" line="48"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (gözden geçirme %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="50"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (gözden geçirme %2)</translation>
     </message>
 </context>
 <context>
@@ -543,22 +541,22 @@
     <message>
         <location filename="../sitedialog.ui" line="14"/>
         <source>Edit Site</source>
-        <translation type="unfinished"></translation>
+        <translation>Siteyi Düzenle</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="22"/>
         <source>&amp;Name:</source>
-        <translation type="unfinished">&amp;İsim:</translation>
+        <translation>&amp;Ad:</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="39"/>
         <source>&amp;Home page URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ana sayfa URL&apos;si:</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="56"/>
         <source>&amp;Search URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Arama URL&apos;si:</translation>
     </message>
 </context>
 </TS>

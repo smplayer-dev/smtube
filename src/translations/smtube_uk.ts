@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -244,7 +242,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation>Ви можете оновити це за допомогою перевстановлення SMPlayer. Встановлювач завантажить й встановить найостаннішу версію.</translation>
+        <translation>Ви можете оновити це за допомогою перевстановлення SMPlayer. Встановлювач завантажить і встановить найостаннішу версію.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="179"/>
@@ -530,12 +528,12 @@
     <message>
         <location filename="../version.cpp" line="48"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (перевірка %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="50"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (перевірка %2)</translation>
     </message>
 </context>
 <context>
