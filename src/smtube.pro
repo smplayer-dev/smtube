@@ -107,6 +107,11 @@ contains(DEFINES, USE_CONFIG_DIALOG) {
 contains(DEFINES, USE_YT_DL) {
 	HEADERS += retrieveyoutubeurl.h
 	SOURCES += retrieveyoutubeurl.cpp
+
+	isEqual(QT_MAJOR_VERSION, 4) {
+		HEADERS += qt-json/json.h
+		SOURCES += qt-json/json.cpp
+	}
 }
 
 contains(DEFINES, ABOUT_DIALOG) {
