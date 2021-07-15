@@ -42,6 +42,8 @@
 #endif
 #endif
 
+#include "qtcompat.h"
+
 RetrieveYoutubeUrl::RetrieveYoutubeUrl(QObject* parent)
 	: QObject(parent)
 	, preferred_resolution(R720p)
@@ -224,6 +226,15 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 	}
 	#endif
 
+	#ifndef Q_OS_WIN
+	QString python_bin = findExecutable("python3");
+	if (python_bin.isEmpty()) python_bin = findExecutable("python2");
+	if (!python_bin.isEmpty()) {
+		args.prepend(app_bin);
+		app_bin = python_bin;
+	}
+	#endif
+
 	QString command = app_bin + " " + args.join(" ");
 	qDebug() << "RetrieveYoutubeUrl::runYtdl: command:" << command;
 
@@ -369,5 +380,23 @@ int RetrieveYoutubeUrl::getItagFromFormat(const QByteArray & t) {
 	}
 	return itag;
 }
+
+#ifndef Q_OS_WIN
+QString RetrieveYoutubeUrl::findExecutable(const QString & name) {
+	QByteArray env = qgetenv("PATH");
+	QStringList search_paths = QString::fromLocal8Bit(env.constData()).split(':', QTC_SkipEmptyParts);
+
+	for (int n = 0; n < search_paths.count(); n++) {
+		QString candidate = search_paths[n] + "/" + name;
+		qDebug("RetrieveYoutubeUrl::findExecutable: candidate: %s", candidate.toUtf8().constData());
+		QFileInfo info(candidate);
+		if (info.isFile() && info.isExecutable()) {
+			qDebug("RetrieveYoutubeUrl::findExecutable: executable found: %s", candidate.toUtf8().constData());
+			return candidate;
+		}
+	}
+	return QString();
+}
+#endif
 
 #include "moc_retrieveyoutubeurl.cpp"
