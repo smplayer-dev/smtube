@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_TW">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -169,12 +167,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="597"/>
         <source>About...</source>
-        <translation type="unfinished">關於...</translation>
+        <translation>關於……</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="598"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation type="unfinished">為 SMPlayer 所設計的 YouTube %1 瀏覽器 </translation>
+        <translation>為 SMPlayer 所設計的 YouTube %1 瀏覽器</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="316"/>
@@ -274,11 +272,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="211"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Would you like to proceeed?</source>
-        <translation type="obsolete">您想要繼續嗎？</translation>
+        <translation>您想要繼續嗎？</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="215"/>
@@ -544,12 +538,12 @@
     <message>
         <location filename="../version.cpp" line="48"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1（修訂版 %2）%3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="50"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1（修訂版 %2）</translation>
     </message>
 </context>
 <context>

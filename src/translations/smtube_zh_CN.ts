@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_CN">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -169,12 +167,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="597"/>
         <source>About...</source>
-        <translation type="unfinished">关于...</translation>
+        <translation>关于...</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="598"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation type="unfinished">SMPlayer 的 YouTube%1 查看器</translation>
+        <translation>SMPlayer 的 YouTube%1 浏览器</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="316"/>

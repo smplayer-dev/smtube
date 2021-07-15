@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -169,12 +167,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="597"/>
         <source>About...</source>
-        <translation type="unfinished">Acerca...</translation>
+        <translation>Acerca...</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="598"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation type="unfinished">Explorador YouTube%1 para o SMPlayer</translation>
+        <translation>Navegador Youtube%1 para o SMPlayer</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="316"/>
@@ -274,11 +272,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="211"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Would you like to proceeed?</source>
-        <translation type="obsolete">Como deseja proceder?</translation>
+        <translation>O que gostaria de fazer?</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="215"/>
@@ -544,12 +538,12 @@
     <message>
         <location filename="../version.cpp" line="48"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (revisão %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="50"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (revisão %2)</translation>
     </message>
 </context>
 <context>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="tr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -169,12 +167,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="597"/>
         <source>About...</source>
-        <translation type="unfinished">Hakkında...</translation>
+        <translation>Hakkında...</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="598"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation type="unfinished">YouTube%1 Tarayıcı SMPlayer</translation>
+        <translation>SMPlayer için YouTube%1 Tarayıcı</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="316"/>
