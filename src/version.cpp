@@ -19,9 +19,9 @@
 #include "version.h"
 #include <QObject>
 
-#define USE_SVN_VERSIONS 1
+#define USE_SVN_VERSIONS 0
 
-#define VERSION "20.6.0"
+#define VERSION "21.7.0"
 
 #if USE_SVN_VERSIONS
 #include "svn_revision.h"
