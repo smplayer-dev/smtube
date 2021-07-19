@@ -11,22 +11,22 @@
 !endif
 
 ; Startup
-${LangFileString} Installer_No_Admin "Для встановлення проґрами необхідно увійти в систему як адміністратор."
+${LangFileString} Installer_No_Admin "Для встановлення програми потрібно увійти до системи як розпорядник."
 
 ${LangFileString} Win64_Required "Для встановлення цього ПЗ потрібна 64-бітова ОС Windows."
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "Встановлення $(^NameDA) "
-${LangFileString} WelcomePage_Text "Майстер встановлення допоможе встановити $(^NameDA).$\r$\n$\r$\nПеред початком встановлення радиться закрити усі працюючі копії SMTube. Це дозволить оновити супутні проґрамні файли без перезавантаження комп’ютера.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Text "Майстер встановлення допоможе встановити $(^NameDA).$\r$\n$\r$\nПеред початком встановлення радиться закрити всі активні копії SMTube. Це дозволить оновити супутні програмні файли без перезавантаження комп’ютера.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} Section_SMTube "SMTube (необхідний)"
 
 ; Directory Page
 ${LangFileString} DirectoryPage_Text "$(^DirText)$\r$\n$\r$\nSMTube має бути встановлений у директорію, що містить ${SMTUBE_INST_ARCH} ${SMTUBE_QT_VER} встановлення SMPlayer'а."
-${LangFileString} DirectoryIsNotWritable "Обрана директорія для встановлення недоступна для запису, й може знадобитися перезапуск встановлювача з правами адміністратора.$\r$\n$\r$\nПродовжити встановлення?"
+${LangFileString} DirectoryIsNotWritable "Обрана директорія для встановлення недоступна для запису, й може знадобитися перезапуск встановлювача з правами розпорядника.$\r$\n$\r$\nПродовжити встановлення?"
 
 ; Misc
-${LangFileString} Info_QtArch_Bypassed "SMPlayer, перевірка архітектури та Qt версії обійдені командним рядком."
-${LangFileString} Info_Portable_Bypassed "Перевірка на портативність перевизначена командним рядком, примушуючи до портативності."
-${LangFileString} Info_Portable_Detected "Знайдена портативна версія SMPlayer."
+${LangFileString} Info_QtArch_Bypassed "SMPlayer, перевірку архітектури та Qt версії обійдено командним рядком."
+${LangFileString} Info_Portable_Bypassed "Перевірку на портативність перевизначено командним рядком, примушуючи до портативности."
+${LangFileString} Info_Portable_Detected "Знайдено портативну версію SMPlayer."
