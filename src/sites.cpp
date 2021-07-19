@@ -28,7 +28,7 @@ Sites::Sites() {
 	QStringList sites_inv;
 	sites_inv << "yewtu.be" << "invidious.snopyta.org";
 	foreach (QString site, sites_inv) {
-		list << Site(site, "http://" + site, "http://" + site + "/search?q==SEARCHTERM");
+		list << Site(site, "https://" + site, "https://" + site + "/search?q==SEARCHTERM");
 	}
 
 	default_list = list;
