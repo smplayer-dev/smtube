@@ -16,7 +16,10 @@ jobs:
       - name: Fix permissions
         run: |
             sudo chown user:user ../*
-      
+
+      - name: Update
+        run: sudo pacman -Sy
+
       - name: Checkout
         run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk/archlinux
       
