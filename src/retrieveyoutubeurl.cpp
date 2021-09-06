@@ -228,7 +228,7 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 
 	QString app_bin = absoluteFilePath(ytdlBin());
 
-	#ifdef Q_OS_LINUX
+	#if defined(Q_OS_UNIX) && !defined(Q_OS_MACX)
 	QString python_bin = findExecutable("python3");
 	if (python_bin.isEmpty()) python_bin = findExecutable("python2");
 	if (!python_bin.isEmpty()) {
@@ -251,6 +251,13 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 
 void RetrieveYoutubeUrl::processFinished(int exitCode, QProcess::ExitStatus exitStatus) {
 	qDebug() << "RetrieveYoutubeUrl::processFinished: exitCode:" << exitCode << "exitStatus:" << exitStatus;
+
+#ifdef Q_OS_WIN
+	if (exitCode == -1073741515) {
+		emit dllNotFound();
+		return;
+	}
+#endif
 
 	QByteArray data = process->readAll().replace("\r", "").trimmed();
 #ifndef YT_USE_JSON
