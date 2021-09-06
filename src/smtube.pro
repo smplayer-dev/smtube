@@ -141,6 +141,10 @@ mac {
 	QMAKE_BUNDLE_DATA += translations
 }
 
+unix:!macx {
+	DEFINES += OS_UNIX_NOT_MAC
+}
+
 TRANSLATIONS = translations/smtube_es.ts \
                translations/smtube_es_ES.ts \
                translations/smtube_en.ts \

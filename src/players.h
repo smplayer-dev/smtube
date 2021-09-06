@@ -62,7 +62,7 @@ public:
 	QString executable(bool * found = 0);
 
 protected:
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 	QString findExecutable(const QString & name);
 #endif
 

@@ -28,7 +28,7 @@
 //#define D_PLAYERS
 //#define DEBUG_FIND_EX
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 QString Player::findExecutable(const QString & name) {
 	QByteArray env = qgetenv("PATH");
 	QStringList search_paths = QString::fromLocal8Bit(env.constData()).split(':', QTC_SkipEmptyParts);
@@ -81,7 +81,7 @@ QString Player::executable(bool * found) {
 		#endif
 	}
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 	bin = findExecutable(player_bin);
 	if (!bin.isEmpty()) {
 		if (found) *found = true;
