@@ -19,7 +19,7 @@
 #include "version.h"
 #include <QObject>
 
-#define USE_SVN_VERSIONS 0
+#define USE_SVN_VERSIONS 1
 
 #define VERSION "21.7.0"
 
