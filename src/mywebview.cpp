@@ -216,6 +216,7 @@ void MyWebView::openLinkInExternalBrowser() {
 }
 
 QWebView * MyWebView::createWindow(QWebPage::WebWindowType type) {
+	Q_UNUSED(type);
 	qDebug() << "MyWebView::createWindow";
 	QWebHitTestResult result = page()->mainFrame()->hitTestContent(last_click);
 	QUrl url = result.linkUrl();
