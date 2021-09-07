@@ -194,7 +194,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	QMenu * helpMenu = menuBar()->addMenu(tr("&Help"));
 
 #ifdef CODEDOWNLOADER
-	#if defined(Q_OS_WIN) && !defined(PORTABLE_APP)
+	#if defined(Q_OS_WIN) && !defined(PORTABLE_APP) && !defined(YT_BIN_ON_CONFIG_DIR)
 	QAction * updateCodeAct = new QAction(tr("&Update YouTube playback support"), this);
 	#else
 	QAction * updateCodeAct = new QAction(tr("&Install / Update YouTube playback support"), this);
