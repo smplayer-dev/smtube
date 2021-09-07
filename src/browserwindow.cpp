@@ -30,6 +30,7 @@
 #include <QDesktopServices>
 #include <QWebFrame>
 #include <QApplication>
+#include <QDir>
 
 #include "mywebview.h"
 #include "mywebpage.h"
@@ -568,7 +569,11 @@ void BrowserWindow::showErrorEmptyList() {
 	qDebug() << "showErrorEmptyList";
 
 #ifdef CODEDOWNLOADER
-	CodeDownloader::askAndDownload(this, CodeDownloader::UrlNotFound);
+	QString path;
+	#ifdef YT_BIN_ON_CONFIG_DIR
+	path = QDir::homePath() + "/.smplayer";
+	#endif
+	CodeDownloader::askAndDownload(this, CodeDownloader::UrlNotFound, path);
 #else
 	QMessageBox::warning(this, tr("No video found"),
 		tr("It wasn't possible to find the URL for this video."));
@@ -578,14 +583,22 @@ void BrowserWindow::showErrorEmptyList() {
 #ifdef CODEDOWNLOADER
 void BrowserWindow::updateYTCode() {
 	qDebug() << "BrowserWindow::updateYTCode";
-	CodeDownloader::askAndDownload(this);
+	QString path;
+	#ifdef YT_BIN_ON_CONFIG_DIR
+	path = QDir::homePath() + "/.smplayer";
+	#endif
+	CodeDownloader::askAndDownload(this,  CodeDownloader::NoError, path);
 }
 #endif
 
 void BrowserWindow::YTFailedToStart() {
 	qDebug("BrowserWindow::YTFailedToStart");
 #ifdef CODEDOWNLOADER
-	CodeDownloader::askAndDownload(this, CodeDownloader::FailedToRun);
+	QString path;
+	#ifdef YT_BIN_ON_CONFIG_DIR
+	path = QDir::homePath() + "/.smplayer";
+	#endif
+	CodeDownloader::askAndDownload(this, CodeDownloader::FailedToRun, path);
 #endif
 }
 
@@ -812,6 +825,11 @@ void BrowserWindow::loadConfig() {
 	ryu->setUserFormat(settings->value("override_format", "").toString());
 	ryu->enableAv1(settings->value("use_av1", false).toBool());
 	settings->endGroup();
+
+	#ifdef YT_BIN_ON_CONFIG_DIR
+	ryu->setYtdlBin(QDir::homePath() + "/.smplayer/youtube-dl");
+	ryua->setYtdlBin(QDir::homePath() + "/.smplayer/youtube-dl");
+	#endif
 #endif
 
 	#ifndef PORTABLE_APP

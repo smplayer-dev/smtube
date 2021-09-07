@@ -112,6 +112,12 @@ contains(DEFINES, USE_YT_DL) {
 		HEADERS += qt-json/json.h
 		SOURCES += qt-json/json.cpp
 	}
+
+	win32 {
+		!contains( DEFINES, PORTABLE_APP ) {
+			DEFINES += YT_BIN_ON_CONFIG_DIR
+		}
+	}
 }
 
 contains(DEFINES, ABOUT_DIALOG) {
