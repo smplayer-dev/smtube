@@ -820,11 +820,10 @@ void BrowserWindow::loadConfig() {
 #ifdef USE_YT_DL
 	settings->beginGroup("youtube-dl");
 	ytdl_bin = settings->value("ytdl_bin", "").toString();
-	ryu->setYtdlBin(ytdl_bin);
-	ryua->setYtdlBin(ytdl_bin);
 	ryu->setUserFormat(settings->value("override_format", "").toString());
 	ryu->enableAv1(settings->value("use_av1", false).toBool());
 	settings->endGroup();
+	RetrieveYoutubeUrl::setYtdlBin(ytdl_bin);
 
 	#ifdef YT_BIN_ON_CONFIG_DIR
 	ryu->setYtdlBin(QDir::homePath() + "/.smplayer/youtube-dl");
