@@ -824,11 +824,6 @@ void BrowserWindow::loadConfig() {
 	ryu->enableAv1(settings->value("use_av1", false).toBool());
 	settings->endGroup();
 	RetrieveYoutubeUrl::setYtdlBin(ytdl_bin);
-
-	#ifdef YT_BIN_ON_CONFIG_DIR
-	ryu->setYtdlBin(QDir::homePath() + "/.smplayer/youtube-dl");
-	ryua->setYtdlBin(QDir::homePath() + "/.smplayer/youtube-dl");
-	#endif
 #endif
 
 	#ifndef PORTABLE_APP
