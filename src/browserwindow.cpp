@@ -573,7 +573,7 @@ void BrowserWindow::showErrorEmptyList() {
 	#ifdef YT_BIN_ON_CONFIG_DIR
 	path = QDir::homePath() + "/.smplayer";
 	#endif
-	CodeDownloader::askAndDownload(this, CodeDownloader::UrlNotFound, path);
+	CodeDownloader::askAndDownload(this, CodeDownloader::UrlNotFound, path, ytdl_bin);
 #else
 	QMessageBox::warning(this, tr("No video found"),
 		tr("It wasn't possible to find the URL for this video."));
@@ -587,7 +587,7 @@ void BrowserWindow::updateYTCode() {
 	#ifdef YT_BIN_ON_CONFIG_DIR
 	path = QDir::homePath() + "/.smplayer";
 	#endif
-	CodeDownloader::askAndDownload(this,  CodeDownloader::NoError, path);
+	CodeDownloader::askAndDownload(this,  CodeDownloader::NoError, path, ytdl_bin);
 }
 #endif
 
@@ -598,7 +598,7 @@ void BrowserWindow::YTFailedToStart() {
 	#ifdef YT_BIN_ON_CONFIG_DIR
 	path = QDir::homePath() + "/.smplayer";
 	#endif
-	CodeDownloader::askAndDownload(this, CodeDownloader::FailedToRun, path);
+	CodeDownloader::askAndDownload(this, CodeDownloader::FailedToRun, path, ytdl_bin);
 #endif
 }
 

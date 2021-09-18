@@ -65,24 +65,26 @@ RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
 }
 
 QString RetrieveYoutubeUrl::ytdlBin() {
-	if (!ytdl_bin.isEmpty()) {
-		return ytdl_bin;
-	}
+	if (ytdl_bin.isEmpty()) ytdl_bin = "youtube-dl";
+	QString app_path = ytdl_bin;
 
-#ifdef Q_OS_WIN
-	#ifdef YT_BIN_ON_CONFIG_DIR
-	return QDir::homePath() + "/.smplayer/youtube-dl.exe";
-	#else
-	return "mpv/youtube-dl.exe";
-	#endif
-#else
-	QString bin = QDir::homePath() + "/bin/youtube-dl";
-	QFileInfo fi(bin);
-	if (!fi.exists() || !fi.isExecutable()) {
-		bin = "youtube-dl";
+	QFileInfo fi(ytdl_bin);
+	qDebug() << "RetrieveYoutubeUrl::ytdlBin: ytdl_bin:" << ytdl_bin << "path:" << fi.path();
+
+	if (fi.path() == ".") {
+		#ifdef Q_OS_WIN
+		  #ifdef YT_BIN_ON_CONFIG_DIR
+		  app_path = QDir::homePath() + "/.smplayer/" + ytdl_bin;
+		  #else
+		  app_path = "mpv/" + ytdl_bin;
+		  #endif
+		#endif
+		#ifdef Q_OS_MACX
+		app_path = QDir::homePath() + "/bin/" + ytdl_bin;
+		#endif
 	}
-	return bin;
-#endif
+	qDebug() << "RetrieveYoutubeUrl::ytdlBin: app_path:" << app_path;
+	return app_path;
 }
 
 void RetrieveYoutubeUrl::close() {
@@ -235,8 +237,13 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 	QString app_bin = absoluteFilePath(ytdlBin());
 
 	#ifdef OS_UNIX_NOT_MAC
-	QString basename = QFileInfo(app_bin).completeBaseName();
-	qDebug() << "RetrieveYoutubeUrl::runYtdl: basename:" << basename;
+	QFileInfo fi(app_bin);
+	QString basename = fi.completeBaseName();
+	if (fi.path() == ".") {
+		QString bin = findExecutable(app_bin);
+		if (!bin.isEmpty()) app_bin = bin;
+	}
+	qDebug() << "RetrieveYoutubeUrl::runYtdl: basename:" << basename << "app_bin:" << app_bin;
 	if (basename == "youtube-dl") {
 		QString python_bin = findExecutable("python3");
 		if (python_bin.isEmpty()) python_bin = findExecutable("python2");
@@ -454,6 +461,9 @@ QList<itemMap> RetrieveYoutubeUrl::getPlaylistItems(const QString & url) {
 QString RetrieveYoutubeUrl::findExecutable(const QString & name) {
 	QByteArray env = qgetenv("PATH");
 	QStringList search_paths = QString::fromLocal8Bit(env.constData()).split(':', QTC_SkipEmptyParts);
+	QString user_bin = QDir::homePath() + "/bin";
+	if (!search_paths.contains(user_bin)) search_paths.prepend(user_bin);
+	qDebug() << "RetrieveYoutubeUrl::findExecutable: search_paths:" << search_paths;
 
 	for (int n = 0; n < search_paths.count(); n++) {
 		QString candidate = search_paths[n] + "/" + name;
