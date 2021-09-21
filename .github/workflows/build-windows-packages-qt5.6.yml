@@ -1,0 +1,101 @@
+name: Build Windows Packages with Qt 5.6
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { arch: 'x64' }
+          - { arch: 'win32' }
+
+    runs-on: windows-latest
+    steps:
+      - name: Install sources (normal)
+        uses: actions/checkout@v2
+        with:
+          path: smtube
+          fetch-depth: 0
+
+      - name: Install sources (portable)
+        run: xcopy smtube smtube-portable\ /E /H
+ 
+      - name: Install Qt 5.6 (32 bit)
+        if: ${{ matrix.config.arch == 'win32' }}
+        shell: bash
+        run: |
+            choco install wget --no-progress
+            wget -nv https://github.com/smplayer-dev/smplayer-build/releases/download/qt5.6.3/Qt5.6.3_mingw493_32-563-p-dwarf2-opengl_dynamic.7z -O Qt5.6z
+            7z x Qt5.6z -oQt5
+            # Set environment variables
+            export MinGW_Bin_Path=$GITHUB_WORKSPACE/Qt5/mingw32/bin
+            export Qt_Bin_Path=$GITHUB_WORKSPACE/Qt5/mingw493_32-563-p-dwarf2/bin
+            echo "MinGW_Bin_Path=$MinGW_Bin_Path" >> $GITHUB_ENV
+            echo "Qt_Bin_Path=$Qt_Bin_Path" >> $GITHUB_ENV
+            echo "$MinGW_Bin_Path" >> $GITHUB_PATH
+            echo "$Qt_Bin_Path" >> $GITHUB_PATH
+
+      - name: Install Qt 5.6 (64 bit)
+        if: ${{ matrix.config.arch == 'x64' }}
+        shell: bash
+        run: |
+            choco install wget --no-progress
+            wget -nv https://github.com/smplayer-dev/smplayer-build/releases/download/qt5.6.3/Qt5.6.3_mingw493_64-563-p-seh-opengl_dynamic.7z -O Qt5.6z
+            7z x Qt5.6z -oQt5
+            # Set environment variables
+            export MinGW_Bin_Path=$GITHUB_WORKSPACE/Qt5/mingw64/bin
+            export Qt_Bin_Path=$GITHUB_WORKSPACE/Qt5/mingw493_64-563-p-seh/bin
+            echo "MinGW_Bin_Path=$MinGW_Bin_Path" >> $GITHUB_ENV
+            echo "Qt_Bin_Path=$Qt_Bin_Path" >> $GITHUB_ENV
+            echo "$MinGW_Bin_Path" >> $GITHUB_PATH
+            echo "$Qt_Bin_Path" >> $GITHUB_PATH
+
+      - name: Build smtube (portable)
+        run: |
+            cd smtube-portable
+            .\compile_windows_portable.cmd -portable -noupdate
+            cd ${{ github.workspace }}
+            mkdir smtube\setup\portable
+            echo F|xcopy /F smtube-portable\src\release\smtube.exe smtube\setup\portable\smtube-portable.exe
+
+      - name: Build smtube (normal)
+        run: |
+            cd smtube
+            .\compile_windows.cmd -noupdate -makeinst
+
+      - name: Get installer name
+        shell: bash
+        run: |
+            filename=`cd smtube/setup/output/ ; ls smtube*.exe | head -1`
+            echo "PACKAGEFILENAME=$filename" >> $GITHUB_ENV
+
+      - name: Rename package
+        shell: bash
+        run: |
+            PACKAGEFILENAME=${{ env.PACKAGEFILENAME }}
+            extension="${PACKAGEFILENAME##*.}"
+            filename="${PACKAGEFILENAME%.*}"
+            new_filename="$filename-qt5.6.$extension"
+            cd smtube/setup/output/
+            mv $PACKAGEFILENAME $new_filename
+            echo "PACKAGEFILENAME=$new_filename" >> $GITHUB_ENV
+
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.PACKAGEFILENAME }}
+          path: smtube\setup\output\smtube*.exe
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: smtube\setup\output\smtube*.exe
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
