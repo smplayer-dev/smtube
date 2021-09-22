@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="da">
 <context>
     <name>About</name>
     <message>
@@ -75,107 +77,107 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="137"/>
+        <location filename="../browserwindow.cpp" line="138"/>
         <source>Home</source>
         <translation>Hjem</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="140"/>
+        <location filename="../browserwindow.cpp" line="141"/>
         <source>Navigation</source>
         <translation>Navigation</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="149"/>
         <source>Zoom +</source>
         <translation>Zoom +</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="153"/>
         <source>Zoom -</source>
         <translation>Zoom -</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="156"/>
+        <location filename="../browserwindow.cpp" line="157"/>
         <source>&amp;Quit</source>
         <translation>&amp;Afslut</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="159"/>
+        <location filename="../browserwindow.cpp" line="160"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navigation</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="171"/>
+        <location filename="../browserwindow.cpp" line="172"/>
         <source>&amp;View</source>
         <translation>&amp;Vis</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="172"/>
+        <location filename="../browserwindow.cpp" line="173"/>
         <source>Toolbar</source>
         <translation>Værktøjslinje</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="176"/>
+        <location filename="../browserwindow.cpp" line="177"/>
         <source>Statusbar</source>
         <translation>Statuslinje</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="181"/>
+        <location filename="../browserwindow.cpp" line="182"/>
         <source>&amp;Settings</source>
         <translation>&amp;Indstillinger</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="193"/>
+        <location filename="../browserwindow.cpp" line="194"/>
         <source>&amp;Help</source>
         <translation>&amp;Hjælp</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="197"/>
+        <location filename="../browserwindow.cpp" line="198"/>
         <source>&amp;Update YouTube playback support</source>
         <translation>&amp;Opdater understøttelse af YouTube-afspilning</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="199"/>
+        <location filename="../browserwindow.cpp" line="200"/>
         <source>&amp;Install / Update YouTube playback support</source>
         <translation>&amp;Installer/opdater understøttelse af YouTube-afspilning</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="205"/>
+        <location filename="../browserwindow.cpp" line="206"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;Om SMTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="330"/>
+        <location filename="../browserwindow.cpp" line="331"/>
         <source>Download video using an external service</source>
         <translation>Download video ved brug af en ekstern tjeneste</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="331"/>
+        <location filename="../browserwindow.cpp" line="332"/>
         <source>Download</source>
         <translation>Download</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="573"/>
+        <location filename="../browserwindow.cpp" line="578"/>
         <source>No video found</source>
         <translation>Der blev ikke fundet nogen video</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="574"/>
+        <location filename="../browserwindow.cpp" line="579"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Det var ikke muligt at finde videoens URL.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="597"/>
+        <location filename="../browserwindow.cpp" line="610"/>
         <source>About...</source>
         <translation>Om ...</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="598"/>
+        <location filename="../browserwindow.cpp" line="611"/>
         <source>YouTube%1 Browser for SMPlayer</source>
         <translation>YouTube%1-browser til SMPlayer</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="316"/>
+        <location filename="../browserwindow.cpp" line="317"/>
         <source>Loading... %1%</source>
         <translation>Indlæser ... %1%</translation>
     </message>
@@ -240,7 +242,6 @@
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="175"/>
-        <location filename="../codedownloader.cpp" line="208"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
         <translation>For at kunne afspille YouTube-vidoer skal %1 bruge et eksternt program kaldet youtube-dl.</translation>
     </message>
@@ -260,23 +261,32 @@
         <translation>Installer/opdater understøttelse af YouTube</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="209"/>
+        <location filename="../codedownloader.cpp" line="232"/>
+        <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="233"/>
         <source>%1 can download and install this application for you.</source>
         <translation>%1 kan downloade og installere programmet for dig.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="210"/>
-        <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation>Det vil blive downloadet fra det officielle websted og blive installeret i %1.</translation>
+        <location filename="../codedownloader.cpp" line="234"/>
+        <source>It will be downloaded from the official website and installed as %1.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="211"/>
+        <source>It will be downloaded from the official website and installed in %1.</source>
+        <translation type="obsolete">Det vil blive downloadet fra det officielle websted og blive installeret i %1.</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="235"/>
         <source>Would you like to proceed?</source>
         <translation>Vil du fortsætte?</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="215"/>
-        <location filename="../codedownloader.cpp" line="218"/>
+        <location filename="../codedownloader.cpp" line="239"/>
+        <location filename="../codedownloader.cpp" line="242"/>
         <source>Install YouTube support?</source>
         <translation>Installer understøttelse af YouTube?</translation>
     </message>
