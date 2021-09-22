@@ -77,107 +77,107 @@
 <context>
     <name>BrowserWindow</name>
     <message>
-        <location filename="../browserwindow.cpp" line="137"/>
+        <location filename="../browserwindow.cpp" line="138"/>
         <source>Home</source>
         <translation>Inicio</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="140"/>
+        <location filename="../browserwindow.cpp" line="141"/>
         <source>Navigation</source>
         <translation>Navegación</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="148"/>
+        <location filename="../browserwindow.cpp" line="149"/>
         <source>Zoom +</source>
         <translation>Zoom +</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="152"/>
+        <location filename="../browserwindow.cpp" line="153"/>
         <source>Zoom -</source>
         <translation>Zoom -</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="156"/>
+        <location filename="../browserwindow.cpp" line="157"/>
         <source>&amp;Quit</source>
         <translation>&amp;Salir</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="159"/>
+        <location filename="../browserwindow.cpp" line="160"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navegación</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="171"/>
+        <location filename="../browserwindow.cpp" line="172"/>
         <source>&amp;View</source>
         <translation>&amp;Ver</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="172"/>
+        <location filename="../browserwindow.cpp" line="173"/>
         <source>Toolbar</source>
         <translation>Barra de herramientas</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="176"/>
+        <location filename="../browserwindow.cpp" line="177"/>
         <source>Statusbar</source>
         <translation>Barra de estado</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="181"/>
+        <location filename="../browserwindow.cpp" line="182"/>
         <source>&amp;Settings</source>
         <translation>&amp;Configuración</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="193"/>
+        <location filename="../browserwindow.cpp" line="194"/>
         <source>&amp;Help</source>
         <translation>&amp;Ayuda</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="197"/>
+        <location filename="../browserwindow.cpp" line="198"/>
         <source>&amp;Update YouTube playback support</source>
         <translation>Actualizar el código para reproducir vídeos de &amp;YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="199"/>
+        <location filename="../browserwindow.cpp" line="200"/>
         <source>&amp;Install / Update YouTube playback support</source>
         <translation>&amp;Instalar / Actualizar el código para reproducir vídeos de YouTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="205"/>
+        <location filename="../browserwindow.cpp" line="206"/>
         <source>&amp;About SMTube</source>
         <translation>&amp;Acerca de SMTube</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="330"/>
+        <location filename="../browserwindow.cpp" line="331"/>
         <source>Download video using an external service</source>
         <translation>Descargar el vídeo usando un servicio externo</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="331"/>
+        <location filename="../browserwindow.cpp" line="332"/>
         <source>Download</source>
         <translation>Descargar</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="573"/>
+        <location filename="../browserwindow.cpp" line="578"/>
         <source>No video found</source>
         <translation>No se ha encontrado el vídeo</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="574"/>
+        <location filename="../browserwindow.cpp" line="579"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>No ha sido posible encontrar la URL de este vídeo.</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="597"/>
+        <location filename="../browserwindow.cpp" line="610"/>
         <source>About...</source>
         <translation>Acerca de...</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="598"/>
+        <location filename="../browserwindow.cpp" line="611"/>
         <source>YouTube%1 Browser for SMPlayer</source>
         <translation>Buscador de vídeos de YouTube%1 de SMPlayer</translation>
     </message>
     <message>
-        <location filename="../browserwindow.cpp" line="316"/>
+        <location filename="../browserwindow.cpp" line="317"/>
         <source>Loading... %1%</source>
         <translation>Cargando... %1%</translation>
     </message>
@@ -242,7 +242,6 @@
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="175"/>
-        <location filename="../codedownloader.cpp" line="208"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
         <translation>Para poder reproducir vídeos de YouTube, %1 necesita una aplicación externa llamada youtube-dl.</translation>
     </message>
@@ -262,17 +261,26 @@
         <translation>Instalar / Actualizar el soporte para YouTube</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="209"/>
+        <location filename="../codedownloader.cpp" line="232"/>
+        <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
+        <translation>Para poder reproducir vídeos de YouTube, %1 necesita la ayuda de una aplicación externa.</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="233"/>
         <source>%1 can download and install this application for you.</source>
         <translation>%1 puede descargar e instalar esta aplicación.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="210"/>
-        <source>It will be downloaded from the official website and installed in %1.</source>
+        <location filename="../codedownloader.cpp" line="234"/>
+        <source>It will be downloaded from the official website and installed as %1.</source>
         <translation>Se descargará de la web oficial y se instalará en %1.</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="211"/>
+        <source>It will be downloaded from the official website and installed in %1.</source>
+        <translation type="obsolete">Se descargará de la web oficial y se instalará en %1.</translation>
+    </message>
+    <message>
+        <location filename="../codedownloader.cpp" line="235"/>
         <source>Would you like to proceed?</source>
         <translation>¿Quieres continuar?</translation>
     </message>
@@ -281,8 +289,8 @@
         <translation type="obsolete">¿Quieres continuar?</translation>
     </message>
     <message>
-        <location filename="../codedownloader.cpp" line="215"/>
-        <location filename="../codedownloader.cpp" line="218"/>
+        <location filename="../codedownloader.cpp" line="239"/>
+        <location filename="../codedownloader.cpp" line="242"/>
         <source>Install YouTube support?</source>
         <translation>¿Instalar el soporte para YouTube?</translation>
     </message>
