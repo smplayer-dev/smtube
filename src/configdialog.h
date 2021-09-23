@@ -74,6 +74,11 @@ public:
 	QString currentSite();
 #endif
 
+#ifdef USE_YT_DL
+	void setYtdlBin(const QString & path);
+	QString ytdlBin();
+#endif
+
 #ifdef USE_PLAYERS
 	void setPlayers(QList<Player> list);
 	QList<Player> players();

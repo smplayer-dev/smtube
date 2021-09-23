@@ -632,6 +632,10 @@ void BrowserWindow::showConfigDialog() {
 	bool needs_refresh = false;
 	#endif
 
+	#ifdef USE_YT_DL
+	d.setYtdlBin(ytdl_bin);
+	#endif
+
 	#ifdef D_BUTTON
 	d.setAddDownloadButton(add_download_button);
 	d.setExternalDownloadUrl(external_download_url);
@@ -662,6 +666,11 @@ void BrowserWindow::showConfigDialog() {
 			needs_refresh = true;
 		}
 		sites.setAllSites(d.sites());
+		#endif
+
+		#ifdef USE_YT_DL
+		ytdl_bin = d.ytdlBin();
+		RetrieveYoutubeUrl::setYtdlBin(ytdl_bin);
 		#endif
 
 		#ifdef D_BUTTON

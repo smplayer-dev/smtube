@@ -90,6 +90,10 @@ ConfigDialog::ConfigDialog(QWidget * parent, Qt::WindowFlags f)
 	sites_group->hide();
 #endif
 
+#ifndef USE_YT_DL
+	youtube_app_group->hide();
+#endif
+
 #ifndef FONT_CHANGE
 	font_label->hide();
 	default_font_edit->hide();
@@ -447,6 +451,42 @@ void ConfigDialog::on_change_font_button_clicked() {
 		default_font_edit->setText( f.toString() );
 	}
 }
+#endif
+
+#ifdef USE_YT_DL
+void ConfigDialog::setYtdlBin(const QString & path) {
+	ytdl_bin_combo->clear();
+	ytdl_bin_combo->addItem("youtube-dl", "youtube-dl");
+	ytdl_bin_combo->addItem(tr("yt-dlp (based on youtube-dl with improvements)"), "yt-dlp");
+
+	QString ytdl_bin = path;
+	if (ytdl_bin.isEmpty()) ytdl_bin = "youtube-dl";
+	QString basename = QFileInfo(ytdl_bin).baseName();
+
+	int selected = 0;
+	if (basename == "youtube-dl") {
+		selected = 0;
+		ytdl_bin_combo->setItemData(0, path);
+	}
+	else
+	if (basename == "yt-dlp") {
+		selected = 1;
+		ytdl_bin_combo->setItemData(1, path);
+	}
+	else {
+		selected = 2;
+		ytdl_bin_combo->addItem(tr("Other") + " (" + basename + ")", path);
+	}
+
+	ytdl_bin_combo->setCurrentIndex(selected);
+}
+
+QString ConfigDialog::ytdlBin() {
+	QString ytdl_bin = ytdl_bin_combo->itemData(ytdl_bin_combo->currentIndex()).toString();
+	if (ytdl_bin == "youtube-dl") ytdl_bin = ""; // Default
+	return ytdl_bin;
+}
+
 #endif
 
 #include "moc_configdialog.cpp"

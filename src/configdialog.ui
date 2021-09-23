@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>627</width>
-    <height>375</height>
+    <height>407</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -127,7 +127,7 @@
              <string>A&amp;dd...</string>
             </property>
             <property name="icon">
-             <iconset resource="icons.qrc">
+             <iconset resource="smtube_icons.qrc">
               <normaloff>:/icons/list-add.png</normaloff>:/icons/list-add.png</iconset>
             </property>
            </widget>
@@ -138,10 +138,22 @@
              <string>De&amp;lete</string>
             </property>
             <property name="icon">
-             <iconset resource="icons.qrc">
+             <iconset resource="smtube_icons.qrc">
               <normaloff>:/icons/list-remove.png</normaloff>:/icons/list-remove.png</iconset>
             </property>
            </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="youtube_app_group">
+         <property name="title">
+          <string>YouTube support application</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item>
+           <widget class="QComboBox" name="ytdl_bin_combo"/>
           </item>
          </layout>
         </widget>
@@ -179,7 +191,7 @@
               <string>Up</string>
              </property>
              <property name="icon">
-              <iconset resource="icons.qrc">
+              <iconset resource="smtube_icons.qrc">
                <normaloff>:/icons/arrow-up.png</normaloff>:/icons/arrow-up.png</iconset>
              </property>
             </widget>
@@ -190,7 +202,7 @@
               <string>Down</string>
              </property>
              <property name="icon">
-              <iconset resource="icons.qrc">
+              <iconset resource="smtube_icons.qrc">
                <normaloff>:/icons/arrow-down.png</normaloff>:/icons/arrow-down.png</iconset>
              </property>
             </widget>
@@ -214,7 +226,7 @@
               <string>Add</string>
              </property>
              <property name="icon">
-              <iconset resource="icons.qrc">
+              <iconset resource="smtube_icons.qrc">
                <normaloff>:/icons/list-add.png</normaloff>:/icons/list-add.png</iconset>
              </property>
             </widget>
@@ -225,7 +237,7 @@
               <string>Delete</string>
              </property>
              <property name="icon">
-              <iconset resource="icons.qrc">
+              <iconset resource="smtube_icons.qrc">
                <normaloff>:/icons/list-remove.png</normaloff>:/icons/list-remove.png</iconset>
              </property>
             </widget>
@@ -397,7 +409,7 @@
   <tabstop>edit_site_button</tabstop>
   <tabstop>add_site_button</tabstop>
   <tabstop>delete_site_button</tabstop>
-  <tabstop>buttonBox</tabstop>
+  <tabstop>ytdl_bin_combo</tabstop>
   <tabstop>table</tabstop>
   <tabstop>up_button</tabstop>
   <tabstop>down_button</tabstop>
@@ -408,9 +420,10 @@
   <tabstop>style_combo</tabstop>
   <tabstop>default_font_edit</tabstop>
   <tabstop>change_font_button</tabstop>
+  <tabstop>buttonBox</tabstop>
  </tabstops>
  <resources>
-  <include location="icons.qrc"/>
+  <include location="smtube_icons.qrc"/>
  </resources>
  <connections>
   <connection>
