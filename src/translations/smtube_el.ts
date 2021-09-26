@@ -276,17 +276,9 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="obsolete">Η λήψη θα γίνει από την επίσημη ιστοσελίδα και θα εγκατασταθεί στο %1.</translation>
-    </message>
-    <message>
         <location filename="../codedownloader.cpp" line="235"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Would you like to proceeed?</source>
-        <translation type="obsolete">Θέλετε να συνεχίσετε;</translation>
+        <translation>Θέλετε να συνεχίσετε;</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="239"/>
@@ -313,17 +305,17 @@
         <translation>Προσ&amp;θήκη...</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="166"/>
+        <location filename="../configdialog.ui" line="178"/>
         <source>&amp;Players</source>
         <translation>&amp;Αναπαραγωγείς</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="214"/>
+        <location filename="../configdialog.ui" line="226"/>
         <source>Add</source>
         <translation>Προσθήκη</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="179"/>
+        <location filename="../configdialog.ui" line="191"/>
         <source>Up</source>
         <translation>Πάνω</translation>
     </message>
@@ -358,37 +350,42 @@
         <translation>Διαγρα&amp;φή</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="225"/>
+        <location filename="../configdialog.ui" line="152"/>
+        <source>YouTube support application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="237"/>
         <source>Delete</source>
         <translation>Διαγραφή</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="249"/>
+        <location filename="../configdialog.ui" line="261"/>
         <source>Edit</source>
         <translation>Επεξεργασία</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="262"/>
+        <location filename="../configdialog.ui" line="274"/>
         <source>A&amp;dd predefined players</source>
         <translation>&amp;Προσθήκη προτιμώμενων αναπαραγωγέων</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="298"/>
+        <location filename="../configdialog.ui" line="310"/>
         <source>&amp;Interface</source>
         <translation>&amp;Περιβάλλον</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="306"/>
+        <location filename="../configdialog.ui" line="318"/>
         <source>&amp;Style:</source>
         <translation>&amp;Ύφος</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="342"/>
+        <location filename="../configdialog.ui" line="354"/>
         <source>Font:</source>
         <translation>Γραμματοσειρά:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="356"/>
+        <location filename="../configdialog.ui" line="368"/>
         <source>C&amp;hange...</source>
         <translation>&amp;Τροποποίηση...</translation>
     </message>
@@ -403,7 +400,7 @@
         <translation>Λήψη των βίντεο χρησιμοποιώντας μια ε&amp;ξωτερική υπηρεσία</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="190"/>
+        <location filename="../configdialog.ui" line="202"/>
         <source>Down</source>
         <translation>Κάτω</translation>
     </message>
@@ -411,6 +408,16 @@
         <location filename="../configdialog.cpp" line="82"/>
         <source>Default</source>
         <translation>Εξ ορισμού</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="460"/>
+        <source>yt-dlp (based on youtube-dl with improvements)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="478"/>
+        <source>Other</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

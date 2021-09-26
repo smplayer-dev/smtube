@@ -276,17 +276,9 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="obsolete">Zostanie pobrana z oficjalnej strony i zainstalowana w %1.</translation>
-    </message>
-    <message>
         <location filename="../codedownloader.cpp" line="235"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Would you like to proceeed?</source>
-        <translation type="obsolete">Czy chcesz kontynuować?</translation>
+        <translation>Czy chcesz kontynuować?</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="239"/>
@@ -313,17 +305,17 @@
         <translation>&amp;Dodaj...</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="166"/>
+        <location filename="../configdialog.ui" line="178"/>
         <source>&amp;Players</source>
         <translation>&amp;Odtwarzacze</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="214"/>
+        <location filename="../configdialog.ui" line="226"/>
         <source>Add</source>
         <translation>Dodaj</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="179"/>
+        <location filename="../configdialog.ui" line="191"/>
         <source>Up</source>
         <translation>Do góry</translation>
     </message>
@@ -358,37 +350,42 @@
         <translation>&amp;Usuń</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="225"/>
+        <location filename="../configdialog.ui" line="152"/>
+        <source>YouTube support application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="237"/>
         <source>Delete</source>
         <translation>Usuń</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="249"/>
+        <location filename="../configdialog.ui" line="261"/>
         <source>Edit</source>
         <translation>Edytuj</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="262"/>
+        <location filename="../configdialog.ui" line="274"/>
         <source>A&amp;dd predefined players</source>
         <translation>&amp;Dodaj predefiniowane odtwarzacze</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="298"/>
+        <location filename="../configdialog.ui" line="310"/>
         <source>&amp;Interface</source>
         <translation>&amp;Interfejs</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="306"/>
+        <location filename="../configdialog.ui" line="318"/>
         <source>&amp;Style:</source>
         <translation>&amp;Styl:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="342"/>
+        <location filename="../configdialog.ui" line="354"/>
         <source>Font:</source>
         <translation>Czcionka:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="356"/>
+        <location filename="../configdialog.ui" line="368"/>
         <source>C&amp;hange...</source>
         <translation>Zmień... (&amp;h)</translation>
     </message>
@@ -403,7 +400,7 @@
         <translation>Pobierz film za pomocą usługi &amp;zewnętrznej</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="190"/>
+        <location filename="../configdialog.ui" line="202"/>
         <source>Down</source>
         <translation>W dół</translation>
     </message>
@@ -411,6 +408,16 @@
         <location filename="../configdialog.cpp" line="82"/>
         <source>Default</source>
         <translation>Domyślnie</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="460"/>
+        <source>yt-dlp (based on youtube-dl with improvements)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="478"/>
+        <source>Other</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -552,12 +559,12 @@
     <message>
         <location filename="../version.cpp" line="48"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (rewizja %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="50"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (rewizja %2)</translation>
     </message>
 </context>
 <context>

@@ -228,7 +228,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation>%1 kunne ikke kommunikere med youtube-dl. Enten er den ikke downloadet eller også virker den ikke korrekt.</translation>
+        <translation>%1 kunne ikke kommunikere med youtube-dl. Enten er det ikke installeret eller også virker det ikke korrekt.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
@@ -263,7 +263,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="232"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"></translation>
+        <translation>For at kunne afspille YouTube-vidoer har %1 brug for hjælp fra eksternt program.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="233"/>
@@ -273,11 +273,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="obsolete">Det vil blive downloadet fra det officielle websted og blive installeret i %1.</translation>
+        <translation>Det vil blive downloadet fra det officielle websted og blive installeret som %1.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="235"/>
@@ -309,17 +305,17 @@
         <translation>&amp;Tilføj ...</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="166"/>
+        <location filename="../configdialog.ui" line="178"/>
         <source>&amp;Players</source>
         <translation>&amp;Afspillere</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="214"/>
+        <location filename="../configdialog.ui" line="226"/>
         <source>Add</source>
         <translation>Tilføj</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="179"/>
+        <location filename="../configdialog.ui" line="191"/>
         <source>Up</source>
         <translation>Op</translation>
     </message>
@@ -354,37 +350,42 @@
         <translation>&amp;Slet</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="225"/>
+        <location filename="../configdialog.ui" line="152"/>
+        <source>YouTube support application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="237"/>
         <source>Delete</source>
         <translation>Slet</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="249"/>
+        <location filename="../configdialog.ui" line="261"/>
         <source>Edit</source>
         <translation>Rediger</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="262"/>
+        <location filename="../configdialog.ui" line="274"/>
         <source>A&amp;dd predefined players</source>
         <translation>&amp;Tilføj foruddefinerede afspillere</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="298"/>
+        <location filename="../configdialog.ui" line="310"/>
         <source>&amp;Interface</source>
         <translation>&amp;Grænseflade</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="306"/>
+        <location filename="../configdialog.ui" line="318"/>
         <source>&amp;Style:</source>
         <translation>&amp;Stil:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="342"/>
+        <location filename="../configdialog.ui" line="354"/>
         <source>Font:</source>
         <translation>Skrifttype:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="356"/>
+        <location filename="../configdialog.ui" line="368"/>
         <source>C&amp;hange...</source>
         <translation>&amp;Vælg ...</translation>
     </message>
@@ -399,7 +400,7 @@
         <translation>Download video ved brug af en &amp;ekstern tjeneste</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="190"/>
+        <location filename="../configdialog.ui" line="202"/>
         <source>Down</source>
         <translation>Ned</translation>
     </message>
@@ -407,6 +408,16 @@
         <location filename="../configdialog.cpp" line="82"/>
         <source>Default</source>
         <translation>Standard</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="460"/>
+        <source>yt-dlp (based on youtube-dl with improvements)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="478"/>
+        <source>Other</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

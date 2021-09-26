@@ -263,7 +263,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="232"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"></translation>
+        <translation>為了播放 YouTube 影片，%1 需要外部應用程式的協助。</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="233"/>
@@ -273,11 +273,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="obsolete">其將會從官方網頁下載並在 %1 中安裝。</translation>
+        <translation>其將會從官方網頁下載並安裝為 %1。</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="235"/>
@@ -309,17 +305,17 @@
         <translation>新增……(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="166"/>
+        <location filename="../configdialog.ui" line="178"/>
         <source>&amp;Players</source>
         <translation>播放器(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="214"/>
+        <location filename="../configdialog.ui" line="226"/>
         <source>Add</source>
         <translation>新增</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="179"/>
+        <location filename="../configdialog.ui" line="191"/>
         <source>Up</source>
         <translation>向上</translation>
     </message>
@@ -354,37 +350,42 @@
         <translation>刪除(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="225"/>
+        <location filename="../configdialog.ui" line="152"/>
+        <source>YouTube support application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="237"/>
         <source>Delete</source>
         <translation>刪除</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="249"/>
+        <location filename="../configdialog.ui" line="261"/>
         <source>Edit</source>
         <translation>編輯</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="262"/>
+        <location filename="../configdialog.ui" line="274"/>
         <source>A&amp;dd predefined players</source>
         <translation>新增預定義的播放器(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="298"/>
+        <location filename="../configdialog.ui" line="310"/>
         <source>&amp;Interface</source>
         <translation>介面(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="306"/>
+        <location filename="../configdialog.ui" line="318"/>
         <source>&amp;Style:</source>
         <translation>樣式(&amp;S)：</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="342"/>
+        <location filename="../configdialog.ui" line="354"/>
         <source>Font:</source>
         <translation>字型：</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="356"/>
+        <location filename="../configdialog.ui" line="368"/>
         <source>C&amp;hange...</source>
         <translation>改變(&amp;H)...</translation>
     </message>
@@ -399,7 +400,7 @@
         <translation>使用外部服務下載影片 (&amp;E)</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="190"/>
+        <location filename="../configdialog.ui" line="202"/>
         <source>Down</source>
         <translation>向下</translation>
     </message>
@@ -407,6 +408,16 @@
         <location filename="../configdialog.cpp" line="82"/>
         <source>Default</source>
         <translation>預設值</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="460"/>
+        <source>yt-dlp (based on youtube-dl with improvements)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="478"/>
+        <source>Other</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

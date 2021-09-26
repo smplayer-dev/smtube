@@ -134,12 +134,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="198"/>
         <source>&amp;Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kemas kini sokongan YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="200"/>
         <source>&amp;Install / Update YouTube playback support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pasang / Kemas kini sokongan YouTube</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="206"/>
@@ -187,78 +187,78 @@
     <message>
         <location filename="../codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Memuat turun...</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Menyambung ke %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="145"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kod YouTube berjaya dipasang.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="146"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Versi dipasang: %1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Berjaya</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <location filename="../codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Ralat</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Adalah mustahil dapat menyimpan %1.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Satu ralat berlaku ketika memuat turun fail:&lt;br&gt;%1</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 gagal berkomunikasi dengan youtube-dl. Sama ada ia tidak dipasang atau tidak berfungsi dengan baik.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished">Adalah mustahil dapat mencari URL untuk video ini.</translation>
+        <translation>Adalah mustahil dapat mencari URL untuk video ini.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mungkin anda perlu mengemas kini youtube-dl.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="175"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Supaya dapat memainkan video-video YouTube, %1 memerlukan satu aplikasi luar iaitu youtube-dl.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="176"/>
         <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>Komponen ini perlu dikemas kini secara kerap.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anda boleh mengemas kininya dengan memasang semula SMPlayer. Pemasang akan memuat turun dan memasang versi yang  terkini.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasang / Kemas kini sokongan YouTube</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="232"/>
@@ -268,7 +268,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="233"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 boleh memuat turun dan memasang aplikasi ini untuk anda.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="234"/>
@@ -278,13 +278,13 @@
     <message>
         <location filename="../codedownloader.cpp" line="235"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Anda mahu teruskan?</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="239"/>
         <location filename="../codedownloader.cpp" line="242"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasang sokongan YouTube?</translation>
     </message>
 </context>
 <context>
@@ -302,20 +302,20 @@
     <message>
         <location filename="../configdialog.ui" line="127"/>
         <source>A&amp;dd...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta&amp;mbah...</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="166"/>
+        <location filename="../configdialog.ui" line="178"/>
         <source>&amp;Players</source>
         <translation>&amp;Pemain</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="214"/>
+        <location filename="../configdialog.ui" line="226"/>
         <source>Add</source>
         <translation>Tambah</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="179"/>
+        <location filename="../configdialog.ui" line="191"/>
         <source>Up</source>
         <translation>Naik</translation>
     </message>
@@ -332,55 +332,60 @@
     <message>
         <location filename="../configdialog.ui" line="94"/>
         <source>Sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Tapak</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="100"/>
         <source>&amp;Site:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tapak:</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="120"/>
         <source>Edi&amp;t...</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;unting...</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="138"/>
         <source>De&amp;lete</source>
+        <translation>Pa&amp;dam</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="152"/>
+        <source>YouTube support application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="225"/>
+        <location filename="../configdialog.ui" line="237"/>
         <source>Delete</source>
         <translation>Padam</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="249"/>
+        <location filename="../configdialog.ui" line="261"/>
         <source>Edit</source>
         <translation>Sunting</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="262"/>
+        <location filename="../configdialog.ui" line="274"/>
         <source>A&amp;dd predefined players</source>
         <translation>Ta&amp;mbah pemain pratakrif</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="298"/>
+        <location filename="../configdialog.ui" line="310"/>
         <source>&amp;Interface</source>
         <translation>Antaramuka</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="306"/>
+        <location filename="../configdialog.ui" line="318"/>
         <source>&amp;Style:</source>
         <translation>&amp;Gaya:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="342"/>
+        <location filename="../configdialog.ui" line="354"/>
         <source>Font:</source>
         <translation>Fon:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="356"/>
+        <location filename="../configdialog.ui" line="368"/>
         <source>C&amp;hange...</source>
         <translation>&amp;Ubah...</translation>
     </message>
@@ -395,7 +400,7 @@
         <translation>Muat turun video menggunakan perkhidmatan &amp;luar</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="190"/>
+        <location filename="../configdialog.ui" line="202"/>
         <source>Down</source>
         <translation>Turun</translation>
     </message>
@@ -403,6 +408,16 @@
         <location filename="../configdialog.cpp" line="82"/>
         <source>Default</source>
         <translation>Lalai</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="460"/>
+        <source>yt-dlp (based on youtube-dl with improvements)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="478"/>
+        <source>Other</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -544,12 +559,12 @@
     <message>
         <location filename="../version.cpp" line="48"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (revisi %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="50"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (revisi %2)</translation>
     </message>
 </context>
 <context>
@@ -557,22 +572,22 @@
     <message>
         <location filename="../sitedialog.ui" line="14"/>
         <source>Edit Site</source>
-        <translation type="unfinished"></translation>
+        <translation>Sunting Tapak</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="22"/>
         <source>&amp;Name:</source>
-        <translation type="unfinished">&amp;Nama:</translation>
+        <translation>&amp;Nama:</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="39"/>
         <source>&amp;Home page URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>URL laman sesa&amp;wang:</translation>
     </message>
     <message>
         <location filename="../sitedialog.ui" line="56"/>
         <source>&amp;Search URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gelintar URL:</translation>
     </message>
 </context>
 </TS>

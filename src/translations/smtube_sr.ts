@@ -26,7 +26,7 @@
     <message>
         <location filename="../about.cpp" line="34"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation>Јутјуб%1 прегледач за СМПлејер</translation>
+        <translation>Јутуб%1 прегледач за СМПлејер</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="37"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="../about.cpp" line="88"/>
         <source>You can also help to translate SMTube into your own language.</source>
-        <translation>И ви можете помоћи да се СМТјуб преведе на ваш језик.</translation>
+        <translation>И ви можете помоћи да се СМТуб преведе на ваш језик.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="89"/>
@@ -144,7 +144,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="206"/>
         <source>&amp;About SMTube</source>
-        <translation>&amp;О СМТјубу</translation>
+        <translation>&amp;О СМТубу</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="331"/>
@@ -174,7 +174,7 @@
     <message>
         <location filename="../browserwindow.cpp" line="611"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation type="unfinished">Јутјуб%1 прегледач за СМПлејер</translation>
+        <translation type="unfinished">Јутуб%1 прегледач за СМПлејер</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="317"/>
@@ -305,17 +305,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="166"/>
+        <location filename="../configdialog.ui" line="178"/>
         <source>&amp;Players</source>
         <translation>&amp;Плејери</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="214"/>
+        <location filename="../configdialog.ui" line="226"/>
         <source>Add</source>
         <translation>Додај</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="179"/>
+        <location filename="../configdialog.ui" line="191"/>
         <source>Up</source>
         <translation>Горе</translation>
     </message>
@@ -350,37 +350,42 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="225"/>
+        <location filename="../configdialog.ui" line="152"/>
+        <source>YouTube support application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.ui" line="237"/>
         <source>Delete</source>
         <translation>Обриши</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="249"/>
+        <location filename="../configdialog.ui" line="261"/>
         <source>Edit</source>
         <translation>Уреди</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="262"/>
+        <location filename="../configdialog.ui" line="274"/>
         <source>A&amp;dd predefined players</source>
         <translation>&amp;Додај предефинисане плејере</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="298"/>
+        <location filename="../configdialog.ui" line="310"/>
         <source>&amp;Interface</source>
         <translation>&amp;Сучеље</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="306"/>
+        <location filename="../configdialog.ui" line="318"/>
         <source>&amp;Style:</source>
         <translation>И&amp;зглед:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="342"/>
+        <location filename="../configdialog.ui" line="354"/>
         <source>Font:</source>
         <translation>Фонт:</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="356"/>
+        <location filename="../configdialog.ui" line="368"/>
         <source>C&amp;hange...</source>
         <translation>Из&amp;мени...</translation>
     </message>
@@ -395,7 +400,7 @@
         <translation>Преузми видео помоћу &amp;спољног сервиса</translation>
     </message>
     <message>
-        <location filename="../configdialog.ui" line="190"/>
+        <location filename="../configdialog.ui" line="202"/>
         <source>Down</source>
         <translation>Доле</translation>
     </message>
@@ -403,6 +408,16 @@
         <location filename="../configdialog.cpp" line="82"/>
         <source>Default</source>
         <translation>Подразумевано</translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="460"/>
+        <source>yt-dlp (based on youtube-dl with improvements)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../configdialog.cpp" line="478"/>
+        <source>Other</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -418,7 +433,7 @@
     <message>
         <location filename="../mywebview.cpp" line="37"/>
         <source>Open in &amp;YouTube</source>
-        <translation>Отвори на Јутјубу</translation>
+        <translation>Отвори на Јутубу</translation>
     </message>
     <message>
         <location filename="../mywebview.cpp" line="48"/>
