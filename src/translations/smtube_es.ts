@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -276,17 +274,9 @@
         <translation>Se descargará de la web oficial y se instalará en %1.</translation>
     </message>
     <message>
-        <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="obsolete">Se descargará de la web oficial y se instalará en %1.</translation>
-    </message>
-    <message>
         <location filename="../codedownloader.cpp" line="235"/>
         <source>Would you like to proceed?</source>
         <translation>¿Quieres continuar?</translation>
-    </message>
-    <message>
-        <source>Would you like to proceeed?</source>
-        <translation type="obsolete">¿Quiere continuar?</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="239"/>
@@ -360,7 +350,7 @@
     <message>
         <location filename="../configdialog.ui" line="152"/>
         <source>YouTube support application</source>
-        <translation>Aplicación para el soporte de YouTube</translation>
+        <translation>Aplicación para YouTube</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="237"/>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="el">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="el" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -169,12 +167,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="610"/>
         <source>About...</source>
-        <translation type="unfinished">Σχετικά...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="611"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation type="unfinished">Περιηγητής του YouTube%1 για το SMPlayer</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="317"/>
@@ -263,7 +261,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="232"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="233"/>
@@ -273,7 +271,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="235"/>
@@ -352,7 +350,7 @@
     <message>
         <location filename="../configdialog.ui" line="152"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.ui" line="237"/>
@@ -412,12 +410,12 @@
     <message>
         <location filename="../configdialog.cpp" line="460"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="478"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -559,12 +557,12 @@
     <message>
         <location filename="../version.cpp" line="48"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../version.cpp" line="50"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
