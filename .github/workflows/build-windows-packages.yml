@@ -80,6 +80,7 @@ jobs:
             echo "INSTALLERFILENAME=$filename" >> $GITHUB_ENV
 
       - name: Create artifact
+        if: github.event_name != 'release'
         uses: actions/upload-artifact@v2
         with:
           name: ${{ env.INSTALLERFILENAME }}
