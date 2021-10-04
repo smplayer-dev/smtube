@@ -12,7 +12,7 @@ jobs:
       matrix:
         config:
           - { arch: 'x64' }
-          - { arch: 'win32' }
+          #- { arch: 'win32' }
 
     runs-on: windows-latest
     steps:
