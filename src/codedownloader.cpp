@@ -17,6 +17,7 @@
 */
 
 #include "codedownloader.h"
+#include "retrieveyoutubeurl.h"
 #include <QFile>
 #include <QMessageBox>
 #include <QDebug>
@@ -162,12 +163,12 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 
 	switch (e) {
 		case FailedToRun:
-			message += "<b>" + tr("%1 failed to communicate with youtube-dl. "
+			message += "<b>" + tr("%1 failed to communicate with the external YouTube application. "
                              "Either it's not installed or it doesn't work correctly.").arg(APPNAME) +"</b><br><br>";
 			break;
 		case UrlNotFound:
 			message += "<b>" + tr("It wasn't possible to find the URL for this video.") + " "+
-							tr("Maybe you need to update youtube-dl.") +"</b><br><br>";
+							tr("Maybe you need to update the YouTube code.") +"</b><br><br>";
 		case NoError: ;
 	}
 
@@ -178,7 +179,7 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 
 	QMessageBox::information(parent, tr("Install / Update YouTube support"),message);
 #else
-	if (app_name.isEmpty()) app_name = "youtube-dl";
+	if (app_name.isEmpty()) app_name = YTDL_DEFAULT_BIN;
 	QFileInfo fi(app_name);
 	QString app_basename = fi.baseName().toLower();
 
@@ -190,8 +191,11 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 
 	#ifdef Q_OS_WIN
 	if (app_basename == "yt-dlp") {
-		//url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe";
+		#if defined(_WIN64)
+		url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe";
+		#else
 		url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_x86.exe";
+		#endif
 		output_file = "yt-dlp.exe";
 	} else {
 		url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
