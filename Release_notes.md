@@ -1,6 +1,10 @@
 # Changelog
 
-## [21.7]
+## [21.10] - 2021-10-??
+ * Possibility to use yt-dlp instead of youtube-dl.
+ * yt-dlp is used now by default.
+
+## [21.7] - 2021-07-19
  *  Possibility to use some invidious sites.
 ### Windows
  * Enable HDPI in the portable version.
