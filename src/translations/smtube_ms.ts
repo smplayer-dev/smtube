@@ -167,12 +167,12 @@
     <message>
         <location filename="../browserwindow.cpp" line="610"/>
         <source>About...</source>
-        <translation type="unfinished"/>
+        <translation>Perihal...</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="611"/>
         <source>YouTube%1 Browser for SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Pelayar YouTube%1 untuk SMPlayer</translation>
     </message>
     <message>
         <location filename="../browserwindow.cpp" line="317"/>
@@ -261,7 +261,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="232"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"/>
+        <translation>Supaya dapat memainkan video YouTube, %1 memerlukan satu aplikasi luar.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="233"/>
@@ -271,7 +271,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"/>
+        <translation>Ia akan dimuat turun melalui tapak sesawang rasmi dan dipasang sebagai %1.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="235"/>
@@ -350,7 +350,7 @@
     <message>
         <location filename="../configdialog.ui" line="152"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"/>
+        <translation>Aplikasi sokongan YouTube</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="237"/>
@@ -410,12 +410,12 @@
     <message>
         <location filename="../configdialog.cpp" line="460"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"/>
+        <translation>yt-dlp (berdasarkan youtube-dl dengan beberapa penambahbaikan)</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="478"/>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation>Lain-lain</translation>
     </message>
 </context>
 <context>
