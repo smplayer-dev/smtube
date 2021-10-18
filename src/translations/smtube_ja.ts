@@ -350,7 +350,7 @@
     <message>
         <location filename="../configdialog.ui" line="152"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"/>
+        <translation>YouTube サポート アプリケーション</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="237"/>
@@ -410,12 +410,12 @@
     <message>
         <location filename="../configdialog.cpp" line="460"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"/>
+        <translation>yt-dlp (youtube-dl の改良版)</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="478"/>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation>その他</translation>
     </message>
 </context>
 <context>

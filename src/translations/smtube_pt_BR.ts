@@ -261,7 +261,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="232"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"/>
+        <translation>Para reproduzir vídeos do YouTube, %1 precisa de um programa externo.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="233"/>
@@ -271,7 +271,7 @@
     <message>
         <location filename="../codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"/>
+        <translation>O programa será descarregado do site oficial e instalado como %1.</translation>
     </message>
     <message>
         <location filename="../codedownloader.cpp" line="235"/>
@@ -350,7 +350,7 @@
     <message>
         <location filename="../configdialog.ui" line="152"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"/>
+        <translation>Programa para suporte a YouTube</translation>
     </message>
     <message>
         <location filename="../configdialog.ui" line="237"/>
@@ -410,12 +410,12 @@
     <message>
         <location filename="../configdialog.cpp" line="460"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"/>
+        <translation>yt-dlp (baseado no youtube-dl mas com diversas melhorias)</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="478"/>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation>Outros</translation>
     </message>
 </context>
 <context>

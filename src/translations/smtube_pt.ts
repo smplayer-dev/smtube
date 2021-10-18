@@ -49,7 +49,7 @@
     <message>
         <location filename="../about.cpp" line="87"/>
         <source>Many people contributed with translations.</source>
-        <translation>Diversas pessoas contribuiram com traduções.</translation>
+        <translation>Diversas pessoas contribuíram com traduções.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="88"/>
@@ -410,7 +410,7 @@
     <message>
         <location filename="../configdialog.cpp" line="460"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation>yt-dlp (baseado no youtube-dl com melhorias)</translation>
+        <translation>yt-dlp (baseado em youtube-dl mas com melhorias)</translation>
     </message>
     <message>
         <location filename="../configdialog.cpp" line="478"/>
