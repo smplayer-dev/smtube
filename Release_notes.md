@@ -1,5 +1,9 @@
 # Changelog
 
+## [21.10]
+ * Possibility to use yt-dlp instead of youtube-dl.
+ * yt-dlp is used now by default.
+
 ## [21.7]
  *  Possibility to use some invidious sites.
 ### Windows
