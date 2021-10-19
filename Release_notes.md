@@ -1,6 +1,6 @@
 # Changelog
 
-## [21.7.1117]
+## [21.7.0.1119]
  * Possibility to use yt-dlp instead of youtube-dl.
  * yt-dlp is used now by default.
 
