@@ -2,7 +2,7 @@
 # deb packages at build.opensuse.org
 
 PACKAGE = smtube
-VERSION = 21.7.0
+VERSION = 21.10.0
 #DEPENDS = debhelper (>= 5.0.0), qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, libqt5webkit5-dev, qt5-default | nano
 DEPENDS = debhelper (>= 5.0.0), libqt4-dev, libqtwebkit-dev
 

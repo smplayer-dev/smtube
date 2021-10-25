@@ -1,3 +1,10 @@
+smtube (21.10.0) xenial; urgency=medium
+
+  * Possibility to use yt-dlp instead of youtube-dl.
+  * yt-dlp is used now by default.
+
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 25 Oct 2021 15:46:29 +0200
+
 smtube (21.7.0) xenial; urgency=medium
 
   * Possibility to use some invidious sites.

@@ -1,6 +1,6 @@
 # Changelog
 
-## [21.10] - 2021-10-??
+## [21.10] - 2021-10-25
  * Possibility to use yt-dlp instead of youtube-dl.
  * yt-dlp is used now by default.
 

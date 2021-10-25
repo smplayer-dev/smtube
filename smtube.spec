@@ -3,7 +3,7 @@
 %endif
 
 Name:           smtube
-Version:        21.7.0
+Version:        21.10.0
 Release:        1%{?dist}
 Summary:        YouTube browser for SMPlayer
 
