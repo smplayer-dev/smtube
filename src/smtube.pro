@@ -45,7 +45,7 @@ greaterThan(QT_MAJOR_VERSION, 4):greaterThan(QT_MINOR_VERSION, 3) {
 }
 
 isEqual(QT_MAJOR_VERSION, 5) {
-	QT += webkitwidgets widgets gui
+	QT += webenginewidgets widgets gui
 } else {
 	QT += webkit
 }

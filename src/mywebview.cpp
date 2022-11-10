@@ -18,16 +18,16 @@
 
 #include "mywebview.h"
 #include <QContextMenuEvent>
-#include <QWebHitTestResult>
+//#include <QWebHitTestResult>
+#include <QWebEngineContextMenuData>
 #include <QMenu>
 #include <QDesktopServices>
-#include <QWebElement>
 #include <QDebug>
 
 #include "supportedurls.h"
 
 MyWebView::MyWebView(QWidget * parent)
-	:QWebView(parent)
+	:QWebEngineView(parent)
 	,context_menu(0)
 #ifdef USE_PLAYERS
 	,video_menu(0)
@@ -40,30 +40,29 @@ MyWebView::MyWebView(QWidget * parent)
 
 void MyWebView::contextMenuEvent(QContextMenuEvent* event) {
 	qDebug("MyWebView::contextMenuEvent");
-	QWebHitTestResult hit_test = page()->mainFrame()->hitTestContent(event->pos());
-	QUrl url = hit_test.linkUrl();
+	QUrl url = page()->contextMenuData().linkUrl();
 	qDebug() << "MyWebView::contextMenuEvent: url:" << url.toString();
 
 	// Translate and adjust some actions
-	pageAction(QWebPage::DownloadLinkToDisk)->setText(tr("&Save link..."));
-	pageAction(QWebPage::DownloadLinkToDisk)->setEnabled(false);
-	pageAction(QWebPage::DownloadLinkToDisk)->setVisible(false);
-	pageAction(QWebPage::CopyLinkToClipboard)->setText(tr("Copy &link to clipboard"));
-	pageAction(QWebPage::OpenLink)->setText(tr("Open link in this window"));
-	pageAction(QWebPage::OpenLink)->setVisible(false);
-	pageAction(QWebPage::Copy)->setText(tr("&Copy text to clipboard"));
-	pageAction(QWebPage::OpenLinkInNewWindow)->setText(tr("Open link in &new window"));
-	pageAction(QWebPage::OpenLinkInNewWindow)->setVisible(false);
+	pageAction(QWebEnginePage::DownloadLinkToDisk)->setText(tr("&Save link..."));
+	pageAction(QWebEnginePage::DownloadLinkToDisk)->setEnabled(false);
+	pageAction(QWebEnginePage::DownloadLinkToDisk)->setVisible(false);
+	pageAction(QWebEnginePage::CopyLinkToClipboard)->setText(tr("Copy &link to clipboard"));
+	pageAction(QWebEnginePage::OpenLinkInThisWindow)->setText(tr("Open link in this window"));
+	pageAction(QWebEnginePage::OpenLinkInThisWindow)->setVisible(false);
+	pageAction(QWebEnginePage::Copy)->setText(tr("&Copy text to clipboard"));
+	pageAction(QWebEnginePage::OpenLinkInNewWindow)->setText(tr("Open link in &new window"));
+	pageAction(QWebEnginePage::OpenLinkInNewWindow)->setVisible(false);
 
 	if (url.isEmpty()) {
-		QWebView::contextMenuEvent(event);
+		QWebEngineView::contextMenuEvent(event);
 	} else {
 		int site_type = SupportedUrls::site(url.toString());
 		if (site_type != SupportedUrls::Unsupported) {
 			createContextMenu(site_type, url);
 			context_menu->exec(mapToGlobal(QPoint(event->x(),event->y())));
 		} else {
-			QWebView::contextMenuEvent(event);
+			QWebEngineView::contextMenuEvent(event);
 		}
 	}
 }
@@ -158,9 +157,9 @@ void MyWebView::createContextMenu(int site_id, const QUrl & url) {
 
 	context_menu->addSeparator();
 
-	QAction *copy_link = pageAction(QWebPage::CopyLinkToClipboard);
-	QAction *open_link = pageAction(QWebPage::OpenLink);
-	QAction *copy_text = pageAction(QWebPage::Copy);
+	QAction *copy_link = pageAction(QWebEnginePage::CopyLinkToClipboard);
+	QAction *open_link = pageAction(QWebEnginePage::OpenLinkInThisWindow);
+	QAction *copy_text = pageAction(QWebEnginePage::Copy);
 
 	openLinkInExternalBrowserAct->setData(url.toString());
 
@@ -215,11 +214,11 @@ void MyWebView::openLinkInExternalBrowser() {
 	QDesktopServices::openUrl(url);
 }
 
-QWebView * MyWebView::createWindow(QWebPage::WebWindowType type) {
+QWebEngineView * MyWebView::createWindow(QWebEnginePage::WebWindowType type) {
 	Q_UNUSED(type);
 	qDebug() << "MyWebView::createWindow";
-	QWebHitTestResult result = page()->mainFrame()->hitTestContent(last_click);
-	QUrl url = result.linkUrl();
+//	QWebHitTestResult result = page()->hitTestContent(last_click);
+	QUrl url = page()->contextMenuData().linkUrl();
 	qDebug() << "MyWebView::createWindow: url:" << url.toString();
 
 	if (!url.isEmpty()) {
@@ -233,13 +232,13 @@ void MyWebView::mousePressEvent(QMouseEvent * event) {
 	//qDebug() << "MyWebView::mousePressEvent";
 	last_click = event->pos();
 	if (event->button() == Qt::LeftButton) {
-		QWebHitTestResult result = page()->mainFrame()->hitTestContent(event->pos());
-		last_clicked_url = result.linkUrl();
-		last_clicked_target = result.linkElement().attribute("target", "");
+//		QWebHitTestResult result = page()->hitTestContent(event->pos());
+		last_clicked_url = page()->contextMenuData().linkUrl();
+//		last_clicked_target = contextMenuData.linkElement().attribute("target", "");
 		qDebug() << "MyWebView::mousePressEvent: link:" << last_clicked_url.toString();
 		qDebug() << "MyWebView::mousePressEvent: target:" << last_clicked_target;
 	}
-	QWebView::mousePressEvent(event);
+	QWebEngineView::mousePressEvent(event);
 }
 
 #include "moc_mywebview.cpp"

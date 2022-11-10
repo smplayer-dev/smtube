@@ -19,7 +19,7 @@
 #ifndef MYWEBVIEW_H
 #define MYWEBVIEW_H
 
-#include <QWebView>
+#include <QWebEngineView>
 
 #ifdef USE_PLAYERS
 #include "players.h"
@@ -28,7 +28,7 @@
 class QMenu;
 class QAction;
 
-class MyWebView : public QWebView
+class MyWebView : public QWebEngineView
 {
 	Q_OBJECT
 
@@ -64,7 +64,7 @@ protected:
 	void createContextMenu(int site_id, const QUrl & url);
 	void contextMenuEvent(QContextMenuEvent* event);
 
-	QWebView *createWindow(QWebPage::WebWindowType type);
+	QWebEngineView *createWindow(QWebEnginePage::WebWindowType type);
 	void mousePressEvent(QMouseEvent * event);
 
 private:

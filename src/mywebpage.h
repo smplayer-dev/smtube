@@ -19,14 +19,14 @@
 #ifndef MYWEBPAGE_H
 #define MYWEBPAGE_H
 
-#include <QWebPage>
+#include <QWebEnginePage>
 
-class MyWebPage : public QWebPage
+class MyWebPage : public QWebEnginePage
 {
 	Q_OBJECT
 
 public:
-	MyWebPage(QObject * parent = 0) : QWebPage(parent) {};
+    MyWebPage(QObject * parent = 0) : QWebEnginePage(parent) {};
 
 protected:
 	virtual QString userAgentForUrl(const QUrl& url) const;

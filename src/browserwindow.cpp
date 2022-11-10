@@ -28,7 +28,7 @@
 #include <QMessageBox>
 #include <QTimer>
 #include <QDesktopServices>
-#include <QWebFrame>
+#include <QWebEngineSettings>
 #include <QApplication>
 #include <QDir>
 
@@ -116,7 +116,7 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 #endif
 
 	view->setPage(page);
-	view->page()->setLinkDelegationPolicy(QWebPage::DelegateAllLinks);
+//	view->page()->setLinkDelegationPolicy(QWebEnginePage::DelegateAllLinks);
 
 #if QT_VERSION >= 0x050000
 	//MyScroller::setScroller(view);
@@ -140,10 +140,10 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 
 	toolbar = addToolBar(tr("Navigation"));
 	toolbar->addAction(loadHomePageAct);
-	toolbar->addAction(view->pageAction(QWebPage::Back));
-	toolbar->addAction(view->pageAction(QWebPage::Forward));
-	toolbar->addAction(view->pageAction(QWebPage::Reload));
-	toolbar->addAction(view->pageAction(QWebPage::Stop));
+	toolbar->addAction(view->pageAction(QWebEnginePage::Back));
+	toolbar->addAction(view->pageAction(QWebEnginePage::Forward));
+	toolbar->addAction(view->pageAction(QWebEnginePage::Reload));
+	toolbar->addAction(view->pageAction(QWebEnginePage::Stop));
 	toolbar->addWidget(location);
 
 	QAction * incFontAct = new QAction(tr("Zoom +"), this);
@@ -159,10 +159,10 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 
 	QMenu * browseMenu = menuBar()->addMenu(tr("&Navigation"));
 	browseMenu->addAction(loadHomePageAct);
-	browseMenu->addAction(view->pageAction(QWebPage::Back));
-	browseMenu->addAction(view->pageAction(QWebPage::Forward));
-	browseMenu->addAction(view->pageAction(QWebPage::Reload));
-	browseMenu->addAction(view->pageAction(QWebPage::Stop));
+	browseMenu->addAction(view->pageAction(QWebEnginePage::Back));
+	browseMenu->addAction(view->pageAction(QWebEnginePage::Forward));
+	browseMenu->addAction(view->pageAction(QWebEnginePage::Reload));
+	browseMenu->addAction(view->pageAction(QWebEnginePage::Stop));
 	browseMenu->addSeparator();
 	browseMenu->addAction(incFontAct);
 	browseMenu->addAction(decFontAct);
@@ -220,8 +220,8 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 	loadConfig();
 
 	if (use_cookies) {
-		MyCookieJar * jar = new MyCookieJar(config_path + "/cookies.ini");
-		view->page()->networkAccessManager()->setCookieJar(jar);
+//		MyCookieJar * jar = new MyCookieJar(config_path + "/cookies.ini");
+//		view->page()->networkAccessManager()->setCookieJar(jar);
 	}
 
 #ifndef USE_QPROCESS
@@ -254,13 +254,13 @@ void BrowserWindow::viewStatusbar(bool b) {
 }
 
 void BrowserWindow::incZoom() {
-	qreal z = view->page()->mainFrame()->zoomFactor();
-	view->page()->mainFrame()->setZoomFactor(z + 0.1);
+	qreal z = view->page()->zoomFactor();
+	view->page()->setZoomFactor(z + 0.1);
 }
 
 void BrowserWindow::decZoom() {
-	qreal z = view->page()->mainFrame()->zoomFactor();
-	view->page()->mainFrame()->setZoomFactor(z - 0.1);
+	qreal z = view->page()->zoomFactor();
+	view->page()->setZoomFactor(z - 0.1);
 }
 
 void BrowserWindow::loadUrl(const QUrl & url) {
@@ -729,15 +729,14 @@ void BrowserWindow::saveConfig() {
 	settings->endGroup();
 
 	settings->beginGroup("browser");
-	QWebSettings * ws = view->page()->settings();
-	settings->setValue("plugins", ws->testAttribute(QWebSettings::PluginsEnabled));
-	settings->setValue("javascript", ws->testAttribute(QWebSettings::JavascriptEnabled));
-	settings->setValue("java", ws->testAttribute(QWebSettings::JavaEnabled));
-	settings->setValue("images", ws->testAttribute(QWebSettings::AutoLoadImages));
-	settings->setValue("developer_extras", ws->testAttribute(QWebSettings::DeveloperExtrasEnabled));
+	QWebEngineSettings * ws = view->page()->settings();
+	settings->setValue("plugins", ws->testAttribute(QWebEngineSettings::PluginsEnabled));
+	settings->setValue("javascript", ws->testAttribute(QWebEngineSettings::JavascriptEnabled));
+	settings->setValue("images", ws->testAttribute(QWebEngineSettings::AutoLoadImages));
+//	settings->setValue("developer_extras", ws->testAttribute(QWebEngineSettings::DeveloperExtrasEnabled));
 	settings->setValue("use_cookies", use_cookies);
-	settings->setValue("minimum_font_size", ws->fontSize(QWebSettings::MinimumFontSize));
-	settings->setValue("zoom", view->page()->mainFrame()->zoomFactor());
+	settings->setValue("minimum_font_size", ws->fontSize(QWebEngineSettings::MinimumFontSize));
+	settings->setValue("zoom", view->page()->zoomFactor());
 	settings->endGroup();
 
 #ifdef USE_YT_DL
@@ -806,23 +805,22 @@ void BrowserWindow::loadConfig() {
 	settings->endGroup();
 
 	settings->beginGroup("browser");
-	QWebSettings * ws = view->page()->settings();
-	ws->setAttribute(QWebSettings::PluginsEnabled, settings->value("plugins", false).toBool());
-	ws->setAttribute(QWebSettings::JavascriptEnabled, settings->value("javascript", true).toBool());
-	ws->setAttribute(QWebSettings::JavaEnabled, settings->value("java", false).toBool());
-	ws->setAttribute(QWebSettings::AutoLoadImages, settings->value("images", true).toBool());
-	ws->setAttribute(QWebSettings::DeveloperExtrasEnabled, settings->value("developer_extras", false).toBool());
+	QWebEngineSettings * ws = view->page()->settings();
+	ws->setAttribute(QWebEngineSettings::PluginsEnabled, settings->value("plugins", false).toBool());
+	ws->setAttribute(QWebEngineSettings::JavascriptEnabled, settings->value("javascript", true).toBool());
+	ws->setAttribute(QWebEngineSettings::AutoLoadImages, settings->value("images", true).toBool());
+//	ws->setAttribute(QWebEngineSettings::DeveloperExtrasEnabled, settings->value("developer_extras", false).toBool());
 	#ifndef PORTABLE_APP
 	bool use_cache = settings->value("use_cache", true).toBool();
 	#endif
 	use_cookies = settings->value("use_cookies", use_cookies).toBool();
 
-	int current_font_size = ws->fontSize(QWebSettings::MinimumFontSize);
+	int current_font_size = ws->fontSize(QWebEngineSettings::MinimumFontSize);
 	int minimum_font_size = settings->value("minimum_font_size", current_font_size).toInt();
-	ws->setFontSize(QWebSettings::MinimumFontSize, minimum_font_size);
+	ws->setFontSize(QWebEngineSettings::MinimumFontSize, minimum_font_size);
 
 	qreal zoom = settings->value("zoom", 1).toReal();
-	view->page()->mainFrame()->setZoomFactor(zoom);
+	view->page()->setZoomFactor(zoom);
 
 	settings->endGroup();
 
@@ -843,7 +841,7 @@ void BrowserWindow::loadConfig() {
 		QString cache_path = QDesktopServices::storageLocation(QDesktopServices::CacheLocation);
 		#endif
 		qDebug() << "BrowserWindow::loadConfig: cache enabled. Location:" << cache_path;
-		QWebSettings::enablePersistentStorage(cache_path);
+//		QWebEngineSettings::enablePersistentStorage(cache_path);
 	}
 	#endif
 
