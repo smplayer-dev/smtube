@@ -116,7 +116,6 @@ BrowserWindow::BrowserWindow(const QString & config_path, QWidget * parent, Qt::
 #endif
 
 	view->setPage(page);
-//	view->page()->setLinkDelegationPolicy(QWebEnginePage::DelegateAllLinks);
 
 #if QT_VERSION >= 0x050000
 	//MyScroller::setScroller(view);

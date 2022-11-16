@@ -26,11 +26,12 @@ class MyWebPage : public QWebEnginePage
 	Q_OBJECT
 
 public:
-    MyWebPage(QObject * parent = 0) : QWebEnginePage(parent) {};
+	MyWebPage(QObject * parent = 0) : QWebEnginePage(parent) {};
 
 protected:
 	virtual QString userAgentForUrl(const QUrl& url) const;
-	virtual void javaScriptConsoleMessage(const QString & message, int lineNumber, const QString & sourceID);
+	virtual void javaScriptConsoleMessage(JavaScriptConsoleMessageLevel level, const QString & message, int lineNumber, const QString & sourceID);
+	virtual bool acceptNavigationRequest(const QUrl& url, NavigationType type, bool isMainFrame);
 };
 
 #endif

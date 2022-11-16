@@ -33,8 +33,15 @@ QString MyWebPage::userAgentForUrl(const QUrl& url) const {
 #endif
 }
 
-void MyWebPage::javaScriptConsoleMessage(const QString & message, int lineNumber, const QString & sourceID) {
+void MyWebPage::javaScriptConsoleMessage(JavaScriptConsoleMessageLevel level, const QString & message, int lineNumber, const QString & sourceID) {
+	Q_UNUSED(level);
 	qDebug() << "source:" << sourceID << "line:" << lineNumber << ":" << message;
+}
+
+bool MyWebPage::acceptNavigationRequest(const QUrl& url, NavigationType type, bool isMainFrame) {
+	Q_UNUSED(url);
+	Q_UNUSED(isMainFrame);
+	return type != QWebEnginePage::NavigationTypeLinkClicked;
 }
 
 #include "moc_mywebpage.cpp"
