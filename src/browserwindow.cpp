@@ -28,6 +28,7 @@
 #include <QMessageBox>
 #include <QTimer>
 #include <QDesktopServices>
+#include <QWebEngineProfile>
 #include <QWebEngineSettings>
 #include <QApplication>
 #include <QDir>
@@ -840,7 +841,9 @@ void BrowserWindow::loadConfig() {
 		QString cache_path = QDesktopServices::storageLocation(QDesktopServices::CacheLocation);
 		#endif
 		qDebug() << "BrowserWindow::loadConfig: cache enabled. Location:" << cache_path;
-//		QWebEngineSettings::enablePersistentStorage(cache_path);
+		QWebEngineProfile* defaultProfile = QWebEngineProfile::defaultProfile();
+		defaultProfile->setCachePath(cache_path);
+		defaultProfile->setPersistentStoragePath(cache_path);
 	}
 	#endif
 
